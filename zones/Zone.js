@@ -1,3 +1,5 @@
+var Constants = require("../Constants");
+
 function Zone(zoneType, ownership, owner) {
 	this._objects = [];
 	this._zoneType = zoneType;

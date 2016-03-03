@@ -1,6 +1,6 @@
 var _ = require("underscore");
 var Zone = require("./Zone");
-var Constants = require("./Constants");
+var Constants = require ("../Constants");
 
 function Graveyard() {
 	Zone.call(this, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.PLAYER);

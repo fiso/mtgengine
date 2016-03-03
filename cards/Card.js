@@ -1,4 +1,4 @@
-var Constants = require("./Constants");
+var Constants = require("../Constants");
 
 function Card(name, superTypes, types, subTypes) {
 	this._name = name;

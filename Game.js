@@ -1,7 +1,7 @@
 var Player = require("./Player");
 var Constants = require("./Constants");
 var _ = require("underscore");
-var Battlefield = require("./Battlefield");
+var Battlefield = require("./zones/Battlefield");
 
 var GameOver = function (winner) {
 	this.winner = winner;

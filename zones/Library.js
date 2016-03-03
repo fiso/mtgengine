@@ -1,7 +1,7 @@
 var _ = require("underscore");
 var Zone = require("./Zone");
-var Card = require("./Card");
-var Constants = require("./Constants");
+var Constants = require ("../Constants");
+var Card = require("../cards/Card");
 
 function Library() {
 	Zone.call(this, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER);

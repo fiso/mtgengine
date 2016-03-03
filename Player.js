@@ -1,6 +1,6 @@
-var Library = require("./Library");
-var Graveyard = require("./Graveyard");
-var Hand = require("./Hand");
+var Library = require("./zones/Library");
+var Graveyard = require("./zones/Graveyard");
+var Hand = require("./zones/Hand");
 var Permanent = require("./Permanent");
 
 function Player(id, game) {
