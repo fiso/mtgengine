@@ -7,7 +7,30 @@ function Battlefield() {
 }
 
 _.extend(Battlefield.prototype, Zone.prototype, {
-	constructor: Battlefield
+	constructor: Battlefield,
+
+	performStateBasedActions: function () {
+		var actionsPerformed = 0;
+		this._objects.forEach(function (permanent) {
+			if (permanent.isCreature()) {
+				if (permanent.hasLethalDamage()) {
+					// FIXME: Dies
+					actionsPerformed++;
+				}
+			}
+		}.bind(this));
+
+		return actionsPerformed;
+	},
+
+	onCleanup: function () {
+		var actionsPerformed = 0;
+		this._objects.forEach(function (permanent) {
+			permanent.onCleanup();
+		}.bind(this));
+
+		return actionsPerformed;
+	}
 });
 
 module.exports = Battlefield;

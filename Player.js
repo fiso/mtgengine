@@ -31,6 +31,19 @@ Player.prototype = {
 		}
 	},
 
+	onCleanup: function (activePlayer) {
+		if (activePlayer) {
+			var cardsDiscarded = 0;
+			while (this.getHand().getNumberOfObjects() > this.getMaximumHandSize()) {
+				var card = this.discardCard();
+				cardsDiscarded += card ? 1 : 0;
+			}
+			if (cardsDiscarded > 0) {
+				this._game.log("Active player discarded " + cardsDiscarded + " cards");
+			}
+		}
+	},
+
 	damage: function (amount, sourceId) {
 		this._life -= amount;
 		this._game.log(this._id + " takes " + amount + " damage from " + sourceId + ". Life total: " + this._life);

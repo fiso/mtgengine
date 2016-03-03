@@ -104,6 +104,9 @@ Game.prototype = {
 			this.log("\n>>>>>>>>>>>>>> TURN " + this._turnNumber + " <<<<<<<<<<<<<<")
 			this._activePlayer = this.getNextPlayer(this._activePlayer);
 			this._currentStep = Constants.steps.UNTAP;
+			this._players.forEach(function (player) {
+				player.onNewTurn();
+			});
 		}
 		this._hasPriority = this._activePlayer;
 
@@ -150,7 +153,6 @@ Game.prototype = {
 	 * @returns {number} Number of actions taken
 	 */
 	performStateBasedActions: function () {
-		var actions = 0;
 
 		var playersStillInGame = [];
 		this._players.forEach(function (player) {
@@ -165,7 +167,10 @@ Game.prototype = {
 			this.handleGameDrawn();
 		}
 
-		return actions;
+		var actionsPerformed = 0;
+		actionsPerformed += this._battlefield.performStateBasedActions();
+
+		return actionsPerformed;
 	},
 
 	handleGameWon: function (winner) {
@@ -184,13 +189,13 @@ Game.prototype = {
 				this._activePlayer.drawCard();
 				break
 			case Constants.steps.CLEANUP:
-				var cardsDiscarded = 0;
-				while (this._activePlayer.getHand().getNumberOfObjects() > this._activePlayer.getMaximumHandSize()) {
-					var card = this._activePlayer.discardCard();
-					cardsDiscarded += card ? 1 : 0;
-				}
-				if (cardsDiscarded > 0) {
-					this.log("Active player discarded " + cardsDiscarded + " cards");
+				this._players.forEach(function (player) {
+					player.onCleanup(player === this._activePlayer);
+				}.bind(this));
+
+				var actionsPerformed = -1;
+				while (actionsPerformed !== 0) {
+					actionsPerformed = this._battlefield.onCleanup();
 				}
 				break;
 		}
