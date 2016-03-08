@@ -9,6 +9,7 @@ function Card(game, name, superTypes, types, subTypes) {
 	this._types = types ? types.slice() : [];
 	this._subTypes = subTypes ? subTypes.slice() : [];
 	this._guid = game.getGuid("card");
+	this._zone = undefined;
 }
 
 Card.prototype = {
@@ -30,6 +31,14 @@ Card.prototype = {
 
 	resolve: function () {
 		this._game.log("Card resolves");
+	},
+
+	placeInZone: function (zone) {
+		this._zone = zone;
+	},
+
+	getCurrentZone: function () {
+		return this._zone;
 	}
 };
 

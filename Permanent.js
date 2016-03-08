@@ -16,6 +16,8 @@ function Permanent(game, owner, controller, card) {
 	this._power = undefined;
 	this._toughness = undefined;
 	this._damage = 0;
+
+	this._game._battlefield.addObject(this);
 }
 
 Permanent.prototype = {

@@ -232,7 +232,8 @@ Player.prototype = {
 	},
 
 	castSpell: function (card, targets) {
-		var card = this._hand.removeObject(card);
+		var zone = card.getCurrentZone();
+		var card = zone.removeObject(card);
 		Utils.assert(card);
 
 		var spell = new Spell(this._game, this, card, targets);

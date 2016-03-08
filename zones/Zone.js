@@ -17,6 +17,9 @@ Zone.prototype = {
 
 	addObject: function (object) {
 		this._objects.push(object);
+		if (object.placeInZone) {
+			object.placeInZone(this);
+		}
 	},
 
 	getNumberOfObjects: function () {
@@ -31,6 +34,9 @@ Zone.prototype = {
 		var index = this._objects.indexOf(object);
 		if (index === -1) {
 			return null;
+		}
+		if (object.placeInZone) {
+			object.placeInZone(null);
 		}
 
 		return this._objects.splice(index, 1)[0];

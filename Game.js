@@ -57,8 +57,6 @@ Game.prototype = {
 
 	passPriority: function (player) {
 		this.log(player._guid + " passes priority");
-		while (this.performStateBasedActions() > 0) {
-		}
 
 		this._priorityPassers.push(player._guid);
 
@@ -217,6 +215,9 @@ Game.prototype = {
 	 * Handles incoming input from players
 	 */
 	handleInput: function (player, input, data) {
+		while (this.performStateBasedActions() > 0) {
+		}
+
 		this.log(">> " + player._guid + " " + input);
 		switch(input) {
 			case Inputs.PASS_PRIORITY:
