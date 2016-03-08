@@ -1,7 +1,11 @@
 var Player = require("./Player");
 var Constants = require("./Constants");
+var Events = require("./Events");
+var Inputs = require("./Inputs");
+var Outputs = require("./Outputs");
 var _ = require("underscore");
 var Battlefield = require("./zones/Battlefield");
+var Stack = require("./zones/Stack");
 
 var GameOver = function (winner) {
 	this.winner = winner;
@@ -11,19 +15,25 @@ function Game(numberOfPlayers, startingPlayerIndex) {
 	this._turnNumber = 0;
 	this._players = [];
 	this._currentStep = -1;
-	this._stack = [];
 	this._hasPriority = null;
 	this._activePlayer = null;
-	this._battlefield = new Battlefield();
+	this._battlefield = new Battlefield(this);
+	this._stack = new Stack(this);
+	this._guidCounter = 0;
+
+	this._eventListeners = {};
 
 	for (var i = 0; i < numberOfPlayers; i++) {
-		var player = new Player("player_" + String(i), this);
+		var player = new Player(this);
 		this._players.push(player);
 	}
 
 	this._activePlayer = this._players[startingPlayerIndex];
 
 	this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
+	this._players.forEach(function (player) {
+		player.onNewTurn(player === this._activePlayer);
+	}.bind(this));
 	this.advanceToNextStep();
 }
 
@@ -33,48 +43,28 @@ Game.prototype = {
 		console.log(str);
 	},
 
+	logCurrentGameTime: function () {
+		this.log("== It is now the " + Constants.stepNames[this._currentStep] + " step ==");
+	},
+
+	getGuid: function (prefix) {
+		return (prefix || "o_") + String(this._guidCounter++);
+	},
+
 	resetProrityPassers: function () {
 		this._priorityPassers = [];
 	},
 
-	/**
-	 * Handles incoming input from players
-	 */
-	handleInput: function (player, input, data) {
-		this.log(">> " + player._id + " " + input);
-		switch(input) {
-			case Constants.inputs.PASS_PRIORITY:
-				this.passPriority(player);
-				break;
-			case Constants.inputs.CONCEDE:
-				player.concede();
-				this.passPriority(player);
-				break;
-			case Constants.inputs.PLAY_LAND:
-				player.putLandIntoPlay(data.landCard, true);
-				break;
-		}
-	},
-
-	tick: function () {
-		if (this.playersShouldReceivePriority(this._currentStep)) {
-			var input = this._hasPriority.getInput();
-			if (input) {
-				this.handleInput(this._hasPriority, input.input, input.data);
-			}	
-		}
-	},
-
 	passPriority: function (player) {
-		this.log(player._id + " passes priority");
+		this.log(player._guid + " passes priority");
 		while (this.performStateBasedActions() > 0) {
 		}
 
-		this._priorityPassers.push(player._id);
+		this._priorityPassers.push(player._guid);
 
 		var allPassed = true;
 		this._players.forEach(function (player) {
-			if (this._priorityPassers.indexOf(player._id) === -1) {
+			if (this._priorityPassers.indexOf(player._guid) === -1) {
 				allPassed = false;
 			}
 		}.bind(this));
@@ -88,7 +78,12 @@ Game.prototype = {
 
 	handleAllPassed: function () {
 		this.log("All players passed priority");
-		this.advanceToNextStep();
+
+		if (this._stack.empty()) {
+			this.advanceToNextStep();
+		} else {
+			// FIXME: Resolve next object on the stack
+		}
 	},
 
 	advanceToNextStep: function () {
@@ -105,8 +100,8 @@ Game.prototype = {
 			this._activePlayer = this.getNextPlayer(this._activePlayer);
 			this._currentStep = Constants.steps.UNTAP;
 			this._players.forEach(function (player) {
-				player.onNewTurn();
-			});
+				player.onNewTurn(player === this._activePlayer);
+			}.bind(this));
 		}
 		this._hasPriority = this._activePlayer;
 
@@ -120,10 +115,6 @@ Game.prototype = {
 		if (!this.playersShouldReceivePriority(this._currentStep)) {
 			this.advanceToNextStep();
 		}
-	},
-
-	logCurrentGameTime: function () {
-		this.log("== It is now the " + Constants.stepNames[this._currentStep] + " step ==");
 	},
 
 	getNextPlayer: function (currentPlayer) {
@@ -173,8 +164,21 @@ Game.prototype = {
 		return actionsPerformed;
 	},
 
+	performTurnbasedActions: function () {
+		this._players.forEach(function (player) {
+			player.performTurnbasedActions(
+				this._currentStep,
+				player === this._activePlayer);
+		}.bind(this));
+
+		if (this._currentStep === Constants.steps.CLEANUP) {
+			while (this._battlefield.onCleanup() !== 0) {
+			}
+		}
+	},
+
 	handleGameWon: function (winner) {
-		this.log(winner._id + " has won the game!");
+		this.log(winner._guid + " has won the game!");
 		throw new GameOver(winner);
 	},
 
@@ -183,30 +187,81 @@ Game.prototype = {
 		throw new GameOver(null);
 	},
 
-	performTurnbasedActions: function () {
-		switch (this._currentStep) {
-			case Constants.steps.DRAW:
-				this._activePlayer.drawCard();
-				break
-			case Constants.steps.CLEANUP:
-				this._players.forEach(function (player) {
-					player.onCleanup(player === this._activePlayer);
-				}.bind(this));
-
-				var actionsPerformed = -1;
-				while (actionsPerformed !== 0) {
-					actionsPerformed = this._battlefield.onCleanup();
-				}
-				break;
-		}
-	},
-
 	playersShouldReceivePriority: function (step) {
 		if ([Constants.steps.UNTAP, Constants.steps.CLEANUP].indexOf(step) === -1) {
 			return true;
 		}
 
 		return false;
+	},
+
+	tick: function () {
+		if (this.playersShouldReceivePriority(this._currentStep)) {
+			var input = this._hasPriority.getInput();
+			if (input) {
+				this.handleInput(this._hasPriority, input.input, input.data);
+			}	
+		}
+	},
+
+	isWaitingForInput: function () {
+		if (this.playersShouldReceivePriority(this._currentStep)) {
+			return !this._hasPriority.hasUnprocessedInputs();
+		}
+
+		return false;
+	},
+
+	/**
+	 * Handles incoming input from players
+	 */
+	handleInput: function (player, input, data) {
+		this.log(">> " + player._guid + " " + input);
+		switch(input) {
+			case Inputs.PASS_PRIORITY:
+				this.passPriority(player);
+				break;
+			case Inputs.CONCEDE:
+				player.concede();
+				this.passPriority(player);
+				break;
+			case Inputs.PLAY_LAND:
+				player.putLandIntoPlay(data.landCard, true);
+				break;
+		}
+	},
+
+	registerEventListener: function (listener, event) {
+		if (!this._eventListeners[event]) {
+			this._eventListeners[event] = [];
+		}
+
+		this._eventListeners[event].push(listener);
+	},
+
+	/**
+	 * Notifies any listeners that something is about to happen to the gamestate.
+	 * This may or may not actually allow the event to happen, as we first check for
+	 * any replacement effects to be applied.
+	 * @returns {boolean} True if the event may happen as normal, false if it was replaced
+	 */
+	emitEvent: function (event, data) {
+		if (!this._eventListeners[event]) {
+			return;
+		}
+
+		this._eventListeners[event].forEach(function (listener) {
+			listener.onEvent(event, data);
+		});
+
+		return true;
+	},
+
+	/**
+	 * Sends output from the game to the visualization
+	 */
+	addOutput: function (output, data) {
+
 	}
 };
 
@@ -215,13 +270,34 @@ function testGame () {
 		var game = new Game(2, 0);
 		var p0 = game._players[0];
 		var p1 = game._players[1];
-		for (var i = 0; i < 100000; i++) {
-			p0.addInput(Constants.inputs.PASS_PRIORITY, {});
-			p1.addInput(Constants.inputs.PASS_PRIORITY, {});
-		}
 
 		while (true) {
-			game.tick();
+			if (game.isWaitingForInput()) {
+				var player = game._hasPriority;
+				if (player === game._activePlayer) {
+					if (game._currentStep === Constants.steps.MAIN1 ||
+						game._currentStep === Constants.steps.MAIN2) {
+						if (game._stack.empty()) {
+							if (player._landPlaysRemaining > 0) {
+								var cardsInHand = player._hand.getObjects();
+								for (var i = 0; i < cardsInHand.length; i++) {
+									var cardInHand = cardsInHand[i];
+									if (cardInHand.isType(Constants.cardTypes.LAND)) {
+										player.addInput(Inputs.PLAY_LAND, {landCard: cardInHand});
+										break;
+									}
+								}
+							}
+						}
+					}
+				}				
+
+				if (!player.hasUnprocessedInputs()) {
+					player.addInput(Inputs.PASS_PRIORITY, {});
+				}
+			} else if (!game.isWaitingForInput()) {
+				game.tick();
+			}
 		}
 	} catch (e) {
 		if (e.constructor === GameOver) {

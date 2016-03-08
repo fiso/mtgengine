@@ -2,8 +2,8 @@ var _ = require("underscore");
 var Zone = require("./Zone");
 var Constants = require ("../Constants");
 
-function Battlefield() {
-	Zone.call(this, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED);
+function Battlefield(game) {
+	Zone.call(this, game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED);
 }
 
 _.extend(Battlefield.prototype, Zone.prototype, {
@@ -30,6 +30,28 @@ _.extend(Battlefield.prototype, Zone.prototype, {
 		}.bind(this));
 
 		return actionsPerformed;
+	},
+
+	getPermanentsControlledByPlayer: function (player) {
+		var permanents = [];
+		this._objects.forEach(function (permanent) {
+			if (permanent.isControlledBy(player)) {
+				permanents.push(permanent);
+			}
+		});
+
+		return permanents;
+	},
+
+	getPermanentsOwnedByPlayer: function (player) {
+		var permanents = [];
+		this._objects.forEach(function (permanent) {
+			if (permanent.isControlledBy(player)) {
+				permanents.push(permanent);
+			}
+		});
+
+		return permanents;
 	}
 });
 

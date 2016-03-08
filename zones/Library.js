@@ -2,13 +2,14 @@ var _ = require("underscore");
 var Zone = require("./Zone");
 var Constants = require ("../Constants");
 var Card = require("../cards/Card");
+var BasicMountain = require("../cards/BasicMountain");
 
-function Library() {
-	Zone.call(this, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER);
+function Library(game) {
+	Zone.call(this, game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER);
 
 	// DEBUG
 	for (var i = 0; i < 60; i++) {
-		this._objects.push(new Card());
+		this._objects.push(new BasicMountain(game));
 	}
 }
 

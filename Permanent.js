@@ -1,6 +1,11 @@
 var Constants = require("./Constants");
+var Utils = require("./Utils");
+var Events = require("./Events");
+var Outputs = require("./Outputs");
 
-function Permanent(owner, controller, card) {
+function Permanent(game, owner, controller, card) {
+	Utils.assert(game);
+	this._game = game;
 	this._tapState = Constants.tapStates.UNTAPPED;
 	this._flipState = Constants.flipStates.NORMAL;
 	this._transformState = Constants.transformState.NORMAL;
@@ -15,6 +20,14 @@ function Permanent(owner, controller, card) {
 }
 
 Permanent.prototype = {
+	isControlledBy: function (player) {
+		return this._controller === player;
+	},
+
+	isOwnedBy: function (player) {
+		return this._owner === player;
+	},
+
 	onCleanup: function () {
 		this._damage = 0;
 	},
@@ -51,6 +64,20 @@ Permanent.prototype = {
 
 	isControlledBy: function (player) {
 		return this._controller === player;
+	},
+
+	tap: function () {
+		if (this._game.emitEvent(Events.PERMANENT_TAPPED, {permanent: this})) {
+			this._tapState = Constants.tapStates.TAPPED;
+			this._game.addOutput(Outputs.PERMANENT_TAPPED, {permanent: this});
+		}
+	},
+
+	untap: function () {
+		if (this._game.emitEvent(Events.PERMANENT_UNTAPPED, {permanent: this})) {
+			this._tapState = Constants.tapStates.UNTAPPED;
+			this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});
+		}
 	}
 };
 

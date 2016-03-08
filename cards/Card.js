@@ -1,10 +1,14 @@
 var Constants = require("../Constants");
+var Utils = require("../Utils");
 
-function Card(name, superTypes, types, subTypes) {
+function Card(game, name, superTypes, types, subTypes) {
+	Utils.assert(game);
+	this._game = game;
 	this._name = name;
 	this._superTypes = superTypes ? superTypes.slice() : [];
 	this._types = types ? types.slice() : [];
 	this._subTypes = subTypes ? subTypes.slice() : [];
+	this._guid = game.getGuid("card");
 }
 
 Card.prototype = {
@@ -18,7 +22,12 @@ Card.prototype = {
 		}
 
 		return true;
-	}	
+	},
+
+	isType: function (type) {
+		return this._types.indexOf(type) !== -1;
+	}
+
 };
 
 module.exports = Card;
