@@ -10,8 +10,6 @@ function Card(game, name, superTypes, types, subTypes) {
 	this._superTypes = superTypes ? superTypes.slice() : [];
 	this._types = types ? types.slice() : [];
 	this._subTypes = subTypes ? subTypes.slice() : [];
-	this._guid = game.getGuid("card");
-	this._zone = undefined;
 }
 
 _.extend(Card.prototype, MTGObject.prototype, {
@@ -37,12 +35,8 @@ _.extend(Card.prototype, MTGObject.prototype, {
 		this._game.log("Card resolves");
 	},
 
-	placeInZone: function (zone) {
-		this._zone = zone;
-	},
-
-	getCurrentZone: function () {
-		return this._zone;
+	getCost: function () {
+		return {};
 	}
 });
 

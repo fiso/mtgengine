@@ -17,6 +17,12 @@ _.extend(LightningBolt.prototype, Card.prototype, {
 		this._game.log("Lightning Bolt resolves");
 		Utils.assert(targets.length === 1);
 		targets[0].damage(3, this._name);
+	},
+
+	getCost: function () {
+		var cost = {};
+		cost[Constants.manaCosts.RED] = 1;
+		return cost;
 	}
 });
 

@@ -99,6 +99,16 @@ var Constants = {
 		RED: "RED",
 		GREEN: "GREEN",
 		COLORLESS: "COLORLESS"
+	},
+
+	manaCosts: {
+		WHITE: "WHITE",
+		BLUE: "BLUE",
+		BLACK: "BLACK",
+		RED: "RED",
+		GREEN: "GREEN",
+		COLORLESS: "COLORLESS",
+		GENERIC: "GENERIC" 
 	}
 };
 

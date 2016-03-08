@@ -1,6 +1,7 @@
 var _ = require("underscore");
 var MTGObject = require("./MTGObject");
 var Utils = require("../Utils");
+var Constants = require("../Constants");
 
 function Spell(game, controller, card, targets) {
 	MTGObject.call(this, game);
@@ -17,7 +18,7 @@ _.extend(Spell.prototype, MTGObject.prototype, {
 	},
 
 	getCost: function () {
-		
+		return this._card.getCost();
 	}
 });
 
