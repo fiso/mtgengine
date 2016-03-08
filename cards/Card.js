@@ -26,8 +26,11 @@ Card.prototype = {
 
 	isType: function (type) {
 		return this._types.indexOf(type) !== -1;
-	}
+	},
 
+	resolve: function () {
+		this._game.log("Card resolves");
+	}
 };
 
 module.exports = Card;

@@ -13,9 +13,8 @@ function Permanent(game, owner, controller, card) {
 	this._owner = owner;
 	this._controller = controller;
 	this._card = card;
-	this._power = -1;
-	this._toughness = -1;
-
+	this._power = undefined;
+	this._toughness = undefined;
 	this._damage = 0;
 }
 

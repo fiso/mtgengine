@@ -2,6 +2,7 @@ var Library = require("./zones/Library");
 var Graveyard = require("./zones/Graveyard");
 var Hand = require("./zones/Hand");
 var Permanent = require("./Permanent");
+var Spell = require("./Spell");
 var Utils = require("./Utils");
 var Constants = require("./Constants");
 
@@ -228,6 +229,15 @@ Player.prototype = {
 		var permanent = new Permanent(this._game, this, this, landCard);
 		this._game._battlefield.addObject(permanent);
 		return permanent;
+	},
+
+	castSpell: function (card, targets) {
+		var card = this._hand.removeObject(card);
+		Utils.assert(card);
+
+		var spell = new Spell(this._game, this, card, targets);
+		this._game._stack.addObject(spell);
+		return spell;
 	}
 };
 

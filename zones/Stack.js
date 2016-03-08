@@ -7,7 +7,14 @@ function Stack(game) {
 }
 
 _.extend(Stack.prototype, Zone.prototype, {
-	constructor: Stack
+	constructor: Stack,
+
+	resolveTopObject: function () {
+		var object = this._objects.pop();
+		if (object) {
+			object.resolve();
+		}
+	}
 });
 
 module.exports = Stack;

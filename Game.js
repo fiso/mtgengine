@@ -83,6 +83,7 @@ Game.prototype = {
 			this.advanceToNextStep();
 		} else {
 			// FIXME: Resolve next object on the stack
+			this._stack.resolveTopObject();
 		}
 	},
 
@@ -228,6 +229,9 @@ Game.prototype = {
 			case Inputs.PLAY_LAND:
 				player.putLandIntoPlay(data.landCard, true);
 				break;
+			case Inputs.CAST_SPELL:
+				player.castSpell(data.card, data.targets);
+				break;
 		}
 	},
 
@@ -284,6 +288,19 @@ function testGame () {
 									var cardInHand = cardsInHand[i];
 									if (cardInHand.isType(Constants.cardTypes.LAND)) {
 										player.addInput(Inputs.PLAY_LAND, {landCard: cardInHand});
+										break;
+									}
+								}
+							} else {
+								var cardsInHand = player._hand.getObjects();
+								for (var i = 0; i < cardsInHand.length; i++) {
+									var cardInHand = cardsInHand[i];
+									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {
+										player.addInput(Inputs.CAST_SPELL, {
+											card: cardInHand,
+											targets: [game.getNextPlayer(player)]
+										});
+										player.addInput(Inputs.PASS_PRIORITY, {});
 										break;
 									}
 								}

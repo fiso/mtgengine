@@ -10,7 +10,7 @@ function BasicMountain(game) {
 }
 
 _.extend(BasicMountain.prototype, Card.prototype, {
-	constructor: BasicMountain,
+	constructor: BasicMountain
 });
 
 module.exports = BasicMountain;
