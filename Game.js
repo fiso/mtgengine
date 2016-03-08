@@ -315,7 +315,7 @@ function testGame () {
 			}
 		}
 	} catch (e) {
-		if (e.constructor === GameOver) {
+		if (e instanceof GameOver) {
 			console.log("Game over.");
 		} else {
 			throw e;

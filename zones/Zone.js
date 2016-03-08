@@ -1,5 +1,7 @@
 var Constants = require("../Constants");
 var Utils = require("../Utils");
+var MTGObject = require("../objects/MTGObject");
+var Card = require("../objects/Card");
 
 function Zone(game, zoneType, ownership, owner) {
 	Utils.assert(game);
@@ -17,9 +19,7 @@ Zone.prototype = {
 
 	addObject: function (object) {
 		this._objects.push(object);
-		if (object.placeInZone) {
-			object.placeInZone(this);
-		}
+		object.placeInZone(this);
 	},
 
 	getNumberOfObjects: function () {
@@ -35,9 +35,7 @@ Zone.prototype = {
 		if (index === -1) {
 			return null;
 		}
-		if (object.placeInZone) {
-			object.placeInZone(null);
-		}
+		object.placeInZone(null);
 
 		return this._objects.splice(index, 1)[0];
 	}
