@@ -219,6 +219,7 @@ Player.prototype = {
 	putLandIntoPlay: function (landCard, countsAsNormalLandPlay) {
 		if (countsAsNormalLandPlay) {
 			Utils.assert(this._landPlaysRemaining >= 1)
+			Utils.assert(this._game._stack.empty());
 
 			this._landPlaysRemaining--;
 		}
@@ -227,7 +228,6 @@ Player.prototype = {
 		Utils.assert(card);
 
 		var permanent = new Permanent(this._game, this, this, landCard);
-		this._game._battlefield.addObject(permanent);
 		return permanent;
 	},
 
