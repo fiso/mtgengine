@@ -13,6 +13,10 @@ function Spell(game, controller, card, targets) {
 Spell.prototype = {
 	resolve: function () {
 		this._card.resolve(this._targets);
+	},
+
+	getCost: function () {
+		
 	}
 };
 
