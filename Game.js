@@ -56,8 +56,6 @@ Game.prototype = {
 	},
 
 	passPriority: function (player) {
-		this.log(player._guid + " passes priority");
-
 		this._priorityPassers.push(player._guid);
 
 		var allPassed = true;
