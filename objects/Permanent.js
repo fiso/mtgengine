@@ -1,10 +1,12 @@
-var Constants = require("./Constants");
-var Utils = require("./Utils");
-var Events = require("./Events");
-var Outputs = require("./Outputs");
+var _ = require("underscore");
+var MTGObject = require("./MTGObject");
+var Constants = require("../Constants");
+var Utils = require("../Utils");
+var Events = require("../Events");
+var Outputs = require("../Outputs");
 
 function Permanent(game, owner, controller, card) {
-	Utils.assert(game);
+	MTGObject.call(this, game);
 	this._game = game;
 	this._tapState = Constants.tapStates.UNTAPPED;
 	this._flipState = Constants.flipStates.NORMAL;
@@ -20,7 +22,9 @@ function Permanent(game, owner, controller, card) {
 	this._game._battlefield.addObject(this);
 }
 
-Permanent.prototype = {
+_.extend(Permanent.prototype, MTGObject.prototype, {
+	constructor: Permanent,
+
 	isControlledBy: function (player) {
 		return this._controller === player;
 	},
@@ -81,6 +85,6 @@ Permanent.prototype = {
 			this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});
 		}
 	}
-};
+});
 
 module.exports = Permanent;

@@ -1,16 +1,17 @@
-var Constants = require("./Constants");
-var Utils = require("./Utils");
-var Events = require("./Events");
-var Outputs = require("./Outputs");
+var _ = require("underscore");
+var MTGObject = require("./MTGObject");
+var Utils = require("../Utils");
 
 function Spell(game, controller, card, targets) {
-	Utils.assert(game);
+	MTGObject.call(this, game);
 	this._controller = controller;
 	this._card = card;
 	this._targets = targets;
 }
 
-Spell.prototype = {
+_.extend(Spell.prototype, MTGObject.prototype, {
+	constructor: Spell,
+
 	resolve: function () {
 		this._card.resolve(this._targets);
 	},
@@ -18,6 +19,6 @@ Spell.prototype = {
 	getCost: function () {
 		
 	}
-};
+});
 
 module.exports = Spell;

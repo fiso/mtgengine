@@ -1,5 +1,5 @@
 var _ = require("underscore");
-var Card = require("./Card");
+var Card = require("../objects/Card");
 var Constants = require ("../Constants");
 
 function BasicMountain(game) {

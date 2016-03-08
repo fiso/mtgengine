@@ -1,8 +1,10 @@
+var _ = require("underscore");
+var MTGObject = require("./MTGObject");
 var Constants = require("../Constants");
 var Utils = require("../Utils");
 
 function Card(game, name, superTypes, types, subTypes) {
-	Utils.assert(game);
+	MTGObject.call(this, game);
 	this._game = game;
 	this._name = name;
 	this._superTypes = superTypes ? superTypes.slice() : [];
@@ -12,7 +14,9 @@ function Card(game, name, superTypes, types, subTypes) {
 	this._zone = undefined;
 }
 
-Card.prototype = {
+_.extend(Card.prototype, MTGObject.prototype, {
+	constructor: Card,
+
 	isBasicLand: function () {
 		if (this._superTypes.indexOf(Constants.cardSuperTypes.BASIC) === -1) {
 			return false;
@@ -40,6 +44,6 @@ Card.prototype = {
 	getCurrentZone: function () {
 		return this._zone;
 	}
-};
+});
 
 module.exports = Card;

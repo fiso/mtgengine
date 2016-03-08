@@ -1,7 +1,7 @@
 var _ = require("underscore");
 var Zone = require("./Zone");
 var Constants = require ("../Constants");
-var Card = require("../cards/Card");
+var Card = require("../objects/Card");
 
 var BasicMountain = require("../cards/BasicMountain");
 var LightningBolt = require("../cards/LightningBolt");

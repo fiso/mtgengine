@@ -1,8 +1,8 @@
 var Library = require("./zones/Library");
 var Graveyard = require("./zones/Graveyard");
 var Hand = require("./zones/Hand");
-var Permanent = require("./Permanent");
-var Spell = require("./Spell");
+var Permanent = require("./objects/Permanent");
+var Spell = require("./objects/Spell");
 var Utils = require("./Utils");
 var Constants = require("./Constants");
 
