@@ -80,7 +80,6 @@ Game.prototype = {
 		if (this._stack.empty()) {
 			this.advanceToNextStep();
 		} else {
-			// FIXME: Resolve next object on the stack
 			this._stack.resolveTopObject();
 		}
 	},
