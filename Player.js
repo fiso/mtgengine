@@ -18,6 +18,7 @@ function Player(game) {
 	this._graveyard = new Graveyard(game);
 	this._hand = new Hand(game);
 	this._landPlaysRemaining = 0;
+	this._manaPool = [];
 
 	for (var i = 0; i < 7; i++) {
 		this.drawCard();

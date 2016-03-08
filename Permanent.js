@@ -75,6 +75,7 @@ Permanent.prototype = {
 
 	untap: function () {
 		if (this._game.emitEvent(Events.PERMANENT_UNTAPPED, {permanent: this})) {
+			this._game.log("Untapping " + this._card._name);
 			this._tapState = Constants.tapStates.UNTAPPED;
 			this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});
 		}

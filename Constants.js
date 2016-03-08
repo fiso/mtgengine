@@ -90,6 +90,15 @@ var Constants = {
 		BLACK: "BLACK",
 		RED: "RED",
 		GREEN: "GREEN"
+	},
+
+	manaTypes: {
+		WHITE: "WHITE",
+		BLUE: "BLUE",
+		BLACK: "BLACK",
+		RED: "RED",
+		GREEN: "GREEN",
+		COLORLESS: "COLORLESS"
 	}
 };
 

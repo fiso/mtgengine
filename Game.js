@@ -247,7 +247,7 @@ Game.prototype = {
 	 */
 	emitEvent: function (event, data) {
 		if (!this._eventListeners[event]) {
-			return;
+			return true;
 		}
 
 		this._eventListeners[event].forEach(function (listener) {
