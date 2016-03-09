@@ -19,7 +19,7 @@ function Game(numberOfPlayers, startingPlayerIndex) {
 	this._activePlayer = null;
 	this._battlefield = new Battlefield(this);
 	this._stack = new Stack(this);
-	this._guidCounter = 0;
+	this._guidCounters = {};
 
 	this._eventListeners = {};
 
@@ -48,7 +48,13 @@ Game.prototype = {
 	},
 
 	getGuid: function (prefix) {
-		return (prefix || "o_") + String(this._guidCounter++);
+		prefix = prefix || "o";
+		prefix += "_"
+		if (!this._guidCounters[prefix]) {
+			this._guidCounters[prefix] = 0;
+		}
+
+		return prefix + String(this._guidCounters[prefix]++);
 	},
 
 	resetProrityPassers: function () {
