@@ -147,9 +147,14 @@ Player.prototype = {
 		}
 	},
 
-	damage: function (amount, sourceId) {
-		this._life -= amount;
-		this._game.log(this._guid + " takes " + amount + " damage from " + sourceId + ". Life total: " + this._life);
+	damage: function (amount, sourceId, sourceHasInfect) {
+		if (sourceHasInfect) {
+			this._poisonCounters += amount;
+		} else {
+			this._life -= amount;
+		}
+
+		this._game.log(this._guid + " takes " + amount + " damage from " + sourceId + ". Life total: " + this._life + " Poision counters: " + this._poisonCounters);
 	},
 
 	concede: function () {

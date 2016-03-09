@@ -16,7 +16,7 @@ _.extend(LightningBolt.prototype, Card.prototype, {
 	resolve: function (targets) {
 		this._game.log("Lightning Bolt resolves");
 		Utils.assert(targets.length === 1);
-		targets[0].damage(3, this._name);
+		targets[0].damage(3, this._guid, false);
 	},
 
 	getCost: function () {
