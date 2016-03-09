@@ -108,7 +108,8 @@ var Constants = {
 		RED: "RED",
 		GREEN: "GREEN",
 		COLORLESS: "COLORLESS",
-		GENERIC: "GENERIC" 
+		GENERIC: "GENERIC",
+		X: "X"
 	}
 };
 
