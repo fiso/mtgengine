@@ -14,7 +14,7 @@ _.extend(Spell.prototype, MTGObject.prototype, {
 	constructor: Spell,
 
 	resolve: function () {
-		this._card.resolve(this._targets);
+		this._card.resolve(this._controller, this._targets);
 	},
 
 	getCost: function () {

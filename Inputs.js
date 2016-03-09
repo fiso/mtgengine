@@ -22,7 +22,7 @@ var Inputs = {
 	// Special actions
 	PLAY_LAND: "PLAY_LAND",
 	TURN_CREATURE_FACE_UP: "TURN_CREATURE_FACE_UP",
-	STOP_TRIGGER: "STOP_TRIGGER", // CR 115.2c (See: Glass Asp, Quenchable Fire)
+	STOP_TRIGGER: "STOP_TRIGGER", 	// CR 115.2c (See: Glass Asp, Quenchable Fire)
 	IGNORE_EFFECT: "IGNORE_EFFECT", // CR 115.2d (See: Leonin Arbiter)
 	SUSPEND_CARD: "SUSPEND_CARD",
 

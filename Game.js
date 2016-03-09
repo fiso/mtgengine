@@ -234,7 +234,10 @@ Game.prototype = {
 				player.putLandIntoPlay(data.landCard, true);
 				break;
 			case Inputs.CAST_SPELL:
-				player.castSpell(data.card, data.targets);
+				var spell = player.castSpell(data.card, data.targets);
+				if (spell) {
+					this.emitEvent(Events.SPELL_CAST, {spell: spell});
+				}
 				break;
 		}
 	},

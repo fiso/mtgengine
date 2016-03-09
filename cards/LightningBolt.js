@@ -13,7 +13,7 @@ function LightningBolt(game) {
 _.extend(LightningBolt.prototype, Card.prototype, {
 	constructor: LightningBolt,
 
-	resolve: function (targets) {
+	resolve: function (controller, targets) {
 		this._game.log("Lightning Bolt resolves");
 		Utils.assert(targets.length === 1);
 		targets[0].damage(3, this._guid, false);
