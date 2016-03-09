@@ -7,6 +7,12 @@ function BasicMountain(game) {
 		[Constants.cardSuperTypes.BASIC],
 		[Constants.cardTypes.LAND],
 		["MOUNTAIN"]);
+
+	this.addAbility(
+		[],
+		function (controller, modes, targets, parameters) {
+			controller.addToManaPool(Constants.manaTypes.RED, 1);
+		}, true);
 }
 
 _.extend(BasicMountain.prototype, Card.prototype, {

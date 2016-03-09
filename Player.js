@@ -19,7 +19,7 @@ function Player(game) {
 	this._graveyard = new Graveyard(game);
 	this._hand = new Hand(game);
 	this._landPlaysRemaining = 0;
-	this._manaPool = [];
+	this._manaPool = {};
 
 	for (var i = 0; i < 7; i++) {
 		this.drawCard();
@@ -244,6 +244,24 @@ Player.prototype = {
 		var spell = new Spell(this._game, this, card, targets);
 		this._game._stack.addObject(spell);
 		return spell;
+	},
+
+	activateAbility: function (permanent, abilityIndex) {
+		var ability = permanent._card._abilities[abilityIndex];
+		ability.abilityCallback(this, [], [], []);
+	},
+
+	addToManaPool: function (mana, amount) {
+		if (!this._manaPool[mana]) {
+			this._manaPool[mana] = 0;
+		}
+
+		console.log("ADDING TO MANA POOL: ", mana, amount);
+		this._manaPool[mana] += amount;
+	},
+
+	emptyManaPool: function () {
+		this._manaPool = {};
 	}
 };
 

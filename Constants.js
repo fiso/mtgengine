@@ -101,7 +101,7 @@ var Constants = {
 		COLORLESS: "COLORLESS"
 	},
 
-	manaCosts: {
+	costs: {
 		WHITE: "WHITE",
 		BLUE: "BLUE",
 		BLACK: "BLACK",
@@ -109,7 +109,9 @@ var Constants = {
 		GREEN: "GREEN",
 		COLORLESS: "COLORLESS",
 		GENERIC: "GENERIC",
-		X: "X"
+		X: "X",
+		TAP: "TAP",
+		UNTAP: "UNTAP"
 	}
 };
 

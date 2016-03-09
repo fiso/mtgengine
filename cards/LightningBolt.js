@@ -21,7 +21,7 @@ _.extend(LightningBolt.prototype, Card.prototype, {
 
 	getCost: function () {
 		var cost = {};
-		cost[Constants.manaCosts.RED] = 1;
+		cost[Constants.costs.RED] = 1;
 		return cost;
 	}
 });

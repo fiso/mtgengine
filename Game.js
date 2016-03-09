@@ -90,6 +90,9 @@ Game.prototype = {
 
 	advanceToNextStep: function () {
 		this.resetProrityPassers();
+		this._players.forEach(function (player) {
+			player.emptyManaPool();
+		});
 		if (this._currentStep < Constants.steps.CLEANUP) {
 			if (this._turnNumber === 0 && this._currentStep === Constants.steps.UPKEEP) {
 				this._currentStep = Constants.steps.MAIN1; // Skip draw step on first turn
@@ -239,6 +242,11 @@ Game.prototype = {
 					this.emitEvent(Events.SPELL_CAST, {spell: spell});
 				}
 				break;
+			case Inputs.ACTIVATE_ABILITY:
+				var ability = player.activateAbility(data.permanent, data.abilityIndex);
+				if (ability) {
+					this.emitEvent(Events.ABILITY_ACTIVATED, {ability: ability});
+				}
 		}
 	},
 
@@ -303,6 +311,10 @@ function testGame () {
 								for (var i = 0; i < cardsInHand.length; i++) {
 									var cardInHand = cardsInHand[i];
 									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {
+										player.addInput(Inputs.ACTIVATE_ABILITY, {
+											permanent: game._battlefield.getPermanentsControlledByPlayer(player)[0],
+											abilityIndex: 0
+										});
 										player.addInput(Inputs.CAST_SPELL, {
 											card: cardInHand,
 											targets: [game.getNextPlayer(player)]
