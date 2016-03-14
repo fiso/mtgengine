@@ -3,7 +3,7 @@ var Graveyard = require("./zones/Graveyard");
 var Hand = require("./zones/Hand");
 var Permanent = require("./objects/Permanent");
 var Spell = require("./objects/Spell");
-var Utils = require("./Utils");
+var assert = require("assert");
 var Constants = require("./Constants");
 
 function Player(game) {
@@ -223,14 +223,14 @@ Player.prototype = {
 
 	putLandIntoPlay: function (landCard, countsAsNormalLandPlay) {
 		if (countsAsNormalLandPlay) {
-			Utils.assert(this._landPlaysRemaining >= 1)
-			Utils.assert(this._game._stack.empty());
+			assert(this._landPlaysRemaining >= 1)
+			assert(this._game._stack.empty());
 
 			this._landPlaysRemaining--;
 		}
 
 		var card = this._hand.removeObject(landCard);
-		Utils.assert(card);
+		assert(card);
 
 		var permanent = new Permanent(this._game, this, this, landCard);
 		return permanent;
@@ -239,7 +239,7 @@ Player.prototype = {
 	castSpell: function (card, targets) {
 		var zone = card.getCurrentZone();
 		var card = zone.removeObject(card);
-		Utils.assert(card);
+		assert(card);
 
 		var spell = new Spell(this._game, this, card, targets);
 		this._game._stack.addObject(spell);

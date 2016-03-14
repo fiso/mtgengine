@@ -1,7 +1,7 @@
 var _ = require("underscore");
 var Card = require("../objects/Card");
 var Constants = require ("../Constants");
-var Utils = require ("../Utils");
+var assert = require("assert");
 
 function LightningBolt(game) {
 	Card.call(this, game, "Lightning Bolt",
@@ -15,7 +15,7 @@ _.extend(LightningBolt.prototype, Card.prototype, {
 
 	resolve: function (controller, targets) {
 		this._game.log("Lightning Bolt resolves");
-		Utils.assert(targets.length === 1);
+		assert(targets.length === 1);
 		targets[0].damage(3, this._guid, false);
 	},
 

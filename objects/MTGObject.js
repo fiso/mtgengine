@@ -1,7 +1,7 @@
-var Utils = require("../Utils");
+var assert = require("assert");
 
 function MTGObject(game) {
-	Utils.assert(game);
+	assert(game);
 	this._game = game;
 	this._zone = undefined;
 	this._guid = game.getGuid("object");

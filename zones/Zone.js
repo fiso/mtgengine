@@ -1,10 +1,10 @@
 var Constants = require("../Constants");
-var Utils = require("../Utils");
+var assert = require("assert");
 var MTGObject = require("../objects/MTGObject");
 var Card = require("../objects/Card");
 
 function Zone(game, zoneType, ownership, owner) {
-	Utils.assert(game);
+	assert(game);
 	this._objects = [];
 	this._zoneType = zoneType;
 	this._ownership = ownership;
