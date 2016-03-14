@@ -4,6 +4,7 @@
   "description": "",
   "main": "Game.js",
   "dependencies": {
+    "express": "^4.13.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
