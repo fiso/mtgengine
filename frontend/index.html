@@ -7,10 +7,55 @@
 		<title>MTG Engine</title>
 		<link rel="stylesheet" href="css/base.css" />
 		<script src="js/bundle.js"></script>
-	<head>
+	</head>
 
 	<body>
+		<div id="turn-indicator">
+			<span id="turn-counter">Turn <span id="turn-number">1</span>:</span>
+			<span id="active-player-name"></span>
+			<div id="turn-phase-indicator">
+				<div id="phase-untap">Untap</div>
+				<div id="phase-upkeep">Upkeep</div>
+				<div id="phase-draw">Draw</div>
+				<div id="phase-main1">Main</div>
+				<div id="phase-begin-combat">Begin Combat</div>
+				<div id="phase-declare-attackers">Declare Attackers</div>
+				<div id="phase-declare-blockers">Declare Blockers</div>
+				<div id="phase-combat-damage">Combat Damage</div>
+				<div id="phase-end-combat">End Combat</div>
+				<div id="phase-main2">Main</div>
+				<div id="phase-end">End</div>
+				<div id="phase-cleanup">Cleanup</div>
+			</div>
+		</div>
+
 		<div id="zone-battlefield" class="zone"></div>
-		<div id="zone-stack" class="zone"></div>
+		<div id="zone-stack" class="zone">
+			<h1>Stack</h1>
+		</div>
+
+		<div id="player0" class="player-area">
+			<div id="player0-zone-graveyard" class="zone graveyard"></div>
+			<div id="player0-zone-hand" class="zone hand"></div>
+			<div id="player0-zone-library" class="zone library"></div>
+
+			<div id="player0-controls" class="playercontrols">
+				Player 0:
+				<a id="player0-pass" class="player-action">Pass priority</a>
+				<a id="player0-concede" class="player-action">Concede</a>
+			</div>
+		</div>
+
+		<div id="player1" class="player-area">
+			<div id="player1-zone-graveyard" class="zone graveyard"></div>
+			<div id="player1-zone-hand" class="zone hand"></div>
+			<div id="player1-zone-library" class="zone library"></div>
+
+			<div id="player1-controls" class="playercontrols">
+				Player 1:
+				<a id="player1-pass" class="player-action">Pass priority</a>
+				<a id="player1-concede" class="player-action">Concede</a>
+			</div>
+		</div>
 	</body>
 </html>

@@ -28,12 +28,45 @@ body {
   position: absolute;
 }
 
+.zone h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
 #zone-battlefield {
   width: 100%;
   height: 100%;
 }
 
 #zone-stack {
-  width: 200px;
+  width: 300px;
   min-height: 200px;
+  top: 100px;
+  right: 100px;
+}
+
+.player-area {
+  position: absolute;
+}
+
+.player-area#player1 {
+  bottom: 0px;
+}
+
+#turn-indicator {
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+  width: 100%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#turn-indicator div {
+  display: inline-block;
+}
+
+.playercontrols a {
+  text-decoration: underline;
+  cursor: pointer;
 }
