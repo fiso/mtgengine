@@ -3,7 +3,7 @@ var MTGObject = require("./MTGObject");
 var Constants = require("../Constants");
 var Utils = require("../Utils");
 
-function Card(game, name, superTypes, types, subTypes) {
+function Card(game, name, superTypes, types, subTypes, imageUrl) {
 	MTGObject.call(this, game);
 	this._game = game;
 	this._name = name;
@@ -11,6 +11,7 @@ function Card(game, name, superTypes, types, subTypes) {
 	this._types = types ? types.slice() : [];
 	this._subTypes = subTypes ? subTypes.slice() : [];
 	this._abilities = [];
+	this._imageUrl = imageUrl;
 }
 
 _.extend(Card.prototype, MTGObject.prototype, {
