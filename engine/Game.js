@@ -295,6 +295,8 @@ Game.prototype = {
 	}
 };
 
+module.exports = Game;
+
 function testGame () {
 	try {
 		var game = new Game(2, 0);
@@ -355,4 +357,4 @@ function testGame () {
 	}
 }
 
-testGame();
+//testGame();

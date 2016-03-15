@@ -13,6 +13,8 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0px;
+  user-select: none;
+  cursor: default;
 }
 
 .clear {
@@ -38,6 +40,18 @@ body {
   height: 100%;
 }
 
+.priority-indicator {
+  width: 100%;
+  height: 50%;
+}
+
+.has-priority-player0 .priority-indicator.player0 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.has-priority-player1 .priority-indicator.player1 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
 #zone-stack {
   width: 300px;
   min-height: 200px;
@@ -53,17 +67,73 @@ body {
   bottom: 0px;
 }
 
+#active-player-name {
+  padding-right: 50px;  
+}
+
 #turn-indicator {
   top: 50%;
-  margin-top: -20px;
+  margin-top: -14px;
   position: absolute;
   width: 100%;
   border: 1px solid white;
-  padding: 10px;
+  background-color: black;
 }
 
 #turn-indicator div {
   display: inline-block;
+}
+
+#turn-phase-indicator div {
+}
+
+.active-phase-untap #turn-phase-indicator #phase-untap {
+  background-color: white;
+  color: black;
+}
+.active-phase-upkeep #turn-phase-indicator #phase-upkeep {
+  background-color: white;
+  color: black;
+}
+.active-phase-draw #turn-phase-indicator #phase-draw {
+  background-color: white;
+  color: black;
+}
+.active-phase-main1 #turn-phase-indicator #phase-main1 {
+  background-color: white;
+  color: black;
+}
+.active-phase-begin-combat #turn-phase-indicator #phase-begin-combat {
+  background-color: white;
+  color: black;
+}
+.active-phase-declare-attackers #turn-phase-indicator #phase-declare-attackers {
+  background-color: white;
+  color: black;
+}
+.active-phase-declare-blockers #turn-phase-indicator #phase-declare-blockers {
+  background-color: white;
+  color: black;
+}
+.active-phase-combat-damage #turn-phase-indicator #phase-combat-damage {
+  background-color: white;
+  color: black;
+}
+.active-phase-end-combat #turn-phase-indicator #phase-end-combat {
+  background-color: white;
+  color: black;
+}
+.active-phase-main2 #turn-phase-indicator #phase-main2 {
+  background-color: white;
+  color: black;
+}
+.active-phase-end #turn-phase-indicator #phase-end {
+  background-color: white;
+  color: black;
+}
+.active-phase-cleanup #turn-phase-indicator #phase-cleanup {
+  background-color: white;
+  color: black;
 }
 
 .playercontrols a {
