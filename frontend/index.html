@@ -10,16 +10,16 @@
 	</head>
 
 	<body>
-		<div id="game-container" class="has-priority-player0 active-phase-untap">
+		<div id="game-container" class="has-priority-player0">
 			<div id="zone-battlefield" class="zone">
 				<div class="priority-indicator player0"></div>
 				<div class="priority-indicator player1"></div>
 			</div>
 
-			<div id="turn-indicator">
-				<span id="turn-counter">Turn <span id="turn-number">1</span>:</span>
-				<span id="active-player-name">Player 0</span>
-				<div id="turn-phase-indicator">
+			<div id="turn-indicator" class="active-phase-upkeep">
+				<span id="turn-counter">Turn <span id="turn-number">0</span>:</span>
+				<span id="active-player-name">player 0</span>
+				<div id="turn-phase-indicator" class="transition-background">
 					<div id="phase-untap">Untap</div>
 					<div id="phase-upkeep">Upkeep</div>
 					<div id="phase-draw">Draw</div>
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 
-			<div id="zone-stack" class="zone">
+			<div id="zone-stack" class="zone transition-opacity">
 				<h1>Stack</h1>
 			</div>
 
@@ -45,7 +45,6 @@
 				<div id="player0-zone-library" class="zone library"></div>
 
 				<div id="player0-controls" class="playercontrols">
-					Player 0:
 					<a id="player0-pass" class="player-action">Pass priority</a>
 					<a id="player0-concede" class="player-action">Concede</a>
 				</div>
@@ -57,11 +56,16 @@
 				<div id="player1-zone-library" class="zone library"></div>
 
 				<div id="player1-controls" class="playercontrols">
-					Player 1:
 					<a id="player1-pass" class="player-action">Pass priority</a>
 					<a id="player1-concede" class="player-action">Concede</a>
 				</div>
 			</div>
 		</div>
+
+		<script>
+			(function () {
+				window.startGame();
+			})();
+		</script>
 	</body>
 </html>

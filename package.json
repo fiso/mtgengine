@@ -2,7 +2,8 @@
   "name": "mtgengine",
   "version": "1.0.0",
   "description": "",
-  "main": "Game.js",
+  "main": "main.js",
+  "browser": "browser.js",
   "dependencies": {
     "express": "^4.13.4",
     "underscore": "^1.8.3"

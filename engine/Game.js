@@ -20,6 +20,7 @@ function Game(numberOfPlayers, startingPlayerIndex) {
 	this._battlefield = new Battlefield(this);
 	this._stack = new Stack(this);
 	this._guidCounters = {};
+	this._outputs = [];
 
 	this._eventListeners = {};
 
@@ -98,6 +99,10 @@ Game.prototype = {
 				this._currentStep = Constants.steps.MAIN1; // Skip draw step on first turn
 			} else {
 				this._currentStep++;
+				if (this._currentStep === Constants.steps.FIRST_COMBAT_DAMAGE) {
+					// FIXME: Handle first strike better
+					this._currentStep++;
+				}
 			}
 		} else {
 			this._turnNumber++;
@@ -108,9 +113,15 @@ Game.prototype = {
 				player.onNewTurn(player === this._activePlayer);
 			}.bind(this));
 		}
-		this._hasPriority = this._activePlayer;
+		this.setPriority(this._activePlayer);
 
 		this.logCurrentGameTime();
+		this.addOutput(Outputs.NEW_GAME_TIME, {
+			turnNumber: this._turnNumber,
+			stepNumber: this._currentStep,
+			stepName: Constants.stepNames[this._currentStep],
+			activePlayer: this._activePlayer
+		});
 
 		this.performTurnbasedActions();
 
@@ -140,9 +151,16 @@ Game.prototype = {
 		return nextPlayer;
 	},
 
+	setPriority: function (player) {
+		this._hasPriority = player;
+		this.addOutput(Outputs.PRIORITY_CHANGED, {
+			player: this._hasPriority
+		});
+	},
+
 	givePriorityToNextPlayer: function () {
 		var playerReceivingPriority = this.getNextPlayer(this._hasPriority);
-		this._hasPriority = playerReceivingPriority;
+		this.setPriority(playerReceivingPriority);
 	},
 
 	/**
@@ -231,7 +249,8 @@ Game.prototype = {
 				break;
 			case Inputs.CONCEDE:
 				player.concede();
-				this.passPriority(player);
+				while (this.performStateBasedActions() > 0) {
+				}
 				break;
 			case Inputs.PLAY_LAND:
 				player.putLandIntoPlay(data.landCard, true);
@@ -291,70 +310,20 @@ Game.prototype = {
 	 * Sends output from the game to the visualization
 	 */
 	addOutput: function (output, data) {
+		this._outputs.push({
+			output: output,
+			data: data
+		});
+	},
 
+	getOutputs: function () {
+		var ret = this._outputs;
+		this._outputs = [];
+		return ret;
 	}
 };
 
-module.exports = Game;
-
-function testGame () {
-	try {
-		var game = new Game(2, 0);
-		var p0 = game._players[0];
-		var p1 = game._players[1];
-
-		while (true) {
-			if (game.isWaitingForInput()) {
-				var player = game._hasPriority;
-				if (player === game._activePlayer) {
-					if (game._currentStep === Constants.steps.MAIN1 ||
-						game._currentStep === Constants.steps.MAIN2) {
-						if (game._stack.empty()) {
-							if (player._landPlaysRemaining > 0) {
-								var cardsInHand = player._hand.getObjects();
-								for (var i = 0; i < cardsInHand.length; i++) {
-									var cardInHand = cardsInHand[i];
-									if (cardInHand.isType(Constants.cardTypes.LAND)) {
-										player.addInput(Inputs.PLAY_LAND, {landCard: cardInHand});
-										break;
-									}
-								}
-							} else {
-								var cardsInHand = player._hand.getObjects();
-								for (var i = 0; i < cardsInHand.length; i++) {
-									var cardInHand = cardsInHand[i];
-									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {
-										player.addInput(Inputs.ACTIVATE_ABILITY, {
-											permanent: game._battlefield.getPermanentsControlledByPlayer(player)[0],
-											abilityIndex: 0
-										});
-										player.addInput(Inputs.CAST_SPELL, {
-											card: cardInHand,
-											targets: [game.getNextPlayer(player)]
-										});
-										player.addInput(Inputs.PASS_PRIORITY, {});
-										break;
-									}
-								}
-							}
-						}
-					}
-				}				
-
-				if (!player.hasUnprocessedInputs()) {
-					player.addInput(Inputs.PASS_PRIORITY, {});
-				}
-			} else if (!game.isWaitingForInput()) {
-				game.tick();
-			}
-		}
-	} catch (e) {
-		if (e instanceof GameOver) {
-			console.log("Game over.");
-		} else {
-			throw e;
-		}
-	}
-}
-
-//testGame();
+module.exports = {
+	Game: Game,
+	GameOver: GameOver
+};

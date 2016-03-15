@@ -17,6 +17,10 @@ body {
   cursor: default;
 }
 
+div {
+  transition: inherit;
+}
+
 .clear {
   clear: both;
 }
@@ -26,7 +30,6 @@ body {
 }
 
 .zone {
-  border: 1px dashed white;
   position: absolute;
 }
 
@@ -45,6 +48,18 @@ body {
   height: 50%;
 }
 
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.transition-background {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.transition-opacity-and-background {
+  transition: opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
 .has-priority-player0 .priority-indicator.player0 {
   background-color: rgba(255, 0, 0, 0.2);
 }
@@ -54,13 +69,23 @@ body {
 
 #zone-stack {
   width: 300px;
-  min-height: 200px;
   top: 100px;
   right: 100px;
+  border: 2px dashed white;
+  padding: 10px;
+  background-color: black;
+  opacity: 0;
 }
 
 .player-area {
   position: absolute;
+  padding: 10px;
+}
+
+.has-priority-player1 .player-area#player0,
+.has-priority-player0 .player-area#player1 {
+  pointer-events: none;
+  opacity: 0.5;
 }
 
 .player-area#player1 {
@@ -76,7 +101,8 @@ body {
   margin-top: -14px;
   position: absolute;
   width: 100%;
-  border: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   background-color: black;
 }
 
@@ -85,6 +111,12 @@ body {
 }
 
 #turn-phase-indicator div {
+  text-align: center;
+  width: 100px;
+  font-size: 11px;
+  height: 23px;
+  vertical-align: top;
+  padding-top: 6px;
 }
 
 .active-phase-untap #turn-phase-indicator #phase-untap {
