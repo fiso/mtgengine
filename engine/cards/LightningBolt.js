@@ -7,7 +7,8 @@ function LightningBolt(game) {
 	Card.call(this, game, "Lightning Bolt",
 		[],
 		[Constants.cardTypes.INSTANT],
-		[]);
+		[],
+		"https://image.deckbrew.com/mtg/multiverseid/397722.jpg");
 }
 
 _.extend(LightningBolt.prototype, Card.prototype, {

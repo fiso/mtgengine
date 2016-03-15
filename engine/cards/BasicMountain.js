@@ -6,7 +6,8 @@ function BasicMountain(game) {
 	Card.call(this, game, "Mountain",
 		[Constants.cardSuperTypes.BASIC],
 		[Constants.cardTypes.LAND],
-		["MOUNTAIN"]);
+		["MOUNTAIN"],
+		"https://image.deckbrew.com/mtg/multiverseid/201968.jpg");
 
 	this.addAbility(
 		[],
