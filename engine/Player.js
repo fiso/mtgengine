@@ -15,9 +15,9 @@ function Player(game) {
 	this._hasConceded = false;
 	this._triedToDrawFromEmptyLibrary = false;
 	this._inputQueue = [];
-	this._library = new Library(game);
-	this._graveyard = new Graveyard(game);
-	this._hand = new Hand(game);
+	this._library = new Library(game, this);
+	this._graveyard = new Graveyard(game, this);
+	this._hand = new Hand(game, this);
 	this._landPlaysRemaining = 0;
 	this._manaPool = {};
 

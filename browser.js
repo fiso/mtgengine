@@ -9,7 +9,6 @@ function handleNewTime (data) {
 	var turnIndicator = document.getElementById("turn-indicator");
 	turnIndicator.className = "";
 	turnIndicator.classList.add("active-phase-" + data.stepName.replace("_", "-").toLowerCase());
-
 }
 
 function handlePriorityChanged (data) {
@@ -18,6 +17,25 @@ function handlePriorityChanged (data) {
 	priorityIndicator.classList.add("has-priority-" + data.player._guid.replace("_", "").toLowerCase());
 }
 
+function handleObjectEnteredZone (data) {
+	var obj = data.object;
+	switch (obj._zone._id) {
+		case Constants.zoneIdentifiers.HAND:
+			var image = new Image();
+			image.id = obj._guid;
+			image.classList.add("card");
+			image.src = obj._imageUrl;
+			document.getElementById(obj._zone._owner._guid.replace("_", "") + "-zone-hand").appendChild(image);
+			break;
+		case Constants.zoneIdentifiers.GRAVEYARD:
+			var card = document.getElementById(obj._guid);
+			document.getElementById(obj._zone._owner._guid.replace("_", "") + "-zone-graveyard").appendChild(card);
+			break;
+		default:
+			console.log("Object entered zone " + obj._zone._id + " and we can't handle that");
+			break;
+	}
+}
 
 function processInputs () {
 	try {
@@ -31,6 +49,10 @@ function processInputs () {
 		}
 	}
 
+	processOutputs();
+}
+
+function processOutputs() {
 	var outputs = game.getOutputs();
 
 	if (outputs.length > 0) {
@@ -42,6 +64,9 @@ function processInputs () {
 					break;
 				case Outputs.PRIORITY_CHANGED:
 					handlePriorityChanged(output.data);
+					break;
+				case Outputs.OBJECT_ENTERED_ZONE:
+					handleObjectEnteredZone(output.data);
 					break;
 				default:
 					console.log("Unhandled output: " + output.output);
@@ -78,4 +103,6 @@ window.startGame = function () {
         		break;
         }
 	});
+
+	processOutputs();
 }

@@ -29,8 +29,37 @@ div {
   text-shadow: 3px 3px 2px #000000;
 }
 
+.card {
+  width: 100px;
+}
+
 .zone {
   position: absolute;
+}
+
+.zone.hand {
+  white-space: nowrap;
+  top: 40px;
+}
+
+#player1 .zone.hand {
+  top: auto;
+  bottom: 40px;
+}
+
+.zone.graveyard {
+  right: 10px;
+  width: 50px;
+  height: 280px;
+  overflow-y: scroll;
+}
+
+#player1 .zone.graveyard {
+  bottom: 42px;
+}
+
+.zone.graveyard .card {
+  width: 50px;
 }
 
 .zone h1 {
@@ -80,6 +109,7 @@ div {
 .player-area {
   position: absolute;
   padding: 10px;
+  width: 100%;
 }
 
 .has-priority-player1 .player-area#player0,
@@ -106,15 +136,24 @@ div {
   background-color: black;
 }
 
+#active-player-info {
+  position: absolute;
+  top: -30px;
+}
+
 #turn-indicator div {
   display: inline-block;
 }
 
+#turn-phase-indicator {
+  width: 100%;
+}
+
 #turn-phase-indicator div {
   text-align: center;
-  width: 100px;
+  width: 8%;
   font-size: 11px;
-  height: 23px;
+  height: 24px;
   vertical-align: top;
   padding-top: 6px;
 }

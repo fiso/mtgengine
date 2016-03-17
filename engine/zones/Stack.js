@@ -3,7 +3,7 @@ var Zone = require("./Zone");
 var Constants = require ("../Constants");
 
 function Stack(game) {
-	Zone.call(this, game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED);
+	Zone.call(this, game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED, null, Constants.zoneIdentifiers.STACK);
 }
 
 _.extend(Stack.prototype, Zone.prototype, {

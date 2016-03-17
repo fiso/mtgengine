@@ -61,6 +61,16 @@ var Constants = {
 		SHARED: "SHARED"
 	},
 
+	zoneIdentifiers: {
+		BATTLEFIELD: "BATTLEFIELD",
+		HAND: "HAND",
+		EXILE: "EXILE",
+		COMMAND: "COMMAND",
+		GRAVEYARD: "GRAVEYARD",
+		LIBRARY: "LIBRARY",
+		STACK: "STACK"
+	},
+
 	cardSuperTypes: {
 		LEGENDARY: "LEGENDARY",
 		BASIC: "BASIC",

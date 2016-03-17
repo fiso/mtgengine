@@ -3,7 +3,7 @@ var Zone = require("./Zone");
 var Constants = require ("../Constants");
 
 function Battlefield(game) {
-	Zone.call(this, game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED);
+	Zone.call(this, game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED, null, Constants.zoneIdentifiers.BATTLEFIELD);
 }
 
 _.extend(Battlefield.prototype, Zone.prototype, {

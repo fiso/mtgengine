@@ -6,8 +6,8 @@ var Card = require("../objects/Card");
 var BasicMountain = require("../cards/BasicMountain");
 var LightningBolt = require("../cards/LightningBolt");
 
-function Library(game) {
-	Zone.call(this, game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER);
+function Library(game, owner) {
+	Zone.call(this, game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.LIBRARY);
 
 	// DEBUG
 	for (var i = 0; i < 30; i++) {
