@@ -1,3 +1,4 @@
+"use strict";
 var Player = require("./Player");
 var Constants = require("./Constants");
 var Events = require("./Events");
@@ -7,48 +8,49 @@ var _ = require("underscore");
 var Battlefield = require("./zones/Battlefield");
 var Stack = require("./zones/Stack");
 
-var GameOver = function (winner) {
-	this.winner = winner;
-};
-
-function Game(numberOfPlayers, startingPlayerIndex) {
-	this._turnNumber = 0;
-	this._players = [];
-	this._currentStep = -1;
-	this._hasPriority = null;
-	this._activePlayer = null;
-	this._battlefield = new Battlefield(this);
-	this._stack = new Stack(this);
-	this._guidCounters = {};
-	this._outputs = [];
-
-	this._eventListeners = {};
-
-	for (var i = 0; i < numberOfPlayers; i++) {
-		var player = new Player(this);
-		this._players.push(player);
+class GameOver {
+	constructor (winner) {
+		this.winner = winner;
 	}
-
-	this._activePlayer = this._players[startingPlayerIndex];
-
-	this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
-	this._players.forEach(function (player) {
-		player.onNewTurn(player === this._activePlayer);
-	}.bind(this));
-	this.advanceToNextStep();
 }
 
-Game.prototype = {
+class Game {
+	constructor (numberOfPlayers, startingPlayerIndex) {
+		this._turnNumber = 0;
+		this._players = [];
+		this._currentStep = -1;
+		this._hasPriority = null;
+		this._activePlayer = null;
+		this._battlefield = new Battlefield(this);
+		this._stack = new Stack(this);
+		this._guidCounters = {};
+		this._outputs = [];
 
-	log: function (str) {
+		this._eventListeners = {};
+
+		for (var i = 0; i < numberOfPlayers; i++) {
+			var player = new Player(this);
+			this._players.push(player);
+		}
+
+		this._activePlayer = this._players[startingPlayerIndex];
+
+		this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
+		this._players.forEach(player => {
+			player.onNewTurn(player === this._activePlayer);
+		});
+		this.advanceToNextStep();
+	}
+
+	log (str) {
 		console.log(str);
-	},
+	}
 
-	logCurrentGameTime: function () {
+	logCurrentGameTime () {
 		this.log("== It is now the " + Constants.stepNames[this._currentStep] + " step ==");
-	},
+	}
 
-	getGuid: function (prefix) {
+	getGuid (prefix) {
 		prefix = prefix || "o";
 		prefix += "_"
 		if (!this._guidCounters[prefix]) {
@@ -56,30 +58,30 @@ Game.prototype = {
 		}
 
 		return prefix + String(this._guidCounters[prefix]++);
-	},
+	}
 
-	resetProrityPassers: function () {
+	resetProrityPassers () {
 		this._priorityPassers = [];
-	},
+	}
 
-	passPriority: function (player) {
+	passPriority (player) {
 		this._priorityPassers.push(player._guid);
 
 		var allPassed = true;
-		this._players.forEach(function (player) {
+		this._players.forEach(player => {
 			if (this._priorityPassers.indexOf(player._guid) === -1) {
 				allPassed = false;
 			}
-		}.bind(this));
+		});
 
 		if (allPassed) {
 			this.handleAllPassed();
 		} else {
 			this.givePriorityToNextPlayer();
 		}
-	},
+	}
 
-	handleAllPassed: function () {
+	handleAllPassed () {
 		this.log("All players passed priority");
 
 		if (this._stack.empty()) {
@@ -87,11 +89,11 @@ Game.prototype = {
 		} else {
 			this._stack.resolveTopObject();
 		}
-	},
+	}
 
-	advanceToNextStep: function () {
+	advanceToNextStep () {
 		this.resetProrityPassers();
-		this._players.forEach(function (player) {
+		this._players.forEach(player => {
 			player.emptyManaPool();
 		});
 		if (this._currentStep < Constants.steps.CLEANUP) {
@@ -109,9 +111,9 @@ Game.prototype = {
 			this.log("\n>>>>>>>>>>>>>> TURN " + this._turnNumber + " <<<<<<<<<<<<<<")
 			this._activePlayer = this.getNextPlayer(this._activePlayer);
 			this._currentStep = Constants.steps.UNTAP;
-			this._players.forEach(function (player) {
+			this._players.forEach(player => {
 				player.onNewTurn(player === this._activePlayer);
-			}.bind(this));
+			});
 		}
 		this.setPriority(this._activePlayer);
 
@@ -131,49 +133,49 @@ Game.prototype = {
 		if (!this.playersShouldReceivePriority(this._currentStep)) {
 			this.advanceToNextStep();
 		}
-	},
+	}
 
-	getNextPlayer: function (currentPlayer) {
+	getNextPlayer (currentPlayer) {
 		var isNext = false;
 		var nextPlayer = null;
-		this._players.forEach(function (player) {
+		this._players.forEach(player => {
 			if (isNext && !nextPlayer) {
 				nextPlayer = player;
 			} else if (currentPlayer === player) {
 				isNext = true;
 			}
-		}.bind(this));
+		});
 
 		if (!nextPlayer) {
 			nextPlayer = this._players[0];
 		}
 
 		return nextPlayer;
-	},
+	}
 
-	setPriority: function (player) {
+	setPriority (player) {
 		this._hasPriority = player;
 		this.addOutput(Outputs.PRIORITY_CHANGED, {
 			player: this._hasPriority
 		});
-	},
+	}
 
-	givePriorityToNextPlayer: function () {
+	givePriorityToNextPlayer () {
 		var playerReceivingPriority = this.getNextPlayer(this._hasPriority);
 		this.setPriority(playerReceivingPriority);
-	},
+	}
 
 	/**
 	 * @returns {number} Number of actions taken
 	 */
-	performStateBasedActions: function () {
+	performStateBasedActions () {
 
 		var playersStillInGame = [];
-		this._players.forEach(function (player) {
+		this._players.forEach(player => {
 			if (!player.hasLost()) {
 				playersStillInGame.push(player);
 			}
-		}.bind(this));
+		});
 
 		if (playersStillInGame.length === 1) {
 			this.handleGameWon(playersStillInGame[0]);
@@ -185,60 +187,60 @@ Game.prototype = {
 		actionsPerformed += this._battlefield.performStateBasedActions();
 
 		return actionsPerformed;
-	},
+	}
 
-	performTurnbasedActions: function () {
-		this._players.forEach(function (player) {
+	performTurnbasedActions () {
+		this._players.forEach(player => {
 			player.performTurnbasedActions(
 				this._currentStep,
 				player === this._activePlayer);
-		}.bind(this));
+		});
 
 		if (this._currentStep === Constants.steps.CLEANUP) {
 			while (this._battlefield.onCleanup() !== 0) {
 			}
 		}
-	},
+	}
 
-	handleGameWon: function (winner) {
+	handleGameWon (winner) {
 		this.log(winner._guid + " has won the game!");
 		throw new GameOver(winner);
-	},
+	}
 
-	handleGameDrawn: function () {
+	handleGameDrawn () {
 		this.log("The game is a draw!");
 		throw new GameOver(null);
-	},
+	}
 
-	playersShouldReceivePriority: function (step) {
+	playersShouldReceivePriority (step) {
 		if ([Constants.steps.UNTAP, Constants.steps.CLEANUP].indexOf(step) === -1) {
 			return true;
 		}
 
 		return false;
-	},
+	}
 
-	tick: function () {
+	tick () {
 		if (this.playersShouldReceivePriority(this._currentStep)) {
 			var input = this._hasPriority.getInput();
 			if (input) {
 				this.handleInput(this._hasPriority, input.input, input.data);
 			}	
 		}
-	},
+	}
 
-	isWaitingForInput: function () {
+	isWaitingForInput () {
 		if (this.playersShouldReceivePriority(this._currentStep)) {
 			return !this._hasPriority.hasUnprocessedInputs();
 		}
 
 		return false;
-	},
+	}
 
 	/**
 	 * Handles incoming input from players
 	 */
-	handleInput: function (player, input, data) {
+	handleInput (player, input, data) {
 		while (this.performStateBasedActions() > 0) {
 		}
 
@@ -278,15 +280,15 @@ Game.prototype = {
 				player.abortSpellCast(data.spell);
 				break;
 		}
-	},
+	}
 
-	registerEventListener: function (listener, event) {
+	registerEventListener (listener, event) {
 		if (!this._eventListeners[event]) {
 			this._eventListeners[event] = [];
 		}
 
 		this._eventListeners[event].push(listener);
-	},
+	}
 
 	/**
 	 * Notifies any listeners that something is about to happen to the gamestate.
@@ -294,34 +296,34 @@ Game.prototype = {
 	 * any replacement effects to be applied.
 	 * @returns {boolean} True if the event may happen as normal, false if it was replaced
 	 */
-	emitEvent: function (event, data) {
+	emitEvent (event, data) {
 		if (!this._eventListeners[event]) {
 			return true;
 		}
 
-		this._eventListeners[event].forEach(function (listener) {
+		this._eventListeners[event].forEach(listener => {
 			listener.onEvent(event, data);
 		});
 
 		return true;
-	},
+	}
 
 	/**
 	 * Sends output from the game to the visualization
 	 */
-	addOutput: function (output, data) {
+	addOutput (output, data) {
 		this._outputs.push({
 			output: output,
 			data: data
 		});
-	},
+	}
 
-	getOutputs: function () {
+	getOutputs () {
 		var ret = this._outputs;
 		this._outputs = [];
 		return ret;
 	}
-};
+}
 
 module.exports = {
 	Game: Game,

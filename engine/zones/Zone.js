@@ -1,39 +1,40 @@
+"use strict";
 var Constants = require("../Constants");
 var assert = require("assert");
 var MTGObject = require("../objects/MTGObject");
 var Card = require("../objects/Card");
 var Outputs = require("../Outputs");
 
-function Zone(game, zoneType, ownership, owner, id) {
-	assert(game);
-	this._objects = [];
-	this._zoneType = zoneType;
-	this._ownership = ownership;
-	this._owner = owner;
-	this._game = game;
-	this._id = id;
-}
+class Zone {
+	constructor (game, zoneType, ownership, owner, id) {
+		assert(game);
+		this._objects = [];
+		this._zoneType = zoneType;
+		this._ownership = ownership;
+		this._owner = owner;
+		this._game = game;
+		this._id = id;
+	}
 
-Zone.prototype = {
-	empty: function () {
+	empty () {
 		return this._objects.length === 0;
-	},
+	}
 
-	addObject: function (object) {
+	addObject (object) {
 		this._objects.push(object);
 		object.placeInZone(this);
 		this._game.addOutput(Outputs.OBJECT_ENTERED_ZONE, {object: object});
-	},
+	}
 
-	getNumberOfObjects: function () {
+	getNumberOfObjects () {
 		return this._objects.length;
-	},
+	}
 
-	getObjects: function () {
+	getObjects () {
 		return this._objects;
-	},
+	}
 
-	removeObject: function (object) {
+	removeObject (object) {
 		var index = this._objects.indexOf(object);
 		if (index === -1) {
 			return null;
@@ -42,6 +43,6 @@ Zone.prototype = {
 
 		return this._objects.splice(index, 1)[0];
 	}
-};
+}
 
 module.exports = Zone;

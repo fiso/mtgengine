@@ -1,13 +1,11 @@
-var _ = require("underscore");
+"use strict";
 var Zone = require("./Zone");
 var Constants = require ("../Constants");
 
-function Hand(game, owner) {
-	Zone.call(this, game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.HAND);
+class Hand extends Zone {
+	constructor (game, owner) {
+		super(game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.HAND);
+	}
 }
-
-_.extend(Hand.prototype, Zone.prototype, {
-	constructor: Hand
-});
 
 module.exports = Hand;

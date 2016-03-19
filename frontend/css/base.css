@@ -49,9 +49,10 @@ div {
 
 .zone.graveyard {
   right: 10px;
-  width: 50px;
+  width: 70px;
   height: 280px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #player1 .zone.graveyard {

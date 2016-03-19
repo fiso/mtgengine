@@ -1,20 +1,21 @@
+"use strict";
 var assert = require("assert");
 
-function MTGObject(game) {
-	assert(game);
-	this._game = game;
-	this._zone = undefined;
-	this._guid = game.getGuid("object");
-}
+class MTGObject {
+	constructor (game) {
+		assert(game);
+		this._game = game;
+		this._zone = undefined;
+		this._guid = game.getGuid("object");
+	}
 
-MTGObject.prototype = {
-	placeInZone: function (zone) {
+	placeInZone (zone) {
 		this._zone = zone;
-	},
+	}
 
-	getCurrentZone: function () {
+	getCurrentZone () {
 		return this._zone;
 	}	
-};
+}
 
 module.exports = MTGObject;

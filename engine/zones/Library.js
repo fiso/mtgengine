@@ -1,4 +1,4 @@
-var _ = require("underscore");
+"use strict";
 var Zone = require("./Zone");
 var Constants = require ("../Constants");
 var Card = require("../objects/Card");
@@ -6,22 +6,20 @@ var Card = require("../objects/Card");
 var BasicMountain = require("../cards/BasicMountain");
 var LightningBolt = require("../cards/LightningBolt");
 
-function Library(game, owner) {
-	Zone.call(this, game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.LIBRARY);
+class Library extends Zone {
+	constructor (game, owner) {
+		super(game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.LIBRARY);
 
-	// DEBUG
-	for (var i = 0; i < 30; i++) {
-		this._objects.push(new BasicMountain(game));
-		this._objects.push(new LightningBolt(game));
+		// DEBUG
+		for (var i = 0; i < 30; i++) {
+			this._objects.push(new BasicMountain(game));
+			this._objects.push(new LightningBolt(game));
+		}
 	}
-}
 
-_.extend(Library.prototype, Zone.prototype, {
-	constructor: Library,
-
-	drawCard: function () {
+	drawCard () {
 		return this._objects.pop();
 	}
-});
+}
 
 module.exports = Library;

@@ -1,13 +1,10 @@
-var _ = require("underscore");
+"use strict";
 var MTGObject = require("./MTGObject");
-var Constants = require ("../Constants");
 
-function CardCopy(game) {
-	MTGObject.call(this, game);
+class CardCopy extends MTGObject {
+	constructor (game) {
+		super(game);
+	}
 }
-
-_.extend(CardCopy.prototype, MTGObject.prototype, {
-	constructor: CardCopy
-});
 
 module.exports = CardCopy;

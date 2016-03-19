@@ -1,3 +1,4 @@
+"use strict";
 var Library = require("./zones/Library");
 var Graveyard = require("./zones/Graveyard");
 var Hand = require("./zones/Hand");
@@ -6,36 +7,36 @@ var Spell = require("./objects/Spell");
 var assert = require("assert");
 var Constants = require("./Constants");
 
-function Player(game) {
-	this._guid = game.getGuid("player");
-	this._game = game;
-	this._life = 20;
-	this._poisonCounters = 0;
-	this._maximumHandSize = 7;
-	this._hasConceded = false;
-	this._triedToDrawFromEmptyLibrary = false;
-	this._inputQueue = [];
-	this._library = new Library(game, this);
-	this._graveyard = new Graveyard(game, this);
-	this._hand = new Hand(game, this);
-	this._landPlaysRemaining = 0;
-	this._manaPool = {};
+class Player {
+	constructor (game) {
+		this._guid = game.getGuid("player");
+		this._game = game;
+		this._life = 20;
+		this._poisonCounters = 0;
+		this._maximumHandSize = 7;
+		this._hasConceded = false;
+		this._triedToDrawFromEmptyLibrary = false;
+		this._inputQueue = [];
+		this._library = new Library(game, this);
+		this._graveyard = new Graveyard(game, this);
+		this._hand = new Hand(game, this);
+		this._landPlaysRemaining = 0;
+		this._manaPool = {};
 
-	for (var i = 0; i < 7; i++) {
-		this.drawCard();
+		for (var i = 0; i < 7; i++) {
+			this.drawCard();
+		}
 	}
-}
 
-Player.prototype = {
-	onNewTurn: function (activePlayer) {
+	onNewTurn (activePlayer) {
 		if (activePlayer) {
 			this._landPlaysRemaining = 1;
 		} else {
 			this._landPlaysRemaining = 0;
 		}
-	},
+	}
 
-	performTurnbasedActions: function (step, activePlayer) {
+	performTurnbasedActions (step, activePlayer) {
 		switch (step) {
 			case Constants.steps.UNTAP:
 				this.onUntap(activePlayer);
@@ -77,64 +78,64 @@ Player.prototype = {
 				this.onCleanup(activePlayer);
 				break;
 		}
-	},
+	}
 
-	onUntap: function (activePlayer) {
+	onUntap (activePlayer) {
 		if (activePlayer) {
 			var permanents = this._game._battlefield.getPermanentsControlledByPlayer(this);
-			permanents.forEach(function (permanent) {
+			permanents.forEach(permanent => {
 				permanent.untap();
-			})
+			});
 		}
-	},
+	}
 
-	onUpkeep: function (activePlayer) {
+	onUpkeep (activePlayer) {
 
-	},
+	}
 
-	onDraw: function (activePlayer) {
+	onDraw (activePlayer) {
 		if (activePlayer) {
 			this.drawCard();
 		}
-	},
+	}
 
-	onMain1: function (activePlayer) {
+	onMain1 (activePlayer) {
 
-	},
+	}
 
-	onBeginCombat: function (activePlayer) {
+	onBeginCombat (activePlayer) {
 
-	},
+	}
 
-	onDeclareAttackers: function (activePlayer) {
+	onDeclareAttackers (activePlayer) {
 
-	},
+	}
 
-	onDeclareBlockers: function (activePlayer) {
+	onDeclareBlockers (activePlayer) {
 
-	},
+	}
 
-	onFirstCombatDamage: function (activePlayer) {
+	onFirstCombatDamage (activePlayer) {
 
-	},
+	}
 
-	onCombatDamage: function (activePlayer) {
+	onCombatDamage (activePlayer) {
 
-	},
+	}
 
-	onEndCombat: function (activePlayer) {
+	onEndCombat (activePlayer) {
 
-	},
+	}
 
-	onMain2: function (activePlayer) {
+	onMain2 (activePlayer) {
 
-	},
+	}
 
-	onEnd: function (activePlayer) {
+	onEnd (activePlayer) {
 
-	},
+	}
 
-	onCleanup: function (activePlayer) {
+	onCleanup (activePlayer) {
 		if (activePlayer) {
 			var cardsDiscarded = 0;
 			while (this.getHand().getNumberOfObjects() > this.getMaximumHandSize()) {
@@ -145,9 +146,9 @@ Player.prototype = {
 				this._game.log("Active player discarded " + cardsDiscarded + " cards");
 			}
 		}
-	},
+	}
 
-	damage: function (amount, sourceId, sourceHasInfect) {
+	damage (amount, sourceId, sourceHasInfect) {
 		if (sourceHasInfect) {
 			this._poisonCounters += amount;
 		} else {
@@ -155,13 +156,13 @@ Player.prototype = {
 		}
 
 		this._game.log(this._guid + " takes " + amount + " damage from " + sourceId + ". Life total: " + this._life + " Poision counters: " + this._poisonCounters);
-	},
+	}
 
-	concede: function () {
+	concede () {
 		this._hasConceded = true;
-	},
+	}
 
-	hasLost: function () {
+	hasLost () {
 		if (this._life <= 0) {
 			return true;
 		}
@@ -179,9 +180,9 @@ Player.prototype = {
 		}
 
 		return false;
-	},
+	}
 
-	drawCard: function () {
+	drawCard () {
 		var card = this._library.drawCard();
 		if (!card) {
 			this._triedToDrawFromEmptyLibrary = true;
@@ -190,38 +191,38 @@ Player.prototype = {
 			this._hand.addObject(card);
 			this._game.log(this._guid + " draws " + card._name + ". " + this._library.getObjects().length + " cards left in library.");
 		}
-	},
+	}
 
-	getHand: function () {
+	getHand () {
 		return this._hand;
-	},
+	}
 
-	addInput: function (input, data) {
+	addInput (input, data) {
 		this._inputQueue.push({input: input, data: data});
-	},
+	}
 
-	hasUnprocessedInputs: function () {
+	hasUnprocessedInputs () {
 		return this._inputQueue.length > 0;
-	},
+	}
 
-	getInput: function () {
+	getInput () {
 		return this._inputQueue.shift();
-	},
+	}
 
-	getMaximumHandSize: function () {
+	getMaximumHandSize () {
 		return this._maximumHandSize;
-	},
+	}
 
-	discardCard: function () {
+	discardCard () {
 		var card = this._hand.getObjects().pop();
 		if (card) {
 			this._graveyard.addObject(card);
 		}
 
 		return card;
-	},
+	}
 
-	putLandIntoPlay: function (landCard, countsAsNormalLandPlay) {
+	putLandIntoPlay (landCard, countsAsNormalLandPlay) {
 		if (countsAsNormalLandPlay) {
 			assert(this._landPlaysRemaining >= 1)
 			assert(this._game._stack.empty());
@@ -234,9 +235,9 @@ Player.prototype = {
 
 		var permanent = new Permanent(this._game, this, this, landCard);
 		return permanent;
-	},
+	}
 
-	announceSpell: function (card) {
+	announceSpell (card) {
 		var zone = card.getCurrentZone();
 		var card = zone.removeObject(card);
 		assert(card);
@@ -244,18 +245,18 @@ Player.prototype = {
 		var spell = new Spell(this._game, this, card, targets);
 		this._game._stack.addObject(spell);
 		return spell;
-	},
+	}
 
-	abortSpellCast: function (spell) {
+	abortSpellCast (spell) {
 		var zone = spell.getCurrentZone();
 		var spell = zone.removeObject(spell);
 		assert(spell);
 		assert(spell._card);
 
 		spell._castFromZone.addObject(spell._card);
-	},
+	}
 
-	castSpell: function (card, targets) {
+	castSpell (card, targets) {
 		var zone = card.getCurrentZone();
 		var card = zone.removeObject(card);
 		assert(card);
@@ -263,25 +264,25 @@ Player.prototype = {
 		var spell = new Spell(this._game, this, zone, card, targets);
 		this._game._stack.addObject(spell);
 		return spell;
-	},
+	}
 
-	activateAbility: function (permanent, abilityIndex) {
+	activateAbility (permanent, abilityIndex) {
 		var ability = permanent._card._abilities[abilityIndex];
 		ability.abilityCallback(this, [], [], []);
-	},
+	}
 
-	addToManaPool: function (mana, amount) {
+	addToManaPool (mana, amount) {
 		if (!this._manaPool[mana]) {
 			this._manaPool[mana] = 0;
 		}
 
 		console.log("ADDING TO MANA POOL: ", mana, amount);
 		this._manaPool[mana] += amount;
-	},
+	}
 
-	emptyManaPool: function () {
+	emptyManaPool () {
 		this._manaPool = {};
 	}
-};
+}
 
 module.exports = Player;

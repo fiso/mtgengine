@@ -1,0 +1,1 @@
+console.error("Error: Parsing file d:\\Dropbox\\Projects\\mtgengine\\engine\\objects\\Card.js: Unexpected token (7:1)");

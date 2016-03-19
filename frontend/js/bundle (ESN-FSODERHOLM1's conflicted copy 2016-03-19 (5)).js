@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module 'use-strict' from 'd:\\Dropbox\\Projects\\mtgengine'");

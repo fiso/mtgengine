@@ -1,3 +1,4 @@
+"use strict";
 var Game = require("./engine/Game");
 var Constants = require("./engine/Constants");
 var Inputs = require("./engine/Inputs");

@@ -1,23 +1,19 @@
-var _ = require("underscore");
+"use strict";
 var MTGObject = require("./MTGObject");
 var Constants = require("../Constants");
-var Utils = require("../Utils");
 
-function Card(game, name, superTypes, types, subTypes, imageUrl) {
-	MTGObject.call(this, game);
-	this._game = game;
-	this._name = name;
-	this._superTypes = superTypes ? superTypes.slice() : [];
-	this._types = types ? types.slice() : [];
-	this._subTypes = subTypes ? subTypes.slice() : [];
-	this._abilities = [];
-	this._imageUrl = imageUrl;
-}
+class Card extends MTGObject {
+	constructor (game, name, superTypes, types, subTypes, imageUrl) {
+		super(game);
+		this._name = name;
+		this._superTypes = superTypes ? superTypes.slice() : [];
+		this._types = types ? types.slice() : [];
+		this._subTypes = subTypes ? subTypes.slice() : [];
+		this._abilities = [];
+		this._imageUrl = imageUrl;
+	}
 
-_.extend(Card.prototype, MTGObject.prototype, {
-	constructor: Card,
-
-	isBasicLand: function () {
+	isBasicLand () {
 		if (this._superTypes.indexOf(Constants.cardSuperTypes.BASIC) === -1) {
 			return false;
 		}
@@ -27,35 +23,35 @@ _.extend(Card.prototype, MTGObject.prototype, {
 		}
 
 		return true;
-	},
+	}
 
-	isType: function (type) {
+	isType (type) {
 		return this._types.indexOf(type) !== -1;
-	},
+	}
 
-	resolve: function () {
+	resolve () {
 		this._game.log("Card resolves");
-	},
+	}
 
-	getCost: function () {
+	getCost () {
 		return {};
-	},
+	}
 
-	placeInZone: function (zone) {
+	placeInZone (zone) {
 		this._zone = zone;
-	},
+	}
 
-	getCurrentZone: function () {
+	getCurrentZone () {
 		return this._zone;
-	},
+	}
 
-	addAbility: function (cost, abilityCallback, isManaAbility) {
+	addAbility (cost, abilityCallback, isManaAbility) {
 		this._abilities.push({
 			cost: cost,
 			abilityCallback: abilityCallback,
 			isManaAbility: isManaAbility
 		});
 	}
-});
+}
 
 module.exports = Card;

@@ -1,13 +1,11 @@
-var _ = require("underscore");
+"use strict";
 var MTGObject = require("./MTGObject");
 var Constants = require ("../Constants");
 
-function Token(game) {
-	MTGObject.call(this, game);
+class Token extends MTGObject {
+	constructor (game) {
+		super(game);
+	}
 }
-
-_.extend(Token.prototype, MTGObject.prototype, {
-	constructor: Token
-});
 
 module.exports = Token;

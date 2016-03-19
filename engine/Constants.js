@@ -1,4 +1,4 @@
-var Constants = {
+const Constants = {
 	steps: {
 		UNTAP: 0,
 		UPKEEP: 1,

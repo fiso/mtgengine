@@ -1,4 +1,4 @@
-var Inputs = {
+const Inputs = {
 	KEEP_HAND: "KEEP_HAND",
 	MULLIGAN_HAND: "MULLIGAN_HAND",
 	PASS_PRIORITY: "PASS_PRIORITY",

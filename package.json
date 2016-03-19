@@ -6,7 +6,8 @@
   "browser": "browser.js",
   "dependencies": {
     "express": "^4.13.4",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "use-strict": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
