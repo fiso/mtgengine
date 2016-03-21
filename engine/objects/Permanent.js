@@ -1,7 +1,7 @@
 "use strict";
 var MTGObject = require("./MTGObject");
 var Constants = require("../Constants");
-var Events = require("../Events");
+var GameActions = require("../GameActions");
 var Outputs = require("../Outputs");
 
 class Permanent extends MTGObject {
@@ -69,14 +69,15 @@ class Permanent extends MTGObject {
 	}
 
 	tap () {
-		if (this._game.emitEvent(Events.PERMANENT_TAPPED, {permanent: this})) {
+		if (this._game.performGameAction(GameActions.TAP_PERMANENT, {permanent: this})) {
+			this._game.log("Tapping " + this._card._name);
 			this._tapState = Constants.tapStates.TAPPED;
 			this._game.addOutput(Outputs.PERMANENT_TAPPED, {permanent: this});
 		}
 	}
 
 	untap () {
-		if (this._game.emitEvent(Events.PERMANENT_UNTAPPED, {permanent: this})) {
+		if (this._game.performGameAction(GameActions.UNTAP_PERMANENT, {permanent: this})) {
 			this._game.log("Untapping " + this._card._name);
 			this._tapState = Constants.tapStates.UNTAPPED;
 			this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});

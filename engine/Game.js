@@ -1,7 +1,7 @@
 "use strict";
 var Player = require("./Player");
 var Constants = require("./Constants");
-var Events = require("./Events");
+var GameActions = require("./GameActions");
 var Inputs = require("./Inputs");
 var Outputs = require("./Outputs");
 var _ = require("underscore");
@@ -26,7 +26,7 @@ class Game {
 		this._guidCounters = {};
 		this._outputs = [];
 
-		this._eventListeners = {};
+		this._actionListeners = {};
 
 		for (var i = 0; i < numberOfPlayers; i++) {
 			var player = new Player(this);
@@ -258,22 +258,11 @@ class Game {
 				player.putLandIntoPlay(data.landCard, true);
 				break;
 
-			case Inputs.ANNOUNCE_SPELL:
-				var spell = player.announceSpell(data.card);
-				if (spell) {
-					this.emitEvent(Events.SPELL_ANNOUNCED, {spell: spell});
-				}
+			case Inputs.ACTIVATE_ABILITY:
+				player.activateAbility(data.object, data.abilityIndex);
 				break;
-			case Inputs.CHOOSE_MODES:
-				break;
-			case Inputs.CHOOSE_TARGETS:
-				break;
-			case Inputs.DISTRIBUTE_PARAMETERS:
-				break;
-			case Inputs.ACTIVATE_MANA_ABILITY:
-				break;
-			case Inputs.PAY_COST:
-				this.emitEvent(Events.SPELL_CAST, {spell: data.spell});
+			case Inputs.CAST_SPELL:
+				player.castSpell(data.card, data.targets);
 				break;
 
 			case Inputs.ABORT_SPELLCAST:
@@ -282,30 +271,32 @@ class Game {
 		}
 	}
 
-	registerEventListener (listener, event) {
-		if (!this._eventListeners[event]) {
-			this._eventListeners[event] = [];
+	registerActionListener (listener, gameAction) {
+		if (!this._actionListeners[gameAction]) {
+			this._actionListeners[gameAction] = [];
 		}
 
-		this._eventListeners[event].push(listener);
+		this._actionListeners[gameAction].push(listener);
 	}
 
 	/**
-	 * Notifies any listeners that something is about to happen to the gamestate.
-	 * This may or may not actually allow the event to happen, as we first check for
+	 * Attempt to perform an action that affects the game state.
+	 * This may or may not actually allow the action to happen, as we first check for
 	 * any replacement effects to be applied.
-	 * @returns {boolean} True if the event may happen as normal, false if it was replaced
+	 * @returns {Boolean} True if the action may happen as intended, false if it will be replaced
 	 */
-	emitEvent (event, data) {
-		if (!this._eventListeners[event]) {
+	performGameAction (gameAction, data) {
+		if (!this._actionListeners[gameAction]) {
 			return true;
 		}
 
-		this._eventListeners[event].forEach(listener => {
-			listener.onEvent(event, data);
+		this._actionListeners[gameAction].forEach(listener => {
+			listener.onGameAction(gameAction, data);
 		});
 
-		return true;
+		// FIXME: Handle multiple replacement effects properly
+
+		return false
 	}
 
 	/**

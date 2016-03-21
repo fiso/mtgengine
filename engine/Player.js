@@ -261,14 +261,37 @@ class Player {
 		var card = zone.removeObject(card);
 		assert(card);
 
+		var cost = card.getCost();
+		let hasUnpaidCosts = false;
+		Object.keys(cost.mana).forEach(manaType => {
+			this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
+			if (!this._manaPool[manaType] || 
+				(this._manaPool[manaType] < cost.mana[manaType])) {
+				hasUnpaidCosts = true;
+			} else {
+				this._game.log("Pool has " + this._manaPool[manaType]);
+				this._manaPool[manaType] -= cost.mana[manaType];
+			}
+		});
+
+		assert(!hasUnpaidCosts);
+		this._game.log("All costs paid");
+
 		var spell = new Spell(this._game, this, zone, card, targets);
 		this._game._stack.addObject(spell);
+		this._game.log("Spell added to stack");
 		return spell;
 	}
 
-	activateAbility (permanent, abilityIndex) {
-		var ability = permanent._card._abilities[abilityIndex];
-		ability.abilityCallback(this, [], [], []);
+	activateAbility (object, abilityIndex) {
+		let ability = object._card._abilities[abilityIndex];
+		if (ability.isManaAbility) {
+			ability.abilityCallback(this, [], [], []);
+		} else {
+			let abilityObject = new Ability(this._game, ability, this, object._card, []);
+			this._game._stack.addObject(abilityObject);
+			return abilityObject;
+		}
 	}
 
 	addToManaPool (mana, amount) {
@@ -276,7 +299,7 @@ class Player {
 			this._manaPool[mana] = 0;
 		}
 
-		console.log("ADDING TO MANA POOL: ", mana, amount);
+		this._game.log("ADDING TO MANA POOL: ", mana, amount);
 		this._manaPool[mana] += amount;
 	}
 

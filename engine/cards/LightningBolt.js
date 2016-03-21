@@ -19,8 +19,10 @@ class LightningBolt extends Card {
 	}
 
 	getCost () {
-		var cost = {};
-		cost[Constants.costs.RED] = 1;
+		var cost = {
+			mana: {}
+		};
+		cost["mana"][Constants.costs.RED] = 1;
 		return cost;
 	}
 }

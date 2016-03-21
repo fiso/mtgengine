@@ -30,7 +30,7 @@ function testGame () {
 									var cardInHand = cardsInHand[i];
 									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {
 										player.addInput(Inputs.ACTIVATE_ABILITY, {
-											permanent: game._battlefield.getPermanentsControlledByPlayer(player)[0],
+											object: game._battlefield.getPermanentsControlledByPlayer(player)[0],
 											abilityIndex: 0
 										});
 										player.addInput(Inputs.CAST_SPELL, {
