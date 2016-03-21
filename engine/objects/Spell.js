@@ -18,7 +18,10 @@ class Spell extends MTGObject {
     let zone = this.getCurrentZone();
     assert(zone._id === Constants.zoneIdentifiers.STACK);
     zone.removeObject(this);
-    this._controller._graveyard.addObject(card);
+    if (card.hasType(Constants.cardTypes.INSTANT) ||
+        card.hasType(Constants.cardTypes.SORCERY)) {
+      this._controller._graveyard.addObject(card);
+    }
   }
 
   getCost () {

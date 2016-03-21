@@ -14,7 +14,7 @@ class Library extends Zone {
     // DEBUG
     for (let i = 0; i < 30; i++) {
       this._objects.push(new BasicMountain(game));
-      this._objects.push(new LightningBolt(game));
+      this._objects.push(new GoblinBully(game));
     }
   }
 

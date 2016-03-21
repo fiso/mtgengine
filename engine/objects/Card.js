@@ -25,7 +25,7 @@ class Card extends MTGObject {
     return true;
   }
 
-  isType (type) {
+  hasType (type) {
     return this._types.indexOf(type) !== -1;
   }
 

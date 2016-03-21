@@ -246,7 +246,9 @@ class Player {
     let hasUnpaidCosts = false;
     Object.keys(cost.mana).forEach(manaType => {
       this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
-      if (!this._manaPool[manaType] || 
+      if (manaType === Constants.costs.GENERIC) {
+        this._game.log("FIXME: Considering generic mana to be auto-paid");
+      } else if (!this._manaPool[manaType] || 
         (this._manaPool[manaType] < cost.mana[manaType])) {
         hasUnpaidCosts = true;
       } else {

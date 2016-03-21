@@ -20,7 +20,7 @@ function testGame () {
 								let cardsInHand = player._hand.objects;
 								for (let i = 0; i < cardsInHand.length; i++) {
 									let cardInHand = cardsInHand[i];
-									if (cardInHand.isType(Constants.cardTypes.LAND)) {
+									if (cardInHand.hasType(Constants.cardTypes.LAND)) {
 										player.addInput(Inputs.PLAY_LAND, {landCard: cardInHand});
 										break;
 									}
@@ -29,21 +29,29 @@ function testGame () {
 								let cardsInHand = player._hand.objects;
 								for (let i = 0; i < cardsInHand.length; i++) {
 									let cardInHand = cardsInHand[i];
-									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {
-										player.addInput(Inputs.ACTIVATE_ABILITY, {
-											object: game._battlefield.getPermanentsControlledByPlayer(player)[0],
-											abilityIndex: 0
-										});
-										player.addInput(Inputs.CAST_SPELL, {
-											card: cardInHand,
-											targets: [game.getNextPlayer(player)]
-										});
-										player.addInput(Inputs.PASS_PRIORITY, {});
-										break;
+									if (cardInHand.hasType(Constants.cardTypes.CREATURE)) {
+										if (game._battlefield.getPermanentsControlledByPlayer(player).length > 1) {
+											player.addInput(Inputs.ACTIVATE_ABILITY, {
+												object: game._battlefield.getPermanentsControlledByPlayer(player)[0],
+												abilityIndex: 0
+											});
+											player.addInput(Inputs.ACTIVATE_ABILITY, {
+												object: game._battlefield.getPermanentsControlledByPlayer(player)[1],
+												abilityIndex: 0
+											});
+											player.addInput(Inputs.CAST_SPELL, {
+												card: cardInHand,
+												targets: [game.getNextPlayer(player)]
+											});
+										}
 									}
+									player.addInput(Inputs.PASS_PRIORITY, {});
+									break;
 								}
 							}
 						}
+					} else if (game._currentStep === Constants.steps.DECLARE_ATTACKERS) {
+						// FIXME: Attack!
 					}
 				}				
 

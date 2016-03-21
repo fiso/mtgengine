@@ -16,8 +16,11 @@ class GoblinBully extends Card {
   resolve (controller) {
     this._game.log("Goblin Bully resolves");
 
-    return new Permanent(this._game, controller,
-      controller, card);
+    return new Permanent(
+      this._game,
+      controller,
+      controller,
+      this);
   }
 
   get cost () {
