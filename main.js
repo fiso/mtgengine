@@ -17,7 +17,7 @@ function testGame () {
 						game._currentStep === Constants.steps.MAIN2) {
 						if (game._stack.empty()) {
 							if (player._landPlaysRemaining > 0) {
-								var cardsInHand = player._hand.getObjects();
+								var cardsInHand = player._hand.objects;
 								for (var i = 0; i < cardsInHand.length; i++) {
 									var cardInHand = cardsInHand[i];
 									if (cardInHand.isType(Constants.cardTypes.LAND)) {
@@ -26,7 +26,7 @@ function testGame () {
 									}
 								}
 							} else {
-								var cardsInHand = player._hand.getObjects();
+								var cardsInHand = player._hand.objects;
 								for (var i = 0; i < cardsInHand.length; i++) {
 									var cardInHand = cardsInHand[i];
 									if (cardInHand.isType(Constants.cardTypes.INSTANT)) {

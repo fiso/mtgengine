@@ -47,7 +47,7 @@ class Game {
 		if (this._silenceLogging) {
 			return;
 		}
-		
+
 		console.log(str);
 	}
 
@@ -95,7 +95,7 @@ class Game {
 			this._stack.resolveTopObject();
 			this.resetProrityPassers();
 			this.setPriority(this._activePlayer);
-			this._game.log("OBJECT RESOLVED");
+			this.log("OBJECT RESOLVED");
 		}
 	}
 

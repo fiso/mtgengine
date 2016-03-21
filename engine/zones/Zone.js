@@ -27,11 +27,11 @@ class Zone {
 		this._game.log("Object entered " + this._id);
 	}
 
-	getNumberOfObjects () {
+	get numberOfObjects () {
 		return this._objects.length;
 	}
 
-	getObjects () {
+	get objects () {
 		return this._objects;
 	}
 

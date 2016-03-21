@@ -138,7 +138,7 @@ class Player {
 	onCleanup (activePlayer) {
 		if (activePlayer) {
 			var cardsDiscarded = 0;
-			while (this.getHand().getNumberOfObjects() > this.getMaximumHandSize()) {
+			while (this.getHand().numberOfObjects > this.getMaximumHandSize()) {
 				var card = this.discardCard();
 				cardsDiscarded += card ? 1 : 0;
 			}
@@ -189,7 +189,7 @@ class Player {
 			this._game.log(this._guid + " tried to draw from an empty library");
 		} else {
 			this._hand.addObject(card);
-			this._game.log(this._guid + " draws " + card._name + ". " + this._library.getObjects().length + " cards left in library.");
+			this._game.log(this._guid + " draws " + card._name + ". " + this._library.objects.length + " cards left in library.");
 		}
 	}
 
@@ -214,7 +214,7 @@ class Player {
 	}
 
 	discardCard () {
-		var card = this._hand.getObjects().pop();
+		var card = this._hand.objects.pop();
 		if (card) {
 			this._graveyard.addObject(card);
 		}
