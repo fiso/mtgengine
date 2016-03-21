@@ -33,7 +33,7 @@ class Card extends MTGObject {
 		this._game.log("Card resolves");
 	}
 
-	getCost () {
+	get cost () {
 		return {};
 	}
 

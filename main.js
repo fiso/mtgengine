@@ -1,10 +1,11 @@
+"use strict";
 var Game = require("./engine/Game");
 var Constants = require("./engine/Constants");
 var Inputs = require("./engine/Inputs");
 
 function testGame () {
 	try {
-		var game = new Game.Game(2, 0);
+		let game = new Game.Game(2, 0);
 		var p0 = game._players[0];
 		var p1 = game._players[1];
 

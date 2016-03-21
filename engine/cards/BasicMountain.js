@@ -13,7 +13,7 @@ class BasicMountain extends Card {
 		this.addAbility(
 			[],
 			function (controller, modes, targets, parameters) {
-				console.log("Mountain ability activated");
+				this._game.log("Mountain ability activated");
 				controller.addToManaPool(Constants.manaTypes.RED, 1);
 			}, true);
 	}

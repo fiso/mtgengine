@@ -20,7 +20,7 @@ class GoblinBully extends Card {
 			controller, card);
 	}
 
-	getCost () {
+	get cost () {
 		var cost = {
 			mana: {}
 		};

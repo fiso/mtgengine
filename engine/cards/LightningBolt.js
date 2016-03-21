@@ -18,7 +18,7 @@ class LightningBolt extends Card {
 		targets[0].damage(3, this._guid, false);
 	}
 
-	getCost () {
+	get cost () {
 		var cost = {
 			mana: {}
 		};

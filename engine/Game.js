@@ -15,7 +15,7 @@ class GameOver {
 }
 
 class Game {
-	constructor (numberOfPlayers, startingPlayerIndex) {
+	constructor (numberOfPlayers, startingPlayerIndex, silenceLogging) {
 		this._turnNumber = 0;
 		this._players = [];
 		this._currentStep = -1;
@@ -25,6 +25,7 @@ class Game {
 		this._stack = new Stack(this);
 		this._guidCounters = {};
 		this._outputs = [];
+		this._silenceLogging = silenceLogging;
 
 		this._actionListeners = {};
 
@@ -43,6 +44,10 @@ class Game {
 	}
 
 	log (str) {
+		if (this._silenceLogging) {
+			return;
+		}
+		
 		console.log(str);
 	}
 
@@ -88,6 +93,9 @@ class Game {
 			this.advanceToNextStep();
 		} else {
 			this._stack.resolveTopObject();
+			this.resetProrityPassers();
+			this.setPriority(this._activePlayer);
+			this._game.log("OBJECT RESOLVED");
 		}
 	}
 

@@ -1,6 +1,7 @@
 "use strict";
 var MTGObject = require("./MTGObject");
 var Constants = require("../Constants");
+var assert = require("assert");
 
 class Spell extends MTGObject {
 	constructor (game, controller, fromZone, card, targets) {
@@ -12,7 +13,12 @@ class Spell extends MTGObject {
 	}
 
 	resolve () {
-		this._card.resolve(this._controller, this._targets);
+		let card = this._card;
+		card.resolve(this._controller, this._targets);
+		let zone = this.getCurrentZone();
+		assert(zone._id === Constants.zoneIdentifiers.STACK);
+		zone.removeObject(this);
+		this._controller._graveyard.addObject(card);
 	}
 
 	getCost () {

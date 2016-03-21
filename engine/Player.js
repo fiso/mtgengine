@@ -237,31 +237,12 @@ class Player {
 		return permanent;
 	}
 
-	announceSpell (card) {
-		var zone = card.getCurrentZone();
-		var card = zone.removeObject(card);
-		assert(card);
-
-		var spell = new Spell(this._game, this, card, targets);
-		this._game._stack.addObject(spell);
-		return spell;
-	}
-
-	abortSpellCast (spell) {
-		var zone = spell.getCurrentZone();
-		var spell = zone.removeObject(spell);
-		assert(spell);
-		assert(spell._card);
-
-		spell._castFromZone.addObject(spell._card);
-	}
-
 	castSpell (card, targets) {
 		var zone = card.getCurrentZone();
 		var card = zone.removeObject(card);
 		assert(card);
 
-		var cost = card.getCost();
+		var cost = card.cost;
 		let hasUnpaidCosts = false;
 		Object.keys(cost.mana).forEach(manaType => {
 			this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
@@ -280,6 +261,7 @@ class Player {
 		var spell = new Spell(this._game, this, zone, card, targets);
 		this._game._stack.addObject(spell);
 		this._game.log("Spell added to stack");
+		this._game.log(spell.getCurrentZone()._id);
 		return spell;
 	}
 

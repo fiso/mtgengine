@@ -24,6 +24,7 @@ class Zone {
 		this._objects.push(object);
 		object.placeInZone(this);
 		this._game.addOutput(Outputs.OBJECT_ENTERED_ZONE, {object: object});
+		this._game.log("Object entered " + this._id);
 	}
 
 	getNumberOfObjects () {
