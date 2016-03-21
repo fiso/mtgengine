@@ -1,7 +1,7 @@
 "use strict";
 const Card = require("../objects/Card");
 const Constants = require ("../Constants");
-const Permanent = require("../objects/Permanent");
+const Creature = require("../objects/Creature");
 const assert = require("assert");
 
 class GoblinBully extends Card {
@@ -16,11 +16,11 @@ class GoblinBully extends Card {
   resolve (controller) {
     this._game.log("Goblin Bully resolves");
 
-    return new Permanent(
+    return new Creature(
       this._game,
       controller,
       controller,
-      this);
+      this, 2, 1);
   }
 
   get cost () {

@@ -7,6 +7,7 @@ const Outputs = require("./Outputs");
 const _ = require("underscore");
 const Battlefield = require("./zones/Battlefield");
 const Stack = require("./zones/Stack");
+const assert = require("assert");
 
 class GameOver {
   constructor (winner) {
@@ -26,6 +27,8 @@ class Game {
     this._guidCounters = {};
     this._outputs = [];
     this._silenceLogging = silenceLogging;
+    this._waitingForChoice = false;
+    this._playerMakingChoice = null;
 
     this._actionListeners = {};
 
@@ -69,6 +72,36 @@ class Game {
     this._priorityPassers = [];
   }
 
+  requireChoice (player) {
+    assert(!this._waitingForChoice);
+    this.log("---- Pausing for choice ----");
+    this._waitingForChoice = true;
+    this._playerMakingChoice = player;
+  }
+
+  finishChoice (player) {
+    assert(this._waitingForChoice);
+    this.log("---- Finishing choice ----");
+    this._waitingForChoice = false;
+    this._playerMakingChoice = null;
+
+    switch (this._currentStep) {
+      case Constants.steps.DECLARE_ATTACKERS:
+        this.finishDeclareAttackers();
+        break;
+    }
+  }
+
+  finishDeclareAttackers () {
+    let permanents = this._battlefield.getPermanentsControlledByPlayer(this._activePlayer);
+    this.log("--> Locking in attackers");
+    permanents.forEach(permanent => {
+      if (permanent.isCreature() && permanent.attacking) {
+        permanent.tap();
+      }
+    });
+  }
+
   passPriority (player) {
     this._priorityPassers.push(player._guid);
 
@@ -99,7 +132,17 @@ class Game {
     }
   }
 
+  passOrFinishChoice () {
+    let player = this._hasPriority;
+    if (this._waitingForChoice) {
+      player.addInput(Inputs.FINISH_CHOICE, {});
+    } else {
+      player.addInput(Inputs.PASS_PRIORITY, {});
+    }
+  }
+
   advanceToNextStep () {
+    assert(!this._waitingForChoice);
     this.resetProrityPassers();
     this._players.forEach(player => {
       player.emptyManaPool();
@@ -135,11 +178,13 @@ class Game {
 
     this.performTurnbasedActions();
 
-    while (this.performStateBasedActions() > 0) {
-    }
+    if (!this._waitingForChoice) {
+      while (this.performStateBasedActions() > 0) {
+      }
 
-    if (!this.playersShouldReceivePriority(this._currentStep)) {
-      this.advanceToNextStep();
+      if (!this.playersShouldReceivePriority(this._currentStep)) {
+        this.advanceToNextStep();
+      }
     }
   }
 
@@ -198,6 +243,16 @@ class Game {
   }
 
   performTurnbasedActions () {
+    switch (this._currentStep) {
+      case Constants.steps.DECLARE_ATTACKERS:
+        this.requireChoice(this._activePlayer);
+        break;
+      case Constants.steps.DECLARE_BLOCKERS:
+        this.givePriorityToNextPlayer();
+        this.requireChoice(this.getNextPlayer(this._activePlayer));
+        break;
+    }
+
     this._players.forEach(player => {
       player.performTurnbasedActions(
         this._currentStep,
@@ -256,6 +311,9 @@ class Game {
     switch(input) {
       case Inputs.PASS_PRIORITY:
         this.passPriority(player);
+        break;
+      case Inputs.FINISH_CHOICE:
+        this.finishChoice(player);
         break;
       case Inputs.CONCEDE:
         player.concede();

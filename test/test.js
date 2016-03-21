@@ -17,8 +17,7 @@ describe('Game', function() {
       try {
         while (true) {
           if (game.isWaitingForInput()) {
-            let player = game._hasPriority;
-            player.addInput(Inputs.PASS_PRIORITY, {});
+            game.passOrFinishChoice();
           } else {
             game.tick();
           }
