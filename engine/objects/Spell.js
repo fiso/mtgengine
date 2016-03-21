@@ -1,7 +1,7 @@
 "use strict";
-var MTGObject = require("./MTGObject");
-var Constants = require("../Constants");
-var assert = require("assert");
+const MTGObject = require("./MTGObject");
+const Constants = require("../Constants");
+const assert = require("assert");
 
 class Spell extends MTGObject {
 	constructor (game, controller, fromZone, card, targets) {

@@ -1,10 +1,10 @@
 "use strict";
-let assert = require('assert');
-let Constants = require("../engine/Constants");
-let Inputs = require("../engine/Inputs");
-let Permanent = require("../engine/objects/Permanent");
-let BasicMountain = require("../engine/cards/BasicMountain");
-let Game = require("../engine/Game");
+const assert = require('assert');
+const Constants = require("../engine/Constants");
+const Inputs = require("../engine/Inputs");
+const Permanent = require("../engine/objects/Permanent");
+const BasicMountain = require("../engine/cards/BasicMountain");
+const Game = require("../engine/Game");
 
 describe('Game', function() {
   let game = new Game.Game(2, 0, true);

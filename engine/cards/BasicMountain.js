@@ -1,6 +1,6 @@
 "use strict";
-var Card = require("../objects/Card");
-var Constants = require ("../Constants");
+const Card = require("../objects/Card");
+const Constants = require ("../Constants");
 
 class BasicMountain extends Card {
 	constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
-var Zone = require("./Zone");
-var Constants = require ("../Constants");
+const Zone = require("./Zone");
+const Constants = require ("../Constants");
 
 class Hand extends Zone {
 	constructor (game, owner) {

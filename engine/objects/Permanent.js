@@ -1,8 +1,8 @@
 "use strict";
-var MTGObject = require("./MTGObject");
-var Constants = require("../Constants");
-var GameActions = require("../GameActions");
-var Outputs = require("../Outputs");
+const MTGObject = require("./MTGObject");
+const Constants = require("../Constants");
+const GameActions = require("../GameActions");
+const Outputs = require("../Outputs");
 
 class Permanent extends MTGObject {
 	constructor (game, owner, controller, card) {

@@ -1,11 +1,11 @@
 "use strict";
-var Library = require("./zones/Library");
-var Graveyard = require("./zones/Graveyard");
-var Hand = require("./zones/Hand");
-var Permanent = require("./objects/Permanent");
-var Spell = require("./objects/Spell");
-var assert = require("assert");
-var Constants = require("./Constants");
+const Library = require("./zones/Library");
+const Graveyard = require("./zones/Graveyard");
+const Hand = require("./zones/Hand");
+const Permanent = require("./objects/Permanent");
+const Spell = require("./objects/Spell");
+const assert = require("assert");
+const Constants = require("./Constants");
 
 class Player {
 	constructor (game) {
@@ -23,7 +23,7 @@ class Player {
 		this._landPlaysRemaining = 0;
 		this._manaPool = {};
 
-		for (var i = 0; i < 7; i++) {
+		for (let i = 0; i < 7; i++) {
 			this.drawCard();
 		}
 	}
@@ -82,7 +82,7 @@ class Player {
 
 	onUntap (activePlayer) {
 		if (activePlayer) {
-			var permanents = this._game._battlefield.getPermanentsControlledByPlayer(this);
+			let permanents = this._game._battlefield.getPermanentsControlledByPlayer(this);
 			permanents.forEach(permanent => {
 				permanent.untap();
 			});
@@ -137,9 +137,9 @@ class Player {
 
 	onCleanup (activePlayer) {
 		if (activePlayer) {
-			var cardsDiscarded = 0;
+			let cardsDiscarded = 0;
 			while (this.getHand().numberOfObjects > this.getMaximumHandSize()) {
-				var card = this.discardCard();
+				let card = this.discardCard();
 				cardsDiscarded += card ? 1 : 0;
 			}
 			if (cardsDiscarded > 0) {
@@ -183,7 +183,7 @@ class Player {
 	}
 
 	drawCard () {
-		var card = this._library.drawCard();
+		let card = this._library.drawCard();
 		if (!card) {
 			this._triedToDrawFromEmptyLibrary = true;
 			this._game.log(this._guid + " tried to draw from an empty library");
@@ -214,7 +214,7 @@ class Player {
 	}
 
 	discardCard () {
-		var card = this._hand.objects.pop();
+		let card = this._hand.objects.pop();
 		if (card) {
 			this._graveyard.addObject(card);
 		}
@@ -230,19 +230,19 @@ class Player {
 			this._landPlaysRemaining--;
 		}
 
-		var card = this._hand.removeObject(landCard);
+		let card = this._hand.removeObject(landCard);
 		assert(card);
 
-		var permanent = new Permanent(this._game, this, this, landCard);
+		let permanent = new Permanent(this._game, this, this, landCard);
 		return permanent;
 	}
 
 	castSpell (card, targets) {
-		var zone = card.getCurrentZone();
-		var card = zone.removeObject(card);
+		let zone = card.getCurrentZone();
+		card = zone.removeObject(card);
 		assert(card);
 
-		var cost = card.cost;
+		let cost = card.cost;
 		let hasUnpaidCosts = false;
 		Object.keys(cost.mana).forEach(manaType => {
 			this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
@@ -258,7 +258,7 @@ class Player {
 		assert(!hasUnpaidCosts);
 		this._game.log("All costs paid");
 
-		var spell = new Spell(this._game, this, zone, card, targets);
+		let spell = new Spell(this._game, this, zone, card, targets);
 		this._game._stack.addObject(spell);
 		this._game.log("Spell added to stack");
 		this._game.log(spell.getCurrentZone()._id);

@@ -1,6 +1,6 @@
 "use strict";
-var Zone = require("./Zone");
-var Constants = require ("../Constants");
+const Zone = require("./Zone");
+const Constants = require ("../Constants");
 
 class Stack extends Zone {
 	constructor (game) {
@@ -8,7 +8,7 @@ class Stack extends Zone {
 	}
 
 	resolveTopObject () {
-		var object = this._objects.pop();
+		let object = this._objects.pop();
 		if (object) {
 			object.resolve();
 		}

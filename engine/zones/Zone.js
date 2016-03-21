@@ -1,9 +1,9 @@
 "use strict";
-var Constants = require("../Constants");
-var assert = require("assert");
-var MTGObject = require("../objects/MTGObject");
-var Card = require("../objects/Card");
-var Outputs = require("../Outputs");
+const Constants = require("../Constants");
+const assert = require("assert");
+const MTGObject = require("../objects/MTGObject");
+const Card = require("../objects/Card");
+const Outputs = require("../Outputs");
 
 class Zone {
 	constructor (game, zoneType, ownership, owner, id) {
@@ -36,7 +36,7 @@ class Zone {
 	}
 
 	removeObject (object) {
-		var index = this._objects.indexOf(object);
+		let index = this._objects.indexOf(object);
 		if (index === -1) {
 			return null;
 		}

@@ -1,6 +1,6 @@
 "use strict";
-var MTGObject = require("./MTGObject");
-var Constants = require("../Constants");
+const MTGObject = require("./MTGObject");
+const Constants = require("../Constants");
 
 class Card extends MTGObject {
 	constructor (game, name, superTypes, types, subTypes, imageUrl) {

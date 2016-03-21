@@ -1,7 +1,7 @@
 "use strict";
-var Card = require("../objects/Card");
-var Constants = require ("../Constants");
-var assert = require("assert");
+const Card = require("../objects/Card");
+const Constants = require ("../Constants");
+const assert = require("assert");
 
 class LightningBolt extends Card {
 	constructor(game) {
@@ -19,7 +19,7 @@ class LightningBolt extends Card {
 	}
 
 	get cost () {
-		var cost = {
+		let cost = {
 			mana: {}
 		};
 		cost["mana"][Constants.costs.RED] = 1;

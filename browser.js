@@ -1,8 +1,8 @@
 "use strict";
-var Game = require("./engine/Game");
-var Constants = require("./engine/Constants");
-var Inputs = require("./engine/Inputs");
-var Outputs = require("./engine/Outputs");
+const Game = require("./engine/Game");
+const Constants = require("./engine/Constants");
+const Inputs = require("./engine/Inputs");
+const Outputs = require("./engine/Outputs");
 
 function handleNewTime (data) {
 	document.getElementById("turn-number").innerHTML = data.turnNumber;

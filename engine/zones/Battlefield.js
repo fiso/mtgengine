@@ -1,6 +1,6 @@
 "use strict";
-var Zone = require("./Zone");
-var Constants = require ("../Constants");
+const Zone = require("./Zone");
+const Constants = require ("../Constants");
 
 class Battlefield extends Zone {
 	constructor (game) {
@@ -8,7 +8,7 @@ class Battlefield extends Zone {
 	}
 
 	performStateBasedActions () {
-		var actionsPerformed = 0;
+		let actionsPerformed = 0;
 		this._objects.forEach(permanent => {
 			if (permanent.isCreature()) {
 				if (permanent.hasLethalDamage()) {
@@ -22,7 +22,7 @@ class Battlefield extends Zone {
 	}
 
 	onCleanup () {
-		var actionsPerformed = 0;
+		let actionsPerformed = 0;
 		this._objects.forEach(permanent => {
 			permanent.onCleanup();
 		});
@@ -31,7 +31,7 @@ class Battlefield extends Zone {
 	}
 
 	getPermanentsControlledByPlayer (player) {
-		var permanents = [];
+		let permanents = [];
 		this._objects.forEach(permanent => {
 			if (permanent.isControlledBy(player)) {
 				permanents.push(permanent);
@@ -42,7 +42,7 @@ class Battlefield extends Zone {
 	}
 
 	getPermanentsOwnedByPlayer (player) {
-		var permanents = [];
+		let permanents = [];
 		this._objects.forEach(permanent => {
 			if (permanent.isControlledBy(player)) {
 				permanents.push(permanent);

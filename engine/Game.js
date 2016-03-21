@@ -1,12 +1,12 @@
 "use strict";
-var Player = require("./Player");
-var Constants = require("./Constants");
-var GameActions = require("./GameActions");
-var Inputs = require("./Inputs");
-var Outputs = require("./Outputs");
-var _ = require("underscore");
-var Battlefield = require("./zones/Battlefield");
-var Stack = require("./zones/Stack");
+const Player = require("./Player");
+const Constants = require("./Constants");
+const GameActions = require("./GameActions");
+const Inputs = require("./Inputs");
+const Outputs = require("./Outputs");
+const _ = require("underscore");
+const Battlefield = require("./zones/Battlefield");
+const Stack = require("./zones/Stack");
 
 class GameOver {
 	constructor (winner) {
@@ -29,8 +29,8 @@ class Game {
 
 		this._actionListeners = {};
 
-		for (var i = 0; i < numberOfPlayers; i++) {
-			var player = new Player(this);
+		for (let i = 0; i < numberOfPlayers; i++) {
+			let player = new Player(this);
 			this._players.push(player);
 		}
 
@@ -72,7 +72,7 @@ class Game {
 	passPriority (player) {
 		this._priorityPassers.push(player._guid);
 
-		var allPassed = true;
+		let allPassed = true;
 		this._players.forEach(player => {
 			if (this._priorityPassers.indexOf(player._guid) === -1) {
 				allPassed = false;
@@ -144,8 +144,8 @@ class Game {
 	}
 
 	getNextPlayer (currentPlayer) {
-		var isNext = false;
-		var nextPlayer = null;
+		let isNext = false;
+		let nextPlayer = null;
 		this._players.forEach(player => {
 			if (isNext && !nextPlayer) {
 				nextPlayer = player;
@@ -169,7 +169,7 @@ class Game {
 	}
 
 	givePriorityToNextPlayer () {
-		var playerReceivingPriority = this.getNextPlayer(this._hasPriority);
+		let playerReceivingPriority = this.getNextPlayer(this._hasPriority);
 		this.setPriority(playerReceivingPriority);
 	}
 
@@ -178,7 +178,7 @@ class Game {
 	 */
 	performStateBasedActions () {
 
-		var playersStillInGame = [];
+		let playersStillInGame = [];
 		this._players.forEach(player => {
 			if (!player.hasLost()) {
 				playersStillInGame.push(player);
@@ -191,7 +191,7 @@ class Game {
 			this.handleGameDrawn();
 		}
 
-		var actionsPerformed = 0;
+		let actionsPerformed = 0;
 		actionsPerformed += this._battlefield.performStateBasedActions();
 
 		return actionsPerformed;
@@ -230,7 +230,7 @@ class Game {
 
 	tick () {
 		if (this.playersShouldReceivePriority(this._currentStep)) {
-			var input = this._hasPriority.getInput();
+			let input = this._hasPriority.getInput();
 			if (input) {
 				this.handleInput(this._hasPriority, input.input, input.data);
 			}	
@@ -318,7 +318,7 @@ class Game {
 	}
 
 	getOutputs () {
-		var ret = this._outputs;
+		let ret = this._outputs;
 		this._outputs = [];
 		return ret;
 	}
