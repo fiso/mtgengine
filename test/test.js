@@ -10,7 +10,7 @@ describe('Game', function() {
   let game = new Game.Game(2, 0, true);
 
   describe('# Continuous priority passing', function () {
-    it('Should make drawing player lose', function () {
+    it('Should make drawing player lose by drawing from empty library', function () {
       let p0 = game._players[0];
       let p1 = game._players[1];
 

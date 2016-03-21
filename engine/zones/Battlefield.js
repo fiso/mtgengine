@@ -3,54 +3,54 @@ const Zone = require("./Zone");
 const Constants = require ("../Constants");
 
 class Battlefield extends Zone {
-	constructor (game) {
-		super(game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED, null, Constants.zoneIdentifiers.BATTLEFIELD);
-	}
+  constructor (game) {
+    super(game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED, null, Constants.zoneIdentifiers.BATTLEFIELD);
+  }
 
-	performStateBasedActions () {
-		let actionsPerformed = 0;
-		this._objects.forEach(permanent => {
-			if (permanent.isCreature()) {
-				if (permanent.hasLethalDamage()) {
-					// FIXME: Dies
-					actionsPerformed++;
-				}
-			}
-		});
+  performStateBasedActions () {
+    let actionsPerformed = 0;
+    this._objects.forEach(permanent => {
+      if (permanent.isCreature()) {
+        if (permanent.hasLethalDamage()) {
+          // FIXME: Dies
+          actionsPerformed++;
+        }
+      }
+    });
 
-		return actionsPerformed;
-	}
+    return actionsPerformed;
+  }
 
-	onCleanup () {
-		let actionsPerformed = 0;
-		this._objects.forEach(permanent => {
-			permanent.onCleanup();
-		});
+  onCleanup () {
+    let actionsPerformed = 0;
+    this._objects.forEach(permanent => {
+      permanent.onCleanup();
+    });
 
-		return actionsPerformed;
-	}
+    return actionsPerformed;
+  }
 
-	getPermanentsControlledByPlayer (player) {
-		let permanents = [];
-		this._objects.forEach(permanent => {
-			if (permanent.isControlledBy(player)) {
-				permanents.push(permanent);
-			}
-		});
+  getPermanentsControlledByPlayer (player) {
+    let permanents = [];
+    this._objects.forEach(permanent => {
+      if (permanent.isControlledBy(player)) {
+        permanents.push(permanent);
+      }
+    });
 
-		return permanents;
-	}
+    return permanents;
+  }
 
-	getPermanentsOwnedByPlayer (player) {
-		let permanents = [];
-		this._objects.forEach(permanent => {
-			if (permanent.isControlledBy(player)) {
-				permanents.push(permanent);
-			}
-		});
+  getPermanentsOwnedByPlayer (player) {
+    let permanents = [];
+    this._objects.forEach(permanent => {
+      if (permanent.isControlledBy(player)) {
+        permanents.push(permanent);
+      }
+    });
 
-		return permanents;
-	}
+    return permanents;
+  }
 }
 
 module.exports = Battlefield;
