@@ -139,7 +139,8 @@ class Player {
     if (activePlayer) {
       let cardsDiscarded = 0;
       while (this.getHand().numberOfObjects > this.getMaximumHandSize()) {
-        let card = this.discardCard();
+        // FIXME: Let the player choose a card
+        let card = this.discardRandomCard();
         cardsDiscarded += card ? 1 : 0;
       }
       if (cardsDiscarded > 0) {
@@ -213,7 +214,8 @@ class Player {
     return this._maximumHandSize;
   }
 
-  discardCard () {
+  discardRandomCard () {
+    // FIXME: This is not random, it just picks the last card
     let card = this._hand.objects.pop();
     if (card) {
       this._graveyard.addObject(card);

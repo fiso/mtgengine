@@ -4,6 +4,7 @@ const assert = require("assert");
 const MTGObject = require("../objects/MTGObject");
 const Card = require("../objects/Card");
 const Outputs = require("../Outputs");
+const Utils = require("../Utils");
 
 class Zone {
   constructor (game, zoneType, ownership, owner, id) {
@@ -18,6 +19,10 @@ class Zone {
 
   empty () {
     return this._objects.length === 0;
+  }
+
+  shuffle () {
+    Utils.shuffle(this._objects);
   }
 
   addObject (object) {

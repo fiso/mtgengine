@@ -16,6 +16,7 @@ class Library extends Zone {
       this._objects.push(new BasicMountain(game));
       this._objects.push(new GoblinBully(game));
     }
+    this.shuffle();
   }
 
   drawCard () {
