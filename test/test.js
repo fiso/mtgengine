@@ -5,6 +5,7 @@ const Inputs = require("../engine/Inputs");
 const Permanent = require("../engine/objects/Permanent");
 const BasicMountain = require("../engine/cards/BasicMountain");
 const Game = require("../engine/Game");
+const Cost = require("../engine/Cost");
 
 describe('Game', function() {
   let game = new Game.Game(2, 0, true);
@@ -51,6 +52,22 @@ describe('Permanent', function() {
     it('Should make the permanent untapped', function () {
       permanent.untap();
       assert(permanent._tapState === Constants.tapStates.UNTAPPED);
+    });
+  });
+});
+
+describe('Cost', function() {
+
+  describe('# cmc()', function () {
+    it('Should understand cmc of costs', function () {
+      assert(new Cost("{2}{B}{B}").cmc === 4);
+      assert(new Cost("{4}").cmc === 4);
+      assert(new Cost("{X}").cmc === 0);
+      assert(new Cost("{X}{X}").cmc === 0);
+      assert(new Cost("{UB}{UB}").cmc === 2);
+      assert(new Cost("{W2}{W2}{W2}").cmc === 6);
+      assert(new Cost("{2}{C}").cmc === 3);
+      assert(new Cost("{C}{C}").cmc === 2);
     });
   });
 });
