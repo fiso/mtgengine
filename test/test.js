@@ -142,6 +142,15 @@ describe('Permanent', function() {
       assert(permanent._tapState === Constants.tapStates.UNTAPPED);
     });
   });
+
+  describe('# tapOrUntap()', function () {
+    it('Should toggle the tap state of the permanent', function () {
+      permanent.tapOrUntap();
+      assert(permanent._tapState === Constants.tapStates.TAPPED);
+      permanent.tapOrUntap();
+      assert(permanent._tapState === Constants.tapStates.UNTAPPED);
+    });
+  });
 });
 
 describe('Cost', function() {

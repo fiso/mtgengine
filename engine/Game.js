@@ -175,8 +175,7 @@ class Game {
     this.performTurnbasedActions();
 
     if (!this._waitingForChoice) {
-      while (this.performStateBasedActions() > 0) {
-      }
+      this.performAllStateBasedActions();
 
       if (!this.playersShouldReceivePriority(this._currentStep)) {
         this.advanceToNextStep();
@@ -236,6 +235,11 @@ class Game {
     actionsPerformed += this._battlefield.performStateBasedActions();
 
     return actionsPerformed;
+  }
+
+  performAllStateBasedActions () {
+      while (this.performStateBasedActions() > 0) {
+      }
   }
 
   performTurnbasedActions () {
@@ -300,8 +304,7 @@ class Game {
    * Handles incoming input from players
    */
   handleInput (player, input, data) {
-    while (this.performStateBasedActions() > 0) {
-    }
+    this.performAllStateBasedActions();
 
     this.log(">> " + player._guid + " " + input);
     switch(input) {
@@ -313,8 +316,7 @@ class Game {
         break;
       case Inputs.CONCEDE:
         player.concede();
-        while (this.performStateBasedActions() > 0) {
-        }
+        this.performAllStateBasedActions();
         break;
       case Inputs.PLAY_LAND:
         player.putLandIntoPlay(data.landCard, true);

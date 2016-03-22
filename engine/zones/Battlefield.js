@@ -11,8 +11,16 @@ class Battlefield extends Zone {
     let actionsPerformed = 0;
     this._objects.forEach(permanent => {
       if (permanent.isCreature()) {
-        if (permanent.hasLethalDamage()) {
-          // FIXME: Dies
+        let shouldDie = false;
+        if (permanent.hasNonPositiveToughness()) {
+          shouldDie = true;
+        }
+        if (permanent.hasLethalDamage() && true /* FIXME: "not indestructible*/ ) {
+          shouldDie = true;
+        }
+
+        if (shouldDie) {
+          permanent.die();
           actionsPerformed++;
         }
       }

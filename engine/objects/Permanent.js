@@ -42,6 +42,16 @@ class Permanent extends MTGObject {
     return true;
   }
 
+  destroy () {
+    // FIXME: Check indestructibility
+    this.die();
+  }
+
+  die () {
+    this._game._battlefield.removeObject(this);
+    this._owner._graveyard.addObject(this._card);
+  }
+
   /**
    * @returns {number} The current power of the permanent, if it's a creature.
    */
