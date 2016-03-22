@@ -8,10 +8,10 @@ const Game = require("../engine/Game");
 const Cost = require("../engine/Cost");
 
 describe('Game', function() {
-  let game = new Game.Game(2, 0, true);
 
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library', function () {
+      let game = new Game.Game(2, 0, true);
       let p0 = game._players[0];
       let p1 = game._players[1];
 
@@ -24,13 +24,101 @@ describe('Game', function() {
           }
         }
       } catch (e) {
-        if (e instanceof Game.GameOver) {
-          assert(p1.hasLost());
-          assert(p1._triedToDrawFromEmptyLibrary);
-        } else {
+        if (!(e instanceof Game.GameOver)) {
           throw e;
         }
       }
+      
+      assert(p1.hasLost());
+      assert(p1._triedToDrawFromEmptyLibrary);
+    });
+  });
+
+  describe('# Dealing damage to one player', function () {
+    it('Should make that player lose by damage', function () {
+      let game = new Game.Game(2, 0, true);
+      let p0 = game._players[0];
+      let p1 = game._players[1];
+
+      try {
+        while (true) {
+          if (game.isWaitingForInput()) {
+            game.passOrFinishChoice();
+            p0.damage(3, "debug", false);
+          } else {
+            game.tick();
+          }
+        }
+      } catch (e) {
+        if (!(e instanceof Game.GameOver)) {
+          throw e;
+        }
+      }
+
+      assert(p0.hasLost());
+      assert(!p0._triedToDrawFromEmptyLibrary);
+      assert(p0._life <= 0);
+    });
+  });
+
+  describe('# Dealing infect damage to one player', function () {
+    it('Should make that player lose by poison counters', function () {
+      let game = new Game.Game(2, 0, true);
+      let p0 = game._players[0];
+      let p1 = game._players[1];
+
+      try {
+        while (true) {
+          if (game.isWaitingForInput()) {
+            game.passOrFinishChoice();
+            p0.damage(3, "debug", true);
+          } else {
+            game.tick();
+          }
+        }
+      } catch (e) {
+        if (!(e instanceof Game.GameOver)) {
+          throw e;
+        }
+      }
+
+      assert(p0.hasLost());
+      assert(!p0._triedToDrawFromEmptyLibrary);
+      assert(p0._life >= 1);
+      assert(p0._poisonCounters >= 10);
+    });
+  });
+
+  describe('# Dealing damage to both players simultaneously', function () {
+    it('Should draw the game', function () {
+      let game = new Game.Game(2, 0, true);
+      let p0 = game._players[0];
+      let p1 = game._players[1];
+
+      try {
+        while (true) {
+          if (game.isWaitingForInput()) {
+            game.passOrFinishChoice();
+            p0.damage(3, "debug", false);
+            p1.damage(3, "debug", false);
+          } else {
+            game.tick();
+          }
+        }
+      } catch (e) {
+        if (!(e instanceof Game.GameOver)) {
+          throw e;
+        }
+      }
+
+      assert(p0.hasLost());
+      assert(p1.hasLost());
+      assert(!p0._triedToDrawFromEmptyLibrary);
+      assert(!p1._triedToDrawFromEmptyLibrary);
+      assert(p0._life <= 0);
+      assert(p1._life <= 0);
+      assert(p0._poisonCounters === 0);
+      assert(p1._poisonCounters === 0);
     });
   });
 });
