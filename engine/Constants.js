@@ -7,7 +7,6 @@ const Constants = {
     BEGIN_COMBAT: 4,
     DECLARE_ATTACKERS: 5,
     DECLARE_BLOCKERS: 6,
-    FIRST_COMBAT_DAMAGE: 7,
     COMBAT_DAMAGE: 8,
     END_COMBAT: 9,
     MAIN2: 10,
@@ -23,12 +22,11 @@ const Constants = {
     4: "BEGIN_COMBAT",
     5: "DECLARE_ATTACKERS",
     6: "DECLARE_BLOCKERS",
-    7: "FIRST_COMBAT_DAMAGE",
-    8: "COMBAT_DAMAGE",
-    9: "END_COMBAT",
-    10: "MAIN2",
-    11: "END",
-    12: "CLEANUP"
+    7: "COMBAT_DAMAGE",
+    8: "END_COMBAT",
+    9: "MAIN2",
+    10: "END",
+    11: "CLEANUP"
   },
 
   tapStates: {

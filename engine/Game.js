@@ -152,10 +152,6 @@ class Game {
         this._currentStep = Constants.steps.MAIN1; // Skip draw step on first turn
       } else {
         this._currentStep++;
-        if (this._currentStep === Constants.steps.FIRST_COMBAT_DAMAGE) {
-          // FIXME: Handle first strike better
-          this._currentStep++;
-        }
       }
     } else {
       this._turnNumber++;
