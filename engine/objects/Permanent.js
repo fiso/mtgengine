@@ -43,7 +43,9 @@ class Permanent extends MTGObject {
   }
 
   destroy () {
-    // FIXME: Check indestructibility
+    if (this.hasKeywordAbility(Constants.keywordAbilities.INDESTRUCTIBLE)) {
+      return;
+    }
     this.die();
   }
 

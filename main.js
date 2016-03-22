@@ -58,12 +58,11 @@ function testGame () {
             }
           } else if (game._currentStep === Constants.steps.DECLARE_ATTACKERS &&
                      game._waitingForChoice) {
-            // FIXME: Attack!
             let permanents = game._battlefield.getPermanentsControlledByPlayer(player);
             game.log("## Declaring attackers");
             permanents.forEach(permanent => {
               if (permanent.isCreature()) {
-                permanent.attacking = true;
+                permanent.attacking = game.getNextPlayer(player);
               }
             });
             game.log("## Finishing choice");

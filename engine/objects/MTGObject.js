@@ -15,7 +15,12 @@ class MTGObject {
 
   getCurrentZone () {
     return this._zone;
-  } 
+  }
+
+  hasKeywordAbility (keyword) {
+    // FIXME: Check properly
+    return false;
+  }
 }
 
 module.exports = MTGObject;

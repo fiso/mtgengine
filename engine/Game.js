@@ -96,8 +96,11 @@ class Game {
     let permanents = this._battlefield.getPermanentsControlledByPlayer(this._activePlayer);
     this.log("--> Locking in attackers");
     permanents.forEach(permanent => {
-      if (permanent.isCreature() && permanent.attacking) {
+      if (permanent.isCreature() &&
+          permanent.attacking && 
+          !permanent.hasKeywordAbility(Constants.keywordAbilities.VIGILANCE)) {
         permanent.tap();
+        permanent.resetBlockers();
       }
     });
   }
@@ -250,6 +253,14 @@ class Game {
       case Constants.steps.DECLARE_BLOCKERS:
         this.givePriorityToNextPlayer();
         this.requireChoice(this.getNextPlayer(this._activePlayer));
+        break;
+      case Constants.steps.COMBAT_DAMAGE:
+        this._battlefield.dealCombatDamage();
+        break;
+      case Constants.steps.MAIN2:
+        // This is not actually a turn-based action that exists, but
+        // I believe it will work as intended this way
+        this._battlefield.resetAttackers();
         break;
     }
 
