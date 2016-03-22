@@ -28,7 +28,7 @@ describe('Game', function() {
           throw e;
         }
       }
-      
+
       assert(p1.hasLost());
       assert(p1._triedToDrawFromEmptyLibrary);
     });
@@ -156,6 +156,11 @@ describe('Cost', function() {
       assert(new Cost("{W2}{W2}{W2}").cmc === 6);
       assert(new Cost("{2}{C}").cmc === 3);
       assert(new Cost("{C}{C}").cmc === 2);
+      assert(new Cost("{C}{C}").cmc === new Cost("{C}{C}{T}{Q}").cmc);
+      let allSymbols = "{C}{W}{U}{B}{R}{G}{W2}{U2}{B2}{R2}{G2}{P}{WP}{UP}{BP}{RP}{GP}{X}{Y}{Z}{S}{BG}{BR}{GU}{GW}{RG}{RW}{UB}{UR}{WB}{WU}";
+      assert(new Cost(allSymbols).cmc === 33);
+      assert(new Cost(allSymbols + "{15}").cmc === 48);
+      assert(new Cost("{1500}").cmc === 1500);
     });
   });
 });
