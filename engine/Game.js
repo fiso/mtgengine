@@ -220,6 +220,7 @@ class Game {
    * @returns {number} Number of actions taken
    */
   performStateBasedActions () {
+    this.log("::::: CHECKING STATE BASED ACTIONS :::::")
 
     let playersStillInGame = [];
     this._players.forEach(player => {
@@ -255,6 +256,7 @@ class Game {
         this.requireChoice(this.getNextPlayer(this._activePlayer));
         break;
       case Constants.steps.COMBAT_DAMAGE:
+        this.log("XXXX DEALING DAMAGE XXXX")
         this._battlefield.dealCombatDamage();
         break;
       case Constants.steps.MAIN2:

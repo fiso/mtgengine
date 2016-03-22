@@ -7,11 +7,11 @@ const Constants = {
     BEGIN_COMBAT: 4,
     DECLARE_ATTACKERS: 5,
     DECLARE_BLOCKERS: 6,
-    COMBAT_DAMAGE: 8,
-    END_COMBAT: 9,
-    MAIN2: 10,
-    END: 11,
-    CLEANUP: 12
+    COMBAT_DAMAGE: 7,
+    END_COMBAT: 8,
+    MAIN2: 9,
+    END: 10,
+    CLEANUP: 11
   },
 
   stepNames: {

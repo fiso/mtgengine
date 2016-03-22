@@ -89,7 +89,7 @@ describe('Game', function() {
     });
   });
 
-  describe('# Dealing damage to both players simultaneously', function () {
+  describe('# Dealing lethal damage to both players simultaneously', function () {
     it('Should draw the game', function () {
       let game = new Game.Game(2, 0, true);
       let p0 = game._players[0];
