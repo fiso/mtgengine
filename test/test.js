@@ -6,9 +6,9 @@ const Permanent = require("../engine/objects/Permanent");
 const BasicMountain = require("../engine/cards/BasicMountain");
 const Game = require("../engine/Game");
 const Cost = require("../engine/Cost");
+const Deck = require("../engine/Deck");
 
 describe('Game', function() {
-
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library', function () {
       let game = new Game.Game(2, 0, true);
@@ -124,7 +124,6 @@ describe('Game', function() {
 });
 
 describe('Permanent', function() {
-
   let game = new Game.Game(2, 0, true);
   let card = new BasicMountain(game);
   let permanent = new Permanent(game, game._players[0], game._players[0], card);
@@ -154,7 +153,6 @@ describe('Permanent', function() {
 });
 
 describe('Cost', function() {
-
   describe('# cmc()', function () {
     it('Should understand cmc of costs', function () {
       assert(new Cost("{2}{B}{B}").cmc === 4);
@@ -170,6 +168,89 @@ describe('Cost', function() {
       assert(new Cost(allSymbols).cmc === 33);
       assert(new Cost(allSymbols + "{15}").cmc === 48);
       assert(new Cost("{1500}").cmc === 1500);
+    });
+  });
+  describe('# getCmcOnStack()', function () {
+    it('Should understand cmc of costs', function () {
+      assert(new Cost("{2}{B}{B}").getCmcOnStack(1, 2, 3) === 4);
+      assert(new Cost("{X}").getCmcOnStack(1, 2, 3) === 1);
+      assert(new Cost("{X}{X}").getCmcOnStack(3, 2, 1) === 6);
+      assert(new Cost("{X}{Y}{Z}").getCmcOnStack(1, 2, 3) === 6);
+      assert(new Cost("{2}{W}{X}{X}").getCmcOnStack(2) === 7);
+    });
+  });
+});
+
+describe('Deck', function() {
+  describe('# Deck.DeckLoader', function () {
+    it('Should not be able to instantiate base class', function () {
+      let loader = undefined;
+      try {
+        loader = new Deck.DeckLoader();
+      } catch (TypeError) {
+        // This is the expected outcome
+      }
+      assert(!loader);
+    });
+  });
+
+  describe('# Deck.FSLoader', function () {
+    it('Should be able to instantiate with valid file', function () {
+      let loader = new Deck.FSLoader("decklists/kikichord.txt");
+      assert(loader);
+    });
+
+    it('Should not be able to instantiate with invalid file', function () {
+      let loader = null;
+      try {
+        loader = new Deck.FSLoader("nonexistant.file");
+      } catch (e) {
+
+      }
+      assert(!loader);
+    });
+
+    it('Should get 60 + 15 cards in provided test deck', function () {
+      let loader = new Deck.FSLoader("decklists/kikichord.txt");
+      assert(loader.mainDeck.length === 60);
+      assert(loader.sideboard.length === 15);
+    });
+
+  });
+
+  describe('# Deck.constructor()', function () {
+    it('Should not be able to instantiate without providing a loader', function () {
+      let deck = null;
+      try {
+        deck = new Deck.Deck();
+      } catch (e) {
+
+      }
+      assert(!deck);
+    });
+  });
+
+  describe('# Deck.HTTPLoader', function () {
+    it('Should be able to instantiate when provided with a loader', function () {
+      assert(new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")));
+    });
+  });
+
+  describe('# Deck.HTTPLoader', function () {
+    it('Should be able to load deck from URL', function (done) {
+      let loader = new Deck.HTTPLoader(
+        "http://deckbox.org/sets/1294166/export",
+        null,
+        Deck.DeckboxScraper);
+
+      loader.onLoaded(function () {
+          assert(loader.mainDeck);
+          assert(loader.mainDeck.length === 60);
+          assert(loader.sideboard);
+          assert(loader.sideboard.length === 15);
+          let deck = new Deck.Deck(loader);
+          done();
+        });
     });
   });
 });
