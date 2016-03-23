@@ -65,6 +65,24 @@ class Cost {
     });
     return cmc;
   }
+
+  getCmcOnStack (x, y, z) {
+    let cmc = this.cmc;
+    Object.keys(this._costs).forEach(type => {
+      switch (type) {
+        case Constants.costs.X:
+          cmc += this._costs[type] * x;
+          break;
+        case Constants.costs.Y:
+          cmc += this._costs[type] * y;
+          break;
+        case Constants.costs.Z:
+          cmc += this._costs[type] * z;
+          break;
+      }
+    });
+    return cmc;    
+  }
 }
 
 module.exports = Cost;
