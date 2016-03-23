@@ -32,6 +32,14 @@ function shuffle (array) {
   return array;
 }
 
+function replaceAll (string, search, replacement) {
+    return string.split(search).join(replacement);  
+}
+
+function stripTags (string) {
+  return string.replace(/<\/?[^>]+(>|$)/g, "");
+}
+
 module.exports = {
-  isNumeric, getCostTypeFromToken, shuffle
+  isNumeric, getCostTypeFromToken, shuffle, replaceAll, stripTags
 };
