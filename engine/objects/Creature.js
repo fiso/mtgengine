@@ -8,6 +8,15 @@ class Creature extends Permanent {
 		this._basePower = power;
 		this._baseToughness = toughness;
 		this._blockers = [];
+		this._blocking = [];
+	}
+
+	get power () {
+		return this._basePower;
+	}
+
+	get toughness () {
+		return this._baseToughness;
 	}
 
 	resetBlockers () {
@@ -26,16 +35,31 @@ class Creature extends Permanent {
 		return !!this._attacking;
 	}
 
-	get power () {
-		return this._basePower;
-	}
-
-	get toughness () {
-		return this._baseToughness;
-	}
-
 	get blocked () {
 		return this._blockers.length > 0;
+	}
+
+	resetBlocking () {
+		this._blocking = [];
+	}
+
+	startBlocking (attacker) {
+		if (this._blocking.indexOf(attacker) !== -1) {
+			this._game.log("Warning: startBlocking called twice for the same attacker");
+			return;
+		}
+
+		this._blocking.push(attacker);
+	}
+
+	stopBlocking (attacker) {
+		let index = this._blocking.indexOf(attacker);
+		assert(index !== -1);
+		this._blocking.splice(index, 1);
+	}
+
+	isBlocking () {
+		return this._blocking.length > 0;
 	}
 }
 
