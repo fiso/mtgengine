@@ -262,7 +262,7 @@ class Game {
       case Constants.steps.MAIN2:
         // This is not actually a turn-based action that exists, but
         // I believe it will work as intended this way
-        this._battlefield.resetAttackers();
+        this._battlefield.resetAttackersAndBlockers();
         break;
     }
 

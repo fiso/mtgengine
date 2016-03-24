@@ -55,9 +55,10 @@ class Battlefield extends Zone {
     });
   }
 
-  resetAttackers () {
+  resetAttackersAndBlockers () {
     this.creatures.forEach(creature => {
       creature.attacking = null;
+      creature.resetBlocking();
     });
   }
 

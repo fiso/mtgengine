@@ -9,6 +9,7 @@ class Creature extends Permanent {
 		this._baseToughness = toughness;
 		this._blockers = [];
 		this._blocking = [];
+		this._maxCreaturesToBlock = 1;
 	}
 
 	get power () {
@@ -49,7 +50,12 @@ class Creature extends Permanent {
 			return;
 		}
 
+		if (this._blocking.length >= this._maxCreaturesToBlock) {
+			return false;
+		}
+
 		this._blocking.push(attacker);
+		return true;
 	}
 
 	stopBlocking (attacker) {
