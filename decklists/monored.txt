@@ -1,0 +1,5 @@
+40 Mountain
+20 Lightning Bolt
+Sideboard:
+
+15 Goblin Bully

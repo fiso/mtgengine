@@ -11,7 +11,10 @@ const Deck = require("../engine/Deck");
 describe('Game', function() {
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library', function () {
-      let game = new Game.Game(2, 0, true);
+      let game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+       );
       let p0 = game._players[0];
       let p1 = game._players[1];
 
@@ -36,7 +39,10 @@ describe('Game', function() {
 
   describe('# Dealing damage to one player', function () {
     it('Should make that player lose by damage', function () {
-      let game = new Game.Game(2, 0, true);
+      let game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+       );
       let p0 = game._players[0];
       let p1 = game._players[1];
 
@@ -63,7 +69,10 @@ describe('Game', function() {
 
   describe('# Dealing infect damage to one player', function () {
     it('Should make that player lose by poison counters', function () {
-      let game = new Game.Game(2, 0, true);
+      let game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+       );
       let p0 = game._players[0];
       let p1 = game._players[1];
 
@@ -91,7 +100,10 @@ describe('Game', function() {
 
   describe('# Dealing lethal damage to both players simultaneously', function () {
     it('Should draw the game', function () {
-      let game = new Game.Game(2, 0, true);
+      let game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+       );
       let p0 = game._players[0];
       let p1 = game._players[1];
 
@@ -124,7 +136,10 @@ describe('Game', function() {
 });
 
 describe('Permanent', function() {
-  let game = new Game.Game(2, 0, true);
+  let game = new Game.Game(2, 0, true,
+    [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+   );
   let card = new BasicMountain(game);
   let permanent = new Permanent(game, game._players[0], game._players[0], card);
 
@@ -170,6 +185,7 @@ describe('Cost', function() {
       assert(new Cost("{1500}").cmc === 1500);
     });
   });
+
   describe('# getCmcOnStack()', function () {
     it('Should understand cmc of costs', function () {
       assert(new Cost("{2}{B}{B}").getCmcOnStack(1, 2, 3) === 4);
@@ -196,7 +212,7 @@ describe('Deck', function() {
 
   describe('# Deck.FSLoader', function () {
     it('Should be able to instantiate with valid file', function () {
-      let loader = new Deck.FSLoader("decklists/kikichord.txt");
+      let loader = new Deck.FSLoader("decklists/monored.txt");
       assert(loader);
     });
 
@@ -211,7 +227,7 @@ describe('Deck', function() {
     });
 
     it('Should get 60 + 15 cards in provided test deck', function () {
-      let loader = new Deck.FSLoader("decklists/kikichord.txt");
+      let loader = new Deck.FSLoader("decklists/monored.txt");
       assert(loader.mainDeck.length === 60);
       assert(loader.sideboard.length === 15);
     });
@@ -232,7 +248,7 @@ describe('Deck', function() {
 
   describe('# Deck.HTTPLoader', function () {
     it('Should be able to instantiate when provided with a loader', function () {
-      assert(new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")));
+      assert(new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")));
     });
   });
 

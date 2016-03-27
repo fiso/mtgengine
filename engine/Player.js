@@ -8,7 +8,7 @@ const assert = require("assert");
 const Constants = require("./Constants");
 
 class Player {
-  constructor (game) {
+  constructor (game, deck) {
     this._guid = game.getGuid("player");
     this._game = game;
     this._life = 20;
@@ -17,7 +17,7 @@ class Player {
     this._hasConceded = false;
     this._triedToDrawFromEmptyLibrary = false;
     this._inputQueue = [];
-    this._library = new Library(game, this);
+    this._library = new Library(game, this, deck);
     this._graveyard = new Graveyard(game, this);
     this._hand = new Hand(game, this);
     this._landPlaysRemaining = 0;
@@ -250,7 +250,7 @@ class Player {
       this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
       if (manaType === Constants.costs.GENERIC) {
         this._game.log("FIXME: Considering generic mana to be auto-paid");
-      } else if (!this._manaPool[manaType] || 
+      } else if (!this._manaPool[manaType] ||
         (this._manaPool[manaType] < cost.mana[manaType])) {
         hasUnpaidCosts = true;
       } else {

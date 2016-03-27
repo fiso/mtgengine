@@ -16,7 +16,10 @@ class GameOver {
 }
 
 class Game {
-  constructor (numberOfPlayers, startingPlayerIndex, silenceLogging) {
+  constructor ( numberOfPlayers,
+                startingPlayerIndex,
+                silenceLogging,
+                decks) {
     this._turnNumber = 0;
     this._players = [];
     this._currentStep = -1;
@@ -33,7 +36,7 @@ class Game {
     this._actionListeners = {};
 
     for (let i = 0; i < numberOfPlayers; i++) {
-      let player = new Player(this);
+      let player = new Player(this, decks[i]);
       this._players.push(player);
     }
 
@@ -97,7 +100,7 @@ class Game {
     this.log("--> Locking in attackers");
     permanents.forEach(permanent => {
       if (permanent.isCreature() &&
-          permanent.attacking && 
+          permanent.attacking &&
           !permanent.hasKeywordAbility(Constants.keywordAbilities.VIGILANCE)) {
         permanent.tap();
         permanent.resetBlockers();
@@ -301,7 +304,7 @@ class Game {
       let input = this._hasPriority.getInput();
       if (input) {
         this.handleInput(this._hasPriority, input.input, input.data);
-      } 
+      }
     }
   }
 

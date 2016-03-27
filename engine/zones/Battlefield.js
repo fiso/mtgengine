@@ -44,13 +44,22 @@ class Battlefield extends Zone {
 
   dealCombatDamage () {
     this.creatures.forEach(creature => {
-      // FIXME: Handle damage to blockers too
+      if (creature.isAttacking()) {
+        // FIXME: Handle damage assignment
 
-      if (creature.isAttacking() && !creature.blocked) {
-        creature.attacking.damage(
-          creature.power,
-          creature._guid,
-          creature.hasKeywordAbility(Constants.keywordAbilities.INFECT));
+        if (creature.blocked) {
+          // FIXME: Just deals damage to first blocker,
+          // Ignoring both multiple blockers and things like trample etc
+          creature._blockers[0].damage(
+            creature.power,
+            creature._guid,
+            creature.hasKeywordAbility(Constants.keywordAbilities.INFECT));
+        } else {
+          creature.attacking.damage(
+            creature.power,
+            creature._guid,
+            creature.hasKeywordAbility(Constants.keywordAbilities.INFECT));
+        }
       }
     });
   }

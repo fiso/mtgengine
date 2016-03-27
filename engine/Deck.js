@@ -119,6 +119,9 @@ class Deck {
   constructor (deckLoader) {
     assert(deckLoader);
     assert(deckLoader._loaded);
+
+    this._mainDeck = deckLoader._mainDeck;
+    this._sideboard = deckLoader._sideboard;
   }
 }
 

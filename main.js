@@ -2,10 +2,14 @@
 const Game = require("./engine/Game");
 const Constants = require("./engine/Constants");
 const Inputs = require("./engine/Inputs");
+const Deck = require("./engine/Deck");
 
 function testGame () {
   try {
-    let game = new Game.Game(2, 0);
+    let game = new Game.Game(2, 0, false,
+      [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
+       new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))]
+      );
     let p0 = game._players[0];
     let p1 = game._players[1];
 
