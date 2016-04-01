@@ -30,7 +30,16 @@ div {
 }
 
 .card {
+  transition: width 0.2s ease-in-out;
   width: 100px;
+}
+
+#player0 .card {
+  vertical-align: top;
+}
+
+.card:hover {
+  width: 160px;
 }
 
 .zone {
@@ -124,7 +133,7 @@ div {
 }
 
 #active-player-name {
-  padding-right: 50px;  
+  padding-right: 50px;
 }
 
 #turn-indicator {
