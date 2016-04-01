@@ -53,6 +53,7 @@ Sideboard:
 1 Sin Collector
 1 Spellskite
 2 Stony Silence`;
+
 function handleNewTime (data) {
 	document.getElementById("turn-number").innerHTML = data.turnNumber;
 	document.getElementById("active-player-name").innerHTML = data.activePlayer._guid.replace("_", " ");
@@ -87,12 +88,22 @@ function handleObjectEnteredZone (data) {
 	}
 }
 
+function handleGameOver (winner) {
+	if (!winner) {
+		alert("The game is a draw");
+	} else {
+		alert(`${winner._guid} has won the game`);
+	}
+	window.location.reload();
+}
+
 function processInputs () {
 	try {
 		game.tick();
 	} catch (e) {
 		if (e instanceof Game.GameOver) {
 			console.log("Game over.");
+			handleGameOver(e.winner);
 			return;
 		} else {
 			throw e;
@@ -132,6 +143,10 @@ window.startGame = function () {
 	window.game = game;
 
 	game.ready().then(() => {
+		document.addEventListener("contextmenu", function (event) {
+			event.preventDefault();
+			return false;
+		});
 		document.getElementById("player0-pass").addEventListener("click", function () {
 			let input = Inputs.PASS_PRIORITY;
 			if (game._waitingForChoice) {
@@ -157,15 +172,14 @@ window.startGame = function () {
 			processInputs();
 		});
 		document.addEventListener("keydown", function (event) {
-	        event = event || window.event;
-	        switch (event.keyCode) {
-	        	case 32: // SPACE
-							window.game.passOrFinishChoice();
-							processInputs();
-	        		break;
-	        }
+	    event = event || window.event;
+	    switch (event.keyCode) {
+	    	case 32: // SPACE
+					window.game.passOrFinishChoice();
+					processInputs();
+	    		break;
+	    }
 		});
-
 		processOutputs();
 	});
 }
