@@ -3,6 +3,17 @@ const fs = require("fs");
 const http = require("http");
 const Utils = require("./Utils");
 const assert = require("assert");
+const url = require("url");
+
+function DeckboxScraper (html) {
+  let scraped = html;
+  scraped = html.slice(html.toLowerCase().indexOf("<body>"));
+  scraped = Utils.replaceAll(scraped, "<br/>", "\n");
+  scraped = Utils.replaceAll(scraped, "<br />", "\n");
+  scraped = Utils.replaceAll(scraped, "<br>", "\n");
+  scraped = Utils.stripTags(scraped);
+  return scraped;
+}
 
 class DeckLoader {
   constructor () {
@@ -12,9 +23,12 @@ class DeckLoader {
 
     this._mainDeck = [];
     this._sideboard = [];
-    this._loadedCallbacks = [];
-    this._loaded = false;
-    this._callbacksRan = false;
+    this._resolve = null;
+    this._reject = null;
+    this._promise = new Promise((resolve, reject) => {
+      this._resolve = resolve;
+      this._reject = reject;
+    });
   }
 
   parseFile (fileContents) {
@@ -41,26 +55,12 @@ class DeckLoader {
         target.push(item);
       }
     }
-    this._loaded = true;
-    this.invokeLoadedCallbacksIfLoaded();
+
+    this._resolve();
   }
 
-  onLoaded (callback) {
-    this._loadedCallbacks.push(callback);
-    this.invokeLoadedCallbacksIfLoaded();
-  }
-
-  invokeLoadedCallbacksIfLoaded () {
-    if (!this._loaded) {
-      return;
-    }
-
-    assert(!this._callbacksRan);
-
-    for (let callback of this._loadedCallbacks) {
-      callback(this);
-    }
-    this._callbacksRan = true;
+  ready () {
+    return this._promise;
   }
 
   get mainDeck () {
@@ -79,23 +79,22 @@ class FSLoader extends DeckLoader {
   }
 }
 
-function DeckboxScraper (html) {
-  let scraped = html;
-  scraped = html.slice(html.toLowerCase().indexOf("<body>"));
-  scraped = Utils.replaceAll(scraped, "<br/>", "\n");
-  scraped = Utils.replaceAll(scraped, "<br />", "\n");
-  scraped = Utils.replaceAll(scraped, "<br>", "\n");
-  scraped = Utils.stripTags(scraped);
-  return scraped;
+class StringLoader extends DeckLoader {
+  constructor (decklistString) {
+    super();
+    this.parseFile(decklistString);
+  }
 }
 
 class HTTPLoader extends DeckLoader {
-  constructor (url, callback, scraper) {
+  constructor (urlString, scraper) {
     super();
 
+    let urlInfo = url.parse(urlString);
+
     http.request({
-      host: "deckbox.org",
-      path: "/sets/1294166/export"
+      host: urlInfo.host,
+      path: urlInfo.pathname
     }, response => {
       let data = "";
       response.on("data", chunk => {
@@ -107,9 +106,6 @@ class HTTPLoader extends DeckLoader {
           html = scraper(html);
         }
         this.parseFile(html);
-        if (callback) {
-          callback();
-        }
       })
     }).end();
   }
@@ -118,13 +114,21 @@ class HTTPLoader extends DeckLoader {
 class Deck {
   constructor (deckLoader) {
     assert(deckLoader);
-    assert(deckLoader._loaded);
 
-    this._mainDeck = deckLoader._mainDeck;
-    this._sideboard = deckLoader._sideboard;
+    this._promise = new Promise((resolve, reject) => {
+      deckLoader.ready().then(() => {
+        this._mainDeck = deckLoader._mainDeck;
+        this._sideboard = deckLoader._sideboard;
+        resolve();
+      });
+    });
+  }
+
+  ready () {
+    return this._promise;
   }
 }
 
 module.exports = {
-  Deck, DeckLoader, FSLoader, HTTPLoader, DeckboxScraper
+  Deck, DeckLoader, FSLoader, HTTPLoader, StringLoader, DeckboxScraper
 };

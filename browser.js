@@ -3,7 +3,56 @@ const Game = require("./engine/Game");
 const Constants = require("./engine/Constants");
 const Inputs = require("./engine/Inputs");
 const Outputs = require("./engine/Outputs");
+const Deck = require("./engine/Deck");
 
+const kikiChordList =
+`1 Fire-Lit Thicket
+2 Forest
+1 Ghost Quarter
+1 Horizon Canopy
+1 Mountain
+1 Overgrown Tomb
+1 Plains
+1 Raging Ravine
+2 Razorverge Thicket
+1 Sacred Foundry
+2 Stomping Ground
+1 Temple Garden
+4 Windswept Heath
+4 Wooded Foothills
+4 Birds of Paradise
+4 Chord of Calling
+2 Courser of Kruphix
+2 Eternal Witness
+1 Fulminator Mage
+1 Kiki-Jiki, Mirror Breaker
+1 Lone Missionary
+1 Orzhov Pontiff
+4 Path to Exile
+2 Pia and Kiran Nalaar
+1 Qasali Pridemage
+3 Restoration Angel
+1 Reveillark
+1 Scavenging Ooze
+1 Spellskite
+2 Voice of Resurgence
+3 Wall of Omens
+2 Wall of Roots
+1 Worship
+Sideboard:
+
+1 Big Game Hunter
+1 Dismember
+1 Eidolon of Rhetoric
+1 Fulminator Mage
+3 Lightning Helix
+1 Obstinate Baloth
+1 Phyrexian Revoker
+1 Reclamation Sage
+1 Scavenging Ooze
+1 Sin Collector
+1 Spellskite
+2 Stony Silence`;
 function handleNewTime (data) {
 	document.getElementById("turn-number").innerHTML = data.turnNumber;
 	document.getElementById("active-player-name").innerHTML = data.activePlayer._guid.replace("_", " ");
@@ -77,33 +126,38 @@ function processOutputs() {
 }
 
 window.startGame = function () {
-	window.game = new Game.Game(2, 0);
+	let game = new Game.Game(2, 0, false,
+		[new Deck.Deck(new Deck.StringLoader(kikiChordList)),
+		 new Deck.Deck(new Deck.StringLoader(kikiChordList))]);
+	window.game = game;
 
-	document.getElementById("player0-pass").addEventListener("click", function () {
-		game._players[0].addInput(Inputs.PASS_PRIORITY, {});
-		processInputs();
-	});
-	document.getElementById("player1-pass").addEventListener("click", function () {
-		game._players[1].addInput(Inputs.PASS_PRIORITY, {});
-		processInputs();
-	});
-	document.getElementById("player0-concede").addEventListener("click", function () {
-		game._players[0].addInput(Inputs.CONCEDE, {});
-		processInputs();
-	});
-	document.getElementById("player1-concede").addEventListener("click", function () {
-		game._players[1].addInput(Inputs.CONCEDE, {});
-		processInputs();
-	});
-	document.addEventListener("keydown", function (event) {
-        event = event || window.event;
-        switch (event.keyCode) {
-        	case 32: // SPACE
-        		window.game._hasPriority.addInput(Inputs.PASS_PRIORITY, {});
-				processInputs();
-        		break;
-        }
-	});
+	game.ready().then(() => {
+		document.getElementById("player0-pass").addEventListener("click", function () {
+			game._players[0].addInput(Inputs.PASS_PRIORITY, {});
+			processInputs();
+		});
+		document.getElementById("player1-pass").addEventListener("click", function () {
+			game._players[1].addInput(Inputs.PASS_PRIORITY, {});
+			processInputs();
+		});
+		document.getElementById("player0-concede").addEventListener("click", function () {
+			game._players[0].addInput(Inputs.CONCEDE, {});
+			processInputs();
+		});
+		document.getElementById("player1-concede").addEventListener("click", function () {
+			game._players[1].addInput(Inputs.CONCEDE, {});
+			processInputs();
+		});
+		document.addEventListener("keydown", function (event) {
+	        event = event || window.event;
+	        switch (event.keyCode) {
+	        	case 32: // SPACE
+							window.game.passOrFinishChoice();
+							processInputs();
+	        		break;
+	        }
+		});
 
-	processOutputs();
+		processOutputs();
+	});
 }

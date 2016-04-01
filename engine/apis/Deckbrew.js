@@ -56,14 +56,28 @@ class Deckbrew extends CardFetcher {
               }
             }
 
-            // Pick out the best matching edition
+            // Pick out the best matching edition that has a non-null image
             let edition = card.editions[0];
             bestMatch = -1;
             for (let editionIter of card.editions) {
-              let pos = editionIter["set"].toLowerCase().indexOf(set);
-              if (pos !== -1 && pos < bestMatch) {
-                bestMatch = pos;
+              if (editionIter.image_url.indexOf("/0.jpg") !== -1) {
+                continue;
+              }
+
+              if (set) {
+                // If we were given a specific set...
+                let pos = editionIter["set"].toLowerCase().indexOf(set);
+                if (pos === -1) {
+                  continue;
+                }
+                if (pos < bestMatch) {
+                  bestMatch = pos;
+                  edition = editionIter;
+                }
+              } else {
+                // If set doesn't matter
                 edition = editionIter;
+                break;
               }
             }
 

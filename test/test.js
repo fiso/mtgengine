@@ -124,26 +124,28 @@ describe('Deck', function() {
   });
 
   describe('# Deck.HTTPLoader', function () {
-    it('Should be able to instantiate when provided with a loader', function () {
-      assert(new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")));
+    it('Should be able to instantiate when provided with a loader', function (done) {
+      let deck = new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"));
+      assert(deck);
+      deck.ready().then(() => {
+        assert(deck._mainDeck.length === 60);
+        assert(deck._sideboard.length === 15);
+        done();
+      });
     });
   });
 
   describe('# Deck.HTTPLoader', function () {
     it('Should be able to load deck from URL', function (done) {
-      let loader = new Deck.HTTPLoader(
-        "http://deckbox.org/sets/1294166/export",
-        null,
-        Deck.DeckboxScraper);
-
-      loader.onLoaded(function () {
-          assert(loader.mainDeck);
-          assert(loader.mainDeck.length === 60);
-          assert(loader.sideboard);
-          assert(loader.sideboard.length === 15);
-          let deck = new Deck.Deck(loader);
-          done();
-        });
+      let deck = new Deck.Deck(
+        new Deck.HTTPLoader("http://deckbox.org/sets/1294166/export",
+        Deck.DeckboxScraper));
+      assert(deck);
+      deck.ready().then(() => {
+        assert(deck._mainDeck.length === 60);
+        assert(deck._sideboard.length === 15);
+        done();
+      });
     });
   });
 });
@@ -160,7 +162,7 @@ describe('Deckbrew API', function() {
 });
 
 describe('Game', function() {
-  this.timeout(20000);
+  this.timeout(10000);
 
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library', function (done) {

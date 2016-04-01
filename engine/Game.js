@@ -55,31 +55,37 @@ class Game {
 
   ready () {
     return new Promise((resolve, reject) => {
-      let playerPromises = [];
-      for (let i = 0; i < this._numberOfPlayers; i++) {
-        let promise = new Promise((resolve, reject) => {
-            let player = new Player(this, this._decks[i], () => {
-              resolve();
-            });
-            this._players.push(player);
-        });
-        playerPromises.push(promise);
+      let deckPromises = [];
+      for (let deck of this._decks) {
+        deckPromises.push(deck.ready());
       }
+      Promise.all(deckPromises).then(() => {
+        let playerPromises = [];
+        for (let i = 0; i < this._numberOfPlayers; i++) {
+          let promise = new Promise((resolve, reject) => {
+              let player = new Player(this, this._decks[i], () => {
+                resolve();
+              });
+              this._players.push(player);
+          });
+          playerPromises.push(promise);
+        }
 
-      Promise.all(playerPromises).then(() => {
-        for (let player of this._players) {
-          for (let i = 0; i < 7; i++) {
-            player.drawCard();
+        Promise.all(playerPromises).then(() => {
+          for (let player of this._players) {
+            for (let i = 0; i < 7; i++) {
+              player.drawCard();
+            }
           }
-        }
 
-        this._activePlayer = this._players[this._startingPlayerIndex];
-        this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
-        for (let player of this._players) {
-          player.onNewTurn(player === this._activePlayer);
-        }
-        this.advanceToNextStep();
-        resolve();
+          this._activePlayer = this._players[this._startingPlayerIndex];
+          this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
+          for (let player of this._players) {
+            player.onNewTurn(player === this._activePlayer);
+          }
+          this.advanceToNextStep();
+          resolve();
+        });
       });
     });
   }
@@ -204,7 +210,6 @@ class Game {
     this.performTurnbasedActions();
 
     if (!this._waitingForChoice) {
-      debugger;
       this.performAllStateBasedActions();
 
       if (!this.playersShouldReceivePriority(this._currentStep)) {

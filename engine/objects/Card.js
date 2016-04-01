@@ -20,6 +20,10 @@ class Card extends MTGObject {
     this._game._cardApi.getCard(name, set).then((card) => {
       assert(card.name === name);
       this._name = card.name;
+      this._imageUrl = card.printing.image_url;
+      if (this._imageUrl.indexOf("id/0.jpg") !== -1) {
+        console.log(`${name} has no valid image`);
+      }
       if (card.supertypes) {
         this._superTypes = _.map(card.supertypes, function (superType) {
           return Constants.cardSuperTypes[superType.toUpperCase()] ?
@@ -39,7 +43,6 @@ class Card extends MTGObject {
           return subtype.toUpperCase();
         });
       }
-      this._imageUrl = card.printing.image_url;
 
       if (callback) {
         callback(this);
