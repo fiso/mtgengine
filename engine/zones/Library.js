@@ -5,21 +5,26 @@ const Card = require("../objects/Card");
 const CardLoader = require("../cards/CardLoader");
 
 class Library extends Zone {
-  constructor (game, owner, deck) {
+  constructor (game, owner, deck, onComplete) {
     super(game, Constants.zoneTypes.HIDDEN, Constants.zoneOwnership.PLAYER, owner, Constants.zoneIdentifiers.LIBRARY);
 
-    deck._mainDeck.forEach(cardName => {
+    this._onComplete = onComplete;
+
+    for (let cardName of deck._mainDeck) {
       let loader = new CardLoader(cardName, undefined, card => {
         this._objects.push(card);
-        /*if (this._objects.length === deck._mainDeck.length) {
+        if (this._objects.length === deck._mainDeck.length) {
           this.onDeckCompleted();
-        }*/
+        }
       }, game);
-    });
+    }
   }
 
   onDeckCompleted () {
     this.shuffle();
+    if (this._onComplete) {
+      this._onComplete();
+    }
   }
 
   drawCard () {

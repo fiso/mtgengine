@@ -3,14 +3,29 @@ const MTGObject = require("./MTGObject");
 const Constants = require("../Constants");
 
 class Card extends MTGObject {
-  constructor (game, name, superTypes, types, subTypes, imageUrl) {
+  constructor (game, callback, name, set, superTypes, types, subTypes, imageUrl) {
     super(game);
+    if (new.target === Card) {
+      throw new TypeError("Card is not to be used directly");
+    }
     this._name = name;
     this._superTypes = superTypes ? superTypes.slice() : [];
     this._types = types ? types.slice() : [];
     this._subTypes = subTypes ? subTypes.slice() : [];
     this._abilities = [];
     this._imageUrl = imageUrl;
+
+    this._game._cardApi.getCard(name, set).then((card) => {
+      this._name = card.name;
+      //this._superTypes = superTypes ? superTypes.slice() : [];
+      //this._types = types ? types.slice() : [];
+      //this._subTypes = subTypes ? subTypes.slice() : [];
+      this._imageUrl = card.printing.image_url;
+
+      if (callback) {
+        callback(this);
+      }
+    });
   }
 
   isBasicLand () {

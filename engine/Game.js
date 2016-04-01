@@ -7,6 +7,7 @@ const Outputs = require("./Outputs");
 const _ = require("underscore");
 const Battlefield = require("./zones/Battlefield");
 const Stack = require("./zones/Stack");
+const Deckbrew = require("./apis/Deckbrew");
 const assert = require("assert");
 
 class GameOver {
@@ -20,6 +21,7 @@ class Game {
                 startingPlayerIndex,
                 silenceLogging,
                 decks) {
+    this._cardApi = new Deckbrew();
     this._turnNumber = 0;
     this._players = [];
     this._currentStep = -1;
@@ -32,21 +34,11 @@ class Game {
     this._silenceLogging = silenceLogging;
     this._waitingForChoice = false;
     this._playerMakingChoice = null;
+    this._numberOfPlayers = numberOfPlayers;
+    this._startingPlayerIndex = startingPlayerIndex;
+    this._decks = decks;
 
     this._actionListeners = {};
-
-    for (let i = 0; i < numberOfPlayers; i++) {
-      let player = new Player(this, decks[i]);
-      this._players.push(player);
-    }
-
-    this._activePlayer = this._players[startingPlayerIndex];
-
-    this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
-    this._players.forEach(player => {
-      player.onNewTurn(player === this._activePlayer);
-    });
-    this.advanceToNextStep();
   }
 
   log (str) {
@@ -59,6 +51,37 @@ class Game {
 
   logCurrentGameTime () {
     this.log("== It is now the " + Constants.stepNames[this._currentStep] + " step ==");
+  }
+
+  ready () {
+    return new Promise((resolve, reject) => {
+      let playerPromises = [];
+      for (let i = 0; i < this._numberOfPlayers; i++) {
+        let promise = new Promise((resolve, reject) => {
+            let player = new Player(this, this._decks[i], () => {
+              resolve();
+            });
+            this._players.push(player);
+        });
+        playerPromises.push(promise);
+      }
+
+      Promise.all(playerPromises).then(() => {
+        for (let player of this._players) {
+          for (let i = 0; i < 7; i++) {
+            player.drawCard();
+          }
+        }
+
+        this._activePlayer = this._players[this._startingPlayerIndex];
+        this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
+        for (let player of this._players) {
+          player.onNewTurn(player === this._activePlayer);
+        }
+        this.advanceToNextStep();
+        resolve();
+      });
+    });
   }
 
   getGuid (prefix) {
@@ -98,25 +121,25 @@ class Game {
   finishDeclareAttackers () {
     let permanents = this._battlefield.getPermanentsControlledByPlayer(this._activePlayer);
     this.log("--> Locking in attackers");
-    permanents.forEach(permanent => {
+    for (let permanent of permanents) {
       if (permanent.isCreature() &&
           permanent.attacking &&
           !permanent.hasKeywordAbility(Constants.keywordAbilities.VIGILANCE)) {
         permanent.tap();
         permanent.resetBlockers();
       }
-    });
+    }
   }
 
   passPriority (player) {
     this._priorityPassers.push(player._guid);
 
     let allPassed = true;
-    this._players.forEach(player => {
+    for (let player of this._players) {
       if (this._priorityPassers.indexOf(player._guid) === -1) {
         allPassed = false;
       }
-    });
+    }
 
     if (allPassed) {
       this.handleAllPassed();
@@ -150,9 +173,9 @@ class Game {
   advanceToNextStep () {
     assert(!this._waitingForChoice);
     this.resetProrityPassers();
-    this._players.forEach(player => {
+    for (let player of this._players) {
       player.emptyManaPool();
-    });
+    }
     if (this._currentStep < Constants.steps.CLEANUP) {
       if (this._turnNumber === 0 && this._currentStep === Constants.steps.UPKEEP) {
         this._currentStep = Constants.steps.MAIN1; // Skip draw step on first turn
@@ -164,9 +187,9 @@ class Game {
       this.log("\n>>>>>>>>>>>>>> TURN " + this._turnNumber + " <<<<<<<<<<<<<<")
       this._activePlayer = this.getNextPlayer(this._activePlayer);
       this._currentStep = Constants.steps.UNTAP;
-      this._players.forEach(player => {
+      for (let player of this._players) {
         player.onNewTurn(player === this._activePlayer);
-      });
+      }
     }
     this.setPriority(this._activePlayer);
 
@@ -181,6 +204,7 @@ class Game {
     this.performTurnbasedActions();
 
     if (!this._waitingForChoice) {
+      debugger;
       this.performAllStateBasedActions();
 
       if (!this.playersShouldReceivePriority(this._currentStep)) {
@@ -192,13 +216,13 @@ class Game {
   getNextPlayer (currentPlayer) {
     let isNext = false;
     let nextPlayer = null;
-    this._players.forEach(player => {
+    for (let player of this._players) {
       if (isNext && !nextPlayer) {
         nextPlayer = player;
       } else if (currentPlayer === player) {
         isNext = true;
       }
-    });
+    }
 
     if (!nextPlayer) {
       nextPlayer = this._players[0];
@@ -226,11 +250,11 @@ class Game {
     this.log("::::: CHECKING STATE BASED ACTIONS :::::")
 
     let playersStillInGame = [];
-    this._players.forEach(player => {
+    for (let player of this._players) {
       if (!player.hasLost()) {
         playersStillInGame.push(player);
       }
-    });
+    }
 
     if (playersStillInGame.length === 1) {
       this.handleGameWon(playersStillInGame[0]);
@@ -269,11 +293,11 @@ class Game {
         break;
     }
 
-    this._players.forEach(player => {
+    for (let player of this._players) {
       player.performTurnbasedActions(
         this._currentStep,
         player === this._activePlayer);
-    });
+    }
 
     if (this._currentStep === Constants.steps.CLEANUP) {
       while (this._battlefield.onCleanup() !== 0) {
@@ -370,9 +394,9 @@ class Game {
       return true;
     }
 
-    this._actionListeners[gameAction].forEach(listener => {
+    for (let listener of this._actionListeners[gameAction]) {
       listener.onGameAction(gameAction, data);
-    });
+    }
 
     // FIXME: Handle multiple replacement effects properly
 

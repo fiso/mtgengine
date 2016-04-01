@@ -7,130 +7,145 @@ const BasicMountain = require("../engine/cards/BasicMountain");
 const Game = require("../engine/Game");
 const Cost = require("../engine/Cost");
 const Deck = require("../engine/Deck");
+const Deckbrew = require("../engine/apis/Deckbrew");
 
 describe('Game', function() {
-  describe('# Continuous priority passing', function () {
-    it('Should make drawing player lose by drawing from empty library', function () {
-      let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
-       );
-      let p0 = game._players[0];
-      let p1 = game._players[1];
+  this.timeout(20000);
 
-      try {
-        while (true) {
-          if (game.isWaitingForInput()) {
-            game.passOrFinishChoice();
-          } else {
-            game.tick();
+  describe('# Continuous priority passing', function () {
+    it('Should make drawing player lose by drawing from empty library', function (done) {
+      let game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
+
+      game.ready().then(() => {
+        let p0 = game._players[0];
+        let p1 = game._players[1];
+
+        try {
+          while (true) {
+            if (game.isWaitingForInput()) {
+              game.passOrFinishChoice();
+            } else {
+             game.tick();
+            }
+          }
+        } catch (e) {
+          if (!(e instanceof Game.GameOver)) {
+            throw e;
           }
         }
-      } catch (e) {
-        if (!(e instanceof Game.GameOver)) {
-          throw e;
-        }
-      }
 
-      assert(p1.hasLost());
-      assert(p1._triedToDrawFromEmptyLibrary);
+        assert(p1.hasLost());
+        assert(p1._triedToDrawFromEmptyLibrary);
+        done();
+      });
     });
   });
 
   describe('# Dealing damage to one player', function () {
-    it('Should make that player lose by damage', function () {
+    it('Should make that player lose by damage', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
-       );
-      let p0 = game._players[0];
-      let p1 = game._players[1];
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
 
-      try {
-        while (true) {
-          if (game.isWaitingForInput()) {
-            game.passOrFinishChoice();
-            p0.damage(3, "debug", false);
-          } else {
-            game.tick();
+      game.ready().then(() => {
+        let p0 = game._players[0];
+        let p1 = game._players[1];
+
+        try {
+          while (true) {
+            if (game.isWaitingForInput()) {
+              game.passOrFinishChoice();
+              p0.damage(3, "debug", false);
+            } else {
+              game.tick();
+            }
+          }
+        } catch (e) {
+          if (!(e instanceof Game.GameOver)) {
+            throw e;
           }
         }
-      } catch (e) {
-        if (!(e instanceof Game.GameOver)) {
-          throw e;
-        }
-      }
 
-      assert(p0.hasLost());
-      assert(!p0._triedToDrawFromEmptyLibrary);
-      assert(p0._life <= 0);
+        assert(p0.hasLost());
+        assert(!p0._triedToDrawFromEmptyLibrary);
+        assert(p0._life <= 0);
+        done();
+      });
     });
   });
 
   describe('# Dealing infect damage to one player', function () {
-    it('Should make that player lose by poison counters', function () {
+    it('Should make that player lose by poison counters', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
-       );
-      let p0 = game._players[0];
-      let p1 = game._players[1];
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
 
-      try {
-        while (true) {
-          if (game.isWaitingForInput()) {
-            game.passOrFinishChoice();
-            p0.damage(3, "debug", true);
-          } else {
-            game.tick();
+      game.ready().then(() => {
+        let p0 = game._players[0];
+        let p1 = game._players[1];
+
+        try {
+          while (true) {
+            if (game.isWaitingForInput()) {
+              game.passOrFinishChoice();
+              p0.damage(3, "debug", true);
+            } else {
+              game.tick();
+            }
+          }
+        } catch (e) {
+          if (!(e instanceof Game.GameOver)) {
+            throw e;
           }
         }
-      } catch (e) {
-        if (!(e instanceof Game.GameOver)) {
-          throw e;
-        }
-      }
 
-      assert(p0.hasLost());
-      assert(!p0._triedToDrawFromEmptyLibrary);
-      assert(p0._life >= 1);
-      assert(p0._poisonCounters >= 10);
+        assert(p0.hasLost());
+        assert(!p0._triedToDrawFromEmptyLibrary);
+        assert(p0._life >= 1);
+        assert(p0._poisonCounters >= 10);
+        done();
+      });
     });
   });
 
   describe('# Dealing lethal damage to both players simultaneously', function () {
-    it('Should draw the game', function () {
+    it('Should draw the game', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
-       );
-      let p0 = game._players[0];
-      let p1 = game._players[1];
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
 
-      try {
-        while (true) {
-          if (game.isWaitingForInput()) {
-            game.passOrFinishChoice();
-            p0.damage(3, "debug", false);
-            p1.damage(3, "debug", false);
-          } else {
-            game.tick();
+      game.ready().then(() => {
+        let p0 = game._players[0];
+        let p1 = game._players[1];
+
+        try {
+          while (true) {
+            if (game.isWaitingForInput()) {
+              game.passOrFinishChoice();
+              p0.damage(3, "debug", false);
+              p1.damage(3, "debug", false);
+            } else {
+              game.tick();
+            }
+          }
+        } catch (e) {
+          if (!(e instanceof Game.GameOver)) {
+            throw e;
           }
         }
-      } catch (e) {
-        if (!(e instanceof Game.GameOver)) {
-          throw e;
-        }
-      }
 
-      assert(p0.hasLost());
-      assert(p1.hasLost());
-      assert(!p0._triedToDrawFromEmptyLibrary);
-      assert(!p1._triedToDrawFromEmptyLibrary);
-      assert(p0._life <= 0);
-      assert(p1._life <= 0);
-      assert(p0._poisonCounters === 0);
-      assert(p1._poisonCounters === 0);
+        assert(p0.hasLost());
+        assert(p1.hasLost());
+        assert(!p0._triedToDrawFromEmptyLibrary);
+        assert(!p1._triedToDrawFromEmptyLibrary);
+        assert(p0._life <= 0);
+        assert(p1._life <= 0);
+        assert(p0._poisonCounters === 0);
+        assert(p1._poisonCounters === 0);
+        done();
+      });
     });
   });
 });
@@ -267,6 +282,18 @@ describe('Deck', function() {
           let deck = new Deck.Deck(loader);
           done();
         });
+    });
+  });
+});
+
+describe('Deckbrew API', function() {
+  describe('# Deckbrew.getCard', function () {
+    it('Should be able to find card information', function (done) {
+      let deckbrew = new Deckbrew();
+      deckbrew.getCard("Lightning Bolt", "").then((card) => {
+        assert(card);
+        done();
+      });
     });
   });
 });

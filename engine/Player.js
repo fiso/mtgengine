@@ -8,7 +8,7 @@ const assert = require("assert");
 const Constants = require("./Constants");
 
 class Player {
-  constructor (game, deck) {
+  constructor (game, deck, onComplete) {
     this._guid = game.getGuid("player");
     this._game = game;
     this._life = 20;
@@ -17,15 +17,11 @@ class Player {
     this._hasConceded = false;
     this._triedToDrawFromEmptyLibrary = false;
     this._inputQueue = [];
-    this._library = new Library(game, this, deck);
+    this._library = new Library(game, this, deck, onComplete);
     this._graveyard = new Graveyard(game, this);
     this._hand = new Hand(game, this);
     this._landPlaysRemaining = 0;
     this._manaPool = {};
-
-    for (let i = 0; i < 7; i++) {
-      this.drawCard();
-    }
   }
 
   onNewTurn (activePlayer) {
@@ -83,9 +79,9 @@ class Player {
   onUntap (activePlayer) {
     if (activePlayer) {
       let permanents = this._game._battlefield.getPermanentsControlledByPlayer(this);
-      permanents.forEach(permanent => {
+      for (let permanent of permanents) {
         permanent.untap();
-      });
+      }
     }
   }
 
@@ -246,7 +242,7 @@ class Player {
 
     let cost = card.cost;
     let hasUnpaidCosts = false;
-    Object.keys(cost.mana).forEach(manaType => {
+    for (let manaType in cost.mana) {
       this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
       if (manaType === Constants.costs.GENERIC) {
         this._game.log("FIXME: Considering generic mana to be auto-paid");
@@ -257,7 +253,7 @@ class Player {
         this._game.log("Pool has " + this._manaPool[manaType]);
         this._manaPool[manaType] -= cost.mana[manaType];
       }
-    });
+    }
 
     assert(!hasUnpaidCosts);
     this._game.log("All costs paid");

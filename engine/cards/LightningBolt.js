@@ -4,8 +4,8 @@ const Constants = require ("../Constants");
 const assert = require("assert");
 
 class LightningBolt extends Card {
-  constructor(game) {
-    super(game, "Lightning Bolt",
+  constructor(game, callback) {
+    super(game, callback, "Lightning Bolt", "",
       [],
       [Constants.cardTypes.INSTANT],
       [],

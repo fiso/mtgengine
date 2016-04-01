@@ -6,7 +6,7 @@ const assert = require("assert");
 class Cost {
   constructor (costString) {
     this._costs = {};
-    
+
     let start = 0;
     while (true) {
       start = costString.indexOf("{", start);
@@ -39,7 +39,7 @@ class Cost {
 
   get cmc () {
     var cmc = 0;
-    Object.keys(this._costs).forEach(type => {
+    for (let type in this._costs) {
       if ([
         Constants.costs.X,
         Constants.costs.Y,
@@ -62,13 +62,13 @@ class Cost {
 
         cmc += this._costs[type] * multiplier;
       }
-    });
+    }
     return cmc;
   }
 
   getCmcOnStack (x, y, z) {
     let cmc = this.cmc;
-    Object.keys(this._costs).forEach(type => {
+    for (let type in this._costs) {
       switch (type) {
         case Constants.costs.X:
           cmc += this._costs[type] * x;
@@ -80,8 +80,8 @@ class Cost {
           cmc += this._costs[type] * z;
           break;
       }
-    });
-    return cmc;    
+    }
+    return cmc;
   }
 }
 

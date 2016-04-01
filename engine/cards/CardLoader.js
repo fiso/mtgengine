@@ -1,4 +1,5 @@
 "use strict";
+const UnimplementedCard = require("./UnimplementedCard");
 
 const sets = {
   "debugset": {
@@ -16,11 +17,17 @@ class CardLoader {
         chosenSet = sets[set];
       }
     }
-    Object.keys(sets).forEach(setName => {
+    let foundClass = false;
+    for (let setName in sets) {
       if (sets[setName][name]) {
-        callback (new sets[setName][name](game));
+        new sets[setName][name](game, callback);
+        foundClass = true;
       }
-    });
+    }
+
+    if (!foundClass) {
+      new UnimplementedCard(game, callback, name, set);
+    }
   }
 }
 

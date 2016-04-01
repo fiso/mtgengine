@@ -20,7 +20,7 @@ class DeckLoader {
   parseFile (fileContents) {
     let rows = fileContents.split("\n");
     let target = this._mainDeck;
-    rows.forEach(row => {
+    for (let row of rows) {
       let count = 1;
       let item = row.trim();
       if (Utils.isNumeric(item.split(" ")[0])) {
@@ -28,19 +28,19 @@ class DeckLoader {
         item = item.split(" ").slice(1).join(" ");
       } else if (item.toUpperCase().indexOf("SIDEBOARD") === 0) {
         target = this._sideboard;
-        return;
+        continue;
       }
 
       item = item.replace("\r", "")
 
       if (item.length < 1) {
-        return;
+        continue;
       }
 
       for (let n = 0; n < count; n++) {
         target.push(item);
       }
-    });
+    }
     this._loaded = true;
     this.invokeLoadedCallbacksIfLoaded();
   }
@@ -57,9 +57,9 @@ class DeckLoader {
 
     assert(!this._callbacksRan);
 
-    this._loadedCallbacks.forEach(callback => {
+    for (let callback of this._loadedCallbacks) {
       callback(this);
-    });
+    }
     this._callbacksRan = true;
   }
 
@@ -97,7 +97,7 @@ class HTTPLoader extends DeckLoader {
       host: "deckbox.org",
       path: "/sets/1294166/export"
     }, response => {
-      var data = "";
+      let data = "";
       response.on("data", chunk => {
         data += chunk;
       });

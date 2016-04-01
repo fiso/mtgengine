@@ -10,18 +10,18 @@ class Battlefield extends Zone {
 
   get creatures () {
     let creatures = [];
-    this._objects.forEach(permanent => {
+    for (let permanent of this._objects) {
       if (permanent.isCreature()) {
         creatures.push(permanent);
       }
-    });
+    }
 
     return creatures;
   }
 
   performStateBasedActions () {
     let actionsPerformed = 0;
-    this.creatures.forEach(creature => {
+    for (let creature of this.creatures) {
       assert(creature.isCreature());
 
       let shouldDie = false;
@@ -37,13 +37,13 @@ class Battlefield extends Zone {
         creature.die();
         actionsPerformed++;
       }
-    });
+    }
 
     return actionsPerformed;
   }
 
   dealCombatDamage () {
-    this.creatures.forEach(creature => {
+    for (let creature of this.creatures) {
       if (creature.isAttacking()) {
         // FIXME: Handle damage assignment
 
@@ -61,43 +61,43 @@ class Battlefield extends Zone {
             creature.hasKeywordAbility(Constants.keywordAbilities.INFECT));
         }
       }
-    });
+    }
   }
 
   resetAttackersAndBlockers () {
-    this.creatures.forEach(creature => {
+    for (let creature of this.creatures) {
       creature.attacking = null;
       creature.resetBlocking();
-    });
+    }
   }
 
   onCleanup () {
     let actionsPerformed = 0;
-    this._objects.forEach(permanent => {
+    for (let permanent of this._objects) {
       permanent.onCleanup();
-    });
+    }
 
     return actionsPerformed;
   }
 
   getPermanentsControlledByPlayer (player) {
     let permanents = [];
-    this._objects.forEach(permanent => {
+    for (let permanent of this._objects) {
       if (permanent.isControlledBy(player)) {
         permanents.push(permanent);
       }
-    });
+    }
 
     return permanents;
   }
 
   getPermanentsOwnedByPlayer (player) {
     let permanents = [];
-    this._objects.forEach(permanent => {
-      if (permanent.isControlledBy(player)) {
+    for (let permanent of this._objects) {
+      if (permanent.isOwnedBy(player)) {
         permanents.push(permanent);
       }
-    });
+    }
 
     return permanents;
   }
