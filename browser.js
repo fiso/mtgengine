@@ -133,11 +133,19 @@ window.startGame = function () {
 
 	game.ready().then(() => {
 		document.getElementById("player0-pass").addEventListener("click", function () {
-			game._players[0].addInput(Inputs.PASS_PRIORITY, {});
+			let input = Inputs.PASS_PRIORITY;
+			if (game._waitingForChoice) {
+	      input = Inputs.FINISH_CHOICE;
+	    }
+			game._players[0].addInput(input, {});
 			processInputs();
 		});
 		document.getElementById("player1-pass").addEventListener("click", function () {
-			game._players[1].addInput(Inputs.PASS_PRIORITY, {});
+			let input = Inputs.PASS_PRIORITY;
+			if (game._waitingForChoice) {
+	      input = Inputs.FINISH_CHOICE;
+	    }
+			game._players[1].addInput(input, {});
 			processInputs();
 		});
 		document.getElementById("player0-concede").addEventListener("click", function () {
