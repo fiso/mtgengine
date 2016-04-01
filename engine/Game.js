@@ -20,8 +20,8 @@ class Game {
   constructor ( numberOfPlayers,
                 startingPlayerIndex,
                 silenceLogging,
-                decks) {
-    this._cardApi = new Deckbrew();
+                decks, cardApi) {
+    this._cardApi = cardApi || new Deckbrew();
     this._turnNumber = 0;
     this._players = [];
     this._currentStep = -1;

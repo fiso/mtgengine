@@ -5,11 +5,7 @@ const assert = require("assert");
 
 class LightningBolt extends Card {
   constructor(game, callback) {
-    super(game, callback, "Lightning Bolt", "",
-      [],
-      [Constants.cardTypes.INSTANT],
-      [],
-      "https://image.deckbrew.com/mtg/multiverseid/397722.jpg");
+    super(game, callback, "Lightning Bolt");
   }
 
   resolve (controller, targets) {

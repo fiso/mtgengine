@@ -5,11 +5,7 @@ const assert = require("assert");
 
 class UnimplementedCard extends Card {
   constructor (game, callback, name, set) {
-    super(game, callback, name, set,
-      [],
-      [],
-      [],
-        "");
+    super(game, callback, name, set);
   }
 }
 

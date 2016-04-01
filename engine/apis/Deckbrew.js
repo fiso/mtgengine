@@ -36,16 +36,27 @@ class Deckbrew extends CardFetcher {
               return;
             }
 
+            let debuglog = function () {};
+            if (name === "Mountain") {
+              debuglog = console.log;
+            }
             // Pick out the best possible match.
             // This is needed because a search for "arid" will return
             // ARID mesa, fylmARID, homARID warrior etc
             let card = cards[0];
-            let bestMatch = -1;
+            let bestMatch = Number.MAX_SAFE_INTEGER;
             for (let cardIter of cards) {
-              let pos = cardIter["name"].toLowerCase().indexOf(name);
-              if (pos !== -1 && pos < bestMatch) {
-                bestMatch = pos;
-                card = cardIter;
+              let pos = cardIter["name"].toLowerCase().indexOf(name.toLowerCase());
+              if (pos === -1) {
+                continue;
+              }
+              if (pos <= bestMatch) {
+                // Try to match with names that are as close in length as possible
+                if (Math.abs(cardIter.name.length - name.length) <=
+                    Math.abs(card.name.length - name.length)) {
+                  bestMatch = pos;
+                  card = cardIter;
+                }
               }
             }
 

@@ -1,25 +1,44 @@
 "use strict";
+const _ = require("underscore");
 const MTGObject = require("./MTGObject");
 const Constants = require("../Constants");
+const assert = require("assert");
 
 class Card extends MTGObject {
-  constructor (game, callback, name, set, superTypes, types, subTypes, imageUrl) {
+  constructor (game, callback, name, set) {
     super(game);
     if (new.target === Card) {
       throw new TypeError("Card is not to be used directly");
     }
     this._name = name;
-    this._superTypes = superTypes ? superTypes.slice() : [];
-    this._types = types ? types.slice() : [];
-    this._subTypes = subTypes ? subTypes.slice() : [];
+    this._superTypes = [];
+    this._types = [];
+    this._subTypes = [];
     this._abilities = [];
-    this._imageUrl = imageUrl;
+    this._imageUrl = "";
 
     this._game._cardApi.getCard(name, set).then((card) => {
+      assert(card.name === name);
       this._name = card.name;
-      //this._superTypes = superTypes ? superTypes.slice() : [];
-      //this._types = types ? types.slice() : [];
-      //this._subTypes = subTypes ? subTypes.slice() : [];
+      if (card.supertypes) {
+        this._superTypes = _.map(card.supertypes, function (superType) {
+          return Constants.cardSuperTypes[superType.toUpperCase()] ?
+                 Constants.cardSuperTypes[superType.toUpperCase()] :
+                 superType.toUpperCase();
+        });
+      }
+      if (card.types) {
+        this._types = _.map(card.types, function (type) {
+          return Constants.cardTypes[type.toUpperCase()] ?
+                 Constants.cardTypes[type.toUpperCase()] :
+                 type.toUpperCase();
+        });
+      }
+      if (card.subtypes) {
+        this._subTypes = _.map(card.subtypes, function (subtype) {
+          return subtype.toUpperCase();
+        });
+      }
       this._imageUrl = card.printing.image_url;
 
       if (callback) {

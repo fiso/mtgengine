@@ -9,6 +9,10 @@ const Cost = require("../engine/Cost");
 const Deck = require("../engine/Deck");
 const Deckbrew = require("../engine/apis/Deckbrew");
 
+// istanbul cover node_modules/mocha/bin/_mocha -- -R spec
+
+let cardApi = new Deckbrew();
+
 describe('Game', function() {
   this.timeout(20000);
 
@@ -16,7 +20,7 @@ describe('Game', function() {
     it('Should make drawing player lose by drawing from empty library', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -47,7 +51,7 @@ describe('Game', function() {
     it('Should make that player lose by damage', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
+         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -79,8 +83,8 @@ describe('Game', function() {
   describe('# Dealing infect damage to one player', function () {
     it('Should make that player lose by poison counters', function (done) {
       let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
+        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -114,7 +118,7 @@ describe('Game', function() {
     it('Should draw the game', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]);
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -152,9 +156,8 @@ describe('Game', function() {
 
 describe('Permanent', function() {
   let game = new Game.Game(2, 0, true,
-    [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
-   );
+    [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
+     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
   let card = new BasicMountain(game);
   let permanent = new Permanent(game, game._players[0], game._players[0], card);
 
@@ -289,8 +292,7 @@ describe('Deck', function() {
 describe('Deckbrew API', function() {
   describe('# Deckbrew.getCard', function () {
     it('Should be able to find card information', function (done) {
-      let deckbrew = new Deckbrew();
-      deckbrew.getCard("Lightning Bolt", "").then((card) => {
+      cardApi.getCard("Lightning Bolt", "").then((card) => {
         assert(card);
         done();
       });

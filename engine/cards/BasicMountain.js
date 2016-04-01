@@ -4,11 +4,7 @@ const Constants = require ("../Constants");
 
 class BasicMountain extends Card {
   constructor (game, callback) {
-    super(game, callback, "Mountain", "",
-      [Constants.cardSuperTypes.BASIC],
-      [Constants.cardTypes.LAND],
-      ["MOUNTAIN"],
-      "https://image.deckbrew.com/mtg/multiverseid/201968.jpg");
+    super(game, callback, "Mountain");
 
     this.addAbility(
       [],

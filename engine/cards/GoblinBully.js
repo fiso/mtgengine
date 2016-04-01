@@ -6,11 +6,7 @@ const assert = require("assert");
 
 class GoblinBully extends Card {
   constructor(game, callback) {
-    super(game, callback, "Goblin Bully", "",
-      [],
-      [Constants.cardTypes.CREATURE],
-      ["Goblin"],
-      "https://image.deckbrew.com/mtg/multiverseid/4342.jpg");
+    super(game, callback, "Goblin Bully");
   }
 
   resolve (controller) {
