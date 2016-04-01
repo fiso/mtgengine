@@ -36,10 +36,6 @@ class Deckbrew extends CardFetcher {
               return;
             }
 
-            let debuglog = function () {};
-            if (name === "Mountain") {
-              debuglog = console.log;
-            }
             // Pick out the best possible match.
             // This is needed because a search for "arid" will return
             // ARID mesa, fylmARID, homARID warrior etc

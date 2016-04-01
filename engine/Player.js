@@ -55,9 +55,6 @@ class Player {
       case Constants.steps.DECLARE_BLOCKERS:
         this.onDeclareBlockers(activePlayer);
         break;
-      case Constants.steps.FIRST_COMBAT_DAMAGE:
-        this.onFirstCombatDamage(activePlayer);
-        break;
       case Constants.steps.COMBAT_DAMAGE:
         this.onCombatDamage(activePlayer);
         break;
@@ -108,10 +105,6 @@ class Player {
   }
 
   onDeclareBlockers (activePlayer) {
-
-  }
-
-  onFirstCombatDamage (activePlayer) {
 
   }
 
