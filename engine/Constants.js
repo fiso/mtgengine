@@ -14,21 +14,6 @@ const Constants = {
     CLEANUP: 11
   },
 
-  stepNames: {
-    0: "UNTAP",
-    1: "UPKEEP",
-    2: "DRAW",
-    3: "MAIN1",
-    4: "BEGIN_COMBAT",
-    5: "DECLARE_ATTACKERS",
-    6: "DECLARE_BLOCKERS",
-    7: "COMBAT_DAMAGE",
-    8: "END_COMBAT",
-    9: "MAIN2",
-    10: "END",
-    11: "CLEANUP"
-  },
-
   tapStates: {
     UNTAPPED: "UNTAPPED",
     TAPPED: "TAPPED"

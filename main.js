@@ -10,7 +10,7 @@ function testGame () {
   try {
     let game = new Game.Game(2, 0, false,
       [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-       new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))]
+       new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
       );
 
     game.ready().then(() => {
@@ -20,7 +20,7 @@ function testGame () {
       while (true) {
         if (game.isWaitingForInput()) {
           game.log("################################");
-          game.log("## Need something to do at " + Constants.stepNames[game._currentStep]);
+          game.log("## Need something to do at " + game.getStepName(game._currentStep));
           let player = game._hasPriority;
           if (player === game._activePlayer) {
             if (game._currentStep === Constants.steps.MAIN1 ||
@@ -86,7 +86,7 @@ function testGame () {
           }
 
           if (!player.hasUnprocessedInputs()) {
-            game.log("## Nothing to do, passing at " + Constants.stepNames[game._currentStep]);
+            game.log("## Nothing to do, passing at " + game.getStepName(game._currentStep));
             player.addInput(Inputs.PASS_PRIORITY, {});
           }
         } else if (!game.isWaitingForInput()) {

@@ -49,8 +49,17 @@ class Game {
     console.log(str);
   }
 
+  getStepName (step) {
+    for (let stepName in Constants.steps) {
+      if (Constants.steps[stepName] === step) {
+        return stepName;
+      }
+    }
+    return "";
+  }
+
   logCurrentGameTime () {
-    this.log("== It is now the " + Constants.stepNames[this._currentStep] + " step ==");
+    this.log("== It is now the " + this.getStepName(this._currentStep) + " step ==");
   }
 
   ready () {
@@ -217,7 +226,7 @@ class Game {
     this.addOutput(Outputs.NEW_GAME_TIME, {
       turnNumber: this._turnNumber,
       stepNumber: this._currentStep,
-      stepName: Constants.stepNames[this._currentStep],
+      stepName: this.getStepName(this._currentStep),
       activePlayer: this._activePlayer
     });
 
@@ -380,14 +389,12 @@ class Game {
       case Inputs.PLAY_LAND:
         player.putLandIntoPlay(data.landCard, true);
         break;
-
       case Inputs.ACTIVATE_ABILITY:
         player.activateAbility(data.object, data.abilityIndex);
         break;
       case Inputs.CAST_SPELL:
         player.castSpell(data.card, data.targets);
         break;
-
       case Inputs.ABORT_SPELLCAST:
         player.abortSpellCast(data.spell);
         break;
