@@ -72,22 +72,28 @@ class Game {
         }
 
         Promise.all(playerPromises).then(() => {
-          for (let player of this._players) {
-            for (let i = 0; i < 7; i++) {
-              player.drawCard();
-            }
-          }
-
-          this._activePlayer = this._players[this._startingPlayerIndex];
-          this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
-          for (let player of this._players) {
-            player.onNewTurn(player === this._activePlayer);
-          }
-          this.advanceToNextStep();
+          this.startGame();
           resolve();
         });
       });
     });
+  }
+
+  startGame () {
+    this._activePlayer = this._players[this._startingPlayerIndex];
+    this.log(">>>>>>>>>>>>>> GAME STARTING <<<<<<<<<<<<<<")
+
+    for (let player of this._players) {
+      for (let i = 0; i < 7; i++) {
+        player.drawCard();
+      }
+    }
+
+    for (let player of this._players) {
+      player.onNewTurn(player === this._activePlayer);
+    }
+
+    this.advanceToNextStep();
   }
 
   getGuid (prefix) {
@@ -121,6 +127,9 @@ class Game {
       case Constants.steps.DECLARE_ATTACKERS:
         this.finishDeclareAttackers();
         break;
+      case Constants.steps.DECLARE_BLOCKERS:
+        this.finishDeclareBlockers();
+        break;
     }
   }
 
@@ -135,6 +144,11 @@ class Game {
         permanent.resetBlockers();
       }
     }
+  }
+
+  finishDeclareBlockers () {
+    this.log("--> Locking in blockers");
+    this.setPriority(this._activePlayer);
   }
 
   passPriority (player) {
