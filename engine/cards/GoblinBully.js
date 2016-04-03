@@ -5,8 +5,8 @@ const Creature = require("../objects/Creature");
 const assert = require("assert");
 
 class GoblinBully extends Card {
-  constructor(game, callback) {
-    super(game, callback, "Goblin Bully");
+  constructor(game) {
+    super(game, "Goblin Bully");
   }
 
   resolve (controller) {

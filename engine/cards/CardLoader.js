@@ -10,7 +10,7 @@ const sets = {
 };
 
 class CardLoader {
-  constructor (name, set, callback, game) {
+  constructor (name, set, game) {
     let chosenSet = undefined;
     if (set) {
       if (sets[set]) {
@@ -20,13 +20,13 @@ class CardLoader {
     let foundClass = false;
     for (let setName in sets) {
       if (sets[setName][name]) {
-        new sets[setName][name](game, callback);
+        new sets[setName][name](game);
         foundClass = true;
       }
     }
 
     if (!foundClass) {
-      new UnimplementedCard(game, callback, name, set);
+      new UnimplementedCard(game, name, set);
     }
   }
 }

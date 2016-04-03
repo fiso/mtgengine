@@ -4,6 +4,7 @@ const Constants = require("../engine/Constants");
 const Inputs = require("../engine/Inputs");
 const Permanent = require("../engine/objects/Permanent");
 const BasicMountain = require("../engine/cards/BasicMountain");
+const UnimplementedCard = require("../engine/cards/UnimplementedCard");
 const Game = require("../engine/Game");
 const Cost = require("../engine/Cost");
 const Deck = require("../engine/Deck");
@@ -12,6 +13,41 @@ const Deckbrew = require("../engine/apis/Deckbrew");
 // istanbul cover node_modules/mocha/bin/_mocha -- -R spec
 
 let cardApi = new Deckbrew();
+
+describe('Card', function() {
+  let game = new Game.Game(2, 0, true,
+    [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
+     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
+
+  describe('# isBasicLand()', function () {
+    it('Should identify basic land cards', function (done) {
+      let card1 = new BasicMountain(game);
+      let card2 = new UnimplementedCard(game, "Force of Will");
+      Promise.all([card1.ready(), card2.ready()]).then(() => {
+        assert(card1.isBasicLand());
+        assert(!card2.isBasicLand());
+        done();
+      });
+    });
+  });
+
+  describe('# sharesAnyTypesWith()', function () {
+    it('Should recognize cards that share types (or not)', function (done) {
+      let card1 = new BasicMountain(game);
+      let card2 = new UnimplementedCard(game, "Plains");
+      let card3 = new UnimplementedCard(game, "Tarmogoyf");
+      let card4 = new UnimplementedCard(game, "Psychatog");
+      Promise.all([card1.ready(), card2.ready(),
+      card3.ready(), card4.ready()]).then(() => {
+        assert(card1.sharesAnyTypesWith(card2));
+        assert(!card1.sharesAnyTypesWith(card3));
+        assert(card3.sharesAnyTypesWith(card4));
+        assert(!card4.sharesAnyTypesWith(card1));
+        done();
+      });
+    });
+  });
+});
 
 describe('Permanent', function() {
   let game = new Game.Game(2, 0, true,
@@ -161,6 +197,7 @@ describe('Deckbrew API', function() {
   });
 });
 
+/*
 describe('Game', function() {
   this.timeout(10000);
 
@@ -301,3 +338,4 @@ describe('Game', function() {
     });
   });
 });
+*/

@@ -3,8 +3,8 @@ const Card = require("../objects/Card");
 const Constants = require ("../Constants");
 
 class BasicMountain extends Card {
-  constructor (game, callback) {
-    super(game, callback, "Mountain");
+  constructor (game) {
+    super(game, "Mountain");
 
     this.addAbility(
       [],
