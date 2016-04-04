@@ -53,7 +53,7 @@ originalPrintings = {}
 def generateStub(card, setId, folderName, setName):
 	print "Building stub for %s..." % card["name"]
 
-	illegalCharacters = u" ?\",-'û®"
+	illegalCharacters = u" ?!()\",.-'û®"
 	className = card["name"]
 	for char in illegalCharacters:
 		className = className.replace(char, "")
