@@ -6,6 +6,7 @@ import sys
 import os
 import codecs
 import time
+import platform
 
 def getFullResultAsJson(queryUrl):
 	fullResult = []
@@ -22,11 +23,11 @@ def getFullResultAsJson(queryUrl):
 	return fullResult
 
 def getCardsInSet(setId):
-	cards = getFullResultAsJson("https://api.deckbrew.com/mtg/cards?set=%s" % setId)
+	cards = getFullResultAsJson("http://api.deckbrew.com/mtg/cards?set=%s" % setId)
 	return cards
 
 def getAllSets():
-	sets = requests.get("https://api.deckbrew.com/mtg/sets")
+	sets = requests.get("http://api.deckbrew.com/mtg/sets")
 	return sets.json()
 
 def getCard(name, set):
@@ -95,8 +96,9 @@ if __name__ == "__main__":
 
 		try:
 			os.mkdir(mtgSet["folderName"])
-		except WindowsError:
+		except OSError:
 			pass
+
 		cards = getCardsInSet(mtgSet["id"])
 		print "%s: %d cards" % (mtgSet["id"], len(cards))
 		numCards += len(cards)
