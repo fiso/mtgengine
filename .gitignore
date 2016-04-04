@@ -1,6 +1,6 @@
 node_modules
 frontend/js/*bundle*.js
 coverage/
-cards/stubs/*
-!cards/stubs/buildstubs.py
-!cards/stubs/CardTemplate.js
+engine/cards/stubs/*
+!engine/cards/stubs/buildstubs.py
+!engine/cards/stubs/CardTemplate.js
