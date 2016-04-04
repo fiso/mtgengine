@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimetoFeedBase = require("../setDDO/TimetoFeed.js");
+const Constants = require ("../../../Constants");
+const TimetoFeedBase = require("../setDDO/TimetoFeed");
 
 class TimetoFeed extends TimetoFeedBase {
   constructor(game) {

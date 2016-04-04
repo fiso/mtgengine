@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpellSnareBase = require("../setDIS/SpellSnare.js");
+const Constants = require ("../../../Constants");
+const SpellSnareBase = require("../setDIS/SpellSnare");
 
 class SpellSnare extends SpellSnareBase {
   constructor(game) {

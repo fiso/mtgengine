@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StratusWalkBase = require("../setBNG/StratusWalk.js");
+const Constants = require ("../../../Constants");
+const StratusWalkBase = require("../setBNG/StratusWalk");
 
 class StratusWalk extends StratusWalkBase {
   constructor(game) {

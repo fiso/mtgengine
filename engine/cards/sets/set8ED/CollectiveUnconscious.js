@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CollectiveUnconsciousBase = require("../setC14/CollectiveUnconscious.js");
+const Constants = require ("../../../Constants");
+const CollectiveUnconsciousBase = require("../setC14/CollectiveUnconscious");
 
 class CollectiveUnconscious extends CollectiveUnconsciousBase {
   constructor(game) {

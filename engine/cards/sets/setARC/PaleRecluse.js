@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PaleRecluseBase = require("../setARB/PaleRecluse.js");
+const Constants = require ("../../../Constants");
+const PaleRecluseBase = require("../setARB/PaleRecluse");
 
 class PaleRecluse extends PaleRecluseBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JoinerAdeptBase = require("../set5DN/JoinerAdept.js");
+const Constants = require ("../../../Constants");
+const JoinerAdeptBase = require("../set5DN/JoinerAdept");
 
 class JoinerAdept extends JoinerAdeptBase {
   constructor(game) {

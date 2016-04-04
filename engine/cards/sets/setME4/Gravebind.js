@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GravebindBase = require("../setICE/Gravebind.js");
+const Constants = require ("../../../Constants");
+const GravebindBase = require("../setICE/Gravebind");
 
 class Gravebind extends GravebindBase {
   constructor(game) {

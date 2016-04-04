@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HowlpackAlphaBase = require("../setISD/HowlpackAlpha.js");
+const Constants = require ("../../../Constants");
+const HowlpackAlphaBase = require("../setISD/HowlpackAlpha");
 
 class HowlpackAlpha extends HowlpackAlphaBase {
   constructor(game) {

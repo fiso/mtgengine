@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChromiumBase = require("../setCHR/Chromium.js");
+const Constants = require ("../../../Constants");
+const ChromiumBase = require("../setCHR/Chromium");
 
 class Chromium extends ChromiumBase {
   constructor(game) {

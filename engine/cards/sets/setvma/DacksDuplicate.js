@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DacksDuplicateBase = require("../setCNS/DacksDuplicate.js");
+const Constants = require ("../../../Constants");
+const DacksDuplicateBase = require("../setCNS/DacksDuplicate");
 
 class DacksDuplicate extends DacksDuplicateBase {
   constructor(game) {

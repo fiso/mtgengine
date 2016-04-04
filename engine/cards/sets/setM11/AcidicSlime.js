@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AcidicSlimeBase = require("../setC13/AcidicSlime.js");
+const Constants = require ("../../../Constants");
+const AcidicSlimeBase = require("../setC13/AcidicSlime");
 
 class AcidicSlime extends AcidicSlimeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BanisherPriestBase = require("../setDDO/BanisherPriest.js");
+const Constants = require ("../../../Constants");
+const BanisherPriestBase = require("../setDDO/BanisherPriest");
 
 class BanisherPriest extends BanisherPriestBase {
   constructor(game) {

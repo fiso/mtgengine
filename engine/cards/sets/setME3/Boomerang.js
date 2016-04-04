@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoomerangBase = require("../setCHR/Boomerang.js");
+const Constants = require ("../../../Constants");
+const BoomerangBase = require("../setCHR/Boomerang");
 
 class Boomerang extends BoomerangBase {
   constructor(game) {

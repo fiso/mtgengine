@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FreewindFalconBase = require("../setATH/FreewindFalcon.js");
+const Constants = require ("../../../Constants");
+const FreewindFalconBase = require("../setATH/FreewindFalcon");
 
 class FreewindFalcon extends FreewindFalconBase {
   constructor(game) {

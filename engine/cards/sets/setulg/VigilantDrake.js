@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VigilantDrakeBase = require("../setBTD/VigilantDrake.js");
+const Constants = require ("../../../Constants");
+const VigilantDrakeBase = require("../setBTD/VigilantDrake");
 
 class VigilantDrake extends VigilantDrakeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GargantuanGorillaBase = require("../setALL/GargantuanGorilla.js");
+const Constants = require ("../../../Constants");
+const GargantuanGorillaBase = require("../setALL/GargantuanGorilla");
 
 class GargantuanGorilla extends GargantuanGorillaBase {
   constructor(game) {

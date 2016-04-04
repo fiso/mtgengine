@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SelvalaExplorerReturnedBase = require("../setCNS/SelvalaExplorerReturned.js");
+const Constants = require ("../../../Constants");
+const SelvalaExplorerReturnedBase = require("../setCNS/SelvalaExplorerReturned");
 
 class SelvalaExplorerReturned extends SelvalaExplorerReturnedBase {
   constructor(game) {

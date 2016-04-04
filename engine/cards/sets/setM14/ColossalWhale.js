@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ColossalWhaleBase = require("../setpLPA/ColossalWhale.js");
+const Constants = require ("../../../Constants");
+const ColossalWhaleBase = require("../setpLPA/ColossalWhale");
 
 class ColossalWhale extends ColossalWhaleBase {
   constructor(game) {

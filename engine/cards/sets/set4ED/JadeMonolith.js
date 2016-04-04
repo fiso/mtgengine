@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JadeMonolithBase = require("../set6ED/JadeMonolith.js");
+const Constants = require ("../../../Constants");
+const JadeMonolithBase = require("../set6ED/JadeMonolith");
 
 class JadeMonolith extends JadeMonolithBase {
   constructor(game) {

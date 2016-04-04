@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RangerenVecBase = require("../setATH/RangerenVec.js");
+const Constants = require ("../../../Constants");
+const RangerenVecBase = require("../setATH/RangerenVec");
 
 class RangerenVec extends RangerenVecBase {
   constructor(game) {

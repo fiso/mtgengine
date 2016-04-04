@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreefolkSeedlingsBase = require("../set7ED/TreefolkSeedlings.js");
+const Constants = require ("../../../Constants");
+const TreefolkSeedlingsBase = require("../set7ED/TreefolkSeedlings");
 
 class TreefolkSeedlings extends TreefolkSeedlingsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BorderlandBehemothBase = require("../setC15/BorderlandBehemoth.js");
+const Constants = require ("../../../Constants");
+const BorderlandBehemothBase = require("../setC15/BorderlandBehemoth");
 
 class BorderlandBehemoth extends BorderlandBehemothBase {
   constructor(game) {

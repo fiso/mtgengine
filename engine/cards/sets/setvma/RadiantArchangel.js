@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RadiantArchangelBase = require("../setULG/RadiantArchangel.js");
+const Constants = require ("../../../Constants");
+const RadiantArchangelBase = require("../setULG/RadiantArchangel");
 
 class RadiantArchangel extends RadiantArchangelBase {
   constructor(game) {

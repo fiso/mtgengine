@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DoorofDestiniesBase = require("../setM14/DoorofDestinies.js");
+const Constants = require ("../../../Constants");
+const DoorofDestiniesBase = require("../setM14/DoorofDestinies");
 
 class DoorofDestinies extends DoorofDestiniesBase {
   constructor(game) {

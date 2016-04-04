@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RuggedPrairieBase = require("../setEVE/RuggedPrairie.js");
+const Constants = require ("../../../Constants");
+const RuggedPrairieBase = require("../setEVE/RuggedPrairie");
 
 class RuggedPrairie extends RuggedPrairieBase {
   constructor(game) {

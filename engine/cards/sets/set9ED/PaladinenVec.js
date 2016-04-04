@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PaladinenVecBase = require("../setEXO/PaladinenVec.js");
+const Constants = require ("../../../Constants");
+const PaladinenVecBase = require("../setEXO/PaladinenVec");
 
 class PaladinenVec extends PaladinenVecBase {
   constructor(game) {

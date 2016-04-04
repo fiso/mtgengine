@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AntiMagicAuraBase = require("../set5ED/AntiMagicAura.js");
+const Constants = require ("../../../Constants");
+const AntiMagicAuraBase = require("../set5ED/AntiMagicAura");
 
 class AntiMagicAura extends AntiMagicAuraBase {
   constructor(game) {

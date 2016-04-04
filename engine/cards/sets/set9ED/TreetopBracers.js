@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreetopBracersBase = require("../setNMS/TreetopBracers.js");
+const Constants = require ("../../../Constants");
+const TreetopBracersBase = require("../setNMS/TreetopBracers");
 
 class TreetopBracers extends TreetopBracersBase {
   constructor(game) {

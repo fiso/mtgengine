@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WeightoftheUnderworldBase = require("../setBNG/WeightoftheUnderworld.js");
+const Constants = require ("../../../Constants");
+const WeightoftheUnderworldBase = require("../setBNG/WeightoftheUnderworld");
 
 class WeightoftheUnderworld extends WeightoftheUnderworldBase {
   constructor(game) {

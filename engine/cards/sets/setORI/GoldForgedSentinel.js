@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GoldForgedSentinelBase = require("../setJOU/GoldForgedSentinel.js");
+const Constants = require ("../../../Constants");
+const GoldForgedSentinelBase = require("../setJOU/GoldForgedSentinel");
 
 class GoldForgedSentinel extends GoldForgedSentinelBase {
   constructor(game) {

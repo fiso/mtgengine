@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReclamationSageBase = require("../setC14/ReclamationSage.js");
+const Constants = require ("../../../Constants");
+const ReclamationSageBase = require("../setC14/ReclamationSage");
 
 class ReclamationSage extends ReclamationSageBase {
   constructor(game) {

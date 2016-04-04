@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PromiseofPowerBase = require("../setC14/PromiseofPower.js");
+const Constants = require ("../../../Constants");
+const PromiseofPowerBase = require("../setC14/PromiseofPower");
 
 class PromiseofPower extends PromiseofPowerBase {
   constructor(game) {

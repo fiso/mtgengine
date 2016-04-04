@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RikuofTwoReflectionsBase = require("../setpJGP/RikuofTwoReflections.js");
+const Constants = require ("../../../Constants");
+const RikuofTwoReflectionsBase = require("../setpJGP/RikuofTwoReflections");
 
 class RikuofTwoReflections extends RikuofTwoReflectionsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BloodfireColossusBase = require("../setAPC/BloodfireColossus.js");
+const Constants = require ("../../../Constants");
+const BloodfireColossusBase = require("../setAPC/BloodfireColossus");
 
 class BloodfireColossus extends BloodfireColossusBase {
   constructor(game) {

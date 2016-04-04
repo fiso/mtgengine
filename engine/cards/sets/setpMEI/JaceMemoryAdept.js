@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JaceMemoryAdeptBase = require("../setM12/JaceMemoryAdept.js");
+const Constants = require ("../../../Constants");
+const JaceMemoryAdeptBase = require("../setM12/JaceMemoryAdept");
 
 class JaceMemoryAdept extends JaceMemoryAdeptBase {
   constructor(game) {

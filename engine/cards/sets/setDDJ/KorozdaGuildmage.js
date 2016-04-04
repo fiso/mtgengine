@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorozdaGuildmageBase = require("../setC15/KorozdaGuildmage.js");
+const Constants = require ("../../../Constants");
+const KorozdaGuildmageBase = require("../setC15/KorozdaGuildmage");
 
 class KorozdaGuildmage extends KorozdaGuildmageBase {
   constructor(game) {

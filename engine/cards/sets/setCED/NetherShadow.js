@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NetherShadow extends Card {
+class NetherShadow extends UnimplementedCard {
   constructor(game) {
     super(game, "Nether Shadow", "Collector's Edition", "CED");
   }

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DreamspoilerWitchesBase = require("../setLRW/DreamspoilerWitches.js");
+const Constants = require ("../../../Constants");
+const DreamspoilerWitchesBase = require("../setLRW/DreamspoilerWitches");
 
 class DreamspoilerWitches extends DreamspoilerWitchesBase {
   constructor(game) {

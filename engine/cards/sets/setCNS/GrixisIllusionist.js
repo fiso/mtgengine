@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrixisIllusionistBase = require("../setCON/GrixisIllusionist.js");
+const Constants = require ("../../../Constants");
+const GrixisIllusionistBase = require("../setCON/GrixisIllusionist");
 
 class GrixisIllusionist extends GrixisIllusionistBase {
   constructor(game) {

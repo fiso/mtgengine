@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpikeWeaverBase = require("../setBRB/SpikeWeaver.js");
+const Constants = require ("../../../Constants");
+const SpikeWeaverBase = require("../setBRB/SpikeWeaver");
 
 class SpikeWeaver extends SpikeWeaverBase {
   constructor(game) {

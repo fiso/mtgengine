@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlacialChasmBase = require("../setV12/GlacialChasm.js");
+const Constants = require ("../../../Constants");
+const GlacialChasmBase = require("../setV12/GlacialChasm");
 
 class GlacialChasm extends GlacialChasmBase {
   constructor(game) {

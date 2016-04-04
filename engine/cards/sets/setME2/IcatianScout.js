@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IcatianScoutBase = require("../setFEM/IcatianScout.js");
+const Constants = require ("../../../Constants");
+const IcatianScoutBase = require("../setFEM/IcatianScout");
 
 class IcatianScout extends IcatianScoutBase {
   constructor(game) {

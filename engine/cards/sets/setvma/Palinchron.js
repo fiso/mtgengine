@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PalinchronBase = require("../setULG/Palinchron.js");
+const Constants = require ("../../../Constants");
+const PalinchronBase = require("../setULG/Palinchron");
 
 class Palinchron extends PalinchronBase {
   constructor(game) {

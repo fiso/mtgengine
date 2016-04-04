@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UndertakerBase = require("../setMMQ/Undertaker.js");
+const Constants = require ("../../../Constants");
+const UndertakerBase = require("../setMMQ/Undertaker");
 
 class Undertaker extends UndertakerBase {
   constructor(game) {

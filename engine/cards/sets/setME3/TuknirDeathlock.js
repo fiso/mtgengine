@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TuknirDeathlockBase = require("../setLEG/TuknirDeathlock.js");
+const Constants = require ("../../../Constants");
+const TuknirDeathlockBase = require("../setLEG/TuknirDeathlock");
 
 class TuknirDeathlock extends TuknirDeathlockBase {
   constructor(game) {

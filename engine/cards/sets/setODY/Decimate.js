@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DecimateBase = require("../setCNS/Decimate.js");
+const Constants = require ("../../../Constants");
+const DecimateBase = require("../setCNS/Decimate");
 
 class Decimate extends DecimateBase {
   constructor(game) {

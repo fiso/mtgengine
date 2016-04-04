@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorChantBase = require("../setEXO/KorChant.js");
+const Constants = require ("../../../Constants");
+const KorChantBase = require("../setEXO/KorChant");
 
 class KorChant extends KorChantBase {
   constructor(game) {

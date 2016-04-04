@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RingofMarfBase = require("../setARN/RingofMarf.js");
+const Constants = require ("../../../Constants");
+const RingofMarfBase = require("../setARN/RingofMarf");
 
 class RingofMarf extends RingofMarfBase {
   constructor(game) {

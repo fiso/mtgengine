@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MomentaryBlink extends Card {
+class MomentaryBlink extends UnimplementedCard {
   constructor(game) {
     super(game, "Momentary Blink", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

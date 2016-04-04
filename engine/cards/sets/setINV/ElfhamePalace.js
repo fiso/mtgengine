@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ElfhamePalaceBase = require("../setDDE/ElfhamePalace.js");
+const Constants = require ("../../../Constants");
+const ElfhamePalaceBase = require("../setDDE/ElfhamePalace");
 
 class ElfhamePalace extends ElfhamePalaceBase {
   constructor(game) {

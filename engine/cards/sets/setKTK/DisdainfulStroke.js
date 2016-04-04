@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DisdainfulStrokeBase = require("../setpFNM/DisdainfulStroke.js");
+const Constants = require ("../../../Constants");
+const DisdainfulStrokeBase = require("../setpFNM/DisdainfulStroke");
 
 class DisdainfulStroke extends DisdainfulStrokeBase {
   constructor(game) {

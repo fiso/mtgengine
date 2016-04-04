@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IncandescentSoulstokeBase = require("../setLRW/IncandescentSoulstoke.js");
+const Constants = require ("../../../Constants");
+const IncandescentSoulstokeBase = require("../setLRW/IncandescentSoulstoke");
 
 class IncandescentSoulstoke extends IncandescentSoulstokeBase {
   constructor(game) {

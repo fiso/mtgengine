@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ElephantGuideBase = require("../setDD3_GVL/ElephantGuide.js");
+const Constants = require ("../../../Constants");
+const ElephantGuideBase = require("../setDD3_GVL/ElephantGuide");
 
 class ElephantGuide extends ElephantGuideBase {
   constructor(game) {

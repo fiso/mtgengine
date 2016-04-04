@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PsychicPurgeBase = require("../setLEG/PsychicPurge.js");
+const Constants = require ("../../../Constants");
+const PsychicPurgeBase = require("../setLEG/PsychicPurge");
 
 class PsychicPurge extends PsychicPurgeBase {
   constructor(game) {

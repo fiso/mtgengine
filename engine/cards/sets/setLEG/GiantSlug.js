@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GiantSlugBase = require("../setCHR/GiantSlug.js");
+const Constants = require ("../../../Constants");
+const GiantSlugBase = require("../setCHR/GiantSlug");
 
 class GiantSlug extends GiantSlugBase {
   constructor(game) {

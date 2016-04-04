@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorHavenBase = require("../setNMS/KorHaven.js");
+const Constants = require ("../../../Constants");
+const KorHavenBase = require("../setNMS/KorHaven");
 
 class KorHaven extends KorHavenBase {
   constructor(game) {

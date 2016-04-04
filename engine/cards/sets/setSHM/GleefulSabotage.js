@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GleefulSabotageBase = require("../setARC/GleefulSabotage.js");
+const Constants = require ("../../../Constants");
+const GleefulSabotageBase = require("../setARC/GleefulSabotage");
 
 class GleefulSabotage extends GleefulSabotageBase {
   constructor(game) {

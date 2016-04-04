@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ManaVortexBase = require("../setME3/ManaVortex.js");
+const Constants = require ("../../../Constants");
+const ManaVortexBase = require("../setME3/ManaVortex");
 
 class ManaVortex extends ManaVortexBase {
   constructor(game) {

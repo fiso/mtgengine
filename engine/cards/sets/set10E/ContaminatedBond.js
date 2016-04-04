@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ContaminatedBondBase = require("../setMRD/ContaminatedBond.js");
+const Constants = require ("../../../Constants");
+const ContaminatedBondBase = require("../setMRD/ContaminatedBond");
 
 class ContaminatedBond extends ContaminatedBondBase {
   constructor(game) {

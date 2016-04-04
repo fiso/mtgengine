@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RuthlessRipperBase = require("../setKTK/RuthlessRipper.js");
+const Constants = require ("../../../Constants");
+const RuthlessRipperBase = require("../setKTK/RuthlessRipper");
 
 class RuthlessRipper extends RuthlessRipperBase {
   constructor(game) {

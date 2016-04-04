@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BenthicExplorersBase = require("../setALL/BenthicExplorers.js");
+const Constants = require ("../../../Constants");
+const BenthicExplorersBase = require("../setALL/BenthicExplorers");
 
 class BenthicExplorers extends BenthicExplorersBase {
   constructor(game) {

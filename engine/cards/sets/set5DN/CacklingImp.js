@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CacklingImpBase = require("../setDD3_DVD/CacklingImp.js");
+const Constants = require ("../../../Constants");
+const CacklingImpBase = require("../setDD3_DVD/CacklingImp");
 
 class CacklingImp extends CacklingImpBase {
   constructor(game) {

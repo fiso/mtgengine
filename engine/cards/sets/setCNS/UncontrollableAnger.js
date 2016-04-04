@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UncontrollableAngerBase = require("../setCHK/UncontrollableAnger.js");
+const Constants = require ("../../../Constants");
+const UncontrollableAngerBase = require("../setCHK/UncontrollableAnger");
 
 class UncontrollableAnger extends UncontrollableAngerBase {
   constructor(game) {

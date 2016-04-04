@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhirlpoolWhelmBase = require("../setLRW/WhirlpoolWhelm.js");
+const Constants = require ("../../../Constants");
+const WhirlpoolWhelmBase = require("../setLRW/WhirlpoolWhelm");
 
 class WhirlpoolWhelm extends WhirlpoolWhelmBase {
   constructor(game) {

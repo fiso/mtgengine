@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ErraticPortalBase = require("../setEXO/ErraticPortal.js");
+const Constants = require ("../../../Constants");
+const ErraticPortalBase = require("../setEXO/ErraticPortal");
 
 class ErraticPortal extends ErraticPortalBase {
   constructor(game) {

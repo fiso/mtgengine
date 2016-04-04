@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KiorasFollowerBase = require("../setBNG/KiorasFollower.js");
+const Constants = require ("../../../Constants");
+const KiorasFollowerBase = require("../setBNG/KiorasFollower");
 
 class KiorasFollower extends KiorasFollowerBase {
   constructor(game) {

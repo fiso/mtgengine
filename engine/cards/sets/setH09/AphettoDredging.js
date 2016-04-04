@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AphettoDredgingBase = require("../setONS/AphettoDredging.js");
+const Constants = require ("../../../Constants");
+const AphettoDredgingBase = require("../setONS/AphettoDredging");
 
 class AphettoDredging extends AphettoDredgingBase {
   constructor(game) {

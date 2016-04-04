@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BroodingSaurianBase = require("../setCSP/BroodingSaurian.js");
+const Constants = require ("../../../Constants");
+const BroodingSaurianBase = require("../setCSP/BroodingSaurian");
 
 class BroodingSaurian extends BroodingSaurianBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WoodedFoothillsBase = require("../setpJGP/WoodedFoothills.js");
+const Constants = require ("../../../Constants");
+const WoodedFoothillsBase = require("../setpJGP/WoodedFoothills");
 
 class WoodedFoothills extends WoodedFoothillsBase {
   constructor(game) {

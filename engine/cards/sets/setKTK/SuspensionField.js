@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SuspensionFieldBase = require("../setpFNM/SuspensionField.js");
+const Constants = require ("../../../Constants");
+const SuspensionFieldBase = require("../setpFNM/SuspensionField");
 
 class SuspensionField extends SuspensionFieldBase {
   constructor(game) {

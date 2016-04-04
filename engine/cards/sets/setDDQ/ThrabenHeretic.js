@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThrabenHereticBase = require("../setDKA/ThrabenHeretic.js");
+const Constants = require ("../../../Constants");
+const ThrabenHereticBase = require("../setDKA/ThrabenHeretic");
 
 class ThrabenHeretic extends ThrabenHereticBase {
   constructor(game) {

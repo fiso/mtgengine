@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExplorationBase = require("../setCNS/Exploration.js");
+const Constants = require ("../../../Constants");
+const ExplorationBase = require("../setCNS/Exploration");
 
 class Exploration extends ExplorationBase {
   constructor(game) {

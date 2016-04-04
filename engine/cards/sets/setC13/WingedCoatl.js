@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WingedCoatlBase = require("../setARB/WingedCoatl.js");
+const Constants = require ("../../../Constants");
+const WingedCoatlBase = require("../setARB/WingedCoatl");
 
 class WingedCoatl extends WingedCoatlBase {
   constructor(game) {

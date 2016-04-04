@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SimoonBase = require("../setINV/Simoon.js");
+const Constants = require ("../../../Constants");
+const SimoonBase = require("../setINV/Simoon");
 
 class Simoon extends SimoonBase {
   constructor(game) {

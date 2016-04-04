@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DownhillChargeBase = require("../setDDI/DownhillCharge.js");
+const Constants = require ("../../../Constants");
+const DownhillChargeBase = require("../setDDI/DownhillCharge");
 
 class DownhillCharge extends DownhillChargeBase {
   constructor(game) {

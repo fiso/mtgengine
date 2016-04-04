@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrawnBase = require("../setJUD/Brawn.js");
+const Constants = require ("../../../Constants");
+const BrawnBase = require("../setJUD/Brawn");
 
 class Brawn extends BrawnBase {
   constructor(game) {

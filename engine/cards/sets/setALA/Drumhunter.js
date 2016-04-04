@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DrumhunterBase = require("../setC13/Drumhunter.js");
+const Constants = require ("../../../Constants");
+const DrumhunterBase = require("../setC13/Drumhunter");
 
 class Drumhunter extends DrumhunterBase {
   constructor(game) {

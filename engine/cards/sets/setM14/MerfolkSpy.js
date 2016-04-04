@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MerfolkSpyBase = require("../setM11/MerfolkSpy.js");
+const Constants = require ("../../../Constants");
+const MerfolkSpyBase = require("../setM11/MerfolkSpy");
 
 class MerfolkSpy extends MerfolkSpyBase {
   constructor(game) {

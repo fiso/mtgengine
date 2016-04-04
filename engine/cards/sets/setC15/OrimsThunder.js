@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrimsThunderBase = require("../setAPC/OrimsThunder.js");
+const Constants = require ("../../../Constants");
+const OrimsThunderBase = require("../setAPC/OrimsThunder");
 
 class OrimsThunder extends OrimsThunderBase {
   constructor(game) {

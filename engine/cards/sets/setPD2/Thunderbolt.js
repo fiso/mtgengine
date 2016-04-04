@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThunderboltBase = require("../setAVR/Thunderbolt.js");
+const Constants = require ("../../../Constants");
+const ThunderboltBase = require("../setAVR/Thunderbolt");
 
 class Thunderbolt extends ThunderboltBase {
   constructor(game) {

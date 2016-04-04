@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WinterOrbBase = require("../setCED/WinterOrb.js");
+const Constants = require ("../../../Constants");
+const WinterOrbBase = require("../setCED/WinterOrb");
 
 class WinterOrb extends WinterOrbBase {
   constructor(game) {

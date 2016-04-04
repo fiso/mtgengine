@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CycloneBase = require("../setARN/Cyclone.js");
+const Constants = require ("../../../Constants");
+const CycloneBase = require("../setARN/Cyclone");
 
 class Cyclone extends CycloneBase {
   constructor(game) {

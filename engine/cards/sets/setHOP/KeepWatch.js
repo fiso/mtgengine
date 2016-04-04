@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KeepWatchBase = require("../setJUD/KeepWatch.js");
+const Constants = require ("../../../Constants");
+const KeepWatchBase = require("../setJUD/KeepWatch");
 
 class KeepWatch extends KeepWatchBase {
   constructor(game) {

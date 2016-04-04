@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExhumeBase = require("../setBRB/Exhume.js");
+const Constants = require ("../../../Constants");
+const ExhumeBase = require("../setBRB/Exhume");
 
 class Exhume extends ExhumeBase {
   constructor(game) {

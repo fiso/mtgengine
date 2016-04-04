@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BanishingLightBase = require("../setC15/BanishingLight.js");
+const Constants = require ("../../../Constants");
+const BanishingLightBase = require("../setC15/BanishingLight");
 
 class BanishingLight extends BanishingLightBase {
   constructor(game) {

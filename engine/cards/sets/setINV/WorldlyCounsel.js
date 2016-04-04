@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WorldlyCounselBase = require("../setCON/WorldlyCounsel.js");
+const Constants = require ("../../../Constants");
+const WorldlyCounselBase = require("../setCON/WorldlyCounsel");
 
 class WorldlyCounsel extends WorldlyCounselBase {
   constructor(game) {

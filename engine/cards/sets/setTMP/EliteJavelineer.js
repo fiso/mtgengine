@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EliteJavelineerBase = require("../set8ED/EliteJavelineer.js");
+const Constants = require ("../../../Constants");
+const EliteJavelineerBase = require("../set8ED/EliteJavelineer");
 
 class EliteJavelineer extends EliteJavelineerBase {
   constructor(game) {

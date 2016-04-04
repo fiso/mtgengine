@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UndermineBase = require("../setDDH/Undermine.js");
+const Constants = require ("../../../Constants");
+const UndermineBase = require("../setDDH/Undermine");
 
 class Undermine extends UndermineBase {
   constructor(game) {

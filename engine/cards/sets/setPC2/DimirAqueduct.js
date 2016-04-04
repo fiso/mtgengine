@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DimirAqueductBase = require("../setCMD/DimirAqueduct.js");
+const Constants = require ("../../../Constants");
+const DimirAqueductBase = require("../setCMD/DimirAqueduct");
 
 class DimirAqueduct extends DimirAqueductBase {
   constructor(game) {

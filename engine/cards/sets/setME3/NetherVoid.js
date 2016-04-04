@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NetherVoidBase = require("../setLEG/NetherVoid.js");
+const Constants = require ("../../../Constants");
+const NetherVoidBase = require("../setLEG/NetherVoid");
 
 class NetherVoid extends NetherVoidBase {
   constructor(game) {

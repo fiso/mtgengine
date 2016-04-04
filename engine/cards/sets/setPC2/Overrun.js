@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OverrunBase = require("../setATH/Overrun.js");
+const Constants = require ("../../../Constants");
+const OverrunBase = require("../setATH/Overrun");
 
 class Overrun extends OverrunBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimetwisterBase = require("../setCED/Timetwister.js");
+const Constants = require ("../../../Constants");
+const TimetwisterBase = require("../setCED/Timetwister");
 
 class Timetwister extends TimetwisterBase {
   constructor(game) {

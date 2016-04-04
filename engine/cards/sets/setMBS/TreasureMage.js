@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreasureMageBase = require("../setpMGD/TreasureMage.js");
+const Constants = require ("../../../Constants");
+const TreasureMageBase = require("../setpMGD/TreasureMage");
 
 class TreasureMage extends TreasureMageBase {
   constructor(game) {

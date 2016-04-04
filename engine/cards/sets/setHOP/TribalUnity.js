@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TribalUnityBase = require("../setONS/TribalUnity.js");
+const Constants = require ("../../../Constants");
+const TribalUnityBase = require("../setONS/TribalUnity");
 
 class TribalUnity extends TribalUnityBase {
   constructor(game) {

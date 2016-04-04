@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CloudthresherBase = require("../setC15/Cloudthresher.js");
+const Constants = require ("../../../Constants");
+const CloudthresherBase = require("../setC15/Cloudthresher");
 
 class Cloudthresher extends CloudthresherBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlickerwispBase = require("../setC13/Flickerwisp.js");
+const Constants = require ("../../../Constants");
+const FlickerwispBase = require("../setC13/Flickerwisp");
 
 class Flickerwisp extends FlickerwispBase {
   constructor(game) {

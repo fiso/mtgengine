@@ -8,7 +8,7 @@ const assert = require("assert");
 const Constants = require("./Constants");
 
 class Player {
-  constructor (game, deck, onComplete) {
+  constructor (game, deck) {
     this._guid = game.getGuid("player");
     this._game = game;
     this._life = 20;
@@ -17,11 +17,15 @@ class Player {
     this._hasConceded = false;
     this._triedToDrawFromEmptyLibrary = false;
     this._inputQueue = [];
-    this._library = new Library(game, this, deck, onComplete);
+    this._library = new Library(game, this, deck);
     this._graveyard = new Graveyard(game, this);
     this._hand = new Hand(game, this);
     this._landPlaysRemaining = 0;
     this._manaPool = {};
+  }
+
+  ready () {
+    return this._library.ready();
   }
 
   onNewTurn (activePlayer) {

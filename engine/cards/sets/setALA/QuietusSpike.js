@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuietusSpikeBase = require("../setPC2/QuietusSpike.js");
+const Constants = require ("../../../Constants");
+const QuietusSpikeBase = require("../setPC2/QuietusSpike");
 
 class QuietusSpike extends QuietusSpikeBase {
   constructor(game) {

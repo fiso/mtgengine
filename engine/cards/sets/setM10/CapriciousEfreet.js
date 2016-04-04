@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CapriciousEfreetBase = require("../setC13/CapriciousEfreet.js");
+const Constants = require ("../../../Constants");
+const CapriciousEfreetBase = require("../setC13/CapriciousEfreet");
 
 class CapriciousEfreet extends CapriciousEfreetBase {
   constructor(game) {

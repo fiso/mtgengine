@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShuntBase = require("../setDST/Shunt.js");
+const Constants = require ("../../../Constants");
+const ShuntBase = require("../setDST/Shunt");
 
 class Shunt extends ShuntBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TendoIceBridge extends Card {
+class TendoIceBridge extends UnimplementedCard {
   constructor(game) {
     super(game, "Tendo Ice Bridge", "Betrayers of Kamigawa", "BOK");
   }

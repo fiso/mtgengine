@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThornscapeBattlemageBase = require("../setDDE/ThornscapeBattlemage.js");
+const Constants = require ("../../../Constants");
+const ThornscapeBattlemageBase = require("../setDDE/ThornscapeBattlemage");
 
 class ThornscapeBattlemage extends ThornscapeBattlemageBase {
   constructor(game) {

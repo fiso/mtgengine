@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnergyTapBase = require("../set4ED/EnergyTap.js");
+const Constants = require ("../../../Constants");
+const EnergyTapBase = require("../set4ED/EnergyTap");
 
 class EnergyTap extends EnergyTapBase {
   constructor(game) {

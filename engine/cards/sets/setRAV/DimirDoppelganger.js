@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DimirDoppelgangerBase = require("../setCNS/DimirDoppelganger.js");
+const Constants = require ("../../../Constants");
+const DimirDoppelgangerBase = require("../setCNS/DimirDoppelganger");
 
 class DimirDoppelganger extends DimirDoppelgangerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MuzzioVisionaryArchitectBase = require("../setCNS/MuzzioVisionaryArchitect.js");
+const Constants = require ("../../../Constants");
+const MuzzioVisionaryArchitectBase = require("../setCNS/MuzzioVisionaryArchitect");
 
 class MuzzioVisionaryArchitect extends MuzzioVisionaryArchitectBase {
   constructor(game) {

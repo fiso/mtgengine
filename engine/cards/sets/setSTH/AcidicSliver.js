@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AcidicSliverBase = require("../setH09/AcidicSliver.js");
+const Constants = require ("../../../Constants");
+const AcidicSliverBase = require("../setH09/AcidicSliver");
 
 class AcidicSliver extends AcidicSliverBase {
   constructor(game) {

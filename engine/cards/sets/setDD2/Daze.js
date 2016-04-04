@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DazeBase = require("../setDD3_JVC/Daze.js");
+const Constants = require ("../../../Constants");
+const DazeBase = require("../setDD3_JVC/Daze");
 
 class Daze extends DazeBase {
   constructor(game) {

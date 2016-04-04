@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TsunamiBase = require("../setCED/Tsunami.js");
+const Constants = require ("../../../Constants");
+const TsunamiBase = require("../setCED/Tsunami");
 
 class Tsunami extends TsunamiBase {
   constructor(game) {

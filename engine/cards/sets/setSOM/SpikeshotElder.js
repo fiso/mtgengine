@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpikeshotElderBase = require("../setMM2/SpikeshotElder.js");
+const Constants = require ("../../../Constants");
+const SpikeshotElderBase = require("../setMM2/SpikeshotElder");
 
 class SpikeshotElder extends SpikeshotElderBase {
   constructor(game) {

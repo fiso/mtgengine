@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BaronSengirBase = require("../setHML/BaronSengir.js");
+const Constants = require ("../../../Constants");
+const BaronSengirBase = require("../setHML/BaronSengir");
 
 class BaronSengir extends BaronSengirBase {
   constructor(game) {

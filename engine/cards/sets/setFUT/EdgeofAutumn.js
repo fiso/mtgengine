@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EdgeofAutumnBase = require("../setDDG/EdgeofAutumn.js");
+const Constants = require ("../../../Constants");
+const EdgeofAutumnBase = require("../setDDG/EdgeofAutumn");
 
 class EdgeofAutumn extends EdgeofAutumnBase {
   constructor(game) {

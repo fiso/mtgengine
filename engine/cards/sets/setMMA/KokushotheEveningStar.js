@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KokushotheEveningStarBase = require("../setCHK/KokushotheEveningStar.js");
+const Constants = require ("../../../Constants");
+const KokushotheEveningStarBase = require("../setCHK/KokushotheEveningStar");
 
 class KokushotheEveningStar extends KokushotheEveningStarBase {
   constructor(game) {

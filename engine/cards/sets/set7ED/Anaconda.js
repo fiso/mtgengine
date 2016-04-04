@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnacondaBase = require("../set9ED/Anaconda.js");
+const Constants = require ("../../../Constants");
+const AnacondaBase = require("../set9ED/Anaconda");
 
 class Anaconda extends AnacondaBase {
   constructor(game) {

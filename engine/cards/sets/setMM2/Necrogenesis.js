@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NecrogenesisBase = require("../setCMD/Necrogenesis.js");
+const Constants = require ("../../../Constants");
+const NecrogenesisBase = require("../setCMD/Necrogenesis");
 
 class Necrogenesis extends NecrogenesisBase {
   constructor(game) {

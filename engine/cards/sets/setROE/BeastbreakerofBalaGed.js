@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BeastbreakerofBalaGedBase = require("../setDDP/BeastbreakerofBalaGed.js");
+const Constants = require ("../../../Constants");
+const BeastbreakerofBalaGedBase = require("../setDDP/BeastbreakerofBalaGed");
 
 class BeastbreakerofBalaGed extends BeastbreakerofBalaGedBase {
   constructor(game) {

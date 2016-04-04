@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RhoxWarMonkBase = require("../setpFNM/RhoxWarMonk.js");
+const Constants = require ("../../../Constants");
+const RhoxWarMonkBase = require("../setpFNM/RhoxWarMonk");
 
 class RhoxWarMonk extends RhoxWarMonkBase {
   constructor(game) {

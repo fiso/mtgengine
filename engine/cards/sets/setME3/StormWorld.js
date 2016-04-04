@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormWorldBase = require("../setLEG/StormWorld.js");
+const Constants = require ("../../../Constants");
+const StormWorldBase = require("../setLEG/StormWorld");
 
 class StormWorld extends StormWorldBase {
   constructor(game) {

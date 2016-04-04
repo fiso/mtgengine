@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GuardGomazoaBase = require("../setC13/GuardGomazoa.js");
+const Constants = require ("../../../Constants");
+const GuardGomazoaBase = require("../setC13/GuardGomazoa");
 
 class GuardGomazoa extends GuardGomazoaBase {
   constructor(game) {

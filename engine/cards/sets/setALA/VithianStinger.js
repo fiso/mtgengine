@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VithianStingerBase = require("../setDDK/VithianStinger.js");
+const Constants = require ("../../../Constants");
+const VithianStingerBase = require("../setDDK/VithianStinger");
 
 class VithianStinger extends VithianStingerBase {
   constructor(game) {

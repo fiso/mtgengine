@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RubyMedallionBase = require("../setC14/RubyMedallion.js");
+const Constants = require ("../../../Constants");
+const RubyMedallionBase = require("../setC14/RubyMedallion");
 
 class RubyMedallion extends RubyMedallionBase {
   constructor(game) {

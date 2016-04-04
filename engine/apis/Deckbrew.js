@@ -8,21 +8,21 @@ class Deckbrew extends CardFetcher {
     this._pendingRequests = {};
   }
 
-  getCard (name, set, forceFetch) {
-    let keyName = `getCard${name}${set}`;
+  getCard (cardName, setName, setCode, forceFetch) {
+    let keyName = this.getKeyName(cardName, setName);
 
     if (this._pendingRequests[keyName]) {
       return this._pendingRequests[keyName];
     }
 
     this._pendingRequests[keyName] = new Promise((resolve, reject) => {
-      super.getCard(name, set, forceFetch).then((result) => {
+      super.getCard(cardName, setName, setCode, forceFetch).then((result) => {
         delete this._pendingRequests[keyName];
         resolve(result);
       }, (result) => {
         http.request({
           host: "api.deckbrew.com",
-          path: encodeURI(`/mtg/cards?name=${name}`)
+          path: encodeURI(`/mtg/cards?name=${cardName}`)
         }, response => {
           let data = "";
           response.on("data", chunk => {
@@ -42,14 +42,14 @@ class Deckbrew extends CardFetcher {
             let card = cards[0];
             let bestMatch = Number.MAX_SAFE_INTEGER;
             for (let cardIter of cards) {
-              let pos = cardIter["name"].toLowerCase().indexOf(name.toLowerCase());
+              let pos = cardIter["name"].toLowerCase().indexOf(cardName.toLowerCase());
               if (pos === -1) {
                 continue;
               }
               if (pos <= bestMatch) {
                 // Try to match with names that are as close in length as possible
-                if (Math.abs(cardIter.name.length - name.length) <=
-                    Math.abs(card.name.length - name.length)) {
+                if (Math.abs(cardIter.name.length - cardName.length) <=
+                    Math.abs(card.name.length - cardName.length)) {
                   bestMatch = pos;
                   card = cardIter;
                 }
@@ -64,9 +64,9 @@ class Deckbrew extends CardFetcher {
                 continue;
               }
 
-              if (set) {
+              if (setName) {
                 // If we were given a specific set...
-                let pos = editionIter["set"].toLowerCase().indexOf(set);
+                let pos = editionIter["set"].toLowerCase().indexOf(setName.toLowerCase());
                 if (pos === -1) {
                   continue;
                 }

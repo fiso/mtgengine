@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SuddenSpoilingBase = require("../setC13/SuddenSpoiling.js");
+const Constants = require ("../../../Constants");
+const SuddenSpoilingBase = require("../setC13/SuddenSpoiling");
 
 class SuddenSpoiling extends SuddenSpoilingBase {
   constructor(game) {

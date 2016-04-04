@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HeartwoodGiantBase = require("../setTMP/HeartwoodGiant.js");
+const Constants = require ("../../../Constants");
+const HeartwoodGiantBase = require("../setTMP/HeartwoodGiant");
 
 class HeartwoodGiant extends HeartwoodGiantBase {
   constructor(game) {

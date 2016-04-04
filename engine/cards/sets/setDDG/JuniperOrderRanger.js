@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JuniperOrderRangerBase = require("../setCSP/JuniperOrderRanger.js");
+const Constants = require ("../../../Constants");
+const JuniperOrderRangerBase = require("../setCSP/JuniperOrderRanger");
 
 class JuniperOrderRanger extends JuniperOrderRangerBase {
   constructor(game) {

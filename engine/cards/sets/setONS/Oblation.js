@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OblationBase = require("../setC14/Oblation.js");
+const Constants = require ("../../../Constants");
+const OblationBase = require("../setC14/Oblation");
 
 class Oblation extends OblationBase {
   constructor(game) {

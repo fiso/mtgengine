@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AcquireBase = require("../set5DN/Acquire.js");
+const Constants = require ("../../../Constants");
+const AcquireBase = require("../set5DN/Acquire");
 
 class Acquire extends AcquireBase {
   constructor(game) {

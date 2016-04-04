@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FusionElementalBase = require("../setCON/FusionElemental.js");
+const Constants = require ("../../../Constants");
+const FusionElementalBase = require("../setCON/FusionElemental");
 
 class FusionElemental extends FusionElementalBase {
   constructor(game) {

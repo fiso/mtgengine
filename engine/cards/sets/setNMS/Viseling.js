@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ViselingBase = require("../setC13/Viseling.js");
+const Constants = require ("../../../Constants");
+const ViselingBase = require("../setC13/Viseling");
 
 class Viseling extends ViselingBase {
   constructor(game) {

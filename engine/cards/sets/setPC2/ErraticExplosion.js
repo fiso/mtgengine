@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ErraticExplosionBase = require("../setONS/ErraticExplosion.js");
+const Constants = require ("../../../Constants");
+const ErraticExplosionBase = require("../setONS/ErraticExplosion");
 
 class ErraticExplosion extends ErraticExplosionBase {
   constructor(game) {

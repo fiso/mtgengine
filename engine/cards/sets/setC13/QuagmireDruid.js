@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuagmireDruidBase = require("../setAPC/QuagmireDruid.js");
+const Constants = require ("../../../Constants");
+const QuagmireDruidBase = require("../setAPC/QuagmireDruid");
 
 class QuagmireDruid extends QuagmireDruidBase {
   constructor(game) {

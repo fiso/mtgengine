@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ImperiosaurBase = require("../setFUT/Imperiosaur.js");
+const Constants = require ("../../../Constants");
+const ImperiosaurBase = require("../setFUT/Imperiosaur");
 
 class Imperiosaur extends ImperiosaurBase {
   constructor(game) {

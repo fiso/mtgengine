@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EarthlinkBase = require("../setICE/Earthlink.js");
+const Constants = require ("../../../Constants");
+const EarthlinkBase = require("../setICE/Earthlink");
 
 class Earthlink extends EarthlinkBase {
   constructor(game) {

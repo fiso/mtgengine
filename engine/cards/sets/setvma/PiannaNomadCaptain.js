@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PiannaNomadCaptainBase = require("../setODY/PiannaNomadCaptain.js");
+const Constants = require ("../../../Constants");
+const PiannaNomadCaptainBase = require("../setODY/PiannaNomadCaptain");
 
 class PiannaNomadCaptain extends PiannaNomadCaptainBase {
   constructor(game) {

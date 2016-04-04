@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AmoeboidChangelingBase = require("../setLRW/AmoeboidChangeling.js");
+const Constants = require ("../../../Constants");
+const AmoeboidChangelingBase = require("../setLRW/AmoeboidChangeling");
 
 class AmoeboidChangeling extends AmoeboidChangelingBase {
   constructor(game) {

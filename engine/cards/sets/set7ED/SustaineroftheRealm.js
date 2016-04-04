@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SustaineroftheRealmBase = require("../setDD3_DVD/SustaineroftheRealm.js");
+const Constants = require ("../../../Constants");
+const SustaineroftheRealmBase = require("../setDD3_DVD/SustaineroftheRealm");
 
 class SustaineroftheRealm extends SustaineroftheRealmBase {
   constructor(game) {

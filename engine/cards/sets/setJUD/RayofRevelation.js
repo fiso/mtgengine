@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RayofRevelationBase = require("../setDKA/RayofRevelation.js");
+const Constants = require ("../../../Constants");
+const RayofRevelationBase = require("../setDKA/RayofRevelation");
 
 class RayofRevelation extends RayofRevelationBase {
   constructor(game) {

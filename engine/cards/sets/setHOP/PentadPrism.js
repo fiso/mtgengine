@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PentadPrismBase = require("../set5DN/PentadPrism.js");
+const Constants = require ("../../../Constants");
+const PentadPrismBase = require("../set5DN/PentadPrism");
 
 class PentadPrism extends PentadPrismBase {
   constructor(game) {

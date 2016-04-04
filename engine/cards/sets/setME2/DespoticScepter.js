@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DespoticScepterBase = require("../setICE/DespoticScepter.js");
+const Constants = require ("../../../Constants");
+const DespoticScepterBase = require("../setICE/DespoticScepter");
 
 class DespoticScepter extends DespoticScepterBase {
   constructor(game) {

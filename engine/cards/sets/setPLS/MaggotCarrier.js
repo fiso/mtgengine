@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MaggotCarrierBase = require("../set8ED/MaggotCarrier.js");
+const Constants = require ("../../../Constants");
+const MaggotCarrierBase = require("../set8ED/MaggotCarrier");
 
 class MaggotCarrier extends MaggotCarrierBase {
   constructor(game) {

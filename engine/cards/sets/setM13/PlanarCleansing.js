@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlanarCleansingBase = require("../setM10/PlanarCleansing.js");
+const Constants = require ("../../../Constants");
+const PlanarCleansingBase = require("../setM10/PlanarCleansing");
 
 class PlanarCleansing extends PlanarCleansingBase {
   constructor(game) {

@@ -1,33 +1,18 @@
 "use strict";
 const UnimplementedCard = require("./UnimplementedCard");
 
-const sets = {
-  "debugset": {
-    "Mountain": require("../cards/BasicMountain"),
-    "Lightning Bolt": require("../cards/LightningBolt"),
-    "Goblin Bully": require("../cards/GoblinBully")
-  }
-};
+const sets = require("./sets/sets");
 
 class CardLoader {
-  constructor (name, set, game) {
-    let chosenSet = undefined;
-    if (set) {
-      if (sets[set]) {
-        chosenSet = sets[set];
-      }
-    }
-    let foundClass = false;
-    for (let setName in sets) {
-      if (sets[setName][name]) {
-        new sets[setName][name](game);
-        foundClass = true;
-      }
-    }
+  constructor (cardName, setName, setCode, game) {
+    setCode = "KTK";
+    let cardClass = require("./sets/set" + setCode + "/Mountain");
+    let card = new cardClass(game, cardName, setName, setCode);
+    this._promise = card.ready();
+  }
 
-    if (!foundClass) {
-      new UnimplementedCard(game, name, set);
-    }
+  ready () {
+    return this._promise;
   }
 }
 

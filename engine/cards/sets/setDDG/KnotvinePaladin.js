@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KnotvinePaladinBase = require("../setARB/KnotvinePaladin.js");
+const Constants = require ("../../../Constants");
+const KnotvinePaladinBase = require("../setARB/KnotvinePaladin");
 
 class KnotvinePaladin extends KnotvinePaladinBase {
   constructor(game) {

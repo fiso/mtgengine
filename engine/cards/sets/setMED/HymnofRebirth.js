@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HymnofRebirthBase = require("../setICE/HymnofRebirth.js");
+const Constants = require ("../../../Constants");
+const HymnofRebirthBase = require("../setICE/HymnofRebirth");
 
 class HymnofRebirth extends HymnofRebirthBase {
   constructor(game) {

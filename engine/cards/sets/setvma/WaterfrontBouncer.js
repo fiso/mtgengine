@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WaterfrontBouncerBase = require("../setMMQ/WaterfrontBouncer.js");
+const Constants = require ("../../../Constants");
+const WaterfrontBouncerBase = require("../setMMQ/WaterfrontBouncer");
 
 class WaterfrontBouncer extends WaterfrontBouncerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RetributionBase = require("../setHML/Retribution.js");
+const Constants = require ("../../../Constants");
+const RetributionBase = require("../setHML/Retribution");
 
 class Retribution extends RetributionBase {
   constructor(game) {

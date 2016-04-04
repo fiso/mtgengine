@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SimianGruntsBase = require("../setULG/SimianGrunts.js");
+const Constants = require ("../../../Constants");
+const SimianGruntsBase = require("../setULG/SimianGrunts");
 
 class SimianGrunts extends SimianGruntsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoldervineCloakBase = require("../setMMA/MoldervineCloak.js");
+const Constants = require ("../../../Constants");
+const MoldervineCloakBase = require("../setMMA/MoldervineCloak");
 
 class MoldervineCloak extends MoldervineCloakBase {
   constructor(game) {

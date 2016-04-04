@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JungleLionBase = require("../setME3/JungleLion.js");
+const Constants = require ("../../../Constants");
+const JungleLionBase = require("../setME3/JungleLion");
 
 class JungleLion extends JungleLionBase {
   constructor(game) {

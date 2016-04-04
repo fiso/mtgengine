@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BurnoutBase = require("../setALL/Burnout.js");
+const Constants = require ("../../../Constants");
+const BurnoutBase = require("../setALL/Burnout");
 
 class Burnout extends BurnoutBase {
   constructor(game) {

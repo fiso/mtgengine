@@ -72,10 +72,11 @@ class Game {
         let playerPromises = [];
         for (let i = 0; i < this._numberOfPlayers; i++) {
           let promise = new Promise((resolve, reject) => {
-              let player = new Player(this, this._decks[i], () => {
+              let player = new Player(this, this._decks[i]);
+              this._players.push(player);
+              player.ready().then(() => {
                 resolve();
               });
-              this._players.push(player);
           });
           playerPromises.push(promise);
         }

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GryffVanguardBase = require("../setAVR/GryffVanguard.js");
+const Constants = require ("../../../Constants");
+const GryffVanguardBase = require("../setAVR/GryffVanguard");
 
 class GryffVanguard extends GryffVanguardBase {
   constructor(game) {

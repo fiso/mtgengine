@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WirewoodSavageBase = require("../setDD3_GVL/WirewoodSavage.js");
+const Constants = require ("../../../Constants");
+const WirewoodSavageBase = require("../setDD3_GVL/WirewoodSavage");
 
 class WirewoodSavage extends WirewoodSavageBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlacialWallBase = require("../set6ED/GlacialWall.js");
+const Constants = require ("../../../Constants");
+const GlacialWallBase = require("../set6ED/GlacialWall");
 
 class GlacialWall extends GlacialWallBase {
   constructor(game) {

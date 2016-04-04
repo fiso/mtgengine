@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MelokutheCloudedMirrorBase = require("../setCHK/MelokutheCloudedMirror.js");
+const Constants = require ("../../../Constants");
+const MelokutheCloudedMirrorBase = require("../setCHK/MelokutheCloudedMirror");
 
 class MelokutheCloudedMirror extends MelokutheCloudedMirrorBase {
   constructor(game) {

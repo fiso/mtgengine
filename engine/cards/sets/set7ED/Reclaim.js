@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReclaimBase = require("../setEXO/Reclaim.js");
+const Constants = require ("../../../Constants");
+const ReclaimBase = require("../setEXO/Reclaim");
 
 class Reclaim extends ReclaimBase {
   constructor(game) {

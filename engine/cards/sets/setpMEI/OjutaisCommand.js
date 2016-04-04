@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OjutaisCommandBase = require("../setDTK/OjutaisCommand.js");
+const Constants = require ("../../../Constants");
+const OjutaisCommandBase = require("../setDTK/OjutaisCommand");
 
 class OjutaisCommand extends OjutaisCommandBase {
   constructor(game) {

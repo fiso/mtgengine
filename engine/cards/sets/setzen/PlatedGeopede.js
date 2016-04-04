@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlatedGeopedeBase = require("../setDDI/PlatedGeopede.js");
+const Constants = require ("../../../Constants");
+const PlatedGeopedeBase = require("../setDDI/PlatedGeopede");
 
 class PlatedGeopede extends PlatedGeopedeBase {
   constructor(game) {

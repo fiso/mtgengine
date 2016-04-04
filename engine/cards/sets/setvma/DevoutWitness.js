@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DevoutWitnessBase = require("../setMMQ/DevoutWitness.js");
+const Constants = require ("../../../Constants");
+const DevoutWitnessBase = require("../setMMQ/DevoutWitness");
 
 class DevoutWitness extends DevoutWitnessBase {
   constructor(game) {

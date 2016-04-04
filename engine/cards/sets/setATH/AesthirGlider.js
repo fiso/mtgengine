@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AesthirGliderBase = require("../setALL/AesthirGlider.js");
+const Constants = require ("../../../Constants");
+const AesthirGliderBase = require("../setALL/AesthirGlider");
 
 class AesthirGlider extends AesthirGliderBase {
   constructor(game) {

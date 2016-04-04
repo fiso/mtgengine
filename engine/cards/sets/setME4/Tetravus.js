@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TetravusBase = require("../setATQ/Tetravus.js");
+const Constants = require ("../../../Constants");
+const TetravusBase = require("../setATQ/Tetravus");
 
 class Tetravus extends TetravusBase {
   constructor(game) {

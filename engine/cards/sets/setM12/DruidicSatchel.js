@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DruidicSatchelBase = require("../setC13/DruidicSatchel.js");
+const Constants = require ("../../../Constants");
+const DruidicSatchelBase = require("../setC13/DruidicSatchel");
 
 class DruidicSatchel extends DruidicSatchelBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AshnodsCouponBase = require("../setpARL/AshnodsCoupon.js");
+const Constants = require ("../../../Constants");
+const AshnodsCouponBase = require("../setpARL/AshnodsCoupon");
 
 class AshnodsCoupon extends AshnodsCouponBase {
   constructor(game) {

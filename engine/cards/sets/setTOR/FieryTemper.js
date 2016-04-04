@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FieryTemperBase = require("../setpGTW/FieryTemper.js");
+const Constants = require ("../../../Constants");
+const FieryTemperBase = require("../setpGTW/FieryTemper");
 
 class FieryTemper extends FieryTemperBase {
   constructor(game) {

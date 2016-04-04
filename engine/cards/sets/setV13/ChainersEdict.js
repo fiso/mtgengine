@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChainersEdictBase = require("../setpFNM/ChainersEdict.js");
+const Constants = require ("../../../Constants");
+const ChainersEdictBase = require("../setpFNM/ChainersEdict");
 
 class ChainersEdict extends ChainersEdictBase {
   constructor(game) {

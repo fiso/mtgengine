@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SlipstreamEelBase = require("../setCMD/SlipstreamEel.js");
+const Constants = require ("../../../Constants");
+const SlipstreamEelBase = require("../setCMD/SlipstreamEel");
 
 class SlipstreamEel extends SlipstreamEelBase {
   constructor(game) {

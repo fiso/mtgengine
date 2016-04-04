@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DivineInterventionBase = require("../setLEG/DivineIntervention.js");
+const Constants = require ("../../../Constants");
+const DivineInterventionBase = require("../setLEG/DivineIntervention");
 
 class DivineIntervention extends DivineInterventionBase {
   constructor(game) {

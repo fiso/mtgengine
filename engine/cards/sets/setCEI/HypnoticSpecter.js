@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HypnoticSpecterBase = require("../setATH/HypnoticSpecter.js");
+const Constants = require ("../../../Constants");
+const HypnoticSpecterBase = require("../setATH/HypnoticSpecter");
 
 class HypnoticSpecter extends HypnoticSpecterBase {
   constructor(game) {

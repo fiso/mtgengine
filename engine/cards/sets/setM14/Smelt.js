@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SmeltBase = require("../setM13/Smelt.js");
+const Constants = require ("../../../Constants");
+const SmeltBase = require("../setM13/Smelt");
 
 class Smelt extends SmeltBase {
   constructor(game) {

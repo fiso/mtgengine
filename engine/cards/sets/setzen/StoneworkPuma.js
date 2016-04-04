@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StoneworkPumaBase = require("../setDDP/StoneworkPuma.js");
+const Constants = require ("../../../Constants");
+const StoneworkPumaBase = require("../setDDP/StoneworkPuma");
 
 class StoneworkPuma extends StoneworkPumaBase {
   constructor(game) {

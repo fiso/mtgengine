@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TornadoElementalBase = require("../setC14/TornadoElemental.js");
+const Constants = require ("../../../Constants");
+const TornadoElementalBase = require("../setC14/TornadoElemental");
 
 class TornadoElemental extends TornadoElementalBase {
   constructor(game) {

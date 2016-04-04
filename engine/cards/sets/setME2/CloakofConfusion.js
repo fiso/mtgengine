@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CloakofConfusionBase = require("../set5ED/CloakofConfusion.js");
+const Constants = require ("../../../Constants");
+const CloakofConfusionBase = require("../set5ED/CloakofConfusion");
 
 class CloakofConfusion extends CloakofConfusionBase {
   constructor(game) {

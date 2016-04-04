@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EtheriumHornSorcererBase = require("../setC15/EtheriumHornSorcerer.js");
+const Constants = require ("../../../Constants");
+const EtheriumHornSorcererBase = require("../setC15/EtheriumHornSorcerer");
 
 class EtheriumHornSorcerer extends EtheriumHornSorcererBase {
   constructor(game) {

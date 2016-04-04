@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VoltChargeBase = require("../setDDL/VoltCharge.js");
+const Constants = require ("../../../Constants");
+const VoltChargeBase = require("../setDDL/VoltCharge");
 
 class VoltCharge extends VoltChargeBase {
   constructor(game) {

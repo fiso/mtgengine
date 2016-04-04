@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrandmotherSengirBase = require("../setHML/GrandmotherSengir.js");
+const Constants = require ("../../../Constants");
+const GrandmotherSengirBase = require("../setHML/GrandmotherSengir");
 
 class GrandmotherSengir extends GrandmotherSengirBase {
   constructor(game) {

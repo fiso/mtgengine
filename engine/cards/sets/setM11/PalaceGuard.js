@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PalaceGuardBase = require("../setM10/PalaceGuard.js");
+const Constants = require ("../../../Constants");
+const PalaceGuardBase = require("../setM10/PalaceGuard");
 
 class PalaceGuard extends PalaceGuardBase {
   constructor(game) {

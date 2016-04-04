@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DawnbringerCharioteersBase = require("../setJOU/DawnbringerCharioteers.js");
+const Constants = require ("../../../Constants");
+const DawnbringerCharioteersBase = require("../setJOU/DawnbringerCharioteers");
 
 class DawnbringerCharioteers extends DawnbringerCharioteersBase {
   constructor(game) {

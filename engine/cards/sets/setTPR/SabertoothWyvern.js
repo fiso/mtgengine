@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SabertoothWyvernBase = require("../setEXO/SabertoothWyvern.js");
+const Constants = require ("../../../Constants");
+const SabertoothWyvernBase = require("../setEXO/SabertoothWyvern");
 
 class SabertoothWyvern extends SabertoothWyvernBase {
   constructor(game) {

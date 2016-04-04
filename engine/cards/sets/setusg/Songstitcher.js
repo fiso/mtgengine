@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SongstitcherBase = require("../setBRB/Songstitcher.js");
+const Constants = require ("../../../Constants");
+const SongstitcherBase = require("../setBRB/Songstitcher");
 
 class Songstitcher extends SongstitcherBase {
   constructor(game) {

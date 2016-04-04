@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BattlefieldForgeBase = require("../setAPC/BattlefieldForge.js");
+const Constants = require ("../../../Constants");
+const BattlefieldForgeBase = require("../setAPC/BattlefieldForge");
 
 class BattlefieldForge extends BattlefieldForgeBase {
   constructor(game) {

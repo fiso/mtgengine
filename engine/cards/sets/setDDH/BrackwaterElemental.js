@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrackwaterElementalBase = require("../setCON/BrackwaterElemental.js");
+const Constants = require ("../../../Constants");
+const BrackwaterElementalBase = require("../setCON/BrackwaterElemental");
 
 class BrackwaterElemental extends BrackwaterElementalBase {
   constructor(game) {

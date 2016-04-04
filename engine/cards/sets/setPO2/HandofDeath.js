@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HandofDeathBase = require("../setPOR/HandofDeath.js");
+const Constants = require ("../../../Constants");
+const HandofDeathBase = require("../setPOR/HandofDeath");
 
 class HandofDeath extends HandofDeathBase {
   constructor(game) {

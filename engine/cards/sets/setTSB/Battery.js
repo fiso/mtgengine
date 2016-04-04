@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BatteryBase = require("../setINV/Battery.js");
+const Constants = require ("../../../Constants");
+const BatteryBase = require("../setINV/Battery");
 
 class Battery extends BatteryBase {
   constructor(game) {

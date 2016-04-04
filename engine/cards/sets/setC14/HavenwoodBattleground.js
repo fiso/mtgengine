@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HavenwoodBattlegroundBase = require("../setBTD/HavenwoodBattleground.js");
+const Constants = require ("../../../Constants");
+const HavenwoodBattlegroundBase = require("../setBTD/HavenwoodBattleground");
 
 class HavenwoodBattleground extends HavenwoodBattlegroundBase {
   constructor(game) {

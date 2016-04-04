@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CursedRackBase = require("../setATQ/CursedRack.js");
+const Constants = require ("../../../Constants");
+const CursedRackBase = require("../setATQ/CursedRack");
 
 class CursedRack extends CursedRackBase {
   constructor(game) {

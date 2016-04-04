@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BreakthroughBase = require("../setCNS/Breakthrough.js");
+const Constants = require ("../../../Constants");
+const BreakthroughBase = require("../setCNS/Breakthrough");
 
 class Breakthrough extends BreakthroughBase {
   constructor(game) {

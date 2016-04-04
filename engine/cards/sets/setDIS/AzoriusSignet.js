@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AzoriusSignetBase = require("../setARC/AzoriusSignet.js");
+const Constants = require ("../../../Constants");
+const AzoriusSignetBase = require("../setARC/AzoriusSignet");
 
 class AzoriusSignet extends AzoriusSignetBase {
   constructor(game) {

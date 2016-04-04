@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KozileksPredatorBase = require("../setMM2/KozileksPredator.js");
+const Constants = require ("../../../Constants");
+const KozileksPredatorBase = require("../setMM2/KozileksPredator");
 
 class KozileksPredator extends KozileksPredatorBase {
   constructor(game) {

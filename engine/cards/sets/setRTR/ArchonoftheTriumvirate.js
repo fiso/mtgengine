@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArchonoftheTriumvirateBase = require("../setpPRE/ArchonoftheTriumvirate.js");
+const Constants = require ("../../../Constants");
+const ArchonoftheTriumvirateBase = require("../setpPRE/ArchonoftheTriumvirate");
 
 class ArchonoftheTriumvirate extends ArchonoftheTriumvirateBase {
   constructor(game) {

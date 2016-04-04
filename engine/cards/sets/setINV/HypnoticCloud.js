@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HypnoticCloudBase = require("../setDDM/HypnoticCloud.js");
+const Constants = require ("../../../Constants");
+const HypnoticCloudBase = require("../setDDM/HypnoticCloud");
 
 class HypnoticCloud extends HypnoticCloudBase {
   constructor(game) {

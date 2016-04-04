@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoneHarvestBase = require("../setBTD/BoneHarvest.js");
+const Constants = require ("../../../Constants");
+const BoneHarvestBase = require("../setBTD/BoneHarvest");
 
 class BoneHarvest extends BoneHarvestBase {
   constructor(game) {

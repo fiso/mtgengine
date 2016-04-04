@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MyrBattlesphereBase = require("../setC13/MyrBattlesphere.js");
+const Constants = require ("../../../Constants");
+const MyrBattlesphereBase = require("../setC13/MyrBattlesphere");
 
 class MyrBattlesphere extends MyrBattlesphereBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WorldheartPhoenixBase = require("../setCON/WorldheartPhoenix.js");
+const Constants = require ("../../../Constants");
+const WorldheartPhoenixBase = require("../setCON/WorldheartPhoenix");
 
 class WorldheartPhoenix extends WorldheartPhoenixBase {
   constructor(game) {

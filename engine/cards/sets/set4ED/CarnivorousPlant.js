@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CarnivorousPlantBase = require("../setATH/CarnivorousPlant.js");
+const Constants = require ("../../../Constants");
+const CarnivorousPlantBase = require("../setATH/CarnivorousPlant");
 
 class CarnivorousPlant extends CarnivorousPlantBase {
   constructor(game) {

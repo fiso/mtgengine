@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrchardSpiritBase = require("../setISD/OrchardSpirit.js");
+const Constants = require ("../../../Constants");
+const OrchardSpiritBase = require("../setISD/OrchardSpirit");
 
 class OrchardSpirit extends OrchardSpiritBase {
   constructor(game) {

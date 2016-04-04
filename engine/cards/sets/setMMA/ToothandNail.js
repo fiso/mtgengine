@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ToothandNailBase = require("../setMRD/ToothandNail.js");
+const Constants = require ("../../../Constants");
+const ToothandNailBase = require("../setMRD/ToothandNail");
 
 class ToothandNail extends ToothandNailBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CascadeBluffsBase = require("../setEVE/CascadeBluffs.js");
+const Constants = require ("../../../Constants");
+const CascadeBluffsBase = require("../setEVE/CascadeBluffs");
 
 class CascadeBluffs extends CascadeBluffsBase {
   constructor(game) {

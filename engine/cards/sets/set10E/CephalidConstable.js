@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CephalidConstableBase = require("../setJUD/CephalidConstable.js");
+const Constants = require ("../../../Constants");
+const CephalidConstableBase = require("../setJUD/CephalidConstable");
 
 class CephalidConstable extends CephalidConstableBase {
   constructor(game) {

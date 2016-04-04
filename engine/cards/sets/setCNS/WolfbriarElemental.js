@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WolfbriarElementalBase = require("../setC14/WolfbriarElemental.js");
+const Constants = require ("../../../Constants");
+const WolfbriarElementalBase = require("../setC14/WolfbriarElemental");
 
 class WolfbriarElemental extends WolfbriarElementalBase {
   constructor(game) {

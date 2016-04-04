@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LowlandGiantBase = require("../setBTD/LowlandGiant.js");
+const Constants = require ("../../../Constants");
+const LowlandGiantBase = require("../setBTD/LowlandGiant");
 
 class LowlandGiant extends LowlandGiantBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlastedLandscapeBase = require("../setC15/BlastedLandscape.js");
+const Constants = require ("../../../Constants");
+const BlastedLandscapeBase = require("../setC15/BlastedLandscape");
 
 class BlastedLandscape extends BlastedLandscapeBase {
   constructor(game) {

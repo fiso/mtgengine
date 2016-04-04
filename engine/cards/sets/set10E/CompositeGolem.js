@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CompositeGolemBase = require("../set5DN/CompositeGolem.js");
+const Constants = require ("../../../Constants");
+const CompositeGolemBase = require("../set5DN/CompositeGolem");
 
 class CompositeGolem extends CompositeGolemBase {
   constructor(game) {

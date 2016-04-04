@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FoundryChampionBase = require("../setGTC/FoundryChampion.js");
+const Constants = require ("../../../Constants");
+const FoundryChampionBase = require("../setGTC/FoundryChampion");
 
 class FoundryChampion extends FoundryChampionBase {
   constructor(game) {

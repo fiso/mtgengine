@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SoldeviDiggerBase = require("../setALL/SoldeviDigger.js");
+const Constants = require ("../../../Constants");
+const SoldeviDiggerBase = require("../setALL/SoldeviDigger");
 
 class SoldeviDigger extends SoldeviDiggerBase {
   constructor(game) {

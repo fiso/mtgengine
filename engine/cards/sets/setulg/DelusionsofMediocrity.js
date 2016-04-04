@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DelusionsofMediocrityBase = require("../set7ED/DelusionsofMediocrity.js");
+const Constants = require ("../../../Constants");
+const DelusionsofMediocrityBase = require("../set7ED/DelusionsofMediocrity");
 
 class DelusionsofMediocrity extends DelusionsofMediocrityBase {
   constructor(game) {

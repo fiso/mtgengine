@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PsychicTransferBase = require("../set6ED/PsychicTransfer.js");
+const Constants = require ("../../../Constants");
+const PsychicTransferBase = require("../set6ED/PsychicTransfer");
 
 class PsychicTransfer extends PsychicTransferBase {
   constructor(game) {

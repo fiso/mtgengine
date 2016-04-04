@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CompulsiveResearchBase = require("../setC14/CompulsiveResearch.js");
+const Constants = require ("../../../Constants");
+const CompulsiveResearchBase = require("../setC14/CompulsiveResearch");
 
 class CompulsiveResearch extends CompulsiveResearchBase {
   constructor(game) {

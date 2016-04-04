@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WindbriskHeightsBase = require("../setV12/WindbriskHeights.js");
+const Constants = require ("../../../Constants");
+const WindbriskHeightsBase = require("../setV12/WindbriskHeights");
 
 class WindbriskHeights extends WindbriskHeightsBase {
   constructor(game) {

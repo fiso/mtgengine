@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExpeditionMapBase = require("../setMM2/ExpeditionMap.js");
+const Constants = require ("../../../Constants");
+const ExpeditionMapBase = require("../setMM2/ExpeditionMap");
 
 class ExpeditionMap extends ExpeditionMapBase {
   constructor(game) {

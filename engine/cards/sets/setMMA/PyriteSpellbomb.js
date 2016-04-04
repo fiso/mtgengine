@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PyriteSpellbombBase = require("../setMRD/PyriteSpellbomb.js");
+const Constants = require ("../../../Constants");
+const PyriteSpellbombBase = require("../setMRD/PyriteSpellbomb");
 
 class PyriteSpellbomb extends PyriteSpellbombBase {
   constructor(game) {

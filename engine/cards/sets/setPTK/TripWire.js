@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TripWireBase = require("../setME3/TripWire.js");
+const Constants = require ("../../../Constants");
+const TripWireBase = require("../setME3/TripWire");
 
 class TripWire extends TripWireBase {
   constructor(game) {

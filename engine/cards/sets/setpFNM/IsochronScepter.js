@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IsochronScepterBase = require("../setDDJ/IsochronScepter.js");
+const Constants = require ("../../../Constants");
+const IsochronScepterBase = require("../setDDJ/IsochronScepter");
 
 class IsochronScepter extends IsochronScepterBase {
   constructor(game) {

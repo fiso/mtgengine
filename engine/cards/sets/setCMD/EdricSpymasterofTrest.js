@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EdricSpymasterofTrestBase = require("../setCM1/EdricSpymasterofTrest.js");
+const Constants = require ("../../../Constants");
+const EdricSpymasterofTrestBase = require("../setCM1/EdricSpymasterofTrest");
 
 class EdricSpymasterofTrest extends EdricSpymasterofTrestBase {
   constructor(game) {

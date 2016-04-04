@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LilianasReaverBase = require("../setC14/LilianasReaver.js");
+const Constants = require ("../../../Constants");
+const LilianasReaverBase = require("../setC14/LilianasReaver");
 
 class LilianasReaver extends LilianasReaverBase {
   constructor(game) {

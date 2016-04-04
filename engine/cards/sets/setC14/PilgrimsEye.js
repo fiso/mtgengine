@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PilgrimsEyeBase = require("../setBFZ/PilgrimsEye.js");
+const Constants = require ("../../../Constants");
+const PilgrimsEyeBase = require("../setBFZ/PilgrimsEye");
 
 class PilgrimsEye extends PilgrimsEyeBase {
   constructor(game) {

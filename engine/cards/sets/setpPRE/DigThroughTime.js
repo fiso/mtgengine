@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DigThroughTimeBase = require("../setKTK/DigThroughTime.js");
+const Constants = require ("../../../Constants");
+const DigThroughTimeBase = require("../setKTK/DigThroughTime");
 
 class DigThroughTime extends DigThroughTimeBase {
   constructor(game) {

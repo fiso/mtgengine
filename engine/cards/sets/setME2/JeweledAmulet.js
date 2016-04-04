@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JeweledAmuletBase = require("../setICE/JeweledAmulet.js");
+const Constants = require ("../../../Constants");
+const JeweledAmuletBase = require("../setICE/JeweledAmulet");
 
 class JeweledAmulet extends JeweledAmuletBase {
   constructor(game) {

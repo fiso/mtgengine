@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SensoryDeprivationBase = require("../setISD/SensoryDeprivation.js");
+const Constants = require ("../../../Constants");
+const SensoryDeprivationBase = require("../setISD/SensoryDeprivation");
 
 class SensoryDeprivation extends SensoryDeprivationBase {
   constructor(game) {

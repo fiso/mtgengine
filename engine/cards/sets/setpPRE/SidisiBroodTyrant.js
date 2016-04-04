@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SidisiBroodTyrantBase = require("../setKTK/SidisiBroodTyrant.js");
+const Constants = require ("../../../Constants");
+const SidisiBroodTyrantBase = require("../setKTK/SidisiBroodTyrant");
 
 class SidisiBroodTyrant extends SidisiBroodTyrantBase {
   constructor(game) {

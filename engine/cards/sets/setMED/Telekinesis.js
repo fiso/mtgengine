@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TelekinesisBase = require("../setLEG/Telekinesis.js");
+const Constants = require ("../../../Constants");
+const TelekinesisBase = require("../setLEG/Telekinesis");
 
 class Telekinesis extends TelekinesisBase {
   constructor(game) {

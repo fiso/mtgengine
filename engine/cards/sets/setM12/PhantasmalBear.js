@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhantasmalBearBase = require("../setDDM/PhantasmalBear.js");
+const Constants = require ("../../../Constants");
+const PhantasmalBearBase = require("../setDDM/PhantasmalBear");
 
 class PhantasmalBear extends PhantasmalBearBase {
   constructor(game) {

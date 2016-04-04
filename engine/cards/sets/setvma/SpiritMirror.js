@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpiritMirrorBase = require("../setTMP/SpiritMirror.js");
+const Constants = require ("../../../Constants");
+const SpiritMirrorBase = require("../setTMP/SpiritMirror");
 
 class SpiritMirror extends SpiritMirrorBase {
   constructor(game) {

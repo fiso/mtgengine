@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WastelandBase = require("../setpJGP/Wasteland.js");
+const Constants = require ("../../../Constants");
+const WastelandBase = require("../setpJGP/Wasteland");
 
 class Wasteland extends WastelandBase {
   constructor(game) {

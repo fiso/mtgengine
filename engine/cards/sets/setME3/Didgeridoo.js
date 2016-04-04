@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DidgeridooBase = require("../setHML/Didgeridoo.js");
+const Constants = require ("../../../Constants");
+const DidgeridooBase = require("../setHML/Didgeridoo");
 
 class Didgeridoo extends DidgeridooBase {
   constructor(game) {

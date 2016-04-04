@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HibernationSliverBase = require("../setH09/HibernationSliver.js");
+const Constants = require ("../../../Constants");
+const HibernationSliverBase = require("../setH09/HibernationSliver");
 
 class HibernationSliver extends HibernationSliverBase {
   constructor(game) {

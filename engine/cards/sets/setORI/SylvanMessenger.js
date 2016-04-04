@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SylvanMessengerBase = require("../setAPC/SylvanMessenger.js");
+const Constants = require ("../../../Constants");
+const SylvanMessengerBase = require("../setAPC/SylvanMessenger");
 
 class SylvanMessenger extends SylvanMessengerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorSkyfisherBase = require("../setDDO/KorSkyfisher.js");
+const Constants = require ("../../../Constants");
+const KorSkyfisherBase = require("../setDDO/KorSkyfisher");
 
 class KorSkyfisher extends KorSkyfisherBase {
   constructor(game) {

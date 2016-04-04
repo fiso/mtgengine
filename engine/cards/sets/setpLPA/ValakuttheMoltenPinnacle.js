@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ValakuttheMoltenPinnacle extends Card {
+class ValakuttheMoltenPinnacle extends UnimplementedCard {
   constructor(game) {
     super(game, "Valakut, the Molten Pinnacle", "Launch Parties", "pLPA");
   }

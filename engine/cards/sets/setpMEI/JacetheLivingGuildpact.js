@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JacetheLivingGuildpactBase = require("../setM15/JacetheLivingGuildpact.js");
+const Constants = require ("../../../Constants");
+const JacetheLivingGuildpactBase = require("../setM15/JacetheLivingGuildpact");
 
 class JacetheLivingGuildpact extends JacetheLivingGuildpactBase {
   constructor(game) {

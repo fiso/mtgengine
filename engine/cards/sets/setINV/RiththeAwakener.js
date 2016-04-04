@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiththeAwakenerBase = require("../setDDE/RiththeAwakener.js");
+const Constants = require ("../../../Constants");
+const RiththeAwakenerBase = require("../setDDE/RiththeAwakener");
 
 class RiththeAwakener extends RiththeAwakenerBase {
   constructor(game) {

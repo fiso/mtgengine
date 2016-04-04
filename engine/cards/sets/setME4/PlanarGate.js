@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlanarGateBase = require("../setLEG/PlanarGate.js");
+const Constants = require ("../../../Constants");
+const PlanarGateBase = require("../setLEG/PlanarGate");
 
 class PlanarGate extends PlanarGateBase {
   constructor(game) {

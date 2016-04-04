@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RocketLauncherBase = require("../setATQ/RocketLauncher.js");
+const Constants = require ("../../../Constants");
+const RocketLauncherBase = require("../setATQ/RocketLauncher");
 
 class RocketLauncher extends RocketLauncherBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TemurWarShamanBase = require("../setFRF/TemurWarShaman.js");
+const Constants = require ("../../../Constants");
+const TemurWarShamanBase = require("../setFRF/TemurWarShaman");
 
 class TemurWarShaman extends TemurWarShamanBase {
   constructor(game) {

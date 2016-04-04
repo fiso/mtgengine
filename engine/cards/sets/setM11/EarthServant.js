@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EarthServantBase = require("../setDDI/EarthServant.js");
+const Constants = require ("../../../Constants");
+const EarthServantBase = require("../setDDI/EarthServant");
 
 class EarthServant extends EarthServantBase {
   constructor(game) {

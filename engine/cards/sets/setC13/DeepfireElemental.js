@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeepfireElementalBase = require("../setCSP/DeepfireElemental.js");
+const Constants = require ("../../../Constants");
+const DeepfireElementalBase = require("../setCSP/DeepfireElemental");
 
 class DeepfireElemental extends DeepfireElementalBase {
   constructor(game) {

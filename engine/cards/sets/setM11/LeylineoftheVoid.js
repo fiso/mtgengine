@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LeylineoftheVoidBase = require("../setGPT/LeylineoftheVoid.js");
+const Constants = require ("../../../Constants");
+const LeylineoftheVoidBase = require("../setGPT/LeylineoftheVoid");
 
 class LeylineoftheVoid extends LeylineoftheVoidBase {
   constructor(game) {

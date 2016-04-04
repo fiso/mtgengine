@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MindwrackDemonBase = require("../setDDQ/MindwrackDemon.js");
+const Constants = require ("../../../Constants");
+const MindwrackDemonBase = require("../setDDQ/MindwrackDemon");
 
 class MindwrackDemon extends MindwrackDemonBase {
   constructor(game) {

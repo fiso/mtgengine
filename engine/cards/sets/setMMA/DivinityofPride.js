@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DivinityofPrideBase = require("../setC13/DivinityofPride.js");
+const Constants = require ("../../../Constants");
+const DivinityofPrideBase = require("../setC13/DivinityofPride");
 
 class DivinityofPride extends DivinityofPrideBase {
   constructor(game) {

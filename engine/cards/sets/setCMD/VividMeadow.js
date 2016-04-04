@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VividMeadowBase = require("../setC15/VividMeadow.js");
+const Constants = require ("../../../Constants");
+const VividMeadowBase = require("../setC15/VividMeadow");
 
 class VividMeadow extends VividMeadowBase {
   constructor(game) {

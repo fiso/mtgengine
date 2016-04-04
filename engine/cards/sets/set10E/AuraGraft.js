@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AuraGraftBase = require("../setODY/AuraGraft.js");
+const Constants = require ("../../../Constants");
+const AuraGraftBase = require("../setODY/AuraGraft");
 
 class AuraGraft extends AuraGraftBase {
   constructor(game) {

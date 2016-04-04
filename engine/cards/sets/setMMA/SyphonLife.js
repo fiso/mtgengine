@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SyphonLifeBase = require("../setEVE/SyphonLife.js");
+const Constants = require ("../../../Constants");
+const SyphonLifeBase = require("../setEVE/SyphonLife");
 
 class SyphonLife extends SyphonLifeBase {
   constructor(game) {

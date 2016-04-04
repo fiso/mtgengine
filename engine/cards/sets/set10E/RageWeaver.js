@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RageWeaverBase = require("../setINV/RageWeaver.js");
+const Constants = require ("../../../Constants");
+const RageWeaverBase = require("../setINV/RageWeaver");
 
 class RageWeaver extends RageWeaverBase {
   constructor(game) {

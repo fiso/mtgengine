@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const XenicPoltergeistBase = require("../setATQ/XenicPoltergeist.js");
+const Constants = require ("../../../Constants");
+const XenicPoltergeistBase = require("../setATQ/XenicPoltergeist");
 
 class XenicPoltergeist extends XenicPoltergeistBase {
   constructor(game) {

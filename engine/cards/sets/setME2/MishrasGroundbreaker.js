@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MishrasGroundbreakerBase = require("../setALL/MishrasGroundbreaker.js");
+const Constants = require ("../../../Constants");
+const MishrasGroundbreakerBase = require("../setALL/MishrasGroundbreaker");
 
 class MishrasGroundbreaker extends MishrasGroundbreakerBase {
   constructor(game) {

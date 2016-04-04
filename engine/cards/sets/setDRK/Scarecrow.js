@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScarecrowBase = require("../setME4/Scarecrow.js");
+const Constants = require ("../../../Constants");
+const ScarecrowBase = require("../setME4/Scarecrow");
 
 class Scarecrow extends ScarecrowBase {
   constructor(game) {

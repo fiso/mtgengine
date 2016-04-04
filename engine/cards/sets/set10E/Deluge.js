@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DelugeBase = require("../setDPA/Deluge.js");
+const Constants = require ("../../../Constants");
+const DelugeBase = require("../setDPA/Deluge");
 
 class Deluge extends DelugeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChronomatonBase = require("../setDDM/Chronomaton.js");
+const Constants = require ("../../../Constants");
+const ChronomatonBase = require("../setDDM/Chronomaton");
 
 class Chronomaton extends ChronomatonBase {
   constructor(game) {

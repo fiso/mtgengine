@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WanderguardSentryBase = require("../setMRD/WanderguardSentry.js");
+const Constants = require ("../../../Constants");
+const WanderguardSentryBase = require("../setMRD/WanderguardSentry");
 
 class WanderguardSentry extends WanderguardSentryBase {
   constructor(game) {

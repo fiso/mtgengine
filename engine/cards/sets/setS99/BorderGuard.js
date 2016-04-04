@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BorderGuardBase = require("../setPOR/BorderGuard.js");
+const Constants = require ("../../../Constants");
+const BorderGuardBase = require("../setPOR/BorderGuard");
 
 class BorderGuard extends BorderGuardBase {
   constructor(game) {

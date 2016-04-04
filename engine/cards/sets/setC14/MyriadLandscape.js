@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MyriadLandscape extends Card {
+class MyriadLandscape extends UnimplementedCard {
   constructor(game) {
     super(game, "Myriad Landscape", "Commander 2014", "C14");
   }

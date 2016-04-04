@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AffaGuardHoundBase = require("../setDDP/AffaGuardHound.js");
+const Constants = require ("../../../Constants");
+const AffaGuardHoundBase = require("../setDDP/AffaGuardHound");
 
 class AffaGuardHound extends AffaGuardHoundBase {
   constructor(game) {

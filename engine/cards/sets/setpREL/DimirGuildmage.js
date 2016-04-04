@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DimirGuildmageBase = require("../setMM2/DimirGuildmage.js");
+const Constants = require ("../../../Constants");
+const DimirGuildmageBase = require("../setMM2/DimirGuildmage");
 
 class DimirGuildmage extends DimirGuildmageBase {
   constructor(game) {

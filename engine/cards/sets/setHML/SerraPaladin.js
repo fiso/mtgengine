@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SerraPaladinBase = require("../set5ED/SerraPaladin.js");
+const Constants = require ("../../../Constants");
+const SerraPaladinBase = require("../set5ED/SerraPaladin");
 
 class SerraPaladin extends SerraPaladinBase {
   constructor(game) {

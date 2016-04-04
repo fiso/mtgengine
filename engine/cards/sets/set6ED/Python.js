@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Python extends Card {
+class Python extends UnimplementedCard {
   constructor(game) {
     super(game, "Python", "Classic Sixth Edition", "6ED");
   }

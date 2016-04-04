@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CalloftheHerdBase = require("../setpGPX/CalloftheHerd.js");
+const Constants = require ("../../../Constants");
+const CalloftheHerdBase = require("../setpGPX/CalloftheHerd");
 
 class CalloftheHerd extends CalloftheHerdBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScavengerFolkBase = require("../setATH/ScavengerFolk.js");
+const Constants = require ("../../../Constants");
+const ScavengerFolkBase = require("../setATH/ScavengerFolk");
 
 class ScavengerFolk extends ScavengerFolkBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BeaconofUnrestBase = require("../setARC/BeaconofUnrest.js");
+const Constants = require ("../../../Constants");
+const BeaconofUnrestBase = require("../setARC/BeaconofUnrest");
 
 class BeaconofUnrest extends BeaconofUnrestBase {
   constructor(game) {

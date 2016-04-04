@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DaggerbackBasiliskBase = require("../setDDP/DaggerbackBasilisk.js");
+const Constants = require ("../../../Constants");
+const DaggerbackBasiliskBase = require("../setDDP/DaggerbackBasilisk");
 
 class DaggerbackBasilisk extends DaggerbackBasiliskBase {
   constructor(game) {

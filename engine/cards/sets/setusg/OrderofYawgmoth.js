@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrderofYawgmothBase = require("../setDDE/OrderofYawgmoth.js");
+const Constants = require ("../../../Constants");
+const OrderofYawgmothBase = require("../setDDE/OrderofYawgmoth");
 
 class OrderofYawgmoth extends OrderofYawgmothBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TheloniteHermitBase = require("../setARC/TheloniteHermit.js");
+const Constants = require ("../../../Constants");
+const TheloniteHermitBase = require("../setARC/TheloniteHermit");
 
 class TheloniteHermit extends TheloniteHermitBase {
   constructor(game) {

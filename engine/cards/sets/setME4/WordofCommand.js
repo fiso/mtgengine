@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WordofCommandBase = require("../setCED/WordofCommand.js");
+const Constants = require ("../../../Constants");
+const WordofCommandBase = require("../setCED/WordofCommand");
 
 class WordofCommand extends WordofCommandBase {
   constructor(game) {

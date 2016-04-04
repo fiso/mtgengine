@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NaturalizeBase = require("../setDTK/Naturalize.js");
+const Constants = require ("../../../Constants");
+const NaturalizeBase = require("../setDTK/Naturalize");
 
 class Naturalize extends NaturalizeBase {
   constructor(game) {

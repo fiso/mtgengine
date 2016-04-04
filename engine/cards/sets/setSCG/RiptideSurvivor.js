@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiptideSurvivorBase = require("../setC14/RiptideSurvivor.js");
+const Constants = require ("../../../Constants");
+const RiptideSurvivorBase = require("../setC14/RiptideSurvivor");
 
 class RiptideSurvivor extends RiptideSurvivorBase {
   constructor(game) {

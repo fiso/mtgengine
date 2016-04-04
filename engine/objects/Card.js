@@ -5,22 +5,23 @@ const Constants = require("../Constants");
 const assert = require("assert");
 
 class Card extends MTGObject {
-  constructor (game, name, set, setCode) {
+  constructor (game, cardName, setName, setCode) {
     super(game);
     if (new.target === Card) {
       throw new TypeError("Card is not to be used directly");
     }
-    this._name = name;
+    this._name = cardName;
     this._superTypes = [];
     this._types = [];
     this._subTypes = [];
     this._abilities = [];
     this._imageUrl = "";
+    this._setName = setName;
+    this._setCode = setCode;
 
     this._promise = new Promise((resolve, reject) => {
-      this._game._cardApi.getCard(name, set).then((card) => {
-        assert(card.name === name);
-        this._name = card.name;
+      this._game._cardApi.getCard(cardName, setName, setCode).then((card) => {
+        assert(card.name === cardName);
         this._imageUrl = card.printing.image_url;
         this._mapTypes(card);
         resolve(this);

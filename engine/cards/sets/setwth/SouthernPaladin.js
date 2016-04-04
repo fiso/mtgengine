@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SouthernPaladinBase = require("../set7ED/SouthernPaladin.js");
+const Constants = require ("../../../Constants");
+const SouthernPaladinBase = require("../set7ED/SouthernPaladin");
 
 class SouthernPaladin extends SouthernPaladinBase {
   constructor(game) {

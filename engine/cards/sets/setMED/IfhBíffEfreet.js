@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IfhBíffEfreetBase = require("../setARN/IfhBíffEfreet.js");
+const Constants = require ("../../../Constants");
+const IfhBíffEfreetBase = require("../setARN/IfhBíffEfreet");
 
 class IfhBíffEfreet extends IfhBíffEfreetBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LightningBoltBase = require("../setATH/LightningBolt.js");
+const Constants = require ("../../../Constants");
+const LightningBoltBase = require("../setATH/LightningBolt");
 
 class LightningBolt extends LightningBoltBase {
   constructor(game) {

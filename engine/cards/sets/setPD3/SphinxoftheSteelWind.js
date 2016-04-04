@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SphinxoftheSteelWindBase = require("../setARB/SphinxoftheSteelWind.js");
+const Constants = require ("../../../Constants");
+const SphinxoftheSteelWindBase = require("../setARB/SphinxoftheSteelWind");
 
 class SphinxoftheSteelWind extends SphinxoftheSteelWindBase {
   constructor(game) {

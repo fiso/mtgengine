@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OtherworldlyJourneyBase = require("../setCHK/OtherworldlyJourney.js");
+const Constants = require ("../../../Constants");
+const OtherworldlyJourneyBase = require("../setCHK/OtherworldlyJourney");
 
 class OtherworldlyJourney extends OtherworldlyJourneyBase {
   constructor(game) {

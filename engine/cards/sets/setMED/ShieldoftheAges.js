@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShieldoftheAgesBase = require("../setICE/ShieldoftheAges.js");
+const Constants = require ("../../../Constants");
+const ShieldoftheAgesBase = require("../setICE/ShieldoftheAges");
 
 class ShieldoftheAges extends ShieldoftheAgesBase {
   constructor(game) {

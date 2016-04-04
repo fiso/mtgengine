@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RazorjawOniBase = require("../setCMD/RazorjawOni.js");
+const Constants = require ("../../../Constants");
+const RazorjawOniBase = require("../setCMD/RazorjawOni");
 
 class RazorjawOni extends RazorjawOniBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LifelinkBase = require("../setM10/Lifelink.js");
+const Constants = require ("../../../Constants");
+const LifelinkBase = require("../setM10/Lifelink");
 
 class Lifelink extends LifelinkBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SeaGateOracleBase = require("../setC14/SeaGateOracle.js");
+const Constants = require ("../../../Constants");
+const SeaGateOracleBase = require("../setC14/SeaGateOracle");
 
 class SeaGateOracle extends SeaGateOracleBase {
   constructor(game) {

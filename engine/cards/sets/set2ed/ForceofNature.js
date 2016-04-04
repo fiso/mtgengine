@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ForceofNatureBase = require("../setBTD/ForceofNature.js");
+const Constants = require ("../../../Constants");
+const ForceofNatureBase = require("../setBTD/ForceofNature");
 
 class ForceofNature extends ForceofNatureBase {
   constructor(game) {

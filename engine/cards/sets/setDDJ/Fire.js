@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FireBase = require("../setAPC/Fire.js");
+const Constants = require ("../../../Constants");
+const FireBase = require("../setAPC/Fire");
 
 class Fire extends FireBase {
   constructor(game) {

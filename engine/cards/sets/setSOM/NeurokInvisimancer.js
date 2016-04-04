@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NeurokInvisimancerBase = require("../setDDI/NeurokInvisimancer.js");
+const Constants = require ("../../../Constants");
+const NeurokInvisimancerBase = require("../setDDI/NeurokInvisimancer");
 
 class NeurokInvisimancer extends NeurokInvisimancerBase {
   constructor(game) {

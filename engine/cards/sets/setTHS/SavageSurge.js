@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SavageSurgeBase = require("../setRTR/SavageSurge.js");
+const Constants = require ("../../../Constants");
+const SavageSurgeBase = require("../setRTR/SavageSurge");
 
 class SavageSurge extends SavageSurgeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FateUnravelerBase = require("../setBNG/FateUnraveler.js");
+const Constants = require ("../../../Constants");
+const FateUnravelerBase = require("../setBNG/FateUnraveler");
 
 class FateUnraveler extends FateUnravelerBase {
   constructor(game) {

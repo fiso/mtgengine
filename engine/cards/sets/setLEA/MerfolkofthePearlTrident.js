@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MerfolkofthePearlTridentBase = require("../set6ED/MerfolkofthePearlTrident.js");
+const Constants = require ("../../../Constants");
+const MerfolkofthePearlTridentBase = require("../set6ED/MerfolkofthePearlTrident");
 
 class MerfolkofthePearlTrident extends MerfolkofthePearlTridentBase {
   constructor(game) {

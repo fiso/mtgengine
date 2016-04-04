@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ChromeMox extends Card {
+class ChromeMox extends UnimplementedCard {
   constructor(game) {
     super(game, "Chrome Mox", "Grand Prix", "pGPX");
   }

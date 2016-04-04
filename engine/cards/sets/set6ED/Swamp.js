@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SwampBase = require("../setATH/Swamp.js");
+const Constants = require ("../../../Constants");
+const SwampBase = require("../setATH/Swamp");
 
 class Swamp extends SwampBase {
   constructor(game) {

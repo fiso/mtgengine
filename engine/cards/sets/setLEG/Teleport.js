@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TeleportBase = require("../setCHR/Teleport.js");
+const Constants = require ("../../../Constants");
+const TeleportBase = require("../setCHR/Teleport");
 
 class Teleport extends TeleportBase {
   constructor(game) {

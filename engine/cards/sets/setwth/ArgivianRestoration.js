@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArgivianRestorationBase = require("../setDDF/ArgivianRestoration.js");
+const Constants = require ("../../../Constants");
+const ArgivianRestorationBase = require("../setDDF/ArgivianRestoration");
 
 class ArgivianRestoration extends ArgivianRestorationBase {
   constructor(game) {

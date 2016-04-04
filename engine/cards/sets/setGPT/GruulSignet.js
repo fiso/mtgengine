@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GruulSignetBase = require("../setARC/GruulSignet.js");
+const Constants = require ("../../../Constants");
+const GruulSignetBase = require("../setARC/GruulSignet");
 
 class GruulSignet extends GruulSignetBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LogicKnotBase = require("../setFUT/LogicKnot.js");
+const Constants = require ("../../../Constants");
+const LogicKnotBase = require("../setFUT/LogicKnot");
 
 class LogicKnot extends LogicKnotBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LegacysAllureBase = require("../setTMP/LegacysAllure.js");
+const Constants = require ("../../../Constants");
+const LegacysAllureBase = require("../setTMP/LegacysAllure");
 
 class LegacysAllure extends LegacysAllureBase {
   constructor(game) {

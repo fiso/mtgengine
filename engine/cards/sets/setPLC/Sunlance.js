@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunlanceBase = require("../setDDO/Sunlance.js");
+const Constants = require ("../../../Constants");
+const SunlanceBase = require("../setDDO/Sunlance");
 
 class Sunlance extends SunlanceBase {
   constructor(game) {

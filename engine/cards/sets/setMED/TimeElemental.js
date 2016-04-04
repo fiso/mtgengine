@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimeElementalBase = require("../set5ED/TimeElemental.js");
+const Constants = require ("../../../Constants");
+const TimeElementalBase = require("../set5ED/TimeElemental");
 
 class TimeElemental extends TimeElementalBase {
   constructor(game) {

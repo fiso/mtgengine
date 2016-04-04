@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArcboundStingerBase = require("../setDST/ArcboundStinger.js");
+const Constants = require ("../../../Constants");
+const ArcboundStingerBase = require("../setDST/ArcboundStinger");
 
 class ArcboundStinger extends ArcboundStingerBase {
   constructor(game) {

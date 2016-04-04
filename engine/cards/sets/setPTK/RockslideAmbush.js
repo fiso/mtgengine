@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RockslideAmbushBase = require("../setME4/RockslideAmbush.js");
+const Constants = require ("../../../Constants");
+const RockslideAmbushBase = require("../setME4/RockslideAmbush");
 
 class RockslideAmbush extends RockslideAmbushBase {
   constructor(game) {

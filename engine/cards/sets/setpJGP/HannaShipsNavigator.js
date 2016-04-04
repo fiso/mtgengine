@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HannaShipsNavigatorBase = require("../setINV/HannaShipsNavigator.js");
+const Constants = require ("../../../Constants");
+const HannaShipsNavigatorBase = require("../setINV/HannaShipsNavigator");
 
 class HannaShipsNavigator extends HannaShipsNavigatorBase {
   constructor(game) {

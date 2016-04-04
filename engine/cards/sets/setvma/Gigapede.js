@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GigapedeBase = require("../setONS/Gigapede.js");
+const Constants = require ("../../../Constants");
+const GigapedeBase = require("../setONS/Gigapede");
 
 class Gigapede extends GigapedeBase {
   constructor(game) {

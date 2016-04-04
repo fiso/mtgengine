@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReincarnationBase = require("../setC13/Reincarnation.js");
+const Constants = require ("../../../Constants");
+const ReincarnationBase = require("../setC13/Reincarnation");
 
 class Reincarnation extends ReincarnationBase {
   constructor(game) {

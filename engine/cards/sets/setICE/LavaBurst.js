@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LavaBurstBase = require("../setDKM/LavaBurst.js");
+const Constants = require ("../../../Constants");
+const LavaBurstBase = require("../setDKM/LavaBurst");
 
 class LavaBurst extends LavaBurstBase {
   constructor(game) {

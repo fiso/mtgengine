@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OblivionSowerBase = require("../setBFZ/OblivionSower.js");
+const Constants = require ("../../../Constants");
+const OblivionSowerBase = require("../setBFZ/OblivionSower");
 
 class OblivionSower extends OblivionSowerBase {
   constructor(game) {

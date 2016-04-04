@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SeraphBase = require("../set5ED/Seraph.js");
+const Constants = require ("../../../Constants");
+const SeraphBase = require("../set5ED/Seraph");
 
 class Seraph extends SeraphBase {
   constructor(game) {

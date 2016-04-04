@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConclaveEquenautBase = require("../setDDF/ConclaveEquenaut.js");
+const Constants = require ("../../../Constants");
+const ConclaveEquenautBase = require("../setDDF/ConclaveEquenaut");
 
 class ConclaveEquenaut extends ConclaveEquenautBase {
   constructor(game) {

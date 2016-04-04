@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RayofCommandBase = require("../setBRB/RayofCommand.js");
+const Constants = require ("../../../Constants");
+const RayofCommandBase = require("../setBRB/RayofCommand");
 
 class RayofCommand extends RayofCommandBase {
   constructor(game) {

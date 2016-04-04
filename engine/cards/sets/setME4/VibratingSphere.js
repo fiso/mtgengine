@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VibratingSphereBase = require("../setICE/VibratingSphere.js");
+const Constants = require ("../../../Constants");
+const VibratingSphereBase = require("../setICE/VibratingSphere");
 
 class VibratingSphere extends VibratingSphereBase {
   constructor(game) {

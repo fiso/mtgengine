@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TandemLookoutBase = require("../setAVR/TandemLookout.js");
+const Constants = require ("../../../Constants");
+const TandemLookoutBase = require("../setAVR/TandemLookout");
 
 class TandemLookout extends TandemLookoutBase {
   constructor(game) {

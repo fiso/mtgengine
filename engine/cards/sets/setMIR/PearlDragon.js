@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PearlDragonBase = require("../set6ED/PearlDragon.js");
+const Constants = require ("../../../Constants");
+const PearlDragonBase = require("../set6ED/PearlDragon");
 
 class PearlDragon extends PearlDragonBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpidersilkNetBase = require("../setDTK/SpidersilkNet.js");
+const Constants = require ("../../../Constants");
+const SpidersilkNetBase = require("../setDTK/SpidersilkNet");
 
 class SpidersilkNet extends SpidersilkNetBase {
   constructor(game) {

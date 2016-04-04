@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhantasmalFiendBase = require("../setALL/PhantasmalFiend.js");
+const Constants = require ("../../../Constants");
+const PhantasmalFiendBase = require("../setALL/PhantasmalFiend");
 
 class PhantasmalFiend extends PhantasmalFiendBase {
   constructor(game) {

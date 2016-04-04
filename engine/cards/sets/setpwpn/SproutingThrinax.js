@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SproutingThrinaxBase = require("../setC13/SproutingThrinax.js");
+const Constants = require ("../../../Constants");
+const SproutingThrinaxBase = require("../setC13/SproutingThrinax");
 
 class SproutingThrinax extends SproutingThrinaxBase {
   constructor(game) {

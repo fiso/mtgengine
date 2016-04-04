@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DominusofFealtyBase = require("../setEVE/DominusofFealty.js");
+const Constants = require ("../../../Constants");
+const DominusofFealtyBase = require("../setEVE/DominusofFealty");
 
 class DominusofFealty extends DominusofFealtyBase {
   constructor(game) {

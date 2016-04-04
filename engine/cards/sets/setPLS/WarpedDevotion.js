@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WarpedDevotionBase = require("../set8ED/WarpedDevotion.js");
+const Constants = require ("../../../Constants");
+const WarpedDevotionBase = require("../set8ED/WarpedDevotion");
 
 class WarpedDevotion extends WarpedDevotionBase {
   constructor(game) {

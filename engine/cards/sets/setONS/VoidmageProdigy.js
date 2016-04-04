@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VoidmageProdigyBase = require("../setpMPR/VoidmageProdigy.js");
+const Constants = require ("../../../Constants");
+const VoidmageProdigyBase = require("../setpMPR/VoidmageProdigy");
 
 class VoidmageProdigy extends VoidmageProdigyBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShadowGuildmageBase = require("../setMIR/ShadowGuildmage.js");
+const Constants = require ("../../../Constants");
+const ShadowGuildmageBase = require("../setMIR/ShadowGuildmage");
 
 class ShadowGuildmage extends ShadowGuildmageBase {
   constructor(game) {

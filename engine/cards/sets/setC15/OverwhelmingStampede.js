@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OverwhelmingStampedeBase = require("../setC14/OverwhelmingStampede.js");
+const Constants = require ("../../../Constants");
+const OverwhelmingStampedeBase = require("../setC14/OverwhelmingStampede");
 
 class OverwhelmingStampede extends OverwhelmingStampedeBase {
   constructor(game) {

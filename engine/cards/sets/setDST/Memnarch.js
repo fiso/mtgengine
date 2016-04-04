@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MemnarchBase = require("../setARC/Memnarch.js");
+const Constants = require ("../../../Constants");
+const MemnarchBase = require("../setARC/Memnarch");
 
 class Memnarch extends MemnarchBase {
   constructor(game) {

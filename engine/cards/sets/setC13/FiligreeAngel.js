@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FiligreeAngelBase = require("../setARB/FiligreeAngel.js");
+const Constants = require ("../../../Constants");
+const FiligreeAngelBase = require("../setARB/FiligreeAngel");
 
 class FiligreeAngel extends FiligreeAngelBase {
   constructor(game) {

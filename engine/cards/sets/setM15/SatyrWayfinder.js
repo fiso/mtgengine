@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SatyrWayfinderBase = require("../setBNG/SatyrWayfinder.js");
+const Constants = require ("../../../Constants");
+const SatyrWayfinderBase = require("../setBNG/SatyrWayfinder");
 
 class SatyrWayfinder extends SatyrWayfinderBase {
   constructor(game) {

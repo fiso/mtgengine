@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlummetBase = require("../setARC/Plummet.js");
+const Constants = require ("../../../Constants");
+const PlummetBase = require("../setARC/Plummet");
 
 class Plummet extends PlummetBase {
   constructor(game) {

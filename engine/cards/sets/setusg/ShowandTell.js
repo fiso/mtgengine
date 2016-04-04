@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShowandTellBase = require("../setpJGP/ShowandTell.js");
+const Constants = require ("../../../Constants");
+const ShowandTellBase = require("../setpJGP/ShowandTell");
 
 class ShowandTell extends ShowandTellBase {
   constructor(game) {

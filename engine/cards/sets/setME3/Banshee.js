@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BansheeBase = require("../setCHR/Banshee.js");
+const Constants = require ("../../../Constants");
+const BansheeBase = require("../setCHR/Banshee");
 
 class Banshee extends BansheeBase {
   constructor(game) {

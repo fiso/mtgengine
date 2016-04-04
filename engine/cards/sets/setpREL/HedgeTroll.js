@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HedgeTrollBase = require("../setPLC/HedgeTroll.js");
+const Constants = require ("../../../Constants");
+const HedgeTrollBase = require("../setPLC/HedgeTroll");
 
 class HedgeTroll extends HedgeTrollBase {
   constructor(game) {

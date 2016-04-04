@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HuntingTriadBase = require("../setC14/HuntingTriad.js");
+const Constants = require ("../../../Constants");
+const HuntingTriadBase = require("../setC14/HuntingTriad");
 
 class HuntingTriad extends HuntingTriadBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GalepowderMageBase = require("../setDDI/GalepowderMage.js");
+const Constants = require ("../../../Constants");
+const GalepowderMageBase = require("../setDDI/GalepowderMage");
 
 class GalepowderMage extends GalepowderMageBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TemporalManipulationBase = require("../setME2/TemporalManipulation.js");
+const Constants = require ("../../../Constants");
+const TemporalManipulationBase = require("../setME2/TemporalManipulation");
 
 class TemporalManipulation extends TemporalManipulationBase {
   constructor(game) {

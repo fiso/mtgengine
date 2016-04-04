@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HellsparkElementalBase = require("../setCON/HellsparkElemental.js");
+const Constants = require ("../../../Constants");
+const HellsparkElementalBase = require("../setCON/HellsparkElemental");
 
 class HellsparkElemental extends HellsparkElementalBase {
   constructor(game) {

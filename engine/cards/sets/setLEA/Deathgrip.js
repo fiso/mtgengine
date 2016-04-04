@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeathgripBase = require("../setCED/Deathgrip.js");
+const Constants = require ("../../../Constants");
+const DeathgripBase = require("../setCED/Deathgrip");
 
 class Deathgrip extends DeathgripBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnabaAncestorBase = require("../setHML/AnabaAncestor.js");
+const Constants = require ("../../../Constants");
+const AnabaAncestorBase = require("../setHML/AnabaAncestor");
 
 class AnabaAncestor extends AnabaAncestorBase {
   constructor(game) {

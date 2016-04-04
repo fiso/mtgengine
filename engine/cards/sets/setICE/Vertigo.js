@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VertigoBase = require("../set6ED/Vertigo.js");
+const Constants = require ("../../../Constants");
+const VertigoBase = require("../set6ED/Vertigo");
 
 class Vertigo extends VertigoBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnticipateBase = require("../setBFZ/Anticipate.js");
+const Constants = require ("../../../Constants");
+const AnticipateBase = require("../setBFZ/Anticipate");
 
 class Anticipate extends AnticipateBase {
   constructor(game) {

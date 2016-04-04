@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BadMoonBase = require("../setCED/BadMoon.js");
+const Constants = require ("../../../Constants");
+const BadMoonBase = require("../setCED/BadMoon");
 
 class BadMoon extends BadMoonBase {
   constructor(game) {

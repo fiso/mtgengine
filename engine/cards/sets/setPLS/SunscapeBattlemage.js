@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunscapeBattlemageBase = require("../setDDE/SunscapeBattlemage.js");
+const Constants = require ("../../../Constants");
+const SunscapeBattlemageBase = require("../setDDE/SunscapeBattlemage");
 
 class SunscapeBattlemage extends SunscapeBattlemageBase {
   constructor(game) {

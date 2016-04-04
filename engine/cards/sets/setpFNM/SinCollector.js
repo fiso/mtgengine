@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SinCollectorBase = require("../setDGM/SinCollector.js");
+const Constants = require ("../../../Constants");
+const SinCollectorBase = require("../setDGM/SinCollector");
 
 class SinCollector extends SinCollectorBase {
   constructor(game) {

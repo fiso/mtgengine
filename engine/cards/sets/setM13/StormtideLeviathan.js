@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormtideLeviathanBase = require("../setM11/StormtideLeviathan.js");
+const Constants = require ("../../../Constants");
+const StormtideLeviathanBase = require("../setM11/StormtideLeviathan");
 
 class StormtideLeviathan extends StormtideLeviathanBase {
   constructor(game) {

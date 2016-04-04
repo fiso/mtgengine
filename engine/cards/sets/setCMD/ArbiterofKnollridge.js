@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArbiterofKnollridgeBase = require("../setC15/ArbiterofKnollridge.js");
+const Constants = require ("../../../Constants");
+const ArbiterofKnollridgeBase = require("../setC15/ArbiterofKnollridge");
 
 class ArbiterofKnollridge extends ArbiterofKnollridgeBase {
   constructor(game) {

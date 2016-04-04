@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrainFreezeBase = require("../setSCG/BrainFreeze.js");
+const Constants = require ("../../../Constants");
+const BrainFreezeBase = require("../setSCG/BrainFreeze");
 
 class BrainFreeze extends BrainFreezeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DistortingLensBase = require("../set8ED/DistortingLens.js");
+const Constants = require ("../../../Constants");
+const DistortingLensBase = require("../set8ED/DistortingLens");
 
 class DistortingLens extends DistortingLensBase {
   constructor(game) {

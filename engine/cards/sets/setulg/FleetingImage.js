@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FleetingImageBase = require("../set8ED/FleetingImage.js");
+const Constants = require ("../../../Constants");
+const FleetingImageBase = require("../set8ED/FleetingImage");
 
 class FleetingImage extends FleetingImageBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CopyArtifactBase = require("../setCED/CopyArtifact.js");
+const Constants = require ("../../../Constants");
+const CopyArtifactBase = require("../setCED/CopyArtifact");
 
 class CopyArtifact extends CopyArtifactBase {
   constructor(game) {

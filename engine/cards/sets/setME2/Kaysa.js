@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KaysaBase = require("../setALL/Kaysa.js");
+const Constants = require ("../../../Constants");
+const KaysaBase = require("../setALL/Kaysa");
 
 class Kaysa extends KaysaBase {
   constructor(game) {

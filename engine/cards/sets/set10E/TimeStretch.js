@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimeStretchBase = require("../setODY/TimeStretch.js");
+const Constants = require ("../../../Constants");
+const TimeStretchBase = require("../setODY/TimeStretch");
 
 class TimeStretch extends TimeStretchBase {
   constructor(game) {

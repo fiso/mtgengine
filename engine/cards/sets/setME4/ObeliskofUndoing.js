@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ObeliskofUndoingBase = require("../setATQ/ObeliskofUndoing.js");
+const Constants = require ("../../../Constants");
+const ObeliskofUndoingBase = require("../setATQ/ObeliskofUndoing");
 
 class ObeliskofUndoing extends ObeliskofUndoingBase {
   constructor(game) {

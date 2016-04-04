@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EleshNornGrandCenobiteBase = require("../setpJGP/EleshNornGrandCenobite.js");
+const Constants = require ("../../../Constants");
+const EleshNornGrandCenobiteBase = require("../setpJGP/EleshNornGrandCenobite");
 
 class EleshNornGrandCenobite extends EleshNornGrandCenobiteBase {
   constructor(game) {

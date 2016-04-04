@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ObsessiveSearchBase = require("../setTOR/ObsessiveSearch.js");
+const Constants = require ("../../../Constants");
+const ObsessiveSearchBase = require("../setTOR/ObsessiveSearch");
 
 class ObsessiveSearch extends ObsessiveSearchBase {
   constructor(game) {

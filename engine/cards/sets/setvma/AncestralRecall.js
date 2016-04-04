@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AncestralRecallBase = require("../setCED/AncestralRecall.js");
+const Constants = require ("../../../Constants");
+const AncestralRecallBase = require("../setCED/AncestralRecall");
 
 class AncestralRecall extends AncestralRecallBase {
   constructor(game) {

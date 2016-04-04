@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SkarrganFirebirdBase = require("../setDDL/SkarrganFirebird.js");
+const Constants = require ("../../../Constants");
+const SkarrganFirebirdBase = require("../setDDL/SkarrganFirebird");
 
 class SkarrganFirebird extends SkarrganFirebirdBase {
   constructor(game) {

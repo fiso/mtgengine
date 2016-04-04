@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SludgeStriderBase = require("../setCON/SludgeStrider.js");
+const Constants = require ("../../../Constants");
+const SludgeStriderBase = require("../setCON/SludgeStrider");
 
 class SludgeStrider extends SludgeStriderBase {
   constructor(game) {

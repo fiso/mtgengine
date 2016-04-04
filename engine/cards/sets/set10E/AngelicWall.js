@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AngelicWallBase = require("../setAVR/AngelicWall.js");
+const Constants = require ("../../../Constants");
+const AngelicWallBase = require("../setAVR/AngelicWall");
 
 class AngelicWall extends AngelicWallBase {
   constructor(game) {

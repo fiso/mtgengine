@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NephaliaSmugglerBase = require("../setAVR/NephaliaSmuggler.js");
+const Constants = require ("../../../Constants");
+const NephaliaSmugglerBase = require("../setAVR/NephaliaSmuggler");
 
 class NephaliaSmuggler extends NephaliaSmugglerBase {
   constructor(game) {

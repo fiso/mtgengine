@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SoulParryBase = require("../setDDO/SoulParry.js");
+const Constants = require ("../../../Constants");
+const SoulParryBase = require("../setDDO/SoulParry");
 
 class SoulParry extends SoulParryBase {
   constructor(game) {

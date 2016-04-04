@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HydrosurgeBase = require("../setM13/Hydrosurge.js");
+const Constants = require ("../../../Constants");
+const HydrosurgeBase = require("../setM13/Hydrosurge");
 
 class Hydrosurge extends HydrosurgeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArgothianTreefolkBase = require("../setATQ/ArgothianTreefolk.js");
+const Constants = require ("../../../Constants");
+const ArgothianTreefolkBase = require("../setATQ/ArgothianTreefolk");
 
 class ArgothianTreefolk extends ArgothianTreefolkBase {
   constructor(game) {

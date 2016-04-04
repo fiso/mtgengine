@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConsumeStrengthBase = require("../setAPC/ConsumeStrength.js");
+const Constants = require ("../../../Constants");
+const ConsumeStrengthBase = require("../setAPC/ConsumeStrength");
 
 class ConsumeStrength extends ConsumeStrengthBase {
   constructor(game) {

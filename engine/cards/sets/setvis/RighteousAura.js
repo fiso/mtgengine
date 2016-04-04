@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RighteousAuraBase = require("../setMMQ/RighteousAura.js");
+const Constants = require ("../../../Constants");
+const RighteousAuraBase = require("../setMMQ/RighteousAura");
 
 class RighteousAura extends RighteousAuraBase {
   constructor(game) {

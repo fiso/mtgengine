@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ParallaxWaveBase = require("../setNMS/ParallaxWave.js");
+const Constants = require ("../../../Constants");
+const ParallaxWaveBase = require("../setNMS/ParallaxWave");
 
 class ParallaxWave extends ParallaxWaveBase {
   constructor(game) {

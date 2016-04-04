@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SiegeRhinoBase = require("../setKTK/SiegeRhino.js");
+const Constants = require ("../../../Constants");
+const SiegeRhinoBase = require("../setKTK/SiegeRhino");
 
 class SiegeRhino extends SiegeRhinoBase {
   constructor(game) {

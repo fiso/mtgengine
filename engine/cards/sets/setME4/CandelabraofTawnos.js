@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CandelabraofTawnosBase = require("../setATQ/CandelabraofTawnos.js");
+const Constants = require ("../../../Constants");
+const CandelabraofTawnosBase = require("../setATQ/CandelabraofTawnos");
 
 class CandelabraofTawnos extends CandelabraofTawnosBase {
   constructor(game) {

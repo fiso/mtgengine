@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LeapingLizardBase = require("../setHML/LeapingLizard.js");
+const Constants = require ("../../../Constants");
+const LeapingLizardBase = require("../setHML/LeapingLizard");
 
 class LeapingLizard extends LeapingLizardBase {
   constructor(game) {

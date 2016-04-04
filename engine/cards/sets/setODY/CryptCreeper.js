@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CryptCreeperBase = require("../setAVR/CryptCreeper.js");
+const Constants = require ("../../../Constants");
+const CryptCreeperBase = require("../setAVR/CryptCreeper");
 
 class CryptCreeper extends CryptCreeperBase {
   constructor(game) {

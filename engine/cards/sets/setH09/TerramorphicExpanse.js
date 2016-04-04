@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TerramorphicExpanseBase = require("../setARC/TerramorphicExpanse.js");
+const Constants = require ("../../../Constants");
+const TerramorphicExpanseBase = require("../setARC/TerramorphicExpanse");
 
 class TerramorphicExpanse extends TerramorphicExpanseBase {
   constructor(game) {

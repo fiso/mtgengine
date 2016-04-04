@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EternalDragonBase = require("../setC13/EternalDragon.js");
+const Constants = require ("../../../Constants");
+const EternalDragonBase = require("../setC13/EternalDragon");
 
 class EternalDragon extends EternalDragonBase {
   constructor(game) {

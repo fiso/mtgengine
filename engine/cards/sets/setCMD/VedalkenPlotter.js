@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VedalkenPlotterBase = require("../setGPT/VedalkenPlotter.js");
+const Constants = require ("../../../Constants");
+const VedalkenPlotterBase = require("../setGPT/VedalkenPlotter");
 
 class VedalkenPlotter extends VedalkenPlotterBase {
   constructor(game) {

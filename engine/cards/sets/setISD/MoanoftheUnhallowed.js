@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoanoftheUnhallowedBase = require("../setDDQ/MoanoftheUnhallowed.js");
+const Constants = require ("../../../Constants");
+const MoanoftheUnhallowedBase = require("../setDDQ/MoanoftheUnhallowed");
 
 class MoanoftheUnhallowed extends MoanoftheUnhallowedBase {
   constructor(game) {

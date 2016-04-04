@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WitsEndBase = require("../setDIS/WitsEnd.js");
+const Constants = require ("../../../Constants");
+const WitsEndBase = require("../setDIS/WitsEnd");
 
 class WitsEnd extends WitsEndBase {
   constructor(game) {

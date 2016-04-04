@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrenzoDungeonWardenBase = require("../setCNS/GrenzoDungeonWarden.js");
+const Constants = require ("../../../Constants");
+const GrenzoDungeonWardenBase = require("../setCNS/GrenzoDungeonWarden");
 
 class GrenzoDungeonWarden extends GrenzoDungeonWardenBase {
   constructor(game) {

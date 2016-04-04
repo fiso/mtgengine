@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MorphlingBase = require("../setpJGP/Morphling.js");
+const Constants = require ("../../../Constants");
+const MorphlingBase = require("../setpJGP/Morphling");
 
 class Morphling extends MorphlingBase {
   constructor(game) {

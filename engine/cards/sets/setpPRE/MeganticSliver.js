@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MeganticSliverBase = require("../setM14/MeganticSliver.js");
+const Constants = require ("../../../Constants");
+const MeganticSliverBase = require("../setM14/MeganticSliver");
 
 class MeganticSliver extends MeganticSliverBase {
   constructor(game) {

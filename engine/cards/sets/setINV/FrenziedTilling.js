@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FrenziedTillingBase = require("../setGTC/FrenziedTilling.js");
+const Constants = require ("../../../Constants");
+const FrenziedTillingBase = require("../setGTC/FrenziedTilling");
 
 class FrenziedTilling extends FrenziedTillingBase {
   constructor(game) {

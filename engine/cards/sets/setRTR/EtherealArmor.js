@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EtherealArmor extends Card {
+class EtherealArmor extends UnimplementedCard {
   constructor(game) {
     super(game, "Ethereal Armor", "Return to Ravnica", "RTR");
   }

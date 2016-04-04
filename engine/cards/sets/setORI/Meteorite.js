@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MeteoriteBase = require("../setM15/Meteorite.js");
+const Constants = require ("../../../Constants");
+const MeteoriteBase = require("../setM15/Meteorite");
 
 class Meteorite extends MeteoriteBase {
   constructor(game) {

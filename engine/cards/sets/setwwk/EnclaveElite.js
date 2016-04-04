@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnclaveEliteBase = require("../setCNS/EnclaveElite.js");
+const Constants = require ("../../../Constants");
+const EnclaveEliteBase = require("../setCNS/EnclaveElite");
 
 class EnclaveElite extends EnclaveEliteBase {
   constructor(game) {

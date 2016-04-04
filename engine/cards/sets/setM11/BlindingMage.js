@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlindingMageBase = require("../setM10/BlindingMage.js");
+const Constants = require ("../../../Constants");
+const BlindingMageBase = require("../setM10/BlindingMage");
 
 class BlindingMage extends BlindingMageBase {
   constructor(game) {

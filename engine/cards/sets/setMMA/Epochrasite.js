@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EpochrasiteBase = require("../setC14/Epochrasite.js");
+const Constants = require ("../../../Constants");
+const EpochrasiteBase = require("../setC14/Epochrasite");
 
 class Epochrasite extends EpochrasiteBase {
   constructor(game) {

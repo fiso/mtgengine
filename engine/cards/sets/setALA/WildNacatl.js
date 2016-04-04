@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildNacatlBase = require("../setDDH/WildNacatl.js");
+const Constants = require ("../../../Constants");
+const WildNacatlBase = require("../setDDH/WildNacatl");
 
 class WildNacatl extends WildNacatlBase {
   constructor(game) {

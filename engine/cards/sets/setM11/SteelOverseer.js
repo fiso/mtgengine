@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SteelOverseerBase = require("../setDDF/SteelOverseer.js");
+const Constants = require ("../../../Constants");
+const SteelOverseerBase = require("../setDDF/SteelOverseer");
 
 class SteelOverseer extends SteelOverseerBase {
   constructor(game) {

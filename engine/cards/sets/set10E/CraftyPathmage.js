@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CraftyPathmageBase = require("../set9ED/CraftyPathmage.js");
+const Constants = require ("../../../Constants");
+const CraftyPathmageBase = require("../set9ED/CraftyPathmage");
 
 class CraftyPathmage extends CraftyPathmageBase {
   constructor(game) {

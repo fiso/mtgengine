@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlatedSlagwurmBase = require("../setDD3_GVL/PlatedSlagwurm.js");
+const Constants = require ("../../../Constants");
+const PlatedSlagwurmBase = require("../setDD3_GVL/PlatedSlagwurm");
 
 class PlatedSlagwurm extends PlatedSlagwurmBase {
   constructor(game) {

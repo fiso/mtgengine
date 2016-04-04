@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SkyhunterPatrolBase = require("../setDDG/SkyhunterPatrol.js");
+const Constants = require ("../../../Constants");
+const SkyhunterPatrolBase = require("../setDDG/SkyhunterPatrol");
 
 class SkyhunterPatrol extends SkyhunterPatrolBase {
   constructor(game) {

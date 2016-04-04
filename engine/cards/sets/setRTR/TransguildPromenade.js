@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TransguildPromenadeBase = require("../setC13/TransguildPromenade.js");
+const Constants = require ("../../../Constants");
+const TransguildPromenadeBase = require("../setC13/TransguildPromenade");
 
 class TransguildPromenade extends TransguildPromenadeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PropheticPrismBase = require("../setGTC/PropheticPrism.js");
+const Constants = require ("../../../Constants");
+const PropheticPrismBase = require("../setGTC/PropheticPrism");
 
 class PropheticPrism extends PropheticPrismBase {
   constructor(game) {

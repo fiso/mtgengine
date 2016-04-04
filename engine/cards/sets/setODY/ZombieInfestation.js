@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ZombieInfestationBase = require("../setARC/ZombieInfestation.js");
+const Constants = require ("../../../Constants");
+const ZombieInfestationBase = require("../setARC/ZombieInfestation");
 
 class ZombieInfestation extends ZombieInfestationBase {
   constructor(game) {

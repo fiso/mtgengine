@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuirionRangerBase = require("../setpFNM/QuirionRanger.js");
+const Constants = require ("../../../Constants");
+const QuirionRangerBase = require("../setpFNM/QuirionRanger");
 
 class QuirionRanger extends QuirionRangerBase {
   constructor(game) {

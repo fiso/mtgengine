@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DuctCrawlerBase = require("../setSTH/DuctCrawler.js");
+const Constants = require ("../../../Constants");
+const DuctCrawlerBase = require("../setSTH/DuctCrawler");
 
 class DuctCrawler extends DuctCrawlerBase {
   constructor(game) {

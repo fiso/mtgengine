@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DaybreakCoronetBase = require("../setFUT/DaybreakCoronet.js");
+const Constants = require ("../../../Constants");
+const DaybreakCoronetBase = require("../setFUT/DaybreakCoronet");
 
 class DaybreakCoronet extends DaybreakCoronetBase {
   constructor(game) {

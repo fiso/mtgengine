@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BraingeyserBase = require("../setCED/Braingeyser.js");
+const Constants = require ("../../../Constants");
+const BraingeyserBase = require("../setCED/Braingeyser");
 
 class Braingeyser extends BraingeyserBase {
   constructor(game) {

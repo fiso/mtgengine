@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GroundswellBase = require("../setDDP/Groundswell.js");
+const Constants = require ("../../../Constants");
+const GroundswellBase = require("../setDDP/Groundswell");
 
 class Groundswell extends GroundswellBase {
   constructor(game) {

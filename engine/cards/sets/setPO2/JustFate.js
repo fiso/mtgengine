@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JustFateBase = require("../setME4/JustFate.js");
+const Constants = require ("../../../Constants");
+const JustFateBase = require("../setME4/JustFate");
 
 class JustFate extends JustFateBase {
   constructor(game) {

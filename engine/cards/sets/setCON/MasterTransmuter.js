@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MasterTransmuterBase = require("../setARC/MasterTransmuter.js");
+const Constants = require ("../../../Constants");
+const MasterTransmuterBase = require("../setARC/MasterTransmuter");
 
 class MasterTransmuter extends MasterTransmuterBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EightfoldMazeBase = require("../setME3/EightfoldMaze.js");
+const Constants = require ("../../../Constants");
+const EightfoldMazeBase = require("../setME3/EightfoldMaze");
 
 class EightfoldMaze extends EightfoldMazeBase {
   constructor(game) {

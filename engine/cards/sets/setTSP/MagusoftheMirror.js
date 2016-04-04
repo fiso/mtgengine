@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MagusoftheMirrorBase = require("../setCNS/MagusoftheMirror.js");
+const Constants = require ("../../../Constants");
+const MagusoftheMirrorBase = require("../setCNS/MagusoftheMirror");
 
 class MagusoftheMirror extends MagusoftheMirrorBase {
   constructor(game) {

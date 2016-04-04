@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MinamoSightbenderBase = require("../setBOK/MinamoSightbender.js");
+const Constants = require ("../../../Constants");
+const MinamoSightbenderBase = require("../setBOK/MinamoSightbender");
 
 class MinamoSightbender extends MinamoSightbenderBase {
   constructor(game) {

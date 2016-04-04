@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VoidslimeBase = require("../setpCMP/Voidslime.js");
+const Constants = require ("../../../Constants");
+const VoidslimeBase = require("../setpCMP/Voidslime");
 
 class Voidslime extends VoidslimeBase {
   constructor(game) {

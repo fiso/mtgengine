@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScaleguardSentinelsBase = require("../setDTK/ScaleguardSentinels.js");
+const Constants = require ("../../../Constants");
+const ScaleguardSentinelsBase = require("../setDTK/ScaleguardSentinels");
 
 class ScaleguardSentinels extends ScaleguardSentinelsBase {
   constructor(game) {

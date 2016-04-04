@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TawnossWandBase = require("../setATQ/TawnossWand.js");
+const Constants = require ("../../../Constants");
+const TawnossWandBase = require("../setATQ/TawnossWand");
 
 class TawnossWand extends TawnossWandBase {
   constructor(game) {

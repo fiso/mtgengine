@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VexingShusherBase = require("../setpLPA/VexingShusher.js");
+const Constants = require ("../../../Constants");
+const VexingShusherBase = require("../setpLPA/VexingShusher");
 
 class VexingShusher extends VexingShusherBase {
   constructor(game) {

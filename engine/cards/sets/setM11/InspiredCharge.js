@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InspiredChargeBase = require("../setBFZ/InspiredCharge.js");
+const Constants = require ("../../../Constants");
+const InspiredChargeBase = require("../setBFZ/InspiredCharge");
 
 class InspiredCharge extends InspiredChargeBase {
   constructor(game) {

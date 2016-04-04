@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HomewardPathBase = require("../setC13/HomewardPath.js");
+const Constants = require ("../../../Constants");
+const HomewardPathBase = require("../setC13/HomewardPath");
 
 class HomewardPath extends HomewardPathBase {
   constructor(game) {

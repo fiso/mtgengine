@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SilvergladeElementalBase = require("../setMMQ/SilvergladeElemental.js");
+const Constants = require ("../../../Constants");
+const SilvergladeElementalBase = require("../setMMQ/SilvergladeElemental");
 
 class SilvergladeElemental extends SilvergladeElementalBase {
   constructor(game) {

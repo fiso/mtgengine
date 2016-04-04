@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnderworldCoinsmithBase = require("../setC15/UnderworldCoinsmith.js");
+const Constants = require ("../../../Constants");
+const UnderworldCoinsmithBase = require("../setC15/UnderworldCoinsmith");
 
 class UnderworldCoinsmith extends UnderworldCoinsmithBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DictateofHeliodBase = require("../setC15/DictateofHeliod.js");
+const Constants = require ("../../../Constants");
+const DictateofHeliodBase = require("../setC15/DictateofHeliod");
 
 class DictateofHeliod extends DictateofHeliodBase {
   constructor(game) {

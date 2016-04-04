@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CruelUltimatumBase = require("../setC13/CruelUltimatum.js");
+const Constants = require ("../../../Constants");
+const CruelUltimatumBase = require("../setC13/CruelUltimatum");
 
 class CruelUltimatum extends CruelUltimatumBase {
   constructor(game) {

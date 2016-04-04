@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NihilSpellbombBase = require("../setC13/NihilSpellbomb.js");
+const Constants = require ("../../../Constants");
+const NihilSpellbombBase = require("../setC13/NihilSpellbomb");
 
 class NihilSpellbomb extends NihilSpellbombBase {
   constructor(game) {

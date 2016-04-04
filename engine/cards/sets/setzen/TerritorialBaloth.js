@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TerritorialBalothBase = require("../setBFZ/TerritorialBaloth.js");
+const Constants = require ("../../../Constants");
+const TerritorialBalothBase = require("../setBFZ/TerritorialBaloth");
 
 class TerritorialBaloth extends TerritorialBalothBase {
   constructor(game) {

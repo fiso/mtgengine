@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WallofDeceitBase = require("../setDD3_JVC/WallofDeceit.js");
+const Constants = require ("../../../Constants");
+const WallofDeceitBase = require("../setDD3_JVC/WallofDeceit");
 
 class WallofDeceit extends WallofDeceitBase {
   constructor(game) {

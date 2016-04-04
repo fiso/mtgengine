@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MirariBase = require("../setC13/Mirari.js");
+const Constants = require ("../../../Constants");
+const MirariBase = require("../setC13/Mirari");
 
 class Mirari extends MirariBase {
   constructor(game) {

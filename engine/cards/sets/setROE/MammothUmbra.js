@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MammothUmbraBase = require("../setPC2/MammothUmbra.js");
+const Constants = require ("../../../Constants");
+const MammothUmbraBase = require("../setPC2/MammothUmbra");
 
 class MammothUmbra extends MammothUmbraBase {
   constructor(game) {

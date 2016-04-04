@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NewBenaliaBase = require("../setC13/NewBenalia.js");
+const Constants = require ("../../../Constants");
+const NewBenaliaBase = require("../setC13/NewBenalia");
 
 class NewBenalia extends NewBenaliaBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ImperialHellkiteBase = require("../setARC/ImperialHellkite.js");
+const Constants = require ("../../../Constants");
+const ImperialHellkiteBase = require("../setARC/ImperialHellkite");
 
 class ImperialHellkite extends ImperialHellkiteBase {
   constructor(game) {

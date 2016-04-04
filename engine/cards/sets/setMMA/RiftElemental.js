@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiftElementalBase = require("../setFUT/RiftElemental.js");
+const Constants = require ("../../../Constants");
+const RiftElementalBase = require("../setFUT/RiftElemental");
 
 class RiftElemental extends RiftElementalBase {
   constructor(game) {

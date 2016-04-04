@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ContaminatedGroundBase = require("../setGTC/ContaminatedGround.js");
+const Constants = require ("../../../Constants");
+const ContaminatedGroundBase = require("../setGTC/ContaminatedGround");
 
 class ContaminatedGround extends ContaminatedGroundBase {
   constructor(game) {

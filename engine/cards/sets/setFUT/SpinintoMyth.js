@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpinintoMythBase = require("../setARC/SpinintoMyth.js");
+const Constants = require ("../../../Constants");
+const SpinintoMythBase = require("../setARC/SpinintoMyth");
 
 class SpinintoMyth extends SpinintoMythBase {
   constructor(game) {

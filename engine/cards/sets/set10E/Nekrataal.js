@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NekrataalBase = require("../setBRB/Nekrataal.js");
+const Constants = require ("../../../Constants");
+const NekrataalBase = require("../setBRB/Nekrataal");
 
 class Nekrataal extends NekrataalBase {
   constructor(game) {

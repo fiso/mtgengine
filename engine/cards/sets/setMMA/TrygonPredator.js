@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrygonPredatorBase = require("../setC15/TrygonPredator.js");
+const Constants = require ("../../../Constants");
+const TrygonPredatorBase = require("../setC15/TrygonPredator");
 
 class TrygonPredator extends TrygonPredatorBase {
   constructor(game) {

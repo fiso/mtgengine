@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PetalsofInsightBase = require("../setCHK/PetalsofInsight.js");
+const Constants = require ("../../../Constants");
+const PetalsofInsightBase = require("../setCHK/PetalsofInsight");
 
 class PetalsofInsight extends PetalsofInsightBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VacuumeltBase = require("../setDDJ/Vacuumelt.js");
+const Constants = require ("../../../Constants");
+const VacuumeltBase = require("../setDDJ/Vacuumelt");
 
 class Vacuumelt extends VacuumeltBase {
   constructor(game) {

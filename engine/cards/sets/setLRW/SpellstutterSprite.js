@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpellstutterSpriteBase = require("../setpFNM/SpellstutterSprite.js");
+const Constants = require ("../../../Constants");
+const SpellstutterSpriteBase = require("../setpFNM/SpellstutterSprite");
 
 class SpellstutterSprite extends SpellstutterSpriteBase {
   constructor(game) {

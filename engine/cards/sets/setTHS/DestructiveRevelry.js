@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DestructiveRevelryBase = require("../setDDL/DestructiveRevelry.js");
+const Constants = require ("../../../Constants");
+const DestructiveRevelryBase = require("../setDDL/DestructiveRevelry");
 
 class DestructiveRevelry extends DestructiveRevelryBase {
   constructor(game) {

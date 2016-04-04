@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RelicofProgenitusBase = require("../setMD1/RelicofProgenitus.js");
+const Constants = require ("../../../Constants");
+const RelicofProgenitusBase = require("../setMD1/RelicofProgenitus");
 
 class RelicofProgenitus extends RelicofProgenitusBase {
   constructor(game) {

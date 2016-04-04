@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SoulofRavnicaBase = require("../setM15/SoulofRavnica.js");
+const Constants = require ("../../../Constants");
+const SoulofRavnicaBase = require("../setM15/SoulofRavnica");
 
 class SoulofRavnica extends SoulofRavnicaBase {
   constructor(game) {

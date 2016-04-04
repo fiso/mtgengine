@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GaeasCradleBase = require("../setpJGP/GaeasCradle.js");
+const Constants = require ("../../../Constants");
+const GaeasCradleBase = require("../setpJGP/GaeasCradle");
 
 class GaeasCradle extends GaeasCradleBase {
   constructor(game) {

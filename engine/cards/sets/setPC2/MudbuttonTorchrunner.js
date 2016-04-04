@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MudbuttonTorchrunnerBase = require("../setDD3_EVG/MudbuttonTorchrunner.js");
+const Constants = require ("../../../Constants");
+const MudbuttonTorchrunnerBase = require("../setDD3_EVG/MudbuttonTorchrunner");
 
 class MudbuttonTorchrunner extends MudbuttonTorchrunnerBase {
   constructor(game) {

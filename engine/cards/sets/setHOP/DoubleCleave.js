@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DoubleCleaveBase = require("../setEVE/DoubleCleave.js");
+const Constants = require ("../../../Constants");
+const DoubleCleaveBase = require("../setEVE/DoubleCleave");
 
 class DoubleCleave extends DoubleCleaveBase {
   constructor(game) {

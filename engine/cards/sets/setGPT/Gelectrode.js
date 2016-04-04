@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GelectrodeBase = require("../setDDJ/Gelectrode.js");
+const Constants = require ("../../../Constants");
+const GelectrodeBase = require("../setDDJ/Gelectrode");
 
 class Gelectrode extends GelectrodeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunwebBase = require("../set6ED/Sunweb.js");
+const Constants = require ("../../../Constants");
+const SunwebBase = require("../set6ED/Sunweb");
 
 class Sunweb extends SunwebBase {
   constructor(game) {

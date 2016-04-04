@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StuntedGrowthBase = require("../setICE/StuntedGrowth.js");
+const Constants = require ("../../../Constants");
+const StuntedGrowthBase = require("../setICE/StuntedGrowth");
 
 class StuntedGrowth extends StuntedGrowthBase {
   constructor(game) {

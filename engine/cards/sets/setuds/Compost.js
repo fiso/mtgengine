@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CompostBase = require("../set7ED/Compost.js");
+const Constants = require ("../../../Constants");
+const CompostBase = require("../set7ED/Compost");
 
 class Compost extends CompostBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuicksilverDaggerBase = require("../setAPC/QuicksilverDagger.js");
+const Constants = require ("../../../Constants");
+const QuicksilverDaggerBase = require("../setAPC/QuicksilverDagger");
 
 class QuicksilverDagger extends QuicksilverDaggerBase {
   constructor(game) {

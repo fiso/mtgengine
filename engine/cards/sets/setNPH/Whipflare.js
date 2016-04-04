@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhipflareBase = require("../setC14/Whipflare.js");
+const Constants = require ("../../../Constants");
+const WhipflareBase = require("../setC14/Whipflare");
 
 class Whipflare extends WhipflareBase {
   constructor(game) {

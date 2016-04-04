@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SimicCharm extends Card {
+class SimicCharm extends UnimplementedCard {
   constructor(game) {
     super(game, "Simic Charm", "Gatecrash", "GTC");
   }

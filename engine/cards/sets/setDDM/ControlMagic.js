@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ControlMagicBase = require("../setBRB/ControlMagic.js");
+const Constants = require ("../../../Constants");
+const ControlMagicBase = require("../setBRB/ControlMagic");
 
 class ControlMagic extends ControlMagicBase {
   constructor(game) {

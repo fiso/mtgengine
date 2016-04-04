@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhosphorescentFeastBase = require("../setEVE/PhosphorescentFeast.js");
+const Constants = require ("../../../Constants");
+const PhosphorescentFeastBase = require("../setEVE/PhosphorescentFeast");
 
 class PhosphorescentFeast extends PhosphorescentFeastBase {
   constructor(game) {

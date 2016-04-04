@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JacesIngenuityBase = require("../setDDM/JacesIngenuity.js");
+const Constants = require ("../../../Constants");
+const JacesIngenuityBase = require("../setDDM/JacesIngenuity");
 
 class JacesIngenuity extends JacesIngenuityBase {
   constructor(game) {

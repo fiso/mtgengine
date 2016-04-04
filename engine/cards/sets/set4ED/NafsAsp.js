@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NafsAspBase = require("../setARN/NafsAsp.js");
+const Constants = require ("../../../Constants");
+const NafsAspBase = require("../setARN/NafsAsp");
 
 class NafsAsp extends NafsAspBase {
   constructor(game) {

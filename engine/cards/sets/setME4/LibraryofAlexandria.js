@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LibraryofAlexandriaBase = require("../setARN/LibraryofAlexandria.js");
+const Constants = require ("../../../Constants");
+const LibraryofAlexandriaBase = require("../setARN/LibraryofAlexandria");
 
 class LibraryofAlexandria extends LibraryofAlexandriaBase {
   constructor(game) {

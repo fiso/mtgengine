@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoralMerfolkBase = require("../setM10/CoralMerfolk.js");
+const Constants = require ("../../../Constants");
+const CoralMerfolkBase = require("../setM10/CoralMerfolk");
 
 class CoralMerfolk extends CoralMerfolkBase {
   constructor(game) {

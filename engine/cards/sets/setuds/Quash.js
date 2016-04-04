@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuashBase = require("../setBOK/Quash.js");
+const Constants = require ("../../../Constants");
+const QuashBase = require("../setBOK/Quash");
 
 class Quash extends QuashBase {
   constructor(game) {

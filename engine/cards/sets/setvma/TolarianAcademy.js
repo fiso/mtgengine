@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TolarianAcademyBase = require("../setUSG/TolarianAcademy.js");
+const Constants = require ("../../../Constants");
+const TolarianAcademyBase = require("../setUSG/TolarianAcademy");
 
 class TolarianAcademy extends TolarianAcademyBase {
   constructor(game) {

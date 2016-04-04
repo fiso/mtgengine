@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JötunGruntBase = require("../setCSP/JötunGrunt.js");
+const Constants = require ("../../../Constants");
+const JötunGruntBase = require("../setCSP/JötunGrunt");
 
 class JötunGrunt extends JötunGruntBase {
   constructor(game) {

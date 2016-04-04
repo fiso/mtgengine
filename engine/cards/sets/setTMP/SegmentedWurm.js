@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SegmentedWurmBase = require("../setBTD/SegmentedWurm.js");
+const Constants = require ("../../../Constants");
+const SegmentedWurmBase = require("../setBTD/SegmentedWurm");
 
 class SegmentedWurm extends SegmentedWurmBase {
   constructor(game) {

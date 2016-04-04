@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FracturingGustBase = require("../setV14/FracturingGust.js");
+const Constants = require ("../../../Constants");
+const FracturingGustBase = require("../setV14/FracturingGust");
 
 class FracturingGust extends FracturingGustBase {
   constructor(game) {

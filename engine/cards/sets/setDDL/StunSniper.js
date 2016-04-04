@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StunSniperBase = require("../setARB/StunSniper.js");
+const Constants = require ("../../../Constants");
+const StunSniperBase = require("../setARB/StunSniper");
 
 class StunSniper extends StunSniperBase {
   constructor(game) {

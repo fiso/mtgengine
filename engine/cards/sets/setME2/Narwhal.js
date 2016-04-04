@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NarwhalBase = require("../setHML/Narwhal.js");
+const Constants = require ("../../../Constants");
+const NarwhalBase = require("../setHML/Narwhal");
 
 class Narwhal extends NarwhalBase {
   constructor(game) {

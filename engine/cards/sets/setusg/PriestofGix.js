@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PriestofGixBase = require("../setDDE/PriestofGix.js");
+const Constants = require ("../../../Constants");
+const PriestofGixBase = require("../setDDE/PriestofGix");
 
 class PriestofGix extends PriestofGixBase {
   constructor(game) {

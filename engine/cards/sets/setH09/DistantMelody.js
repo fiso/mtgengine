@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DistantMelodyBase = require("../setMOR/DistantMelody.js");
+const Constants = require ("../../../Constants");
+const DistantMelodyBase = require("../setMOR/DistantMelody");
 
 class DistantMelody extends DistantMelodyBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WindstormBase = require("../setDD3_GVL/Windstorm.js");
+const Constants = require ("../../../Constants");
+const WindstormBase = require("../setDD3_GVL/Windstorm");
 
 class Windstorm extends WindstormBase {
   constructor(game) {

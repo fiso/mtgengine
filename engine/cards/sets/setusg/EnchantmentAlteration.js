@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnchantmentAlterationBase = require("../setCHR/EnchantmentAlteration.js");
+const Constants = require ("../../../Constants");
+const EnchantmentAlterationBase = require("../setCHR/EnchantmentAlteration");
 
 class EnchantmentAlteration extends EnchantmentAlterationBase {
   constructor(game) {

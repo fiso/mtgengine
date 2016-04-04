@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrambleElementalBase = require("../setPC2/BrambleElemental.js");
+const Constants = require ("../../../Constants");
+const BrambleElementalBase = require("../setPC2/BrambleElemental");
 
 class BrambleElemental extends BrambleElementalBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FyndhornPollenBase = require("../setICE/FyndhornPollen.js");
+const Constants = require ("../../../Constants");
+const FyndhornPollenBase = require("../setICE/FyndhornPollen");
 
 class FyndhornPollen extends FyndhornPollenBase {
   constructor(game) {

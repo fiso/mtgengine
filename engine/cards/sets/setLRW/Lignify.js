@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LignifyBase = require("../setDD3_GVL/Lignify.js");
+const Constants = require ("../../../Constants");
+const LignifyBase = require("../setDD3_GVL/Lignify");
 
 class Lignify extends LignifyBase {
   constructor(game) {

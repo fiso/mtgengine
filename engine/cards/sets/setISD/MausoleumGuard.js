@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MausoleumGuardBase = require("../setDDK/MausoleumGuard.js");
+const Constants = require ("../../../Constants");
+const MausoleumGuardBase = require("../setDDK/MausoleumGuard");
 
 class MausoleumGuard extends MausoleumGuardBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TanglebloomBase = require("../setMRD/Tanglebloom.js");
+const Constants = require ("../../../Constants");
+const TanglebloomBase = require("../setMRD/Tanglebloom");
 
 class Tanglebloom extends TanglebloomBase {
   constructor(game) {

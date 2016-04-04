@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KrenkosCommandBase = require("../setDDN/KrenkosCommand.js");
+const Constants = require ("../../../Constants");
+const KrenkosCommandBase = require("../setDDN/KrenkosCommand");
 
 class KrenkosCommand extends KrenkosCommandBase {
   constructor(game) {

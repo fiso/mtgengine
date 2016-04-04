@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GoldenglowMothBase = require("../setM11/GoldenglowMoth.js");
+const Constants = require ("../../../Constants");
+const GoldenglowMothBase = require("../setM11/GoldenglowMoth");
 
 class GoldenglowMoth extends GoldenglowMothBase {
   constructor(game) {

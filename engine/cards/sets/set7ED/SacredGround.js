@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SacredGroundBase = require("../set8ED/SacredGround.js");
+const Constants = require ("../../../Constants");
+const SacredGroundBase = require("../set8ED/SacredGround");
 
 class SacredGround extends SacredGroundBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ProwlingNightstalkerBase = require("../setME4/ProwlingNightstalker.js");
+const Constants = require ("../../../Constants");
+const ProwlingNightstalkerBase = require("../setME4/ProwlingNightstalker");
 
 class ProwlingNightstalker extends ProwlingNightstalkerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnslaveBase = require("../setDD3_GVL/Enslave.js");
+const Constants = require ("../../../Constants");
+const EnslaveBase = require("../setDD3_GVL/Enslave");
 
 class Enslave extends EnslaveBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildfireBase = require("../setMM2/Wildfire.js");
+const Constants = require ("../../../Constants");
+const WildfireBase = require("../setMM2/Wildfire");
 
 class Wildfire extends WildfireBase {
   constructor(game) {

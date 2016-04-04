@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NamelessInversionBase = require("../setLRW/NamelessInversion.js");
+const Constants = require ("../../../Constants");
+const NamelessInversionBase = require("../setLRW/NamelessInversion");
 
 class NamelessInversion extends NamelessInversionBase {
   constructor(game) {

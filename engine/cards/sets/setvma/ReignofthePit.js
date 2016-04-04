@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReignofthePitBase = require("../setCNS/ReignofthePit.js");
+const Constants = require ("../../../Constants");
+const ReignofthePitBase = require("../setCNS/ReignofthePit");
 
 class ReignofthePit extends ReignofthePitBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RetaliatorGriffinBase = require("../setARB/RetaliatorGriffin.js");
+const Constants = require ("../../../Constants");
+const RetaliatorGriffinBase = require("../setARB/RetaliatorGriffin");
 
 class RetaliatorGriffin extends RetaliatorGriffinBase {
   constructor(game) {

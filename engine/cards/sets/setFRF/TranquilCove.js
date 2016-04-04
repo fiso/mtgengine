@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TranquilCoveBase = require("../setDDQ/TranquilCove.js");
+const Constants = require ("../../../Constants");
+const TranquilCoveBase = require("../setDDQ/TranquilCove");
 
 class TranquilCove extends TranquilCoveBase {
   constructor(game) {

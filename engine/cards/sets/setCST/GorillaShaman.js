@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GorillaShamanBase = require("../setALL/GorillaShaman.js");
+const Constants = require ("../../../Constants");
+const GorillaShamanBase = require("../setALL/GorillaShaman");
 
 class GorillaShaman extends GorillaShamanBase {
   constructor(game) {

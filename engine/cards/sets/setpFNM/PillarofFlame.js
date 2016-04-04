@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PillarofFlameBase = require("../setAVR/PillarofFlame.js");
+const Constants = require ("../../../Constants");
+const PillarofFlameBase = require("../setAVR/PillarofFlame");
 
 class PillarofFlame extends PillarofFlameBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LudevicsTestSubjectBase = require("../setISD/LudevicsTestSubject.js");
+const Constants = require ("../../../Constants");
+const LudevicsTestSubjectBase = require("../setISD/LudevicsTestSubject");
 
 class LudevicsTestSubject extends LudevicsTestSubjectBase {
   constructor(game) {

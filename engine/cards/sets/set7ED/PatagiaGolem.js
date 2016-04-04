@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PatagiaGolemBase = require("../set6ED/PatagiaGolem.js");
+const Constants = require ("../../../Constants");
+const PatagiaGolemBase = require("../set6ED/PatagiaGolem");
 
 class PatagiaGolem extends PatagiaGolemBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InexorableTideBase = require("../setMM2/InexorableTide.js");
+const Constants = require ("../../../Constants");
+const InexorableTideBase = require("../setMM2/InexorableTide");
 
 class InexorableTide extends InexorableTideBase {
   constructor(game) {

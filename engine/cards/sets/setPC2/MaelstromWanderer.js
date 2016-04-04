@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MaelstromWandererBase = require("../setCM1/MaelstromWanderer.js");
+const Constants = require ("../../../Constants");
+const MaelstromWandererBase = require("../setCM1/MaelstromWanderer");
 
 class MaelstromWanderer extends MaelstromWandererBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HengeGuardianBase = require("../setDDG/HengeGuardian.js");
+const Constants = require ("../../../Constants");
+const HengeGuardianBase = require("../setDDG/HengeGuardian");
 
 class HengeGuardian extends HengeGuardianBase {
   constructor(game) {

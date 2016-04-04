@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DissolveBase = require("../setpFNM/Dissolve.js");
+const Constants = require ("../../../Constants");
+const DissolveBase = require("../setpFNM/Dissolve");
 
 class Dissolve extends DissolveBase {
   constructor(game) {

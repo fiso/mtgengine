@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RuleofLawBase = require("../setMRD/RuleofLaw.js");
+const Constants = require ("../../../Constants");
+const RuleofLawBase = require("../setMRD/RuleofLaw");
 
 class RuleofLaw extends RuleofLawBase {
   constructor(game) {

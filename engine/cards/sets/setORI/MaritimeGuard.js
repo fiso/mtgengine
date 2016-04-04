@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MaritimeGuardBase = require("../setM11/MaritimeGuard.js");
+const Constants = require ("../../../Constants");
+const MaritimeGuardBase = require("../setM11/MaritimeGuard");
 
 class MaritimeGuard extends MaritimeGuardBase {
   constructor(game) {

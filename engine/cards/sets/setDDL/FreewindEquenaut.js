@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FreewindEquenautBase = require("../setDIS/FreewindEquenaut.js");
+const Constants = require ("../../../Constants");
+const FreewindEquenautBase = require("../setDIS/FreewindEquenaut");
 
 class FreewindEquenaut extends FreewindEquenautBase {
   constructor(game) {

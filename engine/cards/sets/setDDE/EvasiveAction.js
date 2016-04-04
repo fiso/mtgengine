@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EvasiveActionBase = require("../setAPC/EvasiveAction.js");
+const Constants = require ("../../../Constants");
+const EvasiveActionBase = require("../setAPC/EvasiveAction");
 
 class EvasiveAction extends EvasiveActionBase {
   constructor(game) {

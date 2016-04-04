@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShamanicRevelationBase = require("../setFRF/ShamanicRevelation.js");
+const Constants = require ("../../../Constants");
+const ShamanicRevelationBase = require("../setFRF/ShamanicRevelation");
 
 class ShamanicRevelation extends ShamanicRevelationBase {
   constructor(game) {

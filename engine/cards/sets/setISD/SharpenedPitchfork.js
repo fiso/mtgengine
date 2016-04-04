@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SharpenedPitchforkBase = require("../setDDQ/SharpenedPitchfork.js");
+const Constants = require ("../../../Constants");
+const SharpenedPitchforkBase = require("../setDDQ/SharpenedPitchfork");
 
 class SharpenedPitchfork extends SharpenedPitchforkBase {
   constructor(game) {

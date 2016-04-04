@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WarleadersHelixBase = require("../setDGM/WarleadersHelix.js");
+const Constants = require ("../../../Constants");
+const WarleadersHelixBase = require("../setDGM/WarleadersHelix");
 
 class WarleadersHelix extends WarleadersHelixBase {
   constructor(game) {

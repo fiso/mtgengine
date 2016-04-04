@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TalrandSkySummonerBase = require("../setC15/TalrandSkySummoner.js");
+const Constants = require ("../../../Constants");
+const TalrandSkySummonerBase = require("../setC15/TalrandSkySummoner");
 
 class TalrandSkySummoner extends TalrandSkySummonerBase {
   constructor(game) {

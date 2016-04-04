@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RancorBase = require("../setARC/Rancor.js");
+const Constants = require ("../../../Constants");
+const RancorBase = require("../setARC/Rancor");
 
 class Rancor extends RancorBase {
   constructor(game) {

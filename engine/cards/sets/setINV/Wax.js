@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WaxBase = require("../setARC/Wax.js");
+const Constants = require ("../../../Constants");
+const WaxBase = require("../setARC/Wax");
 
 class Wax extends WaxBase {
   constructor(game) {

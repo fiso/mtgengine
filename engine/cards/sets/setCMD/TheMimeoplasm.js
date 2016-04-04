@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TheMimeoplasmBase = require("../setCM1/TheMimeoplasm.js");
+const Constants = require ("../../../Constants");
+const TheMimeoplasmBase = require("../setCM1/TheMimeoplasm");
 
 class TheMimeoplasm extends TheMimeoplasmBase {
   constructor(game) {

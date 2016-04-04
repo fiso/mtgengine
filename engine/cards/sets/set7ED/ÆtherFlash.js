@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆtherFlashBase = require("../set6ED/ÆtherFlash.js");
+const Constants = require ("../../../Constants");
+const ÆtherFlashBase = require("../set6ED/ÆtherFlash");
 
 class ÆtherFlash extends ÆtherFlashBase {
   constructor(game) {

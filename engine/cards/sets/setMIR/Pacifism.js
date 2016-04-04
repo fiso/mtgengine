@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PacifismBase = require("../setATH/Pacifism.js");
+const Constants = require ("../../../Constants");
+const PacifismBase = require("../setATH/Pacifism");
 
 class Pacifism extends PacifismBase {
   constructor(game) {

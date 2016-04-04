@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BasaltMonolithBase = require("../setCED/BasaltMonolith.js");
+const Constants = require ("../../../Constants");
+const BasaltMonolithBase = require("../setCED/BasaltMonolith");
 
 class BasaltMonolith extends BasaltMonolithBase {
   constructor(game) {

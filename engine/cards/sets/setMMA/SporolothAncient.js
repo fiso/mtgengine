@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SporolothAncientBase = require("../setFUT/SporolothAncient.js");
+const Constants = require ("../../../Constants");
+const SporolothAncientBase = require("../setFUT/SporolothAncient");
 
 class SporolothAncient extends SporolothAncientBase {
   constructor(game) {

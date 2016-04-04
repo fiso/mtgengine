@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RoaringPrimadoxBase = require("../setM13/RoaringPrimadox.js");
+const Constants = require ("../../../Constants");
+const RoaringPrimadoxBase = require("../setM13/RoaringPrimadox");
 
 class RoaringPrimadox extends RoaringPrimadoxBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LifelaceBase = require("../setCED/Lifelace.js");
+const Constants = require ("../../../Constants");
+const LifelaceBase = require("../setCED/Lifelace");
 
 class Lifelace extends LifelaceBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShredMemory extends Card {
+class ShredMemory extends UnimplementedCard {
   constructor(game) {
     super(game, "Shred Memory", "Ravnica: City of Guilds", "RAV");
   }

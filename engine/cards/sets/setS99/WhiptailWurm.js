@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhiptailWurmBase = require("../setME4/WhiptailWurm.js");
+const Constants = require ("../../../Constants");
+const WhiptailWurmBase = require("../setME4/WhiptailWurm");
 
 class WhiptailWurm extends WhiptailWurmBase {
   constructor(game) {

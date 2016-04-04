@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AquamorphEntityBase = require("../setDDN/AquamorphEntity.js");
+const Constants = require ("../../../Constants");
+const AquamorphEntityBase = require("../setDDN/AquamorphEntity");
 
 class AquamorphEntity extends AquamorphEntityBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MesmericTranceBase = require("../setICE/MesmericTrance.js");
+const Constants = require ("../../../Constants");
+const MesmericTranceBase = require("../setICE/MesmericTrance");
 
 class MesmericTrance extends MesmericTranceBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WickedPactBase = require("../setME4/WickedPact.js");
+const Constants = require ("../../../Constants");
+const WickedPactBase = require("../setME4/WickedPact");
 
 class WickedPact extends WickedPactBase {
   constructor(game) {

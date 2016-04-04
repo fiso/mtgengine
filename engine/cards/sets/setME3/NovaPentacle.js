@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NovaPentacleBase = require("../setLEG/NovaPentacle.js");
+const Constants = require ("../../../Constants");
+const NovaPentacleBase = require("../setLEG/NovaPentacle");
 
 class NovaPentacle extends NovaPentacleBase {
   constructor(game) {

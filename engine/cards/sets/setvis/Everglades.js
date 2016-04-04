@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EvergladesBase = require("../setC14/Everglades.js");
+const Constants = require ("../../../Constants");
+const EvergladesBase = require("../setC14/Everglades");
 
 class Everglades extends EvergladesBase {
   constructor(game) {

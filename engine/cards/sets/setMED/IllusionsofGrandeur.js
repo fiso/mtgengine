@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IllusionsofGrandeurBase = require("../setICE/IllusionsofGrandeur.js");
+const Constants = require ("../../../Constants");
+const IllusionsofGrandeurBase = require("../setICE/IllusionsofGrandeur");
 
 class IllusionsofGrandeur extends IllusionsofGrandeurBase {
   constructor(game) {

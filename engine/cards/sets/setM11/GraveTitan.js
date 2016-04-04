@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GraveTitanBase = require("../setC14/GraveTitan.js");
+const Constants = require ("../../../Constants");
+const GraveTitanBase = require("../setC14/GraveTitan");
 
 class GraveTitan extends GraveTitanBase {
   constructor(game) {

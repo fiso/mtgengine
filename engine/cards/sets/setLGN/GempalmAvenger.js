@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GempalmAvengerBase = require("../setDDO/GempalmAvenger.js");
+const Constants = require ("../../../Constants");
+const GempalmAvengerBase = require("../setDDO/GempalmAvenger");
 
 class GempalmAvenger extends GempalmAvengerBase {
   constructor(game) {

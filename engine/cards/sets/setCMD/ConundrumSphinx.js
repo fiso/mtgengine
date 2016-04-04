@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConundrumSphinxBase = require("../setM11/ConundrumSphinx.js");
+const Constants = require ("../../../Constants");
+const ConundrumSphinxBase = require("../setM11/ConundrumSphinx");
 
 class ConundrumSphinx extends ConundrumSphinxBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CommandTowerBase = require("../setC13/CommandTower.js");
+const Constants = require ("../../../Constants");
+const CommandTowerBase = require("../setC13/CommandTower");
 
 class CommandTower extends CommandTowerBase {
   constructor(game) {

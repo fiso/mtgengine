@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PersonalIncarnationBase = require("../setCED/PersonalIncarnation.js");
+const Constants = require ("../../../Constants");
+const PersonalIncarnationBase = require("../setCED/PersonalIncarnation");
 
 class PersonalIncarnation extends PersonalIncarnationBase {
   constructor(game) {

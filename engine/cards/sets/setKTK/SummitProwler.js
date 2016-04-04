@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SummitProwlerBase = require("../setDTK/SummitProwler.js");
+const Constants = require ("../../../Constants");
+const SummitProwlerBase = require("../setDTK/SummitProwler");
 
 class SummitProwler extends SummitProwlerBase {
   constructor(game) {

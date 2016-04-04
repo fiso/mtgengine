@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IncrementalGrowthBase = require("../setKTK/IncrementalGrowth.js");
+const Constants = require ("../../../Constants");
+const IncrementalGrowthBase = require("../setKTK/IncrementalGrowth");
 
 class IncrementalGrowth extends IncrementalGrowthBase {
   constructor(game) {

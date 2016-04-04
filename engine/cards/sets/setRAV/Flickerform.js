@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlickerformBase = require("../setC13/Flickerform.js");
+const Constants = require ("../../../Constants");
+const FlickerformBase = require("../setC13/Flickerform");
 
 class Flickerform extends FlickerformBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WakestoneGargoyleBase = require("../setDIS/WakestoneGargoyle.js");
+const Constants = require ("../../../Constants");
+const WakestoneGargoyleBase = require("../setDIS/WakestoneGargoyle");
 
 class WakestoneGargoyle extends WakestoneGargoyleBase {
   constructor(game) {

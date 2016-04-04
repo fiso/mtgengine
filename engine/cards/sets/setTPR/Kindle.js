@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KindleBase = require("../setTMP/Kindle.js");
+const Constants = require ("../../../Constants");
+const KindleBase = require("../setTMP/Kindle");
 
 class Kindle extends KindleBase {
   constructor(game) {

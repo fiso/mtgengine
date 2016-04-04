@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MassMutinyBase = require("../setC13/MassMutiny.js");
+const Constants = require ("../../../Constants");
+const MassMutinyBase = require("../setC13/MassMutiny");
 
 class MassMutiny extends MassMutinyBase {
   constructor(game) {

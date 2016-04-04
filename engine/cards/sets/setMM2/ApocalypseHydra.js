@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ApocalypseHydraBase = require("../setCON/ApocalypseHydra.js");
+const Constants = require ("../../../Constants");
+const ApocalypseHydraBase = require("../setCON/ApocalypseHydra");
 
 class ApocalypseHydra extends ApocalypseHydraBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RockHydraBase = require("../setCED/RockHydra.js");
+const Constants = require ("../../../Constants");
+const RockHydraBase = require("../setCED/RockHydra");
 
 class RockHydra extends RockHydraBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WingsofVelisVelBase = require("../setLRW/WingsofVelisVel.js");
+const Constants = require ("../../../Constants");
+const WingsofVelisVelBase = require("../setLRW/WingsofVelisVel");
 
 class WingsofVelisVel extends WingsofVelisVelBase {
   constructor(game) {

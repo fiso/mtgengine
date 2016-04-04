@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EncrustBase = require("../setM13/Encrust.js");
+const Constants = require ("../../../Constants");
+const EncrustBase = require("../setM13/Encrust");
 
 class Encrust extends EncrustBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StorageMatrixBase = require("../set9ED/StorageMatrix.js");
+const Constants = require ("../../../Constants");
+const StorageMatrixBase = require("../set9ED/StorageMatrix");
 
 class StorageMatrix extends StorageMatrixBase {
   constructor(game) {

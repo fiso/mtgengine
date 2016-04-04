@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BackfireBase = require("../set4ED/Backfire.js");
+const Constants = require ("../../../Constants");
+const BackfireBase = require("../set4ED/Backfire");
 
 class Backfire extends BackfireBase {
   constructor(game) {

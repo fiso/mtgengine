@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FortifiedAreaBase = require("../set4ED/FortifiedArea.js");
+const Constants = require ("../../../Constants");
+const FortifiedAreaBase = require("../set4ED/FortifiedArea");
 
 class FortifiedArea extends FortifiedAreaBase {
   constructor(game) {

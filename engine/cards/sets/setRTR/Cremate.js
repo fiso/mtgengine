@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CremateBase = require("../setGPT/Cremate.js");
+const Constants = require ("../../../Constants");
+const CremateBase = require("../setGPT/Cremate");
 
 class Cremate extends CremateBase {
   constructor(game) {

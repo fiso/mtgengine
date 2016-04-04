@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoltwingMarauderBase = require("../setDTK/BoltwingMarauder.js");
+const Constants = require ("../../../Constants");
+const BoltwingMarauderBase = require("../setDTK/BoltwingMarauder");
 
 class BoltwingMarauder extends BoltwingMarauderBase {
   constructor(game) {

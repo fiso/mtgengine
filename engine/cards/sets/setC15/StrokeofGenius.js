@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StrokeofGeniusBase = require("../setC14/StrokeofGenius.js");
+const Constants = require ("../../../Constants");
+const StrokeofGeniusBase = require("../setC14/StrokeofGenius");
 
 class StrokeofGenius extends StrokeofGeniusBase {
   constructor(game) {

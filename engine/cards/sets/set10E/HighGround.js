@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HighGroundBase = require("../setEXO/HighGround.js");
+const Constants = require ("../../../Constants");
+const HighGroundBase = require("../setEXO/HighGround");
 
 class HighGround extends HighGroundBase {
   constructor(game) {

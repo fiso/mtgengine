@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LastBreathBase = require("../setMMQ/LastBreath.js");
+const Constants = require ("../../../Constants");
+const LastBreathBase = require("../setMMQ/LastBreath");
 
 class LastBreath extends LastBreathBase {
   constructor(game) {

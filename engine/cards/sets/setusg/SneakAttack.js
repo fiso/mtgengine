@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SneakAttackBase = require("../setpJGP/SneakAttack.js");
+const Constants = require ("../../../Constants");
+const SneakAttackBase = require("../setpJGP/SneakAttack");
 
 class SneakAttack extends SneakAttackBase {
   constructor(game) {

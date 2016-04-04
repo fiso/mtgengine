@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VeteranSwordsmithBase = require("../setDDO/VeteranSwordsmith.js");
+const Constants = require ("../../../Constants");
+const VeteranSwordsmithBase = require("../setDDO/VeteranSwordsmith");
 
 class VeteranSwordsmith extends VeteranSwordsmithBase {
   constructor(game) {

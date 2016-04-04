@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BranchingBoltBase = require("../setARC/BranchingBolt.js");
+const Constants = require ("../../../Constants");
+const BranchingBoltBase = require("../setARC/BranchingBolt");
 
 class BranchingBolt extends BranchingBoltBase {
   constructor(game) {

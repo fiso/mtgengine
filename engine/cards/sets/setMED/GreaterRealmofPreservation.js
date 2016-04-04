@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GreaterRealmofPreservationBase = require("../set5ED/GreaterRealmofPreservation.js");
+const Constants = require ("../../../Constants");
+const GreaterRealmofPreservationBase = require("../set5ED/GreaterRealmofPreservation");
 
 class GreaterRealmofPreservation extends GreaterRealmofPreservationBase {
   constructor(game) {

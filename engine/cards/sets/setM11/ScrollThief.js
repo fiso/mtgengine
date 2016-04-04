@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScrollThiefBase = require("../setDDI/ScrollThief.js");
+const Constants = require ("../../../Constants");
+const ScrollThiefBase = require("../setDDI/ScrollThief");
 
 class ScrollThief extends ScrollThiefBase {
   constructor(game) {

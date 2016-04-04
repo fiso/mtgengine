@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SapphireMedallionBase = require("../setC14/SapphireMedallion.js");
+const Constants = require ("../../../Constants");
+const SapphireMedallionBase = require("../setC14/SapphireMedallion");
 
 class SapphireMedallion extends SapphireMedallionBase {
   constructor(game) {

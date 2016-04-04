@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SageofLatNamBase = require("../setATQ/SageofLatNam.js");
+const Constants = require ("../../../Constants");
+const SageofLatNamBase = require("../setATQ/SageofLatNam");
 
 class SageofLatNam extends SageofLatNamBase {
   constructor(game) {

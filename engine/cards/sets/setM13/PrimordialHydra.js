@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrimordialHydraBase = require("../setM12/PrimordialHydra.js");
+const Constants = require ("../../../Constants");
+const PrimordialHydraBase = require("../setM12/PrimordialHydra");
 
 class PrimordialHydra extends PrimordialHydraBase {
   constructor(game) {

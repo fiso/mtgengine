@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FertileGroundBase = require("../setBRB/FertileGround.js");
+const Constants = require ("../../../Constants");
+const FertileGroundBase = require("../setBRB/FertileGround");
 
 class FertileGround extends FertileGroundBase {
   constructor(game) {

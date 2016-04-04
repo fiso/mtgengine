@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RunedStalactiteBase = require("../setLRW/RunedStalactite.js");
+const Constants = require ("../../../Constants");
+const RunedStalactiteBase = require("../setLRW/RunedStalactite");
 
 class RunedStalactite extends RunedStalactiteBase {
   constructor(game) {

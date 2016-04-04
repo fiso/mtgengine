@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FireLitThicketBase = require("../setSHM/FireLitThicket.js");
+const Constants = require ("../../../Constants");
+const FireLitThicketBase = require("../setSHM/FireLitThicket");
 
 class FireLitThicket extends FireLitThicketBase {
   constructor(game) {

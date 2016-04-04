@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NissaWorldwakerBase = require("../setM15/NissaWorldwaker.js");
+const Constants = require ("../../../Constants");
+const NissaWorldwakerBase = require("../setM15/NissaWorldwaker");
 
 class NissaWorldwaker extends NissaWorldwakerBase {
   constructor(game) {

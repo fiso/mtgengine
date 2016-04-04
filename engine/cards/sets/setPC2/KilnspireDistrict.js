@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KilnspireDistrict extends Card {
+class KilnspireDistrict extends UnimplementedCard {
   constructor(game) {
     super(game, "Kilnspire District", "Planechase 2012 Edition", "PC2");
   }

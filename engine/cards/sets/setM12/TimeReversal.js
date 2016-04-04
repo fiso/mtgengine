@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimeReversalBase = require("../setM11/TimeReversal.js");
+const Constants = require ("../../../Constants");
+const TimeReversalBase = require("../setM11/TimeReversal");
 
 class TimeReversal extends TimeReversalBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NaturalSpringBase = require("../setDPA/NaturalSpring.js");
+const Constants = require ("../../../Constants");
+const NaturalSpringBase = require("../setDPA/NaturalSpring");
 
 class NaturalSpring extends NaturalSpringBase {
   constructor(game) {

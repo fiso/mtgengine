@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArgentSphinxBase = require("../setMM2/ArgentSphinx.js");
+const Constants = require ("../../../Constants");
+const ArgentSphinxBase = require("../setMM2/ArgentSphinx");
 
 class ArgentSphinx extends ArgentSphinxBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DuneblastBase = require("../setKTK/Duneblast.js");
+const Constants = require ("../../../Constants");
+const DuneblastBase = require("../setKTK/Duneblast");
 
 class Duneblast extends DuneblastBase {
   constructor(game) {

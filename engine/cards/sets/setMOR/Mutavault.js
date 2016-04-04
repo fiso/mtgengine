@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MutavaultBase = require("../setpCMP/Mutavault.js");
+const Constants = require ("../../../Constants");
+const MutavaultBase = require("../setpCMP/Mutavault");
 
 class Mutavault extends MutavaultBase {
   constructor(game) {

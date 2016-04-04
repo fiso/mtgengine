@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OverruleBase = require("../setDIS/Overrule.js");
+const Constants = require ("../../../Constants");
+const OverruleBase = require("../setDIS/Overrule");
 
 class Overrule extends OverruleBase {
   constructor(game) {

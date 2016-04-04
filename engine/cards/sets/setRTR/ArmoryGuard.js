@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArmoryGuardBase = require("../setDDL/ArmoryGuard.js");
+const Constants = require ("../../../Constants");
+const ArmoryGuardBase = require("../setDDL/ArmoryGuard");
 
 class ArmoryGuard extends ArmoryGuardBase {
   constructor(game) {

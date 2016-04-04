@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OrochiColony extends Card {
+class OrochiColony extends UnimplementedCard {
   constructor(game) {
     super(game, "Orochi Colony", "Planechase 2012 Edition", "PC2");
   }

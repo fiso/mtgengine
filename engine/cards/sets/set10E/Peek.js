@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PeekBase = require("../setODY/Peek.js");
+const Constants = require ("../../../Constants");
+const PeekBase = require("../setODY/Peek");
 
 class Peek extends PeekBase {
   constructor(game) {

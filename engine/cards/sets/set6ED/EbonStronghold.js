@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EbonStrongholdBase = require("../setBTD/EbonStronghold.js");
+const Constants = require ("../../../Constants");
+const EbonStrongholdBase = require("../setBTD/EbonStronghold");
 
 class EbonStronghold extends EbonStrongholdBase {
   constructor(game) {

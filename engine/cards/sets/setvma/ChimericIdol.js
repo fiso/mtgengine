@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChimericIdolBase = require("../setPCY/ChimericIdol.js");
+const Constants = require ("../../../Constants");
+const ChimericIdolBase = require("../setPCY/ChimericIdol");
 
 class ChimericIdol extends ChimericIdolBase {
   constructor(game) {

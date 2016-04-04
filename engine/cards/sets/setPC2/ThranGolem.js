@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThranGolemBase = require("../setM12/ThranGolem.js");
+const Constants = require ("../../../Constants");
+const ThranGolemBase = require("../setM12/ThranGolem");
 
 class ThranGolem extends ThranGolemBase {
   constructor(game) {

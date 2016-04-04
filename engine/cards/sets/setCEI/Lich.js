@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LichBase = require("../setCED/Lich.js");
+const Constants = require ("../../../Constants");
+const LichBase = require("../setCED/Lich");
 
 class Lich extends LichBase {
   constructor(game) {

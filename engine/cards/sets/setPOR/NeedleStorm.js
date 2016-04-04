@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NeedleStormBase = require("../set9ED/NeedleStorm.js");
+const Constants = require ("../../../Constants");
+const NeedleStormBase = require("../set9ED/NeedleStorm");
 
 class NeedleStorm extends NeedleStormBase {
   constructor(game) {

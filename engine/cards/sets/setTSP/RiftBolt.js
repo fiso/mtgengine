@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiftBoltBase = require("../setpFNM/RiftBolt.js");
+const Constants = require ("../../../Constants");
+const RiftBoltBase = require("../setpFNM/RiftBolt");
 
 class RiftBolt extends RiftBoltBase {
   constructor(game) {

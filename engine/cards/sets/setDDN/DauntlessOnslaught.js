@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DauntlessOnslaughtBase = require("../setDDO/DauntlessOnslaught.js");
+const Constants = require ("../../../Constants");
+const DauntlessOnslaughtBase = require("../setDDO/DauntlessOnslaught");
 
 class DauntlessOnslaught extends DauntlessOnslaughtBase {
   constructor(game) {

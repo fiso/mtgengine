@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PanicSpellbombBase = require("../setC14/PanicSpellbomb.js");
+const Constants = require ("../../../Constants");
+const PanicSpellbombBase = require("../setC14/PanicSpellbomb");
 
 class PanicSpellbomb extends PanicSpellbombBase {
   constructor(game) {

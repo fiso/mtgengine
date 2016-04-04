@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShiftingSkyBase = require("../set8ED/ShiftingSky.js");
+const Constants = require ("../../../Constants");
+const ShiftingSkyBase = require("../set8ED/ShiftingSky");
 
 class ShiftingSky extends ShiftingSkyBase {
   constructor(game) {

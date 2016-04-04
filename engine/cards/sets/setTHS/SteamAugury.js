@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SteamAuguryBase = require("../setC15/SteamAugury.js");
+const Constants = require ("../../../Constants");
+const SteamAuguryBase = require("../setC15/SteamAugury");
 
 class SteamAugury extends SteamAuguryBase {
   constructor(game) {

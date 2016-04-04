@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DaggerclawImp extends Card {
+class DaggerclawImp extends UnimplementedCard {
   constructor(game) {
     super(game, "Daggerclaw Imp", "Duel Decks Anthology, Divine vs. Demonic", "DD3_DVD");
   }

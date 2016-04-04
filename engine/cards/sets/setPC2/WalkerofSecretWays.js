@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WalkerofSecretWaysBase = require("../setBOK/WalkerofSecretWays.js");
+const Constants = require ("../../../Constants");
+const WalkerofSecretWaysBase = require("../setBOK/WalkerofSecretWays");
 
 class WalkerofSecretWays extends WalkerofSecretWaysBase {
   constructor(game) {

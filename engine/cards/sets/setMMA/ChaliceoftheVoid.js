@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChaliceoftheVoidBase = require("../setMRD/ChaliceoftheVoid.js");
+const Constants = require ("../../../Constants");
+const ChaliceoftheVoidBase = require("../setMRD/ChaliceoftheVoid");
 
 class ChaliceoftheVoid extends ChaliceoftheVoidBase {
   constructor(game) {

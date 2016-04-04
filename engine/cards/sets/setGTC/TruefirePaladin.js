@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TruefirePaladinBase = require("../setDDL/TruefirePaladin.js");
+const Constants = require ("../../../Constants");
+const TruefirePaladinBase = require("../setDDL/TruefirePaladin");
 
 class TruefirePaladin extends TruefirePaladinBase {
   constructor(game) {

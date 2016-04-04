@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReachofBranchesBase = require("../setMMA/ReachofBranches.js");
+const Constants = require ("../../../Constants");
+const ReachofBranchesBase = require("../setMMA/ReachofBranches");
 
 class ReachofBranches extends ReachofBranchesBase {
   constructor(game) {

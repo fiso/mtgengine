@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BurningofXinyeBase = require("../setV14/BurningofXinye.js");
+const Constants = require ("../../../Constants");
+const BurningofXinyeBase = require("../setV14/BurningofXinye");
 
 class BurningofXinye extends BurningofXinyeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReconstructionBase = require("../setATQ/Reconstruction.js");
+const Constants = require ("../../../Constants");
+const ReconstructionBase = require("../setATQ/Reconstruction");
 
 class Reconstruction extends ReconstructionBase {
   constructor(game) {

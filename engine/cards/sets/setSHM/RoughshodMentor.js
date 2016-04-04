@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RoughshodMentorBase = require("../setDPA/RoughshodMentor.js");
+const Constants = require ("../../../Constants");
+const RoughshodMentorBase = require("../setDPA/RoughshodMentor");
 
 class RoughshodMentor extends RoughshodMentorBase {
   constructor(game) {

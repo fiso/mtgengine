@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CastingofBonesBase = require("../setALL/CastingofBones.js");
+const Constants = require ("../../../Constants");
+const CastingofBonesBase = require("../setALL/CastingofBones");
 
 class CastingofBones extends CastingofBonesBase {
   constructor(game) {

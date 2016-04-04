@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoneSplintersBase = require("../setAVR/BoneSplinters.js");
+const Constants = require ("../../../Constants");
+const BoneSplintersBase = require("../setAVR/BoneSplinters");
 
 class BoneSplinters extends BoneSplintersBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DarkPrivilegeBase = require("../setMGB/DarkPrivilege.js");
+const Constants = require ("../../../Constants");
+const DarkPrivilegeBase = require("../setMGB/DarkPrivilege");
 
 class DarkPrivilege extends DarkPrivilegeBase {
   constructor(game) {

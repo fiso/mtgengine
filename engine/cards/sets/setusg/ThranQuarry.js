@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThranQuarryBase = require("../setpSUS/ThranQuarry.js");
+const Constants = require ("../../../Constants");
+const ThranQuarryBase = require("../setpSUS/ThranQuarry");
 
 class ThranQuarry extends ThranQuarryBase {
   constructor(game) {

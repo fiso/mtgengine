@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChillBase = require("../setpARL/Chill.js");
+const Constants = require ("../../../Constants");
+const ChillBase = require("../setpARL/Chill");
 
 class Chill extends ChillBase {
   constructor(game) {

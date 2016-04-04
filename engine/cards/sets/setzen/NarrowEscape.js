@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NarrowEscapeBase = require("../setDDE/NarrowEscape.js");
+const Constants = require ("../../../Constants");
+const NarrowEscapeBase = require("../setDDE/NarrowEscape");
 
 class NarrowEscape extends NarrowEscapeBase {
   constructor(game) {

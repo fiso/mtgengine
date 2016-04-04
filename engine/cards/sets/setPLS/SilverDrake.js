@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SilverDrakeBase = require("../setpMEI/SilverDrake.js");
+const Constants = require ("../../../Constants");
+const SilverDrakeBase = require("../setpMEI/SilverDrake");
 
 class SilverDrake extends SilverDrakeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FiendHunterBase = require("../setC13/FiendHunter.js");
+const Constants = require ("../../../Constants");
+const FiendHunterBase = require("../setC13/FiendHunter");
 
 class FiendHunter extends FiendHunterBase {
   constructor(game) {

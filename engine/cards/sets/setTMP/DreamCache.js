@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DreamCacheBase = require("../set6ED/DreamCache.js");
+const Constants = require ("../../../Constants");
+const DreamCacheBase = require("../set6ED/DreamCache");
 
 class DreamCache extends DreamCacheBase {
   constructor(game) {

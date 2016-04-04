@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RedirectBase = require("../setM11/Redirect.js");
+const Constants = require ("../../../Constants");
+const RedirectBase = require("../setM11/Redirect");
 
 class Redirect extends RedirectBase {
   constructor(game) {

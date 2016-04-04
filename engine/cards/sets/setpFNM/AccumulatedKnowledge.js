@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AccumulatedKnowledgeBase = require("../setDDO/AccumulatedKnowledge.js");
+const Constants = require ("../../../Constants");
+const AccumulatedKnowledgeBase = require("../setDDO/AccumulatedKnowledge");
 
 class AccumulatedKnowledge extends AccumulatedKnowledgeBase {
   constructor(game) {

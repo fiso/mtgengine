@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RingofRenewalBase = require("../setFEM/RingofRenewal.js");
+const Constants = require ("../../../Constants");
+const RingofRenewalBase = require("../setFEM/RingofRenewal");
 
 class RingofRenewal extends RingofRenewalBase {
   constructor(game) {

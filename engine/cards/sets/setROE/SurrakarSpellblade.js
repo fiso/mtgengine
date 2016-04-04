@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SurrakarSpellbladeBase = require("../setMM2/SurrakarSpellblade.js");
+const Constants = require ("../../../Constants");
+const SurrakarSpellbladeBase = require("../setMM2/SurrakarSpellblade");
 
 class SurrakarSpellblade extends SurrakarSpellbladeBase {
   constructor(game) {

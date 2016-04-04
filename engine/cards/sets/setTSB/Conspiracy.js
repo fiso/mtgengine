@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConspiracyBase = require("../setMMQ/Conspiracy.js");
+const Constants = require ("../../../Constants");
+const ConspiracyBase = require("../setMMQ/Conspiracy");
 
 class Conspiracy extends ConspiracyBase {
   constructor(game) {

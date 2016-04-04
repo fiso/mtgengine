@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PineBarrensBase = require("../setTMP/PineBarrens.js");
+const Constants = require ("../../../Constants");
+const PineBarrensBase = require("../setTMP/PineBarrens");
 
 class PineBarrens extends PineBarrensBase {
   constructor(game) {

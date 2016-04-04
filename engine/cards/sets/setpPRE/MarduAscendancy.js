@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MarduAscendancyBase = require("../setKTK/MarduAscendancy.js");
+const Constants = require ("../../../Constants");
+const MarduAscendancyBase = require("../setKTK/MarduAscendancy");
 
 class MarduAscendancy extends MarduAscendancyBase {
   constructor(game) {

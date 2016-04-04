@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RootwaterMatriarchBase = require("../setTMP/RootwaterMatriarch.js");
+const Constants = require ("../../../Constants");
+const RootwaterMatriarchBase = require("../setTMP/RootwaterMatriarch");
 
 class RootwaterMatriarch extends RootwaterMatriarchBase {
   constructor(game) {

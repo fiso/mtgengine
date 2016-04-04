@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ManaLeakBase = require("../setpARL/ManaLeak.js");
+const Constants = require ("../../../Constants");
+const ManaLeakBase = require("../setpARL/ManaLeak");
 
 class ManaLeak extends ManaLeakBase {
   constructor(game) {

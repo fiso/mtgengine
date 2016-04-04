@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlinkmothNexusBase = require("../setDST/BlinkmothNexus.js");
+const Constants = require ("../../../Constants");
+const BlinkmothNexusBase = require("../setDST/BlinkmothNexus");
 
 class BlinkmothNexus extends BlinkmothNexusBase {
   constructor(game) {

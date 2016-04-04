@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrognosticSphinxBase = require("../setCPK/PrognosticSphinx.js");
+const Constants = require ("../../../Constants");
+const PrognosticSphinxBase = require("../setCPK/PrognosticSphinx");
 
 class PrognosticSphinx extends PrognosticSphinxBase {
   constructor(game) {

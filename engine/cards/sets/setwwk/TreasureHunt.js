@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreasureHuntBase = require("../setpMPR/TreasureHunt.js");
+const Constants = require ("../../../Constants");
+const TreasureHuntBase = require("../setpMPR/TreasureHunt");
 
 class TreasureHunt extends TreasureHuntBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpinyStarfishBase = require("../setALL/SpinyStarfish.js");
+const Constants = require ("../../../Constants");
+const SpinyStarfishBase = require("../setALL/SpinyStarfish");
 
 class SpinyStarfish extends SpinyStarfishBase {
   constructor(game) {

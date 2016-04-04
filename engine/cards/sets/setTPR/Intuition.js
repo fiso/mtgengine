@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IntuitionBase = require("../setpJGP/Intuition.js");
+const Constants = require ("../../../Constants");
+const IntuitionBase = require("../setpJGP/Intuition");
 
 class Intuition extends IntuitionBase {
   constructor(game) {

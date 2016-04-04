@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MwonvuliBeastTrackerBase = require("../setM13/MwonvuliBeastTracker.js");
+const Constants = require ("../../../Constants");
+const MwonvuliBeastTrackerBase = require("../setM13/MwonvuliBeastTracker");
 
 class MwonvuliBeastTracker extends MwonvuliBeastTrackerBase {
   constructor(game) {

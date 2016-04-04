@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RampantGrowthBase = require("../setBTD/RampantGrowth.js");
+const Constants = require ("../../../Constants");
+const RampantGrowthBase = require("../setBTD/RampantGrowth");
 
 class RampantGrowth extends RampantGrowthBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GolgariSignetBase = require("../setC15/GolgariSignet.js");
+const Constants = require ("../../../Constants");
+const GolgariSignetBase = require("../setC15/GolgariSignet");
 
 class GolgariSignet extends GolgariSignetBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SuqAtaLancerBase = require("../setTSB/SuqAtaLancer.js");
+const Constants = require ("../../../Constants");
+const SuqAtaLancerBase = require("../setTSB/SuqAtaLancer");
 
 class SuqAtaLancer extends SuqAtaLancerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EbonyRhinoBase = require("../setHML/EbonyRhino.js");
+const Constants = require ("../../../Constants");
+const EbonyRhinoBase = require("../setHML/EbonyRhino");
 
 class EbonyRhino extends EbonyRhinoBase {
   constructor(game) {

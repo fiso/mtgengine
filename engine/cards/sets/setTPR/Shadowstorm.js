@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShadowstormBase = require("../setTMP/Shadowstorm.js");
+const Constants = require ("../../../Constants");
+const ShadowstormBase = require("../setTMP/Shadowstorm");
 
 class Shadowstorm extends ShadowstormBase {
   constructor(game) {

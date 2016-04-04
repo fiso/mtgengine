@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PulseTrackerBase = require("../setDDM/PulseTracker.js");
+const Constants = require ("../../../Constants");
+const PulseTrackerBase = require("../setDDM/PulseTracker");
 
 class PulseTracker extends PulseTrackerBase {
   constructor(game) {

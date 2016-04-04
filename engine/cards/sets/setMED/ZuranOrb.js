@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ZuranOrbBase = require("../setV10/ZuranOrb.js");
+const Constants = require ("../../../Constants");
+const ZuranOrbBase = require("../setV10/ZuranOrb");
 
 class ZuranOrb extends ZuranOrbBase {
   constructor(game) {

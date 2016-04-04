@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PentavusBase = require("../setC14/Pentavus.js");
+const Constants = require ("../../../Constants");
+const PentavusBase = require("../setC14/Pentavus");
 
 class Pentavus extends PentavusBase {
   constructor(game) {

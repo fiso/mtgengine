@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnstableMutationBase = require("../setARN/UnstableMutation.js");
+const Constants = require ("../../../Constants");
+const UnstableMutationBase = require("../setARN/UnstableMutation");
 
 class UnstableMutation extends UnstableMutationBase {
   constructor(game) {

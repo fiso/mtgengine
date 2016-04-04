@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoltenSlagheapBase = require("../setC13/MoltenSlagheap.js");
+const Constants = require ("../../../Constants");
+const MoltenSlagheapBase = require("../setC13/MoltenSlagheap");
 
 class MoltenSlagheap extends MoltenSlagheapBase {
   constructor(game) {

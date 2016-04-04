@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeadwoodTreefolkBase = require("../setC13/DeadwoodTreefolk.js");
+const Constants = require ("../../../Constants");
+const DeadwoodTreefolkBase = require("../setC13/DeadwoodTreefolk");
 
 class DeadwoodTreefolk extends DeadwoodTreefolkBase {
   constructor(game) {

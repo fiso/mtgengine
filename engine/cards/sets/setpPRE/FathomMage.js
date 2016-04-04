@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FathomMageBase = require("../setGTC/FathomMage.js");
+const Constants = require ("../../../Constants");
+const FathomMageBase = require("../setGTC/FathomMage");
 
 class FathomMage extends FathomMageBase {
   constructor(game) {

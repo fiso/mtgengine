@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SubversionBase = require("../setBRB/Subversion.js");
+const Constants = require ("../../../Constants");
+const SubversionBase = require("../setBRB/Subversion");
 
 class Subversion extends SubversionBase {
   constructor(game) {

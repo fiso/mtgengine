@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MothdustChangelingBase = require("../setMMA/MothdustChangeling.js");
+const Constants = require ("../../../Constants");
+const MothdustChangelingBase = require("../setMMA/MothdustChangeling");
 
 class MothdustChangeling extends MothdustChangelingBase {
   constructor(game) {

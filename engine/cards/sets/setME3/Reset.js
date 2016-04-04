@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ResetBase = require("../setLEG/Reset.js");
+const Constants = require ("../../../Constants");
+const ResetBase = require("../setLEG/Reset");
 
 class Reset extends ResetBase {
   constructor(game) {

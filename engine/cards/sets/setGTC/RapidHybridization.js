@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RapidHybridizationBase = require("../setC15/RapidHybridization.js");
+const Constants = require ("../../../Constants");
+const RapidHybridizationBase = require("../setC15/RapidHybridization");
 
 class RapidHybridization extends RapidHybridizationBase {
   constructor(game) {

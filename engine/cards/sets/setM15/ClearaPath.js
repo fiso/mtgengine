@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ClearaPathBase = require("../setDGM/ClearaPath.js");
+const Constants = require ("../../../Constants");
+const ClearaPathBase = require("../setDGM/ClearaPath");
 
 class ClearaPath extends ClearaPathBase {
   constructor(game) {

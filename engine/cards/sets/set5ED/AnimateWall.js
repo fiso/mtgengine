@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnimateWallBase = require("../set6ED/AnimateWall.js");
+const Constants = require ("../../../Constants");
+const AnimateWallBase = require("../set6ED/AnimateWall");
 
 class AnimateWall extends AnimateWallBase {
   constructor(game) {

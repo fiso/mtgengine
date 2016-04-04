@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiddleofLightningBase = require("../setFUT/RiddleofLightning.js");
+const Constants = require ("../../../Constants");
+const RiddleofLightningBase = require("../setFUT/RiddleofLightning");
 
 class RiddleofLightning extends RiddleofLightningBase {
   constructor(game) {

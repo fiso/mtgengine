@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThornwoodFallsBase = require("../setC15/ThornwoodFalls.js");
+const Constants = require ("../../../Constants");
+const ThornwoodFallsBase = require("../setC15/ThornwoodFalls");
 
 class ThornwoodFalls extends ThornwoodFallsBase {
   constructor(game) {

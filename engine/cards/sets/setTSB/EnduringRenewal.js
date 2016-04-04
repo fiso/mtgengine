@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnduringRenewalBase = require("../setICE/EnduringRenewal.js");
+const Constants = require ("../../../Constants");
+const EnduringRenewalBase = require("../setICE/EnduringRenewal");
 
 class EnduringRenewal extends EnduringRenewalBase {
   constructor(game) {

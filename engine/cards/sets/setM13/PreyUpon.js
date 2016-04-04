@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PreyUponBase = require("../setDDL/PreyUpon.js");
+const Constants = require ("../../../Constants");
+const PreyUponBase = require("../setDDL/PreyUpon");
 
 class PreyUpon extends PreyUponBase {
   constructor(game) {

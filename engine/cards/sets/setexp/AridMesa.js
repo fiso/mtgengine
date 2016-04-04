@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AridMesaBase = require("../setZEN/AridMesa.js");
+const Constants = require ("../../../Constants");
+const AridMesaBase = require("../setZEN/AridMesa");
 
 class AridMesa extends AridMesaBase {
   constructor(game) {

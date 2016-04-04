@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrairieStreamBase = require("../setBFZ/PrairieStream.js");
+const Constants = require ("../../../Constants");
+const PrairieStreamBase = require("../setBFZ/PrairieStream");
 
 class PrairieStream extends PrairieStreamBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShowofValorBase = require("../setM13/ShowofValor.js");
+const Constants = require ("../../../Constants");
+const ShowofValorBase = require("../setM13/ShowofValor");
 
 class ShowofValor extends ShowofValorBase {
   constructor(game) {

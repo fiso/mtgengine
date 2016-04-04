@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MistformUltimusBase = require("../setLGN/MistformUltimus.js");
+const Constants = require ("../../../Constants");
+const MistformUltimusBase = require("../setLGN/MistformUltimus");
 
 class MistformUltimus extends MistformUltimusBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SarkhanVolBase = require("../setMMA/SarkhanVol.js");
+const Constants = require ("../../../Constants");
+const SarkhanVolBase = require("../setMMA/SarkhanVol");
 
 class SarkhanVol extends SarkhanVolBase {
   constructor(game) {

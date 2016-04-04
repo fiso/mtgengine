@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LithophageBase = require("../setDDI/Lithophage.js");
+const Constants = require ("../../../Constants");
+const LithophageBase = require("../setDDI/Lithophage");
 
 class Lithophage extends LithophageBase {
   constructor(game) {

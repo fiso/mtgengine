@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoercivePortalBase = require("../setCNS/CoercivePortal.js");
+const Constants = require ("../../../Constants");
+const CoercivePortalBase = require("../setCNS/CoercivePortal");
 
 class CoercivePortal extends CoercivePortalBase {
   constructor(game) {

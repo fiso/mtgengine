@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BattlegateMimicBase = require("../setEVE/BattlegateMimic.js");
+const Constants = require ("../../../Constants");
+const BattlegateMimicBase = require("../setEVE/BattlegateMimic");
 
 class BattlegateMimic extends BattlegateMimicBase {
   constructor(game) {

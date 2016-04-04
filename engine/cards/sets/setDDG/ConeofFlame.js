@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConeofFlameBase = require("../setDD3_JVC/ConeofFlame.js");
+const Constants = require ("../../../Constants");
+const ConeofFlameBase = require("../setDD3_JVC/ConeofFlame");
 
 class ConeofFlame extends ConeofFlameBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VaultoftheArchangelBase = require("../setDKA/VaultoftheArchangel.js");
+const Constants = require ("../../../Constants");
+const VaultoftheArchangelBase = require("../setDKA/VaultoftheArchangel");
 
 class VaultoftheArchangel extends VaultoftheArchangelBase {
   constructor(game) {

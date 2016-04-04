@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnointBase = require("../setTMP/Anoint.js");
+const Constants = require ("../../../Constants");
+const AnointBase = require("../setTMP/Anoint");
 
 class Anoint extends AnointBase {
   constructor(game) {

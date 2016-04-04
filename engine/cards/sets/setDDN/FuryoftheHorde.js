@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FuryoftheHordeBase = require("../setCSP/FuryoftheHorde.js");
+const Constants = require ("../../../Constants");
+const FuryoftheHordeBase = require("../setCSP/FuryoftheHorde");
 
 class FuryoftheHorde extends FuryoftheHordeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MistmoonGriffinBase = require("../setVMA/MistmoonGriffin.js");
+const Constants = require ("../../../Constants");
+const MistmoonGriffinBase = require("../setVMA/MistmoonGriffin");
 
 class MistmoonGriffin extends MistmoonGriffinBase {
   constructor(game) {

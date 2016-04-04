@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GargoyleSentinelBase = require("../setM11/GargoyleSentinel.js");
+const Constants = require ("../../../Constants");
+const GargoyleSentinelBase = require("../setM11/GargoyleSentinel");
 
 class GargoyleSentinel extends GargoyleSentinelBase {
   constructor(game) {

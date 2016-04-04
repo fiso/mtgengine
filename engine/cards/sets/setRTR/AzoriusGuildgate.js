@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AzoriusGuildgateBase = require("../setC13/AzoriusGuildgate.js");
+const Constants = require ("../../../Constants");
+const AzoriusGuildgateBase = require("../setC13/AzoriusGuildgate");
 
 class AzoriusGuildgate extends AzoriusGuildgateBase {
   constructor(game) {

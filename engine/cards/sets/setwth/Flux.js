@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FluxBase = require("../setPOR/Flux.js");
+const Constants = require ("../../../Constants");
+const FluxBase = require("../setPOR/Flux");
 
 class Flux extends FluxBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EsperPanoramaBase = require("../setC13/EsperPanorama.js");
+const Constants = require ("../../../Constants");
+const EsperPanoramaBase = require("../setC13/EsperPanorama");
 
 class EsperPanorama extends EsperPanoramaBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EvernightShadeBase = require("../setAVR/EvernightShade.js");
+const Constants = require ("../../../Constants");
+const EvernightShadeBase = require("../setAVR/EvernightShade");
 
 class EvernightShade extends EvernightShadeBase {
   constructor(game) {

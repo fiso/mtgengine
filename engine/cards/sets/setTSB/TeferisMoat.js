@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TeferisMoatBase = require("../setINV/TeferisMoat.js");
+const Constants = require ("../../../Constants");
+const TeferisMoatBase = require("../setINV/TeferisMoat");
 
 class TeferisMoat extends TeferisMoatBase {
   constructor(game) {

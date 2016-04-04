@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KavuPrimarchBase = require("../setFUT/KavuPrimarch.js");
+const Constants = require ("../../../Constants");
+const KavuPrimarchBase = require("../setFUT/KavuPrimarch");
 
 class KavuPrimarch extends KavuPrimarchBase {
   constructor(game) {

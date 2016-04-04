@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TriskelionBase = require("../setATQ/Triskelion.js");
+const Constants = require ("../../../Constants");
+const TriskelionBase = require("../setATQ/Triskelion");
 
 class Triskelion extends TriskelionBase {
   constructor(game) {

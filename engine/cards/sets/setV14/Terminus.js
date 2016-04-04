@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TerminusBase = require("../setAVR/Terminus.js");
+const Constants = require ("../../../Constants");
+const TerminusBase = require("../setAVR/Terminus");
 
 class Terminus extends TerminusBase {
   constructor(game) {

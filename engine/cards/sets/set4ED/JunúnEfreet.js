@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JunúnEfreetBase = require("../setARN/JunúnEfreet.js");
+const Constants = require ("../../../Constants");
+const JunúnEfreetBase = require("../setARN/JunúnEfreet");
 
 class JunúnEfreet extends JunúnEfreetBase {
   constructor(game) {

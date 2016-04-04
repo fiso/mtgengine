@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConsumingAberrationBase = require("../setGTC/ConsumingAberration.js");
+const Constants = require ("../../../Constants");
+const ConsumingAberrationBase = require("../setGTC/ConsumingAberration");
 
 class ConsumingAberration extends ConsumingAberrationBase {
   constructor(game) {

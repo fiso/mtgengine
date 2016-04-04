@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AngelofDespairBase = require("../setGPT/AngelofDespair.js");
+const Constants = require ("../../../Constants");
+const AngelofDespairBase = require("../setGPT/AngelofDespair");
 
 class AngelofDespair extends AngelofDespairBase {
   constructor(game) {

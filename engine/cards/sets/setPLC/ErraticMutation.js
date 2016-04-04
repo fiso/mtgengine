@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ErraticMutationBase = require("../setMMA/ErraticMutation.js");
+const Constants = require ("../../../Constants");
+const ErraticMutationBase = require("../setMMA/ErraticMutation");
 
 class ErraticMutation extends ErraticMutationBase {
   constructor(game) {

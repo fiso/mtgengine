@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FissureBase = require("../set4ED/Fissure.js");
+const Constants = require ("../../../Constants");
+const FissureBase = require("../set4ED/Fissure");
 
 class Fissure extends FissureBase {
   constructor(game) {

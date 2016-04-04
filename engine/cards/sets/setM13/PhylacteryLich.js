@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhylacteryLichBase = require("../setM11/PhylacteryLich.js");
+const Constants = require ("../../../Constants");
+const PhylacteryLichBase = require("../setM11/PhylacteryLich");
 
 class PhylacteryLich extends PhylacteryLichBase {
   constructor(game) {

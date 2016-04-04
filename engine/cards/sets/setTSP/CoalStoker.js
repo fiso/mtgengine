@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoalStokerBase = require("../setDDK/CoalStoker.js");
+const Constants = require ("../../../Constants");
+const CoalStokerBase = require("../setDDK/CoalStoker");
 
 class CoalStoker extends CoalStokerBase {
   constructor(game) {

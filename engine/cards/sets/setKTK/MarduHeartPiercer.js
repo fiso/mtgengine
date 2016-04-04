@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MarduHeartPiercerBase = require("../setDDN/MarduHeartPiercer.js");
+const Constants = require ("../../../Constants");
+const MarduHeartPiercerBase = require("../setDDN/MarduHeartPiercer");
 
 class MarduHeartPiercer extends MarduHeartPiercerBase {
   constructor(game) {

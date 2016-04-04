@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FosterBase = require("../setC13/Foster.js");
+const Constants = require ("../../../Constants");
+const FosterBase = require("../setC13/Foster");
 
 class Foster extends FosterBase {
   constructor(game) {

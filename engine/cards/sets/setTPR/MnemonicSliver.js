@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MnemonicSliverBase = require("../setTMP/MnemonicSliver.js");
+const Constants = require ("../../../Constants");
+const MnemonicSliverBase = require("../setTMP/MnemonicSliver");
 
 class MnemonicSliver extends MnemonicSliverBase {
   constructor(game) {

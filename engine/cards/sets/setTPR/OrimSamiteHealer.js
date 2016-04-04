@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrimSamiteHealerBase = require("../setTMP/OrimSamiteHealer.js");
+const Constants = require ("../../../Constants");
+const OrimSamiteHealerBase = require("../setTMP/OrimSamiteHealer");
 
 class OrimSamiteHealer extends OrimSamiteHealerBase {
   constructor(game) {

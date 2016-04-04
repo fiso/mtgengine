@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NarcolepsyBase = require("../setMM2/Narcolepsy.js");
+const Constants = require ("../../../Constants");
+const NarcolepsyBase = require("../setMM2/Narcolepsy");
 
 class Narcolepsy extends NarcolepsyBase {
   constructor(game) {

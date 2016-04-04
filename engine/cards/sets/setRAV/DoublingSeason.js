@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DoublingSeasonBase = require("../setpJGP/DoublingSeason.js");
+const Constants = require ("../../../Constants");
+const DoublingSeasonBase = require("../setpJGP/DoublingSeason");
 
 class DoublingSeason extends DoublingSeasonBase {
   constructor(game) {

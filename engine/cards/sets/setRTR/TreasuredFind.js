@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreasuredFindBase = require("../setDDM/TreasuredFind.js");
+const Constants = require ("../../../Constants");
+const TreasuredFindBase = require("../setDDM/TreasuredFind");
 
 class TreasuredFind extends TreasuredFindBase {
   constructor(game) {

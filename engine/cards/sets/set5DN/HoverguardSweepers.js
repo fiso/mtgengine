@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HoverguardSweepersBase = require("../setC14/HoverguardSweepers.js");
+const Constants = require ("../../../Constants");
+const HoverguardSweepersBase = require("../setC14/HoverguardSweepers");
 
 class HoverguardSweepers extends HoverguardSweepersBase {
   constructor(game) {

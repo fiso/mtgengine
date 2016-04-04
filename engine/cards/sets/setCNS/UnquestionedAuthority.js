@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnquestionedAuthorityBase = require("../setJUD/UnquestionedAuthority.js");
+const Constants = require ("../../../Constants");
+const UnquestionedAuthorityBase = require("../setJUD/UnquestionedAuthority");
 
 class UnquestionedAuthority extends UnquestionedAuthorityBase {
   constructor(game) {

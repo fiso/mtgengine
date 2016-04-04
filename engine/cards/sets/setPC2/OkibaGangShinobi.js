@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OkibaGangShinobiBase = require("../setBOK/OkibaGangShinobi.js");
+const Constants = require ("../../../Constants");
+const OkibaGangShinobiBase = require("../setBOK/OkibaGangShinobi");
 
 class OkibaGangShinobi extends OkibaGangShinobiBase {
   constructor(game) {

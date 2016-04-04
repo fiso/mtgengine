@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WoodedBastionBase = require("../setSHM/WoodedBastion.js");
+const Constants = require ("../../../Constants");
+const WoodedBastionBase = require("../setSHM/WoodedBastion");
 
 class WoodedBastion extends WoodedBastionBase {
   constructor(game) {

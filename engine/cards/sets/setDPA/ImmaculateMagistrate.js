@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ImmaculateMagistrateBase = require("../setC14/ImmaculateMagistrate.js");
+const Constants = require ("../../../Constants");
+const ImmaculateMagistrateBase = require("../setC14/ImmaculateMagistrate");
 
 class ImmaculateMagistrate extends ImmaculateMagistrateBase {
   constructor(game) {

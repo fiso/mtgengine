@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LynxBase = require("../setPO2/Lynx.js");
+const Constants = require ("../../../Constants");
+const LynxBase = require("../setPO2/Lynx");
 
 class Lynx extends LynxBase {
   constructor(game) {

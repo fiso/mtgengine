@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MasterHealerBase = require("../set8ED/MasterHealer.js");
+const Constants = require ("../../../Constants");
+const MasterHealerBase = require("../set8ED/MasterHealer");
 
 class MasterHealer extends MasterHealerBase {
   constructor(game) {

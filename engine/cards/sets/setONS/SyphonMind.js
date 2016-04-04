@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SyphonMindBase = require("../setC14/SyphonMind.js");
+const Constants = require ("../../../Constants");
+const SyphonMindBase = require("../setC14/SyphonMind");
 
 class SyphonMind extends SyphonMindBase {
   constructor(game) {

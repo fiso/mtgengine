@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArcLightningBase = require("../setpARL/ArcLightning.js");
+const Constants = require ("../../../Constants");
+const ArcLightningBase = require("../setpARL/ArcLightning");
 
 class ArcLightning extends ArcLightningBase {
   constructor(game) {

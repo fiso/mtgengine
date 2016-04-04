@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AegisAngelBase = require("../setM12/AegisAngel.js");
+const Constants = require ("../../../Constants");
+const AegisAngelBase = require("../setM12/AegisAngel");
 
 class AegisAngel extends AegisAngelBase {
   constructor(game) {

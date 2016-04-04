@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DiscombobulateBase = require("../setONS/Discombobulate.js");
+const Constants = require ("../../../Constants");
+const DiscombobulateBase = require("../setONS/Discombobulate");
 
 class Discombobulate extends DiscombobulateBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PillarfieldOxBase = require("../setM13/PillarfieldOx.js");
+const Constants = require ("../../../Constants");
+const PillarfieldOxBase = require("../setM13/PillarfieldOx");
 
 class PillarfieldOx extends PillarfieldOxBase {
   constructor(game) {

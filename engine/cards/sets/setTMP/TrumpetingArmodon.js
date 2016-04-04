@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrumpetingArmodonBase = require("../setBRB/TrumpetingArmodon.js");
+const Constants = require ("../../../Constants");
+const TrumpetingArmodonBase = require("../setBRB/TrumpetingArmodon");
 
 class TrumpetingArmodon extends TrumpetingArmodonBase {
   constructor(game) {

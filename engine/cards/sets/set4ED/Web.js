@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WebBase = require("../setCED/Web.js");
+const Constants = require ("../../../Constants");
+const WebBase = require("../setCED/Web");
 
 class Web extends WebBase {
   constructor(game) {

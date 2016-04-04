@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FalseSummoningBase = require("../setME4/FalseSummoning.js");
+const Constants = require ("../../../Constants");
+const FalseSummoningBase = require("../setME4/FalseSummoning");
 
 class FalseSummoning extends FalseSummoningBase {
   constructor(game) {

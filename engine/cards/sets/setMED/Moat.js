@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoatBase = require("../setLEG/Moat.js");
+const Constants = require ("../../../Constants");
+const MoatBase = require("../setLEG/Moat");
 
 class Moat extends MoatBase {
   constructor(game) {

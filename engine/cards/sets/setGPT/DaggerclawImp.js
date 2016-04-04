@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DaggerclawImpBase = require("../setDD3_DVD/DaggerclawImp.js");
+const Constants = require ("../../../Constants");
+const DaggerclawImpBase = require("../setDD3_DVD/DaggerclawImp");
 
 class DaggerclawImp extends DaggerclawImpBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PredatoryNightstalkerBase = require("../setPO2/PredatoryNightstalker.js");
+const Constants = require ("../../../Constants");
+const PredatoryNightstalkerBase = require("../setPO2/PredatoryNightstalker");
 
 class PredatoryNightstalker extends PredatoryNightstalkerBase {
   constructor(game) {

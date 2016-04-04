@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PendelhavenBase = require("../setATH/Pendelhaven.js");
+const Constants = require ("../../../Constants");
+const PendelhavenBase = require("../setATH/Pendelhaven");
 
 class Pendelhaven extends PendelhavenBase {
   constructor(game) {

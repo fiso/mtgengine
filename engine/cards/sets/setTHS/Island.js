@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IslandBase = require("../setARC/Island.js");
+const Constants = require ("../../../Constants");
+const IslandBase = require("../setARC/Island");
 
 class Island extends IslandBase {
   constructor(game) {

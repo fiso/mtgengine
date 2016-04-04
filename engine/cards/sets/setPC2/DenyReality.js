@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DenyRealityBase = require("../setARB/DenyReality.js");
+const Constants = require ("../../../Constants");
+const DenyRealityBase = require("../setARB/DenyReality");
 
 class DenyReality extends DenyRealityBase {
   constructor(game) {

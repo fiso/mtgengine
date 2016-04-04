@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FeastorFamineBase = require("../setALL/FeastorFamine.js");
+const Constants = require ("../../../Constants");
+const FeastorFamineBase = require("../setALL/FeastorFamine");
 
 class FeastorFamine extends FeastorFamineBase {
   constructor(game) {

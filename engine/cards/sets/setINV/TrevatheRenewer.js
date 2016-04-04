@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrevatheRenewerBase = require("../setDDE/TrevatheRenewer.js");
+const Constants = require ("../../../Constants");
+const TrevatheRenewerBase = require("../setDDE/TrevatheRenewer");
 
 class TrevatheRenewer extends TrevatheRenewerBase {
   constructor(game) {

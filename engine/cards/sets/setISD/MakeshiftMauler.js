@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MakeshiftMaulerBase = require("../setDDQ/MakeshiftMauler.js");
+const Constants = require ("../../../Constants");
+const MakeshiftMaulerBase = require("../setDDQ/MakeshiftMauler");
 
 class MakeshiftMauler extends MakeshiftMaulerBase {
   constructor(game) {

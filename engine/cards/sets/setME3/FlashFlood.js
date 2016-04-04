@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlashFloodBase = require("../setCHR/FlashFlood.js");
+const Constants = require ("../../../Constants");
+const FlashFloodBase = require("../setCHR/FlashFlood");
 
 class FlashFlood extends FlashFloodBase {
   constructor(game) {

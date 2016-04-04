@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DawnglareInvokerBase = require("../setC15/DawnglareInvoker.js");
+const Constants = require ("../../../Constants");
+const DawnglareInvokerBase = require("../setC15/DawnglareInvoker");
 
 class DawnglareInvoker extends DawnglareInvokerBase {
   constructor(game) {

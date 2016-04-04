@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MemniteBase = require("../setpMGD/Memnite.js");
+const Constants = require ("../../../Constants");
+const MemniteBase = require("../setpMGD/Memnite");
 
 class Memnite extends MemniteBase {
   constructor(game) {

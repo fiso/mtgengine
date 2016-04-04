@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlashfreezeBase = require("../setCSP/Flashfreeze.js");
+const Constants = require ("../../../Constants");
+const FlashfreezeBase = require("../setCSP/Flashfreeze");
 
 class Flashfreeze extends FlashfreezeBase {
   constructor(game) {

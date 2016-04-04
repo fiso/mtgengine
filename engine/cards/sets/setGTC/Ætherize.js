@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆtherizeBase = require("../setC15/Ætherize.js");
+const Constants = require ("../../../Constants");
+const ÆtherizeBase = require("../setC15/Ætherize");
 
 class Ætherize extends ÆtherizeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChromeshellCrabBase = require("../setLGN/ChromeshellCrab.js");
+const Constants = require ("../../../Constants");
+const ChromeshellCrabBase = require("../setLGN/ChromeshellCrab");
 
 class ChromeshellCrab extends ChromeshellCrabBase {
   constructor(game) {

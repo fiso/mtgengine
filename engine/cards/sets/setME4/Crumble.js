@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrumbleBase = require("../setATQ/Crumble.js");
+const Constants = require ("../../../Constants");
+const CrumbleBase = require("../setATQ/Crumble");
 
 class Crumble extends CrumbleBase {
   constructor(game) {

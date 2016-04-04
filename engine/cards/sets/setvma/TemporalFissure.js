@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TemporalFissureBase = require("../setSCG/TemporalFissure.js");
+const Constants = require ("../../../Constants");
+const TemporalFissureBase = require("../setSCG/TemporalFissure");
 
 class TemporalFissure extends TemporalFissureBase {
   constructor(game) {

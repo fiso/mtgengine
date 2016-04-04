@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpectralGateguardsBase = require("../setAVR/SpectralGateguards.js");
+const Constants = require ("../../../Constants");
+const SpectralGateguardsBase = require("../setAVR/SpectralGateguards");
 
 class SpectralGateguards extends SpectralGateguardsBase {
   constructor(game) {

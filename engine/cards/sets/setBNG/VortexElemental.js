@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VortexElemental extends Card {
+class VortexElemental extends UnimplementedCard {
   constructor(game) {
     super(game, "Vortex Elemental", "Born of the Gods", "BNG");
   }

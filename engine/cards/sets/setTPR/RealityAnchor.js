@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RealityAnchorBase = require("../setTMP/RealityAnchor.js");
+const Constants = require ("../../../Constants");
+const RealityAnchorBase = require("../setTMP/RealityAnchor");
 
 class RealityAnchor extends RealityAnchorBase {
   constructor(game) {

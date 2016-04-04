@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BiorhythmBase = require("../set9ED/Biorhythm.js");
+const Constants = require ("../../../Constants");
+const BiorhythmBase = require("../set9ED/Biorhythm");
 
 class Biorhythm extends BiorhythmBase {
   constructor(game) {

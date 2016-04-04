@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormscapeBattlemageBase = require("../setC13/StormscapeBattlemage.js");
+const Constants = require ("../../../Constants");
+const StormscapeBattlemageBase = require("../setC13/StormscapeBattlemage");
 
 class StormscapeBattlemage extends StormscapeBattlemageBase {
   constructor(game) {

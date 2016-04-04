@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IronhoofOxBase = require("../setME4/IronhoofOx.js");
+const Constants = require ("../../../Constants");
+const IronhoofOxBase = require("../setME4/IronhoofOx");
 
 class IronhoofOx extends IronhoofOxBase {
   constructor(game) {

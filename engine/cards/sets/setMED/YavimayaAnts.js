@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const YavimayaAntsBase = require("../setALL/YavimayaAnts.js");
+const Constants = require ("../../../Constants");
+const YavimayaAntsBase = require("../setALL/YavimayaAnts");
 
 class YavimayaAnts extends YavimayaAntsBase {
   constructor(game) {

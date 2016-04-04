@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AddleBase = require("../setINV/Addle.js");
+const Constants = require ("../../../Constants");
+const AddleBase = require("../setINV/Addle");
 
 class Addle extends AddleBase {
   constructor(game) {

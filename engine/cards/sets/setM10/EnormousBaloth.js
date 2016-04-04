@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnormousBalothBase = require("../set8ED/EnormousBaloth.js");
+const Constants = require ("../../../Constants");
+const EnormousBalothBase = require("../set8ED/EnormousBaloth");
 
 class EnormousBaloth extends EnormousBalothBase {
   constructor(game) {

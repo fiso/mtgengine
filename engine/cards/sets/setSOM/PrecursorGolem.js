@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrecursorGolemBase = require("../setMM2/PrecursorGolem.js");
+const Constants = require ("../../../Constants");
+const PrecursorGolemBase = require("../setMM2/PrecursorGolem");
 
 class PrecursorGolem extends PrecursorGolemBase {
   constructor(game) {

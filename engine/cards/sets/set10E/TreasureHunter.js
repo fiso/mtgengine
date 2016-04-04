@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreasureHunterBase = require("../setEXO/TreasureHunter.js");
+const Constants = require ("../../../Constants");
+const TreasureHunterBase = require("../setEXO/TreasureHunter");
 
 class TreasureHunter extends TreasureHunterBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrawlersPlateBase = require("../setM15/BrawlersPlate.js");
+const Constants = require ("../../../Constants");
+const BrawlersPlateBase = require("../setM15/BrawlersPlate");
 
 class BrawlersPlate extends BrawlersPlateBase {
   constructor(game) {

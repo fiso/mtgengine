@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TitanicUltimatumBase = require("../setDDH/TitanicUltimatum.js");
+const Constants = require ("../../../Constants");
+const TitanicUltimatumBase = require("../setDDH/TitanicUltimatum");
 
 class TitanicUltimatum extends TitanicUltimatumBase {
   constructor(game) {

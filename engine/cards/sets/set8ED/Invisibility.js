@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InvisibilityBase = require("../setCED/Invisibility.js");
+const Constants = require ("../../../Constants");
+const InvisibilityBase = require("../setCED/Invisibility");
 
 class Invisibility extends InvisibilityBase {
   constructor(game) {

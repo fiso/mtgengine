@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RestlessApparitionBase = require("../setEVE/RestlessApparition.js");
+const Constants = require ("../../../Constants");
+const RestlessApparitionBase = require("../setEVE/RestlessApparition");
 
 class RestlessApparition extends RestlessApparitionBase {
   constructor(game) {

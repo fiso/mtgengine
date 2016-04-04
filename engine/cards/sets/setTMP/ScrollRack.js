@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScrollRackBase = require("../setCM1/ScrollRack.js");
+const Constants = require ("../../../Constants");
+const ScrollRackBase = require("../setCM1/ScrollRack");
 
 class ScrollRack extends ScrollRackBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KaaliaoftheVastBase = require("../setCM1/KaaliaoftheVast.js");
+const Constants = require ("../../../Constants");
+const KaaliaoftheVastBase = require("../setCM1/KaaliaoftheVast");
 
 class KaaliaoftheVast extends KaaliaoftheVastBase {
   constructor(game) {

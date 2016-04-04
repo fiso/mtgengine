@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AscendantEvincarBase = require("../setDPA/AscendantEvincar.js");
+const Constants = require ("../../../Constants");
+const AscendantEvincarBase = require("../setDPA/AscendantEvincar");
 
 class AscendantEvincar extends AscendantEvincarBase {
   constructor(game) {

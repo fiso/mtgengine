@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VillageElderBase = require("../setBRB/VillageElder.js");
+const Constants = require ("../../../Constants");
+const VillageElderBase = require("../setBRB/VillageElder");
 
 class VillageElder extends VillageElderBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormElementalBase = require("../setALL/StormElemental.js");
+const Constants = require ("../../../Constants");
+const StormElementalBase = require("../setALL/StormElemental");
 
 class StormElemental extends StormElementalBase {
   constructor(game) {

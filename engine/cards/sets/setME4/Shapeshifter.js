@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShapeshifterBase = require("../setATQ/Shapeshifter.js");
+const Constants = require ("../../../Constants");
+const ShapeshifterBase = require("../setATQ/Shapeshifter");
 
 class Shapeshifter extends ShapeshifterBase {
   constructor(game) {

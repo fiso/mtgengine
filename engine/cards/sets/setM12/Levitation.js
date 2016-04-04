@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LevitationBase = require("../setM10/Levitation.js");
+const Constants = require ("../../../Constants");
+const LevitationBase = require("../setM10/Levitation");
 
 class Levitation extends LevitationBase {
   constructor(game) {

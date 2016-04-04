@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrandColiseumBase = require("../setONS/GrandColiseum.js");
+const Constants = require ("../../../Constants");
+const GrandColiseumBase = require("../setONS/GrandColiseum");
 
 class GrandColiseum extends GrandColiseumBase {
   constructor(game) {

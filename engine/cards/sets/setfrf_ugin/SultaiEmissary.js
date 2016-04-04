@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SultaiEmissaryBase = require("../setFRF/SultaiEmissary.js");
+const Constants = require ("../../../Constants");
+const SultaiEmissaryBase = require("../setFRF/SultaiEmissary");
 
 class SultaiEmissary extends SultaiEmissaryBase {
   constructor(game) {

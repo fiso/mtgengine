@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HadaFreebladeBase = require("../setWWK/HadaFreeblade.js");
+const Constants = require ("../../../Constants");
+const HadaFreebladeBase = require("../setWWK/HadaFreeblade");
 
 class HadaFreeblade extends HadaFreebladeBase {
   constructor(game) {

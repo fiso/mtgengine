@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoonSpriteBase = require("../setPOR/MoonSprite.js");
+const Constants = require ("../../../Constants");
+const MoonSpriteBase = require("../setPOR/MoonSprite");
 
 class MoonSprite extends MoonSpriteBase {
   constructor(game) {

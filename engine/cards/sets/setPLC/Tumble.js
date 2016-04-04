@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TumbleBase = require("../setC13/Tumble.js");
+const Constants = require ("../../../Constants");
+const TumbleBase = require("../setC13/Tumble");
 
 class Tumble extends TumbleBase {
   constructor(game) {

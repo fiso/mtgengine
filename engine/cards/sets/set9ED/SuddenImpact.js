@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SuddenImpactBase = require("../set8ED/SuddenImpact.js");
+const Constants = require ("../../../Constants");
+const SuddenImpactBase = require("../set8ED/SuddenImpact");
 
 class SuddenImpact extends SuddenImpactBase {
   constructor(game) {

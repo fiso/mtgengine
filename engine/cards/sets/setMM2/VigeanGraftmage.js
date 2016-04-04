@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VigeanGraftmageBase = require("../setDIS/VigeanGraftmage.js");
+const Constants = require ("../../../Constants");
+const VigeanGraftmageBase = require("../setDIS/VigeanGraftmage");
 
 class VigeanGraftmage extends VigeanGraftmageBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuicksandBase = require("../setCNS/Quicksand.js");
+const Constants = require ("../../../Constants");
+const QuicksandBase = require("../setCNS/Quicksand");
 
 class Quicksand extends QuicksandBase {
   constructor(game) {

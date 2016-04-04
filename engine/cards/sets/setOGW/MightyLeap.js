@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MightyLeapBase = require("../setDDO/MightyLeap.js");
+const Constants = require ("../../../Constants");
+const MightyLeapBase = require("../setDDO/MightyLeap");
 
 class MightyLeap extends MightyLeapBase {
   constructor(game) {

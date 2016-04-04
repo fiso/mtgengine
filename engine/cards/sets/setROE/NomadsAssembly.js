@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NomadsAssemblyBase = require("../setC14/NomadsAssembly.js");
+const Constants = require ("../../../Constants");
+const NomadsAssemblyBase = require("../setC14/NomadsAssembly");
 
 class NomadsAssembly extends NomadsAssemblyBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExploreBase = require("../setDDO/Explore.js");
+const Constants = require ("../../../Constants");
+const ExploreBase = require("../setDDO/Explore");
 
 class Explore extends ExploreBase {
   constructor(game) {

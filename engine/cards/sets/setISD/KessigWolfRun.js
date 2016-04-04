@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KessigWolfRunBase = require("../setV13/KessigWolfRun.js");
+const Constants = require ("../../../Constants");
+const KessigWolfRunBase = require("../setV13/KessigWolfRun");
 
 class KessigWolfRun extends KessigWolfRunBase {
   constructor(game) {

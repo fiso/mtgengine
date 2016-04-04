@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ViciousHungerBase = require("../setDD3_GVL/ViciousHunger.js");
+const Constants = require ("../../../Constants");
+const ViciousHungerBase = require("../setDD3_GVL/ViciousHunger");
 
 class ViciousHunger extends ViciousHungerBase {
   constructor(game) {

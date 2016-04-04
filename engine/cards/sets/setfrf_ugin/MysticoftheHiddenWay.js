@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MysticoftheHiddenWayBase = require("../setKTK/MysticoftheHiddenWay.js");
+const Constants = require ("../../../Constants");
+const MysticoftheHiddenWayBase = require("../setKTK/MysticoftheHiddenWay");
 
 class MysticoftheHiddenWay extends MysticoftheHiddenWayBase {
   constructor(game) {

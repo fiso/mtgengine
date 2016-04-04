@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DiregrafCaptainBase = require("../setDKA/DiregrafCaptain.js");
+const Constants = require ("../../../Constants");
+const DiregrafCaptainBase = require("../setDKA/DiregrafCaptain");
 
 class DiregrafCaptain extends DiregrafCaptainBase {
   constructor(game) {

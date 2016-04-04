@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DevouringLightBase = require("../setM15/DevouringLight.js");
+const Constants = require ("../../../Constants");
+const DevouringLightBase = require("../setM15/DevouringLight");
 
 class DevouringLight extends DevouringLightBase {
   constructor(game) {

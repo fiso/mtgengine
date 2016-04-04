@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MosswortBridgeBase = require("../setARC/MosswortBridge.js");
+const Constants = require ("../../../Constants");
+const MosswortBridgeBase = require("../setARC/MosswortBridge");
 
 class MosswortBridge extends MosswortBridgeBase {
   constructor(game) {

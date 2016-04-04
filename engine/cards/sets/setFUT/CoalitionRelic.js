@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoalitionRelicBase = require("../setDDE/CoalitionRelic.js");
+const Constants = require ("../../../Constants");
+const CoalitionRelicBase = require("../setDDE/CoalitionRelic");
 
 class CoalitionRelic extends CoalitionRelicBase {
   constructor(game) {

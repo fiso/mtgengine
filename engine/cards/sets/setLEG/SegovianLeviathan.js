@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SegovianLeviathanBase = require("../set6ED/SegovianLeviathan.js");
+const Constants = require ("../../../Constants");
+const SegovianLeviathanBase = require("../set6ED/SegovianLeviathan");
 
 class SegovianLeviathan extends SegovianLeviathanBase {
   constructor(game) {

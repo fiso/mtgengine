@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IslandofWakWakBase = require("../setARN/IslandofWakWak.js");
+const Constants = require ("../../../Constants");
+const IslandofWakWakBase = require("../setARN/IslandofWakWak");
 
 class IslandofWakWak extends IslandofWakWakBase {
   constructor(game) {

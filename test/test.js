@@ -3,7 +3,7 @@ const assert = require('assert');
 const Constants = require("../engine/Constants");
 const Inputs = require("../engine/Inputs");
 const Permanent = require("../engine/objects/Permanent");
-const BasicMountain = require("../engine/cards/BasicMountain");
+const BasicMountain = require("../engine/cards/testcards/BasicMountain");
 const UnimplementedCard = require("../engine/cards/UnimplementedCard");
 const Game = require("../engine/Game");
 const Cost = require("../engine/Cost");
@@ -338,4 +338,4 @@ describe('Game', function() {
     });
   });
 });
-*/
+/**/

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CopperCarapaceBase = require("../setMBS/CopperCarapace.js");
+const Constants = require ("../../../Constants");
+const CopperCarapaceBase = require("../setMBS/CopperCarapace");
 
 class CopperCarapace extends CopperCarapaceBase {
   constructor(game) {

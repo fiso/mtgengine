@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlowUnderBase = require("../set8ED/PlowUnder.js");
+const Constants = require ("../../../Constants");
+const PlowUnderBase = require("../set8ED/PlowUnder");
 
 class PlowUnder extends PlowUnderBase {
   constructor(game) {

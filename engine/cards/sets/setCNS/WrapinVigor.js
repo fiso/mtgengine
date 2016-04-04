@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WrapinVigorBase = require("../setFUT/WrapinVigor.js");
+const Constants = require ("../../../Constants");
+const WrapinVigorBase = require("../setFUT/WrapinVigor");
 
 class WrapinVigor extends WrapinVigorBase {
   constructor(game) {

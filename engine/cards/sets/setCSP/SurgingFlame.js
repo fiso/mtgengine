@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SurgingFlameBase = require("../setpARL/SurgingFlame.js");
+const Constants = require ("../../../Constants");
+const SurgingFlameBase = require("../setpARL/SurgingFlame");
 
 class SurgingFlame extends SurgingFlameBase {
   constructor(game) {

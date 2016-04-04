@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScreechingHarpyBase = require("../setTMP/ScreechingHarpy.js");
+const Constants = require ("../../../Constants");
+const ScreechingHarpyBase = require("../setTMP/ScreechingHarpy");
 
 class ScreechingHarpy extends ScreechingHarpyBase {
   constructor(game) {

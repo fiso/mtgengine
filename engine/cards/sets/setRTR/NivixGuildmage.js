@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NivixGuildmageBase = require("../setC13/NivixGuildmage.js");
+const Constants = require ("../../../Constants");
+const NivixGuildmageBase = require("../setC13/NivixGuildmage");
 
 class NivixGuildmage extends NivixGuildmageBase {
   constructor(game) {

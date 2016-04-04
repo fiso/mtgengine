@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpinedWurmBase = require("../setDPA/SpinedWurm.js");
+const Constants = require ("../../../Constants");
+const SpinedWurmBase = require("../setDPA/SpinedWurm");
 
 class SpinedWurm extends SpinedWurmBase {
   constructor(game) {

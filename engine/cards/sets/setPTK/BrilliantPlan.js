@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrilliantPlanBase = require("../setC13/BrilliantPlan.js");
+const Constants = require ("../../../Constants");
+const BrilliantPlanBase = require("../setC13/BrilliantPlan");
 
 class BrilliantPlan extends BrilliantPlanBase {
   constructor(game) {

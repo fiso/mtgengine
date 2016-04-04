@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MagnivoreBase = require("../set9ED/Magnivore.js");
+const Constants = require ("../../../Constants");
+const MagnivoreBase = require("../set9ED/Magnivore");
 
 class Magnivore extends MagnivoreBase {
   constructor(game) {

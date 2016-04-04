@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AzureDrakeBase = require("../setBRB/AzureDrake.js");
+const Constants = require ("../../../Constants");
+const AzureDrakeBase = require("../setBRB/AzureDrake");
 
 class AzureDrake extends AzureDrakeBase {
   constructor(game) {

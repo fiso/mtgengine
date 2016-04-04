@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HussarPatrolBase = require("../setDDN/HussarPatrol.js");
+const Constants = require ("../../../Constants");
+const HussarPatrolBase = require("../setDDN/HussarPatrol");
 
 class HussarPatrol extends HussarPatrolBase {
   constructor(game) {

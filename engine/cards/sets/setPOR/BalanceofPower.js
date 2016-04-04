@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BalanceofPowerBase = require("../set8ED/BalanceofPower.js");
+const Constants = require ("../../../Constants");
+const BalanceofPowerBase = require("../set8ED/BalanceofPower");
 
 class BalanceofPower extends BalanceofPowerBase {
   constructor(game) {

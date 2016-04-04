@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SteamCatapultBase = require("../setME4/SteamCatapult.js");
+const Constants = require ("../../../Constants");
+const SteamCatapultBase = require("../setME4/SteamCatapult");
 
 class SteamCatapult extends SteamCatapultBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CreakwoodLiegeBase = require("../setEVE/CreakwoodLiege.js");
+const Constants = require ("../../../Constants");
+const CreakwoodLiegeBase = require("../setEVE/CreakwoodLiege");
 
 class CreakwoodLiege extends CreakwoodLiegeBase {
   constructor(game) {

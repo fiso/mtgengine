@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NoggleRansackerBase = require("../setEVE/NoggleRansacker.js");
+const Constants = require ("../../../Constants");
+const NoggleRansackerBase = require("../setEVE/NoggleRansacker");
 
 class NoggleRansacker extends NoggleRansackerBase {
   constructor(game) {

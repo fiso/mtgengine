@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SaltfieldRecluseBase = require("../setMMA/SaltfieldRecluse.js");
+const Constants = require ("../../../Constants");
+const SaltfieldRecluseBase = require("../setMMA/SaltfieldRecluse");
 
 class SaltfieldRecluse extends SaltfieldRecluseBase {
   constructor(game) {

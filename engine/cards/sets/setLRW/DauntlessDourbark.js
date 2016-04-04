@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DauntlessDourbarkBase = require("../setpGTW/DauntlessDourbark.js");
+const Constants = require ("../../../Constants");
+const DauntlessDourbarkBase = require("../setpGTW/DauntlessDourbark");
 
 class DauntlessDourbark extends DauntlessDourbarkBase {
   constructor(game) {

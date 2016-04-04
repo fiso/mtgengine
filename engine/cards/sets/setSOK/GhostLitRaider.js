@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GhostLitRaiderBase = require("../setpREL/GhostLitRaider.js");
+const Constants = require ("../../../Constants");
+const GhostLitRaiderBase = require("../setpREL/GhostLitRaider");
 
 class GhostLitRaider extends GhostLitRaiderBase {
   constructor(game) {

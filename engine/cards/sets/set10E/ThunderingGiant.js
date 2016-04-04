@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThunderingGiantBase = require("../setBTD/ThunderingGiant.js");
+const Constants = require ("../../../Constants");
+const ThunderingGiantBase = require("../setBTD/ThunderingGiant");
 
 class ThunderingGiant extends ThunderingGiantBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CausticTarBase = require("../setM15/CausticTar.js");
+const Constants = require ("../../../Constants");
+const CausticTarBase = require("../setM15/CausticTar");
 
 class CausticTar extends CausticTarBase {
   constructor(game) {

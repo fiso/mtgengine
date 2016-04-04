@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DauthiJackalBase = require("../setEXO/DauthiJackal.js");
+const Constants = require ("../../../Constants");
+const DauthiJackalBase = require("../setEXO/DauthiJackal");
 
 class DauthiJackal extends DauthiJackalBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MegrimBase = require("../setDPA/Megrim.js");
+const Constants = require ("../../../Constants");
+const MegrimBase = require("../setDPA/Megrim");
 
 class Megrim extends MegrimBase {
   constructor(game) {

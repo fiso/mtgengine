@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArchangelBase = require("../setAVR/Archangel.js");
+const Constants = require ("../../../Constants");
+const ArchangelBase = require("../setAVR/Archangel");
 
 class Archangel extends ArchangelBase {
   constructor(game) {

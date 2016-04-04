@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoralTricksterBase = require("../setDDN/CoralTrickster.js");
+const Constants = require ("../../../Constants");
+const CoralTricksterBase = require("../setDDN/CoralTrickster");
 
 class CoralTrickster extends CoralTricksterBase {
   constructor(game) {

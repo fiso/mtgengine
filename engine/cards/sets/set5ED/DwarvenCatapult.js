@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DwarvenCatapultBase = require("../setFEM/DwarvenCatapult.js");
+const Constants = require ("../../../Constants");
+const DwarvenCatapultBase = require("../setFEM/DwarvenCatapult");
 
 class DwarvenCatapult extends DwarvenCatapultBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RustedRelicBase = require("../setMM2/RustedRelic.js");
+const Constants = require ("../../../Constants");
+const RustedRelicBase = require("../setMM2/RustedRelic");
 
 class RustedRelic extends RustedRelicBase {
   constructor(game) {

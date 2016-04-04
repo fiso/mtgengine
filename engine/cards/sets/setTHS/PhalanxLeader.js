@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhalanxLeaderBase = require("../setpMGD/PhalanxLeader.js");
+const Constants = require ("../../../Constants");
+const PhalanxLeaderBase = require("../setpMGD/PhalanxLeader");
 
 class PhalanxLeader extends PhalanxLeaderBase {
   constructor(game) {

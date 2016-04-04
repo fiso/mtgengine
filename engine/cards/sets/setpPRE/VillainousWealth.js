@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VillainousWealthBase = require("../setKTK/VillainousWealth.js");
+const Constants = require ("../../../Constants");
+const VillainousWealthBase = require("../setKTK/VillainousWealth");
 
 class VillainousWealth extends VillainousWealthBase {
   constructor(game) {

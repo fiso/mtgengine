@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ButchersCleaverBase = require("../setDDQ/ButchersCleaver.js");
+const Constants = require ("../../../Constants");
+const ButchersCleaverBase = require("../setDDQ/ButchersCleaver");
 
 class ButchersCleaver extends ButchersCleaverBase {
   constructor(game) {

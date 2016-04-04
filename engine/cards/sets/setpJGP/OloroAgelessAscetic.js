@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OloroAgelessAsceticBase = require("../setC13/OloroAgelessAscetic.js");
+const Constants = require ("../../../Constants");
+const OloroAgelessAsceticBase = require("../setC13/OloroAgelessAscetic");
 
 class OloroAgelessAscetic extends OloroAgelessAsceticBase {
   constructor(game) {

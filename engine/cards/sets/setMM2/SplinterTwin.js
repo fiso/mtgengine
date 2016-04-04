@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SplinterTwin extends Card {
+class SplinterTwin extends UnimplementedCard {
   constructor(game) {
     super(game, "Splinter Twin", "Modern Masters 2015 Edition", "MM2");
   }

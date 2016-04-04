@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SlateofAncestryBase = require("../setDD3_EVG/SlateofAncestry.js");
+const Constants = require ("../../../Constants");
+const SlateofAncestryBase = require("../setDD3_EVG/SlateofAncestry");
 
 class SlateofAncestry extends SlateofAncestryBase {
   constructor(game) {

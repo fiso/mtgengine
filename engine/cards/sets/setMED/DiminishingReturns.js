@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DiminishingReturnsBase = require("../setALL/DiminishingReturns.js");
+const Constants = require ("../../../Constants");
+const DiminishingReturnsBase = require("../setALL/DiminishingReturns");
 
 class DiminishingReturns extends DiminishingReturnsBase {
   constructor(game) {

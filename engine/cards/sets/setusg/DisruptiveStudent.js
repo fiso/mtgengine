@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DisruptiveStudentBase = require("../setBRB/DisruptiveStudent.js");
+const Constants = require ("../../../Constants");
+const DisruptiveStudentBase = require("../setBRB/DisruptiveStudent");
 
 class DisruptiveStudent extends DisruptiveStudentBase {
   constructor(game) {

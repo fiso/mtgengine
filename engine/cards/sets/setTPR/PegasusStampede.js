@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PegasusStampedeBase = require("../setATH/PegasusStampede.js");
+const Constants = require ("../../../Constants");
+const PegasusStampedeBase = require("../setATH/PegasusStampede");
 
 class PegasusStampede extends PegasusStampedeBase {
   constructor(game) {

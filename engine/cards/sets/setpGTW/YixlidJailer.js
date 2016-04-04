@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const YixlidJailerBase = require("../setFUT/YixlidJailer.js");
+const Constants = require ("../../../Constants");
+const YixlidJailerBase = require("../setFUT/YixlidJailer");
 
 class YixlidJailer extends YixlidJailerBase {
   constructor(game) {

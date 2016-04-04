@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OmnathLocusofManaBase = require("../setV11/OmnathLocusofMana.js");
+const Constants = require ("../../../Constants");
+const OmnathLocusofManaBase = require("../setV11/OmnathLocusofMana");
 
 class OmnathLocusofMana extends OmnathLocusofManaBase {
   constructor(game) {

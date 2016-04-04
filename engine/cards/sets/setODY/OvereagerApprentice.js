@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OvereagerApprenticeBase = require("../setDD3_DVD/OvereagerApprentice.js");
+const Constants = require ("../../../Constants");
+const OvereagerApprenticeBase = require("../setDD3_DVD/OvereagerApprentice");
 
 class OvereagerApprentice extends OvereagerApprenticeBase {
   constructor(game) {

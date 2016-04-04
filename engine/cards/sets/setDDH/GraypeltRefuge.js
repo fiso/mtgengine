@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GraypeltRefugeBase = require("../setARC/GraypeltRefuge.js");
+const Constants = require ("../../../Constants");
+const GraypeltRefugeBase = require("../setARC/GraypeltRefuge");
 
 class GraypeltRefuge extends GraypeltRefugeBase {
   constructor(game) {

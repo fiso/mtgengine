@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlissatheTraitorBase = require("../setMBS/GlissatheTraitor.js");
+const Constants = require ("../../../Constants");
+const GlissatheTraitorBase = require("../setMBS/GlissatheTraitor");
 
 class GlissatheTraitor extends GlissatheTraitorBase {
   constructor(game) {

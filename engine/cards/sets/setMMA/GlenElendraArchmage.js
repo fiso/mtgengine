@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlenElendraArchmageBase = require("../setEVE/GlenElendraArchmage.js");
+const Constants = require ("../../../Constants");
+const GlenElendraArchmageBase = require("../setEVE/GlenElendraArchmage");
 
 class GlenElendraArchmage extends GlenElendraArchmageBase {
   constructor(game) {

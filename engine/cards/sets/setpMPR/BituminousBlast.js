@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BituminousBlastBase = require("../setARB/BituminousBlast.js");
+const Constants = require ("../../../Constants");
+const BituminousBlastBase = require("../setARB/BituminousBlast");
 
 class BituminousBlast extends BituminousBlastBase {
   constructor(game) {

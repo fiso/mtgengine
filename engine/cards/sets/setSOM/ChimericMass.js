@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChimericMassBase = require("../setMM2/ChimericMass.js");
+const Constants = require ("../../../Constants");
+const ChimericMassBase = require("../setMM2/ChimericMass");
 
 class ChimericMass extends ChimericMassBase {
   constructor(game) {

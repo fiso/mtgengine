@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InfiniteHourglassBase = require("../set5ED/InfiniteHourglass.js");
+const Constants = require ("../../../Constants");
+const InfiniteHourglassBase = require("../set5ED/InfiniteHourglass");
 
 class InfiniteHourglass extends InfiniteHourglassBase {
   constructor(game) {

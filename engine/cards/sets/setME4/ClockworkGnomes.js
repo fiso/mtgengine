@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ClockworkGnomesBase = require("../setHML/ClockworkGnomes.js");
+const Constants = require ("../../../Constants");
+const ClockworkGnomesBase = require("../setHML/ClockworkGnomes");
 
 class ClockworkGnomes extends ClockworkGnomesBase {
   constructor(game) {

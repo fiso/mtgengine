@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoosterTutorBase = require("../setpARL/BoosterTutor.js");
+const Constants = require ("../../../Constants");
+const BoosterTutorBase = require("../setpARL/BoosterTutor");
 
 class BoosterTutor extends BoosterTutorBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PawnofUlamogBase = require("../setDDP/PawnofUlamog.js");
+const Constants = require ("../../../Constants");
+const PawnofUlamogBase = require("../setDDP/PawnofUlamog");
 
 class PawnofUlamog extends PawnofUlamogBase {
   constructor(game) {

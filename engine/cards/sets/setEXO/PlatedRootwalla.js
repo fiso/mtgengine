@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlatedRootwallaBase = require("../setBRB/PlatedRootwalla.js");
+const Constants = require ("../../../Constants");
+const PlatedRootwallaBase = require("../setBRB/PlatedRootwalla");
 
 class PlatedRootwalla extends PlatedRootwallaBase {
   constructor(game) {

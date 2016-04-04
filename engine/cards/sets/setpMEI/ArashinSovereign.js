@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArashinSovereignBase = require("../setDTK/ArashinSovereign.js");
+const Constants = require ("../../../Constants");
+const ArashinSovereignBase = require("../setDTK/ArashinSovereign");
 
 class ArashinSovereign extends ArashinSovereignBase {
   constructor(game) {

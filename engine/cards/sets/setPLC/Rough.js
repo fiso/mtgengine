@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RoughBase = require("../setC13/Rough.js");
+const Constants = require ("../../../Constants");
+const RoughBase = require("../setC13/Rough");
 
 class Rough extends RoughBase {
   constructor(game) {

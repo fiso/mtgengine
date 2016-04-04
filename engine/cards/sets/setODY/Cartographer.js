@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CartographerBase = require("../setEXO/Cartographer.js");
+const Constants = require ("../../../Constants");
+const CartographerBase = require("../setEXO/Cartographer");
 
 class Cartographer extends CartographerBase {
   constructor(game) {

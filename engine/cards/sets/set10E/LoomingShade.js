@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LoomingShadeBase = require("../set8ED/LoomingShade.js");
+const Constants = require ("../../../Constants");
+const LoomingShadeBase = require("../set8ED/LoomingShade");
 
 class LoomingShade extends LoomingShadeBase {
   constructor(game) {

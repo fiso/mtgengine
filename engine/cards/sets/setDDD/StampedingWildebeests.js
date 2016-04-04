@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StampedingWildebeestsBase = require("../setDD3_GVL/StampedingWildebeests.js");
+const Constants = require ("../../../Constants");
+const StampedingWildebeestsBase = require("../setDD3_GVL/StampedingWildebeests");
 
 class StampedingWildebeests extends StampedingWildebeestsBase {
   constructor(game) {

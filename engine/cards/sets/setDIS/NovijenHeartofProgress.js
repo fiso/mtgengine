@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NovijenHeartofProgressBase = require("../setC15/NovijenHeartofProgress.js");
+const Constants = require ("../../../Constants");
+const NovijenHeartofProgressBase = require("../setC15/NovijenHeartofProgress");
 
 class NovijenHeartofProgress extends NovijenHeartofProgressBase {
   constructor(game) {

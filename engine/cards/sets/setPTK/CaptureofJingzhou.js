@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CaptureofJingzhouBase = require("../setME3/CaptureofJingzhou.js");
+const Constants = require ("../../../Constants");
+const CaptureofJingzhouBase = require("../setME3/CaptureofJingzhou");
 
 class CaptureofJingzhou extends CaptureofJingzhouBase {
   constructor(game) {

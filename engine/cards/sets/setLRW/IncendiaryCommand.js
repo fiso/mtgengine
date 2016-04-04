@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IncendiaryCommandBase = require("../setC13/IncendiaryCommand.js");
+const Constants = require ("../../../Constants");
+const IncendiaryCommandBase = require("../setC13/IncendiaryCommand");
 
 class IncendiaryCommand extends IncendiaryCommandBase {
   constructor(game) {

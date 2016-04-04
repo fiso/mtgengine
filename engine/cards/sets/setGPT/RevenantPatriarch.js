@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RevenantPatriarchBase = require("../setDDK/RevenantPatriarch.js");
+const Constants = require ("../../../Constants");
+const RevenantPatriarchBase = require("../setDDK/RevenantPatriarch");
 
 class RevenantPatriarch extends RevenantPatriarchBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SupplantFormBase = require("../setFRF/SupplantForm.js");
+const Constants = require ("../../../Constants");
+const SupplantFormBase = require("../setFRF/SupplantForm");
 
 class SupplantForm extends SupplantFormBase {
   constructor(game) {

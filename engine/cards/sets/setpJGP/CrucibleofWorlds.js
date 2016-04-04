@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrucibleofWorldsBase = require("../set5DN/CrucibleofWorlds.js");
+const Constants = require ("../../../Constants");
+const CrucibleofWorldsBase = require("../set5DN/CrucibleofWorlds");
 
 class CrucibleofWorlds extends CrucibleofWorldsBase {
   constructor(game) {

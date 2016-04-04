@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SorinMarkovBase = require("../setM12/SorinMarkov.js");
+const Constants = require ("../../../Constants");
+const SorinMarkovBase = require("../setM12/SorinMarkov");
 
 class SorinMarkov extends SorinMarkovBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SulfuricVortexBase = require("../setDDK/SulfuricVortex.js");
+const Constants = require ("../../../Constants");
+const SulfuricVortexBase = require("../setDDK/SulfuricVortex");
 
 class SulfuricVortex extends SulfuricVortexBase {
   constructor(game) {

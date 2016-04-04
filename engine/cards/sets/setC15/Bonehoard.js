@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BonehoardBase = require("../setC14/Bonehoard.js");
+const Constants = require ("../../../Constants");
+const BonehoardBase = require("../setC14/Bonehoard");
 
 class Bonehoard extends BonehoardBase {
   constructor(game) {

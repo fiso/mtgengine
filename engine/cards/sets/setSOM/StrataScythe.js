@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StrataScytheBase = require("../setC14/StrataScythe.js");
+const Constants = require ("../../../Constants");
+const StrataScytheBase = require("../setC14/StrataScythe");
 
 class StrataScythe extends StrataScytheBase {
   constructor(game) {

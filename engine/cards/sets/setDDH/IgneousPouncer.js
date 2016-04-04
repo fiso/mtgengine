@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IgneousPouncerBase = require("../setARB/IgneousPouncer.js");
+const Constants = require ("../../../Constants");
+const IgneousPouncerBase = require("../setARB/IgneousPouncer");
 
 class IgneousPouncer extends IgneousPouncerBase {
   constructor(game) {

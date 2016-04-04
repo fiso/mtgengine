@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShrewdHatchlingBase = require("../setDDJ/ShrewdHatchling.js");
+const Constants = require ("../../../Constants");
+const ShrewdHatchlingBase = require("../setDDJ/ShrewdHatchling");
 
 class ShrewdHatchling extends ShrewdHatchlingBase {
   constructor(game) {

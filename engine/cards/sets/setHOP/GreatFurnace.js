@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GreatFurnaceBase = require("../setC14/GreatFurnace.js");
+const Constants = require ("../../../Constants");
+const GreatFurnaceBase = require("../setC14/GreatFurnace");
 
 class GreatFurnace extends GreatFurnaceBase {
   constructor(game) {

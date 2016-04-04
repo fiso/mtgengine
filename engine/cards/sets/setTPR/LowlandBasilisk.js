@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LowlandBasiliskBase = require("../setSTH/LowlandBasilisk.js");
+const Constants = require ("../../../Constants");
+const LowlandBasiliskBase = require("../setSTH/LowlandBasilisk");
 
 class LowlandBasilisk extends LowlandBasiliskBase {
   constructor(game) {

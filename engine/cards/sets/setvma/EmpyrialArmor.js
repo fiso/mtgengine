@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EmpyrialArmorBase = require("../setpARL/EmpyrialArmor.js");
+const Constants = require ("../../../Constants");
+const EmpyrialArmorBase = require("../setpARL/EmpyrialArmor");
 
 class EmpyrialArmor extends EmpyrialArmorBase {
   constructor(game) {

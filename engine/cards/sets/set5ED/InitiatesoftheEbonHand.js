@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InitiatesoftheEbonHandBase = require("../setFEM/InitiatesoftheEbonHand.js");
+const Constants = require ("../../../Constants");
+const InitiatesoftheEbonHandBase = require("../setFEM/InitiatesoftheEbonHand");
 
 class InitiatesoftheEbonHand extends InitiatesoftheEbonHandBase {
   constructor(game) {

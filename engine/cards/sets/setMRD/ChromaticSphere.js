@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChromaticSphereBase = require("../setINV/ChromaticSphere.js");
+const Constants = require ("../../../Constants");
+const ChromaticSphereBase = require("../setINV/ChromaticSphere");
 
 class ChromaticSphere extends ChromaticSphereBase {
   constructor(game) {

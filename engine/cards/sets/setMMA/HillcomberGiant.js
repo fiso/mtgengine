@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HillcomberGiantBase = require("../setLRW/HillcomberGiant.js");
+const Constants = require ("../../../Constants");
+const HillcomberGiantBase = require("../setLRW/HillcomberGiant");
 
 class HillcomberGiant extends HillcomberGiantBase {
   constructor(game) {

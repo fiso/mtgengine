@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆtherSnapBase = require("../setC14/ÆtherSnap.js");
+const Constants = require ("../../../Constants");
+const ÆtherSnapBase = require("../setC14/ÆtherSnap");
 
 class ÆtherSnap extends ÆtherSnapBase {
   constructor(game) {

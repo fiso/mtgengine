@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MortifyBase = require("../setDDK/Mortify.js");
+const Constants = require ("../../../Constants");
+const MortifyBase = require("../setDDK/Mortify");
 
 class Mortify extends MortifyBase {
   constructor(game) {

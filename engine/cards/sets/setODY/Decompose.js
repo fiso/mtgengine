@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DecomposeBase = require("../setDDK/Decompose.js");
+const Constants = require ("../../../Constants");
+const DecomposeBase = require("../setDDK/Decompose");
 
 class Decompose extends DecomposeBase {
   constructor(game) {

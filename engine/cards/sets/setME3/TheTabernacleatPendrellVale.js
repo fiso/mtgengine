@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TheTabernacleatPendrellValeBase = require("../setLEG/TheTabernacleatPendrellVale.js");
+const Constants = require ("../../../Constants");
+const TheTabernacleatPendrellValeBase = require("../setLEG/TheTabernacleatPendrellVale");
 
 class TheTabernacleatPendrellVale extends TheTabernacleatPendrellValeBase {
   constructor(game) {

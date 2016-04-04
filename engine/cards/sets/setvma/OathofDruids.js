@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OathofDruidsBase = require("../setEXO/OathofDruids.js");
+const Constants = require ("../../../Constants");
+const OathofDruidsBase = require("../setEXO/OathofDruids");
 
 class OathofDruids extends OathofDruidsBase {
   constructor(game) {

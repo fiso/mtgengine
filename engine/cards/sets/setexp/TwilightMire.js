@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TwilightMireBase = require("../setEVE/TwilightMire.js");
+const Constants = require ("../../../Constants");
+const TwilightMireBase = require("../setEVE/TwilightMire");
 
 class TwilightMire extends TwilightMireBase {
   constructor(game) {

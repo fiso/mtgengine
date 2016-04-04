@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShrivelBase = require("../setM14/Shrivel.js");
+const Constants = require ("../../../Constants");
+const ShrivelBase = require("../setM14/Shrivel");
 
 class Shrivel extends ShrivelBase {
   constructor(game) {

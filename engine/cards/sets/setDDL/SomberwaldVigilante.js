@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SomberwaldVigilanteBase = require("../setAVR/SomberwaldVigilante.js");
+const Constants = require ("../../../Constants");
+const SomberwaldVigilanteBase = require("../setAVR/SomberwaldVigilante");
 
 class SomberwaldVigilante extends SomberwaldVigilanteBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ForbidBase = require("../setEXO/Forbid.js");
+const Constants = require ("../../../Constants");
+const ForbidBase = require("../setEXO/Forbid");
 
 class Forbid extends ForbidBase {
   constructor(game) {

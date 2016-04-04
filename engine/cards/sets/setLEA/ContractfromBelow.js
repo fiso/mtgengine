@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ContractfromBelowBase = require("../setCED/ContractfromBelow.js");
+const Constants = require ("../../../Constants");
+const ContractfromBelowBase = require("../setCED/ContractfromBelow");
 
 class ContractfromBelow extends ContractfromBelowBase {
   constructor(game) {

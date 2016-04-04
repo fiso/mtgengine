@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TarPitcherBase = require("../setDD3_EVG/TarPitcher.js");
+const Constants = require ("../../../Constants");
+const TarPitcherBase = require("../setDD3_EVG/TarPitcher");
 
 class TarPitcher extends TarPitcherBase {
   constructor(game) {

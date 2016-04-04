@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PowderKegBase = require("../setpMPR/PowderKeg.js");
+const Constants = require ("../../../Constants");
+const PowderKegBase = require("../setpMPR/PowderKeg");
 
 class PowderKeg extends PowderKegBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JeskaiAscendancyBase = require("../setKTK/JeskaiAscendancy.js");
+const Constants = require ("../../../Constants");
+const JeskaiAscendancyBase = require("../setKTK/JeskaiAscendancy");
 
 class JeskaiAscendancy extends JeskaiAscendancyBase {
   constructor(game) {

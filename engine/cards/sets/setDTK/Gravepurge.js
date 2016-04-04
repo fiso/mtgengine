@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GravepurgeBase = require("../setDKA/Gravepurge.js");
+const Constants = require ("../../../Constants");
+const GravepurgeBase = require("../setDKA/Gravepurge");
 
 class Gravepurge extends GravepurgeBase {
   constructor(game) {

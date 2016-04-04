@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CanopySpiderBase = require("../setATH/CanopySpider.js");
+const Constants = require ("../../../Constants");
+const CanopySpiderBase = require("../setATH/CanopySpider");
 
 class CanopySpider extends CanopySpiderBase {
   constructor(game) {

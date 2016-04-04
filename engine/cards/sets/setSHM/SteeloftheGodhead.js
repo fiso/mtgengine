@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SteeloftheGodheadBase = require("../setDDI/SteeloftheGodhead.js");
+const Constants = require ("../../../Constants");
+const SteeloftheGodheadBase = require("../setDDI/SteeloftheGodhead");
 
 class SteeloftheGodhead extends SteeloftheGodheadBase {
   constructor(game) {

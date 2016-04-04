@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BattleRampartBase = require("../setMMQ/BattleRampart.js");
+const Constants = require ("../../../Constants");
+const BattleRampartBase = require("../setMMQ/BattleRampart");
 
 class BattleRampart extends BattleRampartBase {
   constructor(game) {

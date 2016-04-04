@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RootKinAllyBase = require("../setMM2/RootKinAlly.js");
+const Constants = require ("../../../Constants");
+const RootKinAllyBase = require("../setMM2/RootKinAlly");
 
 class RootKinAlly extends RootKinAllyBase {
   constructor(game) {

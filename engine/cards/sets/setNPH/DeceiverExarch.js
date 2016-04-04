@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeceiverExarchBase = require("../setC13/DeceiverExarch.js");
+const Constants = require ("../../../Constants");
+const DeceiverExarchBase = require("../setC13/DeceiverExarch");
 
 class DeceiverExarch extends DeceiverExarchBase {
   constructor(game) {

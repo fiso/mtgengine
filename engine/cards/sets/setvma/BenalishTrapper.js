@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BenalishTrapperBase = require("../setINV/BenalishTrapper.js");
+const Constants = require ("../../../Constants");
+const BenalishTrapperBase = require("../setINV/BenalishTrapper");
 
 class BenalishTrapper extends BenalishTrapperBase {
   constructor(game) {

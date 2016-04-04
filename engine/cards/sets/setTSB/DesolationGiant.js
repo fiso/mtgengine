@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DesolationGiantBase = require("../setAPC/DesolationGiant.js");
+const Constants = require ("../../../Constants");
+const DesolationGiantBase = require("../setAPC/DesolationGiant");
 
 class DesolationGiant extends DesolationGiantBase {
   constructor(game) {

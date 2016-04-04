@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SerraAviaryBase = require("../setHML/SerraAviary.js");
+const Constants = require ("../../../Constants");
+const SerraAviaryBase = require("../setHML/SerraAviary");
 
 class SerraAviary extends SerraAviaryBase {
   constructor(game) {

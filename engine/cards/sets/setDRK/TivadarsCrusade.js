@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TivadarsCrusadeBase = require("../setMED/TivadarsCrusade.js");
+const Constants = require ("../../../Constants");
+const TivadarsCrusadeBase = require("../setMED/TivadarsCrusade");
 
 class TivadarsCrusade extends TivadarsCrusadeBase {
   constructor(game) {

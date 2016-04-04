@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlazingArchonBase = require("../setPD3/BlazingArchon.js");
+const Constants = require ("../../../Constants");
+const BlazingArchonBase = require("../setPD3/BlazingArchon");
 
 class BlazingArchon extends BlazingArchonBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AinokTrackerBase = require("../setKTK/AinokTracker.js");
+const Constants = require ("../../../Constants");
+const AinokTrackerBase = require("../setKTK/AinokTracker");
 
 class AinokTracker extends AinokTrackerBase {
   constructor(game) {

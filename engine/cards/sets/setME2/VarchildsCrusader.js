@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VarchildsCrusaderBase = require("../setALL/VarchildsCrusader.js");
+const Constants = require ("../../../Constants");
+const VarchildsCrusaderBase = require("../setALL/VarchildsCrusader");
 
 class VarchildsCrusader extends VarchildsCrusaderBase {
   constructor(game) {

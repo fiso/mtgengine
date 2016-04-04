@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WaterspoutDjinnBase = require("../setDD3_JVC/WaterspoutDjinn.js");
+const Constants = require ("../../../Constants");
+const WaterspoutDjinnBase = require("../setDD3_JVC/WaterspoutDjinn");
 
 class WaterspoutDjinn extends WaterspoutDjinnBase {
   constructor(game) {

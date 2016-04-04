@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrandAbolisherBase = require("../setC14/GrandAbolisher.js");
+const Constants = require ("../../../Constants");
+const GrandAbolisherBase = require("../setC14/GrandAbolisher");
 
 class GrandAbolisher extends GrandAbolisherBase {
   constructor(game) {

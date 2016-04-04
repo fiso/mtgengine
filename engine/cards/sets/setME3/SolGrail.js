@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SolGrailBase = require("../setALL/SolGrail.js");
+const Constants = require ("../../../Constants");
+const SolGrailBase = require("../setALL/SolGrail");
 
 class SolGrail extends SolGrailBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MiseBase = require("../setpARL/Mise.js");
+const Constants = require ("../../../Constants");
+const MiseBase = require("../setpARL/Mise");
 
 class Mise extends MiseBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MistveinBorderpostBase = require("../setARB/MistveinBorderpost.js");
+const Constants = require ("../../../Constants");
+const MistveinBorderpostBase = require("../setARB/MistveinBorderpost");
 
 class MistveinBorderpost extends MistveinBorderpostBase {
   constructor(game) {

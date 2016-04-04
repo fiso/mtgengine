@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NevinyrralsDiskBase = require("../setATH/NevinyrralsDisk.js");
+const Constants = require ("../../../Constants");
+const NevinyrralsDiskBase = require("../setATH/NevinyrralsDisk");
 
 class NevinyrralsDisk extends NevinyrralsDiskBase {
   constructor(game) {

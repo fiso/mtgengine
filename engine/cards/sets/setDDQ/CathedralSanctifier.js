@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CathedralSanctifierBase = require("../setAVR/CathedralSanctifier.js");
+const Constants = require ("../../../Constants");
+const CathedralSanctifierBase = require("../setAVR/CathedralSanctifier");
 
 class CathedralSanctifier extends CathedralSanctifierBase {
   constructor(game) {

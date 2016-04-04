@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExcommunicateBase = require("../setM10/Excommunicate.js");
+const Constants = require ("../../../Constants");
+const ExcommunicateBase = require("../setM10/Excommunicate");
 
 class Excommunicate extends ExcommunicateBase {
   constructor(game) {

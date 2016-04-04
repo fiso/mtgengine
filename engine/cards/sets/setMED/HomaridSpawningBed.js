@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HomaridSpawningBedBase = require("../setFEM/HomaridSpawningBed.js");
+const Constants = require ("../../../Constants");
+const HomaridSpawningBedBase = require("../setFEM/HomaridSpawningBed");
 
 class HomaridSpawningBed extends HomaridSpawningBedBase {
   constructor(game) {

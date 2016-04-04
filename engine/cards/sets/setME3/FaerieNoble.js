@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FaerieNobleBase = require("../setHML/FaerieNoble.js");
+const Constants = require ("../../../Constants");
+const FaerieNobleBase = require("../setHML/FaerieNoble");
 
 class FaerieNoble extends FaerieNobleBase {
   constructor(game) {

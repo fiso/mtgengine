@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SamiteHealerBase = require("../setATH/SamiteHealer.js");
+const Constants = require ("../../../Constants");
+const SamiteHealerBase = require("../setATH/SamiteHealer");
 
 class SamiteHealer extends SamiteHealerBase {
   constructor(game) {

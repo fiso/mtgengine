@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhyrexianIngesterBase = require("../setC14/PhyrexianIngester.js");
+const Constants = require ("../../../Constants");
+const PhyrexianIngesterBase = require("../setC14/PhyrexianIngester");
 
 class PhyrexianIngester extends PhyrexianIngesterBase {
   constructor(game) {

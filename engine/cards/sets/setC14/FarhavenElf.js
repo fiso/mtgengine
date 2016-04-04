@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FarhavenElfBase = require("../setC13/FarhavenElf.js");
+const Constants = require ("../../../Constants");
+const FarhavenElfBase = require("../setC13/FarhavenElf");
 
 class FarhavenElf extends FarhavenElfBase {
   constructor(game) {

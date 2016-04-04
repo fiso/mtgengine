@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HyenaUmbraBase = require("../setPC2/HyenaUmbra.js");
+const Constants = require ("../../../Constants");
+const HyenaUmbraBase = require("../setPC2/HyenaUmbra");
 
 class HyenaUmbra extends HyenaUmbraBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NomadOutpostBase = require("../setDDN/NomadOutpost.js");
+const Constants = require ("../../../Constants");
+const NomadOutpostBase = require("../setDDN/NomadOutpost");
 
 class NomadOutpost extends NomadOutpostBase {
   constructor(game) {

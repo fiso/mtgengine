@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NaturalAffinityBase = require("../set8ED/NaturalAffinity.js");
+const Constants = require ("../../../Constants");
+const NaturalAffinityBase = require("../set8ED/NaturalAffinity");
 
 class NaturalAffinity extends NaturalAffinityBase {
   constructor(game) {

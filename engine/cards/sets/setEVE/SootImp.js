@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SootImpBase = require("../setDD3_DVD/SootImp.js");
+const Constants = require ("../../../Constants");
+const SootImpBase = require("../setDD3_DVD/SootImp");
 
 class SootImp extends SootImpBase {
   constructor(game) {

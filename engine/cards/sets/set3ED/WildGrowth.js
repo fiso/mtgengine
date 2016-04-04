@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildGrowthBase = require("../setBTD/WildGrowth.js");
+const Constants = require ("../../../Constants");
+const WildGrowthBase = require("../setBTD/WildGrowth");
 
 class WildGrowth extends WildGrowthBase {
   constructor(game) {

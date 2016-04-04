@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BullCerodonBase = require("../setHOP/BullCerodon.js");
+const Constants = require ("../../../Constants");
+const BullCerodonBase = require("../setHOP/BullCerodon");
 
 class BullCerodon extends BullCerodonBase {
   constructor(game) {

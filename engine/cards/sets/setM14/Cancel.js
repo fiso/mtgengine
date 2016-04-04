@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CancelBase = require("../setDPA/Cancel.js");
+const Constants = require ("../../../Constants");
+const CancelBase = require("../setDPA/Cancel");
 
 class Cancel extends CancelBase {
   constructor(game) {

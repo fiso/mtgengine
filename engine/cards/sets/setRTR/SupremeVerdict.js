@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SupremeVerdictBase = require("../setpMEI/SupremeVerdict.js");
+const Constants = require ("../../../Constants");
+const SupremeVerdictBase = require("../setpMEI/SupremeVerdict");
 
 class SupremeVerdict extends SupremeVerdictBase {
   constructor(game) {

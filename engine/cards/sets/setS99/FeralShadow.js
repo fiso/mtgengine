@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FeralShadowBase = require("../setBTD/FeralShadow.js");
+const Constants = require ("../../../Constants");
+const FeralShadowBase = require("../setBTD/FeralShadow");
 
 class FeralShadow extends FeralShadowBase {
   constructor(game) {

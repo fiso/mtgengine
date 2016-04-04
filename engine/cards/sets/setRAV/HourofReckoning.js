@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HourofReckoningBase = require("../setCMD/HourofReckoning.js");
+const Constants = require ("../../../Constants");
+const HourofReckoningBase = require("../setCMD/HourofReckoning");
 
 class HourofReckoning extends HourofReckoningBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GluttonousZombieBase = require("../set8ED/GluttonousZombie.js");
+const Constants = require ("../../../Constants");
+const GluttonousZombieBase = require("../set8ED/GluttonousZombie");
 
 class GluttonousZombie extends GluttonousZombieBase {
   constructor(game) {

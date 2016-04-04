@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TalarasBattalionBase = require("../setDPA/TalarasBattalion.js");
+const Constants = require ("../../../Constants");
+const TalarasBattalionBase = require("../setDPA/TalarasBattalion");
 
 class TalarasBattalion extends TalarasBattalionBase {
   constructor(game) {

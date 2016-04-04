@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SkinrenderBase = require("../setSOM/Skinrender.js");
+const Constants = require ("../../../Constants");
+const SkinrenderBase = require("../setSOM/Skinrender");
 
 class Skinrender extends SkinrenderBase {
   constructor(game) {

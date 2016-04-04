@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScrivenerBase = require("../setEXO/Scrivener.js");
+const Constants = require ("../../../Constants");
+const ScrivenerBase = require("../setEXO/Scrivener");
 
 class Scrivener extends ScrivenerBase {
   constructor(game) {

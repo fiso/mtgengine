@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlustersquallBase = require("../setC15/Blustersquall.js");
+const Constants = require ("../../../Constants");
+const BlustersquallBase = require("../setC15/Blustersquall");
 
 class Blustersquall extends BlustersquallBase {
   constructor(game) {

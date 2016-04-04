@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SoldeviMachinistBase = require("../setICE/SoldeviMachinist.js");
+const Constants = require ("../../../Constants");
+const SoldeviMachinistBase = require("../setICE/SoldeviMachinist");
 
 class SoldeviMachinist extends SoldeviMachinistBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BloodriteInvokerBase = require("../setDDP/BloodriteInvoker.js");
+const Constants = require ("../../../Constants");
+const BloodriteInvokerBase = require("../setDDP/BloodriteInvoker");
 
 class BloodriteInvoker extends BloodriteInvokerBase {
   constructor(game) {

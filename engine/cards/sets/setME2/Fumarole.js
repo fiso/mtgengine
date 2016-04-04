@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FumaroleBase = require("../setICE/Fumarole.js");
+const Constants = require ("../../../Constants");
+const FumaroleBase = require("../setICE/Fumarole");
 
 class Fumarole extends FumaroleBase {
   constructor(game) {

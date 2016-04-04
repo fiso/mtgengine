@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DefiantVanguardBase = require("../setNMS/DefiantVanguard.js");
+const Constants = require ("../../../Constants");
+const DefiantVanguardBase = require("../setNMS/DefiantVanguard");
 
 class DefiantVanguard extends DefiantVanguardBase {
   constructor(game) {

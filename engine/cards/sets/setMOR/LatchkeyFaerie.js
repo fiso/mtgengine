@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LatchkeyFaerieBase = require("../setMMA/LatchkeyFaerie.js");
+const Constants = require ("../../../Constants");
+const LatchkeyFaerieBase = require("../setMMA/LatchkeyFaerie");
 
 class LatchkeyFaerie extends LatchkeyFaerieBase {
   constructor(game) {

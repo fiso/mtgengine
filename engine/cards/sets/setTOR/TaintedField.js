@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TaintedFieldBase = require("../setC15/TaintedField.js");
+const Constants = require ("../../../Constants");
+const TaintedFieldBase = require("../setC15/TaintedField");
 
 class TaintedField extends TaintedFieldBase {
   constructor(game) {

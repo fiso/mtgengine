@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JacetheMindSculptorBase = require("../setV13/JacetheMindSculptor.js");
+const Constants = require ("../../../Constants");
+const JacetheMindSculptorBase = require("../setV13/JacetheMindSculptor");
 
 class JacetheMindSculptor extends JacetheMindSculptorBase {
   constructor(game) {

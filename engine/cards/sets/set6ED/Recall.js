@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RecallBase = require("../setCHR/Recall.js");
+const Constants = require ("../../../Constants");
+const RecallBase = require("../setCHR/Recall");
 
 class Recall extends RecallBase {
   constructor(game) {

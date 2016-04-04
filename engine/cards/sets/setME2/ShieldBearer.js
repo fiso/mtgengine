@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShieldBearerBase = require("../set5ED/ShieldBearer.js");
+const Constants = require ("../../../Constants");
+const ShieldBearerBase = require("../set5ED/ShieldBearer");
 
 class ShieldBearer extends ShieldBearerBase {
   constructor(game) {

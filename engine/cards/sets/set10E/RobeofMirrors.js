@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RobeofMirrorsBase = require("../setEXO/RobeofMirrors.js");
+const Constants = require ("../../../Constants");
+const RobeofMirrorsBase = require("../setEXO/RobeofMirrors");
 
 class RobeofMirrors extends RobeofMirrorsBase {
   constructor(game) {

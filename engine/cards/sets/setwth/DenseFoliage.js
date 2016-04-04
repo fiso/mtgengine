@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DenseFoliageBase = require("../set6ED/DenseFoliage.js");
+const Constants = require ("../../../Constants");
+const DenseFoliageBase = require("../set6ED/DenseFoliage");
 
 class DenseFoliage extends DenseFoliageBase {
   constructor(game) {

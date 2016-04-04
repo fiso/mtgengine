@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MidnightRitualBase = require("../setMMQ/MidnightRitual.js");
+const Constants = require ("../../../Constants");
+const MidnightRitualBase = require("../setMMQ/MidnightRitual");
 
 class MidnightRitual extends MidnightRitualBase {
   constructor(game) {

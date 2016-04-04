@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CraterHellionBase = require("../setC13/CraterHellion.js");
+const Constants = require ("../../../Constants");
+const CraterHellionBase = require("../setC13/CraterHellion");
 
 class CraterHellion extends CraterHellionBase {
   constructor(game) {

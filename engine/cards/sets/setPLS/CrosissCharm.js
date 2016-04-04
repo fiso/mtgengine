@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrosissCharmBase = require("../setC13/CrosissCharm.js");
+const Constants = require ("../../../Constants");
+const CrosissCharmBase = require("../setC13/CrosissCharm");
 
 class CrosissCharm extends CrosissCharmBase {
   constructor(game) {

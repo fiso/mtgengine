@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InsidiousBookwormsBase = require("../setALL/InsidiousBookworms.js");
+const Constants = require ("../../../Constants");
+const InsidiousBookwormsBase = require("../setALL/InsidiousBookworms");
 
 class InsidiousBookworms extends InsidiousBookwormsBase {
   constructor(game) {

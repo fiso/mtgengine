@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LimDlsVaultBase = require("../setALL/LimDlsVault.js");
+const Constants = require ("../../../Constants");
+const LimDlsVaultBase = require("../setALL/LimDlsVault");
 
 class LimDlsVault extends LimDlsVaultBase {
   constructor(game) {

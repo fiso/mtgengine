@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AggressiveUrgeBase = require("../setINV/AggressiveUrge.js");
+const Constants = require ("../../../Constants");
+const AggressiveUrgeBase = require("../setINV/AggressiveUrge");
 
 class AggressiveUrge extends AggressiveUrgeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpontaneousCombustionBase = require("../setCNS/SpontaneousCombustion.js");
+const Constants = require ("../../../Constants");
+const SpontaneousCombustionBase = require("../setCNS/SpontaneousCombustion");
 
 class SpontaneousCombustion extends SpontaneousCombustionBase {
   constructor(game) {

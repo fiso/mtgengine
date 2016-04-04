@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NobleQuarryBase = require("../setBNG/NobleQuarry.js");
+const Constants = require ("../../../Constants");
+const NobleQuarryBase = require("../setBNG/NobleQuarry");
 
 class NobleQuarry extends NobleQuarryBase {
   constructor(game) {

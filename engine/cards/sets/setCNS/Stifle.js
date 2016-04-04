@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StifleBase = require("../setpJGP/Stifle.js");
+const Constants = require ("../../../Constants");
+const StifleBase = require("../setpJGP/Stifle");
 
 class Stifle extends StifleBase {
   constructor(game) {

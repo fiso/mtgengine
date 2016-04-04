@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HammerfistGiantBase = require("../setC15/HammerfistGiant.js");
+const Constants = require ("../../../Constants");
+const HammerfistGiantBase = require("../setC15/HammerfistGiant");
 
 class HammerfistGiant extends HammerfistGiantBase {
   constructor(game) {

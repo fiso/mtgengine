@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AustereCommandBase = require("../setLRW/AustereCommand.js");
+const Constants = require ("../../../Constants");
+const AustereCommandBase = require("../setLRW/AustereCommand");
 
 class AustereCommand extends AustereCommandBase {
   constructor(game) {

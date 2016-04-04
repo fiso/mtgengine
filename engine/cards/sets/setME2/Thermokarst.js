@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThermokarstBase = require("../setICE/Thermokarst.js");
+const Constants = require ("../../../Constants");
+const ThermokarstBase = require("../setICE/Thermokarst");
 
 class Thermokarst extends ThermokarstBase {
   constructor(game) {

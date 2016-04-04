@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SparkSprayBase = require("../setSCG/SparkSpray.js");
+const Constants = require ("../../../Constants");
+const SparkSprayBase = require("../setSCG/SparkSpray");
 
 class SparkSpray extends SparkSprayBase {
   constructor(game) {

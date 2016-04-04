@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UpheavalBase = require("../setV14/Upheaval.js");
+const Constants = require ("../../../Constants");
+const UpheavalBase = require("../setV14/Upheaval");
 
 class Upheaval extends UpheavalBase {
   constructor(game) {

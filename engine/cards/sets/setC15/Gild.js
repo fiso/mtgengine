@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GildBase = require("../setBNG/Gild.js");
+const Constants = require ("../../../Constants");
+const GildBase = require("../setBNG/Gild");
 
 class Gild extends GildBase {
   constructor(game) {

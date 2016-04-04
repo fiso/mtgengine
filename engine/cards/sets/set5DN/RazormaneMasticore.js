@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RazormaneMasticoreBase = require("../setDDF/RazormaneMasticore.js");
+const Constants = require ("../../../Constants");
+const RazormaneMasticoreBase = require("../setDDF/RazormaneMasticore");
 
 class RazormaneMasticore extends RazormaneMasticoreBase {
   constructor(game) {

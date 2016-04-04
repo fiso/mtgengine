@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ElvishSkysweeperBase = require("../setC13/ElvishSkysweeper.js");
+const Constants = require ("../../../Constants");
+const ElvishSkysweeperBase = require("../setC13/ElvishSkysweeper");
 
 class ElvishSkysweeper extends ElvishSkysweeperBase {
   constructor(game) {

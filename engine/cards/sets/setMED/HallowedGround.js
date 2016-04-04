@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HallowedGroundBase = require("../setICE/HallowedGround.js");
+const Constants = require ("../../../Constants");
+const HallowedGroundBase = require("../setICE/HallowedGround");
 
 class HallowedGround extends HallowedGroundBase {
   constructor(game) {

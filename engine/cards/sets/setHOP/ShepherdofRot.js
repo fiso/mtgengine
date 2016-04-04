@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShepherdofRotBase = require("../setONS/ShepherdofRot.js");
+const Constants = require ("../../../Constants");
+const ShepherdofRotBase = require("../setONS/ShepherdofRot");
 
 class ShepherdofRot extends ShepherdofRotBase {
   constructor(game) {

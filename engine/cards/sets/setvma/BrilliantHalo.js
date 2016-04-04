@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrilliantHaloBase = require("../setUSG/BrilliantHalo.js");
+const Constants = require ("../../../Constants");
+const BrilliantHaloBase = require("../setUSG/BrilliantHalo");
 
 class BrilliantHalo extends BrilliantHaloBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RecurringNightmareBase = require("../setEXO/RecurringNightmare.js");
+const Constants = require ("../../../Constants");
+const RecurringNightmareBase = require("../setEXO/RecurringNightmare");
 
 class RecurringNightmare extends RecurringNightmareBase {
   constructor(game) {

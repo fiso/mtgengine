@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EssenceScatterBase = require("../setDPA/EssenceScatter.js");
+const Constants = require ("../../../Constants");
+const EssenceScatterBase = require("../setDPA/EssenceScatter");
 
 class EssenceScatter extends EssenceScatterBase {
   constructor(game) {

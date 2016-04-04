@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AutumnWillowBase = require("../setHML/AutumnWillow.js");
+const Constants = require ("../../../Constants");
+const AutumnWillowBase = require("../setHML/AutumnWillow");
 
 class AutumnWillow extends AutumnWillowBase {
   constructor(game) {

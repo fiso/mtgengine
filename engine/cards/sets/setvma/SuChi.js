@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SuChiBase = require("../setATQ/SuChi.js");
+const Constants = require ("../../../Constants");
+const SuChiBase = require("../setATQ/SuChi");
 
 class SuChi extends SuChiBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CoalitionRelic extends Card {
+class CoalitionRelic extends UnimplementedCard {
   constructor(game) {
     super(game, "Coalition Relic", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

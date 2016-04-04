@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ErrandofDutyBase = require("../setALL/ErrandofDuty.js");
+const Constants = require ("../../../Constants");
+const ErrandofDutyBase = require("../setALL/ErrandofDuty");
 
 class ErrandofDuty extends ErrandofDutyBase {
   constructor(game) {

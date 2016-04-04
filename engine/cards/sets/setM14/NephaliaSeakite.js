@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NephaliaSeakiteBase = require("../setDKA/NephaliaSeakite.js");
+const Constants = require ("../../../Constants");
+const NephaliaSeakiteBase = require("../setDKA/NephaliaSeakite");
 
 class NephaliaSeakite extends NephaliaSeakiteBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NestInvaderBase = require("../setMM2/NestInvader.js");
+const Constants = require ("../../../Constants");
+const NestInvaderBase = require("../setMM2/NestInvader");
 
 class NestInvader extends NestInvaderBase {
   constructor(game) {

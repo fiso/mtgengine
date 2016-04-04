@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MagmaGiantBase = require("../setC15/MagmaGiant.js");
+const Constants = require ("../../../Constants");
+const MagmaGiantBase = require("../setC15/MagmaGiant");
 
 class MagmaGiant extends MagmaGiantBase {
   constructor(game) {

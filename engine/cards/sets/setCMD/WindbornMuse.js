@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WindbornMuseBase = require("../setLGN/WindbornMuse.js");
+const Constants = require ("../../../Constants");
+const WindbornMuseBase = require("../setLGN/WindbornMuse");
 
 class WindbornMuse extends WindbornMuseBase {
   constructor(game) {

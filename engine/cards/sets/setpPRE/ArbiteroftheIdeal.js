@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArbiteroftheIdealBase = require("../setBNG/ArbiteroftheIdeal.js");
+const Constants = require ("../../../Constants");
+const ArbiteroftheIdealBase = require("../setBNG/ArbiteroftheIdeal");
 
 class ArbiteroftheIdeal extends ArbiteroftheIdealBase {
   constructor(game) {

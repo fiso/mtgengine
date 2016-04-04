@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IndestructibleAuraBase = require("../setCHR/IndestructibleAura.js");
+const Constants = require ("../../../Constants");
+const IndestructibleAuraBase = require("../setCHR/IndestructibleAura");
 
 class IndestructibleAura extends IndestructibleAuraBase {
   constructor(game) {

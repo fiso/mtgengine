@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnknownShoresBase = require("../setOGW/UnknownShores.js");
+const Constants = require ("../../../Constants");
+const UnknownShoresBase = require("../setOGW/UnknownShores");
 
 class UnknownShores extends UnknownShoresBase {
   constructor(game) {

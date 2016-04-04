@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThunderblustBase = require("../setEVE/Thunderblust.js");
+const Constants = require ("../../../Constants");
+const ThunderblustBase = require("../setEVE/Thunderblust");
 
 class Thunderblust extends ThunderblustBase {
   constructor(game) {

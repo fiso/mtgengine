@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MesaPegasusBase = require("../setCED/MesaPegasus.js");
+const Constants = require ("../../../Constants");
+const MesaPegasusBase = require("../setCED/MesaPegasus");
 
 class MesaPegasus extends MesaPegasusBase {
   constructor(game) {

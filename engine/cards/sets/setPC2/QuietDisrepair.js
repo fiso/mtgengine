@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuietDisrepairBase = require("../setFUT/QuietDisrepair.js");
+const Constants = require ("../../../Constants");
+const QuietDisrepairBase = require("../setFUT/QuietDisrepair");
 
 class QuietDisrepair extends QuietDisrepairBase {
   constructor(game) {

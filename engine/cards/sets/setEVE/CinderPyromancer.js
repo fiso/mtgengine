@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CinderPyromancerBase = require("../setDPA/CinderPyromancer.js");
+const Constants = require ("../../../Constants");
+const CinderPyromancerBase = require("../setDPA/CinderPyromancer");
 
 class CinderPyromancer extends CinderPyromancerBase {
   constructor(game) {

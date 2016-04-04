@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InheritanceBase = require("../setALL/Inheritance.js");
+const Constants = require ("../../../Constants");
+const InheritanceBase = require("../setALL/Inheritance");
 
 class Inheritance extends InheritanceBase {
   constructor(game) {

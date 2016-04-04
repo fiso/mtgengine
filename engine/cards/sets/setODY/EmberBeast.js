@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EmberBeastBase = require("../setGTC/EmberBeast.js");
+const Constants = require ("../../../Constants");
+const EmberBeastBase = require("../setGTC/EmberBeast");
 
 class EmberBeast extends EmberBeastBase {
   constructor(game) {

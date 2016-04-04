@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LoamLionBase = require("../setDDH/LoamLion.js");
+const Constants = require ("../../../Constants");
+const LoamLionBase = require("../setDDH/LoamLion");
 
 class LoamLion extends LoamLionBase {
   constructor(game) {

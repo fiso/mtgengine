@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TorchSlingerBase = require("../setDDP/TorchSlinger.js");
+const Constants = require ("../../../Constants");
+const TorchSlingerBase = require("../setDDP/TorchSlinger");
 
 class TorchSlinger extends TorchSlingerBase {
   constructor(game) {

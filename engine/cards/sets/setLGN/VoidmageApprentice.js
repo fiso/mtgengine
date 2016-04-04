@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VoidmageApprenticeBase = require("../setDD3_JVC/VoidmageApprentice.js");
+const Constants = require ("../../../Constants");
+const VoidmageApprenticeBase = require("../setDD3_JVC/VoidmageApprentice");
 
 class VoidmageApprentice extends VoidmageApprenticeBase {
   constructor(game) {

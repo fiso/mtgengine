@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrixisCharmBase = require("../setC13/GrixisCharm.js");
+const Constants = require ("../../../Constants");
+const GrixisCharmBase = require("../setC13/GrixisCharm");
 
 class GrixisCharm extends GrixisCharmBase {
   constructor(game) {

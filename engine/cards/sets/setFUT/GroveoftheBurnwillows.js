@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GroveoftheBurnwillowsBase = require("../setV12/GroveoftheBurnwillows.js");
+const Constants = require ("../../../Constants");
+const GroveoftheBurnwillowsBase = require("../setV12/GroveoftheBurnwillows");
 
 class GroveoftheBurnwillows extends GroveoftheBurnwillowsBase {
   constructor(game) {

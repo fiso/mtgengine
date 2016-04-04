@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AncientGrudgeBase = require("../setpFNM/AncientGrudge.js");
+const Constants = require ("../../../Constants");
+const AncientGrudgeBase = require("../setpFNM/AncientGrudge");
 
 class AncientGrudge extends AncientGrudgeBase {
   constructor(game) {

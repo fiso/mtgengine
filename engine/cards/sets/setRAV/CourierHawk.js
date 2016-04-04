@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CourierHawkBase = require("../setCNS/CourierHawk.js");
+const Constants = require ("../../../Constants");
+const CourierHawkBase = require("../setCNS/CourierHawk");
 
 class CourierHawk extends CourierHawkBase {
   constructor(game) {

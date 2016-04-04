@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TravelersCloakBase = require("../setINV/TravelersCloak.js");
+const Constants = require ("../../../Constants");
+const TravelersCloakBase = require("../setINV/TravelersCloak");
 
 class TravelersCloak extends TravelersCloakBase {
   constructor(game) {

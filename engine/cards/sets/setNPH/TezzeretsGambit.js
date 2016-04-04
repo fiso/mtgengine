@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TezzeretsGambitBase = require("../setMM2/TezzeretsGambit.js");
+const Constants = require ("../../../Constants");
+const TezzeretsGambitBase = require("../setMM2/TezzeretsGambit");
 
 class TezzeretsGambit extends TezzeretsGambitBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhyrexianMetamorphBase = require("../setpLPA/PhyrexianMetamorph.js");
+const Constants = require ("../../../Constants");
+const PhyrexianMetamorphBase = require("../setpLPA/PhyrexianMetamorph");
 
 class PhyrexianMetamorph extends PhyrexianMetamorphBase {
   constructor(game) {

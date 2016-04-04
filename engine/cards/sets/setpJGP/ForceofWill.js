@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ForceofWillBase = require("../setALL/ForceofWill.js");
+const Constants = require ("../../../Constants");
+const ForceofWillBase = require("../setALL/ForceofWill");
 
 class ForceofWill extends ForceofWillBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CavalryPegasusBase = require("../setDDL/CavalryPegasus.js");
+const Constants = require ("../../../Constants");
+const CavalryPegasusBase = require("../setDDL/CavalryPegasus");
 
 class CavalryPegasus extends CavalryPegasusBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CommunewithNatureBase = require("../setCHK/CommunewithNature.js");
+const Constants = require ("../../../Constants");
+const CommunewithNatureBase = require("../setCHK/CommunewithNature");
 
 class CommunewithNature extends CommunewithNatureBase {
   constructor(game) {

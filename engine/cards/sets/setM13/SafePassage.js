@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SafePassageBase = require("../setDDI/SafePassage.js");
+const Constants = require ("../../../Constants");
+const SafePassageBase = require("../setDDI/SafePassage");
 
 class SafePassage extends SafePassageBase {
   constructor(game) {

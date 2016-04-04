@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrderBase = require("../setAPC/Order.js");
+const Constants = require ("../../../Constants");
+const OrderBase = require("../setAPC/Order");
 
 class Order extends OrderBase {
   constructor(game) {

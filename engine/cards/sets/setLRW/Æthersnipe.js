@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆthersnipeBase = require("../setDD3_JVC/Æthersnipe.js");
+const Constants = require ("../../../Constants");
+const ÆthersnipeBase = require("../setDD3_JVC/Æthersnipe");
 
 class Æthersnipe extends ÆthersnipeBase {
   constructor(game) {

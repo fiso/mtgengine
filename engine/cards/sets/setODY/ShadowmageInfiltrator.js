@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShadowmageInfiltratorBase = require("../setMM2/ShadowmageInfiltrator.js");
+const Constants = require ("../../../Constants");
+const ShadowmageInfiltratorBase = require("../setMM2/ShadowmageInfiltrator");
 
 class ShadowmageInfiltrator extends ShadowmageInfiltratorBase {
   constructor(game) {

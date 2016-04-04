@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DauthiMercenaryBase = require("../setTMP/DauthiMercenary.js");
+const Constants = require ("../../../Constants");
+const DauthiMercenaryBase = require("../setTMP/DauthiMercenary");
 
 class DauthiMercenary extends DauthiMercenaryBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FireFieldOgreBase = require("../setDDH/FireFieldOgre.js");
+const Constants = require ("../../../Constants");
+const FireFieldOgreBase = require("../setDDH/FireFieldOgre");
 
 class FireFieldOgre extends FireFieldOgreBase {
   constructor(game) {

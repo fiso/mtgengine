@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RighteousChargeBase = require("../setGTC/RighteousCharge.js");
+const Constants = require ("../../../Constants");
+const RighteousChargeBase = require("../setGTC/RighteousCharge");
 
 class RighteousCharge extends RighteousChargeBase {
   constructor(game) {

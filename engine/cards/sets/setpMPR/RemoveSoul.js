@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RemoveSoulBase = require("../setCHR/RemoveSoul.js");
+const Constants = require ("../../../Constants");
+const RemoveSoulBase = require("../setCHR/RemoveSoul");
 
 class RemoveSoul extends RemoveSoulBase {
   constructor(game) {

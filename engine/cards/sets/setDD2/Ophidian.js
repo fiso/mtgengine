@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OphidianBase = require("../setDD3_JVC/Ophidian.js");
+const Constants = require ("../../../Constants");
+const OphidianBase = require("../setDD3_JVC/Ophidian");
 
 class Ophidian extends OphidianBase {
   constructor(game) {

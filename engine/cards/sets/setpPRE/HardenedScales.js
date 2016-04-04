@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HardenedScalesBase = require("../setKTK/HardenedScales.js");
+const Constants = require ("../../../Constants");
+const HardenedScalesBase = require("../setKTK/HardenedScales");
 
 class HardenedScales extends HardenedScalesBase {
   constructor(game) {

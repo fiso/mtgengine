@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RiftsweeperBase = require("../setFUT/Riftsweeper.js");
+const Constants = require ("../../../Constants");
+const RiftsweeperBase = require("../setFUT/Riftsweeper");
 
 class Riftsweeper extends RiftsweeperBase {
   constructor(game) {

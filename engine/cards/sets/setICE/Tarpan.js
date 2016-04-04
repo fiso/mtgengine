@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TarpanBase = require("../set5ED/Tarpan.js");
+const Constants = require ("../../../Constants");
+const TarpanBase = require("../set5ED/Tarpan");
 
 class Tarpan extends TarpanBase {
   constructor(game) {

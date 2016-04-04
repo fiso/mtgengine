@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AuratouchedMageBase = require("../setPC2/AuratouchedMage.js");
+const Constants = require ("../../../Constants");
+const AuratouchedMageBase = require("../setPC2/AuratouchedMage");
 
 class AuratouchedMage extends AuratouchedMageBase {
   constructor(game) {

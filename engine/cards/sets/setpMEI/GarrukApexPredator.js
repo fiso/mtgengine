@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GarrukApexPredatorBase = require("../setM15/GarrukApexPredator.js");
+const Constants = require ("../../../Constants");
+const GarrukApexPredatorBase = require("../setM15/GarrukApexPredator");
 
 class GarrukApexPredator extends GarrukApexPredatorBase {
   constructor(game) {

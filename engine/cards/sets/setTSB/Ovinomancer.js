@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OvinomancerBase = require("../setMGB/Ovinomancer.js");
+const Constants = require ("../../../Constants");
+const OvinomancerBase = require("../setMGB/Ovinomancer");
 
 class Ovinomancer extends OvinomancerBase {
   constructor(game) {

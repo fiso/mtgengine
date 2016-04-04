@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SealofCleansingBase = require("../setC15/SealofCleansing.js");
+const Constants = require ("../../../Constants");
+const SealofCleansingBase = require("../setC15/SealofCleansing");
 
 class SealofCleansing extends SealofCleansingBase {
   constructor(game) {

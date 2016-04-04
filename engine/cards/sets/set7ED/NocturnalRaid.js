@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NocturnalRaidBase = require("../setMIR/NocturnalRaid.js");
+const Constants = require ("../../../Constants");
+const NocturnalRaidBase = require("../setMIR/NocturnalRaid");
 
 class NocturnalRaid extends NocturnalRaidBase {
   constructor(game) {

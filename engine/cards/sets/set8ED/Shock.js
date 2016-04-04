@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShockBase = require("../setBTD/Shock.js");
+const Constants = require ("../../../Constants");
+const ShockBase = require("../setBTD/Shock");
 
 class Shock extends ShockBase {
   constructor(game) {

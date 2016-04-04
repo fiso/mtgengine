@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TitanicGrowthBase = require("../setM12/TitanicGrowth.js");
+const Constants = require ("../../../Constants");
+const TitanicGrowthBase = require("../setM12/TitanicGrowth");
 
 class TitanicGrowth extends TitanicGrowthBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AccordersShieldBase = require("../setM14/AccordersShield.js");
+const Constants = require ("../../../Constants");
+const AccordersShieldBase = require("../setM14/AccordersShield");
 
 class AccordersShield extends AccordersShieldBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrypticAnnelidBase = require("../setDDI/CrypticAnnelid.js");
+const Constants = require ("../../../Constants");
+const CrypticAnnelidBase = require("../setDDI/CrypticAnnelid");
 
 class CrypticAnnelid extends CrypticAnnelidBase {
   constructor(game) {

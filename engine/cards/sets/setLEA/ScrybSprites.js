@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScrybSpritesBase = require("../setBRB/ScrybSprites.js");
+const Constants = require ("../../../Constants");
+const ScrybSpritesBase = require("../setBRB/ScrybSprites");
 
 class ScrybSprites extends ScrybSpritesBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TeeteringPeaksBase = require("../setpFNM/TeeteringPeaks.js");
+const Constants = require ("../../../Constants");
+const TeeteringPeaksBase = require("../setpFNM/TeeteringPeaks");
 
 class TeeteringPeaks extends TeeteringPeaksBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TerrorBase = require("../setATH/Terror.js");
+const Constants = require ("../../../Constants");
+const TerrorBase = require("../setATH/Terror");
 
 class Terror extends TerrorBase {
   constructor(game) {

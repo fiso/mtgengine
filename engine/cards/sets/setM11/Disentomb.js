@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DisentombBase = require("../setM10/Disentomb.js");
+const Constants = require ("../../../Constants");
+const DisentombBase = require("../setM10/Disentomb");
 
 class Disentomb extends DisentombBase {
   constructor(game) {

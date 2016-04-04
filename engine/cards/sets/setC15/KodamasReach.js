@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KodamasReachBase = require("../setCHK/KodamasReach.js");
+const Constants = require ("../../../Constants");
+const KodamasReachBase = require("../setCHK/KodamasReach");
 
 class KodamasReach extends KodamasReachBase {
   constructor(game) {

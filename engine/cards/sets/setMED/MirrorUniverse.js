@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MirrorUniverseBase = require("../setLEG/MirrorUniverse.js");
+const Constants = require ("../../../Constants");
+const MirrorUniverseBase = require("../setLEG/MirrorUniverse");
 
 class MirrorUniverse extends MirrorUniverseBase {
   constructor(game) {

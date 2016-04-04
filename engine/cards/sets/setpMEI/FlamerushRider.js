@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlamerushRiderBase = require("../setFRF/FlamerushRider.js");
+const Constants = require ("../../../Constants");
+const FlamerushRiderBase = require("../setFRF/FlamerushRider");
 
 class FlamerushRider extends FlamerushRiderBase {
   constructor(game) {

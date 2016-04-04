@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoorlandInquisitorBase = require("../setAVR/MoorlandInquisitor.js");
+const Constants = require ("../../../Constants");
+const MoorlandInquisitorBase = require("../setAVR/MoorlandInquisitor");
 
 class MoorlandInquisitor extends MoorlandInquisitorBase {
   constructor(game) {

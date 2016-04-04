@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HamletbackGoliathBase = require("../setC15/HamletbackGoliath.js");
+const Constants = require ("../../../Constants");
+const HamletbackGoliathBase = require("../setC15/HamletbackGoliath");
 
 class HamletbackGoliath extends HamletbackGoliathBase {
   constructor(game) {

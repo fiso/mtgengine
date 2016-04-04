@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpringjackPastureBase = require("../setC13/SpringjackPasture.js");
+const Constants = require ("../../../Constants");
+const SpringjackPastureBase = require("../setC13/SpringjackPasture");
 
 class SpringjackPasture extends SpringjackPastureBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PowerSinkBase = require("../setBTD/PowerSink.js");
+const Constants = require ("../../../Constants");
+const PowerSinkBase = require("../setBTD/PowerSink");
 
 class PowerSink extends PowerSinkBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlyingCraneTechniqueBase = require("../setKTK/FlyingCraneTechnique.js");
+const Constants = require ("../../../Constants");
+const FlyingCraneTechniqueBase = require("../setKTK/FlyingCraneTechnique");
 
 class FlyingCraneTechnique extends FlyingCraneTechniqueBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrollhideBase = require("../setM12/Trollhide.js");
+const Constants = require ("../../../Constants");
+const TrollhideBase = require("../setM12/Trollhide");
 
 class Trollhide extends TrollhideBase {
   constructor(game) {

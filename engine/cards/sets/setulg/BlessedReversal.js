@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlessedReversalBase = require("../set8ED/BlessedReversal.js");
+const Constants = require ("../../../Constants");
+const BlessedReversalBase = require("../set8ED/BlessedReversal");
 
 class BlessedReversal extends BlessedReversalBase {
   constructor(game) {

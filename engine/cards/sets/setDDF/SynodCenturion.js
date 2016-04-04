@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SynodCenturionBase = require("../setARC/SynodCenturion.js");
+const Constants = require ("../../../Constants");
+const SynodCenturionBase = require("../setARC/SynodCenturion");
 
 class SynodCenturion extends SynodCenturionBase {
   constructor(game) {

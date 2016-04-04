@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RepentantBlacksmithBase = require("../setARN/RepentantBlacksmith.js");
+const Constants = require ("../../../Constants");
+const RepentantBlacksmithBase = require("../setARN/RepentantBlacksmith");
 
 class RepentantBlacksmith extends RepentantBlacksmithBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GazeofGraniteBase = require("../setDGM/GazeofGranite.js");
+const Constants = require ("../../../Constants");
+const GazeofGraniteBase = require("../setDGM/GazeofGranite");
 
 class GazeofGranite extends GazeofGraniteBase {
   constructor(game) {

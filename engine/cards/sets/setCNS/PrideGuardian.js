@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrideGuardianBase = require("../setM12/PrideGuardian.js");
+const Constants = require ("../../../Constants");
+const PrideGuardianBase = require("../setM12/PrideGuardian");
 
 class PrideGuardian extends PrideGuardianBase {
   constructor(game) {

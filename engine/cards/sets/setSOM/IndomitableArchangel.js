@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IndomitableArchangelBase = require("../setMM2/IndomitableArchangel.js");
+const Constants = require ("../../../Constants");
+const IndomitableArchangelBase = require("../setMM2/IndomitableArchangel");
 
 class IndomitableArchangel extends IndomitableArchangelBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CarrionWallBase = require("../set8ED/CarrionWall.js");
+const Constants = require ("../../../Constants");
+const CarrionWallBase = require("../set8ED/CarrionWall");
 
 class CarrionWall extends CarrionWallBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DistortingWakeBase = require("../setC14/DistortingWake.js");
+const Constants = require ("../../../Constants");
+const DistortingWakeBase = require("../setC14/DistortingWake");
 
 class DistortingWake extends DistortingWakeBase {
   constructor(game) {

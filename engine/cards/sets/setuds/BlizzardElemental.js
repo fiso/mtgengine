@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlizzardElementalBase = require("../setBTD/BlizzardElemental.js");
+const Constants = require ("../../../Constants");
+const BlizzardElementalBase = require("../setBTD/BlizzardElemental");
 
 class BlizzardElemental extends BlizzardElementalBase {
   constructor(game) {

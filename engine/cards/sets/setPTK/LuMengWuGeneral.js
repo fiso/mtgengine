@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LuMengWuGeneralBase = require("../setME3/LuMengWuGeneral.js");
+const Constants = require ("../../../Constants");
+const LuMengWuGeneralBase = require("../setME3/LuMengWuGeneral");
 
 class LuMengWuGeneral extends LuMengWuGeneralBase {
   constructor(game) {

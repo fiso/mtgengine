@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GauntletofMightBase = require("../setCED/GauntletofMight.js");
+const Constants = require ("../../../Constants");
+const GauntletofMightBase = require("../setCED/GauntletofMight");
 
 class GauntletofMight extends GauntletofMightBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CelestialFlareBase = require("../setDDO/CelestialFlare.js");
+const Constants = require ("../../../Constants");
+const CelestialFlareBase = require("../setDDO/CelestialFlare");
 
 class CelestialFlare extends CelestialFlareBase {
   constructor(game) {

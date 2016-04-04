@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HellkiteChargerBase = require("../setARC/HellkiteCharger.js");
+const Constants = require ("../../../Constants");
+const HellkiteChargerBase = require("../setARC/HellkiteCharger");
 
 class HellkiteCharger extends HellkiteChargerBase {
   constructor(game) {

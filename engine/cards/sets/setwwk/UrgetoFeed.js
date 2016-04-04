@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UrgetoFeedBase = require("../setDDK/UrgetoFeed.js");
+const Constants = require ("../../../Constants");
+const UrgetoFeedBase = require("../setDDK/UrgetoFeed");
 
 class UrgetoFeed extends UrgetoFeedBase {
   constructor(game) {

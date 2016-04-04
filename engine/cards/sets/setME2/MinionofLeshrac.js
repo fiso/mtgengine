@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MinionofLeshracBase = require("../setICE/MinionofLeshrac.js");
+const Constants = require ("../../../Constants");
+const MinionofLeshracBase = require("../setICE/MinionofLeshrac");
 
 class MinionofLeshrac extends MinionofLeshracBase {
   constructor(game) {

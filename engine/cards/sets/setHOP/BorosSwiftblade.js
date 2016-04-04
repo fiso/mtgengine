@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BorosSwiftbladeBase = require("../setMM2/BorosSwiftblade.js");
+const Constants = require ("../../../Constants");
+const BorosSwiftbladeBase = require("../setMM2/BorosSwiftblade");
 
 class BorosSwiftblade extends BorosSwiftbladeBase {
   constructor(game) {

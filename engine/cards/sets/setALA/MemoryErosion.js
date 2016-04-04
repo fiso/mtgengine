@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MemoryErosionBase = require("../setCMD/MemoryErosion.js");
+const Constants = require ("../../../Constants");
+const MemoryErosionBase = require("../setCMD/MemoryErosion");
 
 class MemoryErosion extends MemoryErosionBase {
   constructor(game) {

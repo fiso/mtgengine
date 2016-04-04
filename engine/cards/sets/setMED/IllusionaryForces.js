@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IllusionaryForcesBase = require("../setICE/IllusionaryForces.js");
+const Constants = require ("../../../Constants");
+const IllusionaryForcesBase = require("../setICE/IllusionaryForces");
 
 class IllusionaryForces extends IllusionaryForcesBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WindreaverBase = require("../setDIS/Windreaver.js");
+const Constants = require ("../../../Constants");
+const WindreaverBase = require("../setDIS/Windreaver");
 
 class Windreaver extends WindreaverBase {
   constructor(game) {

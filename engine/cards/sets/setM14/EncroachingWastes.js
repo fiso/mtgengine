@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EncroachingWastesBase = require("../setpFNM/EncroachingWastes.js");
+const Constants = require ("../../../Constants");
+const EncroachingWastesBase = require("../setpFNM/EncroachingWastes");
 
 class EncroachingWastes extends EncroachingWastesBase {
   constructor(game) {

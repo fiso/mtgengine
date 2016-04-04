@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SandstormBase = require("../setARN/Sandstorm.js");
+const Constants = require ("../../../Constants");
+const SandstormBase = require("../setARN/Sandstorm");
 
 class Sandstorm extends SandstormBase {
   constructor(game) {

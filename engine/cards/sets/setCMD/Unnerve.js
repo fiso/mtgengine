@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnnerveBase = require("../setBRB/Unnerve.js");
+const Constants = require ("../../../Constants");
+const UnnerveBase = require("../setBRB/Unnerve");
 
 class Unnerve extends UnnerveBase {
   constructor(game) {

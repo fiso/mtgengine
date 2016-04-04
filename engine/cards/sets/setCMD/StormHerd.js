@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormHerdBase = require("../setGPT/StormHerd.js");
+const Constants = require ("../../../Constants");
+const StormHerdBase = require("../setGPT/StormHerd");
 
 class StormHerd extends StormHerdBase {
   constructor(game) {

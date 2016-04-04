@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DuergarHedgeMageBase = require("../setEVE/DuergarHedgeMage.js");
+const Constants = require ("../../../Constants");
+const DuergarHedgeMageBase = require("../setEVE/DuergarHedgeMage");
 
 class DuergarHedgeMage extends DuergarHedgeMageBase {
   constructor(game) {

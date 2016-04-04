@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PhyrexianReclamationBase = require("../setC13/PhyrexianReclamation.js");
+const Constants = require ("../../../Constants");
+const PhyrexianReclamationBase = require("../setC13/PhyrexianReclamation");
 
 class PhyrexianReclamation extends PhyrexianReclamationBase {
   constructor(game) {

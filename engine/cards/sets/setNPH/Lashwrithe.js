@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LashwritheBase = require("../setC14/Lashwrithe.js");
+const Constants = require ("../../../Constants");
+const LashwritheBase = require("../setC14/Lashwrithe");
 
 class Lashwrithe extends LashwritheBase {
   constructor(game) {

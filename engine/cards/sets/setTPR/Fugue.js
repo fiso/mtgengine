@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FugueBase = require("../setEXO/Fugue.js");
+const Constants = require ("../../../Constants");
+const FugueBase = require("../setEXO/Fugue");
 
 class Fugue extends FugueBase {
   constructor(game) {

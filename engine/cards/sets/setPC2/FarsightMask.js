@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FarsightMaskBase = require("../setMRD/FarsightMask.js");
+const Constants = require ("../../../Constants");
+const FarsightMaskBase = require("../setMRD/FarsightMask");
 
 class FarsightMask extends FarsightMaskBase {
   constructor(game) {

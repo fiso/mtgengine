@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FaerieInvadersBase = require("../setDDN/FaerieInvaders.js");
+const Constants = require ("../../../Constants");
+const FaerieInvadersBase = require("../setDDN/FaerieInvaders");
 
 class FaerieInvaders extends FaerieInvadersBase {
   constructor(game) {

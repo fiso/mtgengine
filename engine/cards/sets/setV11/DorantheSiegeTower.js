@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DorantheSiegeTowerBase = require("../setpCMP/DorantheSiegeTower.js");
+const Constants = require ("../../../Constants");
+const DorantheSiegeTowerBase = require("../setpCMP/DorantheSiegeTower");
 
 class DorantheSiegeTower extends DorantheSiegeTowerBase {
   constructor(game) {

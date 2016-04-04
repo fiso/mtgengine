@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpiritLinkBase = require("../set6ED/SpiritLink.js");
+const Constants = require ("../../../Constants");
+const SpiritLinkBase = require("../set6ED/SpiritLink");
 
 class SpiritLink extends SpiritLinkBase {
   constructor(game) {

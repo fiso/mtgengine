@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TinderWallBase = require("../setCST/TinderWall.js");
+const Constants = require ("../../../Constants");
+const TinderWallBase = require("../setCST/TinderWall");
 
 class TinderWall extends TinderWallBase {
   constructor(game) {

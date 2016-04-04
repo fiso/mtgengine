@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PatchworkGnomesBase = require("../setODY/PatchworkGnomes.js");
+const Constants = require ("../../../Constants");
+const PatchworkGnomesBase = require("../setODY/PatchworkGnomes");
 
 class PatchworkGnomes extends PatchworkGnomesBase {
   constructor(game) {

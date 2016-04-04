@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunQuanLordofWuBase = require("../setV11/SunQuanLordofWu.js");
+const Constants = require ("../../../Constants");
+const SunQuanLordofWuBase = require("../setV11/SunQuanLordofWu");
 
 class SunQuanLordofWu extends SunQuanLordofWuBase {
   constructor(game) {

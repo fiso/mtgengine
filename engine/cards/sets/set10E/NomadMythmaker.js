@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NomadMythmakerBase = require("../setJUD/NomadMythmaker.js");
+const Constants = require ("../../../Constants");
+const NomadMythmakerBase = require("../setJUD/NomadMythmaker");
 
 class NomadMythmaker extends NomadMythmakerBase {
   constructor(game) {

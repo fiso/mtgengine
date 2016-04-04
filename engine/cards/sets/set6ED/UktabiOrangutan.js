@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UktabiOrangutanBase = require("../setpARL/UktabiOrangutan.js");
+const Constants = require ("../../../Constants");
+const UktabiOrangutanBase = require("../setpARL/UktabiOrangutan");
 
 class UktabiOrangutan extends UktabiOrangutanBase {
   constructor(game) {

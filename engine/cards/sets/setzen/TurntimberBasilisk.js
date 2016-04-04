@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TurntimberBasiliskBase = require("../setDDP/TurntimberBasilisk.js");
+const Constants = require ("../../../Constants");
+const TurntimberBasiliskBase = require("../setDDP/TurntimberBasilisk");
 
 class TurntimberBasilisk extends TurntimberBasiliskBase {
   constructor(game) {

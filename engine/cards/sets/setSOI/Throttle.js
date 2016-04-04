@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThrottleBase = require("../setKTK/Throttle.js");
+const Constants = require ("../../../Constants");
+const ThrottleBase = require("../setKTK/Throttle");
 
 class Throttle extends ThrottleBase {
   constructor(game) {

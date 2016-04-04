@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DoomgapeBase = require("../setDDJ/Doomgape.js");
+const Constants = require ("../../../Constants");
+const DoomgapeBase = require("../setDDJ/Doomgape");
 
 class Doomgape extends DoomgapeBase {
   constructor(game) {

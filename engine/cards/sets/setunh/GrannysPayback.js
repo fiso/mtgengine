@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrannysPaybackBase = require("../setpARL/GrannysPayback.js");
+const Constants = require ("../../../Constants");
+const GrannysPaybackBase = require("../setpARL/GrannysPayback");
 
 class GrannysPayback extends GrannysPaybackBase {
   constructor(game) {

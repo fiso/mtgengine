@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WrensRunPackmasterBase = require("../setC14/WrensRunPackmaster.js");
+const Constants = require ("../../../Constants");
+const WrensRunPackmasterBase = require("../setC14/WrensRunPackmaster");
 
 class WrensRunPackmaster extends WrensRunPackmasterBase {
   constructor(game) {

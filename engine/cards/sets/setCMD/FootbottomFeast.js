@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FootbottomFeastBase = require("../setLRW/FootbottomFeast.js");
+const Constants = require ("../../../Constants");
+const FootbottomFeastBase = require("../setLRW/FootbottomFeast");
 
 class FootbottomFeast extends FootbottomFeastBase {
   constructor(game) {

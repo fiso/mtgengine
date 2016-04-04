@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MasteryoftheUnseenBase = require("../setFRF/MasteryoftheUnseen.js");
+const Constants = require ("../../../Constants");
+const MasteryoftheUnseenBase = require("../setFRF/MasteryoftheUnseen");
 
 class MasteryoftheUnseen extends MasteryoftheUnseenBase {
   constructor(game) {

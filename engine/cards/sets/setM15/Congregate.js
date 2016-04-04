@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CongregateBase = require("../setM14/Congregate.js");
+const Constants = require ("../../../Constants");
+const CongregateBase = require("../setM14/Congregate");
 
 class Congregate extends CongregateBase {
   constructor(game) {

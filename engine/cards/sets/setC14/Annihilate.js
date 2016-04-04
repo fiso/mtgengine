@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnnihilateBase = require("../setC13/Annihilate.js");
+const Constants = require ("../../../Constants");
+const AnnihilateBase = require("../setC13/Annihilate");
 
 class Annihilate extends AnnihilateBase {
   constructor(game) {

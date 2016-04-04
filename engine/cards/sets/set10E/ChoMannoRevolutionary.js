@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChoMannoRevolutionaryBase = require("../setMMQ/ChoMannoRevolutionary.js");
+const Constants = require ("../../../Constants");
+const ChoMannoRevolutionaryBase = require("../setMMQ/ChoMannoRevolutionary");
 
 class ChoMannoRevolutionary extends ChoMannoRevolutionaryBase {
   constructor(game) {

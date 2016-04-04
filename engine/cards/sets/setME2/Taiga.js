@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TaigaBase = require("../setCED/Taiga.js");
+const Constants = require ("../../../Constants");
+const TaigaBase = require("../setCED/Taiga");
 
 class Taiga extends TaigaBase {
   constructor(game) {

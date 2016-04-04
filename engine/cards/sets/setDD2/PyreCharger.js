@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PyreChargerBase = require("../setDD3_JVC/PyreCharger.js");
+const Constants = require ("../../../Constants");
+const PyreChargerBase = require("../setDD3_JVC/PyreCharger");
 
 class PyreCharger extends PyreChargerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LumengridWardenBase = require("../setMRD/LumengridWarden.js");
+const Constants = require ("../../../Constants");
+const LumengridWardenBase = require("../setMRD/LumengridWarden");
 
 class LumengridWarden extends LumengridWardenBase {
   constructor(game) {

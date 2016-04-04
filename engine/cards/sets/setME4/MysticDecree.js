@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MysticDecreeBase = require("../setHML/MysticDecree.js");
+const Constants = require ("../../../Constants");
+const MysticDecreeBase = require("../setHML/MysticDecree");
 
 class MysticDecree extends MysticDecreeBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EternitySnareBase = require("../setBNG/EternitySnare.js");
+const Constants = require ("../../../Constants");
+const EternitySnareBase = require("../setBNG/EternitySnare");
 
 class EternitySnare extends EternitySnareBase {
   constructor(game) {

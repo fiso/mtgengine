@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MinamoScrollkeeperBase = require("../setCNS/MinamoScrollkeeper.js");
+const Constants = require ("../../../Constants");
+const MinamoScrollkeeperBase = require("../setCNS/MinamoScrollkeeper");
 
 class MinamoScrollkeeper extends MinamoScrollkeeperBase {
   constructor(game) {

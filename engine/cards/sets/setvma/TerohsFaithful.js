@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TerohsFaithfulBase = require("../setTOR/TerohsFaithful.js");
+const Constants = require ("../../../Constants");
+const TerohsFaithfulBase = require("../setTOR/TerohsFaithful");
 
 class TerohsFaithful extends TerohsFaithfulBase {
   constructor(game) {

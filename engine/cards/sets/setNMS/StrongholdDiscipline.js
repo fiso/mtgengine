@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StrongholdDisciplineBase = require("../setCNS/StrongholdDiscipline.js");
+const Constants = require ("../../../Constants");
+const StrongholdDisciplineBase = require("../setCNS/StrongholdDiscipline");
 
 class StrongholdDiscipline extends StrongholdDisciplineBase {
   constructor(game) {

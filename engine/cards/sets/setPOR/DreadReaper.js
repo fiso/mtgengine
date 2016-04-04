@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DreadReaperBase = require("../setME4/DreadReaper.js");
+const Constants = require ("../../../Constants");
+const DreadReaperBase = require("../setME4/DreadReaper");
 
 class DreadReaper extends DreadReaperBase {
   constructor(game) {

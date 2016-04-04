@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MikaeustheLunarchBase = require("../setV11/MikaeustheLunarch.js");
+const Constants = require ("../../../Constants");
+const MikaeustheLunarchBase = require("../setV11/MikaeustheLunarch");
 
 class MikaeustheLunarch extends MikaeustheLunarchBase {
   constructor(game) {

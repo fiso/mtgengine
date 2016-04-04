@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FontofFertilityBase = require("../setCPK/FontofFertility.js");
+const Constants = require ("../../../Constants");
+const FontofFertilityBase = require("../setCPK/FontofFertility");
 
 class FontofFertility extends FontofFertilityBase {
   constructor(game) {

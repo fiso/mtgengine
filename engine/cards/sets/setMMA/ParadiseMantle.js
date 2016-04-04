@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ParadiseMantleBase = require("../set5DN/ParadiseMantle.js");
+const Constants = require ("../../../Constants");
+const ParadiseMantleBase = require("../set5DN/ParadiseMantle");
 
 class ParadiseMantle extends ParadiseMantleBase {
   constructor(game) {

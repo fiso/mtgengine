@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RasputinDreamweaverBase = require("../setLEG/RasputinDreamweaver.js");
+const Constants = require ("../../../Constants");
+const RasputinDreamweaverBase = require("../setLEG/RasputinDreamweaver");
 
 class RasputinDreamweaver extends RasputinDreamweaverBase {
   constructor(game) {

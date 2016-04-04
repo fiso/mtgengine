@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FungalReachesBase = require("../setCMD/FungalReaches.js");
+const Constants = require ("../../../Constants");
+const FungalReachesBase = require("../setCMD/FungalReaches");
 
 class FungalReaches extends FungalReachesBase {
   constructor(game) {

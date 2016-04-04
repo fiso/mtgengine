@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BottomlessVaultBase = require("../setFEM/BottomlessVault.js");
+const Constants = require ("../../../Constants");
+const BottomlessVaultBase = require("../setFEM/BottomlessVault");
 
 class BottomlessVault extends BottomlessVaultBase {
   constructor(game) {

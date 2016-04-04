@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DragonRoostBase = require("../setONS/DragonRoost.js");
+const Constants = require ("../../../Constants");
+const DragonRoostBase = require("../setONS/DragonRoost");
 
 class DragonRoost extends DragonRoostBase {
   constructor(game) {

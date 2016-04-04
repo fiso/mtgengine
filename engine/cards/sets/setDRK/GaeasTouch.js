@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GaeasTouchBase = require("../setME3/GaeasTouch.js");
+const Constants = require ("../../../Constants");
+const GaeasTouchBase = require("../setME3/GaeasTouch");
 
 class GaeasTouch extends GaeasTouchBase {
   constructor(game) {

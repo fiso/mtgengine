@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HowlfromBeyondBase = require("../set6ED/HowlfromBeyond.js");
+const Constants = require ("../../../Constants");
+const HowlfromBeyondBase = require("../set6ED/HowlfromBeyond");
 
 class HowlfromBeyond extends HowlfromBeyondBase {
   constructor(game) {

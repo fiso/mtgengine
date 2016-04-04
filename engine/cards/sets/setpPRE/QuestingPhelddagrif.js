@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuestingPhelddagrifBase = require("../setPLS/QuestingPhelddagrif.js");
+const Constants = require ("../../../Constants");
+const QuestingPhelddagrifBase = require("../setPLS/QuestingPhelddagrif");
 
 class QuestingPhelddagrif extends QuestingPhelddagrifBase {
   constructor(game) {

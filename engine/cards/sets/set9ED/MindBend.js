@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MindBendBase = require("../set8ED/MindBend.js");
+const Constants = require ("../../../Constants");
+const MindBendBase = require("../set8ED/MindBend");
 
 class MindBend extends MindBendBase {
   constructor(game) {

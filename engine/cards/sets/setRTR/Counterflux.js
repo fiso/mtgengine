@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CounterfluxBase = require("../setC15/Counterflux.js");
+const Constants = require ("../../../Constants");
+const CounterfluxBase = require("../setC15/Counterflux");
 
 class Counterflux extends CounterfluxBase {
   constructor(game) {

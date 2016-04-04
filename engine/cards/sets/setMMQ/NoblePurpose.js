@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NoblePurposeBase = require("../set8ED/NoblePurpose.js");
+const Constants = require ("../../../Constants");
+const NoblePurposeBase = require("../set8ED/NoblePurpose");
 
 class NoblePurpose extends NoblePurposeBase {
   constructor(game) {

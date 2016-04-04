@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RakaliteBase = require("../setATQ/Rakalite.js");
+const Constants = require ("../../../Constants");
+const RakaliteBase = require("../setATQ/Rakalite");
 
 class Rakalite extends RakaliteBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FigureofDestinyBase = require("../setDDL/FigureofDestiny.js");
+const Constants = require ("../../../Constants");
+const FigureofDestinyBase = require("../setDDL/FigureofDestiny");
 
 class FigureofDestiny extends FigureofDestinyBase {
   constructor(game) {

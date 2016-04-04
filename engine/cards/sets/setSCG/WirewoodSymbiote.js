@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WirewoodSymbioteBase = require("../setDD3_EVG/WirewoodSymbiote.js");
+const Constants = require ("../../../Constants");
+const WirewoodSymbioteBase = require("../setDD3_EVG/WirewoodSymbiote");
 
 class WirewoodSymbiote extends WirewoodSymbioteBase {
   constructor(game) {

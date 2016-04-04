@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CelestialSwordBase = require("../setICE/CelestialSword.js");
+const Constants = require ("../../../Constants");
+const CelestialSwordBase = require("../setICE/CelestialSword");
 
 class CelestialSword extends CelestialSwordBase {
   constructor(game) {

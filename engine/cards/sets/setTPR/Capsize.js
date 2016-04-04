@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CapsizeBase = require("../setpFNM/Capsize.js");
+const Constants = require ("../../../Constants");
+const CapsizeBase = require("../setpFNM/Capsize");
 
 class Capsize extends CapsizeBase {
   constructor(game) {

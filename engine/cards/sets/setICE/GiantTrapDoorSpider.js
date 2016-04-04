@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GiantTrapDoorSpiderBase = require("../setCST/GiantTrapDoorSpider.js");
+const Constants = require ("../../../Constants");
+const GiantTrapDoorSpiderBase = require("../setCST/GiantTrapDoorSpider");
 
 class GiantTrapDoorSpider extends GiantTrapDoorSpiderBase {
   constructor(game) {

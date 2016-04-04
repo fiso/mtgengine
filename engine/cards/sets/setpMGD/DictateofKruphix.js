@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DictateofKruphixBase = require("../setJOU/DictateofKruphix.js");
+const Constants = require ("../../../Constants");
+const DictateofKruphixBase = require("../setJOU/DictateofKruphix");
 
 class DictateofKruphix extends DictateofKruphixBase {
   constructor(game) {

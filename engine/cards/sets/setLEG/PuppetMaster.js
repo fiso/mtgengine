@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PuppetMasterBase = require("../setCHR/PuppetMaster.js");
+const Constants = require ("../../../Constants");
+const PuppetMasterBase = require("../setCHR/PuppetMaster");
 
 class PuppetMaster extends PuppetMasterBase {
   constructor(game) {

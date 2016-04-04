@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrackerBase = require("../setME3/Tracker.js");
+const Constants = require ("../../../Constants");
+const TrackerBase = require("../setME3/Tracker");
 
 class Tracker extends TrackerBase {
   constructor(game) {

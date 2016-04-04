@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CarnivalHellsteedBase = require("../setpPRE/CarnivalHellsteed.js");
+const Constants = require ("../../../Constants");
+const CarnivalHellsteedBase = require("../setpPRE/CarnivalHellsteed");
 
 class CarnivalHellsteed extends CarnivalHellsteedBase {
   constructor(game) {

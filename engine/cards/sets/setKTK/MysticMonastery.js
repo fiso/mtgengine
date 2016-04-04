@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MysticMonasteryBase = require("../setDDN/MysticMonastery.js");
+const Constants = require ("../../../Constants");
+const MysticMonasteryBase = require("../setDDN/MysticMonastery");
 
 class MysticMonastery extends MysticMonasteryBase {
   constructor(game) {

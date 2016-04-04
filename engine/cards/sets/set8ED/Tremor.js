@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TremorBase = require("../set6ED/Tremor.js");
+const Constants = require ("../../../Constants");
+const TremorBase = require("../set6ED/Tremor");
 
 class Tremor extends TremorBase {
   constructor(game) {

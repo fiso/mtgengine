@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MercurialPretenderBase = require("../setM15/MercurialPretender.js");
+const Constants = require ("../../../Constants");
+const MercurialPretenderBase = require("../setM15/MercurialPretender");
 
 class MercurialPretender extends MercurialPretenderBase {
   constructor(game) {

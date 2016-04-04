@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunkenHollowBase = require("../setBFZ/SunkenHollow.js");
+const Constants = require ("../../../Constants");
+const SunkenHollowBase = require("../setBFZ/SunkenHollow");
 
 class SunkenHollow extends SunkenHollowBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChannelBase = require("../setCED/Channel.js");
+const Constants = require ("../../../Constants");
+const ChannelBase = require("../setCED/Channel");
 
 class Channel extends ChannelBase {
   constructor(game) {

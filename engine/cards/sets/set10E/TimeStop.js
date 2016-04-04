@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimeStopBase = require("../setCHK/TimeStop.js");
+const Constants = require ("../../../Constants");
+const TimeStopBase = require("../setCHK/TimeStop");
 
 class TimeStop extends TimeStopBase {
   constructor(game) {

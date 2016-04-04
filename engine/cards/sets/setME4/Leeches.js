@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LeechesBase = require("../setHML/Leeches.js");
+const Constants = require ("../../../Constants");
+const LeechesBase = require("../setHML/Leeches");
 
 class Leeches extends LeechesBase {
   constructor(game) {

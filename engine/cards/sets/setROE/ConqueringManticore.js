@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConqueringManticoreBase = require("../setDDL/ConqueringManticore.js");
+const Constants = require ("../../../Constants");
+const ConqueringManticoreBase = require("../setDDL/ConqueringManticore");
 
 class ConqueringManticore extends ConqueringManticoreBase {
   constructor(game) {

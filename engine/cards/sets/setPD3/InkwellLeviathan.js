@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InkwellLeviathanBase = require("../setCON/InkwellLeviathan.js");
+const Constants = require ("../../../Constants");
+const InkwellLeviathanBase = require("../setCON/InkwellLeviathan");
 
 class InkwellLeviathan extends InkwellLeviathanBase {
   constructor(game) {

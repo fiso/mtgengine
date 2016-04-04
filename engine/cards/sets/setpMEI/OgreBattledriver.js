@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OgreBattledriverBase = require("../setDDN/OgreBattledriver.js");
+const Constants = require ("../../../Constants");
+const OgreBattledriverBase = require("../setDDN/OgreBattledriver");
 
 class OgreBattledriver extends OgreBattledriverBase {
   constructor(game) {

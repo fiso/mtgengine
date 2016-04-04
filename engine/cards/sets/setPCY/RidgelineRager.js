@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RidgelineRagerBase = require("../set8ED/RidgelineRager.js");
+const Constants = require ("../../../Constants");
+const RidgelineRagerBase = require("../set8ED/RidgelineRager");
 
 class RidgelineRager extends RidgelineRagerBase {
   constructor(game) {

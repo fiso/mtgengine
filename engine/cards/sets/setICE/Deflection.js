@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeflectionBase = require("../set6ED/Deflection.js");
+const Constants = require ("../../../Constants");
+const DeflectionBase = require("../set6ED/Deflection");
 
 class Deflection extends DeflectionBase {
   constructor(game) {

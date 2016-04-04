@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AntQueenBase = require("../setpLPA/AntQueen.js");
+const Constants = require ("../../../Constants");
+const AntQueenBase = require("../setpLPA/AntQueen");
 
 class AntQueen extends AntQueenBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnaxandCymedeBase = require("../setDDL/AnaxandCymede.js");
+const Constants = require ("../../../Constants");
+const AnaxandCymedeBase = require("../setDDL/AnaxandCymede");
 
 class AnaxandCymede extends AnaxandCymedeBase {
   constructor(game) {

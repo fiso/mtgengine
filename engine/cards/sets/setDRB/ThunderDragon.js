@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThunderDragonBase = require("../setDDG/ThunderDragon.js");
+const Constants = require ("../../../Constants");
+const ThunderDragonBase = require("../setDDG/ThunderDragon");
 
 class ThunderDragon extends ThunderDragonBase {
   constructor(game) {

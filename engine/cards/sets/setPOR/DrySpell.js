@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DrySpellBase = require("../set6ED/DrySpell.js");
+const Constants = require ("../../../Constants");
+const DrySpellBase = require("../set6ED/DrySpell");
 
 class DrySpell extends DrySpellBase {
   constructor(game) {

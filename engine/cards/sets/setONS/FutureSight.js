@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FutureSightBase = require("../setDDM/FutureSight.js");
+const Constants = require ("../../../Constants");
+const FutureSightBase = require("../setDDM/FutureSight");
 
 class FutureSight extends FutureSightBase {
   constructor(game) {

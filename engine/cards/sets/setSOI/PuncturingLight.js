@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PuncturingLightBase = require("../setROE/PuncturingLight.js");
+const Constants = require ("../../../Constants");
+const PuncturingLightBase = require("../setROE/PuncturingLight");
 
 class PuncturingLight extends PuncturingLightBase {
   constructor(game) {

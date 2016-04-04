@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreasuryThrullBase = require("../setC15/TreasuryThrull.js");
+const Constants = require ("../../../Constants");
+const TreasuryThrullBase = require("../setC15/TreasuryThrull");
 
 class TreasuryThrull extends TreasuryThrullBase {
   constructor(game) {

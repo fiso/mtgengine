@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ManaBreachBase = require("../setEXO/ManaBreach.js");
+const Constants = require ("../../../Constants");
+const ManaBreachBase = require("../setEXO/ManaBreach");
 
 class ManaBreach extends ManaBreachBase {
   constructor(game) {

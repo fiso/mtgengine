@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrindclockBase = require("../setM15/Grindclock.js");
+const Constants = require ("../../../Constants");
+const GrindclockBase = require("../setM15/Grindclock");
 
 class Grindclock extends GrindclockBase {
   constructor(game) {

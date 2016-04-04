@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PolukranosWorldEaterBase = require("../setDDL/PolukranosWorldEater.js");
+const Constants = require ("../../../Constants");
+const PolukranosWorldEaterBase = require("../setDDL/PolukranosWorldEater");
 
 class PolukranosWorldEater extends PolukranosWorldEaterBase {
   constructor(game) {

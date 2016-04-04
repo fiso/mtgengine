@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HeliumSquirterBase = require("../setDIS/HeliumSquirter.js");
+const Constants = require ("../../../Constants");
+const HeliumSquirterBase = require("../setDIS/HeliumSquirter");
 
 class HeliumSquirter extends HeliumSquirterBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LysAlanaHuntmasterBase = require("../setC14/LysAlanaHuntmaster.js");
+const Constants = require ("../../../Constants");
+const LysAlanaHuntmasterBase = require("../setC14/LysAlanaHuntmaster");
 
 class LysAlanaHuntmaster extends LysAlanaHuntmasterBase {
   constructor(game) {

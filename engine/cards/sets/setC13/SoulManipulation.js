@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SoulManipulationBase = require("../setARB/SoulManipulation.js");
+const Constants = require ("../../../Constants");
+const SoulManipulationBase = require("../setARB/SoulManipulation");
 
 class SoulManipulation extends SoulManipulationBase {
   constructor(game) {

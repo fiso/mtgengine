@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InfernalDarknessBase = require("../setICE/InfernalDarkness.js");
+const Constants = require ("../../../Constants");
+const InfernalDarknessBase = require("../setICE/InfernalDarkness");
 
 class InfernalDarkness extends InfernalDarknessBase {
   constructor(game) {

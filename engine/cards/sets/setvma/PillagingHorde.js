@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PillagingHordeBase = require("../setPOR/PillagingHorde.js");
+const Constants = require ("../../../Constants");
+const PillagingHordeBase = require("../setPOR/PillagingHorde");
 
 class PillagingHorde extends PillagingHordeBase {
   constructor(game) {

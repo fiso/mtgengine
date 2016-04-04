@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MaroBase = require("../set6ED/Maro.js");
+const Constants = require ("../../../Constants");
+const MaroBase = require("../set6ED/Maro");
 
 class Maro extends MaroBase {
   constructor(game) {

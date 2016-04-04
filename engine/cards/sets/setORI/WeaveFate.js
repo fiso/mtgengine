@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WeaveFateBase = require("../setKTK/WeaveFate.js");
+const Constants = require ("../../../Constants");
+const WeaveFateBase = require("../setKTK/WeaveFate");
 
 class WeaveFate extends WeaveFateBase {
   constructor(game) {

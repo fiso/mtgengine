@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BravetheElementsBase = require("../setC14/BravetheElements.js");
+const Constants = require ("../../../Constants");
+const BravetheElementsBase = require("../setC14/BravetheElements");
 
 class BravetheElements extends BravetheElementsBase {
   constructor(game) {

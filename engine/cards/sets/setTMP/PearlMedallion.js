@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PearlMedallionBase = require("../setC14/PearlMedallion.js");
+const Constants = require ("../../../Constants");
+const PearlMedallionBase = require("../setC14/PearlMedallion");
 
 class PearlMedallion extends PearlMedallionBase {
   constructor(game) {

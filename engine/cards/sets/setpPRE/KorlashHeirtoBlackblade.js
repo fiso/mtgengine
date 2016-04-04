@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorlashHeirtoBlackbladeBase = require("../setFUT/KorlashHeirtoBlackblade.js");
+const Constants = require ("../../../Constants");
+const KorlashHeirtoBlackbladeBase = require("../setFUT/KorlashHeirtoBlackblade");
 
 class KorlashHeirtoBlackblade extends KorlashHeirtoBlackbladeBase {
   constructor(game) {

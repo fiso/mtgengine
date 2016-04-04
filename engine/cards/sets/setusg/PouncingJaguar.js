@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PouncingJaguarBase = require("../setpARL/PouncingJaguar.js");
+const Constants = require ("../../../Constants");
+const PouncingJaguarBase = require("../setpARL/PouncingJaguar");
 
 class PouncingJaguar extends PouncingJaguarBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GoblinSledderBase = require("../setDD3_EVG/GoblinSledder.js");
+const Constants = require ("../../../Constants");
+const GoblinSledderBase = require("../setDD3_EVG/GoblinSledder");
 
 class GoblinSledder extends GoblinSledderBase {
   constructor(game) {

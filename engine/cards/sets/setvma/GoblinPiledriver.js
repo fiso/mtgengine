@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GoblinPiledriverBase = require("../setpJGP/GoblinPiledriver.js");
+const Constants = require ("../../../Constants");
+const GoblinPiledriverBase = require("../setpJGP/GoblinPiledriver");
 
 class GoblinPiledriver extends GoblinPiledriverBase {
   constructor(game) {

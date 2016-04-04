@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IncinerateBase = require("../setCST/Incinerate.js");
+const Constants = require ("../../../Constants");
+const IncinerateBase = require("../setCST/Incinerate");
 
 class Incinerate extends IncinerateBase {
   constructor(game) {

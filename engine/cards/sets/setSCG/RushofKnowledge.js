@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RushofKnowledgeBase = require("../setC14/RushofKnowledge.js");
+const Constants = require ("../../../Constants");
+const RushofKnowledgeBase = require("../setC14/RushofKnowledge");
 
 class RushofKnowledge extends RushofKnowledgeBase {
   constructor(game) {

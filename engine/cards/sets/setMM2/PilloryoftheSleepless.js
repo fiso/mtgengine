@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PilloryoftheSleeplessBase = require("../setGPT/PilloryoftheSleepless.js");
+const Constants = require ("../../../Constants");
+const PilloryoftheSleeplessBase = require("../setGPT/PilloryoftheSleepless");
 
 class PilloryoftheSleepless extends PilloryoftheSleeplessBase {
   constructor(game) {

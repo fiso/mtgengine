@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrimalRageBase = require("../setSTH/PrimalRage.js");
+const Constants = require ("../../../Constants");
+const PrimalRageBase = require("../setSTH/PrimalRage");
 
 class PrimalRage extends PrimalRageBase {
   constructor(game) {

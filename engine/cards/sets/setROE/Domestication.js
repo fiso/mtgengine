@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DomesticationBase = require("../setM14/Domestication.js");
+const Constants = require ("../../../Constants");
+const DomesticationBase = require("../setM14/Domestication");
 
 class Domestication extends DomesticationBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NuisanceEngineBase = require("../setMRD/NuisanceEngine.js");
+const Constants = require ("../../../Constants");
+const NuisanceEngineBase = require("../setMRD/NuisanceEngine");
 
 class NuisanceEngine extends NuisanceEngineBase {
   constructor(game) {

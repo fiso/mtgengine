@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EssenceFilterBase = require("../setICE/EssenceFilter.js");
+const Constants = require ("../../../Constants");
+const EssenceFilterBase = require("../setICE/EssenceFilter");
 
 class EssenceFilter extends EssenceFilterBase {
   constructor(game) {

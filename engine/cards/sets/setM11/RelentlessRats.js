@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RelentlessRatsBase = require("../set5DN/RelentlessRats.js");
+const Constants = require ("../../../Constants");
+const RelentlessRatsBase = require("../set5DN/RelentlessRats");
 
 class RelentlessRats extends RelentlessRatsBase {
   constructor(game) {

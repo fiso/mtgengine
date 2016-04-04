@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlameblastDragonBase = require("../setARC/FlameblastDragon.js");
+const Constants = require ("../../../Constants");
+const FlameblastDragonBase = require("../setARC/FlameblastDragon");
 
 class FlameblastDragon extends FlameblastDragonBase {
   constructor(game) {

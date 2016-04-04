@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PredatoryUrgeBase = require("../setPC2/PredatoryUrge.js");
+const Constants = require ("../../../Constants");
+const PredatoryUrgeBase = require("../setPC2/PredatoryUrge");
 
 class PredatoryUrge extends PredatoryUrgeBase {
   constructor(game) {

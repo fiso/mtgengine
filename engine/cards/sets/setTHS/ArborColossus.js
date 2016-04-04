@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArborColossusBase = require("../setC15/ArborColossus.js");
+const Constants = require ("../../../Constants");
+const ArborColossusBase = require("../setC15/ArborColossus");
 
 class ArborColossus extends ArborColossusBase {
   constructor(game) {

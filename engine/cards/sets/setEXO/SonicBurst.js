@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SonicBurstBase = require("../setBTD/SonicBurst.js");
+const Constants = require ("../../../Constants");
+const SonicBurstBase = require("../setBTD/SonicBurst");
 
 class SonicBurst extends SonicBurstBase {
   constructor(game) {

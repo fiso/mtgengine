@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RegressBase = require("../setMRD/Regress.js");
+const Constants = require ("../../../Constants");
+const RegressBase = require("../setMRD/Regress");
 
 class Regress extends RegressBase {
   constructor(game) {

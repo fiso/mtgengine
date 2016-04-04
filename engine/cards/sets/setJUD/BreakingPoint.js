@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BreakingPointBase = require("../setDDK/BreakingPoint.js");
+const Constants = require ("../../../Constants");
+const BreakingPointBase = require("../setDDK/BreakingPoint");
 
 class BreakingPoint extends BreakingPointBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StaticOrbBase = require("../set7ED/StaticOrb.js");
+const Constants = require ("../../../Constants");
+const StaticOrbBase = require("../set7ED/StaticOrb");
 
 class StaticOrb extends StaticOrbBase {
   constructor(game) {

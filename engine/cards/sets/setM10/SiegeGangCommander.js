@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SiegeGangCommanderBase = require("../setDD3_EVG/SiegeGangCommander.js");
+const Constants = require ("../../../Constants");
+const SiegeGangCommanderBase = require("../setDD3_EVG/SiegeGangCommander");
 
 class SiegeGangCommander extends SiegeGangCommanderBase {
   constructor(game) {

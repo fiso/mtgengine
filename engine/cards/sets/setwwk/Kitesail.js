@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KitesailBase = require("../setM13/Kitesail.js");
+const Constants = require ("../../../Constants");
+const KitesailBase = require("../setM13/Kitesail");
 
 class Kitesail extends KitesailBase {
   constructor(game) {

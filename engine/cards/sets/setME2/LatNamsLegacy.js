@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LatNamsLegacyBase = require("../setALL/LatNamsLegacy.js");
+const Constants = require ("../../../Constants");
+const LatNamsLegacyBase = require("../setALL/LatNamsLegacy");
 
 class LatNamsLegacy extends LatNamsLegacyBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KnowledgeVaultBase = require("../setLEG/KnowledgeVault.js");
+const Constants = require ("../../../Constants");
+const KnowledgeVaultBase = require("../setLEG/KnowledgeVault");
 
 class KnowledgeVault extends KnowledgeVaultBase {
   constructor(game) {

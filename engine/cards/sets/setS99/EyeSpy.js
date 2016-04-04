@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EyeSpyBase = require("../setPO2/EyeSpy.js");
+const Constants = require ("../../../Constants");
+const EyeSpyBase = require("../setPO2/EyeSpy");
 
 class EyeSpy extends EyeSpyBase {
   constructor(game) {

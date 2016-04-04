@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KembaKhaRegentBase = require("../setC14/KembaKhaRegent.js");
+const Constants = require ("../../../Constants");
+const KembaKhaRegentBase = require("../setC14/KembaKhaRegent");
 
 class KembaKhaRegent extends KembaKhaRegentBase {
   constructor(game) {

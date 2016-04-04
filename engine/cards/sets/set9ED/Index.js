@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IndexBase = require("../setAPC/Index.js");
+const Constants = require ("../../../Constants");
+const IndexBase = require("../setAPC/Index");
 
 class Index extends IndexBase {
   constructor(game) {

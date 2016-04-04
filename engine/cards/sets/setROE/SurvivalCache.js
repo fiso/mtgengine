@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SurvivalCacheBase = require("../setC13/SurvivalCache.js");
+const Constants = require ("../../../Constants");
+const SurvivalCacheBase = require("../setC13/SurvivalCache");
 
 class SurvivalCache extends SurvivalCacheBase {
   constructor(game) {

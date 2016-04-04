@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorCartographerBase = require("../setDDI/KorCartographer.js");
+const Constants = require ("../../../Constants");
+const KorCartographerBase = require("../setDDI/KorCartographer");
 
 class KorCartographer extends KorCartographerBase {
   constructor(game) {

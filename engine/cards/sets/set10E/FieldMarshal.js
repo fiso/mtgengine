@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FieldMarshalBase = require("../setCSP/FieldMarshal.js");
+const Constants = require ("../../../Constants");
+const FieldMarshalBase = require("../setCSP/FieldMarshal");
 
 class FieldMarshal extends FieldMarshalBase {
   constructor(game) {

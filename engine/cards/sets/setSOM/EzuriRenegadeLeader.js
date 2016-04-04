@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EzuriRenegadeLeaderBase = require("../setC14/EzuriRenegadeLeader.js");
+const Constants = require ("../../../Constants");
+const EzuriRenegadeLeaderBase = require("../setC14/EzuriRenegadeLeader");
 
 class EzuriRenegadeLeader extends EzuriRenegadeLeaderBase {
   constructor(game) {

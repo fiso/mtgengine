@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NakedSingularityBase = require("../setICE/NakedSingularity.js");
+const Constants = require ("../../../Constants");
+const NakedSingularityBase = require("../setICE/NakedSingularity");
 
 class NakedSingularity extends NakedSingularityBase {
   constructor(game) {

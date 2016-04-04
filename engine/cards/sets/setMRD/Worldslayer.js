@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WorldslayerBase = require("../setM12/Worldslayer.js");
+const Constants = require ("../../../Constants");
+const WorldslayerBase = require("../setM12/Worldslayer");
 
 class Worldslayer extends WorldslayerBase {
   constructor(game) {

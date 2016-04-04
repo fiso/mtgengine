@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RepelBase = require("../setODY/Repel.js");
+const Constants = require ("../../../Constants");
+const RepelBase = require("../setODY/Repel");
 
 class Repel extends RepelBase {
   constructor(game) {

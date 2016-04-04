@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MagmaticChasmBase = require("../setDTK/MagmaticChasm.js");
+const Constants = require ("../../../Constants");
+const MagmaticChasmBase = require("../setDTK/MagmaticChasm");
 
 class MagmaticChasm extends MagmaticChasmBase {
   constructor(game) {

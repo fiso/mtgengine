@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThunderbreakRegentBase = require("../setDTK/ThunderbreakRegent.js");
+const Constants = require ("../../../Constants");
+const ThunderbreakRegentBase = require("../setDTK/ThunderbreakRegent");
 
 class ThunderbreakRegent extends ThunderbreakRegentBase {
   constructor(game) {

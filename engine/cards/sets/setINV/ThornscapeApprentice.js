@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThornscapeApprenticeBase = require("../setDDE/ThornscapeApprentice.js");
+const Constants = require ("../../../Constants");
+const ThornscapeApprenticeBase = require("../setDDE/ThornscapeApprentice");
 
 class ThornscapeApprentice extends ThornscapeApprenticeBase {
   constructor(game) {

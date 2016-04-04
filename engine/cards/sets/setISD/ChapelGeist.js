@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChapelGeistBase = require("../setDDQ/ChapelGeist.js");
+const Constants = require ("../../../Constants");
+const ChapelGeistBase = require("../setDDQ/ChapelGeist");
 
 class ChapelGeist extends ChapelGeistBase {
   constructor(game) {

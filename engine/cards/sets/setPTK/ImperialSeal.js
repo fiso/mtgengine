@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ImperialSealBase = require("../setME2/ImperialSeal.js");
+const Constants = require ("../../../Constants");
+const ImperialSealBase = require("../setME2/ImperialSeal");
 
 class ImperialSeal extends ImperialSealBase {
   constructor(game) {

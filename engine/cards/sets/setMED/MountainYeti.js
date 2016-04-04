@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MountainYetiBase = require("../setCHR/MountainYeti.js");
+const Constants = require ("../../../Constants");
+const MountainYetiBase = require("../setCHR/MountainYeti");
 
 class MountainYeti extends MountainYetiBase {
   constructor(game) {

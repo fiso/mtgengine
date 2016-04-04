@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VenserShaperSavantBase = require("../setV13/VenserShaperSavant.js");
+const Constants = require ("../../../Constants");
+const VenserShaperSavantBase = require("../setV13/VenserShaperSavant");
 
 class VenserShaperSavant extends VenserShaperSavantBase {
   constructor(game) {

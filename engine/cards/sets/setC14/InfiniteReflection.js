@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InfiniteReflectionBase = require("../setAVR/InfiniteReflection.js");
+const Constants = require ("../../../Constants");
+const InfiniteReflectionBase = require("../setAVR/InfiniteReflection");
 
 class InfiniteReflection extends InfiniteReflectionBase {
   constructor(game) {

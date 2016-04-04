@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SurvivaloftheFittestBase = require("../setEXO/SurvivaloftheFittest.js");
+const Constants = require ("../../../Constants");
+const SurvivaloftheFittestBase = require("../setEXO/SurvivaloftheFittest");
 
 class SurvivaloftheFittest extends SurvivaloftheFittestBase {
   constructor(game) {

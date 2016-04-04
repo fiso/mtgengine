@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OasisBase = require("../setARN/Oasis.js");
+const Constants = require ("../../../Constants");
+const OasisBase = require("../setARN/Oasis");
 
 class Oasis extends OasisBase {
   constructor(game) {

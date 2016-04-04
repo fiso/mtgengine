@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AbyssalSpecterBase = require("../setBRB/AbyssalSpecter.js");
+const Constants = require ("../../../Constants");
+const AbyssalSpecterBase = require("../setBRB/AbyssalSpecter");
 
 class AbyssalSpecter extends AbyssalSpecterBase {
   constructor(game) {

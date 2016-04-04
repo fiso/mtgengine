@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CommanderGrevenilVecBase = require("../setTMP/CommanderGrevenilVec.js");
+const Constants = require ("../../../Constants");
+const CommanderGrevenilVecBase = require("../setTMP/CommanderGrevenilVec");
 
 class CommanderGrevenilVec extends CommanderGrevenilVecBase {
   constructor(game) {

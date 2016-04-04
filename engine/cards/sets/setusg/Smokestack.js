@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SmokestackBase = require("../setV14/Smokestack.js");
+const Constants = require ("../../../Constants");
+const SmokestackBase = require("../setV14/Smokestack");
 
 class Smokestack extends SmokestackBase {
   constructor(game) {

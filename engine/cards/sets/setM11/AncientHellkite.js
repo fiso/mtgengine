@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AncientHellkiteBase = require("../setpLPA/AncientHellkite.js");
+const Constants = require ("../../../Constants");
+const AncientHellkiteBase = require("../setpLPA/AncientHellkite");
 
 class AncientHellkite extends AncientHellkiteBase {
   constructor(game) {

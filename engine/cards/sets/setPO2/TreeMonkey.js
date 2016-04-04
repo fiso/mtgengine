@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreeMonkeyBase = require("../set9ED/TreeMonkey.js");
+const Constants = require ("../../../Constants");
+const TreeMonkeyBase = require("../set9ED/TreeMonkey");
 
 class TreeMonkey extends TreeMonkeyBase {
   constructor(game) {

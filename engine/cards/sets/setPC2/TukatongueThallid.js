@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TukatongueThallidBase = require("../setCON/TukatongueThallid.js");
+const Constants = require ("../../../Constants");
+const TukatongueThallidBase = require("../setCON/TukatongueThallid");
 
 class TukatongueThallid extends TukatongueThallidBase {
   constructor(game) {

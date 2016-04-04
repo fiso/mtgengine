@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhirlingCatapultBase = require("../setALL/WhirlingCatapult.js");
+const Constants = require ("../../../Constants");
+const WhirlingCatapultBase = require("../setALL/WhirlingCatapult");
 
 class WhirlingCatapult extends WhirlingCatapultBase {
   constructor(game) {

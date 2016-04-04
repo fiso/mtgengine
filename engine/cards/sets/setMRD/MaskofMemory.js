@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MaskofMemoryBase = require("../setC14/MaskofMemory.js");
+const Constants = require ("../../../Constants");
+const MaskofMemoryBase = require("../setC14/MaskofMemory");
 
 class MaskofMemory extends MaskofMemoryBase {
   constructor(game) {

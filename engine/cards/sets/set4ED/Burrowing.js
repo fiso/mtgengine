@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BurrowingBase = require("../set6ED/Burrowing.js");
+const Constants = require ("../../../Constants");
+const BurrowingBase = require("../set6ED/Burrowing");
 
 class Burrowing extends BurrowingBase {
   constructor(game) {

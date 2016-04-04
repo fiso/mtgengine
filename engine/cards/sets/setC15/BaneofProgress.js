@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BaneofProgressBase = require("../setC13/BaneofProgress.js");
+const Constants = require ("../../../Constants");
+const BaneofProgressBase = require("../setC13/BaneofProgress");
 
 class BaneofProgress extends BaneofProgressBase {
   constructor(game) {

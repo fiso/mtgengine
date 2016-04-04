@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlumeveilBase = require("../setCMD/Plumeveil.js");
+const Constants = require ("../../../Constants");
+const PlumeveilBase = require("../setCMD/Plumeveil");
 
 class Plumeveil extends PlumeveilBase {
   constructor(game) {

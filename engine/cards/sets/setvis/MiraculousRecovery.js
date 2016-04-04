@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MiraculousRecoveryBase = require("../setDDL/MiraculousRecovery.js");
+const Constants = require ("../../../Constants");
+const MiraculousRecoveryBase = require("../setDDL/MiraculousRecovery");
 
 class MiraculousRecovery extends MiraculousRecoveryBase {
   constructor(game) {

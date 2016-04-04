@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RustElemental extends Card {
+class RustElemental extends UnimplementedCard {
   constructor(game) {
     super(game, "Rust Elemental", "Mirrodin", "MRD");
   }

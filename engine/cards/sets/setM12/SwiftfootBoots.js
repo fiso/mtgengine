@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SwiftfootBootsBase = require("../setC13/SwiftfootBoots.js");
+const Constants = require ("../../../Constants");
+const SwiftfootBootsBase = require("../setC13/SwiftfootBoots");
 
 class SwiftfootBoots extends SwiftfootBootsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KarmicJusticeBase = require("../setC15/KarmicJustice.js");
+const Constants = require ("../../../Constants");
+const KarmicJusticeBase = require("../setC15/KarmicJustice");
 
 class KarmicJustice extends KarmicJusticeBase {
   constructor(game) {

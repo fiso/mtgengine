@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FrogmiteBase = require("../setDDF/Frogmite.js");
+const Constants = require ("../../../Constants");
+const FrogmiteBase = require("../setDDF/Frogmite");
 
 class Frogmite extends FrogmiteBase {
   constructor(game) {

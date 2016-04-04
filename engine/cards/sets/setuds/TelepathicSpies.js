@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TelepathicSpiesBase = require("../set7ED/TelepathicSpies.js");
+const Constants = require ("../../../Constants");
+const TelepathicSpiesBase = require("../set7ED/TelepathicSpies");
 
 class TelepathicSpies extends TelepathicSpiesBase {
   constructor(game) {

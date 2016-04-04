@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GushBase = require("../setDD3_JVC/Gush.js");
+const Constants = require ("../../../Constants");
+const GushBase = require("../setDD3_JVC/Gush");
 
 class Gush extends GushBase {
   constructor(game) {

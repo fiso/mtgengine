@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SouthernElephantBase = require("../setME4/SouthernElephant.js");
+const Constants = require ("../../../Constants");
+const SouthernElephantBase = require("../setME4/SouthernElephant");
 
 class SouthernElephant extends SouthernElephantBase {
   constructor(game) {

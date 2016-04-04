@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlimmervoidBase = require("../setMRD/Glimmervoid.js");
+const Constants = require ("../../../Constants");
+const GlimmervoidBase = require("../setMRD/Glimmervoid");
 
 class Glimmervoid extends GlimmervoidBase {
   constructor(game) {

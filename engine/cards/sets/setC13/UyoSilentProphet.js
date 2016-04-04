@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UyoSilentProphetBase = require("../setCHK/UyoSilentProphet.js");
+const Constants = require ("../../../Constants");
+const UyoSilentProphetBase = require("../setCHK/UyoSilentProphet");
 
 class UyoSilentProphet extends UyoSilentProphetBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhiplashTrapBase = require("../setDDN/WhiplashTrap.js");
+const Constants = require ("../../../Constants");
+const WhiplashTrapBase = require("../setDDN/WhiplashTrap");
 
 class WhiplashTrap extends WhiplashTrapBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HurricaneBase = require("../setATH/Hurricane.js");
+const Constants = require ("../../../Constants");
+const HurricaneBase = require("../setATH/Hurricane");
 
 class Hurricane extends HurricaneBase {
   constructor(game) {

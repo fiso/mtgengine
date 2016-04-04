@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReaperfromtheAbyssBase = require("../setC14/ReaperfromtheAbyss.js");
+const Constants = require ("../../../Constants");
+const ReaperfromtheAbyssBase = require("../setC14/ReaperfromtheAbyss");
 
 class ReaperfromtheAbyss extends ReaperfromtheAbyssBase {
   constructor(game) {

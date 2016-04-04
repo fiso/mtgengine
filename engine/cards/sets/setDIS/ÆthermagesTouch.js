@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆthermagesTouchBase = require("../setC13/ÆthermagesTouch.js");
+const Constants = require ("../../../Constants");
+const ÆthermagesTouchBase = require("../setC13/ÆthermagesTouch");
 
 class ÆthermagesTouch extends ÆthermagesTouchBase {
   constructor(game) {

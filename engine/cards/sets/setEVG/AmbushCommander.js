@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AmbushCommanderBase = require("../setDD3_EVG/AmbushCommander.js");
+const Constants = require ("../../../Constants");
+const AmbushCommanderBase = require("../setDD3_EVG/AmbushCommander");
 
 class AmbushCommander extends AmbushCommanderBase {
   constructor(game) {

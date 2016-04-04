@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TurntoSlagBase = require("../setM13/TurntoSlag.js");
+const Constants = require ("../../../Constants");
+const TurntoSlagBase = require("../setM13/TurntoSlag");
 
 class TurntoSlag extends TurntoSlagBase {
   constructor(game) {

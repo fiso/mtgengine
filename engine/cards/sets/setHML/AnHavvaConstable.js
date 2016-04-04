@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AnHavvaConstableBase = require("../set5ED/AnHavvaConstable.js");
+const Constants = require ("../../../Constants");
+const AnHavvaConstableBase = require("../set5ED/AnHavvaConstable");
 
 class AnHavvaConstable extends AnHavvaConstableBase {
   constructor(game) {

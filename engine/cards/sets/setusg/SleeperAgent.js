@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SleeperAgentBase = require("../set10E/SleeperAgent.js");
+const Constants = require ("../../../Constants");
+const SleeperAgentBase = require("../set10E/SleeperAgent");
 
 class SleeperAgent extends SleeperAgentBase {
   constructor(game) {

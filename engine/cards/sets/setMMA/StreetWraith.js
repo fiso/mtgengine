@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StreetWraithBase = require("../setFUT/StreetWraith.js");
+const Constants = require ("../../../Constants");
+const StreetWraithBase = require("../setFUT/StreetWraith");
 
 class StreetWraith extends StreetWraithBase {
   constructor(game) {

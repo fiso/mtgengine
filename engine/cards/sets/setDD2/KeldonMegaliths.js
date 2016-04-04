@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KeldonMegalithsBase = require("../setDD3_JVC/KeldonMegaliths.js");
+const Constants = require ("../../../Constants");
+const KeldonMegalithsBase = require("../setDD3_JVC/KeldonMegaliths");
 
 class KeldonMegaliths extends KeldonMegalithsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HurkylsRecallBase = require("../setATQ/HurkylsRecall.js");
+const Constants = require ("../../../Constants");
+const HurkylsRecallBase = require("../setATQ/HurkylsRecall");
 
 class HurkylsRecall extends HurkylsRecallBase {
   constructor(game) {

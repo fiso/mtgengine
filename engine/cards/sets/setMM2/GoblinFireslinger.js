@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GoblinFireslingerBase = require("../setM12/GoblinFireslinger.js");
+const Constants = require ("../../../Constants");
+const GoblinFireslingerBase = require("../setM12/GoblinFireslinger");
 
 class GoblinFireslinger extends GoblinFireslingerBase {
   constructor(game) {

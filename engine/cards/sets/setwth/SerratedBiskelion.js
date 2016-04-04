@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SerratedBiskelionBase = require("../setDDF/SerratedBiskelion.js");
+const Constants = require ("../../../Constants");
+const SerratedBiskelionBase = require("../setDDF/SerratedBiskelion");
 
 class SerratedBiskelion extends SerratedBiskelionBase {
   constructor(game) {

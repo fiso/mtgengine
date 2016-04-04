@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TorWaukiBase = require("../setCHR/TorWauki.js");
+const Constants = require ("../../../Constants");
+const TorWaukiBase = require("../setCHR/TorWauki");
 
 class TorWauki extends TorWaukiBase {
   constructor(game) {

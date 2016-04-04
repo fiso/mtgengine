@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BoneyardWurmBase = require("../setDDJ/BoneyardWurm.js");
+const Constants = require ("../../../Constants");
+const BoneyardWurmBase = require("../setDDJ/BoneyardWurm");
 
 class BoneyardWurm extends BoneyardWurmBase {
   constructor(game) {

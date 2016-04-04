@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DrownedBase = require("../setME4/Drowned.js");
+const Constants = require ("../../../Constants");
+const DrownedBase = require("../setME4/Drowned");
 
 class Drowned extends DrownedBase {
   constructor(game) {

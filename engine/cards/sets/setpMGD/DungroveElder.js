@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DungroveElderBase = require("../setM12/DungroveElder.js");
+const Constants = require ("../../../Constants");
+const DungroveElderBase = require("../setM12/DungroveElder");
 
 class DungroveElder extends DungroveElderBase {
   constructor(game) {

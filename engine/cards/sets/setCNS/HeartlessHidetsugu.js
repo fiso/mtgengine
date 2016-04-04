@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HeartlessHidetsuguBase = require("../setBOK/HeartlessHidetsugu.js");
+const Constants = require ("../../../Constants");
+const HeartlessHidetsuguBase = require("../setBOK/HeartlessHidetsugu");
 
 class HeartlessHidetsugu extends HeartlessHidetsuguBase {
   constructor(game) {

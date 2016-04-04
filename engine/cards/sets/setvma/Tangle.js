@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TangleBase = require("../setINV/Tangle.js");
+const Constants = require ("../../../Constants");
+const TangleBase = require("../setINV/Tangle");
 
 class Tangle extends TangleBase {
   constructor(game) {

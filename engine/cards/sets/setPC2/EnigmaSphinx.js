@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EnigmaSphinxBase = require("../setARB/EnigmaSphinx.js");
+const Constants = require ("../../../Constants");
+const EnigmaSphinxBase = require("../setARB/EnigmaSphinx");
 
 class EnigmaSphinx extends EnigmaSphinxBase {
   constructor(game) {

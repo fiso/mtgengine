@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WrensRunVanquisherBase = require("../setDD3_EVG/WrensRunVanquisher.js");
+const Constants = require ("../../../Constants");
+const WrensRunVanquisherBase = require("../setDD3_EVG/WrensRunVanquisher");
 
 class WrensRunVanquisher extends WrensRunVanquisherBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NimbleMongoose extends Card {
+class NimbleMongoose extends UnimplementedCard {
   constructor(game) {
     super(game, "Nimble Mongoose", "Odyssey", "ODY");
   }

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ColossalMightBase = require("../setARB/ColossalMight.js");
+const Constants = require ("../../../Constants");
+const ColossalMightBase = require("../setARB/ColossalMight");
 
 class ColossalMight extends ColossalMightBase {
   constructor(game) {

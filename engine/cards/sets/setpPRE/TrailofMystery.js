@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrailofMysteryBase = require("../setKTK/TrailofMystery.js");
+const Constants = require ("../../../Constants");
+const TrailofMysteryBase = require("../setKTK/TrailofMystery");
 
 class TrailofMystery extends TrailofMysteryBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunforgerBase = require("../setMM2/Sunforger.js");
+const Constants = require ("../../../Constants");
+const SunforgerBase = require("../setMM2/Sunforger");
 
 class Sunforger extends SunforgerBase {
   constructor(game) {

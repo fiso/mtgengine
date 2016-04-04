@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CennsEnlistmentBase = require("../setEVE/CennsEnlistment.js");
+const Constants = require ("../../../Constants");
+const CennsEnlistmentBase = require("../setEVE/CennsEnlistment");
 
 class CennsEnlistment extends CennsEnlistmentBase {
   constructor(game) {

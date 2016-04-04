@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpiritMantleBase = require("../setM12/SpiritMantle.js");
+const Constants = require ("../../../Constants");
+const SpiritMantleBase = require("../setM12/SpiritMantle");
 
 class SpiritMantle extends SpiritMantleBase {
   constructor(game) {

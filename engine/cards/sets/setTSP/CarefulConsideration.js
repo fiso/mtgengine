@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CarefulConsiderationBase = require("../setMMA/CarefulConsideration.js");
+const Constants = require ("../../../Constants");
+const CarefulConsiderationBase = require("../setMMA/CarefulConsideration");
 
 class CarefulConsideration extends CarefulConsiderationBase {
   constructor(game) {

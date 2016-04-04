@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PowerLeakBase = require("../setCED/PowerLeak.js");
+const Constants = require ("../../../Constants");
+const PowerLeakBase = require("../setCED/PowerLeak");
 
 class PowerLeak extends PowerLeakBase {
   constructor(game) {

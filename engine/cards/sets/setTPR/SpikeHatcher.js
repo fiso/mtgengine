@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpikeHatcherBase = require("../setEXO/SpikeHatcher.js");
+const Constants = require ("../../../Constants");
+const SpikeHatcherBase = require("../setEXO/SpikeHatcher");
 
 class SpikeHatcher extends SpikeHatcherBase {
   constructor(game) {

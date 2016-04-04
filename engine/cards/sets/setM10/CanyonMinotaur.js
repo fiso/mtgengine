@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CanyonMinotaurBase = require("../setCON/CanyonMinotaur.js");
+const Constants = require ("../../../Constants");
+const CanyonMinotaurBase = require("../setCON/CanyonMinotaur");
 
 class CanyonMinotaur extends CanyonMinotaurBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShorelineRangerBase = require("../setCNS/ShorelineRanger.js");
+const Constants = require ("../../../Constants");
+const ShorelineRangerBase = require("../setCNS/ShorelineRanger");
 
 class ShorelineRanger extends ShorelineRangerBase {
   constructor(game) {

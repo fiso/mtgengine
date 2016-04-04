@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HollowDogsBase = require("../setBTD/HollowDogs.js");
+const Constants = require ("../../../Constants");
+const HollowDogsBase = require("../setBTD/HollowDogs");
 
 class HollowDogs extends HollowDogsBase {
   constructor(game) {

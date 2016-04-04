@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WringFleshBase = require("../setM12/WringFlesh.js");
+const Constants = require ("../../../Constants");
+const WringFleshBase = require("../setM12/WringFlesh");
 
 class WringFlesh extends WringFleshBase {
   constructor(game) {

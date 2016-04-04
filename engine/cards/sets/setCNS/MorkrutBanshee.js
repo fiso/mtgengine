@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MorkrutBansheeBase = require("../setC14/MorkrutBanshee.js");
+const Constants = require ("../../../Constants");
+const MorkrutBansheeBase = require("../setC14/MorkrutBanshee");
 
 class MorkrutBanshee extends MorkrutBansheeBase {
   constructor(game) {

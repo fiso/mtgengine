@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DragonWhelpBase = require("../setARC/DragonWhelp.js");
+const Constants = require ("../../../Constants");
+const DragonWhelpBase = require("../setARC/DragonWhelp");
 
 class DragonWhelp extends DragonWhelpBase {
   constructor(game) {

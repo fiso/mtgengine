@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KarooBase = require("../setC14/Karoo.js");
+const Constants = require ("../../../Constants");
+const KarooBase = require("../setC14/Karoo");
 
 class Karoo extends KarooBase {
   constructor(game) {

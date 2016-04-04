@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KjeldoranRoyalGuardBase = require("../set6ED/KjeldoranRoyalGuard.js");
+const Constants = require ("../../../Constants");
+const KjeldoranRoyalGuardBase = require("../set6ED/KjeldoranRoyalGuard");
 
 class KjeldoranRoyalGuard extends KjeldoranRoyalGuardBase {
   constructor(game) {

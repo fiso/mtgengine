@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DriftoftheDead extends Card {
+class DriftoftheDead extends UnimplementedCard {
   constructor(game) {
     super(game, "Drift of the Dead", "Coldsnap Theme Decks", "CST");
   }

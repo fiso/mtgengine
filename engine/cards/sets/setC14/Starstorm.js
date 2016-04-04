@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StarstormBase = require("../setC13/Starstorm.js");
+const Constants = require ("../../../Constants");
+const StarstormBase = require("../setC13/Starstorm");
 
 class Starstorm extends StarstormBase {
   constructor(game) {

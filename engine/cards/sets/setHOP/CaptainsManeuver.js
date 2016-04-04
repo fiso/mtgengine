@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CaptainsManeuverBase = require("../setAPC/CaptainsManeuver.js");
+const Constants = require ("../../../Constants");
+const CaptainsManeuverBase = require("../setAPC/CaptainsManeuver");
 
 class CaptainsManeuver extends CaptainsManeuverBase {
   constructor(game) {

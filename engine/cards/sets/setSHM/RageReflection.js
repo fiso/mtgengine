@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RageReflectionBase = require("../setDPA/RageReflection.js");
+const Constants = require ("../../../Constants");
+const RageReflectionBase = require("../setDPA/RageReflection");
 
 class RageReflection extends RageReflectionBase {
   constructor(game) {

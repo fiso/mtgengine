@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoonlitStriderBase = require("../setBOK/MoonlitStrider.js");
+const Constants = require ("../../../Constants");
+const MoonlitStriderBase = require("../setBOK/MoonlitStrider");
 
 class MoonlitStrider extends MoonlitStriderBase {
   constructor(game) {

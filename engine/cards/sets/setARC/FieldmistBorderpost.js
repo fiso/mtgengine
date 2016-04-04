@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FieldmistBorderpostBase = require("../setARB/FieldmistBorderpost.js");
+const Constants = require ("../../../Constants");
+const FieldmistBorderpostBase = require("../setARB/FieldmistBorderpost");
 
 class FieldmistBorderpost extends FieldmistBorderpostBase {
   constructor(game) {

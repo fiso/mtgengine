@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FervorBase = require("../set6ED/Fervor.js");
+const Constants = require ("../../../Constants");
+const FervorBase = require("../set6ED/Fervor");
 
 class Fervor extends FervorBase {
   constructor(game) {

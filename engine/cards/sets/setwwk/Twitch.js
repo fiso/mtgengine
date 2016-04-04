@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TwitchBase = require("../setTMP/Twitch.js");
+const Constants = require ("../../../Constants");
+const TwitchBase = require("../setTMP/Twitch");
 
 class Twitch extends TwitchBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KorDuelistBase = require("../setMM2/KorDuelist.js");
+const Constants = require ("../../../Constants");
+const KorDuelistBase = require("../setMM2/KorDuelist");
 
 class KorDuelist extends KorDuelistBase {
   constructor(game) {

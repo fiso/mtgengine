@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LilianaoftheDarkRealmsBase = require("../setM13/LilianaoftheDarkRealms.js");
+const Constants = require ("../../../Constants");
+const LilianaoftheDarkRealmsBase = require("../setM13/LilianaoftheDarkRealms");
 
 class LilianaoftheDarkRealms extends LilianaoftheDarkRealmsBase {
   constructor(game) {

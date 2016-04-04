@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LoyalSentryBase = require("../setDDF/LoyalSentry.js");
+const Constants = require ("../../../Constants");
+const LoyalSentryBase = require("../setDDF/LoyalSentry");
 
 class LoyalSentry extends LoyalSentryBase {
   constructor(game) {

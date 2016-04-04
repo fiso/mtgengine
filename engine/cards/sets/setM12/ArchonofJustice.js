@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArchonofJusticeBase = require("../setEVE/ArchonofJustice.js");
+const Constants = require ("../../../Constants");
+const ArchonofJusticeBase = require("../setEVE/ArchonofJustice");
 
 class ArchonofJustice extends ArchonofJusticeBase {
   constructor(game) {

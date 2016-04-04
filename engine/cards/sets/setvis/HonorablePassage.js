@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HonorablePassageBase = require("../setTSB/HonorablePassage.js");
+const Constants = require ("../../../Constants");
+const HonorablePassageBase = require("../setTSB/HonorablePassage");
 
 class HonorablePassage extends HonorablePassageBase {
   constructor(game) {

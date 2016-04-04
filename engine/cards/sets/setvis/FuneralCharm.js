@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FuneralCharmBase = require("../setTSB/FuneralCharm.js");
+const Constants = require ("../../../Constants");
+const FuneralCharmBase = require("../setTSB/FuneralCharm");
 
 class FuneralCharm extends FuneralCharmBase {
   constructor(game) {

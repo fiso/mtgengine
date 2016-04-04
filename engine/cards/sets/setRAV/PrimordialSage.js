@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PrimordialSageBase = require("../setC14/PrimordialSage.js");
+const Constants = require ("../../../Constants");
+const PrimordialSageBase = require("../setC14/PrimordialSage");
 
 class PrimordialSage extends PrimordialSageBase {
   constructor(game) {

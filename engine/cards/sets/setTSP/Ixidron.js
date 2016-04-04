@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IxidronBase = require("../setC14/Ixidron.js");
+const Constants = require ("../../../Constants");
+const IxidronBase = require("../setC14/Ixidron");
 
 class Ixidron extends IxidronBase {
   constructor(game) {

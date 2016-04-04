@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FanaticofXenagosBase = require("../setBNG/FanaticofXenagos.js");
+const Constants = require ("../../../Constants");
+const FanaticofXenagosBase = require("../setBNG/FanaticofXenagos");
 
 class FanaticofXenagos extends FanaticofXenagosBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReviveBase = require("../set8ED/Revive.js");
+const Constants = require ("../../../Constants");
+const ReviveBase = require("../set8ED/Revive");
 
 class Revive extends ReviveBase {
   constructor(game) {

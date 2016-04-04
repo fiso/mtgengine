@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ClawsofGixBase = require("../setTSB/ClawsofGix.js");
+const Constants = require ("../../../Constants");
+const ClawsofGixBase = require("../setTSB/ClawsofGix");
 
 class ClawsofGix extends ClawsofGixBase {
   constructor(game) {

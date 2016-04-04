@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThalakosScoutBase = require("../setEXO/ThalakosScout.js");
+const Constants = require ("../../../Constants");
+const ThalakosScoutBase = require("../setEXO/ThalakosScout");
 
 class ThalakosScout extends ThalakosScoutBase {
   constructor(game) {

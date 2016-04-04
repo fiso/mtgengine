@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DisenchantBase = require("../setATH/Disenchant.js");
+const Constants = require ("../../../Constants");
+const DisenchantBase = require("../setATH/Disenchant");
 
 class Disenchant extends DisenchantBase {
   constructor(game) {

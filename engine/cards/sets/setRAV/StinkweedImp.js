@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StinkweedImpBase = require("../setDD3_DVD/StinkweedImp.js");
+const Constants = require ("../../../Constants");
+const StinkweedImpBase = require("../setDD3_DVD/StinkweedImp");
 
 class StinkweedImp extends StinkweedImpBase {
   constructor(game) {

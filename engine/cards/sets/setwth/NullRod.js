@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NullRodBase = require("../setVMA/NullRod.js");
+const Constants = require ("../../../Constants");
+const NullRodBase = require("../setVMA/NullRod");
 
 class NullRod extends NullRodBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TowerofFortunesBase = require("../setC13/TowerofFortunes.js");
+const Constants = require ("../../../Constants");
+const TowerofFortunesBase = require("../setC13/TowerofFortunes");
 
 class TowerofFortunes extends TowerofFortunesBase {
   constructor(game) {

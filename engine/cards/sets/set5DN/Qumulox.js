@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QumuloxBase = require("../setDDF/Qumulox.js");
+const Constants = require ("../../../Constants");
+const QumuloxBase = require("../setDDF/Qumulox");
 
 class Qumulox extends QumuloxBase {
   constructor(game) {

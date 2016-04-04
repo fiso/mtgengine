@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DismalBackwaterBase = require("../setDDQ/DismalBackwater.js");
+const Constants = require ("../../../Constants");
+const DismalBackwaterBase = require("../setDDQ/DismalBackwater");
 
 class DismalBackwater extends DismalBackwaterBase {
   constructor(game) {

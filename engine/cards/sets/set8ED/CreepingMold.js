@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CreepingMoldBase = require("../setpARL/CreepingMold.js");
+const Constants = require ("../../../Constants");
+const CreepingMoldBase = require("../setpARL/CreepingMold");
 
 class CreepingMold extends CreepingMoldBase {
   constructor(game) {

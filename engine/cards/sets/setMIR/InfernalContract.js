@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InfernalContractBase = require("../set6ED/InfernalContract.js");
+const Constants = require ("../../../Constants");
+const InfernalContractBase = require("../set6ED/InfernalContract");
 
 class InfernalContract extends InfernalContractBase {
   constructor(game) {

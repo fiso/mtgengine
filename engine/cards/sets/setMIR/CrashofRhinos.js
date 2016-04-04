@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrashofRhinosBase = require("../setBTD/CrashofRhinos.js");
+const Constants = require ("../../../Constants");
+const CrashofRhinosBase = require("../setBTD/CrashofRhinos");
 
 class CrashofRhinos extends CrashofRhinosBase {
   constructor(game) {

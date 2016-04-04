@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RestockBase = require("../setINV/Restock.js");
+const Constants = require ("../../../Constants");
+const RestockBase = require("../setINV/Restock");
 
 class Restock extends RestockBase {
   constructor(game) {

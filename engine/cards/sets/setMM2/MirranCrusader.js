@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MirranCrusaderBase = require("../setpMEI/MirranCrusader.js");
+const Constants = require ("../../../Constants");
+const MirranCrusaderBase = require("../setpMEI/MirranCrusader");
 
 class MirranCrusader extends MirranCrusaderBase {
   constructor(game) {

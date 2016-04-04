@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VoiceofAllBase = require("../setCMD/VoiceofAll.js");
+const Constants = require ("../../../Constants");
+const VoiceofAllBase = require("../setCMD/VoiceofAll");
 
 class VoiceofAll extends VoiceofAllBase {
   constructor(game) {

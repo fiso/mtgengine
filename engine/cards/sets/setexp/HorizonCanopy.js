@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HorizonCanopyBase = require("../setFUT/HorizonCanopy.js");
+const Constants = require ("../../../Constants");
+const HorizonCanopyBase = require("../setFUT/HorizonCanopy");
 
 class HorizonCanopy extends HorizonCanopyBase {
   constructor(game) {

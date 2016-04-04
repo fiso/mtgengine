@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AkromasMemorialBase = require("../setFUT/AkromasMemorial.js");
+const Constants = require ("../../../Constants");
+const AkromasMemorialBase = require("../setFUT/AkromasMemorial");
 
 class AkromasMemorial extends AkromasMemorialBase {
   constructor(game) {

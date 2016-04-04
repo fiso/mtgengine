@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TangleWire extends Card {
+class TangleWire extends UnimplementedCard {
   constructor(game) {
     super(game, "Tangle Wire", "From the Vault: Twenty", "V13");
   }

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DéjàVuBase = require("../setPOR/DéjàVu.js");
+const Constants = require ("../../../Constants");
+const DéjàVuBase = require("../setPOR/DéjàVu");
 
 class DéjàVu extends DéjàVuBase {
   constructor(game) {

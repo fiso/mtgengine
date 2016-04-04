@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CoiledTinviperBase = require("../setTMP/CoiledTinviper.js");
+const Constants = require ("../../../Constants");
+const CoiledTinviperBase = require("../setTMP/CoiledTinviper");
 
 class CoiledTinviper extends CoiledTinviperBase {
   constructor(game) {

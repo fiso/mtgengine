@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CloudgoatRangerBase = require("../setLRW/CloudgoatRanger.js");
+const Constants = require ("../../../Constants");
+const CloudgoatRangerBase = require("../setLRW/CloudgoatRanger");
 
 class CloudgoatRanger extends CloudgoatRangerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CivicWayfinderBase = require("../setDPA/CivicWayfinder.js");
+const Constants = require ("../../../Constants");
+const CivicWayfinderBase = require("../setDPA/CivicWayfinder");
 
 class CivicWayfinder extends CivicWayfinderBase {
   constructor(game) {

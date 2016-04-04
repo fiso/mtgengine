@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AvianChangelingBase = require("../setLRW/AvianChangeling.js");
+const Constants = require ("../../../Constants");
+const AvianChangelingBase = require("../setLRW/AvianChangeling");
 
 class AvianChangeling extends AvianChangelingBase {
   constructor(game) {

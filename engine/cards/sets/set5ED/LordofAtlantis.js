@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LordofAtlantisBase = require("../set6ED/LordofAtlantis.js");
+const Constants = require ("../../../Constants");
+const LordofAtlantisBase = require("../set6ED/LordofAtlantis");
 
 class LordofAtlantis extends LordofAtlantisBase {
   constructor(game) {

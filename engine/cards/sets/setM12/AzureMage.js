@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AzureMageBase = require("../setC14/AzureMage.js");
+const Constants = require ("../../../Constants");
+const AzureMageBase = require("../setC14/AzureMage");
 
 class AzureMage extends AzureMageBase {
   constructor(game) {

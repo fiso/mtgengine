@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DarkpactBase = require("../setCED/Darkpact.js");
+const Constants = require ("../../../Constants");
+const DarkpactBase = require("../setCED/Darkpact");
 
 class Darkpact extends DarkpactBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SkyhunterProwlerBase = require("../set5DN/SkyhunterProwler.js");
+const Constants = require ("../../../Constants");
+const SkyhunterProwlerBase = require("../set5DN/SkyhunterProwler");
 
 class SkyhunterProwler extends SkyhunterProwlerBase {
   constructor(game) {

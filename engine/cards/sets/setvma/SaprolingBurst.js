@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SaprolingBurstBase = require("../setNMS/SaprolingBurst.js");
+const Constants = require ("../../../Constants");
+const SaprolingBurstBase = require("../setNMS/SaprolingBurst");
 
 class SaprolingBurst extends SaprolingBurstBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LoxodonPartisanBase = require("../setDDO/LoxodonPartisan.js");
+const Constants = require ("../../../Constants");
+const LoxodonPartisanBase = require("../setDDO/LoxodonPartisan");
 
 class LoxodonPartisan extends LoxodonPartisanBase {
   constructor(game) {

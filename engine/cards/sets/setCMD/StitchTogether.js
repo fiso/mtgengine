@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StitchTogetherBase = require("../setJUD/StitchTogether.js");
+const Constants = require ("../../../Constants");
+const StitchTogetherBase = require("../setJUD/StitchTogether");
 
 class StitchTogether extends StitchTogetherBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SyphonSoulBase = require("../setBRB/SyphonSoul.js");
+const Constants = require ("../../../Constants");
+const SyphonSoulBase = require("../setBRB/SyphonSoul");
 
 class SyphonSoul extends SyphonSoulBase {
   constructor(game) {

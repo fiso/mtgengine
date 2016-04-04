@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IgniteDisorderBase = require("../setCON/IgniteDisorder.js");
+const Constants = require ("../../../Constants");
+const IgniteDisorderBase = require("../setCON/IgniteDisorder");
 
 class IgniteDisorder extends IgniteDisorderBase {
   constructor(game) {

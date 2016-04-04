@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JaceBelerenBase = require("../setDD3_JVC/JaceBeleren.js");
+const Constants = require ("../../../Constants");
+const JaceBelerenBase = require("../setDD3_JVC/JaceBeleren");
 
 class JaceBeleren extends JaceBelerenBase {
   constructor(game) {

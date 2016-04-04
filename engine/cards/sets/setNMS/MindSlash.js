@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MindSlashBase = require("../set8ED/MindSlash.js");
+const Constants = require ("../../../Constants");
+const MindSlashBase = require("../set8ED/MindSlash");
 
 class MindSlash extends MindSlashBase {
   constructor(game) {

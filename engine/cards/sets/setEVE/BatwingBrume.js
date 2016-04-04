@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BatwingBrumeBase = require("../setARC/BatwingBrume.js");
+const Constants = require ("../../../Constants");
+const BatwingBrumeBase = require("../setARC/BatwingBrume");
 
 class BatwingBrume extends BatwingBrumeBase {
   constructor(game) {

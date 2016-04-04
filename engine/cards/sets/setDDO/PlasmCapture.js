@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PlasmCaptureBase = require("../setDGM/PlasmCapture.js");
+const Constants = require ("../../../Constants");
+const PlasmCaptureBase = require("../setDGM/PlasmCapture");
 
 class PlasmCapture extends PlasmCaptureBase {
   constructor(game) {

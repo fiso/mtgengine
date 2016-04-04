@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StormbindBase = require("../setICE/Stormbind.js");
+const Constants = require ("../../../Constants");
+const StormbindBase = require("../setICE/Stormbind");
 
 class Stormbind extends StormbindBase {
   constructor(game) {

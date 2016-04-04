@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BurrentonForgeTenderBase = require("../setLRW/BurrentonForgeTender.js");
+const Constants = require ("../../../Constants");
+const BurrentonForgeTenderBase = require("../setLRW/BurrentonForgeTender");
 
 class BurrentonForgeTender extends BurrentonForgeTenderBase {
   constructor(game) {

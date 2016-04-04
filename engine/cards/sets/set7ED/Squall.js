@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SquallBase = require("../setME4/Squall.js");
+const Constants = require ("../../../Constants");
+const SquallBase = require("../setME4/Squall");
 
 class Squall extends SquallBase {
   constructor(game) {

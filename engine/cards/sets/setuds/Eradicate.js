@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EradicateBase = require("../setBOK/Eradicate.js");
+const Constants = require ("../../../Constants");
+const EradicateBase = require("../setBOK/Eradicate");
 
 class Eradicate extends EradicateBase {
   constructor(game) {

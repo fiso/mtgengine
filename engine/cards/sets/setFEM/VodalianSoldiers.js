@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VodalianSoldiersBase = require("../set6ED/VodalianSoldiers.js");
+const Constants = require ("../../../Constants");
+const VodalianSoldiersBase = require("../set6ED/VodalianSoldiers");
 
 class VodalianSoldiers extends VodalianSoldiersBase {
   constructor(game) {

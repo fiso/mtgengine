@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DustBowlBase = require("../setMMQ/DustBowl.js");
+const Constants = require ("../../../Constants");
+const DustBowlBase = require("../setMMQ/DustBowl");
 
 class DustBowl extends DustBowlBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeflectingPalmBase = require("../setKTK/DeflectingPalm.js");
+const Constants = require ("../../../Constants");
+const DeflectingPalmBase = require("../setKTK/DeflectingPalm");
 
 class DeflectingPalm extends DeflectingPalmBase {
   constructor(game) {

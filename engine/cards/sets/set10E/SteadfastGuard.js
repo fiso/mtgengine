@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SteadfastGuardBase = require("../setMMQ/SteadfastGuard.js");
+const Constants = require ("../../../Constants");
+const SteadfastGuardBase = require("../setMMQ/SteadfastGuard");
 
 class SteadfastGuard extends SteadfastGuardBase {
   constructor(game) {

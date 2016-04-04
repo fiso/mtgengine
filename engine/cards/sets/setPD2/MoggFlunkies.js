@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MoggFlunkiesBase = require("../setATH/MoggFlunkies.js");
+const Constants = require ("../../../Constants");
+const MoggFlunkiesBase = require("../setATH/MoggFlunkies");
 
 class MoggFlunkies extends MoggFlunkiesBase {
   constructor(game) {

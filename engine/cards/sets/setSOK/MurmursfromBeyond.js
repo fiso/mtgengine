@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MurmursfromBeyondBase = require("../setCMD/MurmursfromBeyond.js");
+const Constants = require ("../../../Constants");
+const MurmursfromBeyondBase = require("../setCMD/MurmursfromBeyond");
 
 class MurmursfromBeyond extends MurmursfromBeyondBase {
   constructor(game) {

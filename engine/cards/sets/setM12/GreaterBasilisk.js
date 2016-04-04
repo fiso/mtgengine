@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GreaterBasiliskBase = require("../setM11/GreaterBasilisk.js");
+const Constants = require ("../../../Constants");
+const GreaterBasiliskBase = require("../setM11/GreaterBasilisk");
 
 class GreaterBasilisk extends GreaterBasiliskBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FlowstoneCrusherBase = require("../setNMS/FlowstoneCrusher.js");
+const Constants = require ("../../../Constants");
+const FlowstoneCrusherBase = require("../setNMS/FlowstoneCrusher");
 
 class FlowstoneCrusher extends FlowstoneCrusherBase {
   constructor(game) {

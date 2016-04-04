@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RenderSilentBase = require("../setDGM/RenderSilent.js");
+const Constants = require ("../../../Constants");
+const RenderSilentBase = require("../setDGM/RenderSilent");
 
 class RenderSilent extends RenderSilentBase {
   constructor(game) {

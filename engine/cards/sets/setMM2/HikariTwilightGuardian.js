@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HikariTwilightGuardianBase = require("../setCHK/HikariTwilightGuardian.js");
+const Constants = require ("../../../Constants");
+const HikariTwilightGuardianBase = require("../setCHK/HikariTwilightGuardian");
 
 class HikariTwilightGuardian extends HikariTwilightGuardianBase {
   constructor(game) {

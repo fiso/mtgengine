@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ForkedLightningBase = require("../setME3/ForkedLightning.js");
+const Constants = require ("../../../Constants");
+const ForkedLightningBase = require("../setME3/ForkedLightning");
 
 class ForkedLightning extends ForkedLightningBase {
   constructor(game) {

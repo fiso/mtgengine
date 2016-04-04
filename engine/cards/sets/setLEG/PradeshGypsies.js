@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PradeshGypsiesBase = require("../set6ED/PradeshGypsies.js");
+const Constants = require ("../../../Constants");
+const PradeshGypsiesBase = require("../set6ED/PradeshGypsies");
 
 class PradeshGypsies extends PradeshGypsiesBase {
   constructor(game) {

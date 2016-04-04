@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class InterplanarTunnel extends Card {
+class InterplanarTunnel extends UnimplementedCard {
   constructor(game) {
     super(game, "Interplanar Tunnel", "Planechase 2012 Edition", "PC2");
   }

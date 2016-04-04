@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SunriseSovereignBase = require("../setC15/SunriseSovereign.js");
+const Constants = require ("../../../Constants");
+const SunriseSovereignBase = require("../setC15/SunriseSovereign");
 
 class SunriseSovereign extends SunriseSovereignBase {
   constructor(game) {

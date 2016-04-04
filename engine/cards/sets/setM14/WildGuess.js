@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildGuessBase = require("../setM13/WildGuess.js");
+const Constants = require ("../../../Constants");
+const WildGuessBase = require("../setM13/WildGuess");
 
 class WildGuess extends WildGuessBase {
   constructor(game) {

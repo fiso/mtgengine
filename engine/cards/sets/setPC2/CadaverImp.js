@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CadaverImpBase = require("../setDDP/CadaverImp.js");
+const Constants = require ("../../../Constants");
+const CadaverImpBase = require("../setDDP/CadaverImp");
 
 class CadaverImp extends CadaverImpBase {
   constructor(game) {

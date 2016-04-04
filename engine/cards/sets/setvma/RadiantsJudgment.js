@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RadiantsJudgmentBase = require("../setULG/RadiantsJudgment.js");
+const Constants = require ("../../../Constants");
+const RadiantsJudgmentBase = require("../setULG/RadiantsJudgment");
 
 class RadiantsJudgment extends RadiantsJudgmentBase {
   constructor(game) {

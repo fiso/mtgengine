@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DarigaaztheIgniterBase = require("../setDDE/DarigaaztheIgniter.js");
+const Constants = require ("../../../Constants");
+const DarigaaztheIgniterBase = require("../setDDE/DarigaaztheIgniter");
 
 class DarigaaztheIgniter extends DarigaaztheIgniterBase {
   constructor(game) {

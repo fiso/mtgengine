@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TendrilsofCorruptionBase = require("../setC14/TendrilsofCorruption.js");
+const Constants = require ("../../../Constants");
+const TendrilsofCorruptionBase = require("../setC14/TendrilsofCorruption");
 
 class TendrilsofCorruption extends TendrilsofCorruptionBase {
   constructor(game) {

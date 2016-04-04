@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SinkholeBase = require("../setCED/Sinkhole.js");
+const Constants = require ("../../../Constants");
+const SinkholeBase = require("../setCED/Sinkhole");
 
 class Sinkhole extends SinkholeBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GlacialChasm extends Card {
+class GlacialChasm extends UnimplementedCard {
   constructor(game) {
     super(game, "Glacial Chasm", "From the Vault: Realms", "V12");
   }

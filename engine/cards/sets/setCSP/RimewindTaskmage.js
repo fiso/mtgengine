@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RimewindTaskmage extends Card {
+class RimewindTaskmage extends UnimplementedCard {
   constructor(game) {
     super(game, "Rimewind Taskmage", "Coldsnap", "CSP");
   }

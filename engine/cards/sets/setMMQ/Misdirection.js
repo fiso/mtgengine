@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MisdirectionBase = require("../setCNS/Misdirection.js");
+const Constants = require ("../../../Constants");
+const MisdirectionBase = require("../setCNS/Misdirection");
 
 class Misdirection extends MisdirectionBase {
   constructor(game) {

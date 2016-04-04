@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShivanReefBase = require("../setAPC/ShivanReef.js");
+const Constants = require ("../../../Constants");
+const ShivanReefBase = require("../setAPC/ShivanReef");
 
 class ShivanReef extends ShivanReefBase {
   constructor(game) {

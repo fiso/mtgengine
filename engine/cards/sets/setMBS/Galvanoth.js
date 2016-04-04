@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GalvanothBase = require("../setDDJ/Galvanoth.js");
+const Constants = require ("../../../Constants");
+const GalvanothBase = require("../setDDJ/Galvanoth");
 
 class Galvanoth extends GalvanothBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SnuffOutBase = require("../setDD3_GVL/SnuffOut.js");
+const Constants = require ("../../../Constants");
+const SnuffOutBase = require("../setDD3_GVL/SnuffOut");
 
 class SnuffOut extends SnuffOutBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LodestoneBaubleBase = require("../setALL/LodestoneBauble.js");
+const Constants = require ("../../../Constants");
+const LodestoneBaubleBase = require("../setALL/LodestoneBauble");
 
 class LodestoneBauble extends LodestoneBaubleBase {
   constructor(game) {

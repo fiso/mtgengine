@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ZoeticCavernBase = require("../setC14/ZoeticCavern.js");
+const Constants = require ("../../../Constants");
+const ZoeticCavernBase = require("../setC14/ZoeticCavern");
 
 class ZoeticCavern extends ZoeticCavernBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TeferiMageofZhalfirBase = require("../setV11/TeferiMageofZhalfir.js");
+const Constants = require ("../../../Constants");
+const TeferiMageofZhalfirBase = require("../setV11/TeferiMageofZhalfir");
 
 class TeferiMageofZhalfir extends TeferiMageofZhalfirBase {
   constructor(game) {

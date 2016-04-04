@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ScentofCinderBase = require("../setpMEI/ScentofCinder.js");
+const Constants = require ("../../../Constants");
+const ScentofCinderBase = require("../setpMEI/ScentofCinder");
 
 class ScentofCinder extends ScentofCinderBase {
   constructor(game) {

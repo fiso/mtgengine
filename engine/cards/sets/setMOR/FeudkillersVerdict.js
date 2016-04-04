@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FeudkillersVerdictBase = require("../setMMA/FeudkillersVerdict.js");
+const Constants = require ("../../../Constants");
+const FeudkillersVerdictBase = require("../setMMA/FeudkillersVerdict");
 
 class FeudkillersVerdict extends FeudkillersVerdictBase {
   constructor(game) {

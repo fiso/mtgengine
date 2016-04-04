@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆtherMembraneBase = require("../setDDI/ÆtherMembrane.js");
+const Constants = require ("../../../Constants");
+const ÆtherMembraneBase = require("../setDDI/ÆtherMembrane");
 
 class ÆtherMembrane extends ÆtherMembraneBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeathbringerRegentBase = require("../setDTK/DeathbringerRegent.js");
+const Constants = require ("../../../Constants");
+const DeathbringerRegentBase = require("../setDTK/DeathbringerRegent");
 
 class DeathbringerRegent extends DeathbringerRegentBase {
   constructor(game) {

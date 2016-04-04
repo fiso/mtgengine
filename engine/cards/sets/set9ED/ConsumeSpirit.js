@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ConsumeSpiritBase = require("../setDD3_DVD/ConsumeSpirit.js");
+const Constants = require ("../../../Constants");
+const ConsumeSpiritBase = require("../setDD3_DVD/ConsumeSpirit");
 
 class ConsumeSpirit extends ConsumeSpiritBase {
   constructor(game) {

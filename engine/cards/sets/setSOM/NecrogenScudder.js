@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NecrogenScudderBase = require("../setM15/NecrogenScudder.js");
+const Constants = require ("../../../Constants");
+const NecrogenScudderBase = require("../setM15/NecrogenScudder");
 
 class NecrogenScudder extends NecrogenScudderBase {
   constructor(game) {

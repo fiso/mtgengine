@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RainbowValeBase = require("../setFEM/RainbowVale.js");
+const Constants = require ("../../../Constants");
+const RainbowValeBase = require("../setFEM/RainbowVale");
 
 class RainbowVale extends RainbowValeBase {
   constructor(game) {

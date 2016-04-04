@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GolemsHeartBase = require("../setSOM/GolemsHeart.js");
+const Constants = require ("../../../Constants");
+const GolemsHeartBase = require("../setSOM/GolemsHeart");
 
 class GolemsHeart extends GolemsHeartBase {
   constructor(game) {

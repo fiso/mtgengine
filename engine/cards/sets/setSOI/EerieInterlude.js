@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EerieInterludeBase = require("../setDDQ/EerieInterlude.js");
+const Constants = require ("../../../Constants");
+const EerieInterludeBase = require("../setDDQ/EerieInterlude");
 
 class EerieInterlude extends EerieInterludeBase {
   constructor(game) {

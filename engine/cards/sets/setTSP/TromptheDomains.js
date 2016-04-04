@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TromptheDomainsBase = require("../setMMA/TromptheDomains.js");
+const Constants = require ("../../../Constants");
+const TromptheDomainsBase = require("../setMMA/TromptheDomains");
 
 class TromptheDomains extends TromptheDomainsBase {
   constructor(game) {

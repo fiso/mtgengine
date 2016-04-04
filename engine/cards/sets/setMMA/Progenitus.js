@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ProgenitusBase = require("../setCON/Progenitus.js");
+const Constants = require ("../../../Constants");
+const ProgenitusBase = require("../setCON/Progenitus");
 
 class Progenitus extends ProgenitusBase {
   constructor(game) {

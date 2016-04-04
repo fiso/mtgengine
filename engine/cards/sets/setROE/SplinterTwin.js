@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SplinterTwinBase = require("../setMM2/SplinterTwin.js");
+const Constants = require ("../../../Constants");
+const SplinterTwinBase = require("../setMM2/SplinterTwin");
 
 class SplinterTwin extends SplinterTwinBase {
   constructor(game) {

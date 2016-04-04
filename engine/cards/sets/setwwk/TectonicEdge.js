@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TectonicEdgeBase = require("../setC14/TectonicEdge.js");
+const Constants = require ("../../../Constants");
+const TectonicEdgeBase = require("../setC14/TectonicEdge");
 
 class TectonicEdge extends TectonicEdgeBase {
   constructor(game) {

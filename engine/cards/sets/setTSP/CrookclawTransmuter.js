@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrookclawTransmuterBase = require("../setCNS/CrookclawTransmuter.js");
+const Constants = require ("../../../Constants");
+const CrookclawTransmuterBase = require("../setCNS/CrookclawTransmuter");
 
 class CrookclawTransmuter extends CrookclawTransmuterBase {
   constructor(game) {

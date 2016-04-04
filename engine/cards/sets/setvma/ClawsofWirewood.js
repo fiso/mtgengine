@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ClawsofWirewoodBase = require("../setSCG/ClawsofWirewood.js");
+const Constants = require ("../../../Constants");
+const ClawsofWirewoodBase = require("../setSCG/ClawsofWirewood");
 
 class ClawsofWirewood extends ClawsofWirewoodBase {
   constructor(game) {

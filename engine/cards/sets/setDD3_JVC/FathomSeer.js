@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FathomSeerBase = require("../setC14/FathomSeer.js");
+const Constants = require ("../../../Constants");
+const FathomSeerBase = require("../setC14/FathomSeer");
 
 class FathomSeer extends FathomSeerBase {
   constructor(game) {

@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Pyknite extends Card {
+class Pyknite extends UnimplementedCard {
   constructor(game) {
     super(game, "Pyknite", "Ice Age", "ICE");
   }

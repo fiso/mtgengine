@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HymntoTourachBase = require("../setATH/HymntoTourach.js");
+const Constants = require ("../../../Constants");
+const HymntoTourachBase = require("../setATH/HymntoTourach");
 
 class HymntoTourach extends HymntoTourachBase {
   constructor(game) {

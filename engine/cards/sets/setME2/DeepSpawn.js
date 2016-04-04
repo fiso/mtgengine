@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeepSpawnBase = require("../setFEM/DeepSpawn.js");
+const Constants = require ("../../../Constants");
+const DeepSpawnBase = require("../setFEM/DeepSpawn");
 
 class DeepSpawn extends DeepSpawnBase {
   constructor(game) {

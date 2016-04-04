@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LostOrderofJarkeldBase = require("../setICE/LostOrderofJarkeld.js");
+const Constants = require ("../../../Constants");
+const LostOrderofJarkeldBase = require("../setICE/LostOrderofJarkeld");
 
 class LostOrderofJarkeld extends LostOrderofJarkeldBase {
   constructor(game) {

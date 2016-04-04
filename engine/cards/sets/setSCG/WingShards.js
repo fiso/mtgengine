@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WingShardsBase = require("../setC14/WingShards.js");
+const Constants = require ("../../../Constants");
+const WingShardsBase = require("../setC14/WingShards");
 
 class WingShards extends WingShardsBase {
   constructor(game) {

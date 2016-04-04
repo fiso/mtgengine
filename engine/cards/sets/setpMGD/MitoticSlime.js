@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MitoticSlimeBase = require("../setM11/MitoticSlime.js");
+const Constants = require ("../../../Constants");
+const MitoticSlimeBase = require("../setM11/MitoticSlime");
 
 class MitoticSlime extends MitoticSlimeBase {
   constructor(game) {

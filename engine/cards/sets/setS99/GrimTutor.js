@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrimTutorBase = require("../setME3/GrimTutor.js");
+const Constants = require ("../../../Constants");
+const GrimTutorBase = require("../setME3/GrimTutor");
 
 class GrimTutor extends GrimTutorBase {
   constructor(game) {

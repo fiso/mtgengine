@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IllicitAuctionBase = require("../set6ED/IllicitAuction.js");
+const Constants = require ("../../../Constants");
+const IllicitAuctionBase = require("../set6ED/IllicitAuction");
 
 class IllicitAuction extends IllicitAuctionBase {
   constructor(game) {

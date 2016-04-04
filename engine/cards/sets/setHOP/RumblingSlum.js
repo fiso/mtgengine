@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RumblingSlumBase = require("../setGPT/RumblingSlum.js");
+const Constants = require ("../../../Constants");
+const RumblingSlumBase = require("../setGPT/RumblingSlum");
 
 class RumblingSlum extends RumblingSlumBase {
   constructor(game) {

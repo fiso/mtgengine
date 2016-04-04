@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PygmyPyrosaurBase = require("../setDDI/PygmyPyrosaur.js");
+const Constants = require ("../../../Constants");
+const PygmyPyrosaurBase = require("../setDDI/PygmyPyrosaur");
 
 class PygmyPyrosaur extends PygmyPyrosaurBase {
   constructor(game) {

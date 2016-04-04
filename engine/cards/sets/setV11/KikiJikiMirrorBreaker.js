@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KikiJikiMirrorBreakerBase = require("../setCHK/KikiJikiMirrorBreaker.js");
+const Constants = require ("../../../Constants");
+const KikiJikiMirrorBreakerBase = require("../setCHK/KikiJikiMirrorBreaker");
 
 class KikiJikiMirrorBreaker extends KikiJikiMirrorBreakerBase {
   constructor(game) {

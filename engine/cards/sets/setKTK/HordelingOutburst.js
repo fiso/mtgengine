@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HordelingOutburstBase = require("../setpFNM/HordelingOutburst.js");
+const Constants = require ("../../../Constants");
+const HordelingOutburstBase = require("../setpFNM/HordelingOutburst");
 
 class HordelingOutburst extends HordelingOutburstBase {
   constructor(game) {

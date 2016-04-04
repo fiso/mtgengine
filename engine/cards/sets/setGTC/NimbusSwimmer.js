@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NimbusSwimmerBase = require("../setDDO/NimbusSwimmer.js");
+const Constants = require ("../../../Constants");
+const NimbusSwimmerBase = require("../setDDO/NimbusSwimmer");
 
 class NimbusSwimmer extends NimbusSwimmerBase {
   constructor(game) {

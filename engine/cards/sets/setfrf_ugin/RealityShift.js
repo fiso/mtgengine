@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RealityShiftBase = require("../setFRF/RealityShift.js");
+const Constants = require ("../../../Constants");
+const RealityShiftBase = require("../setFRF/RealityShift");
 
 class RealityShift extends RealityShiftBase {
   constructor(game) {

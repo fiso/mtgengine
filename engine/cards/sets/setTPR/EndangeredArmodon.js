@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EndangeredArmodonBase = require("../setSTH/EndangeredArmodon.js");
+const Constants = require ("../../../Constants");
+const EndangeredArmodonBase = require("../setSTH/EndangeredArmodon");
 
 class EndangeredArmodon extends EndangeredArmodonBase {
   constructor(game) {

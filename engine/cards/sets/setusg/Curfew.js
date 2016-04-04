@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CurfewBase = require("../setBRB/Curfew.js");
+const Constants = require ("../../../Constants");
+const CurfewBase = require("../setBRB/Curfew");
 
 class Curfew extends CurfewBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KiyomaroFirsttoStandBase = require("../setpPRE/KiyomaroFirsttoStand.js");
+const Constants = require ("../../../Constants");
+const KiyomaroFirsttoStandBase = require("../setpPRE/KiyomaroFirsttoStand");
 
 class KiyomaroFirsttoStand extends KiyomaroFirsttoStandBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TavernSwindlerBase = require("../setDDM/TavernSwindler.js");
+const Constants = require ("../../../Constants");
+const TavernSwindlerBase = require("../setDDM/TavernSwindler");
 
 class TavernSwindler extends TavernSwindlerBase {
   constructor(game) {

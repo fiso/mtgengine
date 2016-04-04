@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RubyLeech extends Card {
+class RubyLeech extends UnimplementedCard {
   constructor(game) {
     super(game, "Ruby Leech", "Invasion", "INV");
   }

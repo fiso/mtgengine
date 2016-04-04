@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChargingPaladinBase = require("../setDD3_DVD/ChargingPaladin.js");
+const Constants = require ("../../../Constants");
+const ChargingPaladinBase = require("../setDD3_DVD/ChargingPaladin");
 
 class ChargingPaladin extends ChargingPaladinBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TraitorousInstinctBase = require("../setRTR/TraitorousInstinct.js");
+const Constants = require ("../../../Constants");
+const TraitorousInstinctBase = require("../setRTR/TraitorousInstinct");
 
 class TraitorousInstinct extends TraitorousInstinctBase {
   constructor(game) {

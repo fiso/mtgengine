@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UrbanEvolutionBase = require("../setDDO/UrbanEvolution.js");
+const Constants = require ("../../../Constants");
+const UrbanEvolutionBase = require("../setDDO/UrbanEvolution");
 
 class UrbanEvolution extends UrbanEvolutionBase {
   constructor(game) {

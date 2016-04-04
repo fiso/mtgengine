@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InspiritBase = require("../set9ED/Inspirit.js");
+const Constants = require ("../../../Constants");
+const InspiritBase = require("../set9ED/Inspirit");
 
 class Inspirit extends InspiritBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhereAncientsTreadBase = require("../setC13/WhereAncientsTread.js");
+const Constants = require ("../../../Constants");
+const WhereAncientsTreadBase = require("../setC13/WhereAncientsTread");
 
 class WhereAncientsTread extends WhereAncientsTreadBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WolfPackBase = require("../setME2/WolfPack.js");
+const Constants = require ("../../../Constants");
+const WolfPackBase = require("../setME2/WolfPack");
 
 class WolfPack extends WolfPackBase {
   constructor(game) {

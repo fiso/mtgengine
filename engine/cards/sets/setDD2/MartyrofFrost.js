@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MartyrofFrostBase = require("../setCSP/MartyrofFrost.js");
+const Constants = require ("../../../Constants");
+const MartyrofFrostBase = require("../setCSP/MartyrofFrost");
 
 class MartyrofFrost extends MartyrofFrostBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuickenBase = require("../setGPT/Quicken.js");
+const Constants = require ("../../../Constants");
+const QuickenBase = require("../setGPT/Quicken");
 
 class Quicken extends QuickenBase {
   constructor(game) {

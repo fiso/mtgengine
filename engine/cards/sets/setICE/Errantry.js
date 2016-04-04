@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ErrantryBase = require("../set5ED/Errantry.js");
+const Constants = require ("../../../Constants");
+const ErrantryBase = require("../set5ED/Errantry");
 
 class Errantry extends ErrantryBase {
   constructor(game) {

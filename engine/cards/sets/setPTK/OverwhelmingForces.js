@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OverwhelmingForcesBase = require("../setpJGP/OverwhelmingForces.js");
+const Constants = require ("../../../Constants");
+const OverwhelmingForcesBase = require("../setpJGP/OverwhelmingForces");
 
 class OverwhelmingForces extends OverwhelmingForcesBase {
   constructor(game) {

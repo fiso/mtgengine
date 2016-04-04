@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SheerDropBase = require("../setBFZ/SheerDrop.js");
+const Constants = require ("../../../Constants");
+const SheerDropBase = require("../setBFZ/SheerDrop");
 
 class SheerDrop extends SheerDropBase {
   constructor(game) {

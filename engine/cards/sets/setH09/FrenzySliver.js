@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FrenzySliverBase = require("../setFUT/FrenzySliver.js");
+const Constants = require ("../../../Constants");
+const FrenzySliverBase = require("../setFUT/FrenzySliver");
 
 class FrenzySliver extends FrenzySliverBase {
   constructor(game) {

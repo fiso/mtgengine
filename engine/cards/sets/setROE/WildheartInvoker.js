@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildheartInvokerBase = require("../setDDP/WildheartInvoker.js");
+const Constants = require ("../../../Constants");
+const WildheartInvokerBase = require("../setDDP/WildheartInvoker");
 
 class WildheartInvoker extends WildheartInvokerBase {
   constructor(game) {

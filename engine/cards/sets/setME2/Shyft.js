@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShyftBase = require("../setICE/Shyft.js");
+const Constants = require ("../../../Constants");
+const ShyftBase = require("../setICE/Shyft");
 
 class Shyft extends ShyftBase {
   constructor(game) {

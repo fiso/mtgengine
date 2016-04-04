@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PalladiaMorsBase = require("../setCHR/PalladiaMors.js");
+const Constants = require ("../../../Constants");
+const PalladiaMorsBase = require("../setCHR/PalladiaMors");
 
 class PalladiaMors extends PalladiaMorsBase {
   constructor(game) {

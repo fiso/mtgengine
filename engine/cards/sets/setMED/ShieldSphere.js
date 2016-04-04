@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ShieldSphereBase = require("../setALL/ShieldSphere.js");
+const Constants = require ("../../../Constants");
+const ShieldSphereBase = require("../setALL/ShieldSphere");
 
 class ShieldSphere extends ShieldSphereBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AeonChroniclerBase = require("../setDDM/AeonChronicler.js");
+const Constants = require ("../../../Constants");
+const AeonChroniclerBase = require("../setDDM/AeonChronicler");
 
 class AeonChronicler extends AeonChroniclerBase {
   constructor(game) {

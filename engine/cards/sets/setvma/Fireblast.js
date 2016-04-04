@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FireblastBase = require("../setDD3_JVC/Fireblast.js");
+const Constants = require ("../../../Constants");
+const FireblastBase = require("../setDD3_JVC/Fireblast");
 
 class Fireblast extends FireblastBase {
   constructor(game) {

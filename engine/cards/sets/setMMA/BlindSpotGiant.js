@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlindSpotGiantBase = require("../setLRW/BlindSpotGiant.js");
+const Constants = require ("../../../Constants");
+const BlindSpotGiantBase = require("../setLRW/BlindSpotGiant");
 
 class BlindSpotGiant extends BlindSpotGiantBase {
   constructor(game) {

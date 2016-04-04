@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AysenCrusaderBase = require("../setHML/AysenCrusader.js");
+const Constants = require ("../../../Constants");
+const AysenCrusaderBase = require("../setHML/AysenCrusader");
 
 class AysenCrusader extends AysenCrusaderBase {
   constructor(game) {

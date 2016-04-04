@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PreordainBase = require("../setC15/Preordain.js");
+const Constants = require ("../../../Constants");
+const PreordainBase = require("../setC15/Preordain");
 
 class Preordain extends PreordainBase {
   constructor(game) {

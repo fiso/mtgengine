@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CentaurCourserBase = require("../setM10/CentaurCourser.js");
+const Constants = require ("../../../Constants");
+const CentaurCourserBase = require("../setM10/CentaurCourser");
 
 class CentaurCourser extends CentaurCourserBase {
   constructor(game) {

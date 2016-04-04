@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThopterSquadronBase = require("../setEXO/ThopterSquadron.js");
+const Constants = require ("../../../Constants");
+const ThopterSquadronBase = require("../setEXO/ThopterSquadron");
 
 class ThopterSquadron extends ThopterSquadronBase {
   constructor(game) {

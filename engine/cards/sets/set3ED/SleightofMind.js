@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SleightofMindBase = require("../setCED/SleightofMind.js");
+const Constants = require ("../../../Constants");
+const SleightofMindBase = require("../setCED/SleightofMind");
 
 class SleightofMind extends SleightofMindBase {
   constructor(game) {

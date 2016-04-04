@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IvoryTowerBase = require("../setATQ/IvoryTower.js");
+const Constants = require ("../../../Constants");
+const IvoryTowerBase = require("../setATQ/IvoryTower");
 
 class IvoryTower extends IvoryTowerBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ApexHawksBase = require("../setCNS/ApexHawks.js");
+const Constants = require ("../../../Constants");
+const ApexHawksBase = require("../setCNS/ApexHawks");
 
 class ApexHawks extends ApexHawksBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PenumbraWurmBase = require("../setAPC/PenumbraWurm.js");
+const Constants = require ("../../../Constants");
+const PenumbraWurmBase = require("../setAPC/PenumbraWurm");
 
 class PenumbraWurm extends PenumbraWurmBase {
   constructor(game) {

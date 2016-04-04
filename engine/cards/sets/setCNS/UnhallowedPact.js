@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnhallowedPactBase = require("../setAVR/UnhallowedPact.js");
+const Constants = require ("../../../Constants");
+const UnhallowedPactBase = require("../setAVR/UnhallowedPact");
 
 class UnhallowedPact extends UnhallowedPactBase {
   constructor(game) {

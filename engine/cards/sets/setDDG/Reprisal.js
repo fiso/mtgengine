@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReprisalBase = require("../setALL/Reprisal.js");
+const Constants = require ("../../../Constants");
+const ReprisalBase = require("../setALL/Reprisal");
 
 class Reprisal extends ReprisalBase {
   constructor(game) {

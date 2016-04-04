@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DreadWightBase = require("../setICE/DreadWight.js");
+const Constants = require ("../../../Constants");
+const DreadWightBase = require("../setICE/DreadWight");
 
 class DreadWight extends DreadWightBase {
   constructor(game) {

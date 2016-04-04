@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MalfegorBase = require("../setCON/Malfegor.js");
+const Constants = require ("../../../Constants");
+const MalfegorBase = require("../setCON/Malfegor");
 
 class Malfegor extends MalfegorBase {
   constructor(game) {

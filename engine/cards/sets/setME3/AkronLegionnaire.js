@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AkronLegionnaireBase = require("../setCHR/AkronLegionnaire.js");
+const Constants = require ("../../../Constants");
+const AkronLegionnaireBase = require("../setCHR/AkronLegionnaire");
 
 class AkronLegionnaire extends AkronLegionnaireBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OrzhovGuildmageBase = require("../setGPT/OrzhovGuildmage.js");
+const Constants = require ("../../../Constants");
+const OrzhovGuildmageBase = require("../setGPT/OrzhovGuildmage");
 
 class OrzhovGuildmage extends OrzhovGuildmageBase {
   constructor(game) {

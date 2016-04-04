@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TwincastBase = require("../setM10/Twincast.js");
+const Constants = require ("../../../Constants");
+const TwincastBase = require("../setM10/Twincast");
 
 class Twincast extends TwincastBase {
   constructor(game) {

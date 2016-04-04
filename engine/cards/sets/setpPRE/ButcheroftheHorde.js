@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ButcheroftheHordeBase = require("../setKTK/ButcheroftheHorde.js");
+const Constants = require ("../../../Constants");
+const ButcheroftheHordeBase = require("../setKTK/ButcheroftheHorde");
 
 class ButcheroftheHorde extends ButcheroftheHordeBase {
   constructor(game) {

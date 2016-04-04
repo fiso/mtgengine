@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CloudDjinnBase = require("../setBTD/CloudDjinn.js");
+const Constants = require ("../../../Constants");
+const CloudDjinnBase = require("../setBTD/CloudDjinn");
 
 class CloudDjinn extends CloudDjinnBase {
   constructor(game) {

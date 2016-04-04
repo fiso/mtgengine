@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LumithreadField extends Card {
+class LumithreadField extends UnimplementedCard {
   constructor(game) {
     super(game, "Lumithread Field", "Future Sight", "FUT");
   }

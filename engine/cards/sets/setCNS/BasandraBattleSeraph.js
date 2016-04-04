@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BasandraBattleSeraphBase = require("../setCMD/BasandraBattleSeraph.js");
+const Constants = require ("../../../Constants");
+const BasandraBattleSeraphBase = require("../setCMD/BasandraBattleSeraph");
 
 class BasandraBattleSeraph extends BasandraBattleSeraphBase {
   constructor(game) {

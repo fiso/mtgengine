@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FierceInvocationBase = require("../setFRF/FierceInvocation.js");
+const Constants = require ("../../../Constants");
+const FierceInvocationBase = require("../setFRF/FierceInvocation");
 
 class FierceInvocation extends FierceInvocationBase {
   constructor(game) {

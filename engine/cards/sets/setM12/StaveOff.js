@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StaveOffBase = require("../setDDN/StaveOff.js");
+const Constants = require ("../../../Constants");
+const StaveOffBase = require("../setDDN/StaveOff");
 
 class StaveOff extends StaveOffBase {
   constructor(game) {

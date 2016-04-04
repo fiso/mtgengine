@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TidalKrakenBase = require("../set8ED/TidalKraken.js");
+const Constants = require ("../../../Constants");
+const TidalKrakenBase = require("../set8ED/TidalKraken");
 
 class TidalKraken extends TidalKrakenBase {
   constructor(game) {

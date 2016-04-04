@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GarruksPackleaderBase = require("../setM11/GarruksPackleader.js");
+const Constants = require ("../../../Constants");
+const GarruksPackleaderBase = require("../setM11/GarruksPackleader");
 
 class GarruksPackleader extends GarruksPackleaderBase {
   constructor(game) {

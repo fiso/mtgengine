@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RootsBase = require("../setHML/Roots.js");
+const Constants = require ("../../../Constants");
+const RootsBase = require("../setHML/Roots");
 
 class Roots extends RootsBase {
   constructor(game) {

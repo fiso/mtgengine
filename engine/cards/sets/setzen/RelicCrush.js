@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RelicCrushBase = require("../setCMD/RelicCrush.js");
+const Constants = require ("../../../Constants");
+const RelicCrushBase = require("../setCMD/RelicCrush");
 
 class RelicCrush extends RelicCrushBase {
   constructor(game) {

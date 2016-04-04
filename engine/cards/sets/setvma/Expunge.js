@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ExpungeBase = require("../setUSG/Expunge.js");
+const Constants = require ("../../../Constants");
+const ExpungeBase = require("../setUSG/Expunge");
 
 class Expunge extends ExpungeBase {
   constructor(game) {

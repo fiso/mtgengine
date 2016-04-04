@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DawnstrikePaladinBase = require("../setDDL/DawnstrikePaladin.js");
+const Constants = require ("../../../Constants");
+const DawnstrikePaladinBase = require("../setDDL/DawnstrikePaladin");
 
 class DawnstrikePaladin extends DawnstrikePaladinBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FranticSearchBase = require("../setULG/FranticSearch.js");
+const Constants = require ("../../../Constants");
+const FranticSearchBase = require("../setULG/FranticSearch");
 
 class FranticSearch extends FranticSearchBase {
   constructor(game) {

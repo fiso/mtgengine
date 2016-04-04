@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AvenWindreaderBase = require("../set9ED/AvenWindreader.js");
+const Constants = require ("../../../Constants");
+const AvenWindreaderBase = require("../set9ED/AvenWindreader");
 
 class AvenWindreader extends AvenWindreaderBase {
   constructor(game) {

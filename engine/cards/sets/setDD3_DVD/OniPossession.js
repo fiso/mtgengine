@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const OniPossessionBase = require("../setCHK/OniPossession.js");
+const Constants = require ("../../../Constants");
+const OniPossessionBase = require("../setCHK/OniPossession");
 
 class OniPossession extends OniPossessionBase {
   constructor(game) {

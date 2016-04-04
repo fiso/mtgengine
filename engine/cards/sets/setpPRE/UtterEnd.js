@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UtterEndBase = require("../setKTK/UtterEnd.js");
+const Constants = require ("../../../Constants");
+const UtterEndBase = require("../setKTK/UtterEnd");
 
 class UtterEnd extends UtterEndBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RazorBarrierBase = require("../setDDF/RazorBarrier.js");
+const Constants = require ("../../../Constants");
+const RazorBarrierBase = require("../setDDF/RazorBarrier");
 
 class RazorBarrier extends RazorBarrierBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BridgefromBelowBase = require("../setFUT/BridgefromBelow.js");
+const Constants = require ("../../../Constants");
+const BridgefromBelowBase = require("../setFUT/BridgefromBelow");
 
 class BridgefromBelow extends BridgefromBelowBase {
   constructor(game) {

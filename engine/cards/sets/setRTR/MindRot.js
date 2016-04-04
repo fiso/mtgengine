@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MindRotBase = require("../setDTK/MindRot.js");
+const Constants = require ("../../../Constants");
+const MindRotBase = require("../setDTK/MindRot");
 
 class MindRot extends MindRotBase {
   constructor(game) {

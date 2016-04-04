@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WalkingWallBase = require("../setDKM/WalkingWall.js");
+const Constants = require ("../../../Constants");
+const WalkingWallBase = require("../setDKM/WalkingWall");
 
 class WalkingWall extends WalkingWallBase {
   constructor(game) {

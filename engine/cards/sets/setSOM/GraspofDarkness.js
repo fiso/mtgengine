@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GraspofDarknessBase = require("../setOGW/GraspofDarkness.js");
+const Constants = require ("../../../Constants");
+const GraspofDarknessBase = require("../setOGW/GraspofDarkness");
 
 class GraspofDarkness extends GraspofDarknessBase {
   constructor(game) {

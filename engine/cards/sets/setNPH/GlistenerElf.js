@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GlistenerElfBase = require("../setpFNM/GlistenerElf.js");
+const Constants = require ("../../../Constants");
+const GlistenerElfBase = require("../setpFNM/GlistenerElf");
 
 class GlistenerElf extends GlistenerElfBase {
   constructor(game) {

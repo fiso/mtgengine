@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WhelmingWaveBase = require("../setBNG/WhelmingWave.js");
+const Constants = require ("../../../Constants");
+const WhelmingWaveBase = require("../setBNG/WhelmingWave");
 
 class WhelmingWave extends WhelmingWaveBase {
   constructor(game) {

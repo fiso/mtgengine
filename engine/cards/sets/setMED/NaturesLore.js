@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NaturesLoreBase = require("../setDD3_GVL/NaturesLore.js");
+const Constants = require ("../../../Constants");
+const NaturesLoreBase = require("../setDD3_GVL/NaturesLore");
 
 class NaturesLore extends NaturesLoreBase {
   constructor(game) {

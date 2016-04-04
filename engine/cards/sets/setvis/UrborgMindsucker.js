@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UrborgMindsuckerBase = require("../setMGB/UrborgMindsucker.js");
+const Constants = require ("../../../Constants");
+const UrborgMindsuckerBase = require("../setMGB/UrborgMindsucker");
 
 class UrborgMindsucker extends UrborgMindsuckerBase {
   constructor(game) {

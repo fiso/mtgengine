@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ForcedRetreatBase = require("../setME3/ForcedRetreat.js");
+const Constants = require ("../../../Constants");
+const ForcedRetreatBase = require("../setME3/ForcedRetreat");
 
 class ForcedRetreat extends ForcedRetreatBase {
   constructor(game) {

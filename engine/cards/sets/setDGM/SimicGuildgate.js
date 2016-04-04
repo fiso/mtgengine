@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SimicGuildgateBase = require("../setC13/SimicGuildgate.js");
+const Constants = require ("../../../Constants");
+const SimicGuildgateBase = require("../setC13/SimicGuildgate");
 
 class SimicGuildgate extends SimicGuildgateBase {
   constructor(game) {

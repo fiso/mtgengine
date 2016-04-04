@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VolcanicDragonBase = require("../setATH/VolcanicDragon.js");
+const Constants = require ("../../../Constants");
+const VolcanicDragonBase = require("../setATH/VolcanicDragon");
 
 class VolcanicDragon extends VolcanicDragonBase {
   constructor(game) {

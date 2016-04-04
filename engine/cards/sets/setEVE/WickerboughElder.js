@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WickerboughElderBase = require("../setARC/WickerboughElder.js");
+const Constants = require ("../../../Constants");
+const WickerboughElderBase = require("../setARC/WickerboughElder");
 
 class WickerboughElder extends WickerboughElderBase {
   constructor(game) {

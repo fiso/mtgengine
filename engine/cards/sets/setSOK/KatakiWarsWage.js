@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KatakiWarsWageBase = require("../setMD1/KatakiWarsWage.js");
+const Constants = require ("../../../Constants");
+const KatakiWarsWageBase = require("../setMD1/KatakiWarsWage");
 
 class KatakiWarsWage extends KatakiWarsWageBase {
   constructor(game) {

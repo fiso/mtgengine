@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PowerArmorBase = require("../setDDE/PowerArmor.js");
+const Constants = require ("../../../Constants");
+const PowerArmorBase = require("../setDDE/PowerArmor");
 
 class PowerArmor extends PowerArmorBase {
   constructor(game) {

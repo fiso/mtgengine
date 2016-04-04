@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SporeFlowerBase = require("../setFEM/SporeFlower.js");
+const Constants = require ("../../../Constants");
+const SporeFlowerBase = require("../setFEM/SporeFlower");
 
 class SporeFlower extends SporeFlowerBase {
   constructor(game) {

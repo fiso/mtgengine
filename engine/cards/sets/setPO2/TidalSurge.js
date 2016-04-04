@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TidalSurgeBase = require("../set6ED/TidalSurge.js");
+const Constants = require ("../../../Constants");
+const TidalSurgeBase = require("../set6ED/TidalSurge");
 
 class TidalSurge extends TidalSurgeBase {
   constructor(game) {

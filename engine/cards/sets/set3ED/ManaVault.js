@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ManaVaultBase = require("../setCED/ManaVault.js");
+const Constants = require ("../../../Constants");
+const ManaVaultBase = require("../setCED/ManaVault");
 
 class ManaVault extends ManaVaultBase {
   constructor(game) {

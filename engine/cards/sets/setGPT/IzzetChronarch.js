@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IzzetChronarchBase = require("../setDDJ/IzzetChronarch.js");
+const Constants = require ("../../../Constants");
+const IzzetChronarchBase = require("../setDDJ/IzzetChronarch");
 
 class IzzetChronarch extends IzzetChronarchBase {
   constructor(game) {

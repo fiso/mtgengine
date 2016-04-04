@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PatagiaViperBase = require("../setC15/PatagiaViper.js");
+const Constants = require ("../../../Constants");
+const PatagiaViperBase = require("../setC15/PatagiaViper");
 
 class PatagiaViper extends PatagiaViperBase {
   constructor(game) {

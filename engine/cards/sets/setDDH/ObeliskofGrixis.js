@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ObeliskofGrixisBase = require("../setC13/ObeliskofGrixis.js");
+const Constants = require ("../../../Constants");
+const ObeliskofGrixisBase = require("../setC13/ObeliskofGrixis");
 
 class ObeliskofGrixis extends ObeliskofGrixisBase {
   constructor(game) {

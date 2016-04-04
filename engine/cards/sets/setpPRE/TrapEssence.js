@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrapEssenceBase = require("../setKTK/TrapEssence.js");
+const Constants = require ("../../../Constants");
+const TrapEssenceBase = require("../setKTK/TrapEssence");
 
 class TrapEssence extends TrapEssenceBase {
   constructor(game) {

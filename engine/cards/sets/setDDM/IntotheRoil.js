@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IntotheRoilBase = require("../setC14/IntotheRoil.js");
+const Constants = require ("../../../Constants");
+const IntotheRoilBase = require("../setC14/IntotheRoil");
 
 class IntotheRoil extends IntotheRoilBase {
   constructor(game) {

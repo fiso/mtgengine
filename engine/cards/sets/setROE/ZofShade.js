@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ZofShadeBase = require("../setM15/ZofShade.js");
+const Constants = require ("../../../Constants");
+const ZofShadeBase = require("../setM15/ZofShade");
 
 class ZofShade extends ZofShadeBase {
   constructor(game) {

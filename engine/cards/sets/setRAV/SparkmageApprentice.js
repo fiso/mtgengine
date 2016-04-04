@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SparkmageApprenticeBase = require("../setDDN/SparkmageApprentice.js");
+const Constants = require ("../../../Constants");
+const SparkmageApprenticeBase = require("../setDDN/SparkmageApprentice");
 
 class SparkmageApprentice extends SparkmageApprenticeBase {
   constructor(game) {

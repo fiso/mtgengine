@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PandemoniumBase = require("../setEXO/Pandemonium.js");
+const Constants = require ("../../../Constants");
+const PandemoniumBase = require("../setEXO/Pandemonium");
 
 class Pandemonium extends PandemoniumBase {
   constructor(game) {

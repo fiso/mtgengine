@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const EngineeredPlagueBase = require("../setpFNM/EngineeredPlague.js");
+const Constants = require ("../../../Constants");
+const EngineeredPlagueBase = require("../setpFNM/EngineeredPlague");
 
 class EngineeredPlague extends EngineeredPlagueBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PurelaceBase = require("../setCED/Purelace.js");
+const Constants = require ("../../../Constants");
+const PurelaceBase = require("../setCED/Purelace");
 
 class Purelace extends PurelaceBase {
   constructor(game) {

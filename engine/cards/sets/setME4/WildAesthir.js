@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildAesthirBase = require("../setALL/WildAesthir.js");
+const Constants = require ("../../../Constants");
+const WildAesthirBase = require("../setALL/WildAesthir");
 
 class WildAesthir extends WildAesthirBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CombustBase = require("../setM11/Combust.js");
+const Constants = require ("../../../Constants");
+const CombustBase = require("../setM11/Combust");
 
 class Combust extends CombustBase {
   constructor(game) {

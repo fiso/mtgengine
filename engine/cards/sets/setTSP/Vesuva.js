@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VesuvaBase = require("../setV12/Vesuva.js");
+const Constants = require ("../../../Constants");
+const VesuvaBase = require("../setV12/Vesuva");
 
 class Vesuva extends VesuvaBase {
   constructor(game) {

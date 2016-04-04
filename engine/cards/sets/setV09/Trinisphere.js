@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TrinisphereBase = require("../setDST/Trinisphere.js");
+const Constants = require ("../../../Constants");
+const TrinisphereBase = require("../setDST/Trinisphere");
 
 class Trinisphere extends TrinisphereBase {
   constructor(game) {

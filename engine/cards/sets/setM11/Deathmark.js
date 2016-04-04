@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeathmarkBase = require("../setCSP/Deathmark.js");
+const Constants = require ("../../../Constants");
+const DeathmarkBase = require("../setCSP/Deathmark");
 
 class Deathmark extends DeathmarkBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AlliedStrategiesBase = require("../setDDE/AlliedStrategies.js");
+const Constants = require ("../../../Constants");
+const AlliedStrategiesBase = require("../setDDE/AlliedStrategies");
 
 class AlliedStrategies extends AlliedStrategiesBase {
   constructor(game) {

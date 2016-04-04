@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FissureVentBase = require("../setC13/FissureVent.js");
+const Constants = require ("../../../Constants");
+const FissureVentBase = require("../setC13/FissureVent");
 
 class FissureVent extends FissureVentBase {
   constructor(game) {

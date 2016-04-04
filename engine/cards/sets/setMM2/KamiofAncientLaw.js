@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KamiofAncientLawBase = require("../setCHK/KamiofAncientLaw.js");
+const Constants = require ("../../../Constants");
+const KamiofAncientLawBase = require("../setCHK/KamiofAncientLaw");
 
 class KamiofAncientLaw extends KamiofAncientLawBase {
   constructor(game) {

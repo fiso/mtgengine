@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LotusCobraBase = require("../setpGPX/LotusCobra.js");
+const Constants = require ("../../../Constants");
+const LotusCobraBase = require("../setpGPX/LotusCobra");
 
 class LotusCobra extends LotusCobraBase {
   constructor(game) {

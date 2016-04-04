@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RoutBase = require("../setINV/Rout.js");
+const Constants = require ("../../../Constants");
+const RoutBase = require("../setINV/Rout");
 
 class Rout extends RoutBase {
   constructor(game) {

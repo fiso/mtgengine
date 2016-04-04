@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NightveilSpecterBase = require("../setGTC/NightveilSpecter.js");
+const Constants = require ("../../../Constants");
+const NightveilSpecterBase = require("../setGTC/NightveilSpecter");
 
 class NightveilSpecter extends NightveilSpecterBase {
   constructor(game) {

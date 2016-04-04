@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const PitTrapBase = require("../setICE/PitTrap.js");
+const Constants = require ("../../../Constants");
+const PitTrapBase = require("../setICE/PitTrap");
 
 class PitTrap extends PitTrapBase {
   constructor(game) {

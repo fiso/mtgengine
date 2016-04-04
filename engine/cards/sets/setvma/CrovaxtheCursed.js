@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CrovaxtheCursedBase = require("../setSTH/CrovaxtheCursed.js");
+const Constants = require ("../../../Constants");
+const CrovaxtheCursedBase = require("../setSTH/CrovaxtheCursed");
 
 class CrovaxtheCursed extends CrovaxtheCursedBase {
   constructor(game) {

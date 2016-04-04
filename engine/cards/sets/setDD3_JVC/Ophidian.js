@@ -1,8 +1,8 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
+const Constants = require ("../../../Constants");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Ophidian extends Card {
+class Ophidian extends UnimplementedCard {
   constructor(game) {
     super(game, "Ophidian", "Duel Decks Anthology, Jace vs. Chandra", "DD3_JVC");
   }

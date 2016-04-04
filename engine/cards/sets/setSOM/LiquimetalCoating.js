@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LiquimetalCoatingBase = require("../setC14/LiquimetalCoating.js");
+const Constants = require ("../../../Constants");
+const LiquimetalCoatingBase = require("../setC14/LiquimetalCoating");
 
 class LiquimetalCoating extends LiquimetalCoatingBase {
   constructor(game) {

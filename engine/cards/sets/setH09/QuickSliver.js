@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuickSliverBase = require("../setLGN/QuickSliver.js");
+const Constants = require ("../../../Constants");
+const QuickSliverBase = require("../setLGN/QuickSliver");
 
 class QuickSliver extends QuickSliverBase {
   constructor(game) {

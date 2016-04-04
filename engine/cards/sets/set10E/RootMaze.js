@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RootMazeBase = require("../setTMP/RootMaze.js");
+const Constants = require ("../../../Constants");
+const RootMazeBase = require("../setTMP/RootMaze");
 
 class RootMaze extends RootMazeBase {
   constructor(game) {

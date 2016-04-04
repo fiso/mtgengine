@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FogBase = require("../setARC/Fog.js");
+const Constants = require ("../../../Constants");
+const FogBase = require("../setARC/Fog");
 
 class Fog extends FogBase {
   constructor(game) {

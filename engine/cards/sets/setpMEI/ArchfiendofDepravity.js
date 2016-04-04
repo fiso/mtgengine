@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArchfiendofDepravityBase = require("../setFRF/ArchfiendofDepravity.js");
+const Constants = require ("../../../Constants");
+const ArchfiendofDepravityBase = require("../setFRF/ArchfiendofDepravity");
 
 class ArchfiendofDepravity extends ArchfiendofDepravityBase {
   constructor(game) {

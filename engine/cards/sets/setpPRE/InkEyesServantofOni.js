@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InkEyesServantofOniBase = require("../setBOK/InkEyesServantofOni.js");
+const Constants = require ("../../../Constants");
+const InkEyesServantofOniBase = require("../setBOK/InkEyesServantofOni");
 
 class InkEyesServantofOni extends InkEyesServantofOniBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ClockworkAvianBase = require("../setATQ/ClockworkAvian.js");
+const Constants = require ("../../../Constants");
+const ClockworkAvianBase = require("../setATQ/ClockworkAvian");
 
 class ClockworkAvian extends ClockworkAvianBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ReitoLanternBase = require("../setCHK/ReitoLantern.js");
+const Constants = require ("../../../Constants");
+const ReitoLanternBase = require("../setCHK/ReitoLantern");
 
 class ReitoLantern extends ReitoLanternBase {
   constructor(game) {

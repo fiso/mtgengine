@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RebirthBase = require("../set4ED/Rebirth.js");
+const Constants = require ("../../../Constants");
+const RebirthBase = require("../set4ED/Rebirth");
 
 class Rebirth extends RebirthBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpinalGraftBase = require("../setTMP/SpinalGraft.js");
+const Constants = require ("../../../Constants");
+const SpinalGraftBase = require("../setTMP/SpinalGraft");
 
 class SpinalGraft extends SpinalGraftBase {
   constructor(game) {

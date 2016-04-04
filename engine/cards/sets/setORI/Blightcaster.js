@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BlightcasterBase = require("../setM14/Blightcaster.js");
+const Constants = require ("../../../Constants");
+const BlightcasterBase = require("../setM14/Blightcaster");
 
 class Blightcaster extends BlightcasterBase {
   constructor(game) {

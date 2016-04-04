@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SkullofOrmBase = require("../set8ED/SkullofOrm.js");
+const Constants = require ("../../../Constants");
+const SkullofOrmBase = require("../set8ED/SkullofOrm");
 
 class SkullofOrm extends SkullofOrmBase {
   constructor(game) {

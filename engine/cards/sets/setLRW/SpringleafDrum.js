@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpringleafDrumBase = require("../setBNG/SpringleafDrum.js");
+const Constants = require ("../../../Constants");
+const SpringleafDrumBase = require("../setBNG/SpringleafDrum");
 
 class SpringleafDrum extends SpringleafDrumBase {
   constructor(game) {

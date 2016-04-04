@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreetopVillageBase = require("../setDD3_GVL/TreetopVillage.js");
+const Constants = require ("../../../Constants");
+const TreetopVillageBase = require("../setDD3_GVL/TreetopVillage");
 
 class TreetopVillage extends TreetopVillageBase {
   constructor(game) {

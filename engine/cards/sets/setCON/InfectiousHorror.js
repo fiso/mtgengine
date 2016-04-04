@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InfectiousHorrorBase = require("../setARC/InfectiousHorror.js");
+const Constants = require ("../../../Constants");
+const InfectiousHorrorBase = require("../setARC/InfectiousHorror");
 
 class InfectiousHorror extends InfectiousHorrorBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const BrushlandBase = require("../setATH/Brushland.js");
+const Constants = require ("../../../Constants");
+const BrushlandBase = require("../setATH/Brushland");
 
 class Brushland extends BrushlandBase {
   constructor(game) {

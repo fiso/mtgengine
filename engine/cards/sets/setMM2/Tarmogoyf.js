@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TarmogoyfBase = require("../setFUT/Tarmogoyf.js");
+const Constants = require ("../../../Constants");
+const TarmogoyfBase = require("../setFUT/Tarmogoyf");
 
 class Tarmogoyf extends TarmogoyfBase {
   constructor(game) {

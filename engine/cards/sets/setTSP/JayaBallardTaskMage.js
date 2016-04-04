@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const JayaBallardTaskMageBase = require("../setpMEI/JayaBallardTaskMage.js");
+const Constants = require ("../../../Constants");
+const JayaBallardTaskMageBase = require("../setpMEI/JayaBallardTaskMage");
 
 class JayaBallardTaskMage extends JayaBallardTaskMageBase {
   constructor(game) {

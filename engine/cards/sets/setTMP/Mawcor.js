@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MawcorBase = require("../set7ED/Mawcor.js");
+const Constants = require ("../../../Constants");
+const MawcorBase = require("../set7ED/Mawcor");
 
 class Mawcor extends MawcorBase {
   constructor(game) {

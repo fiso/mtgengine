@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const QuirionElvesBase = require("../setBTD/QuirionElves.js");
+const Constants = require ("../../../Constants");
+const QuirionElvesBase = require("../setBTD/QuirionElves");
 
 class QuirionElves extends QuirionElvesBase {
   constructor(game) {

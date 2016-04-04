@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const KrovikanMistBase = require("../setCSP/KrovikanMist.js");
+const Constants = require ("../../../Constants");
+const KrovikanMistBase = require("../setCSP/KrovikanMist");
 
 class KrovikanMist extends KrovikanMistBase {
   constructor(game) {

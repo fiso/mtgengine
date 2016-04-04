@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SwordofBodyandMindBase = require("../setV10/SwordofBodyandMind.js");
+const Constants = require ("../../../Constants");
+const SwordofBodyandMindBase = require("../setV10/SwordofBodyandMind");
 
 class SwordofBodyandMind extends SwordofBodyandMindBase {
   constructor(game) {

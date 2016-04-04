@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VolrathsShapeshifterBase = require("../setSTH/VolrathsShapeshifter.js");
+const Constants = require ("../../../Constants");
+const VolrathsShapeshifterBase = require("../setSTH/VolrathsShapeshifter");
 
 class VolrathsShapeshifter extends VolrathsShapeshifterBase {
   constructor(game) {

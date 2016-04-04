@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeepWoodBase = require("../setPOR/DeepWood.js");
+const Constants = require ("../../../Constants");
+const DeepWoodBase = require("../setPOR/DeepWood");
 
 class DeepWood extends DeepWoodBase {
   constructor(game) {

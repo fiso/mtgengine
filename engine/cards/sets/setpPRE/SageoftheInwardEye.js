@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SageoftheInwardEyeBase = require("../setKTK/SageoftheInwardEye.js");
+const Constants = require ("../../../Constants");
+const SageoftheInwardEyeBase = require("../setKTK/SageoftheInwardEye");
 
 class SageoftheInwardEye extends SageoftheInwardEyeBase {
   constructor(game) {

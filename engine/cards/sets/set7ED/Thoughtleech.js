@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThoughtleechBase = require("../setICE/Thoughtleech.js");
+const Constants = require ("../../../Constants");
+const ThoughtleechBase = require("../setICE/Thoughtleech");
 
 class Thoughtleech extends ThoughtleechBase {
   constructor(game) {

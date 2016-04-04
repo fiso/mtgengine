@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ÆtherMutationBase = require("../setAPC/ÆtherMutation.js");
+const Constants = require ("../../../Constants");
+const ÆtherMutationBase = require("../setAPC/ÆtherMutation");
 
 class ÆtherMutation extends ÆtherMutationBase {
   constructor(game) {

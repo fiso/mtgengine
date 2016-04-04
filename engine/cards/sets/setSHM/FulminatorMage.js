@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FulminatorMageBase = require("../setMM2/FulminatorMage.js");
+const Constants = require ("../../../Constants");
+const FulminatorMageBase = require("../setMM2/FulminatorMage");
 
 class FulminatorMage extends FulminatorMageBase {
   constructor(game) {

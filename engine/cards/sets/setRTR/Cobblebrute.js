@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CobblebruteBase = require("../setORI/Cobblebrute.js");
+const Constants = require ("../../../Constants");
+const CobblebruteBase = require("../setORI/Cobblebrute");
 
 class Cobblebrute extends CobblebruteBase {
   constructor(game) {

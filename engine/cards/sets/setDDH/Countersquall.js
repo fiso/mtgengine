@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CountersquallBase = require("../setCON/Countersquall.js");
+const Constants = require ("../../../Constants");
+const CountersquallBase = require("../setCON/Countersquall");
 
 class Countersquall extends CountersquallBase {
   constructor(game) {

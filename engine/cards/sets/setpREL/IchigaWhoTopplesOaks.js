@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const IchigaWhoTopplesOaksBase = require("../setBOK/IchigaWhoTopplesOaks.js");
+const Constants = require ("../../../Constants");
+const IchigaWhoTopplesOaksBase = require("../setBOK/IchigaWhoTopplesOaks");
 
 class IchigaWhoTopplesOaks extends IchigaWhoTopplesOaksBase {
   constructor(game) {

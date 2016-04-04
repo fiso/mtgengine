@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrizzlyFateBase = require("../setJUD/GrizzlyFate.js");
+const Constants = require ("../../../Constants");
+const GrizzlyFateBase = require("../setJUD/GrizzlyFate");
 
 class GrizzlyFate extends GrizzlyFateBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GrapeshotCatapultBase = require("../setATQ/GrapeshotCatapult.js");
+const Constants = require ("../../../Constants");
+const GrapeshotCatapultBase = require("../setATQ/GrapeshotCatapult");
 
 class GrapeshotCatapult extends GrapeshotCatapultBase {
   constructor(game) {

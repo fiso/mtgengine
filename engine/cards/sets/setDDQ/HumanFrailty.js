@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HumanFrailtyBase = require("../setAVR/HumanFrailty.js");
+const Constants = require ("../../../Constants");
+const HumanFrailtyBase = require("../setAVR/HumanFrailty");
 
 class HumanFrailty extends HumanFrailtyBase {
   constructor(game) {

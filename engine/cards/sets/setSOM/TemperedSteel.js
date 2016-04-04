@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TemperedSteelBase = require("../setpMGD/TemperedSteel.js");
+const Constants = require ("../../../Constants");
+const TemperedSteelBase = require("../setpMGD/TemperedSteel");
 
 class TemperedSteel extends TemperedSteelBase {
   constructor(game) {

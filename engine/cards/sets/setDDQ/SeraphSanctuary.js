@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SeraphSanctuaryBase = require("../setAVR/SeraphSanctuary.js");
+const Constants = require ("../../../Constants");
+const SeraphSanctuaryBase = require("../setAVR/SeraphSanctuary");
 
 class SeraphSanctuary extends SeraphSanctuaryBase {
   constructor(game) {

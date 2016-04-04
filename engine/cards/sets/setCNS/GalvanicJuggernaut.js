@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GalvanicJuggernautBase = require("../setISD/GalvanicJuggernaut.js");
+const Constants = require ("../../../Constants");
+const GalvanicJuggernautBase = require("../setISD/GalvanicJuggernaut");
 
 class GalvanicJuggernaut extends GalvanicJuggernautBase {
   constructor(game) {

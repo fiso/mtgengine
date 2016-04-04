@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DeathMutationBase = require("../setAPC/DeathMutation.js");
+const Constants = require ("../../../Constants");
+const DeathMutationBase = require("../setAPC/DeathMutation");
 
 class DeathMutation extends DeathMutationBase {
   constructor(game) {

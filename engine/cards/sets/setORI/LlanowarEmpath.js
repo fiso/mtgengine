@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LlanowarEmpathBase = require("../setFUT/LlanowarEmpath.js");
+const Constants = require ("../../../Constants");
+const LlanowarEmpathBase = require("../setFUT/LlanowarEmpath");
 
 class LlanowarEmpath extends LlanowarEmpathBase {
   constructor(game) {

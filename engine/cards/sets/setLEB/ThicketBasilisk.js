@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ThicketBasiliskBase = require("../set6ED/ThicketBasilisk.js");
+const Constants = require ("../../../Constants");
+const ThicketBasiliskBase = require("../set6ED/ThicketBasilisk");
 
 class ThicketBasilisk extends ThicketBasiliskBase {
   constructor(game) {

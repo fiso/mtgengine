@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SymbolofUnsummoningBase = require("../setME4/SymbolofUnsummoning.js");
+const Constants = require ("../../../Constants");
+const SymbolofUnsummoningBase = require("../setME4/SymbolofUnsummoning");
 
 class SymbolofUnsummoning extends SymbolofUnsummoningBase {
   constructor(game) {

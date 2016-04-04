@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SapseepForestBase = require("../setDDH/SapseepForest.js");
+const Constants = require ("../../../Constants");
+const SapseepForestBase = require("../setDDH/SapseepForest");
 
 class SapseepForest extends SapseepForestBase {
   constructor(game) {

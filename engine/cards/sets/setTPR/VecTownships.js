@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const VecTownshipsBase = require("../setBRB/VecTownships.js");
+const Constants = require ("../../../Constants");
+const VecTownshipsBase = require("../setBRB/VecTownships");
 
 class VecTownships extends VecTownshipsBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GiantStrengthBase = require("../set6ED/GiantStrength.js");
+const Constants = require ("../../../Constants");
+const GiantStrengthBase = require("../set6ED/GiantStrength");
 
 class GiantStrength extends GiantStrengthBase {
   constructor(game) {

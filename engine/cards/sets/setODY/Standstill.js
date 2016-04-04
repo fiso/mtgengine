@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StandstillBase = require("../setpMEI/Standstill.js");
+const Constants = require ("../../../Constants");
+const StandstillBase = require("../setpMEI/Standstill");
 
 class Standstill extends StandstillBase {
   constructor(game) {

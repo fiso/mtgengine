@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TimberpackWolfBase = require("../setM13/TimberpackWolf.js");
+const Constants = require ("../../../Constants");
+const TimberpackWolfBase = require("../setM13/TimberpackWolf");
 
 class TimberpackWolf extends TimberpackWolfBase {
   constructor(game) {

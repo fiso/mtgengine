@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const CradleofVitalityBase = require("../setC13/CradleofVitality.js");
+const Constants = require ("../../../Constants");
+const CradleofVitalityBase = require("../setC13/CradleofVitality");
 
 class CradleofVitality extends CradleofVitalityBase {
   constructor(game) {

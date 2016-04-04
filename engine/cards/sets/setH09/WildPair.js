@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const WildPairBase = require("../setPLC/WildPair.js");
+const Constants = require ("../../../Constants");
+const WildPairBase = require("../setPLC/WildPair");
 
 class WildPair extends WildPairBase {
   constructor(game) {

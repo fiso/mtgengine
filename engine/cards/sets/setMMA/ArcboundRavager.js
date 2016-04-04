@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArcboundRavagerBase = require("../setDST/ArcboundRavager.js");
+const Constants = require ("../../../Constants");
+const ArcboundRavagerBase = require("../setDST/ArcboundRavager");
 
 class ArcboundRavager extends ArcboundRavagerBase {
   constructor(game) {

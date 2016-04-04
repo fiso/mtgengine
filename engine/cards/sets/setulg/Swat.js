@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SwatBase = require("../setONS/Swat.js");
+const Constants = require ("../../../Constants");
+const SwatBase = require("../setONS/Swat");
 
 class Swat extends SwatBase {
   constructor(game) {

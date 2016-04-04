@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SimicInitiateBase = require("../setDIS/SimicInitiate.js");
+const Constants = require ("../../../Constants");
+const SimicInitiateBase = require("../setDIS/SimicInitiate");
 
 class SimicInitiate extends SimicInitiateBase {
   constructor(game) {

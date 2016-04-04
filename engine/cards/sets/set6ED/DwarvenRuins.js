@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DwarvenRuinsBase = require("../setBTD/DwarvenRuins.js");
+const Constants = require ("../../../Constants");
+const DwarvenRuinsBase = require("../setBTD/DwarvenRuins");
 
 class DwarvenRuins extends DwarvenRuinsBase {
   constructor(game) {

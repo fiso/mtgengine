@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const MasterDecoyBase = require("../setBRB/MasterDecoy.js");
+const Constants = require ("../../../Constants");
+const MasterDecoyBase = require("../setBRB/MasterDecoy");
 
 class MasterDecoy extends MasterDecoyBase {
   constructor(game) {

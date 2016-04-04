@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DerelorBase = require("../set6ED/Derelor.js");
+const Constants = require ("../../../Constants");
+const DerelorBase = require("../set6ED/Derelor");
 
 class Derelor extends DerelorBase {
   constructor(game) {

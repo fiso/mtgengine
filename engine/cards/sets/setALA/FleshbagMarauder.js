@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const FleshbagMarauderBase = require("../setDD3_GVL/FleshbagMarauder.js");
+const Constants = require ("../../../Constants");
+const FleshbagMarauderBase = require("../setDD3_GVL/FleshbagMarauder");
 
 class FleshbagMarauder extends FleshbagMarauderBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const InsurrectionBase = require("../setCMD/Insurrection.js");
+const Constants = require ("../../../Constants");
+const InsurrectionBase = require("../setCMD/Insurrection");
 
 class Insurrection extends InsurrectionBase {
   constructor(game) {

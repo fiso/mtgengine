@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ElectrolyzeBase = require("../setpCMP/Electrolyze.js");
+const Constants = require ("../../../Constants");
+const ElectrolyzeBase = require("../setpCMP/Electrolyze");
 
 class Electrolyze extends ElectrolyzeBase {
   constructor(game) {

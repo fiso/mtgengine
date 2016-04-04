@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SpectralSearchlightBase = require("../setCNS/SpectralSearchlight.js");
+const Constants = require ("../../../Constants");
+const SpectralSearchlightBase = require("../setCNS/SpectralSearchlight");
 
 class SpectralSearchlight extends SpectralSearchlightBase {
   constructor(game) {

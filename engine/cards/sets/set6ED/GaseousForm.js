@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const GaseousFormBase = require("../setBTD/GaseousForm.js");
+const Constants = require ("../../../Constants");
+const GaseousFormBase = require("../setBTD/GaseousForm");
 
 class GaseousForm extends GaseousFormBase {
   constructor(game) {

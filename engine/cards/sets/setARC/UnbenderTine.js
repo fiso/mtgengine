@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const UnbenderTineBase = require("../setARB/UnbenderTine.js");
+const Constants = require ("../../../Constants");
+const UnbenderTineBase = require("../setARB/UnbenderTine");
 
 class UnbenderTine extends UnbenderTineBase {
   constructor(game) {

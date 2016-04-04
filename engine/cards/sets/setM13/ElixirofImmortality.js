@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ElixirofImmortalityBase = require("../setDDF/ElixirofImmortality.js");
+const Constants = require ("../../../Constants");
+const ElixirofImmortalityBase = require("../setDDF/ElixirofImmortality");
 
 class ElixirofImmortality extends ElixirofImmortalityBase {
   constructor(game) {

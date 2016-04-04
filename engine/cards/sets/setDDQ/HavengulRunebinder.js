@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const HavengulRunebinderBase = require("../setDKA/HavengulRunebinder.js");
+const Constants = require ("../../../Constants");
+const HavengulRunebinderBase = require("../setDKA/HavengulRunebinder");
 
 class HavengulRunebinder extends HavengulRunebinderBase {
   constructor(game) {

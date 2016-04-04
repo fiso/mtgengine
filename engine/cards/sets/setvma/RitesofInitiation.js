@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const RitesofInitiationBase = require("../setODY/RitesofInitiation.js");
+const Constants = require ("../../../Constants");
+const RitesofInitiationBase = require("../setODY/RitesofInitiation");
 
 class RitesofInitiation extends RitesofInitiationBase {
   constructor(game) {

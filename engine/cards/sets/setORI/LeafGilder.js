@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LeafGilderBase = require("../setARC/LeafGilder.js");
+const Constants = require ("../../../Constants");
+const LeafGilderBase = require("../setARC/LeafGilder");
 
 class LeafGilder extends LeafGilderBase {
   constructor(game) {

@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const AllosaurusRiderBase = require("../setCSP/AllosaurusRider.js");
+const Constants = require ("../../../Constants");
+const AllosaurusRiderBase = require("../setCSP/AllosaurusRider");
 
 class AllosaurusRider extends AllosaurusRiderBase {
   constructor(game) {

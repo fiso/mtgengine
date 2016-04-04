@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ArtifactBlastBase = require("../setATQ/ArtifactBlast.js");
+const Constants = require ("../../../Constants");
+const ArtifactBlastBase = require("../setATQ/ArtifactBlast");
 
 class ArtifactBlast extends ArtifactBlastBase {
   constructor(game) {

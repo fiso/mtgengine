@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const SealockMonsterBase = require("../setDDO/SealockMonster.js");
+const Constants = require ("../../../Constants");
+const SealockMonsterBase = require("../setDDO/SealockMonster");
 
 class SealockMonster extends SealockMonsterBase {
   constructor(game) {

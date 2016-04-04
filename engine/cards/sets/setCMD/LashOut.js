@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const LashOutBase = require("../setLRW/LashOut.js");
+const Constants = require ("../../../Constants");
+const LashOutBase = require("../setLRW/LashOut");
 
 class LashOut extends LashOutBase {
   constructor(game) {

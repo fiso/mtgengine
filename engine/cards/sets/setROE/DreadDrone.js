@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const DreadDroneBase = require("../setMM2/DreadDrone.js");
+const Constants = require ("../../../Constants");
+const DreadDroneBase = require("../setMM2/DreadDrone");
 
 class DreadDrone extends DreadDroneBase {
   constructor(game) {

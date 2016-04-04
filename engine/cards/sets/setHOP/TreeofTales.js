@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const TreeofTalesBase = require("../setMRD/TreeofTales.js");
+const Constants = require ("../../../Constants");
+const TreeofTalesBase = require("../setMRD/TreeofTales");
 
 class TreeofTales extends TreeofTalesBase {
   constructor(game) {

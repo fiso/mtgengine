@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const StasisCellBase = require("../setCNS/StasisCell.js");
+const Constants = require ("../../../Constants");
+const StasisCellBase = require("../setCNS/StasisCell");
 
 class StasisCell extends StasisCellBase {
   constructor(game) {

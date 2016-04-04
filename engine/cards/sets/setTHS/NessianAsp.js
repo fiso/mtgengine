@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const NessianAspBase = require("../setDDO/NessianAsp.js");
+const Constants = require ("../../../Constants");
+const NessianAspBase = require("../setDDO/NessianAsp");
 
 class NessianAsp extends NessianAspBase {
   constructor(game) {

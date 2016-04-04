@@ -1,7 +1,6 @@
 "use strict";
-const Card = require("../../objects/Card");
-const Constants = require ("../../Constants");
-const ChartoothCougarBase = require("../setDD3_JVC/ChartoothCougar.js");
+const Constants = require ("../../../Constants");
+const ChartoothCougarBase = require("../setDD3_JVC/ChartoothCougar");
 
 class ChartoothCougar extends ChartoothCougarBase {
   constructor(game) {
