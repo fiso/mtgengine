@@ -62,8 +62,6 @@ def generateStub(card, setId, folderName, setName):
 	baseClass = "Card"
 	requireString = ""
 	if originalPrintings.has_key(card["name"]):
-		# FIXME: is reprint - inherit from original printing
-		# Should set correct baseclass name and insert require() for it
 		baseClass = className + "Base"
 		requireString = "const %sBase = require(\"../%s/%s.js\");\n" % (className, originalPrintings[card["name"]], className)
 	else:
