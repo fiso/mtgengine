@@ -5,6 +5,7 @@ import time
 import sys
 import os
 import codecs
+import time
 
 def getFullResultAsJson(queryUrl):
 	fullResult = []
@@ -49,14 +50,8 @@ def getCard(name, set):
 
 cardTemplate = ""
 originalPrintings = {}
-def generateStub(card, setId, folderName):
+def generateStub(card, setId, folderName, setName):
 	print "Building stub for %s..." % card["name"]
-
-	baseClass = "Card"
-	if originalPrintings.has_key(card["name"]):
-		# FIXME: is reprint - inherit from original printing
-		# Should set correct baseclass name and insert require() for it
-		baseClass= "THIS_IS_A_REPRINT_FIXME"
 
 	illegalCharacters = u" ?\",-'û®"
 	className = card["name"]
@@ -64,13 +59,27 @@ def generateStub(card, setId, folderName):
 		className = className.replace(char, "")
 	fileName = className + ".js"
 
+	baseClass = "Card"
+	requireString = ""
+	if originalPrintings.has_key(card["name"]):
+		# FIXME: is reprint - inherit from original printing
+		# Should set correct baseclass name and insert require() for it
+		baseClass = className + "Base"
+		requireString = "const %sBase = require(\"../%s/%s.js\");\n" % (className, originalPrintings[card["name"]], className)
+	else:
+		originalPrintings[card["name"]] = folderName
+
 	with codecs.open(os.path.join(".", folderName, fileName), "w", encoding="utf8") as f:
 		classStub = cardTemplate.replace("___CARDNAME___", card["name"])
 		classStub = classStub.replace("___CLASSNAME___", className)
 		classStub = classStub.replace("___BASECLASS___", baseClass)
+		classStub = classStub.replace("___REQUIRES___", requireString)
+		classStub = classStub.replace("___SETNAME___", setName)
+		classStub = classStub.replace("___SETCODE___", setId)
 		f.write(classStub)
 
 if __name__ == "__main__":
+	startTime = time.time()
 	sets = getAllSets()
 	print "Found %d sets " % len(sets)
 	print "Generating stubs..."
@@ -97,9 +106,10 @@ if __name__ == "__main__":
 			if not card["name"] in uniqueCards:
 				uniqueCards.add(card["name"])
 
-			generateStub(card, mtgSet["id"], mtgSet["folderName"])
+			generateStub(card, mtgSet["id"], mtgSet["folderName"], mtgSet["name"])
 
-	print "All sets processed"
 	print "Found %d cards, %d unique" % (numCards, len(uniqueCards))
+	print "Processing took %.1f seconds" % (time.time() - startTime)
+	print "All sets processed"
 
 # Found 28925 cards, 16188 unique

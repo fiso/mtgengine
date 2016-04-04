@@ -5,7 +5,7 @@ const Constants = require("../Constants");
 const assert = require("assert");
 
 class Card extends MTGObject {
-  constructor (game, name, set) {
+  constructor (game, name, set, setCode) {
     super(game);
     if (new.target === Card) {
       throw new TypeError("Card is not to be used directly");
