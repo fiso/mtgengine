@@ -1,0 +1,11 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+
+class Pongify extends Card {
+  constructor(game) {
+    super(game, "Pongify", "Commander 2014", "C14");
+  }
+}
+
+module.exports = Pongify;

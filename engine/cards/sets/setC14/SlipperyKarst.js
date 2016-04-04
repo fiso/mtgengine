@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const SlipperyKarstBase = require("../setATH/SlipperyKarst.js");
+
+class SlipperyKarst extends SlipperyKarstBase {
+  constructor(game) {
+    super(game, "Slippery Karst", "Commander 2014", "C14");
+  }
+}
+
+module.exports = SlipperyKarst;

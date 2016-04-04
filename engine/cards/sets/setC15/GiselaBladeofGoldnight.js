@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const GiselaBladeofGoldnightBase = require("../setAVR/GiselaBladeofGoldnight.js");
+
+class GiselaBladeofGoldnight extends GiselaBladeofGoldnightBase {
+  constructor(game) {
+    super(game, "Gisela, Blade of Goldnight", "Commander 2015", "C15");
+  }
+}
+
+module.exports = GiselaBladeofGoldnight;

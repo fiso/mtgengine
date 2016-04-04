@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const SolemnOfferingBase = require("../setM10/SolemnOffering.js");
+
+class SolemnOffering extends SolemnOfferingBase {
+  constructor(game) {
+    super(game, "Solemn Offering", "Magic 2011", "M11");
+  }
+}
+
+module.exports = SolemnOffering;

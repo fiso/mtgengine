@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const GoblinDiggingTeamBase = require("../setATH/GoblinDiggingTeam.js");
+
+class GoblinDiggingTeam extends GoblinDiggingTeamBase {
+  constructor(game) {
+    super(game, "Goblin Digging Team", "Classic Sixth Edition", "6ED");
+  }
+}
+
+module.exports = GoblinDiggingTeam;

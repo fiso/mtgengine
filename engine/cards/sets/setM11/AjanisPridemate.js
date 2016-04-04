@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const AjanisPridemateBase = require("../setC13/AjanisPridemate.js");
+
+class AjanisPridemate extends AjanisPridemateBase {
+  constructor(game) {
+    super(game, "Ajani's Pridemate", "Magic 2011", "M11");
+  }
+}
+
+module.exports = AjanisPridemate;

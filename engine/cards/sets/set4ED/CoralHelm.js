@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const CoralHelmBase = require("../setATQ/CoralHelm.js");
+
+class CoralHelm extends CoralHelmBase {
+  constructor(game) {
+    super(game, "Coral Helm", "Fourth Edition", "4ED");
+  }
+}
+
+module.exports = CoralHelm;

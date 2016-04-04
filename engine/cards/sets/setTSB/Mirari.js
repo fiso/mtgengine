@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const MirariBase = require("../setC13/Mirari.js");
+
+class Mirari extends MirariBase {
+  constructor(game) {
+    super(game, "Mirari", "Time Spiral "Timeshifted"", "TSB");
+  }
+}
+
+module.exports = Mirari;

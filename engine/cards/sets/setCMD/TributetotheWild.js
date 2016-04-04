@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const TributetotheWildBase = require("../setC15/TributetotheWild.js");
+
+class TributetotheWild extends TributetotheWildBase {
+  constructor(game) {
+    super(game, "Tribute to the Wild", "Magic: The Gathering-Commander", "CMD");
+  }
+}
+
+module.exports = TributetotheWild;

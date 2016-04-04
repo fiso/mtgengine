@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const KavuClimberBase = require("../setINV/KavuClimber.js");
+
+class KavuClimber extends KavuClimberBase {
+  constructor(game) {
+    super(game, "Kavu Climber", "Tenth Edition", "10E");
+  }
+}
+
+module.exports = KavuClimber;

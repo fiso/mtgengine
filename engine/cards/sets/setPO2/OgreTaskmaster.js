@@ -1,0 +1,12 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+const OgreTaskmasterBase = require("../set8ED/OgreTaskmaster.js");
+
+class OgreTaskmaster extends OgreTaskmasterBase {
+  constructor(game) {
+    super(game, "Ogre Taskmaster", "Portal Second Age", "PO2");
+  }
+}
+
+module.exports = OgreTaskmaster;

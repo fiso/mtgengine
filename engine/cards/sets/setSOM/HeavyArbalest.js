@@ -1,0 +1,11 @@
+"use strict";
+const Card = require("../../objects/Card");
+const Constants = require ("../../Constants");
+
+class HeavyArbalest extends Card {
+  constructor(game) {
+    super(game, "Heavy Arbalest", "Scars of Mirrodin", "SOM");
+  }
+}
+
+module.exports = HeavyArbalest;
