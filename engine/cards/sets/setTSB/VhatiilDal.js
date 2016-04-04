@@ -4,7 +4,7 @@ const VhatiilDalBase = require("../setTMP/VhatiilDal");
 
 class VhatiilDal extends VhatiilDalBase {
   constructor(game) {
-    super(game, "Vhati il-Dal", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Vhati il-Dal", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

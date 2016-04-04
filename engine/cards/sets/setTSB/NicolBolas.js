@@ -4,7 +4,7 @@ const NicolBolasBase = require("../setCHR/NicolBolas");
 
 class NicolBolas extends NicolBolasBase {
   constructor(game) {
-    super(game, "Nicol Bolas", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Nicol Bolas", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

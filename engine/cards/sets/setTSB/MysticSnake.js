@@ -4,7 +4,7 @@ const MysticSnakeBase = require("../setAPC/MysticSnake");
 
 class MysticSnake extends MysticSnakeBase {
   constructor(game) {
-    super(game, "Mystic Snake", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Mystic Snake", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const SpittingSlugBase = require("../setDRK/SpittingSlug");
 
 class SpittingSlug extends SpittingSlugBase {
   constructor(game) {
-    super(game, "Spitting Slug", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Spitting Slug", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

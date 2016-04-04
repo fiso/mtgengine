@@ -4,7 +4,7 @@ const GemstoneMineBase = require("../setpJGP/GemstoneMine");
 
 class GemstoneMine extends GemstoneMineBase {
   constructor(game) {
-    super(game, "Gemstone Mine", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Gemstone Mine", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

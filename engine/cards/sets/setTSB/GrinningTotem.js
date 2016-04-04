@@ -4,7 +4,7 @@ const GrinningTotemBase = require("../set6ED/GrinningTotem");
 
 class GrinningTotem extends GrinningTotemBase {
   constructor(game) {
-    super(game, "Grinning Totem", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Grinning Totem", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

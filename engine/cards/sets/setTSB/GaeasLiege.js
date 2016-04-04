@@ -4,7 +4,7 @@ const GaeasLiegeBase = require("../setCED/GaeasLiege");
 
 class GaeasLiege extends GaeasLiegeBase {
   constructor(game) {
-    super(game, "Gaea's Liege", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Gaea's Liege", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

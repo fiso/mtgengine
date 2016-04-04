@@ -4,7 +4,7 @@ const OvinomancerBase = require("../setMGB/Ovinomancer");
 
 class Ovinomancer extends OvinomancerBase {
   constructor(game) {
-    super(game, "Ovinomancer", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Ovinomancer", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const CalloftheHerdBase = require("../setpGPX/CalloftheHerd");
 
 class CalloftheHerd extends CalloftheHerdBase {
   constructor(game) {
-    super(game, "Call of the Herd", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Call of the Herd", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

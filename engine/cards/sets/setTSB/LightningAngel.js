@@ -4,7 +4,7 @@ const LightningAngelBase = require("../setAPC/LightningAngel");
 
 class LightningAngel extends LightningAngelBase {
   constructor(game) {
-    super(game, "Lightning Angel", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Lightning Angel", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const WarBargeBase = require("../setDRK/WarBarge");
 
 class WarBarge extends WarBargeBase {
   constructor(game) {
-    super(game, "War Barge", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "War Barge", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

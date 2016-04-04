@@ -4,7 +4,7 @@ const SpikeFeederBase = require("../setBRB/SpikeFeeder");
 
 class SpikeFeeder extends SpikeFeederBase {
   constructor(game) {
-    super(game, "Spike Feeder", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Spike Feeder", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

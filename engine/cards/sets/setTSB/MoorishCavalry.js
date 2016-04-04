@@ -4,7 +4,7 @@ const MoorishCavalryBase = require("../setARN/MoorishCavalry");
 
 class MoorishCavalry extends MoorishCavalryBase {
   constructor(game) {
-    super(game, "Moorish Cavalry", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Moorish Cavalry", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

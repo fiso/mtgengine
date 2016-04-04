@@ -4,7 +4,7 @@ const MirariBase = require("../setC13/Mirari");
 
 class Mirari extends MirariBase {
   constructor(game) {
-    super(game, "Mirari", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Mirari", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

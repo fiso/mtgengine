@@ -4,7 +4,7 @@ const AvatarofWoeBase = require("../setARC/AvatarofWoe");
 
 class AvatarofWoe extends AvatarofWoeBase {
   constructor(game) {
-    super(game, "Avatar of Woe", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Avatar of Woe", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

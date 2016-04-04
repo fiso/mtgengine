@@ -4,7 +4,7 @@ const OrcishLibrarianBase = require("../setICE/OrcishLibrarian");
 
 class OrcishLibrarian extends OrcishLibrarianBase {
   constructor(game) {
-    super(game, "Orcish Librarian", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Orcish Librarian", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

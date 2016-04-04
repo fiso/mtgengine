@@ -4,7 +4,7 @@ const UndeadWarchiefBase = require("../setHOP/UndeadWarchief");
 
 class UndeadWarchief extends UndeadWarchiefBase {
   constructor(game) {
-    super(game, "Undead Warchief", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Undead Warchief", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

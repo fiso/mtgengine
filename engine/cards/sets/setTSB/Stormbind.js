@@ -4,7 +4,7 @@ const StormbindBase = require("../setICE/Stormbind");
 
 class Stormbind extends StormbindBase {
   constructor(game) {
-    super(game, "Stormbind", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Stormbind", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

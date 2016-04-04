@@ -4,7 +4,7 @@ const MeriekeRiBeritBase = require("../setICE/MeriekeRiBerit");
 
 class MeriekeRiBerit extends MeriekeRiBeritBase {
   constructor(game) {
-    super(game, "Merieke Ri Berit", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Merieke Ri Berit", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

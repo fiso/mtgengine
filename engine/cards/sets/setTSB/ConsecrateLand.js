@@ -4,7 +4,7 @@ const ConsecrateLandBase = require("../setCED/ConsecrateLand");
 
 class ConsecrateLand extends ConsecrateLandBase {
   constructor(game) {
-    super(game, "Consecrate Land", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Consecrate Land", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

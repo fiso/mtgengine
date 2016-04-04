@@ -4,7 +4,7 @@ const DarknessBase = require("../setLEG/Darkness");
 
 class Darkness extends DarknessBase {
   constructor(game) {
-    super(game, "Darkness", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Darkness", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

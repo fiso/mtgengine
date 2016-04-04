@@ -4,7 +4,7 @@ const KoboldTaskmasterBase = require("../setLEG/KoboldTaskmaster");
 
 class KoboldTaskmaster extends KoboldTaskmasterBase {
   constructor(game) {
-    super(game, "Kobold Taskmaster", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Kobold Taskmaster", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

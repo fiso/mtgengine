@@ -4,7 +4,7 @@ const DodecapodBase = require("../setAPC/Dodecapod");
 
 class Dodecapod extends DodecapodBase {
   constructor(game) {
-    super(game, "Dodecapod", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Dodecapod", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

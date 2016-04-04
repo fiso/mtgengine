@@ -4,7 +4,7 @@ const ProdigalSorcererBase = require("../setBRB/ProdigalSorcerer");
 
 class ProdigalSorcerer extends ProdigalSorcererBase {
   constructor(game) {
-    super(game, "Prodigal Sorcerer", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Prodigal Sorcerer", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const SengirAutocratBase = require("../set6ED/SengirAutocrat");
 
 class SengirAutocrat extends SengirAutocratBase {
   constructor(game) {
-    super(game, "Sengir Autocrat", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Sengir Autocrat", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

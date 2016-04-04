@@ -4,7 +4,7 @@ const ScragnothBase = require("../setpFNM/Scragnoth");
 
 class Scragnoth extends ScragnothBase {
   constructor(game) {
-    super(game, "Scragnoth", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Scragnoth", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

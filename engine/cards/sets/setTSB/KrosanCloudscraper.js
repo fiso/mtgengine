@@ -4,7 +4,7 @@ const KrosanCloudscraperBase = require("../setLGN/KrosanCloudscraper");
 
 class KrosanCloudscraper extends KrosanCloudscraperBase {
   constructor(game) {
-    super(game, "Krosan Cloudscraper", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Krosan Cloudscraper", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

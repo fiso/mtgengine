@@ -4,7 +4,7 @@ const WallofRootsBase = require("../setARC/WallofRoots");
 
 class WallofRoots extends WallofRootsBase {
   constructor(game) {
-    super(game, "Wall of Roots", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Wall of Roots", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

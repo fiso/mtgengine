@@ -4,7 +4,7 @@ const SindbadBase = require("../setARN/Sindbad");
 
 class Sindbad extends SindbadBase {
   constructor(game) {
-    super(game, "Sindbad", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Sindbad", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

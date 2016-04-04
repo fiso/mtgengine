@@ -4,7 +4,7 @@ const AvoidFateBase = require("../setLEG/AvoidFate");
 
 class AvoidFate extends AvoidFateBase {
   constructor(game) {
-    super(game, "Avoid Fate", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Avoid Fate", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

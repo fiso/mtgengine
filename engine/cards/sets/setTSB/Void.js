@@ -4,7 +4,7 @@ const VoidBase = require("../setINV/Void");
 
 class Void extends VoidBase {
   constructor(game) {
-    super(game, "Void", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Void", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

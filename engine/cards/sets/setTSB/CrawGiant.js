@@ -4,7 +4,7 @@ const CrawGiantBase = require("../setCHR/CrawGiant");
 
 class CrawGiant extends CrawGiantBase {
   constructor(game) {
-    super(game, "Craw Giant", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Craw Giant", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

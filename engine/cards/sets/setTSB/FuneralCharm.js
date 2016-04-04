@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class FuneralCharm extends UnimplementedCard {
   constructor(game) {
-    super(game, "Funeral Charm", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Funeral Charm", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

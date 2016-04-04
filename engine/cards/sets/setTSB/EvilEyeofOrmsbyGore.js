@@ -4,7 +4,7 @@ const EvilEyeofOrmsbyGoreBase = require("../set6ED/EvilEyeofOrmsbyGore");
 
 class EvilEyeofOrmsbyGore extends EvilEyeofOrmsbyGoreBase {
   constructor(game) {
-    super(game, "Evil Eye of Orms-by-Gore", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Evil Eye of Orms-by-Gore", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

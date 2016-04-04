@@ -4,7 +4,7 @@ const SpinedSliverBase = require("../setH09/SpinedSliver");
 
 class SpinedSliver extends SpinedSliverBase {
   constructor(game) {
-    super(game, "Spined Sliver", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Spined Sliver", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

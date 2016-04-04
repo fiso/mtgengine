@@ -4,7 +4,7 @@ const ValorBase = require("../setJUD/Valor");
 
 class Valor extends ValorBase {
   constructor(game) {
-    super(game, "Valor", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Valor", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const MysticEnforcerBase = require("../setODY/MysticEnforcer");
 
 class MysticEnforcer extends MysticEnforcerBase {
   constructor(game) {
-    super(game, "Mystic Enforcer", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Mystic Enforcer", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

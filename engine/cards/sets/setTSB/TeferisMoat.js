@@ -4,7 +4,7 @@ const TeferisMoatBase = require("../setINV/TeferisMoat");
 
 class TeferisMoat extends TeferisMoatBase {
   constructor(game) {
-    super(game, "Teferi's Moat", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Teferi's Moat", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

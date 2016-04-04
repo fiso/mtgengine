@@ -4,7 +4,7 @@ const DesertBase = require("../setARN/Desert");
 
 class Desert extends DesertBase {
   constructor(game) {
-    super(game, "Desert", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Desert", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

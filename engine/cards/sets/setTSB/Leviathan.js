@@ -4,7 +4,7 @@ const LeviathanBase = require("../setBTD/Leviathan");
 
 class Leviathan extends LeviathanBase {
   constructor(game) {
-    super(game, "Leviathan", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Leviathan", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

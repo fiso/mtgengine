@@ -4,7 +4,7 @@ const ThornscapeBattlemageBase = require("../setDDE/ThornscapeBattlemage");
 
 class ThornscapeBattlemage extends ThornscapeBattlemageBase {
   constructor(game) {
-    super(game, "Thornscape Battlemage", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Thornscape Battlemage", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

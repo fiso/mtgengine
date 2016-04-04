@@ -4,7 +4,7 @@ const HuntingMoaBase = require("../setARC/HuntingMoa");
 
 class HuntingMoa extends HuntingMoaBase {
   constructor(game) {
-    super(game, "Hunting Moa", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Hunting Moa", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

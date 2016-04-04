@@ -4,7 +4,7 @@ const MistformUltimusBase = require("../setLGN/MistformUltimus");
 
 class MistformUltimus extends MistformUltimusBase {
   constructor(game) {
-    super(game, "Mistform Ultimus", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Mistform Ultimus", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

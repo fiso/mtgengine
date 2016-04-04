@@ -4,7 +4,7 @@ const SoltariPriestBase = require("../setpFNM/SoltariPriest");
 
 class SoltariPriest extends SoltariPriestBase {
   constructor(game) {
-    super(game, "Soltari Priest", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Soltari Priest", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

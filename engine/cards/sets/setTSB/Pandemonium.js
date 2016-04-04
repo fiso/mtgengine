@@ -4,7 +4,7 @@ const PandemoniumBase = require("../setEXO/Pandemonium");
 
 class Pandemonium extends PandemoniumBase {
   constructor(game) {
-    super(game, "Pandemonium", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Pandemonium", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

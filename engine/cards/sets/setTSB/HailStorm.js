@@ -4,7 +4,7 @@ const HailStormBase = require("../setALL/HailStorm");
 
 class HailStorm extends HailStormBase {
   constructor(game) {
-    super(game, "Hail Storm", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Hail Storm", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

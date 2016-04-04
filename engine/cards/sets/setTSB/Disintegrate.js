@@ -4,7 +4,7 @@ const DisintegrateBase = require("../setCED/Disintegrate");
 
 class Disintegrate extends DisintegrateBase {
   constructor(game) {
-    super(game, "Disintegrate", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Disintegrate", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

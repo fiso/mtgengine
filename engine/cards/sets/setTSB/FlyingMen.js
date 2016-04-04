@@ -4,7 +4,7 @@ const FlyingMenBase = require("../setARN/FlyingMen");
 
 class FlyingMen extends FlyingMenBase {
   constructor(game) {
-    super(game, "Flying Men", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Flying Men", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

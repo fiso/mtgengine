@@ -4,7 +4,7 @@ const PendelhavenBase = require("../setATH/Pendelhaven");
 
 class Pendelhaven extends PendelhavenBase {
   constructor(game) {
-    super(game, "Pendelhaven", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Pendelhaven", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

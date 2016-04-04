@@ -4,7 +4,7 @@ const SafeHavenBase = require("../setCHR/SafeHaven");
 
 class SafeHaven extends SafeHavenBase {
   constructor(game) {
-    super(game, "Safe Haven", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Safe Haven", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

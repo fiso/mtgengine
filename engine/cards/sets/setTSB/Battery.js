@@ -4,7 +4,7 @@ const BatteryBase = require("../setINV/Battery");
 
 class Battery extends BatteryBase {
   constructor(game) {
-    super(game, "Battery", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Battery", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

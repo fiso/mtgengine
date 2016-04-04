@@ -4,7 +4,7 @@ const GaeasBlessingBase = require("../setpARL/GaeasBlessing");
 
 class GaeasBlessing extends GaeasBlessingBase {
   constructor(game) {
-    super(game, "Gaea's Blessing", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Gaea's Blessing", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

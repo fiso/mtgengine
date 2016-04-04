@@ -4,7 +4,7 @@ const DandânBase = require("../setARN/Dandân");
 
 class Dandân extends DandânBase {
   constructor(game) {
-    super(game, "Dandân", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Dandân", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

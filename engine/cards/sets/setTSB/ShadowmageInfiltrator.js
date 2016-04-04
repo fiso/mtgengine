@@ -4,7 +4,7 @@ const ShadowmageInfiltratorBase = require("../setMM2/ShadowmageInfiltrator");
 
 class ShadowmageInfiltrator extends ShadowmageInfiltratorBase {
   constructor(game) {
-    super(game, "Shadowmage Infiltrator", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Shadowmage Infiltrator", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

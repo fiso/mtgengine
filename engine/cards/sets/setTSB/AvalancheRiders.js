@@ -4,7 +4,7 @@ const AvalancheRidersBase = require("../setpFNM/AvalancheRiders");
 
 class AvalancheRiders extends AvalancheRidersBase {
   constructor(game) {
-    super(game, "Avalanche Riders", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Avalanche Riders", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

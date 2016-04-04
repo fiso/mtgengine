@@ -4,7 +4,7 @@ const ArenaBase = require("../setpMEI/Arena");
 
 class Arena extends ArenaBase {
   constructor(game) {
-    super(game, "Arena", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Arena", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

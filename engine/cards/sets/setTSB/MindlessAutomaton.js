@@ -4,7 +4,7 @@ const MindlessAutomatonBase = require("../setEXO/MindlessAutomaton");
 
 class MindlessAutomaton extends MindlessAutomatonBase {
   constructor(game) {
-    super(game, "Mindless Automaton", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Mindless Automaton", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

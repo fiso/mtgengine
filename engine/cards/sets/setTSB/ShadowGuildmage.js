@@ -4,7 +4,7 @@ const ShadowGuildmageBase = require("../setMIR/ShadowGuildmage");
 
 class ShadowGuildmage extends ShadowGuildmageBase {
   constructor(game) {
-    super(game, "Shadow Guildmage", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Shadow Guildmage", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const AuratogBase = require("../setTMP/Auratog");
 
 class Auratog extends AuratogBase {
   constructor(game) {
-    super(game, "Auratog", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Auratog", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

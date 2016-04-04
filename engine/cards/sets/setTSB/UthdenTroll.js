@@ -4,7 +4,7 @@ const UthdenTrollBase = require("../setATH/UthdenTroll");
 
 class UthdenTroll extends UthdenTrollBase {
   constructor(game) {
-    super(game, "Uthden Troll", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Uthden Troll", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

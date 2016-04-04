@@ -4,7 +4,7 @@ const ErontheRelentlessBase = require("../setHML/ErontheRelentless");
 
 class ErontheRelentless extends ErontheRelentlessBase {
   constructor(game) {
-    super(game, "Eron the Relentless", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Eron the Relentless", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

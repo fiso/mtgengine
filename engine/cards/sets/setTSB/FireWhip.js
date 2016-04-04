@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class FireWhip extends UnimplementedCard {
   constructor(game) {
-    super(game, "Fire Whip", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Fire Whip", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

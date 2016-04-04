@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class SuqAtaLancer extends UnimplementedCard {
   constructor(game) {
-    super(game, "Suq'Ata Lancer", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Suq'Ata Lancer", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

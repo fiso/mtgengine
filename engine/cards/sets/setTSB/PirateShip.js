@@ -4,7 +4,7 @@ const PirateShipBase = require("../setCED/PirateShip");
 
 class PirateShip extends PirateShipBase {
   constructor(game) {
-    super(game, "Pirate Ship", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Pirate Ship", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

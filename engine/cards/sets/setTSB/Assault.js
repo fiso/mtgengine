@@ -4,7 +4,7 @@ const AssaultBase = require("../setINV/Assault");
 
 class Assault extends AssaultBase {
   constructor(game) {
-    super(game, "Assault", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Assault", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

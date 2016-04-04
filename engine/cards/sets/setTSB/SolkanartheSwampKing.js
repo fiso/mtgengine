@@ -4,7 +4,7 @@ const SolkanartheSwampKingBase = require("../setCHR/SolkanartheSwampKing");
 
 class SolkanartheSwampKing extends SolkanartheSwampKingBase {
   constructor(game) {
-    super(game, "Sol'kanar the Swamp King", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Sol'kanar the Swamp King", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

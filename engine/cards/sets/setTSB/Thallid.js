@@ -4,7 +4,7 @@ const ThallidBase = require("../setFEM/Thallid");
 
 class Thallid extends ThallidBase {
   constructor(game) {
-    super(game, "Thallid", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Thallid", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

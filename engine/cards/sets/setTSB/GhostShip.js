@@ -4,7 +4,7 @@ const GhostShipBase = require("../set4ED/GhostShip");
 
 class GhostShip extends GhostShipBase {
   constructor(game) {
-    super(game, "Ghost Ship", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Ghost Ship", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

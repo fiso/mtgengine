@@ -4,7 +4,7 @@ const OrggBase = require("../setFEM/Orgg");
 
 class Orgg extends OrggBase {
   constructor(game) {
-    super(game, "Orgg", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Orgg", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

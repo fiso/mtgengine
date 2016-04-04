@@ -4,7 +4,7 @@ const CockatriceBase = require("../setCED/Cockatrice");
 
 class Cockatrice extends CockatriceBase {
   constructor(game) {
-    super(game, "Cockatrice", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Cockatrice", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

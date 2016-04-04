@@ -4,7 +4,7 @@ const JasmineBorealBase = require("../setLEG/JasmineBoreal");
 
 class JasmineBoreal extends JasmineBorealBase {
   constructor(game) {
-    super(game, "Jasmine Boreal", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Jasmine Boreal", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

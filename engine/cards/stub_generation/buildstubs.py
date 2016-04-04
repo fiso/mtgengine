@@ -75,11 +75,11 @@ def generateStub(card, setId, folderName, setName):
 		requireString = "const UnimplementedCard = require(\"../../UnimplementedCard\");\n"
 
 	with codecs.open(os.path.join(folderName, fileName), "w", encoding="utf8") as f:
-		classStub = cardTemplate.replace("___CARDNAME___", card["name"])
+		classStub = cardTemplate.replace("___CARDNAME___", card["name"].replace("\"", "\\\""))
 		classStub = classStub.replace("___CLASSNAME___", className)
 		classStub = classStub.replace("___BASECLASS___", baseClass)
 		classStub = classStub.replace("___REQUIRES___", requireString)
-		classStub = classStub.replace("___SETNAME___", setName)
+		classStub = classStub.replace("___SETNAME___", setName.replace("\"", "\\\""))
 		classStub = classStub.replace("___SETCODE___", setId)
 		f.write(classStub)
 

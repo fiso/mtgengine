@@ -4,7 +4,7 @@ const SoulCollectorBase = require("../setpPRE/SoulCollector");
 
 class SoulCollector extends SoulCollectorBase {
   constructor(game) {
-    super(game, "Soul Collector", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Soul Collector", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

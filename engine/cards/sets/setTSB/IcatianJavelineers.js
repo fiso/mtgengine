@@ -4,7 +4,7 @@ const IcatianJavelineersBase = require("../setATH/IcatianJavelineers");
 
 class IcatianJavelineers extends IcatianJavelineersBase {
   constructor(game) {
-    super(game, "Icatian Javelineers", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Icatian Javelineers", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

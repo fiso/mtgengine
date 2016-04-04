@@ -4,7 +4,7 @@ const MerfolkAssassinBase = require("../setDRK/MerfolkAssassin");
 
 class MerfolkAssassin extends MerfolkAssassinBase {
   constructor(game) {
-    super(game, "Merfolk Assassin", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Merfolk Assassin", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

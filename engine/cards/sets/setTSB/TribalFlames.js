@@ -4,7 +4,7 @@ const TribalFlamesBase = require("../setDDE/TribalFlames");
 
 class TribalFlames extends TribalFlamesBase {
   constructor(game) {
-    super(game, "Tribal Flames", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Tribal Flames", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

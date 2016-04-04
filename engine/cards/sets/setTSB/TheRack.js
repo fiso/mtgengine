@@ -4,7 +4,7 @@ const TheRackBase = require("../setATQ/TheRack");
 
 class TheRack extends TheRackBase {
   constructor(game) {
-    super(game, "The Rack", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "The Rack", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

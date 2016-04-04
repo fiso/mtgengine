@@ -4,7 +4,7 @@ const UnstableMutationBase = require("../setARN/UnstableMutation");
 
 class UnstableMutation extends UnstableMutationBase {
   constructor(game) {
-    super(game, "Unstable Mutation", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Unstable Mutation", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const BadMoonBase = require("../setCED/BadMoon");
 
 class BadMoon extends BadMoonBase {
   constructor(game) {
-    super(game, "Bad Moon", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Bad Moon", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

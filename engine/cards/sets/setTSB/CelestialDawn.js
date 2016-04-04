@@ -4,7 +4,7 @@ const CelestialDawnBase = require("../set6ED/CelestialDawn");
 
 class CelestialDawn extends CelestialDawnBase {
   constructor(game) {
-    super(game, "Celestial Dawn", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Celestial Dawn", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

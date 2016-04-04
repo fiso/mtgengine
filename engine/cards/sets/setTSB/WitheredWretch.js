@@ -4,7 +4,7 @@ const WitheredWretchBase = require("../setpFNM/WitheredWretch");
 
 class WitheredWretch extends WitheredWretchBase {
   constructor(game) {
-    super(game, "Withered Wretch", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Withered Wretch", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

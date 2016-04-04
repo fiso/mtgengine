@@ -4,7 +4,7 @@ const GoblinSnowmanBase = require("../setATH/GoblinSnowman");
 
 class GoblinSnowman extends GoblinSnowmanBase {
   constructor(game) {
-    super(game, "Goblin Snowman", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Goblin Snowman", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const EssenceSliverBase = require("../setLGN/EssenceSliver");
 
 class EssenceSliver extends EssenceSliverBase {
   constructor(game) {
-    super(game, "Essence Sliver", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Essence Sliver", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

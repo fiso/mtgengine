@@ -4,7 +4,7 @@ const EnduringRenewalBase = require("../setICE/EnduringRenewal");
 
 class EnduringRenewal extends EnduringRenewalBase {
   constructor(game) {
-    super(game, "Enduring Renewal", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Enduring Renewal", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

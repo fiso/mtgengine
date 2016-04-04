@@ -4,7 +4,7 @@ const BrowbeatBase = require("../setDDK/Browbeat");
 
 class Browbeat extends BrowbeatBase {
   constructor(game) {
-    super(game, "Browbeat", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Browbeat", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

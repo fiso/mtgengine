@@ -4,7 +4,7 @@ const ZhalfirinCommanderBase = require("../setDDG/ZhalfirinCommander");
 
 class ZhalfirinCommander extends ZhalfirinCommanderBase {
   constructor(game) {
-    super(game, "Zhalfirin Commander", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Zhalfirin Commander", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

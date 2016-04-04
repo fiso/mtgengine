@@ -4,7 +4,7 @@ const WildfireEmissaryBase = require("../setBRB/WildfireEmissary");
 
 class WildfireEmissary extends WildfireEmissaryBase {
   constructor(game) {
-    super(game, "Wildfire Emissary", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Wildfire Emissary", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 

@@ -4,7 +4,7 @@ const ResurrectionBase = require("../setCED/Resurrection");
 
 class Resurrection extends ResurrectionBase {
   constructor(game) {
-    super(game, "Resurrection", "Time Spiral "Timeshifted"", "TSB");
+    super(game, "Resurrection", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }
 
