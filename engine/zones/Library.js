@@ -10,13 +10,16 @@ class Library extends Zone {
 
     this._promise = new Promise((resolve, reject) => {
       for (let cardName of deck._mainDeck) {
-        let loader = new CardLoader(cardName, undefined, undefined, game);
-        loader.ready().then(card => {
-          this._objects.push(card);
-          if (this._objects.length === deck._mainDeck.length) {
-            this.shuffle();
-            resolve();
-          }
+        game._cardApi.getCard(cardName).then((card) => {
+          let edition = card.editions[0];
+          let loader = new CardLoader(cardName, edition.set, edition.set_id, game);
+          loader.ready().then(card => {
+            this._objects.push(card);
+            if (this._objects.length === deck._mainDeck.length) {
+              this.shuffle();
+              resolve();
+            }
+          });
         });
       }
     });

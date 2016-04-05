@@ -50,6 +50,7 @@ def getCard(name, set):
 	return card
 
 def getSafeCardName(cardName):
+	# This code must mirror the functionality in CardLoader.js
 	illegalCharacters = u" ?!()\",.-'®:&"
 	characterReplacements = {
 		u"û": "u",

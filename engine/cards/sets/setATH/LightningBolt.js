@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const Card = require("../../../objects/Card");
 const assert = require("assert");
 
 class LightningBolt extends Card {

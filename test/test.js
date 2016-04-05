@@ -140,7 +140,7 @@ describe('Deck', function() {
     });
 
     it('Should get 60 + 15 cards in provided test deck', function () {
-      let loader = new Deck.FSLoader("decklists/monored.txt");
+      let loader = new Deck.FSLoader("decklists/kikichord.txt");
       assert(loader.mainDeck.length === 60);
       assert(loader.sideboard.length === 15);
     });
@@ -189,7 +189,7 @@ describe('Deck', function() {
 describe('Deckbrew API', function() {
   describe('# Deckbrew.getCard', function () {
     it('Should be able to find card information', function (done) {
-      cardApi.getCard("Lightning Bolt", "").then((card) => {
+      cardApi.getCard("Lightning Bolt").then((card) => {
         assert(card);
         done();
       });
@@ -197,15 +197,15 @@ describe('Deckbrew API', function() {
   });
 });
 
-/*
+/**/
 describe('Game', function() {
   this.timeout(10000);
 
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library', function (done) {
       let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
+        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -235,7 +235,7 @@ describe('Game', function() {
   describe('# Dealing damage to one player', function () {
     it('Should make that player lose by damage', function (done) {
       let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
          new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
 
       game.ready().then(() => {
@@ -269,7 +269,7 @@ describe('Game', function() {
     it('Should make that player lose by poison counters', function (done) {
       let game = new Game.Game(2, 0, true,
         [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
+         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
 
       game.ready().then(() => {
         let p0 = game._players[0];
@@ -302,7 +302,7 @@ describe('Game', function() {
   describe('# Dealing lethal damage to both players simultaneously', function () {
     it('Should draw the game', function (done) {
       let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
+        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
          new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
 
       game.ready().then(() => {

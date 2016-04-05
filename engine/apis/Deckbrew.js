@@ -9,7 +9,7 @@ class Deckbrew extends CardFetcher {
   }
 
   getCard (cardName, setName, setCode, forceFetch) {
-    let keyName = this.getKeyName(cardName, setName);
+    let keyName = this.getKeyName("getCard", cardName);
 
     if (this._pendingRequests[keyName]) {
       return this._pendingRequests[keyName];
@@ -56,6 +56,7 @@ class Deckbrew extends CardFetcher {
               }
             }
 
+            /*
             // Pick out the best matching edition that has a non-null image
             let edition = card.editions[0];
             bestMatch = -1;
@@ -84,10 +85,11 @@ class Deckbrew extends CardFetcher {
             let cardPrinting = JSON.parse(JSON.stringify(card));  // Deep copy
             delete cardPrinting.editions;
             cardPrinting.printing = JSON.parse(JSON.stringify(edition));
+            */
 
-            this.setObject(keyName, cardPrinting);
+            this.setObject(keyName, card);
             delete this._pendingRequests[keyName];
-            resolve(cardPrinting);
+            resolve(card);
           });
         }).end();
       });

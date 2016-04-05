@@ -22,7 +22,7 @@ class Card extends MTGObject {
     this._promise = new Promise((resolve, reject) => {
       this._game._cardApi.getCard(cardName, setName, setCode).then((card) => {
         assert(card.name === cardName);
-        this._imageUrl = card.printing.image_url;
+        this._imageUrl = card.editions[0].image_url;
         this._mapTypes(card);
         resolve(this);
       });
