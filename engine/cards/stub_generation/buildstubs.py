@@ -50,9 +50,28 @@ def getCard(name, set):
 	return card
 
 def getSafeCardName(cardName):
-	illegalCharacters = u" ?!()\",.-'û®:&"
+	illegalCharacters = u" ?!()\",.-'®:&"
+	characterReplacements = {
+		u"û": "u",
+		u"ú": "u",
+		u"ù": "u",
+		u"â": "a",
+		u"á": "a",
+		u"à": "a",
+		u"ê": "e",
+		u"é": "e",
+		u"è": "e",
+		u"î": "i",
+		u"í": "i",
+		u"ì": "i",
+		u"ö": "o",
+		u"Æ": "Ae"
+	}
 	for char in illegalCharacters:
 		cardName = cardName.replace(char, "")
+
+	for dictionaryEntry in characterReplacements.iteritems():
+		cardName = cardName.replace(dictionaryEntry[0], dictionaryEntry[1])
 
 	# One card in all of Magic starts with a digit - 1996 World Champion
 	if cardName[0].isdigit():
