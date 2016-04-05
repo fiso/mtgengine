@@ -1,0 +1,11 @@
+"use strict";
+const Constants = require ("../../../Constants");
+const IslandSanctuaryBase = require("../setCED/IslandSanctuary");
+
+class IslandSanctuary extends IslandSanctuaryBase {
+  constructor(game) {
+    super(game, "Island Sanctuary", "Masters Edition IV", "ME4");
+  }
+}
+
+module.exports = IslandSanctuary;
