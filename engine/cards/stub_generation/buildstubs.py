@@ -53,6 +53,8 @@ def getSafeCardName(cardName):
 	illegalCharacters = u" ?!()\",.-'û®:&"
 	for char in illegalCharacters:
 		cardName = cardName.replace(char, "")
+
+	# One card in all of Magic starts with a digit - 1996 World Champion
 	if cardName[0].isdigit():
 		cardName = "_" + cardName
 	return cardName
