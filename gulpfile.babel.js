@@ -5,14 +5,9 @@ var tap = require('gulp-tap');
 var buffer = require('gulp-buffer');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
-var fs = require('fs');
-var path = require('path');
-var merge = require('merge-stream');
-var concat = require('gulp-concat');
-var rename = require('gulp-rename');
 
 gulp.task('sets', function () {
-  return gulp.src('src/cards/sets/**/set.js', {read: false}) // no need to read file because browserify does
+  return gulp.src('src/cards/sets/**/set.js', {read: false}) // no need to read file because browserify does it
     // transform file objects using gulp-tap plugin
     .pipe(tap(function (file) {
       gutil.log('bundling ' + file.path);
@@ -21,13 +16,8 @@ gulp.task('sets', function () {
     }))
     // transform streaming contents into buffer contents (because gulp-sourcemaps does not support streaming contents)
     .pipe(buffer())
-    // load and init sourcemaps
     .pipe(sourcemaps.init({loadMaps: true}))
-/*
-    .pipe(uglify().on('error', function(e){
-            console.log(e);
-         }))
-*/
+    // .pipe(uglify())
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('frontend/js/bundles'));
 });
