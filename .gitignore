@@ -2,3 +2,5 @@ node_modules
 frontend/js/*bundle*.js
 coverage/
 engine/cards/stub_generation/output/*
+frontend/js/bundles/*
+!frontend/js/bundles/empty_folder
