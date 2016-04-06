@@ -2,7 +2,7 @@
 const Constants = require ("../../../Constants");
 ___REQUIRES___
 class ___CLASSNAME___ extends ___BASECLASS___ {
-  constructor(game) {
+  constructor (game) {
     super(game, "___CARDNAME___", "___SETNAME___", "___SETCODE___");
   }
 }
