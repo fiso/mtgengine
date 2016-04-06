@@ -1,4 +1,4 @@
 node_modules
 frontend/js/*bundle*.js
 coverage/
-engine/cards/stub_generation/output/*
+src/cards/stub_generation/output/*

@@ -1,14 +1,14 @@
 "use strict";
 const assert = require('assert');
-const Constants = require("../engine/Constants");
-const Inputs = require("../engine/Inputs");
-const Permanent = require("../engine/objects/Permanent");
-const BasicMountain = require("../engine/cards/testcards/BasicMountain");
-const UnimplementedCard = require("../engine/cards/UnimplementedCard");
-const Game = require("../engine/Game");
-const Cost = require("../engine/Cost");
-const Deck = require("../engine/Deck");
-const Deckbrew = require("../engine/apis/Deckbrew");
+const Constants = require("../src/Constants");
+const Inputs = require("../src/Inputs");
+const Permanent = require("../src/objects/Permanent");
+const BasicMountain = require("../src/cards/testcards/BasicMountain");
+const UnimplementedCard = require("../src/cards/UnimplementedCard");
+const Game = require("../src/Game");
+const Cost = require("../src/Cost");
+const Deck = require("../src/Deck");
+const Deckbrew = require("../src/apis/Deckbrew");
 
 // istanbul cover node_modules/mocha/bin/_mocha -- -R spec
 
