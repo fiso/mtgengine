@@ -1,9 +1,9 @@
 "use strict";
-const Game = require("./engine/Game");
-const Constants = require("./engine/Constants");
-const Inputs = require("./engine/Inputs");
-const Outputs = require("./engine/Outputs");
-const Deck = require("./engine/Deck");
+const Game = require("./src/Game");
+const Constants = require("./src/Constants");
+const Inputs = require("./src/Inputs");
+const Outputs = require("./src/Outputs");
+const Deck = require("./src/Deck");
 
 const kikiChordList =
 `1 Fire-Lit Thicket
