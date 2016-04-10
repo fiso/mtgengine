@@ -54,28 +54,6 @@ class Permanent extends MTGObject {
     this._owner._graveyard.addObject(this._card);
   }
 
-  /**
-   * @returns {number} The current power of the permanent, if it's a creature.
-   */
-  getPower () {
-    return this._power;
-  }
-
-  /**
-   * @returns {number} The current toughness of the permanent, if it's a creature.
-   */
-  getToughness () {
-    return this._toughness;
-  }
-
-  hasLethalDamage () {
-    return this._damage >= this.getToughness();
-  }
-
-  hasNonPositiveToughness () {
-    return this.getToughness() <= 0;
-  }
-
   isControlledBy (player) {
     return this._controller === player;
   }

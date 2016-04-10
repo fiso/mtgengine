@@ -21,6 +21,18 @@ class Battlefield extends Zone {
 
   performStateBasedActions () {
     let actionsPerformed = 0;
+
+    for (let permanent of this._objects) {
+      let p1p1 = permanent.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+      let m1m1 = permanent.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+      while (p1p1 > 0 && m1m1 > 0) {
+        let lowestAmount = Math.min(m1m1, p1p1);
+        permanent.removeCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE, lowestAmount);
+        permanent.removeCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE, lowestAmount);
+        actionsPerformed++;
+      }
+    }
+
     for (let creature of this.creatures) {
       assert(creature.isCreature());
 
