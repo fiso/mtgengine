@@ -13,11 +13,17 @@ class Creature extends Permanent {
 	}
 
 	get power () {
-		return this._basePower;
+		let power = this._basePower;
+		power += this.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+		power -= this.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+		return power;
 	}
 
 	get toughness () {
-		return this._baseToughness;
+		let toughness = this._baseToughness;
+		toughness += this.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+		toughness -= this.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+		return toughness;
 	}
 
 	resetBlockers () {

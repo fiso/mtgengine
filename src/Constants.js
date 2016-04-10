@@ -194,6 +194,14 @@ const Constants = {
     VIGILANCE: "VIGILANCE",
 
     INFECT: "INFECT"
+  },
+
+  counterTypes: {
+    PLUS_ONE_PLUS_ONE: "PLUS_ONE_PLUS_ONE",
+    MINUS_ONE_MINUS_ONE: "MINUS_ONE_MINUS_ONE",
+    LOYALTY: "LOYALTY",
+    AGE: "AGE",
+    TIME: "TIME"
   }
 };
 
