@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThornscapeApprenticeBase = require("../setDDE/ThornscapeApprentice");
 
 class ThornscapeApprentice extends ThornscapeApprenticeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thornscape Apprentice", "Invasion", "INV");
   }
 }

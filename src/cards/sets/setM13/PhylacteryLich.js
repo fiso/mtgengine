@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhylacteryLichBase = require("../setM11/PhylacteryLich");
 
 class PhylacteryLich extends PhylacteryLichBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phylactery Lich", "Magic 2013", "M13");
   }
 }

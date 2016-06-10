@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PithingNeedleBase = require("../setM10/PithingNeedle");
 
 class PithingNeedle extends PithingNeedleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pithing Needle", "Return to Ravnica", "RTR");
   }
 }

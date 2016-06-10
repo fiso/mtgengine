@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlametongueKavuBase = require("../setC14/FlametongueKavu");
 
 class FlametongueKavu extends FlametongueKavuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flametongue Kavu", "Planechase", "HOP");
   }
 }

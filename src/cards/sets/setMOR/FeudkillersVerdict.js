@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FeudkillersVerdictBase = require("../setMMA/FeudkillersVerdict");
 
 class FeudkillersVerdict extends FeudkillersVerdictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Feudkiller's Verdict", "Morningtide", "MOR");
   }
 }

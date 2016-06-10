@@ -121,3 +121,4 @@ module.exports = {
   WindseekerCentaur: require("./WindseekerCentaur"),
   XathridNecromancer: require("./XathridNecromancer")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpMEI = module.exports;}

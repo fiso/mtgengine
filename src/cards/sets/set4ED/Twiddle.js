@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TwiddleBase = require("../setCED/Twiddle");
 
 class Twiddle extends TwiddleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Twiddle", "Fourth Edition", "4ED");
   }
 }

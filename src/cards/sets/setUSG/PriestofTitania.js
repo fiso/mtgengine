@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PriestofTitaniaBase = require("../setC14/PriestofTitania");
 
 class PriestofTitania extends PriestofTitaniaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Priest of Titania", "Urza's Saga", "USG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NestInvaderBase = require("../setMM2/NestInvader");
 
 class NestInvader extends NestInvaderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nest Invader", "Rise of the Eldrazi", "ROE");
   }
 }

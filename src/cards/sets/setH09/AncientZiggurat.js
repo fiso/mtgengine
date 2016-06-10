@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncientZigguratBase = require("../setCON/AncientZiggurat");
 
 class AncientZiggurat extends AncientZigguratBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancient Ziggurat", "Premium Deck Series: Slivers", "H09");
   }
 }

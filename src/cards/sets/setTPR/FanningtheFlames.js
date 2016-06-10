@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FanningtheFlamesBase = require("../setSTH/FanningtheFlames");
 
 class FanningtheFlames extends FanningtheFlamesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fanning the Flames", "Tempest Remastered", "TPR");
   }
 }

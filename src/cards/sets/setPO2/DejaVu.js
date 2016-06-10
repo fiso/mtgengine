@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DejaVuBase = require("../setPOR/DejaVu");
 
 class DejaVu extends DejaVuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Déjà Vu", "Portal Second Age", "PO2");
   }
 }

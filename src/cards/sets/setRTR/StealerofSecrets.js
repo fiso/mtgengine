@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StealerofSecretsBase = require("../setDDM/StealerofSecrets");
 
 class StealerofSecrets extends StealerofSecretsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stealer of Secrets", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ConsecrateLandBase = require("../setCED/ConsecrateLand");
 
 class ConsecrateLand extends ConsecrateLandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Consecrate Land", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

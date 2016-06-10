@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrimBackwoodsBase = require("../setC13/GrimBackwoods");
 
 class GrimBackwoods extends GrimBackwoodsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grim Backwoods", "Dark Ascension", "DKA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ViselingBase = require("../setC13/Viseling");
 
 class Viseling extends ViselingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Viseling", "Nemesis", "NMS");
   }
 }

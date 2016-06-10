@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NoggleRansackerBase = require("../setEVE/NoggleRansacker");
 
 class NoggleRansacker extends NoggleRansackerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Noggle Ransacker", "Planechase 2012 Edition", "PC2");
   }
 }

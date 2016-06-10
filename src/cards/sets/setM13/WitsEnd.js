@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WitsEndBase = require("../setDIS/WitsEnd");
 
 class WitsEnd extends WitsEndBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wit's End", "Magic 2013", "M13");
   }
 }

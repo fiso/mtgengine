@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlintHawkIdolBase = require("../setMM2/GlintHawkIdol");
 
 class GlintHawkIdol extends GlintHawkIdolBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glint Hawk Idol", "Scars of Mirrodin", "SOM");
   }
 }

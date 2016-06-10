@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorSkyfisherBase = require("../setDDO/KorSkyfisher");
 
 class KorSkyfisher extends KorSkyfisherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Skyfisher", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }
 }

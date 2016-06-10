@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VolcanicIslandBase = require("../setCED/VolcanicIsland");
 
 class VolcanicIsland extends VolcanicIslandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Volcanic Island", "Masters Edition IV", "ME4");
   }
 }

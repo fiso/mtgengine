@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShivanGorgeBase = require("../setV12/ShivanGorge");
 
 class ShivanGorge extends ShivanGorgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shivan Gorge", "Urza's Saga", "USG");
   }
 }

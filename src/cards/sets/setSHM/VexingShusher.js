@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VexingShusherBase = require("../setpLPA/VexingShusher");
 
 class VexingShusher extends VexingShusherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vexing Shusher", "Shadowmoor", "SHM");
   }
 }

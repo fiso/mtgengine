@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HungeroftheHowlpackBase = require("../setDKA/HungeroftheHowlpack");
 
 class HungeroftheHowlpack extends HungeroftheHowlpackBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hunger of the Howlpack", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HornofDeafeningBase = require("../setCHR/HornofDeafening");
 
 class HornofDeafening extends HornofDeafeningBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Horn of Deafening", "Masters Edition IV", "ME4");
   }
 }

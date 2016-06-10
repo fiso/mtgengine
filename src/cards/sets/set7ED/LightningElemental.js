@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LightningElementalBase = require("../setBRB/LightningElemental");
 
 class LightningElemental extends LightningElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lightning Elemental", "Seventh Edition", "7ED");
   }
 }

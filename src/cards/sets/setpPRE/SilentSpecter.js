@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SilentSpecterBase = require("../setONS/SilentSpecter");
 
 class SilentSpecter extends SilentSpecterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Silent Specter", "Prerelease Events", "pPRE");
   }
 }

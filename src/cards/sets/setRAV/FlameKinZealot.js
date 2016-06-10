@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlameKinZealotBase = require("../setDDN/FlameKinZealot");
 
 class FlameKinZealot extends FlameKinZealotBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flame-Kin Zealot", "Ravnica: City of Guilds", "RAV");
   }
 }

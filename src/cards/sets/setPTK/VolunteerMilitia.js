@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VolunteerMilitiaBase = require("../setPO2/VolunteerMilitia");
 
 class VolunteerMilitia extends VolunteerMilitiaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Volunteer Militia", "Portal Three Kingdoms", "PTK");
   }
 }

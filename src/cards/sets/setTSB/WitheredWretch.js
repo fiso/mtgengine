@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WitheredWretchBase = require("../setpFNM/WitheredWretch");
 
 class WitheredWretch extends WitheredWretchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Withered Wretch", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

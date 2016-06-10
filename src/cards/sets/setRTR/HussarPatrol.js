@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HussarPatrolBase = require("../setDDN/HussarPatrol");
 
 class HussarPatrol extends HussarPatrolBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hussar Patrol", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InnerFlameAcolyteBase = require("../setDD3_JVC/InnerFlameAcolyte");
 
 class InnerFlameAcolyte extends InnerFlameAcolyteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Inner-Flame Acolyte", "Lorwyn", "LRW");
   }
 }

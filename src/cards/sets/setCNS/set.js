@@ -211,3 +211,4 @@ module.exports = {
   WrapinVigor: require("./WrapinVigor"),
   ZombieGoliath: require("./ZombieGoliath")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCNS = module.exports;}

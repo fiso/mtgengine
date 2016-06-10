@@ -60,3 +60,4 @@ module.exports = {
   Windstorm: require("./Windstorm"),
   WirewoodSavage: require("./WirewoodSavage")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDD = module.exports;}

@@ -172,3 +172,4 @@ module.exports = {
   ZhurTaaAncient: require("./ZhurTaaAncient"),
   ZhurTaaDruid: require("./ZhurTaaDruid")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDGM = module.exports;}

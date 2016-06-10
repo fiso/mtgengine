@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GolemsHeartBase = require("../setSOM/GolemsHeart");
 
 class GolemsHeart extends GolemsHeartBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Golem's Heart", "WPN and Gateway", "pWPN");
   }
 }

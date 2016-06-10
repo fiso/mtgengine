@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LavabornMuseBase = require("../setDDK/LavabornMuse");
 
 class LavabornMuse extends LavabornMuseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lavaborn Muse", "Legions", "LGN");
   }
 }

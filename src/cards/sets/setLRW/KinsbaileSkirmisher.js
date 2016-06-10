@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KinsbaileSkirmisherBase = require("../setDDO/KinsbaileSkirmisher");
 
 class KinsbaileSkirmisher extends KinsbaileSkirmisherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kinsbaile Skirmisher", "Lorwyn", "LRW");
   }
 }

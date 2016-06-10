@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimevalShamblerBase = require("../set8ED/PrimevalShambler");
 
 class PrimevalShambler extends PrimevalShamblerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Primeval Shambler", "Mercadian Masques", "MMQ");
   }
 }

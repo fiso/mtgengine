@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlimmerpointStagBase = require("../setCNS/GlimmerpointStag");
 
 class GlimmerpointStag extends GlimmerpointStagBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glimmerpoint Stag", "Scars of Mirrodin", "SOM");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PyrokinesisBase = require("../setALL/Pyrokinesis");
 
 class Pyrokinesis extends PyrokinesisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pyrokinesis", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlanchwoodArmorBase = require("../setDPA/BlanchwoodArmor");
 
 class BlanchwoodArmor extends BlanchwoodArmorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blanchwood Armor", "Ninth Edition", "9ED");
   }
 }

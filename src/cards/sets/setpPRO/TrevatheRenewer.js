@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrevatheRenewerBase = require("../setDDE/TrevatheRenewer");
 
 class TrevatheRenewer extends TrevatheRenewerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treva, the Renewer", "Pro Tour", "pPRO");
   }
 }

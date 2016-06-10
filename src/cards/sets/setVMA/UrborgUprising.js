@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UrborgUprisingBase = require("../setAPC/UrborgUprising");
 
 class UrborgUprising extends UrborgUprisingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Urborg Uprising", "Vintage Masters", "VMA");
   }
 }

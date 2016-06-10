@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CitanulDruidBase = require("../setATQ/CitanulDruid");
 
 class CitanulDruid extends CitanulDruidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Citanul Druid", "Masters Edition IV", "ME4");
   }
 }

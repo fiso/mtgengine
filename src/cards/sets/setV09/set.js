@@ -16,3 +16,4 @@ module.exports = {
   Tinker: require("./Tinker"),
   Trinisphere: require("./Trinisphere")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV09 = module.exports;}

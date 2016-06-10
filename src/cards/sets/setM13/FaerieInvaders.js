@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FaerieInvadersBase = require("../setDDN/FaerieInvaders");
 
 class FaerieInvaders extends FaerieInvadersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Faerie Invaders", "Magic 2013", "M13");
   }
 }

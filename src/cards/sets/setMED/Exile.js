@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExileBase = require("../setALL/Exile");
 
 class Exile extends ExileBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Exile", "Masters Edition", "MED");
   }
 }

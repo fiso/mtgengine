@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NomadicElfBase = require("../setDDE/NomadicElf");
 
 class NomadicElf extends NomadicElfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nomadic Elf", "Invasion", "INV");
   }
 }

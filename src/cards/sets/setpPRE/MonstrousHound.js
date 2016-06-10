@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MonstrousHoundBase = require("../setEXO/MonstrousHound");
 
 class MonstrousHound extends MonstrousHoundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Monstrous Hound", "Prerelease Events", "pPRE");
   }
 }

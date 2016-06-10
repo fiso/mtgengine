@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TorWaukiBase = require("../setCHR/TorWauki");
 
 class TorWauki extends TorWaukiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tor Wauki", "Legends", "LEG");
   }
 }

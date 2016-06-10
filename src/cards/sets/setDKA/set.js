@@ -172,3 +172,4 @@ module.exports = {
   YoungWolf: require("./YoungWolf"),
   ZombieApocalypse: require("./ZombieApocalypse")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDKA = module.exports;}

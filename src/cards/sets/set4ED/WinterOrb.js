@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WinterOrbBase = require("../setCED/WinterOrb");
 
 class WinterOrb extends WinterOrbBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Winter Orb", "Fourth Edition", "4ED");
   }
 }

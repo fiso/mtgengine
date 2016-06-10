@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UginsConstructBase = require("../setFRF/UginsConstruct");
 
 class UginsConstruct extends UginsConstructBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ugin's Construct", "Ugin's Fate promos", "FRF_UGIN");
   }
 }

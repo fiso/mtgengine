@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BarbedShockerBase = require("../setCNS/BarbedShocker");
 
 class BarbedShocker extends BarbedShockerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Barbed Shocker", "Time Spiral", "TSP");
   }
 }

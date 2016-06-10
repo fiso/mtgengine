@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MasterHealerBase = require("../set8ED/MasterHealer");
 
 class MasterHealer extends MasterHealerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Master Healer", "Urza's Destiny", "UDS");
   }
 }

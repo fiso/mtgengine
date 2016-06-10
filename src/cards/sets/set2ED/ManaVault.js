@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ManaVaultBase = require("../setCED/ManaVault");
 
 class ManaVault extends ManaVaultBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mana Vault", "Unlimited Edition", "2ED");
   }
 }

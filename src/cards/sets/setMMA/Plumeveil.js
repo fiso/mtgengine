@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlumeveilBase = require("../setCMD/Plumeveil");
 
 class Plumeveil extends PlumeveilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Plumeveil", "Modern Masters", "MMA");
   }
 }

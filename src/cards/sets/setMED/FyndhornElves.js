@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FyndhornElvesBase = require("../setDKM/FyndhornElves");
 
 class FyndhornElves extends FyndhornElvesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fyndhorn Elves", "Masters Edition", "MED");
   }
 }

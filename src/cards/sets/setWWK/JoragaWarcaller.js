@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JoragaWarcallerBase = require("../setC14/JoragaWarcaller");
 
 class JoragaWarcaller extends JoragaWarcallerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Joraga Warcaller", "Worldwake", "WWK");
   }
 }

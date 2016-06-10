@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HonorablePassageBase = require("../setTSB/HonorablePassage");
 
 class HonorablePassage extends HonorablePassageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Honorable Passage", "Visions", "VIS");
   }
 }

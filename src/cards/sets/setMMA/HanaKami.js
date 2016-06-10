@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HanaKamiBase = require("../setCHK/HanaKami");
 
 class HanaKami extends HanaKamiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hana Kami", "Modern Masters", "MMA");
   }
 }

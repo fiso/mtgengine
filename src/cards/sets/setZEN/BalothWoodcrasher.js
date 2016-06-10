@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BalothWoodcrasherBase = require("../setC13/BalothWoodcrasher");
 
 class BalothWoodcrasher extends BalothWoodcrasherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Baloth Woodcrasher", "Zendikar", "ZEN");
   }
 }

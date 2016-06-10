@@ -82,3 +82,4 @@ module.exports = {
   WoollySpider: require("./WoollySpider"),
   YouthfulKnight: require("./YouthfulKnight")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setATH = module.exports;}

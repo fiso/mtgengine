@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlazeBase = require("../set6ED/Blaze");
 
 class Blaze extends BlazeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blaze", "Portal", "POR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrecinctCaptainBase = require("../setDDO/PrecinctCaptain");
 
 class PrecinctCaptain extends PrecinctCaptainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Precinct Captain", "Return to Ravnica", "RTR");
   }
 }

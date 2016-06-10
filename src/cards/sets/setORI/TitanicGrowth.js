@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TitanicGrowthBase = require("../setM12/TitanicGrowth");
 
 class TitanicGrowth extends TitanicGrowthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Titanic Growth", "Magic Origins", "ORI");
   }
 }

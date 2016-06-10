@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WindsweptHeathBase = require("../setpJGP/WindsweptHeath");
 
 class WindsweptHeath extends WindsweptHeathBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Windswept Heath", "Zendikar Expedition", "EXP");
   }
 }

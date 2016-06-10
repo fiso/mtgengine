@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MischievousPoltergeistBase = require("../set6ED/MischievousPoltergeist");
 
 class MischievousPoltergeist extends MischievousPoltergeistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mischievous Poltergeist", "Weatherlight", "WTH");
   }
 }

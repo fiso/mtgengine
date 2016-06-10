@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VoraciousDragonBase = require("../setCON/VoraciousDragon");
 
 class VoraciousDragon extends VoraciousDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Voracious Dragon", "Duel Decks: Knights vs. Dragons", "DDG");
   }
 }

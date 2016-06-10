@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulSummonsBase = require("../setFRF/SoulSummons");
 
 class SoulSummons extends SoulSummonsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Summons", "Ugin's Fate promos", "FRF_UGIN");
   }
 }

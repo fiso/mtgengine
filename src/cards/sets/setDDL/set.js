@@ -69,3 +69,4 @@ module.exports = {
   WindsofRath: require("./WindsofRath"),
   ZhurTaaDruid: require("./ZhurTaaDruid")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDL = module.exports;}

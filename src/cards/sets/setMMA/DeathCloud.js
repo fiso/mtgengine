@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathCloudBase = require("../setDST/DeathCloud");
 
 class DeathCloud extends DeathCloudBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Death Cloud", "Modern Masters", "MMA");
   }
 }

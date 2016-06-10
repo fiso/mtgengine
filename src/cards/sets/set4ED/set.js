@@ -369,3 +369,4 @@ module.exports = {
   ZephyrFalcon: require("./ZephyrFalcon"),
   ZombieMaster: require("./ZombieMaster")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set4ED = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WalkingWallBase = require("../setDKM/WalkingWall");
 
 class WalkingWall extends WalkingWallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Walking Wall", "Masters Edition", "MED");
   }
 }

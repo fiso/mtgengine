@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SheoldredWhisperingOneBase = require("../setNPH/SheoldredWhisperingOne");
 
 class SheoldredWhisperingOne extends SheoldredWhisperingOneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sheoldred, Whispering One", "Prerelease Events", "pPRE");
   }
 }

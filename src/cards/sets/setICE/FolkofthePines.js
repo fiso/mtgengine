@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FolkofthePinesBase = require("../setDKM/FolkofthePines");
 
 class FolkofthePines extends FolkofthePinesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Folk of the Pines", "Ice Age", "ICE");
   }
 }

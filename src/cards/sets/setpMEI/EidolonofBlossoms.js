@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EidolonofBlossomsBase = require("../setJOU/EidolonofBlossoms");
 
 class EidolonofBlossoms extends EidolonofBlossomsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Eidolon of Blossoms", "Media Inserts", "pMEI");
   }
 }

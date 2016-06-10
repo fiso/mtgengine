@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RadjanSpiritBase = require("../set6ED/RadjanSpirit");
 
 class RadjanSpirit extends RadjanSpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Radjan Spirit", "Masters Edition IV", "ME4");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CarefulConsiderationBase = require("../setMMA/CarefulConsideration");
 
 class CarefulConsideration extends CarefulConsiderationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Careful Consideration", "Time Spiral", "TSP");
   }
 }

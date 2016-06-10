@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const YavimayaEnchantressBase = require("../set8ED/YavimayaEnchantress");
 
 class YavimayaEnchantress extends YavimayaEnchantressBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Yavimaya Enchantress", "Seventh Edition", "7ED");
   }
 }

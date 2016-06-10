@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InfiniteHourglassBase = require("../set5ED/InfiniteHourglass");
 
 class InfiniteHourglass extends InfiniteHourglassBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Infinite Hourglass", "Ice Age", "ICE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorSanctifiersBase = require("../setC14/KorSanctifiers");
 
 class KorSanctifiers extends KorSanctifiersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Sanctifiers", "Planechase", "HOP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhyrexianGargantuaBase = require("../setAPC/PhyrexianGargantua");
 
 class PhyrexianGargantua extends PhyrexianGargantuaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phyrexian Gargantua", "Commander 2014", "C14");
   }
 }

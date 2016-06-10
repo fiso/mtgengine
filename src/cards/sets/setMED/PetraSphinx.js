@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PetraSphinxBase = require("../setCHR/PetraSphinx");
 
 class PetraSphinx extends PetraSphinxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Petra Sphinx", "Masters Edition", "MED");
   }
 }

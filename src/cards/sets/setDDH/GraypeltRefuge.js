@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GraypeltRefugeBase = require("../setARC/GraypeltRefuge");
 
 class GraypeltRefuge extends GraypeltRefugeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Graypelt Refuge", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LivingHiveBase = require("../setMRD/LivingHive");
 
 class LivingHive extends LivingHiveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Living Hive", "Planechase", "HOP");
   }
 }

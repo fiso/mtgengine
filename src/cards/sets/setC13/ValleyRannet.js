@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ValleyRannetBase = require("../setARB/ValleyRannet");
 
 class ValleyRannet extends ValleyRannetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Valley Rannet", "Commander 2013 Edition", "C13");
   }
 }

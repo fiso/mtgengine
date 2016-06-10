@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AjaniVengeantBase = require("../setDDH/AjaniVengeant");
 
 class AjaniVengeant extends AjaniVengeantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ajani Vengeant", "Launch Parties", "pLPA");
   }
 }

@@ -120,3 +120,4 @@ module.exports = {
   WormsoftheEarth: require("./WormsoftheEarth"),
   WormwoodTreefolk: require("./WormwoodTreefolk")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDRK = module.exports;}

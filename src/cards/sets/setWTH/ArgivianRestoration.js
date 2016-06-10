@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArgivianRestorationBase = require("../setDDF/ArgivianRestoration");
 
 class ArgivianRestoration extends ArgivianRestorationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Argivian Restoration", "Weatherlight", "WTH");
   }
 }

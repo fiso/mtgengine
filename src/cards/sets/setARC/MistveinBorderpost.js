@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MistveinBorderpostBase = require("../setARB/MistveinBorderpost");
 
 class MistveinBorderpost extends MistveinBorderpostBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mistvein Borderpost", "Archenemy", "ARC");
   }
 }

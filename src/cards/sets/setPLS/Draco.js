@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DracoBase = require("../setDRB/Draco");
 
 class Draco extends DracoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Draco", "Planeshift", "PLS");
   }
 }

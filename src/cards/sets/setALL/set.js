@@ -145,3 +145,4 @@ module.exports = {
   YavimayaAncients: require("./YavimayaAncients"),
   YavimayaAnts: require("./YavimayaAnts")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setALL = module.exports;}

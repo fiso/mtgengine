@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SlithStriderBase = require("../setDDI/SlithStrider");
 
 class SlithStrider extends SlithStriderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slith Strider", "Mirrodin", "MRD");
   }
 }

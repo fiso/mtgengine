@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TombstalkerBase = require("../setFUT/Tombstalker");
 
 class Tombstalker extends TombstalkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tombstalker", "Modern Masters", "MMA");
   }
 }

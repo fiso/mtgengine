@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DurkwoodBalothBase = require("../setMMA/DurkwoodBaloth");
 
 class DurkwoodBaloth extends DurkwoodBalothBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Durkwood Baloth", "Time Spiral", "TSP");
   }
 }

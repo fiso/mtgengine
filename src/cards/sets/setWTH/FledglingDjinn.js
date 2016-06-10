@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FledglingDjinnBase = require("../setVMA/FledglingDjinn");
 
 class FledglingDjinn extends FledglingDjinnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fledgling Djinn", "Weatherlight", "WTH");
   }
 }

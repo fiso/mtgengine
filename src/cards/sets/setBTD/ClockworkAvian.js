@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ClockworkAvianBase = require("../setATQ/ClockworkAvian");
 
 class ClockworkAvian extends ClockworkAvianBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Clockwork Avian", "Beatdown Box Set", "BTD");
   }
 }

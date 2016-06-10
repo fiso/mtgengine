@@ -103,3 +103,4 @@ module.exports = {
   VodalianWarMachine: require("./VodalianWarMachine"),
   ZelyonSword: require("./ZelyonSword")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setFEM = module.exports;}

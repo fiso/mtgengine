@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MarshCasualtiesBase = require("../setDDM/MarshCasualties");
 
 class MarshCasualties extends MarshCasualtiesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Marsh Casualties", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

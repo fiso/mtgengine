@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MerfolkMesmeristBase = require("../setM12/MerfolkMesmerist");
 
 class MerfolkMesmerist extends MerfolkMesmeristBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Merfolk Mesmerist", "Media Inserts", "pMEI");
   }
 }

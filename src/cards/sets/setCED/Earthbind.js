@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class Earthbind extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Earthbind", "Collector's Edition", "CED");
   }
 }

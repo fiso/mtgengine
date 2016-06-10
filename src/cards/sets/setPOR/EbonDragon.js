@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EbonDragonBase = require("../setDRB/EbonDragon");
 
 class EbonDragon extends EbonDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ebon Dragon", "Portal", "POR");
   }
 }

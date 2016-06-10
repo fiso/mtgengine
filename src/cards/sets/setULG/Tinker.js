@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TinkerBase = require("../setV09/Tinker");
 
 class Tinker extends TinkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tinker", "Urza's Legacy", "ULG");
   }
 }

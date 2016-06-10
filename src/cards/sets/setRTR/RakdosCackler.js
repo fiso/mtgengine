@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RakdosCacklerBase = require("../setpFNM/RakdosCackler");
 
 class RakdosCackler extends RakdosCacklerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rakdos Cackler", "Return to Ravnica", "RTR");
   }
 }

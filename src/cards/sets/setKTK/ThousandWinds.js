@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThousandWindsBase = require("../setDDN/ThousandWinds");
 
 class ThousandWinds extends ThousandWindsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thousand Winds", "Khans of Tarkir", "KTK");
   }
 }

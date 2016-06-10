@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StirthePrideBase = require("../setDST/StirthePride");
 
 class StirthePride extends StirthePrideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stir the Pride", "Modern Masters", "MMA");
   }
 }

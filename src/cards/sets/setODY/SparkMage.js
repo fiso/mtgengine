@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class SparkMage extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spark Mage", "Odyssey", "ODY");
   }
 }

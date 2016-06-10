@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SindbadBase = require("../setARN/Sindbad");
 
 class Sindbad extends SindbadBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sindbad", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

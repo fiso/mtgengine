@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinPiledriverBase = require("../setpJGP/GoblinPiledriver");
 
 class GoblinPiledriver extends GoblinPiledriverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin Piledriver", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DarigaaztheIgniterBase = require("../setDDE/DarigaaztheIgniter");
 
 class DarigaaztheIgniter extends DarigaaztheIgniterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Darigaaz, the Igniter", "Invasion", "INV");
   }
 }

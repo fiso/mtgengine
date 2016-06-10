@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CocoonBase = require("../setCHR/Cocoon");
 
 class Cocoon extends CocoonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cocoon", "Legends", "LEG");
   }
 }

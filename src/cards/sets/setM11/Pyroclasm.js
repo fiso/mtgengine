@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PyroclasmBase = require("../setDKM/Pyroclasm");
 
 class Pyroclasm extends PyroclasmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pyroclasm", "Magic 2011", "M11");
   }
 }

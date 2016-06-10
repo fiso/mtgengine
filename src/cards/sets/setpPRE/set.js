@@ -130,3 +130,4 @@ module.exports = {
   XathridGorgon: require("./XathridGorgon"),
   ZurgoHelmsmasher: require("./ZurgoHelmsmasher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpPRE = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SlateofAncestryBase = require("../setDD3_EVG/SlateofAncestry");
 
 class SlateofAncestry extends SlateofAncestryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slate of Ancestry", "Onslaught", "ONS");
   }
 }

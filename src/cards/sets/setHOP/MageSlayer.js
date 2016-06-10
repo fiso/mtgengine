@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MageSlayerBase = require("../setARB/MageSlayer");
 
 class MageSlayer extends MageSlayerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mage Slayer", "Planechase", "HOP");
   }
 }

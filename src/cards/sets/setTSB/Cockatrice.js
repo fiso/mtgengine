@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CockatriceBase = require("../setCED/Cockatrice");
 
 class Cockatrice extends CockatriceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cockatrice", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

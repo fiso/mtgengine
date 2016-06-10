@@ -144,3 +144,4 @@ module.exports = {
   WarriorenKor: require("./WarriorenKor"),
   YouthfulKnight: require("./YouthfulKnight")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSTH = module.exports;}

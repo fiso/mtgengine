@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MudslideBase = require("../setICE/Mudslide");
 
 class Mudslide extends MudslideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mudslide", "Masters Edition II", "ME2");
   }
 }

@@ -171,3 +171,4 @@ module.exports = {
   WineofBloodandIron: require("./WineofBloodandIron"),
   YukiOnna: require("./YukiOnna")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSOK = module.exports;}

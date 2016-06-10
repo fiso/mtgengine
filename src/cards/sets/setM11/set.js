@@ -235,3 +235,4 @@ module.exports = {
   WurmsTooth: require("./WurmsTooth"),
   YavimayaWurm: require("./YavimayaWurm")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM11 = module.exports;}

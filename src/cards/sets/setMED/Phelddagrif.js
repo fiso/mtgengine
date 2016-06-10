@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhelddagrifBase = require("../setALL/Phelddagrif");
 
 class Phelddagrif extends PhelddagrifBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phelddagrif", "Masters Edition", "MED");
   }
 }

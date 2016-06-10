@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WickerboughElderBase = require("../setARC/WickerboughElder");
 
 class WickerboughElder extends WickerboughElderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wickerbough Elder", "Eventide", "EVE");
   }
 }

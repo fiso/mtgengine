@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArmillarySphereBase = require("../setC13/ArmillarySphere");
 
 class ArmillarySphere extends ArmillarySphereBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Armillary Sphere", "Magic: The Gathering-Commander", "CMD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrainwashBase = require("../set5ED/Brainwash");
 
 class Brainwash extends BrainwashBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brainwash", "Fourth Edition", "4ED");
   }
 }

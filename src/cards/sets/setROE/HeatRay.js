@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeatRayBase = require("../setBRB/HeatRay");
 
 class HeatRay extends HeatRayBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heat Ray", "Rise of the Eldrazi", "ROE");
   }
 }

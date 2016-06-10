@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AvalancheRidersBase = require("../setpFNM/AvalancheRiders");
 
 class AvalancheRiders extends AvalancheRidersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Avalanche Riders", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

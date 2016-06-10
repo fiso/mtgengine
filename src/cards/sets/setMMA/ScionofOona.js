@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScionofOonaBase = require("../setLRW/ScionofOona");
 
 class ScionofOona extends ScionofOonaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scion of Oona", "Modern Masters", "MMA");
   }
 }

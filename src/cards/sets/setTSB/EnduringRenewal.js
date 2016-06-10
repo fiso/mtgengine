@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnduringRenewalBase = require("../setICE/EnduringRenewal");
 
 class EnduringRenewal extends EnduringRenewalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Enduring Renewal", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

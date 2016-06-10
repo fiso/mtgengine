@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AlabasterDragonBase = require("../setPOR/AlabasterDragon");
 
 class AlabasterDragon extends AlabasterDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Alabaster Dragon", "Weatherlight", "WTH");
   }
 }

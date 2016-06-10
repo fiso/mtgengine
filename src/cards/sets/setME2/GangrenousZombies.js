@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GangrenousZombiesBase = require("../setCST/GangrenousZombies");
 
 class GangrenousZombies extends GangrenousZombiesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gangrenous Zombies", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GreaterGargadonBase = require("../setMMA/GreaterGargadon");
 
 class GreaterGargadon extends GreaterGargadonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Greater Gargadon", "Time Spiral", "TSP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArenaoftheAncientsBase = require("../setCHR/ArenaoftheAncients");
 
 class ArenaoftheAncients extends ArenaoftheAncientsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arena of the Ancients", "Masters Edition III", "ME3");
   }
 }

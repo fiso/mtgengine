@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FalseOrdersBase = require("../setCED/FalseOrders");
 
 class FalseOrders extends FalseOrdersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "False Orders", "Unlimited Edition", "2ED");
   }
 }

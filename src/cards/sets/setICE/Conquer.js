@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ConquerBase = require("../set6ED/Conquer");
 
 class Conquer extends ConquerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Conquer", "Ice Age", "ICE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpikeWeaverBase = require("../setBRB/SpikeWeaver");
 
 class SpikeWeaver extends SpikeWeaverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spike Weaver", "Exodus", "EXO");
   }
 }

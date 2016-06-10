@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const XiraArienBase = require("../setCHR/XiraArien");
 
 class XiraArien extends XiraArienBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Xira Arien", "Legends", "LEG");
   }
 }

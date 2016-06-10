@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NarcomoebaBase = require("../setFUT/Narcomoeba");
 
 class Narcomoeba extends NarcomoebaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Narcomoeba", "Modern Masters", "MMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RidgelineRagerBase = require("../set8ED/RidgelineRager");
 
 class RidgelineRager extends RidgelineRagerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ridgeline Rager", "Prophecy", "PCY");
   }
 }

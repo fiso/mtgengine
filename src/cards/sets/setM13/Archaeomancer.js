@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArchaeomancerBase = require("../setDDM/Archaeomancer");
 
 class Archaeomancer extends ArchaeomancerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Archaeomancer", "Magic 2013", "M13");
   }
 }

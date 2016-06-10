@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OgreArsonistBase = require("../setpMEI/OgreArsonist");
 
 class OgreArsonist extends OgreArsonistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ogre Arsonist", "Portal Second Age", "PO2");
   }
 }

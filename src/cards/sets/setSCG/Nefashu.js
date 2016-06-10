@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NefashuBase = require("../setHOP/Nefashu");
 
 class Nefashu extends NefashuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nefashu", "Scourge", "SCG");
   }
 }

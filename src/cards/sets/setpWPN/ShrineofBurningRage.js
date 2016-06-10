@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShrineofBurningRageBase = require("../setNPH/ShrineofBurningRage");
 
 class ShrineofBurningRage extends ShrineofBurningRageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shrine of Burning Rage", "WPN and Gateway", "pWPN");
   }
 }

@@ -144,3 +144,4 @@ module.exports = {
   Withdraw: require("./Withdraw"),
   ZerapaMinotaur: require("./ZerapaMinotaur")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPCY = module.exports;}

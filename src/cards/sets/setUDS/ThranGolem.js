@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThranGolemBase = require("../setM12/ThranGolem");
 
 class ThranGolem extends ThranGolemBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thran Golem", "Urza's Destiny", "UDS");
   }
 }

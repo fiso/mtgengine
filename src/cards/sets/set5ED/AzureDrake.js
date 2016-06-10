@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AzureDrakeBase = require("../setBRB/AzureDrake");
 
 class AzureDrake extends AzureDrakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Azure Drake", "Fifth Edition", "5ED");
   }
 }

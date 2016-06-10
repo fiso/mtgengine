@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BodyDoubleBase = require("../setDDM/BodyDouble");
 
 class BodyDouble extends BodyDoubleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Body Double", "Planar Chaos", "PLC");
   }
 }

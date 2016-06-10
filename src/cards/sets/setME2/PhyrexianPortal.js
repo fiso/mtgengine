@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhyrexianPortalBase = require("../setALL/PhyrexianPortal");
 
 class PhyrexianPortal extends PhyrexianPortalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phyrexian Portal", "Masters Edition II", "ME2");
   }
 }

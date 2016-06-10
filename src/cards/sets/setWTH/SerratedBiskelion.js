@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SerratedBiskelionBase = require("../setDDF/SerratedBiskelion");
 
 class SerratedBiskelion extends SerratedBiskelionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Serrated Biskelion", "Weatherlight", "WTH");
   }
 }

@@ -47,3 +47,4 @@ module.exports = {
   UktabiOrangutan: require("./UktabiOrangutan"),
   WeeDragonauts: require("./WeeDragonauts")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpARL = module.exports;}

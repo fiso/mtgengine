@@ -336,3 +336,4 @@ module.exports = {
   WordofBlasting: require("./WordofBlasting"),
   WorryBeads: require("./WorryBeads")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMMQ = module.exports;}

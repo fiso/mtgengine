@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StandingTroopsBase = require("../set6ED/StandingTroops");
 
 class StandingTroops extends StandingTroopsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Standing Troops", "Tempest Remastered", "TPR");
   }
 }

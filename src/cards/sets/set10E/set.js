@@ -369,3 +369,4 @@ module.exports = {
   YavimayaEnchantress: require("./YavimayaEnchantress"),
   YouthfulKnight: require("./YouthfulKnight")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set10E = module.exports;}

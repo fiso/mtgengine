@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KjeldoranDeadBase = require("../set6ED/KjeldoranDead");
 
 class KjeldoranDead extends KjeldoranDeadBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kjeldoran Dead", "Masters Edition II", "ME2");
   }
 }

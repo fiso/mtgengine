@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DoomedTravelerBase = require("../setDDQ/DoomedTraveler");
 
 class DoomedTraveler extends DoomedTravelerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Doomed Traveler", "Innistrad", "ISD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BloodCryptBase = require("../setDIS/BloodCrypt");
 
 class BloodCrypt extends BloodCryptBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blood Crypt", "Return to Ravnica", "RTR");
   }
 }

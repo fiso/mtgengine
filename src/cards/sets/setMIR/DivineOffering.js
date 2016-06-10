@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DivineOfferingBase = require("../setCHR/DivineOffering");
 
 class DivineOffering extends DivineOfferingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Divine Offering", "Mirage", "MIR");
   }
 }

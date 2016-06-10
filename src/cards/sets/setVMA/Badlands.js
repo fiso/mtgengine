@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BadlandsBase = require("../setCED/Badlands");
 
 class Badlands extends BadlandsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Badlands", "Vintage Masters", "VMA");
   }
 }

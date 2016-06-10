@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StormCauldronBase = require("../setALL/StormCauldron");
 
 class StormCauldron extends StormCauldronBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Storm Cauldron", "Seventh Edition", "7ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SigiloftheEmptyThroneBase = require("../setC15/SigiloftheEmptyThrone");
 
 class SigiloftheEmptyThrone extends SigiloftheEmptyThroneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sigil of the Empty Throne", "Conflux", "CON");
   }
 }

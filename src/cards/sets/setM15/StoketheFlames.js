@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StoketheFlamesBase = require("../setpFNM/StoketheFlames");
 
 class StoketheFlames extends StoketheFlamesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stoke the Flames", "Magic 2015 Core Set", "M15");
   }
 }

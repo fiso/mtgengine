@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrowseBase = require("../setALL/Browse");
 
 class Browse extends BrowseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Browse", "Classic Sixth Edition", "6ED");
   }
 }

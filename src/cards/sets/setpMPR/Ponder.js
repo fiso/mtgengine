@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PonderBase = require("../setLRW/Ponder");
 
 class Ponder extends PonderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ponder", "Magic Player Rewards", "pMPR");
   }
 }

@@ -73,3 +73,4 @@ module.exports = {
   WiltLeafCavaliers: require("./WiltLeafCavaliers"),
   ZhalfirinCommander: require("./ZhalfirinCommander")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDG = module.exports;}

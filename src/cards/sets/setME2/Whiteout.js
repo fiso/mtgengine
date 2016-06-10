@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhiteoutBase = require("../setICE/Whiteout");
 
 class Whiteout extends WhiteoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whiteout", "Masters Edition II", "ME2");
   }
 }

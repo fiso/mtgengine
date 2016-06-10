@@ -42,3 +42,4 @@ module.exports = {
   WildPair: require("./WildPair"),
   WingedSliver: require("./WingedSliver")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setH09 = module.exports;}

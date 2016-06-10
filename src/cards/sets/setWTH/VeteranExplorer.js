@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VeteranExplorerBase = require("../setCMD/VeteranExplorer");
 
 class VeteranExplorer extends VeteranExplorerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Veteran Explorer", "Weatherlight", "WTH");
   }
 }

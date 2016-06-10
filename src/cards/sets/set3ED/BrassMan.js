@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrassManBase = require("../setARN/BrassMan");
 
 class BrassMan extends BrassManBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brass Man", "Revised Edition", "3ED");
   }
 }

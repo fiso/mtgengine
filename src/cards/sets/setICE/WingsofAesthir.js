@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WingsofAesthirBase = require("../setCST/WingsofAesthir");
 
 class WingsofAesthir extends WingsofAesthirBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wings of Aesthir", "Ice Age", "ICE");
   }
 }

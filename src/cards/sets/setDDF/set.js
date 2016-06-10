@@ -74,3 +74,4 @@ module.exports = {
   TripNoose: require("./TripNoose"),
   Triskelion: require("./Triskelion")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDF = module.exports;}

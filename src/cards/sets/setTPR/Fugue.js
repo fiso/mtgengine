@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FugueBase = require("../setEXO/Fugue");
 
 class Fugue extends FugueBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fugue", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RampantGrowthBase = require("../setBTD/RampantGrowth");
 
 class RampantGrowth extends RampantGrowthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rampant Growth", "Eighth Edition", "8ED");
   }
 }

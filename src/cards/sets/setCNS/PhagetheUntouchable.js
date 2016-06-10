@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhagetheUntouchableBase = require("../setLGN/PhagetheUntouchable");
 
 class PhagetheUntouchable extends PhagetheUntouchableBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phage the Untouchable", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

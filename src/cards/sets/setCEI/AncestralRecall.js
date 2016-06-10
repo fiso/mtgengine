@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncestralRecallBase = require("../setCED/AncestralRecall");
 
 class AncestralRecall extends AncestralRecallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancestral Recall", "International Collector's Edition", "CEI");
   }
 }

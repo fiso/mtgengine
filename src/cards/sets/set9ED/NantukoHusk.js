@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NantukoHuskBase = require("../setORI/NantukoHusk");
 
 class NantukoHusk extends NantukoHuskBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nantuko Husk", "Ninth Edition", "9ED");
   }
 }

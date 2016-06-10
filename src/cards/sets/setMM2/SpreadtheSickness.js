@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpreadtheSicknessBase = require("../setMBS/SpreadtheSickness");
 
 class SpreadtheSickness extends SpreadtheSicknessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spread the Sickness", "Modern Masters 2015 Edition", "MM2");
   }
 }

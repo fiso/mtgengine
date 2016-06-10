@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TerrorBase = require("../setATH/Terror");
 
 class Terror extends TerrorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Terror", "Introductory Two-Player Set", "ITP");
   }
 }

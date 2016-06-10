@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LodestoneGolemBase = require("../setARC/LodestoneGolem");
 
 class LodestoneGolem extends LodestoneGolemBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lodestone Golem", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoalitionRelicBase = require("../setDDE/CoalitionRelic");
 
 class CoalitionRelic extends CoalitionRelicBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coalition Relic", "Future Sight", "FUT");
   }
 }

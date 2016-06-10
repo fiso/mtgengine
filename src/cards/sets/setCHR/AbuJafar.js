@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AbuJafarBase = require("../setARN/AbuJafar");
 
 class AbuJafar extends AbuJafarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Abu Ja'far", "Chronicles", "CHR");
   }
 }

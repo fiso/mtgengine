@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SeatoftheSynodBase = require("../setDDF/SeatoftheSynod");
 
 class SeatoftheSynod extends SeatoftheSynodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Seat of the Synod", "Mirrodin", "MRD");
   }
 }

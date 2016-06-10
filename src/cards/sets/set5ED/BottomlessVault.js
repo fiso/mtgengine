@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BottomlessVaultBase = require("../setFEM/BottomlessVault");
 
 class BottomlessVault extends BottomlessVaultBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bottomless Vault", "Fifth Edition", "5ED");
   }
 }

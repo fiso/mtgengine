@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KarmaBase = require("../setCED/Karma");
 
 class Karma extends KarmaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Karma", "Fourth Edition", "4ED");
   }
 }

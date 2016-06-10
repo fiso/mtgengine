@@ -336,3 +336,4 @@ module.exports = {
   ZombieMob: require("./ZombieMob"),
   ZuberiGoldenFeather: require("./ZuberiGoldenFeather")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMIR = module.exports;}

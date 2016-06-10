@@ -171,3 +171,4 @@ module.exports = {
   WingSplicer: require("./WingSplicer"),
   Xenograft: require("./Xenograft")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setNPH = module.exports;}

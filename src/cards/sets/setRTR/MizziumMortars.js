@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MizziumMortarsBase = require("../setC15/MizziumMortars");
 
 class MizziumMortars extends MizziumMortarsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mizzium Mortars", "Return to Ravnica", "RTR");
   }
 }

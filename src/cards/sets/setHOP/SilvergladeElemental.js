@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SilvergladeElementalBase = require("../setMMQ/SilvergladeElemental");
 
 class SilvergladeElemental extends SilvergladeElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Silverglade Elemental", "Planechase", "HOP");
   }
 }

@@ -151,3 +151,4 @@ module.exports = {
   WinnowerPatrol: require("./WinnowerPatrol"),
   WolfSkullShaman: require("./WolfSkullShaman")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMOR = module.exports;}

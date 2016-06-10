@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReversePolarityBase = require("../setATQ/ReversePolarity");
 
 class ReversePolarity extends ReversePolarityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reverse Polarity", "Revised Edition", "3ED");
   }
 }

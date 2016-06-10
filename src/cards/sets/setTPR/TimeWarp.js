@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TimeWarpBase = require("../setpJGP/TimeWarp");
 
 class TimeWarp extends TimeWarpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Time Warp", "Tempest Remastered", "TPR");
   }
 }

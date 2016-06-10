@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RakdosSignetBase = require("../setARC/RakdosSignet");
 
 class RakdosSignet extends RakdosSignetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rakdos Signet", "Dissension", "DIS");
   }
 }

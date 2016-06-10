@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AlgaeGharialBase = require("../setMM2/AlgaeGharial");
 
 class AlgaeGharial extends AlgaeGharialBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Algae Gharial", "Shards of Alara", "ALA");
   }
 }

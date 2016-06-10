@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArchonoftheTriumvirateBase = require("../setpPRE/ArchonoftheTriumvirate");
 
 class ArchonoftheTriumvirate extends ArchonoftheTriumvirateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Archon of the Triumvirate", "Return to Ravnica", "RTR");
   }
 }

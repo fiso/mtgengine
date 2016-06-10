@@ -61,3 +61,4 @@ module.exports = {
   VeteranSwordsmith: require("./VeteranSwordsmith"),
   WhelmingWave: require("./WhelmingWave")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDO = module.exports;}

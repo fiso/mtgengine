@@ -16,3 +16,4 @@ module.exports = {
   ThunderDragon: require("./ThunderDragon"),
   TwoHeadedDragon: require("./TwoHeadedDragon")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDRB = module.exports;}

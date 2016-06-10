@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BroodSliverBase = require("../setLGN/BroodSliver");
 
 class BroodSliver extends BroodSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brood Sliver", "Premium Deck Series: Slivers", "H09");
   }
 }

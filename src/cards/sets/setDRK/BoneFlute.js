@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BoneFluteBase = require("../setME3/BoneFlute");
 
 class BoneFlute extends BoneFluteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bone Flute", "The Dark", "DRK");
   }
 }

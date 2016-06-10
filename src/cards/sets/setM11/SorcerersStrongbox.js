@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SorcerersStrongboxBase = require("../setARC/SorcerersStrongbox");
 
 class SorcerersStrongbox extends SorcerersStrongboxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sorcerer's Strongbox", "Magic 2011", "M11");
   }
 }

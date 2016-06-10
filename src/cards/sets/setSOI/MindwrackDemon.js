@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MindwrackDemonBase = require("../setDDQ/MindwrackDemon");
 
 class MindwrackDemon extends MindwrackDemonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mindwrack Demon", "Shadows over Innistrad", "SOI");
   }
 }

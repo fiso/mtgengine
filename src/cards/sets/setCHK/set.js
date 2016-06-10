@@ -302,3 +302,4 @@ module.exports = {
   YoseitheMorningStar: require("./YoseitheMorningStar"),
   ZoZuthePunisher: require("./ZoZuthePunisher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCHK = module.exports;}

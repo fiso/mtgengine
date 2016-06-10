@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LivingArtifactBase = require("../setCED/LivingArtifact");
 
 class LivingArtifact extends LivingArtifactBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Living Artifact", "Limited Edition Beta", "LEB");
   }
 }

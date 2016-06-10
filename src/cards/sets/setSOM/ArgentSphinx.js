@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArgentSphinxBase = require("../setMM2/ArgentSphinx");
 
 class ArgentSphinx extends ArgentSphinxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Argent Sphinx", "Scars of Mirrodin", "SOM");
   }
 }

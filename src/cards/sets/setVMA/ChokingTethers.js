@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChokingTethersBase = require("../setONS/ChokingTethers");
 
 class ChokingTethers extends ChokingTethersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Choking Tethers", "Vintage Masters", "VMA");
   }
 }

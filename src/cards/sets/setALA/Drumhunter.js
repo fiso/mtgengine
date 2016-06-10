@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DrumhunterBase = require("../setC13/Drumhunter");
 
 class Drumhunter extends DrumhunterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Drumhunter", "Shards of Alara", "ALA");
   }
 }

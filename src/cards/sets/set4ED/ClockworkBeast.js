@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ClockworkBeastBase = require("../setBTD/ClockworkBeast");
 
 class ClockworkBeast extends ClockworkBeastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Clockwork Beast", "Fourth Edition", "4ED");
   }
 }

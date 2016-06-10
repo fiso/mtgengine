@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScarlandThrinaxBase = require("../setC13/ScarlandThrinax");
 
 class ScarlandThrinax extends ScarlandThrinaxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scarland Thrinax", "Conflux", "CON");
   }
 }

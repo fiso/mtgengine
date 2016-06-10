@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FoulSpiritBase = require("../setME4/FoulSpirit");
 
 class FoulSpirit extends FoulSpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Foul Spirit", "Portal Second Age", "PO2");
   }
 }

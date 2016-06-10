@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuriokSalvagersBase = require("../set5DN/AuriokSalvagers");
 
 class AuriokSalvagers extends AuriokSalvagersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Auriok Salvagers", "Modern Masters", "MMA");
   }
 }

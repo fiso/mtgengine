@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class StreamHopper extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stream Hopper", "Eventide", "EVE");
   }
 }

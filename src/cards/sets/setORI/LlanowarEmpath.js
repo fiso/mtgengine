@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LlanowarEmpathBase = require("../setFUT/LlanowarEmpath");
 
 class LlanowarEmpath extends LlanowarEmpathBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Llanowar Empath", "Magic Origins", "ORI");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MantaRidersBase = require("../setBRB/MantaRiders");
 
 class MantaRiders extends MantaRidersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Manta Riders", "Tempest", "TMP");
   }
 }

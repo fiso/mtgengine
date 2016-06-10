@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CacheRaidersBase = require("../setDDI/CacheRaiders");
 
 class CacheRaiders extends CacheRaidersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cache Raiders", "Eventide", "EVE");
   }
 }

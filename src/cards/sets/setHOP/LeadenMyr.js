@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeadenMyrBase = require("../setMRD/LeadenMyr");
 
 class LeadenMyr extends LeadenMyrBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leaden Myr", "Planechase", "HOP");
   }
 }

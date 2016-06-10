@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WaterfrontBouncerBase = require("../setMMQ/WaterfrontBouncer");
 
 class WaterfrontBouncer extends WaterfrontBouncerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Waterfront Bouncer", "Vintage Masters", "VMA");
   }
 }

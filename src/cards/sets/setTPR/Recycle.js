@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RecycleBase = require("../setTMP/Recycle");
 
 class Recycle extends RecycleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Recycle", "Tempest Remastered", "TPR");
   }
 }

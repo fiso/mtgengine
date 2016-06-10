@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LavaAxeBase = require("../setBTD/LavaAxe");
 
 class LavaAxe extends LavaAxeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lava Axe", "Magic 2010", "M10");
   }
 }

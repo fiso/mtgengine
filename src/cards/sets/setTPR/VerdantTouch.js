@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VerdantTouchBase = require("../setSTH/VerdantTouch");
 
 class VerdantTouch extends VerdantTouchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Verdant Touch", "Tempest Remastered", "TPR");
   }
 }

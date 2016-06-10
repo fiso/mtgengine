@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GildedLotusBase = require("../setV13/GildedLotus");
 
 class GildedLotus extends GildedLotusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gilded Lotus", "Mirrodin", "MRD");
   }
 }

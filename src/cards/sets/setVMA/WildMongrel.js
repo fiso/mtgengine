@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildMongrelBase = require("../setDD3_GVL/WildMongrel");
 
 class WildMongrel extends WildMongrelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wild Mongrel", "Vintage Masters", "VMA");
   }
 }

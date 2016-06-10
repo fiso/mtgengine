@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WayfarersBaubleBase = require("../setC13/WayfarersBauble");
 
 class WayfarersBauble extends WayfarersBaubleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wayfarer's Bauble", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ParallaxWaveBase = require("../setNMS/ParallaxWave");
 
 class ParallaxWave extends ParallaxWaveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Parallax Wave", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThriveBase = require("../setDIS/Thrive");
 
 class Thrive extends ThriveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thrive", "Prophecy", "PCY");
   }
 }

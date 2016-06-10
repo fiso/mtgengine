@@ -183,3 +183,4 @@ module.exports = {
   Wonder: require("./Wonder"),
   WrensRunVanquisher: require("./WrensRunVanquisher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpFNM = module.exports;}

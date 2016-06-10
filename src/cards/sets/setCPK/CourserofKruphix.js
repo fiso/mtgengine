@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CourserofKruphixBase = require("../setBNG/CourserofKruphix");
 
 class CourserofKruphix extends CourserofKruphixBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Courser of Kruphix", "Clash Pack", "CPK");
   }
 }

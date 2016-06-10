@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NaturesRevoltBase = require("../set7ED/NaturesRevolt");
 
 class NaturesRevolt extends NaturesRevoltBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nature's Revolt", "Tempest", "TMP");
   }
 }

@@ -144,3 +144,4 @@ module.exports = {
   WasteAway: require("./WasteAway"),
   ZombieTrailblazer: require("./ZombieTrailblazer")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTOR = module.exports;}

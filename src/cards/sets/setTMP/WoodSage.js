@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoodSageBase = require("../setCNS/WoodSage");
 
 class WoodSage extends WoodSageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wood Sage", "Tempest", "TMP");
   }
 }

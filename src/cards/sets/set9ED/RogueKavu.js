@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RogueKavuBase = require("../setINV/RogueKavu");
 
 class RogueKavu extends RogueKavuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rogue Kavu", "Ninth Edition", "9ED");
   }
 }

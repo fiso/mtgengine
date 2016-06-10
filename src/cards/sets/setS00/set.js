@@ -54,3 +54,4 @@ module.exports = {
   WillowElf: require("./WillowElf"),
   WindDrake: require("./WindDrake")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setS00 = module.exports;}

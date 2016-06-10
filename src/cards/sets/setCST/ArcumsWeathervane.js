@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class ArcumsWeathervane extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcum's Weathervane", "Coldsnap Theme Decks", "CST");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeoninScimitarBase = require("../setMRD/LeoninScimitar");
 
 class LeoninScimitar extends LeoninScimitarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leonin Scimitar", "Tenth Edition", "10E");
   }
 }

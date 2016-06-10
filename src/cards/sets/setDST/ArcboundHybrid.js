@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class ArcboundHybrid extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcbound Hybrid", "Darksteel", "DST");
   }
 }

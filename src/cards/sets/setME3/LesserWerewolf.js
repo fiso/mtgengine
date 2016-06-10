@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LesserWerewolfBase = require("../setLEG/LesserWerewolf");
 
 class LesserWerewolf extends LesserWerewolfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lesser Werewolf", "Masters Edition III", "ME3");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DarknessBase = require("../setLEG/Darkness");
 
 class Darkness extends DarknessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Darkness", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BreedingPoolBase = require("../setDIS/BreedingPool");
 
 class BreedingPool extends BreedingPoolBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Breeding Pool", "Zendikar Expedition", "EXP");
   }
 }

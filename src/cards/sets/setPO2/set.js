@@ -156,3 +156,4 @@ module.exports = {
   WildOx: require("./WildOx"),
   WindSail: require("./WindSail")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPO2 = module.exports;}

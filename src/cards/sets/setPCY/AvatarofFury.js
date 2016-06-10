@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AvatarofFuryBase = require("../setCMD/AvatarofFury");
 
 class AvatarofFury extends AvatarofFuryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Avatar of Fury", "Prophecy", "PCY");
   }
 }

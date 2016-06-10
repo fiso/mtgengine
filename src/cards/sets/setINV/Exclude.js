@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExcludeBase = require("../setC14/Exclude");
 
 class Exclude extends ExcludeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Exclude", "Invasion", "INV");
   }
 }

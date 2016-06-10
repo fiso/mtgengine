@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcadesSabbothBase = require("../setCHR/ArcadesSabboth");
 
 class ArcadesSabboth extends ArcadesSabbothBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcades Sabboth", "Masters Edition III", "ME3");
   }
 }

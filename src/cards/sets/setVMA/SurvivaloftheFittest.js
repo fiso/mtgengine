@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SurvivaloftheFittestBase = require("../setEXO/SurvivaloftheFittest");
 
 class SurvivaloftheFittest extends SurvivaloftheFittestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Survival of the Fittest", "Vintage Masters", "VMA");
   }
 }

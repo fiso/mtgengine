@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ElvishWarriorBase = require("../setDD3_EVG/ElvishWarrior");
 
 class ElvishWarrior extends ElvishWarriorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Elvish Warrior", "Onslaught", "ONS");
   }
 }

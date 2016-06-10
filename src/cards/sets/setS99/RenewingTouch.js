@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RenewingTouchBase = require("../setPO2/RenewingTouch");
 
 class RenewingTouch extends RenewingTouchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Renewing Touch", "Starter 1999", "S99");
   }
 }

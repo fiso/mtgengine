@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrystalChimesBase = require("../setC15/CrystalChimes");
 
 class CrystalChimes extends CrystalChimesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crystal Chimes", "Urza's Saga", "USG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrainofThoughtBase = require("../setDDJ/TrainofThought");
 
 class TrainofThought extends TrainofThoughtBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Train of Thought", "Guildpact", "GPT");
   }
 }

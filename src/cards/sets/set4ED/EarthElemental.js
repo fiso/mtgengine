@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EarthElementalBase = require("../setCED/EarthElemental");
 
 class EarthElemental extends EarthElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Earth Elemental", "Fourth Edition", "4ED");
   }
 }

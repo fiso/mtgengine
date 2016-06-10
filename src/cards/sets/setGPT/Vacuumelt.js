@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VacuumeltBase = require("../setDDJ/Vacuumelt");
 
 class Vacuumelt extends VacuumeltBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vacuumelt", "Guildpact", "GPT");
   }
 }

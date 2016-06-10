@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NecroticSliverBase = require("../setPLC/NecroticSliver");
 
 class NecroticSliver extends NecroticSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Necrotic Sliver", "Premium Deck Series: Slivers", "H09");
   }
 }

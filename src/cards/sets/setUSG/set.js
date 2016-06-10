@@ -336,3 +336,4 @@ module.exports = {
   Zephid: require("./Zephid"),
   ZephidsEmbrace: require("./ZephidsEmbrace")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setUSG = module.exports;}

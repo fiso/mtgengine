@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StormbindBase = require("../setICE/Stormbind");
 
 class Stormbind extends StormbindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stormbind", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

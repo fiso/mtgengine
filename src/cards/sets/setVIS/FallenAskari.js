@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FallenAskariBase = require("../setVMA/FallenAskari");
 
 class FallenAskari extends FallenAskariBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fallen Askari", "Visions", "VIS");
   }
 }

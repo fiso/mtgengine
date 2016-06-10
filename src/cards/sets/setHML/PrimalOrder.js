@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimalOrderBase = require("../set5ED/PrimalOrder");
 
 class PrimalOrder extends PrimalOrderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Primal Order", "Homelands", "HML");
   }
 }

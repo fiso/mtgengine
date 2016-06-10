@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PradeshGypsiesBase = require("../set6ED/PradeshGypsies");
 
 class PradeshGypsies extends PradeshGypsiesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pradesh Gypsies", "Fourth Edition", "4ED");
   }
 }

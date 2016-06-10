@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathHoodCobraBase = require("../setDDM/DeathHoodCobra");
 
 class DeathHoodCobra extends DeathHoodCobraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Death-Hood Cobra", "New Phyrexia", "NPH");
   }
 }

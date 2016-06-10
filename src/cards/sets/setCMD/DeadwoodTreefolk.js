@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeadwoodTreefolkBase = require("../setC13/DeadwoodTreefolk");
 
 class DeadwoodTreefolk extends DeadwoodTreefolkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deadwood Treefolk", "Magic: The Gathering-Commander", "CMD");
   }
 }

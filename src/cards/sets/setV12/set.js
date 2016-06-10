@@ -16,3 +16,4 @@ module.exports = {
   Vesuva: require("./Vesuva"),
   WindbriskHeights: require("./WindbriskHeights")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV12 = module.exports;}

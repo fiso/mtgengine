@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DrakestownForgottenBase = require("../setCNS/DrakestownForgotten");
 
 class DrakestownForgotten extends DrakestownForgottenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Drakestown Forgotten", "Vintage Masters", "VMA");
   }
 }

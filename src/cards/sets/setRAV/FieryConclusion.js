@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FieryConclusionBase = require("../setORI/FieryConclusion");
 
 class FieryConclusion extends FieryConclusionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fiery Conclusion", "Ravnica: City of Guilds", "RAV");
   }
 }

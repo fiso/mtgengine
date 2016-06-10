@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JettingGlasskiteBase = require("../setBOK/JettingGlasskite");
 
 class JettingGlasskite extends JettingGlasskiteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jetting Glasskite", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

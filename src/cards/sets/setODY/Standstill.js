@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StandstillBase = require("../setpMEI/Standstill");
 
 class Standstill extends StandstillBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Standstill", "Odyssey", "ODY");
   }
 }

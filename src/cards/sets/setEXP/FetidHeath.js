@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FetidHeathBase = require("../setEVE/FetidHeath");
 
 class FetidHeath extends FetidHeathBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fetid Heath", "Zendikar Expedition", "EXP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GhostfireBase = require("../setDDG/Ghostfire");
 
 class Ghostfire extends GhostfireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghostfire", "Future Sight", "FUT");
   }
 }

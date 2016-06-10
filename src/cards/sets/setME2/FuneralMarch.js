@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FuneralMarchBase = require("../set5ED/FuneralMarch");
 
 class FuneralMarch extends FuneralMarchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Funeral March", "Masters Edition II", "ME2");
   }
 }

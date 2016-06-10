@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChameleonColossusBase = require("../setARC/ChameleonColossus");
 
 class ChameleonColossus extends ChameleonColossusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chameleon Colossus", "Morningtide", "MOR");
   }
 }

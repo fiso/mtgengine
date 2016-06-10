@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TriangleofWarBase = require("../setVMA/TriangleofWar");
 
 class TriangleofWar extends TriangleofWarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Triangle of War", "Visions", "VIS");
   }
 }

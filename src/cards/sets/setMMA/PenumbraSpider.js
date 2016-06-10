@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PenumbraSpiderBase = require("../setCMD/PenumbraSpider");
 
 class PenumbraSpider extends PenumbraSpiderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Penumbra Spider", "Modern Masters", "MMA");
   }
 }

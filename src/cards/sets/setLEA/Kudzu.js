@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KudzuBase = require("../setCED/Kudzu");
 
 class Kudzu extends KudzuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kudzu", "Limited Edition Alpha", "LEA");
   }
 }

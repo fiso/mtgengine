@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeylinePhantomBase = require("../setDDM/LeylinePhantom");
 
 class LeylinePhantom extends LeylinePhantomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leyline Phantom", "Gatecrash", "GTC");
   }
 }

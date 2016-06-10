@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RealmSeekersBase = require("../setCNS/RealmSeekers");
 
 class RealmSeekers extends RealmSeekersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Realm Seekers", "Vintage Masters", "VMA");
   }
 }

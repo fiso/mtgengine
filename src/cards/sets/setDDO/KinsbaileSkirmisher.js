@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class KinsbaileSkirmisher extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kinsbaile Skirmisher", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

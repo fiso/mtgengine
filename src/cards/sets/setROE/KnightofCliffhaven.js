@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KnightofCliffhavenBase = require("../setDDG/KnightofCliffhaven");
 
 class KnightofCliffhaven extends KnightofCliffhavenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Knight of Cliffhaven", "Rise of the Eldrazi", "ROE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FiremaneAvengerBase = require("../setGTC/FiremaneAvenger");
 
 class FiremaneAvenger extends FiremaneAvengerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Firemane Avenger", "Magic Game Day", "pMGD");
   }
 }

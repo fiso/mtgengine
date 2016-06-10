@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarpathGhoulBase = require("../setM10/WarpathGhoul");
 
 class WarpathGhoul extends WarpathGhoulBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Warpath Ghoul", "Magic 2012", "M12");
   }
 }

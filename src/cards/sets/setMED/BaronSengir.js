@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BaronSengirBase = require("../setHML/BaronSengir");
 
 class BaronSengir extends BaronSengirBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Baron Sengir", "Masters Edition", "MED");
   }
 }

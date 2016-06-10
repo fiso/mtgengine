@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RubyMedallionBase = require("../setC14/RubyMedallion");
 
 class RubyMedallion extends RubyMedallionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ruby Medallion", "Tempest", "TMP");
   }
 }

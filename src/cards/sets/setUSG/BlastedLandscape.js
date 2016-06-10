@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlastedLandscapeBase = require("../setC15/BlastedLandscape");
 
 class BlastedLandscape extends BlastedLandscapeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blasted Landscape", "Urza's Saga", "USG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HalfdaneBase = require("../setLEG/Halfdane");
 
 class Halfdane extends HalfdaneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Halfdane", "Masters Edition III", "ME3");
   }
 }

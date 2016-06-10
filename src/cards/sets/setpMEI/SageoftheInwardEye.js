@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SageoftheInwardEyeBase = require("../setKTK/SageoftheInwardEye");
 
 class SageoftheInwardEye extends SageoftheInwardEyeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sage of the Inward Eye", "Media Inserts", "pMEI");
   }
 }

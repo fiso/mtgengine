@@ -188,3 +188,4 @@ module.exports = {
   ZombieInfestation: require("./ZombieInfestation"),
   Zombify: require("./Zombify")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setARC = module.exports;}

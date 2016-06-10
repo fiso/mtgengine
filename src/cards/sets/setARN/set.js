@@ -79,3 +79,4 @@ module.exports = {
   WyluliWolf: require("./WyluliWolf"),
   YdwenEfreet: require("./YdwenEfreet")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setARN = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeepfireElementalBase = require("../setCSP/DeepfireElemental");
 
 class DeepfireElemental extends DeepfireElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deepfire Elemental", "Commander 2013 Edition", "C13");
   }
 }

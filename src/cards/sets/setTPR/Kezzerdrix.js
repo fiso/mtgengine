@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KezzerdrixBase = require("../setTMP/Kezzerdrix");
 
 class Kezzerdrix extends KezzerdrixBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kezzerdrix", "Tempest Remastered", "TPR");
   }
 }

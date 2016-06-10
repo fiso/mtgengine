@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HowlingWolfBase = require("../setCNS/HowlingWolf");
 
 class HowlingWolf extends HowlingWolfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Howling Wolf", "Mercadian Masques", "MMQ");
   }
 }

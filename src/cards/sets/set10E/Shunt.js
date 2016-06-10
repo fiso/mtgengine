@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShuntBase = require("../setDST/Shunt");
 
 class Shunt extends ShuntBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shunt", "Tenth Edition", "10E");
   }
 }

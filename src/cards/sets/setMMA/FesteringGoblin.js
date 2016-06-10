@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FesteringGoblinBase = require("../setARC/FesteringGoblin");
 
 class FesteringGoblin extends FesteringGoblinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Festering Goblin", "Modern Masters", "MMA");
   }
 }

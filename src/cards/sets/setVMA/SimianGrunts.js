@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SimianGruntsBase = require("../setULG/SimianGrunts");
 
 class SimianGrunts extends SimianGruntsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Simian Grunts", "Vintage Masters", "VMA");
   }
 }

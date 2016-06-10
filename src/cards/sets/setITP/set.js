@@ -58,3 +58,4 @@ module.exports = {
   WinterBlast: require("./WinterBlast"),
   ZephyrFalcon: require("./ZephyrFalcon")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setITP = module.exports;}

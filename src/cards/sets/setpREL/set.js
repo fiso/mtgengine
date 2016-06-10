@@ -15,3 +15,4 @@ module.exports = {
   StormEntity: require("./StormEntity"),
   SuddenShock: require("./SuddenShock")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpREL = module.exports;}

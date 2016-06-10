@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThornwoodFallsBase = require("../setC15/ThornwoodFalls");
 
 class ThornwoodFalls extends ThornwoodFallsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thornwood Falls", "Fate Reforged", "FRF");
   }
 }

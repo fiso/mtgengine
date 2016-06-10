@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VampirismBase = require("../setMGB/Vampirism");
 
 class Vampirism extends VampirismBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vampirism", "Visions", "VIS");
   }
 }

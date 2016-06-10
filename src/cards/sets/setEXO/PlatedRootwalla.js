@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlatedRootwallaBase = require("../setBRB/PlatedRootwalla");
 
 class PlatedRootwalla extends PlatedRootwallaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Plated Rootwalla", "Exodus", "EXO");
   }
 }

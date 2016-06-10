@@ -171,3 +171,4 @@ module.exports = {
   YomijiWhoBarstheWay: require("./YomijiWhoBarstheWay"),
   YukorathePrisoner: require("./YukorathePrisoner")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setBOK = module.exports;}

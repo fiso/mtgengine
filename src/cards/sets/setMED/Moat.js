@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoatBase = require("../setLEG/Moat");
 
 class Moat extends MoatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moat", "Masters Edition", "MED");
   }
 }

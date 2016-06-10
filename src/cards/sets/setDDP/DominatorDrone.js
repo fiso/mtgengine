@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DominatorDroneBase = require("../setBFZ/DominatorDrone");
 
 class DominatorDrone extends DominatorDroneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dominator Drone", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

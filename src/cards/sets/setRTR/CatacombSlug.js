@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CatacombSlugBase = require("../setORI/CatacombSlug");
 
 class CatacombSlug extends CatacombSlugBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Catacomb Slug", "Return to Ravnica", "RTR");
   }
 }

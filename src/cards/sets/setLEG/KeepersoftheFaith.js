@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KeepersoftheFaithBase = require("../setCHR/KeepersoftheFaith");
 
 class KeepersoftheFaith extends KeepersoftheFaithBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Keepers of the Faith", "Legends", "LEG");
   }
 }

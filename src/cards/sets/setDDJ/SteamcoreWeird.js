@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SteamcoreWeirdBase = require("../setDDH/SteamcoreWeird");
 
 class SteamcoreWeird extends SteamcoreWeirdBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Steamcore Weird", "Duel Decks: Izzet vs. Golgari", "DDJ");
   }
 }

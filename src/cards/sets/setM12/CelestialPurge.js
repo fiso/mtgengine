@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CelestialPurgeBase = require("../setCON/CelestialPurge");
 
 class CelestialPurge extends CelestialPurgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Celestial Purge", "Magic 2012", "M12");
   }
 }

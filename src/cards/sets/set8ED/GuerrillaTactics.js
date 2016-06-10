@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GuerrillaTacticsBase = require("../setALL/GuerrillaTactics");
 
 class GuerrillaTactics extends GuerrillaTacticsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Guerrilla Tactics", "Eighth Edition", "8ED");
   }
 }

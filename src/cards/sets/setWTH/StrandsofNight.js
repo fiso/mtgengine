@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StrandsofNightBase = require("../set6ED/StrandsofNight");
 
 class StrandsofNight extends StrandsofNightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Strands of Night", "Weatherlight", "WTH");
   }
 }

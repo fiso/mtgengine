@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScrapskinDrakeBase = require("../setAVR/ScrapskinDrake");
 
 class ScrapskinDrake extends ScrapskinDrakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scrapskin Drake", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }
 }

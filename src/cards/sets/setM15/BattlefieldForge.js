@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BattlefieldForgeBase = require("../setAPC/BattlefieldForge");
 
 class BattlefieldForge extends BattlefieldForgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Battlefield Forge", "Magic 2015 Core Set", "M15");
   }
 }

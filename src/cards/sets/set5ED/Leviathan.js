@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeviathanBase = require("../setBTD/Leviathan");
 
 class Leviathan extends LeviathanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leviathan", "Fifth Edition", "5ED");
   }
 }

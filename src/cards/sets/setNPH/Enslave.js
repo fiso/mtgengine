@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnslaveBase = require("../setDD3_GVL/Enslave");
 
 class Enslave extends EnslaveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Enslave", "New Phyrexia", "NPH");
   }
 }

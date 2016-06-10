@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VithianStingerBase = require("../setDDK/VithianStinger");
 
 class VithianStinger extends VithianStingerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vithian Stinger", "Shards of Alara", "ALA");
   }
 }

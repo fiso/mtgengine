@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InfernoTrapBase = require("../setARC/InfernoTrap");
 
 class InfernoTrap extends InfernoTrapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Inferno Trap", "Duel Decks: Speed vs. Cunning", "DDN");
   }
 }

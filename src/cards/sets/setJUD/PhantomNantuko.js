@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhantomNantukoBase = require("../setC13/PhantomNantuko");
 
 class PhantomNantuko extends PhantomNantukoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phantom Nantuko", "Judgment", "JUD");
   }
 }

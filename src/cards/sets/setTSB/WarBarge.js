@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarBargeBase = require("../setDRK/WarBarge");
 
 class WarBarge extends WarBargeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "War Barge", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

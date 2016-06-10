@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrownedCeratokBase = require("../setDDL/CrownedCeratok");
 
 class CrownedCeratok extends CrownedCeratokBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crowned Ceratok", "Gatecrash", "GTC");
   }
 }

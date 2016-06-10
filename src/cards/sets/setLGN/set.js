@@ -146,3 +146,4 @@ module.exports = {
   WitheredWretch: require("./WitheredWretch"),
   ZombieBrute: require("./ZombieBrute")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setLGN = module.exports;}

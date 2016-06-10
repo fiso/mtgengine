@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HourofReckoningBase = require("../setCMD/HourofReckoning");
 
 class HourofReckoning extends HourofReckoningBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hour of Reckoning", "Ravnica: City of Guilds", "RAV");
   }
 }

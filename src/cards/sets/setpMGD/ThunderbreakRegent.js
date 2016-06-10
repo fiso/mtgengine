@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThunderbreakRegentBase = require("../setDTK/ThunderbreakRegent");
 
 class ThunderbreakRegent extends ThunderbreakRegentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thunderbreak Regent", "Magic Game Day", "pMGD");
   }
 }

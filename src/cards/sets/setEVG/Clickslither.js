@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ClickslitherBase = require("../setDD3_EVG/Clickslither");
 
 class Clickslither extends ClickslitherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Clickslither", "Duel Decks: Elves vs. Goblins", "EVG");
   }
 }

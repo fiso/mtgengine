@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MirarisWakeBase = require("../setCM1/MirarisWake");
 
 class MirarisWake extends MirarisWakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mirari's Wake", "Judgment", "JUD");
   }
 }

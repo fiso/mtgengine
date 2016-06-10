@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TradeSecretsBase = require("../setCMD/TradeSecrets");
 
 class TradeSecrets extends TradeSecretsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trade Secrets", "Onslaught", "ONS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BurstLightningBase = require("../setpMPR/BurstLightning");
 
 class BurstLightning extends BurstLightningBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Burst Lightning", "Zendikar", "ZEN");
   }
 }

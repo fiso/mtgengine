@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ProdigalPyromancerBase = require("../setDPA/ProdigalPyromancer");
 
 class ProdigalPyromancer extends ProdigalPyromancerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Prodigal Pyromancer", "Tenth Edition", "10E");
   }
 }

@@ -287,3 +287,4 @@ module.exports = {
   WoundReflection: require("./WoundReflection"),
   ZealousGuardian: require("./ZealousGuardian")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSHM = module.exports;}

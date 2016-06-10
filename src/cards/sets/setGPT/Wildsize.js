@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildsizeBase = require("../setDD3_EVG/Wildsize");
 
 class Wildsize extends WildsizeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wildsize", "Guildpact", "GPT");
   }
 }

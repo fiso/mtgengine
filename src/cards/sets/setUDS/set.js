@@ -144,3 +144,4 @@ module.exports = {
   YavimayaHollow: require("./YavimayaHollow"),
   YawgmothsBargain: require("./YawgmothsBargain")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setUDS = module.exports;}

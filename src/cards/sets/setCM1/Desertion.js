@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DesertionBase = require("../set6ED/Desertion");
 
 class Desertion extends DesertionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Desertion", "Commander's Arsenal", "CM1");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HipparionBase = require("../set5ED/Hipparion");
 
 class Hipparion extends HipparionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hipparion", "Ice Age", "ICE");
   }
 }

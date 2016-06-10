@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MysticSnakeBase = require("../setAPC/MysticSnake");
 
 class MysticSnake extends MysticSnakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mystic Snake", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

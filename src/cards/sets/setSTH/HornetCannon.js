@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HornetCannonBase = require("../setDDE/HornetCannon");
 
 class HornetCannon extends HornetCannonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hornet Cannon", "Stronghold", "STH");
   }
 }

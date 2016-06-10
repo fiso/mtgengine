@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class SpringCleaning extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spring Cleaning", "Lorwyn", "LRW");
   }
 }

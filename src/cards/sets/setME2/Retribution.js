@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RetributionBase = require("../setHML/Retribution");
 
 class Retribution extends RetributionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Retribution", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VaporSnagBase = require("../setDDH/VaporSnag");
 
 class VaporSnag extends VaporSnagBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vapor Snag", "New Phyrexia", "NPH");
   }
 }

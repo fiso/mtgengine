@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DustBowlBase = require("../setMMQ/DustBowl");
 
 class DustBowl extends DustBowlBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dust Bowl", "Zendikar Expedition", "EXP");
   }
 }

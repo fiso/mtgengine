@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorCartographerBase = require("../setDDI/KorCartographer");
 
 class KorCartographer extends KorCartographerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Cartographer", "Zendikar", "ZEN");
   }
 }

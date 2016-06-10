@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArbiteroftheIdealBase = require("../setBNG/ArbiteroftheIdeal");
 
 class ArbiteroftheIdeal extends ArbiteroftheIdealBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arbiter of the Ideal", "Prerelease Events", "pPRE");
   }
 }

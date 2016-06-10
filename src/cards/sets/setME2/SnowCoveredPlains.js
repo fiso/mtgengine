@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SnowCoveredPlainsBase = require("../setCSP/SnowCoveredPlains");
 
 class SnowCoveredPlains extends SnowCoveredPlainsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Snow-Covered Plains", "Masters Edition II", "ME2");
   }
 }

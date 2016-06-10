@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThallidShellDwellerBase = require("../setMMA/ThallidShellDweller");
 
 class ThallidShellDweller extends ThallidShellDwellerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thallid Shell-Dweller", "Time Spiral", "TSP");
   }
 }

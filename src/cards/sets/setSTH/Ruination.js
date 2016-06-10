@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RuinationBase = require("../setCMD/Ruination");
 
 class Ruination extends RuinationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ruination", "Stronghold", "STH");
   }
 }

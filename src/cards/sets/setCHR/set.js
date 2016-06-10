@@ -117,3 +117,4 @@ module.exports = {
   XiraArien: require("./XiraArien"),
   YawgmothDemon: require("./YawgmothDemon")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCHR = module.exports;}

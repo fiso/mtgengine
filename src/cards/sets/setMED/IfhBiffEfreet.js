@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IfhBiffEfreetBase = require("../setARN/IfhBiffEfreet");
 
 class IfhBiffEfreet extends IfhBiffEfreetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ifh-Bíff Efreet", "Masters Edition", "MED");
   }
 }

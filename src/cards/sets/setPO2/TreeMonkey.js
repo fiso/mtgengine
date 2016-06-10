@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TreeMonkeyBase = require("../set9ED/TreeMonkey");
 
 class TreeMonkey extends TreeMonkeyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tree Monkey", "Portal Second Age", "PO2");
   }
 }

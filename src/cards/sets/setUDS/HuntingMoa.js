@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HuntingMoaBase = require("../setARC/HuntingMoa");
 
 class HuntingMoa extends HuntingMoaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hunting Moa", "Urza's Destiny", "UDS");
   }
 }

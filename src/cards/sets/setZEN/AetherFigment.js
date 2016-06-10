@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AetherFigmentBase = require("../setDDM/AetherFigment");
 
 class AetherFigment extends AetherFigmentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Æther Figment", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScourgeDevilBase = require("../setDDK/ScourgeDevil");
 
 class ScourgeDevil extends ScourgeDevilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scourge Devil", "Duel Decks: Speed vs. Cunning", "DDN");
   }
 }

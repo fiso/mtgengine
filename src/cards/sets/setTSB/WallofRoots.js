@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WallofRootsBase = require("../setARC/WallofRoots");
 
 class WallofRoots extends WallofRootsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wall of Roots", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

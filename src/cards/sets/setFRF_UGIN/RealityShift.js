@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RealityShiftBase = require("../setFRF/RealityShift");
 
 class RealityShift extends RealityShiftBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reality Shift", "Ugin's Fate promos", "FRF_UGIN");
   }
 }

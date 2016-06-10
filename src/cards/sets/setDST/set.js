@@ -166,3 +166,4 @@ module.exports = {
   WireflyHive: require("./WireflyHive"),
   WurmsTooth: require("./WurmsTooth")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDST = module.exports;}

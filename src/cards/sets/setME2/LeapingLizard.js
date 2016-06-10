@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeapingLizardBase = require("../setHML/LeapingLizard");
 
 class LeapingLizard extends LeapingLizardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leaping Lizard", "Masters Edition II", "ME2");
   }
 }

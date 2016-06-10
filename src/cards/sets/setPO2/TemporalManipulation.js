@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TemporalManipulationBase = require("../setME2/TemporalManipulation");
 
 class TemporalManipulation extends TemporalManipulationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Temporal Manipulation", "Portal Second Age", "PO2");
   }
 }

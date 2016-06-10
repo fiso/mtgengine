@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarriorsStandBase = require("../setPO2/WarriorsStand");
 
 class WarriorsStand extends WarriorsStandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Warrior's Stand", "Portal Three Kingdoms", "PTK");
   }
 }

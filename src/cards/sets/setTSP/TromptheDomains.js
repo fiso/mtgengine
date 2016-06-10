@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TromptheDomainsBase = require("../setMMA/TromptheDomains");
 
 class TromptheDomains extends TromptheDomainsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tromp the Domains", "Time Spiral", "TSP");
   }
 }

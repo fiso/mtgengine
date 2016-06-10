@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SandstormBase = require("../setARN/Sandstorm");
 
 class Sandstorm extends SandstormBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sandstorm", "Masters Edition IV", "ME4");
   }
 }

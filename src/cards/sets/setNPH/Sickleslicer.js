@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SickleslicerBase = require("../setMM2/Sickleslicer");
 
 class Sickleslicer extends SickleslicerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sickleslicer", "New Phyrexia", "NPH");
   }
 }

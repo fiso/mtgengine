@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DarigaazsCharmBase = require("../setDDE/DarigaazsCharm");
 
 class DarigaazsCharm extends DarigaazsCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Darigaaz's Charm", "Planeshift", "PLS");
   }
 }

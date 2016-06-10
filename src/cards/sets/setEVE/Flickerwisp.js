@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlickerwispBase = require("../setC13/Flickerwisp");
 
 class Flickerwisp extends FlickerwispBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flickerwisp", "Eventide", "EVE");
   }
 }

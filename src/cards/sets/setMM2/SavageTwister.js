@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SavageTwisterBase = require("../setARC/SavageTwister");
 
 class SavageTwister extends SavageTwisterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Savage Twister", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HammerheimDeadeyeBase = require("../setMMA/HammerheimDeadeye");
 
 class HammerheimDeadeye extends HammerheimDeadeyeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hammerheim Deadeye", "Planar Chaos", "PLC");
   }
 }

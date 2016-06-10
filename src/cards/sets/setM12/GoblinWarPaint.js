@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinWarPaintBase = require("../setBFZ/GoblinWarPaint");
 
 class GoblinWarPaint extends GoblinWarPaintBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin War Paint", "Magic 2012", "M12");
   }
 }

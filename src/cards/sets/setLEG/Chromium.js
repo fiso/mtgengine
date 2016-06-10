@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChromiumBase = require("../setCHR/Chromium");
 
 class Chromium extends ChromiumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chromium", "Legends", "LEG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VoiceofAllBase = require("../setCMD/VoiceofAll");
 
 class VoiceofAll extends VoiceofAllBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Voice of All", "Planeshift", "PLS");
   }
 }

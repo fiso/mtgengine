@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhyrexianDenouncerBase = require("../setDDE/PhyrexianDenouncer");
 
 class PhyrexianDenouncer extends PhyrexianDenouncerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phyrexian Denouncer", "Urza's Legacy", "ULG");
   }
 }

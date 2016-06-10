@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TempleGardenBase = require("../setRAV/TempleGarden");
 
 class TempleGarden extends TempleGardenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Temple Garden", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ActiveVolcanoBase = require("../setCHR/ActiveVolcano");
 
 class ActiveVolcano extends ActiveVolcanoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Active Volcano", "Legends", "LEG");
   }
 }

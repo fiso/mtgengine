@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReflectingPoolBase = require("../setCNS/ReflectingPool");
 
 class ReflectingPool extends ReflectingPoolBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reflecting Pool", "Tempest", "TMP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class PollenbrightWings extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pollenbright Wings", "Planechase 2012 Edition", "PC2");
   }
 }

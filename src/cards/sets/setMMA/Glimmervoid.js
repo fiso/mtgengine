@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlimmervoidBase = require("../setMRD/Glimmervoid");
 
 class Glimmervoid extends GlimmervoidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glimmervoid", "Modern Masters", "MMA");
   }
 }

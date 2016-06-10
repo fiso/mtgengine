@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlanarPortalBase = require("../set8ED/PlanarPortal");
 
 class PlanarPortal extends PlanarPortalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Planar Portal", "Invasion", "INV");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BidentofThassaBase = require("../setC15/BidentofThassa");
 
 class BidentofThassa extends BidentofThassaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bident of Thassa", "Theros", "THS");
   }
 }

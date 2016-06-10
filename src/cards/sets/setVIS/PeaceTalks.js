@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PeaceTalksBase = require("../setMGB/PeaceTalks");
 
 class PeaceTalks extends PeaceTalksBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Peace Talks", "Visions", "VIS");
   }
 }

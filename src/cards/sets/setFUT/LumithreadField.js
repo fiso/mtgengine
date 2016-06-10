@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class LumithreadField extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lumithread Field", "Future Sight", "FUT");
   }
 }

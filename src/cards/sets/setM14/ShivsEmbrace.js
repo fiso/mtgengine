@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShivsEmbraceBase = require("../setDDG/ShivsEmbrace");
 
 class ShivsEmbrace extends ShivsEmbraceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shiv's Embrace", "Magic 2014 Core Set", "M14");
   }
 }

@@ -144,3 +144,4 @@ module.exports = {
   WildMammoth: require("./WildMammoth"),
   Woodripper: require("./Woodripper")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setNMS = module.exports;}

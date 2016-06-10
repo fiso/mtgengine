@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WordofCommandBase = require("../setCED/WordofCommand");
 
 class WordofCommand extends WordofCommandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Word of Command", "Masters Edition IV", "ME4");
   }
 }

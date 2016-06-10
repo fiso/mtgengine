@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TwincastBase = require("../setM10/Twincast");
 
 class Twincast extends TwincastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Twincast", "Saviors of Kamigawa", "SOK");
   }
 }

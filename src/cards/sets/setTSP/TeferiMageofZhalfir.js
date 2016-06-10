@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TeferiMageofZhalfirBase = require("../setV11/TeferiMageofZhalfir");
 
 class TeferiMageofZhalfir extends TeferiMageofZhalfirBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Teferi, Mage of Zhalfir", "Time Spiral", "TSP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AfflictBase = require("../setODY/Afflict");
 
 class Afflict extends AfflictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Afflict", "Tenth Edition", "10E");
   }
 }

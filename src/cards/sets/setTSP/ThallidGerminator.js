@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThallidGerminatorBase = require("../setMMA/ThallidGerminator");
 
 class ThallidGerminator extends ThallidGerminatorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thallid Germinator", "Time Spiral", "TSP");
   }
 }

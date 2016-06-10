@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RadiantArchangelBase = require("../setULG/RadiantArchangel");
 
 class RadiantArchangel extends RadiantArchangelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Radiant, Archangel", "Vintage Masters", "VMA");
   }
 }

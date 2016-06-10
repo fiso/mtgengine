@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HecklingFiendsBase = require("../setDKA/HecklingFiends");
 
 class HecklingFiends extends HecklingFiendsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heckling Fiends", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

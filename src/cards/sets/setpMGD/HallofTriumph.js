@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HallofTriumphBase = require("../setJOU/HallofTriumph");
 
 class HallofTriumph extends HallofTriumphBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hall of Triumph", "Magic Game Day", "pMGD");
   }
 }

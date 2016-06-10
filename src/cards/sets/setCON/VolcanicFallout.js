@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VolcanicFalloutBase = require("../setARC/VolcanicFallout");
 
 class VolcanicFallout extends VolcanicFalloutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Volcanic Fallout", "Conflux", "CON");
   }
 }

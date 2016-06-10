@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RazorjawOniBase = require("../setCMD/RazorjawOni");
 
 class RazorjawOni extends RazorjawOniBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Razorjaw Oni", "Saviors of Kamigawa", "SOK");
   }
 }

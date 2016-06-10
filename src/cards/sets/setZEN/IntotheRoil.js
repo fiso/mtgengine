@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IntotheRoilBase = require("../setC14/IntotheRoil");
 
 class IntotheRoil extends IntotheRoilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Into the Roil", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KaervektheMercilessBase = require("../setARC/KaervektheMerciless");
 
 class KaervektheMerciless extends KaervektheMercilessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kaervek the Merciless", "Time Spiral", "TSP");
   }
 }

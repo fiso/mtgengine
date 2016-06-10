@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShimianSpecterBase = require("../setFUT/ShimianSpecter");
 
 class ShimianSpecter extends ShimianSpecterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shimian Specter", "Magic 2013", "M13");
   }
 }

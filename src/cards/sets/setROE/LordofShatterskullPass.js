@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LordofShatterskullPassBase = require("../setpLPA/LordofShatterskullPass");
 
 class LordofShatterskullPass extends LordofShatterskullPassBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lord of Shatterskull Pass", "Rise of the Eldrazi", "ROE");
   }
 }

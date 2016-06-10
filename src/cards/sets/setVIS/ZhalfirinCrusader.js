@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZhalfirinCrusaderBase = require("../setVMA/ZhalfirinCrusader");
 
 class ZhalfirinCrusader extends ZhalfirinCrusaderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zhalfirin Crusader", "Visions", "VIS");
   }
 }

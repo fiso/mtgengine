@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DictateofKruphixBase = require("../setJOU/DictateofKruphix");
 
 class DictateofKruphix extends DictateofKruphixBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dictate of Kruphix", "Magic Game Day", "pMGD");
   }
 }

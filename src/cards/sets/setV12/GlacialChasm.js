@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class GlacialChasm extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glacial Chasm", "From the Vault: Realms", "V12");
   }
 }

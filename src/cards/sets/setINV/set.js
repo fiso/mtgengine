@@ -341,3 +341,4 @@ module.exports = {
   ZanamDjinn: require("./ZanamDjinn"),
   Zap: require("./Zap")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setINV = module.exports;}

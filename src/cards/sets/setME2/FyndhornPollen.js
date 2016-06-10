@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FyndhornPollenBase = require("../setICE/FyndhornPollen");
 
 class FyndhornPollen extends FyndhornPollenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fyndhorn Pollen", "Masters Edition II", "ME2");
   }
 }

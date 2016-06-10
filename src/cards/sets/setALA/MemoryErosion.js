@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MemoryErosionBase = require("../setCMD/MemoryErosion");
 
 class MemoryErosion extends MemoryErosionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Memory Erosion", "Shards of Alara", "ALA");
   }
 }

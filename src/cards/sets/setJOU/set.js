@@ -166,3 +166,4 @@ module.exports = {
   WildfireCerberus: require("./WildfireCerberus"),
   WorstFears: require("./WorstFears")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setJOU = module.exports;}

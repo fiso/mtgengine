@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GomazoaBase = require("../setCMD/Gomazoa");
 
 class Gomazoa extends GomazoaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gomazoa", "Zendikar", "ZEN");
   }
 }

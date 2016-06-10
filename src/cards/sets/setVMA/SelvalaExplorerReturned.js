@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SelvalaExplorerReturnedBase = require("../setCNS/SelvalaExplorerReturned");
 
 class SelvalaExplorerReturned extends SelvalaExplorerReturnedBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Selvala, Explorer Returned", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrainWeevilBase = require("../setDDJ/BrainWeevil");
 
 class BrainWeevil extends BrainWeevilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brain Weevil", "Innistrad", "ISD");
   }
 }

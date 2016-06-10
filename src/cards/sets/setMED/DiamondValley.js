@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DiamondValleyBase = require("../setARN/DiamondValley");
 
 class DiamondValley extends DiamondValleyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Diamond Valley", "Masters Edition", "MED");
   }
 }

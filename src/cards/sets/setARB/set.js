@@ -146,3 +146,4 @@ module.exports = {
   WingedCoatl: require("./WingedCoatl"),
   ZealousPersecution: require("./ZealousPersecution")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setARB = module.exports;}

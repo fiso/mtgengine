@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncestralMemoriesBase = require("../set6ED/AncestralMemories");
 
 class AncestralMemories extends AncestralMemoriesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancestral Memories", "Portal", "POR");
   }
 }

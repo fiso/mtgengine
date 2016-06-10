@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SlaughterCryBase = require("../setM12/SlaughterCry");
 
 class SlaughterCry extends SlaughterCryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slaughter Cry", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WindfallBase = require("../setBRB/Windfall");
 
 class Windfall extends WindfallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Windfall", "Urza's Saga", "USG");
   }
 }

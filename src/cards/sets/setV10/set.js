@@ -16,3 +16,4 @@ module.exports = {
   SwordofBodyandMind: require("./SwordofBodyandMind"),
   ZuranOrb: require("./ZuranOrb")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV10 = module.exports;}

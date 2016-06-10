@@ -34,3 +34,4 @@ module.exports = {
   ValakuttheMoltenPinnacle: require("./ValakuttheMoltenPinnacle"),
   VexingShusher: require("./VexingShusher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpLPA = module.exports;}

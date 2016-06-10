@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VampiricDragonBase = require("../setARC/VampiricDragon");
 
 class VampiricDragon extends VampiricDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vampiric Dragon", "Odyssey", "ODY");
   }
 }

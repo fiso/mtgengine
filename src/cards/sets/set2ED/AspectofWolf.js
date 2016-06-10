@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AspectofWolfBase = require("../setCED/AspectofWolf");
 
 class AspectofWolf extends AspectofWolfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aspect of Wolf", "Unlimited Edition", "2ED");
   }
 }

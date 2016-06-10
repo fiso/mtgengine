@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FungalReachesBase = require("../setCMD/FungalReaches");
 
 class FungalReaches extends FungalReachesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fungal Reaches", "Time Spiral", "TSP");
   }
 }

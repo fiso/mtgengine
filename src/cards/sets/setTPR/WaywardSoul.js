@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WaywardSoulBase = require("../setBTD/WaywardSoul");
 
 class WaywardSoul extends WaywardSoulBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wayward Soul", "Tempest Remastered", "TPR");
   }
 }

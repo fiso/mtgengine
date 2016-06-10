@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PentavusBase = require("../setC14/Pentavus");
 
 class Pentavus extends PentavusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pentavus", "Magic 2012", "M12");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TarPitWarriorBase = require("../setBTD/TarPitWarrior");
 
 class TarPitWarrior extends TarPitWarriorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tar Pit Warrior", "Visions", "VIS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PollutedMireBase = require("../setATH/PollutedMire");
 
 class PollutedMire extends PollutedMireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Polluted Mire", "Commander 2015", "C15");
   }
 }

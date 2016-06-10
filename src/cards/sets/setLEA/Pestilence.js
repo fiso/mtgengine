@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PestilenceBase = require("../setBRB/Pestilence");
 
 class Pestilence extends PestilenceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pestilence", "Limited Edition Alpha", "LEA");
   }
 }

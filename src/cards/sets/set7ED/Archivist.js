@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArchivistBase = require("../set8ED/Archivist");
 
 class Archivist extends ArchivistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Archivist", "Seventh Edition", "7ED");
   }
 }

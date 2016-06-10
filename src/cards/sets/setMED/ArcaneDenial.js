@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcaneDenialBase = require("../setALL/ArcaneDenial");
 
 class ArcaneDenial extends ArcaneDenialBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcane Denial", "Masters Edition", "MED");
   }
 }

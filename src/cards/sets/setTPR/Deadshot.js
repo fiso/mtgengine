@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeadshotBase = require("../setTMP/Deadshot");
 
 class Deadshot extends DeadshotBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deadshot", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class JukaiMessenger extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jukai Messenger", "Champions of Kamigawa", "CHK");
   }
 }

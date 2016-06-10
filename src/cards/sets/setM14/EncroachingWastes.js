@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EncroachingWastesBase = require("../setpFNM/EncroachingWastes");
 
 class EncroachingWastes extends EncroachingWastesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Encroaching Wastes", "Magic 2014 Core Set", "M14");
   }
 }

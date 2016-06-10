@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MosquitoGuardBase = require("../setDDF/MosquitoGuard");
 
 class MosquitoGuard extends MosquitoGuardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mosquito Guard", "Morningtide", "MOR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RancorBase = require("../setARC/Rancor");
 
 class Rancor extends RancorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rancor", "Magic 2013", "M13");
   }
 }

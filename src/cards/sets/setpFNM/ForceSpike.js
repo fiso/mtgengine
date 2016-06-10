@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForceSpikeBase = require("../setDDJ/ForceSpike");
 
 class ForceSpike extends ForceSpikeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Force Spike", "Friday Night Magic", "pFNM");
   }
 }

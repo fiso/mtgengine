@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FertileGroundBase = require("../setBRB/FertileGround");
 
 class FertileGround extends FertileGroundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fertile Ground", "Invasion", "INV");
   }
 }

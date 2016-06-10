@@ -144,3 +144,4 @@ module.exports = {
   ZealousInquisitor: require("./ZealousInquisitor"),
   ZombieCutthroat: require("./ZombieCutthroat")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSCG = module.exports;}

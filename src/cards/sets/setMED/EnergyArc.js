@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnergyArcBase = require("../setALL/EnergyArc");
 
 class EnergyArc extends EnergyArcBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Energy Arc", "Masters Edition", "MED");
   }
 }

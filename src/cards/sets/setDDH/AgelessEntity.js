@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AgelessEntityBase = require("../setDST/AgelessEntity");
 
 class AgelessEntity extends AgelessEntityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ageless Entity", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

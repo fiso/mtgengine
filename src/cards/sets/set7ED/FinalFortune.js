@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FinalFortuneBase = require("../set6ED/FinalFortune");
 
 class FinalFortune extends FinalFortuneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Final Fortune", "Seventh Edition", "7ED");
   }
 }

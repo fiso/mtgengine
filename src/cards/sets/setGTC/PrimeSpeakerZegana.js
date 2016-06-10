@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimeSpeakerZeganaBase = require("../setC15/PrimeSpeakerZegana");
 
 class PrimeSpeakerZegana extends PrimeSpeakerZeganaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Prime Speaker Zegana", "Gatecrash", "GTC");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OblivionRingBase = require("../setARC/OblivionRing");
 
 class OblivionRing extends OblivionRingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oblivion Ring", "Shards of Alara", "ALA");
   }
 }

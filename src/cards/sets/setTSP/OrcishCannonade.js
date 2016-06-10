@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrcishCannonadeBase = require("../setDDN/OrcishCannonade");
 
 class OrcishCannonade extends OrcishCannonadeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Orcish Cannonade", "Time Spiral", "TSP");
   }
 }

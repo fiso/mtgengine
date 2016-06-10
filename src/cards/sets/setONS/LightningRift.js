@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LightningRiftBase = require("../setpFNM/LightningRift");
 
 class LightningRift extends LightningRiftBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lightning Rift", "Onslaught", "ONS");
   }
 }

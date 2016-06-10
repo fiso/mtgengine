@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MinionofLeshracBase = require("../setICE/MinionofLeshrac");
 
 class MinionofLeshrac extends MinionofLeshracBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Minion of Leshrac", "Masters Edition II", "ME2");
   }
 }

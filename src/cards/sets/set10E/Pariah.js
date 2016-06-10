@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PariahBase = require("../set7ED/Pariah");
 
 class Pariah extends PariahBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pariah", "Tenth Edition", "10E");
   }
 }

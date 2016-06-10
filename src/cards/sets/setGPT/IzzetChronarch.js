@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IzzetChronarchBase = require("../setDDJ/IzzetChronarch");
 
 class IzzetChronarch extends IzzetChronarchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Izzet Chronarch", "Guildpact", "GPT");
   }
 }

@@ -336,3 +336,4 @@ module.exports = {
   Zombify: require("./Zombify"),
   Zoologist: require("./Zoologist")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setODY = module.exports;}

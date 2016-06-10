@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SuturePriestBase = require("../setpMGD/SuturePriest");
 
 class SuturePriest extends SuturePriestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Suture Priest", "New Phyrexia", "NPH");
   }
 }

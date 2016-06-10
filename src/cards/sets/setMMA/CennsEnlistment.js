@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CennsEnlistmentBase = require("../setEVE/CennsEnlistment");
 
 class CennsEnlistment extends CennsEnlistmentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cenn's Enlistment", "Modern Masters", "MMA");
   }
 }

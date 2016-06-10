@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkarrganSkybreakerBase = require("../setDDL/SkarrganSkybreaker");
 
 class SkarrganSkybreaker extends SkarrganSkybreakerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skarrgan Skybreaker", "Guildpact", "GPT");
   }
 }

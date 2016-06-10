@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StrongholdAssassinBase = require("../setC13/StrongholdAssassin");
 
 class StrongholdAssassin extends StrongholdAssassinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stronghold Assassin", "Stronghold", "STH");
   }
 }

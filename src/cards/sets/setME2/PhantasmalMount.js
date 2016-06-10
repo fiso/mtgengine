@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhantasmalMountBase = require("../setICE/PhantasmalMount");
 
 class PhantasmalMount extends PhantasmalMountBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phantasmal Mount", "Masters Edition II", "ME2");
   }
 }

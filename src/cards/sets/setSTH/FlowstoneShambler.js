@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlowstoneShamblerBase = require("../set9ED/FlowstoneShambler");
 
 class FlowstoneShambler extends FlowstoneShamblerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flowstone Shambler", "Stronghold", "STH");
   }
 }

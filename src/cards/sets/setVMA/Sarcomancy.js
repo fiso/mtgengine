@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SarcomancyBase = require("../setTMP/Sarcomancy");
 
 class Sarcomancy extends SarcomancyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sarcomancy", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AkromasMemorialBase = require("../setFUT/AkromasMemorial");
 
 class AkromasMemorial extends AkromasMemorialBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Akroma's Memorial", "Magic 2013", "M13");
   }
 }

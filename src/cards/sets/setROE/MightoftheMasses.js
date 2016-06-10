@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MightoftheMassesBase = require("../setORI/MightoftheMasses");
 
 class MightoftheMasses extends MightoftheMassesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Might of the Masses", "Rise of the Eldrazi", "ROE");
   }
 }

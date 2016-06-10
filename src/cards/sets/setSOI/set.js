@@ -321,3 +321,4 @@ module.exports = {
   WolfofDevilsBreach: require("./WolfofDevilsBreach"),
   WoodlandStream: require("./WoodlandStream")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSOI = module.exports;}

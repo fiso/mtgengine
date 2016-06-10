@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SouloftheHarvestBase = require("../setAVR/SouloftheHarvest");
 
 class SouloftheHarvest extends SouloftheHarvestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul of the Harvest", "Commander 2014", "C14");
   }
 }

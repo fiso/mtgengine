@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FuneralCharmBase = require("../setTSB/FuneralCharm");
 
 class FuneralCharm extends FuneralCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Funeral Charm", "Visions", "VIS");
   }
 }

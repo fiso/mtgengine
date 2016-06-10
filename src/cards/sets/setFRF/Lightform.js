@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class Lightform extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lightform", "Fate Reforged", "FRF");
   }
 }

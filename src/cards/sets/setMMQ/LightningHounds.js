@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LightningHoundsBase = require("../setpMEI/LightningHounds");
 
 class LightningHounds extends LightningHoundsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lightning Hounds", "Mercadian Masques", "MMQ");
   }
 }

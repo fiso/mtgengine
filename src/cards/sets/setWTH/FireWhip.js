@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireWhipBase = require("../setTSB/FireWhip");
 
 class FireWhip extends FireWhipBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire Whip", "Weatherlight", "WTH");
   }
 }

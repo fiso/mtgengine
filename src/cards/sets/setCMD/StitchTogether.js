@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StitchTogetherBase = require("../setJUD/StitchTogether");
 
 class StitchTogether extends StitchTogetherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stitch Together", "Magic: The Gathering-Commander", "CMD");
   }
 }

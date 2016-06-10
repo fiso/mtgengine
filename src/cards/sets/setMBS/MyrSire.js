@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MyrSireBase = require("../setC14/MyrSire");
 
 class MyrSire extends MyrSireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Myr Sire", "Mirrodin Besieged", "MBS");
   }
 }

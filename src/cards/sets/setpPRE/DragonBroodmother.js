@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DragonBroodmotherBase = require("../setARB/DragonBroodmother");
 
 class DragonBroodmother extends DragonBroodmotherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dragon Broodmother", "Prerelease Events", "pPRE");
   }
 }

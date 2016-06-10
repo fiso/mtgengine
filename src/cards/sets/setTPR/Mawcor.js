@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MawcorBase = require("../set7ED/Mawcor");
 
 class Mawcor extends MawcorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mawcor", "Tempest Remastered", "TPR");
   }
 }

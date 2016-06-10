@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhantomGeneralBase = require("../setDDK/PhantomGeneral");
 
 class PhantomGeneral extends PhantomGeneralBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phantom General", "Return to Ravnica", "RTR");
   }
 }

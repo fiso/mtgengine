@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VulshokBattlegearBase = require("../setDDI/VulshokBattlegear");
 
 class VulshokBattlegear extends VulshokBattlegearBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vulshok Battlegear", "Mirrodin", "MRD");
   }
 }

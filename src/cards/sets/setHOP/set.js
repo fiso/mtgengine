@@ -190,3 +190,4 @@ module.exports = {
   WitheredWretch: require("./WitheredWretch"),
   WizardReplica: require("./WizardReplica")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setHOP = module.exports;}

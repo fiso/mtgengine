@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KrovikanFetishBase = require("../set5ED/KrovikanFetish");
 
 class KrovikanFetish extends KrovikanFetishBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Krovikan Fetish", "Ice Age", "ICE");
   }
 }

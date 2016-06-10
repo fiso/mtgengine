@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShockTroopsBase = require("../set8ED/ShockTroops");
 
 class ShockTroops extends ShockTroopsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shock Troops", "Mercadian Masques", "MMQ");
   }
 }

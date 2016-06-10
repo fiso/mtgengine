@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildfireEmissaryBase = require("../setBRB/WildfireEmissary");
 
 class WildfireEmissary extends WildfireEmissaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wildfire Emissary", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

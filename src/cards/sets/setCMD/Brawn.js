@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrawnBase = require("../setJUD/Brawn");
 
 class Brawn extends BrawnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brawn", "Magic: The Gathering-Commander", "CMD");
   }
 }

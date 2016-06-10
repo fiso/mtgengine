@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NekrataalBase = require("../setBRB/Nekrataal");
 
 class Nekrataal extends NekrataalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nekrataal", "Eighth Edition", "8ED");
   }
 }

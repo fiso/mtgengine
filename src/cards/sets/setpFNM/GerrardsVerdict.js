@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GerrardsVerdictBase = require("../setAPC/GerrardsVerdict");
 
 class GerrardsVerdict extends GerrardsVerdictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gerrard's Verdict", "Friday Night Magic", "pFNM");
   }
 }

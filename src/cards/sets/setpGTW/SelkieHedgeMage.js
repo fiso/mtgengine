@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SelkieHedgeMageBase = require("../setEVE/SelkieHedgeMage");
 
 class SelkieHedgeMage extends SelkieHedgeMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Selkie Hedge-Mage", "Gateway", "pGTW");
   }
 }

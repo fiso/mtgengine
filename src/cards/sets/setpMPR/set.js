@@ -54,3 +54,4 @@ module.exports = {
   WrathofGod: require("./WrathofGod"),
   Zombify: require("./Zombify")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpMPR = module.exports;}

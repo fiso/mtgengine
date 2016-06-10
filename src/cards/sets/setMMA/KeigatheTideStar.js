@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KeigatheTideStarBase = require("../setCHK/KeigatheTideStar");
 
 class KeigatheTideStar extends KeigatheTideStarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Keiga, the Tide Star", "Modern Masters", "MMA");
   }
 }

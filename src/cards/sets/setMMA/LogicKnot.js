@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LogicKnotBase = require("../setFUT/LogicKnot");
 
 class LogicKnot extends LogicKnotBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Logic Knot", "Modern Masters", "MMA");
   }
 }

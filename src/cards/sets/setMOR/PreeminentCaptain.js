@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PreeminentCaptainBase = require("../setM15/PreeminentCaptain");
 
 class PreeminentCaptain extends PreeminentCaptainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Preeminent Captain", "Morningtide", "MOR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SliceinTwainBase = require("../setC13/SliceinTwain");
 
 class SliceinTwain extends SliceinTwainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slice in Twain", "Scars of Mirrodin", "SOM");
   }
 }

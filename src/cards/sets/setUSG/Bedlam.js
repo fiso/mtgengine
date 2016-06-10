@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BedlamBase = require("../set7ED/Bedlam");
 
 class Bedlam extends BedlamBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bedlam", "Urza's Saga", "USG");
   }
 }

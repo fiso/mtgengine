@@ -58,3 +58,4 @@ module.exports = {
   WaterspoutDjinn: require("./WaterspoutDjinn"),
   Willbender: require("./Willbender")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDD2 = module.exports;}

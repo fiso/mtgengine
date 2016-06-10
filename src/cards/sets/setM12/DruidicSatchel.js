@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DruidicSatchelBase = require("../setC13/DruidicSatchel");
 
 class DruidicSatchel extends DruidicSatchelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Druidic Satchel", "Magic 2012", "M12");
   }
 }

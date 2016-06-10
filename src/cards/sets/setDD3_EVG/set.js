@@ -57,3 +57,4 @@ module.exports = {
   WoodElves: require("./WoodElves"),
   WrensRunVanquisher: require("./WrensRunVanquisher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDD3_EVG = module.exports;}

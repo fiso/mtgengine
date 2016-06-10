@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PillagingHordeBase = require("../setPOR/PillagingHorde");
 
 class PillagingHorde extends PillagingHordeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pillaging Horde", "Vintage Masters", "VMA");
   }
 }

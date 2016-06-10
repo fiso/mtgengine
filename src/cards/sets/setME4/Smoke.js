@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SmokeBase = require("../setCED/Smoke");
 
 class Smoke extends SmokeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Smoke", "Masters Edition IV", "ME4");
   }
 }

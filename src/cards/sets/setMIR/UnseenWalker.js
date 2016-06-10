@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnseenWalkerBase = require("../set6ED/UnseenWalker");
 
 class UnseenWalker extends UnseenWalkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Unseen Walker", "Mirage", "MIR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlightspeakerBase = require("../setMMA/Blightspeaker");
 
 class Blightspeaker extends BlightspeakerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blightspeaker", "Planar Chaos", "PLC");
   }
 }

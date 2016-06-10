@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhyrexianBattlefliesBase = require("../setDDE/PhyrexianBattleflies");
 
 class PhyrexianBattleflies extends PhyrexianBattlefliesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phyrexian Battleflies", "Invasion", "INV");
   }
 }

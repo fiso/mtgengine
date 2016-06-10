@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BasandraBattleSeraphBase = require("../setCMD/BasandraBattleSeraph");
 
 class BasandraBattleSeraph extends BasandraBattleSeraphBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Basandra, Battle Seraph", "Vintage Masters", "VMA");
   }
 }

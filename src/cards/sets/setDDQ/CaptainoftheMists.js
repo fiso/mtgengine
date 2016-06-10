@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CaptainoftheMistsBase = require("../setAVR/CaptainoftheMists");
 
 class CaptainoftheMists extends CaptainoftheMistsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Captain of the Mists", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }
 }

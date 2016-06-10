@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AjaniGoldmaneBase = require("../setLRW/AjaniGoldmane");
 
 class AjaniGoldmane extends AjaniGoldmaneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ajani Goldmane", "Magic 2010", "M10");
   }
 }

@@ -11,3 +11,4 @@ module.exports = {
   ViashinoSandstalker: require("./ViashinoSandstalker"),
   WickedReward: require("./WickedReward")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMGB = module.exports;}

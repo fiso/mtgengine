@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SavageLandsBase = require("../setC13/SavageLands");
 
 class SavageLands extends SavageLandsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Savage Lands", "Shards of Alara", "ALA");
   }
 }

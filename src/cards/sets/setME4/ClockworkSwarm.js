@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ClockworkSwarmBase = require("../setHML/ClockworkSwarm");
 
 class ClockworkSwarm extends ClockworkSwarmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Clockwork Swarm", "Masters Edition IV", "ME4");
   }
 }

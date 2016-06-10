@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlayerHuskBase = require("../setMBS/FlayerHusk");
 
 class FlayerHusk extends FlayerHuskBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flayer Husk", "Planechase 2012 Edition", "PC2");
   }
 }

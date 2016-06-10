@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlazingSalvoBase = require("../setDDK/BlazingSalvo");
 
 class BlazingSalvo extends BlazingSalvoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blazing Salvo", "Odyssey", "ODY");
   }
 }

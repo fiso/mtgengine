@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JuniperOrderAdvocateBase = require("../setALL/JuniperOrderAdvocate");
 
 class JuniperOrderAdvocate extends JuniperOrderAdvocateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Juniper Order Advocate", "Masters Edition II", "ME2");
   }
 }

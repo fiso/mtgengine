@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThundermareBase = require("../set9ED/Thundermare");
 
 class Thundermare extends ThundermareBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thundermare", "Portal", "POR");
   }
 }

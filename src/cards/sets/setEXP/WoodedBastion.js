@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoodedBastionBase = require("../setSHM/WoodedBastion");
 
 class WoodedBastion extends WoodedBastionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wooded Bastion", "Zendikar Expedition", "EXP");
   }
 }

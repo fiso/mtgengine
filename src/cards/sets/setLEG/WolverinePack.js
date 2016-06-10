@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WolverinePackBase = require("../set5ED/WolverinePack");
 
 class WolverinePack extends WolverinePackBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wolverine Pack", "Legends", "LEG");
   }
 }

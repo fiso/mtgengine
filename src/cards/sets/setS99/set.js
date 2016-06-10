@@ -159,3 +159,4 @@ module.exports = {
   WindSail: require("./WindSail"),
   WoodElves: require("./WoodElves")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setS99 = module.exports;}

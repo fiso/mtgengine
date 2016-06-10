@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AllSunsDawnBase = require("../set5DN/AllSunsDawn");
 
 class AllSunsDawn extends AllSunsDawnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "All Suns' Dawn", "Modern Masters 2015 Edition", "MM2");
   }
 }

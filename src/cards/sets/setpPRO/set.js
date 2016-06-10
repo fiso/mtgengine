@@ -6,3 +6,4 @@ module.exports = {
   MirarisWake: require("./MirarisWake"),
   TrevatheRenewer: require("./TrevatheRenewer")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpPRO = module.exports;}

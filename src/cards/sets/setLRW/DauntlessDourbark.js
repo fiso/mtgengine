@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DauntlessDourbarkBase = require("../setpGTW/DauntlessDourbark");
 
 class DauntlessDourbark extends DauntlessDourbarkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dauntless Dourbark", "Lorwyn", "LRW");
   }
 }

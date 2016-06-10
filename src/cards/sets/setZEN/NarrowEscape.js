@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NarrowEscapeBase = require("../setDDE/NarrowEscape");
 
 class NarrowEscape extends NarrowEscapeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Narrow Escape", "Zendikar", "ZEN");
   }
 }

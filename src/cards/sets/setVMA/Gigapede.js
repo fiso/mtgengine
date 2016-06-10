@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GigapedeBase = require("../setONS/Gigapede");
 
 class Gigapede extends GigapedeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gigapede", "Vintage Masters", "VMA");
   }
 }

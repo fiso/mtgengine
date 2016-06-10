@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HonorGuardBase = require("../set8ED/HonorGuard");
 
 class HonorGuard extends HonorGuardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Honor Guard", "Tenth Edition", "10E");
   }
 }

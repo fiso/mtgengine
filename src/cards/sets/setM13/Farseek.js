@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FarseekBase = require("../setpFNM/Farseek");
 
 class Farseek extends FarseekBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Farseek", "Magic 2013", "M13");
   }
 }

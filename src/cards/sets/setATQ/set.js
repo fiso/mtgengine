@@ -86,3 +86,4 @@ module.exports = {
   YawgmothDemon: require("./YawgmothDemon"),
   YotianSoldier: require("./YotianSoldier")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setATQ = module.exports;}

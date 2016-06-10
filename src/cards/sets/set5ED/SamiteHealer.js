@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SamiteHealerBase = require("../setATH/SamiteHealer");
 
 class SamiteHealer extends SamiteHealerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Samite Healer", "Fifth Edition", "5ED");
   }
 }

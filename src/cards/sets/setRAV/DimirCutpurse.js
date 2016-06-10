@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DimirCutpurseBase = require("../setDDH/DimirCutpurse");
 
 class DimirCutpurse extends DimirCutpurseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dimir Cutpurse", "Ravnica: City of Guilds", "RAV");
   }
 }

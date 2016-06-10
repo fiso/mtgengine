@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GleamofResistanceBase = require("../setCON/GleamofResistance");
 
 class GleamofResistance extends GleamofResistanceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gleam of Resistance", "Modern Masters", "MMA");
   }
 }

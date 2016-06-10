@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IcatianTownBase = require("../set6ED/IcatianTown");
 
 class IcatianTown extends IcatianTownBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Icatian Town", "Fallen Empires", "FEM");
   }
 }

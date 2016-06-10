@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KothoftheHammerBase = require("../setDDI/KothoftheHammer");
 
 class KothoftheHammer extends KothoftheHammerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Koth of the Hammer", "Scars of Mirrodin", "SOM");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoggInfestationBase = require("../setSTH/MoggInfestation");
 
 class MoggInfestation extends MoggInfestationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mogg Infestation", "Tempest Remastered", "TPR");
   }
 }

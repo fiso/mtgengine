@@ -94,3 +94,4 @@ module.exports = {
   VolrathsMotionSensor: require("./VolrathsMotionSensor"),
   Zombietokencard: require("./Zombietokencard")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setUGL = module.exports;}

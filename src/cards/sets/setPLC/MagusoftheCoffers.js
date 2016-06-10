@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagusoftheCoffersBase = require("../setC14/MagusoftheCoffers");
 
 class MagusoftheCoffers extends MagusoftheCoffersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magus of the Coffers", "Planar Chaos", "PLC");
   }
 }

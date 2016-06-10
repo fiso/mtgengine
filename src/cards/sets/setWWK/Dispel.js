@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DispelBase = require("../setBFZ/Dispel");
 
 class Dispel extends DispelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dispel", "Worldwake", "WWK");
   }
 }

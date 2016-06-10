@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RootsBase = require("../setHML/Roots");
 
 class Roots extends RootsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Roots", "Masters Edition", "MED");
   }
 }

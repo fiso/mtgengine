@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LaquatussChampionBase = require("../setpPRE/LaquatussChampion");
 
 class LaquatussChampion extends LaquatussChampionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Laquatus's Champion", "Torment", "TOR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LiuBeiLordofShuBase = require("../setME3/LiuBeiLordofShu");
 
 class LiuBeiLordofShu extends LiuBeiLordofShuBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Liu Bei, Lord of Shu", "Portal Three Kingdoms", "PTK");
   }
 }

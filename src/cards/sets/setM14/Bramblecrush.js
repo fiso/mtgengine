@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BramblecrushBase = require("../setISD/Bramblecrush");
 
 class Bramblecrush extends BramblecrushBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bramblecrush", "Magic 2014 Core Set", "M14");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BenevolentBodyguardBase = require("../setJUD/BenevolentBodyguard");
 
 class BenevolentBodyguard extends BenevolentBodyguardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Benevolent Bodyguard", "Vintage Masters", "VMA");
   }
 }

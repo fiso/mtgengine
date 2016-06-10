@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KarmicGuideBase = require("../setC13/KarmicGuide");
 
 class KarmicGuide extends KarmicGuideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Karmic Guide", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BramblewoodParagonBase = require("../setpCMP/BramblewoodParagon");
 
 class BramblewoodParagon extends BramblewoodParagonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bramblewood Paragon", "Morningtide", "MOR");
   }
 }

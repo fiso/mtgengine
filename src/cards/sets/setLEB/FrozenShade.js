@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FrozenShadeBase = require("../setCED/FrozenShade");
 
 class FrozenShade extends FrozenShadeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Frozen Shade", "Limited Edition Beta", "LEB");
   }
 }

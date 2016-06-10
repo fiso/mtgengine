@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReassemblingSkeletonBase = require("../setARC/ReassemblingSkeleton");
 
 class ReassemblingSkeleton extends ReassemblingSkeletonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reassembling Skeleton", "Duel Decks: Izzet vs. Golgari", "DDJ");
   }
 }

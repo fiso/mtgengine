@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CaptainsManeuverBase = require("../setAPC/CaptainsManeuver");
 
 class CaptainsManeuver extends CaptainsManeuverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Captain's Maneuver", "Planechase", "HOP");
   }
 }

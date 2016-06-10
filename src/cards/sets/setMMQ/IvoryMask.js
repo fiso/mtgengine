@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IvoryMaskBase = require("../set8ED/IvoryMask");
 
 class IvoryMask extends IvoryMaskBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ivory Mask", "Mercadian Masques", "MMQ");
   }
 }

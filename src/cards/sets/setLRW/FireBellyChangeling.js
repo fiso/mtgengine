@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireBellyChangelingBase = require("../setDDG/FireBellyChangeling");
 
 class FireBellyChangeling extends FireBellyChangelingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire-Belly Changeling", "Lorwyn", "LRW");
   }
 }

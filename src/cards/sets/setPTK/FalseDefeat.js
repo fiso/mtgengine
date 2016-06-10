@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FalseDefeatBase = require("../setME3/FalseDefeat");
 
 class FalseDefeat extends FalseDefeatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "False Defeat", "Portal Three Kingdoms", "PTK");
   }
 }

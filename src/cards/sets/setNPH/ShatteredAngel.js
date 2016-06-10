@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShatteredAngelBase = require("../setCMD/ShatteredAngel");
 
 class ShatteredAngel extends ShatteredAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shattered Angel", "New Phyrexia", "NPH");
   }
 }

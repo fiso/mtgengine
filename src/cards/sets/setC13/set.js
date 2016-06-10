@@ -343,3 +343,4 @@ module.exports = {
   Wonder: require("./Wonder"),
   WrathofGod: require("./WrathofGod")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setC13 = module.exports;}

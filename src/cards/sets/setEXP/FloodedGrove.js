@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FloodedGroveBase = require("../setEVE/FloodedGrove");
 
 class FloodedGrove extends FloodedGroveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flooded Grove", "Zendikar Expedition", "EXP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoggFanaticBase = require("../setATH/MoggFanatic");
 
 class MoggFanatic extends MoggFanaticBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mogg Fanatic", "Tempest Remastered", "TPR");
   }
 }

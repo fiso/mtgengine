@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoldeviSimulacrumBase = require("../setICE/SoldeviSimulacrum");
 
 class SoldeviSimulacrum extends SoldeviSimulacrumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soldevi Simulacrum", "Masters Edition II", "ME2");
   }
 }

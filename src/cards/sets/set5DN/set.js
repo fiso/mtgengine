@@ -166,3 +166,4 @@ module.exports = {
   VulshokSorcerer: require("./VulshokSorcerer"),
   WayfarersBauble: require("./WayfarersBauble")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set5DN = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DarkpactBase = require("../setCED/Darkpact");
 
 class Darkpact extends DarkpactBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Darkpact", "Unlimited Edition", "2ED");
   }
 }

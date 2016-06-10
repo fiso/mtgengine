@@ -156,3 +156,4 @@ module.exports = {
   ZombieMusher: require("./ZombieMusher"),
   ZurtheEnchanter: require("./ZurtheEnchanter")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCSP = module.exports;}

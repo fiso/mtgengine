@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RecklessChargeBase = require("../setODY/RecklessCharge");
 
 class RecklessCharge extends RecklessChargeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reckless Charge", "Vintage Masters", "VMA");
   }
 }

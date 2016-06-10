@@ -186,3 +186,4 @@ module.exports = {
   YdwenEfreet: require("./YdwenEfreet"),
   ZuranOrb: require("./ZuranOrb")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMED = module.exports;}

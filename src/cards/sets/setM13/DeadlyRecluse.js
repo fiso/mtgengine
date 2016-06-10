@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeadlyRecluseBase = require("../setDDL/DeadlyRecluse");
 
 class DeadlyRecluse extends DeadlyRecluseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deadly Recluse", "Magic 2013", "M13");
   }
 }

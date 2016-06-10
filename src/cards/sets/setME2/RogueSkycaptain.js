@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RogueSkycaptainBase = require("../setALL/RogueSkycaptain");
 
 class RogueSkycaptain extends RogueSkycaptainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rogue Skycaptain", "Masters Edition II", "ME2");
   }
 }

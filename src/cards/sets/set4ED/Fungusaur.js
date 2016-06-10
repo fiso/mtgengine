@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FungusaurBase = require("../setCED/Fungusaur");
 
 class Fungusaur extends FungusaurBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fungusaur", "Fourth Edition", "4ED");
   }
 }

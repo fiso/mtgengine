@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RelicCrushBase = require("../setCMD/RelicCrush");
 
 class RelicCrush extends RelicCrushBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Relic Crush", "Zendikar", "ZEN");
   }
 }

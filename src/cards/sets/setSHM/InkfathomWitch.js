@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InkfathomWitchBase = require("../setPC2/InkfathomWitch");
 
 class InkfathomWitch extends InkfathomWitchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Inkfathom Witch", "Shadowmoor", "SHM");
   }
 }

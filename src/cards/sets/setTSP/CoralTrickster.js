@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoralTricksterBase = require("../setDDN/CoralTrickster");
 
 class CoralTrickster extends CoralTricksterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coral Trickster", "Time Spiral", "TSP");
   }
 }

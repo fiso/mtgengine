@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CascadeBluffsBase = require("../setEVE/CascadeBluffs");
 
 class CascadeBluffs extends CascadeBluffsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cascade Bluffs", "Zendikar Expedition", "EXP");
   }
 }

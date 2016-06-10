@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DracoplasmBase = require("../setTMP/Dracoplasm");
 
 class Dracoplasm extends DracoplasmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dracoplasm", "Tempest Remastered", "TPR");
   }
 }

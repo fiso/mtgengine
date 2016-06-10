@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ManabondBase = require("../setEXO/Manabond");
 
 class Manabond extends ManabondBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Manabond", "Tempest Remastered", "TPR");
   }
 }

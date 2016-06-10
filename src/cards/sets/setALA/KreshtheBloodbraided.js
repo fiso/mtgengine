@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KreshtheBloodbraidedBase = require("../setV11/KreshtheBloodbraided");
 
 class KreshtheBloodbraided extends KreshtheBloodbraidedBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kresh the Bloodbraided", "Shards of Alara", "ALA");
   }
 }

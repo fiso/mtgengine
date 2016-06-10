@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuramancerBase = require("../setDDL/Auramancer");
 
 class Auramancer extends AuramancerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Auramancer", "Magic 2012", "M12");
   }
 }

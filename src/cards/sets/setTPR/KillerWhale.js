@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KillerWhaleBase = require("../setBTD/KillerWhale");
 
 class KillerWhale extends KillerWhaleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Killer Whale", "Tempest Remastered", "TPR");
   }
 }

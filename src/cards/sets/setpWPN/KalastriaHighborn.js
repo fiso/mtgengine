@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KalastriaHighbornBase = require("../setWWK/KalastriaHighborn");
 
 class KalastriaHighborn extends KalastriaHighbornBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kalastria Highborn", "WPN and Gateway", "pWPN");
   }
 }

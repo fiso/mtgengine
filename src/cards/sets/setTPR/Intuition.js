@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IntuitionBase = require("../setpJGP/Intuition");
 
 class Intuition extends IntuitionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Intuition", "Tempest Remastered", "TPR");
   }
 }

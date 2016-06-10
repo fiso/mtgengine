@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArchonofJusticeBase = require("../setEVE/ArchonofJustice");
 
 class ArchonofJustice extends ArchonofJusticeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Archon of Justice", "Magic 2012", "M12");
   }
 }

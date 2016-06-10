@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IndestructibilityBase = require("../setM10/Indestructibility");
 
 class Indestructibility extends IndestructibilityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Indestructibility", "Magic 2014 Core Set", "M14");
   }
 }

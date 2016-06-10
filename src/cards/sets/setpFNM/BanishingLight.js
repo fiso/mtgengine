@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BanishingLightBase = require("../setC15/BanishingLight");
 
 class BanishingLight extends BanishingLightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Banishing Light", "Friday Night Magic", "pFNM");
   }
 }

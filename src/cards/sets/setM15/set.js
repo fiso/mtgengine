@@ -270,3 +270,4 @@ module.exports = {
   YisantheWandererBard: require("./YisantheWandererBard"),
   ZofShade: require("./ZofShade")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM15 = module.exports;}

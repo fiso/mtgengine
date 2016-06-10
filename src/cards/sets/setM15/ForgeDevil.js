@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForgeDevilBase = require("../setDKA/ForgeDevil");
 
 class ForgeDevil extends ForgeDevilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forge Devil", "Magic 2015 Core Set", "M15");
   }
 }

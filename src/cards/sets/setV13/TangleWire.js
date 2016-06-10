@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class TangleWire extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tangle Wire", "From the Vault: Twenty", "V13");
   }
 }

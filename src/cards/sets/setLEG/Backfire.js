@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BackfireBase = require("../set4ED/Backfire");
 
 class Backfire extends BackfireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Backfire", "Legends", "LEG");
   }
 }

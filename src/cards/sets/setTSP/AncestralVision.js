@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncestralVisionBase = require("../setDD3_JVC/AncestralVision");
 
 class AncestralVision extends AncestralVisionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancestral Vision", "Time Spiral", "TSP");
   }
 }

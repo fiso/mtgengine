@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MyrBattlesphereBase = require("../setC13/MyrBattlesphere");
 
 class MyrBattlesphere extends MyrBattlesphereBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Myr Battlesphere", "Commander 2014", "C14");
   }
 }

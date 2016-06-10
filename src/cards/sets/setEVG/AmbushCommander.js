@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AmbushCommanderBase = require("../setDD3_EVG/AmbushCommander");
 
 class AmbushCommander extends AmbushCommanderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ambush Commander", "Duel Decks: Elves vs. Goblins", "EVG");
   }
 }

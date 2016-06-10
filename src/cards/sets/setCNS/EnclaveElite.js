@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class EnclaveElite extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Enclave Elite", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

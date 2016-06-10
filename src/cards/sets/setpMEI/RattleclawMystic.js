@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RattleclawMysticBase = require("../setKTK/RattleclawMystic");
 
 class RattleclawMystic extends RattleclawMysticBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rattleclaw Mystic", "Media Inserts", "pMEI");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AdvanceScoutBase = require("../setBRB/AdvanceScout");
 
 class AdvanceScout extends AdvanceScoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Advance Scout", "Tempest", "TMP");
   }
 }

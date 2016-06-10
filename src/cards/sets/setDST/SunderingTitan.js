@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SunderingTitanBase = require("../setARC/SunderingTitan");
 
 class SunderingTitan extends SunderingTitanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sundering Titan", "Darksteel", "DST");
   }
 }

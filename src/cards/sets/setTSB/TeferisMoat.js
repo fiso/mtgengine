@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TeferisMoatBase = require("../setINV/TeferisMoat");
 
 class TeferisMoat extends TeferisMoatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Teferi's Moat", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

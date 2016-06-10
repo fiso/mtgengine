@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TripNooseBase = require("../setDDF/TripNoose");
 
 class TripNoose extends TripNooseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trip Noose", "Shadowmoor", "SHM");
   }
 }

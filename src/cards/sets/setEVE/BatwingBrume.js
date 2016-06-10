@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BatwingBrumeBase = require("../setARC/BatwingBrume");
 
 class BatwingBrume extends BatwingBrumeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Batwing Brume", "Eventide", "EVE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VoroshtheHunterBase = require("../setCMD/VoroshtheHunter");
 
 class VoroshtheHunter extends VoroshtheHunterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vorosh, the Hunter", "Planar Chaos", "PLC");
   }
 }

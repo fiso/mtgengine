@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnteringBase = require("../setDGM/Entering");
 
 class Entering extends EnteringBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Entering", "Launch Parties", "pLPA");
   }
 }

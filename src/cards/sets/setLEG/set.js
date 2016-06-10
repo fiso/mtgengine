@@ -311,3 +311,4 @@ module.exports = {
   XiraArien: require("./XiraArien"),
   ZephyrFalcon: require("./ZephyrFalcon")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setLEG = module.exports;}

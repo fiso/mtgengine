@@ -149,3 +149,4 @@ module.exports = {
   YavimayasEmbrace: require("./YavimayasEmbrace"),
   ZombieBoa: require("./ZombieBoa")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setAPC = module.exports;}

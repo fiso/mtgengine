@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ColossalMightBase = require("../setARB/ColossalMight");
 
 class ColossalMight extends ColossalMightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Colossal Might", "Archenemy", "ARC");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnderworldDreamsBase = require("../setDPA/UnderworldDreams");
 
 class UnderworldDreams extends UnderworldDreamsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Underworld Dreams", "Magic 2010", "M10");
   }
 }

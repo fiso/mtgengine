@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TemurAscendancyBase = require("../setKTK/TemurAscendancy");
 
 class TemurAscendancy extends TemurAscendancyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Temur Ascendancy", "Prerelease Events", "pPRE");
   }
 }

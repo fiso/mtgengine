@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HellsparkElementalBase = require("../setCON/HellsparkElemental");
 
 class HellsparkElemental extends HellsparkElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hellspark Elemental", "Premium Deck Series: Fire and Lightning", "PD2");
   }
 }

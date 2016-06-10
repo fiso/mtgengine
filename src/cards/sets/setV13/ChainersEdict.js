@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChainersEdictBase = require("../setpFNM/ChainersEdict");
 
 class ChainersEdict extends ChainersEdictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chainer's Edict", "From the Vault: Twenty", "V13");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StoneSpiritBase = require("../set5ED/StoneSpirit");
 
 class StoneSpirit extends StoneSpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stone Spirit", "Ice Age", "ICE");
   }
 }

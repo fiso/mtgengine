@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AbolishBase = require("../setDDF/Abolish");
 
 class Abolish extends AbolishBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Abolish", "Prophecy", "PCY");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PolarKrakenBase = require("../setICE/PolarKraken");
 
 class PolarKraken extends PolarKrakenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Polar Kraken", "Masters Edition", "MED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ObsianusGolemBase = require("../set6ED/ObsianusGolem");
 
 class ObsianusGolem extends ObsianusGolemBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Obsianus Golem", "Collector's Edition", "CED");
   }
 }

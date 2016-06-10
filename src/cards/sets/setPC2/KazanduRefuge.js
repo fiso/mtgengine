@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KazanduRefugeBase = require("../setARC/KazanduRefuge");
 
 class KazanduRefuge extends KazanduRefugeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kazandu Refuge", "Planechase 2012 Edition", "PC2");
   }
 }

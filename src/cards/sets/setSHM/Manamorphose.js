@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ManamorphoseBase = require("../setMMA/Manamorphose");
 
 class Manamorphose extends ManamorphoseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Manamorphose", "Shadowmoor", "SHM");
   }
 }

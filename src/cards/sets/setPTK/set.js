@@ -171,3 +171,4 @@ module.exports = {
   ZodiacTiger: require("./ZodiacTiger"),
   ZuoCitheMockingSage: require("./ZuoCitheMockingSage")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPTK = module.exports;}

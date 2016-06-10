@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimalClayBase = require("../setATQ/PrimalClay");
 
 class PrimalClay extends PrimalClayBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Primal Clay", "Magic 2013", "M13");
   }
 }

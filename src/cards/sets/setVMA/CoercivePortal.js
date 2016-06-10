@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoercivePortalBase = require("../setCNS/CoercivePortal");
 
 class CoercivePortal extends CoercivePortalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coercive Portal", "Vintage Masters", "VMA");
   }
 }

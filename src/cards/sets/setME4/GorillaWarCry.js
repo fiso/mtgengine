@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GorillaWarCryBase = require("../setALL/GorillaWarCry");
 
 class GorillaWarCry extends GorillaWarCryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gorilla War Cry", "Masters Edition IV", "ME4");
   }
 }

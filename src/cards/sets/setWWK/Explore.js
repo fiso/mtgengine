@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExploreBase = require("../setDDO/Explore");
 
 class Explore extends ExploreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Explore", "Worldwake", "WWK");
   }
 }

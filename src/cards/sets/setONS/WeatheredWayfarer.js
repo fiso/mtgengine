@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeatheredWayfarerBase = require("../set9ED/WeatheredWayfarer");
 
 class WeatheredWayfarer extends WeatheredWayfarerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Weathered Wayfarer", "Onslaught", "ONS");
   }
 }

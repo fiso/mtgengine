@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GriselbrandBase = require("../setAVR/Griselbrand");
 
 class Griselbrand extends GriselbrandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Griselbrand", "Grand Prix", "pGPX");
   }
 }

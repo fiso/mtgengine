@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MidnightRitualBase = require("../setMMQ/MidnightRitual");
 
 class MidnightRitual extends MidnightRitualBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Midnight Ritual", "Tenth Edition", "10E");
   }
 }

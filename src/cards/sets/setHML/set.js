@@ -116,3 +116,4 @@ module.exports = {
   WinterSky: require("./WinterSky"),
   WizardsSchool: require("./WizardsSchool")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setHML = module.exports;}

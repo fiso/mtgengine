@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeeDragonautsBase = require("../setpARL/WeeDragonauts");
 
 class WeeDragonauts extends WeeDragonautsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wee Dragonauts", "Guildpact", "GPT");
   }
 }

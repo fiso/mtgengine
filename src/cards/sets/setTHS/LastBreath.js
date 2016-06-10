@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LastBreathBase = require("../setMMQ/LastBreath");
 
 class LastBreath extends LastBreathBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Last Breath", "Theros", "THS");
   }
 }

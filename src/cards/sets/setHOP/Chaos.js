@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChaosBase = require("../setAPC/Chaos");
 
 class Chaos extends ChaosBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chaos", "Planechase", "HOP");
   }
 }

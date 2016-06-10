@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WrapinFlamesBase = require("../setCNS/WrapinFlames");
 
 class WrapinFlames extends WrapinFlamesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wrap in Flames", "Rise of the Eldrazi", "ROE");
   }
 }

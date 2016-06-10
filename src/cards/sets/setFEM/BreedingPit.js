@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BreedingPitBase = require("../setDD3_DVD/BreedingPit");
 
 class BreedingPit extends BreedingPitBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Breeding Pit", "Fallen Empires", "FEM");
   }
 }

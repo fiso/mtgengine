@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DomesticationBase = require("../setM14/Domestication");
 
 class Domestication extends DomesticationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Domestication", "Rise of the Eldrazi", "ROE");
   }
 }

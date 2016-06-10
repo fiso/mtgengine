@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CorpseConnoisseurBase = require("../setARC/CorpseConnoisseur");
 
 class CorpseConnoisseur extends CorpseConnoisseurBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Corpse Connoisseur", "Shards of Alara", "ALA");
   }
 }

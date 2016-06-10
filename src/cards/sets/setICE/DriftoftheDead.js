@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DriftoftheDeadBase = require("../setCST/DriftoftheDead");
 
 class DriftoftheDead extends DriftoftheDeadBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Drift of the Dead", "Ice Age", "ICE");
   }
 }

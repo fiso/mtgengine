@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkeletonShardBase = require("../setMRD/SkeletonShard");
 
 class SkeletonShard extends SkeletonShardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skeleton Shard", "Planechase", "HOP");
   }
 }

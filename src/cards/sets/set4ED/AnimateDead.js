@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnimateDeadBase = require("../setCED/AnimateDead");
 
 class AnimateDead extends AnimateDeadBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Animate Dead", "Fourth Edition", "4ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WillowElfBase = require("../setS99/WillowElf");
 
 class WillowElf extends WillowElfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Willow Elf", "Starter 2000", "S00");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ActofTreasonBase = require("../setDDN/ActofTreason");
 
 class ActofTreason extends ActofTreasonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Act of Treason", "Magic 2010", "M10");
   }
 }

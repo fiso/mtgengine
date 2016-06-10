@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnrulyMobBase = require("../setISD/UnrulyMob");
 
 class UnrulyMob extends UnrulyMobBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Unruly Mob", "Shadows over Innistrad", "SOI");
   }
 }

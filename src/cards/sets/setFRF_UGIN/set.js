@@ -27,3 +27,4 @@ module.exports = {
   Wildcall: require("./Wildcall"),
   WriteintoBeing: require("./WriteintoBeing")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setFRF_UGIN = module.exports;}

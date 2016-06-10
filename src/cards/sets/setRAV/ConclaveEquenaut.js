@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ConclaveEquenautBase = require("../setDDF/ConclaveEquenaut");
 
 class ConclaveEquenaut extends ConclaveEquenautBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Conclave Equenaut", "Ravnica: City of Guilds", "RAV");
   }
 }

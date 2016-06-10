@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GolgariCharmBase = require("../setC15/GolgariCharm");
 
 class GolgariCharm extends GolgariCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Golgari Charm", "Return to Ravnica", "RTR");
   }
 }

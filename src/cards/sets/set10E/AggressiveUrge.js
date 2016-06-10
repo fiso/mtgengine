@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AggressiveUrgeBase = require("../setINV/AggressiveUrge");
 
 class AggressiveUrge extends AggressiveUrgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aggressive Urge", "Tenth Edition", "10E");
   }
 }

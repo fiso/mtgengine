@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireAmbushBase = require("../setME3/FireAmbush");
 
 class FireAmbush extends FireAmbushBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire Ambush", "Portal Three Kingdoms", "PTK");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GiantSlugBase = require("../setCHR/GiantSlug");
 
 class GiantSlug extends GiantSlugBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Giant Slug", "Legends", "LEG");
   }
 }

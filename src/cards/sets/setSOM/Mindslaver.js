@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MindslaverBase = require("../setMRD/Mindslaver");
 
 class Mindslaver extends MindslaverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mindslaver", "Scars of Mirrodin", "SOM");
   }
 }

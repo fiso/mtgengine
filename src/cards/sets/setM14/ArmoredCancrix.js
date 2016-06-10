@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArmoredCancrixBase = require("../setM11/ArmoredCancrix");
 
 class ArmoredCancrix extends ArmoredCancrixBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Armored Cancrix", "Magic 2014 Core Set", "M14");
   }
 }

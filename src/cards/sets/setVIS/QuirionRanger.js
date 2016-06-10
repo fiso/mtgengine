@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuirionRangerBase = require("../setpFNM/QuirionRanger");
 
 class QuirionRanger extends QuirionRangerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Quirion Ranger", "Visions", "VIS");
   }
 }

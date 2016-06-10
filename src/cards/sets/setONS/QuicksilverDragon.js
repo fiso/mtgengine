@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuicksilverDragonBase = require("../setDD3_JVC/QuicksilverDragon");
 
 class QuicksilverDragon extends QuicksilverDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Quicksilver Dragon", "Onslaught", "ONS");
   }
 }

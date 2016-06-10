@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FirestormPhoenixBase = require("../setLEG/FirestormPhoenix");
 
 class FirestormPhoenix extends FirestormPhoenixBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Firestorm Phoenix", "Masters Edition III", "ME3");
   }
 }

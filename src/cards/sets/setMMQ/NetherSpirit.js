@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class NetherSpirit extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nether Spirit", "Mercadian Masques", "MMQ");
   }
 }

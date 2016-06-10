@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GuardiansofMeletisBase = require("../setORI/GuardiansofMeletis");
 
 class GuardiansofMeletis extends GuardiansofMeletisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Guardians of Meletis", "Theros", "THS");
   }
 }

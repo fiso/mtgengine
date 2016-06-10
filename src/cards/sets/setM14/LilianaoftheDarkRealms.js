@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LilianaoftheDarkRealmsBase = require("../setM13/LilianaoftheDarkRealms");
 
 class LilianaoftheDarkRealms extends LilianaoftheDarkRealmsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Liliana of the Dark Realms", "Magic 2014 Core Set", "M14");
   }
 }

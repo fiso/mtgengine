@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GaeasHeraldBase = require("../setDPA/GaeasHerald");
 
 class GaeasHerald extends GaeasHeraldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gaea's Herald", "Tenth Edition", "10E");
   }
 }

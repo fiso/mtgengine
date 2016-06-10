@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShowofValorBase = require("../setM13/ShowofValor");
 
 class ShowofValor extends ShowofValorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Show of Valor", "Magic 2014 Core Set", "M14");
   }
 }

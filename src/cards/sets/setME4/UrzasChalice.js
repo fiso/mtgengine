@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UrzasChaliceBase = require("../setATQ/UrzasChalice");
 
 class UrzasChalice extends UrzasChaliceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Urza's Chalice", "Masters Edition IV", "ME4");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WizardReplicaBase = require("../setMRD/WizardReplica");
 
 class WizardReplica extends WizardReplicaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wizard Replica", "Planechase", "HOP");
   }
 }

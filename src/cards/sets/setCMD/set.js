@@ -306,3 +306,4 @@ module.exports = {
   ZedruutheGreathearted: require("./ZedruutheGreathearted"),
   ZoeticCavern: require("./ZoeticCavern")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCMD = module.exports;}

@@ -336,3 +336,4 @@ module.exports = {
   WordsofWorship: require("./WordsofWorship"),
   WretchedAnurid: require("./WretchedAnurid")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setONS = module.exports;}

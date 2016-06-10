@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BoldwyrIntimidatorBase = require("../setFUT/BoldwyrIntimidator");
 
 class BoldwyrIntimidator extends BoldwyrIntimidatorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Boldwyr Intimidator", "Morningtide", "MOR");
   }
 }

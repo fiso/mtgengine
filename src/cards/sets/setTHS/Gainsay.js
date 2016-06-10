@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GainsayBase = require("../setPLS/Gainsay");
 
 class Gainsay extends GainsayBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gainsay", "Theros", "THS");
   }
 }

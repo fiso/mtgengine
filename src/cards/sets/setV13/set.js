@@ -21,3 +21,4 @@ module.exports = {
   VenserShaperSavant: require("./VenserShaperSavant"),
   WallofBlossoms: require("./WallofBlossoms")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV13 = module.exports;}

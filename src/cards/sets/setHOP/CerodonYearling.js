@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CerodonYearlingBase = require("../setARB/CerodonYearling");
 
 class CerodonYearling extends CerodonYearlingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cerodon Yearling", "Planechase", "HOP");
   }
 }

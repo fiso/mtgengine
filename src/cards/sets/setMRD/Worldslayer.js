@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WorldslayerBase = require("../setM12/Worldslayer");
 
 class Worldslayer extends WorldslayerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Worldslayer", "Mirrodin", "MRD");
   }
 }

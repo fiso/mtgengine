@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TundraBase = require("../setCED/Tundra");
 
 class Tundra extends TundraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tundra", "Revised Edition", "3ED");
   }
 }

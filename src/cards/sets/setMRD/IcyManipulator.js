@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IcyManipulatorBase = require("../setCED/IcyManipulator");
 
 class IcyManipulator extends IcyManipulatorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Icy Manipulator", "Mirrodin", "MRD");
   }
 }

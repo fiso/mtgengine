@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AssemblyWorkerBase = require("../setDDF/AssemblyWorker");
 
 class AssemblyWorker extends AssemblyWorkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Assembly-Worker", "Time Spiral", "TSP");
   }
 }

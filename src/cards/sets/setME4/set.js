@@ -261,3 +261,4 @@ module.exports = {
   YotianSoldier: require("./YotianSoldier"),
   ZombieMaster: require("./ZombieMaster")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setME4 = module.exports;}

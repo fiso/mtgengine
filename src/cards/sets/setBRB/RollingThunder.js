@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RollingThunderBase = require("../setBFZ/RollingThunder");
 
 class RollingThunder extends RollingThunderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rolling Thunder", "Battle Royale Box Set", "BRB");
   }
 }

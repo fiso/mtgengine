@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MarhaultElsdragonBase = require("../setCHR/MarhaultElsdragon");
 
 class MarhaultElsdragon extends MarhaultElsdragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Marhault Elsdragon", "Legends", "LEG");
   }
 }

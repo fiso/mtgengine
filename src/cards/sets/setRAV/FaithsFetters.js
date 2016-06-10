@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FaithsFettersBase = require("../setC15/FaithsFetters");
 
 class FaithsFetters extends FaithsFettersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Faith's Fetters", "Ravnica: City of Guilds", "RAV");
   }
 }

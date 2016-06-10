@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SuddenShockBase = require("../setMMA/SuddenShock");
 
 class SuddenShock extends SuddenShockBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sudden Shock", "Release Events", "pREL");
   }
 }

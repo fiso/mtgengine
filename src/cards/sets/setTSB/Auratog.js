@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuratogBase = require("../setTMP/Auratog");
 
 class Auratog extends AuratogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Auratog", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

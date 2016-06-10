@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CaptainoftheWatchBase = require("../setDDO/CaptainoftheWatch");
 
 class CaptainoftheWatch extends CaptainoftheWatchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Captain of the Watch", "Magic 2013", "M13");
   }
 }

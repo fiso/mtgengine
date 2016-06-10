@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CourtHomunculusBase = require("../setCON/CourtHomunculus");
 
 class CourtHomunculus extends CourtHomunculusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Court Homunculus", "Modern Masters", "MMA");
   }
 }

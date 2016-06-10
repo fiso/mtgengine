@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlightcasterBase = require("../setM14/Blightcaster");
 
 class Blightcaster extends BlightcasterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blightcaster", "Magic Origins", "ORI");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThrummingbirdBase = require("../setMM2/Thrummingbird");
 
 class Thrummingbird extends ThrummingbirdBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thrummingbird", "Scars of Mirrodin", "SOM");
   }
 }

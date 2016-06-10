@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpiritmongerBase = require("../setAPC/Spiritmonger");
 
 class Spiritmonger extends SpiritmongerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spiritmonger", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

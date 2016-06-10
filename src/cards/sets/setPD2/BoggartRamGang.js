@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BoggartRamGangBase = require("../setpGTW/BoggartRamGang");
 
 class BoggartRamGang extends BoggartRamGangBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Boggart Ram-Gang", "Premium Deck Series: Fire and Lightning", "PD2");
   }
 }

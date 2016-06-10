@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GerrardsCommandBase = require("../setDDE/GerrardsCommand");
 
 class GerrardsCommand extends GerrardsCommandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gerrard's Command", "Planeshift", "PLS");
   }
 }

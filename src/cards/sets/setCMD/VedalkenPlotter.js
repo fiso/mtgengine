@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VedalkenPlotterBase = require("../setGPT/VedalkenPlotter");
 
 class VedalkenPlotter extends VedalkenPlotterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vedalken Plotter", "Magic: The Gathering-Commander", "CMD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThalakosLowlandsBase = require("../setBRB/ThalakosLowlands");
 
 class ThalakosLowlands extends ThalakosLowlandsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thalakos Lowlands", "Tempest", "TMP");
   }
 }

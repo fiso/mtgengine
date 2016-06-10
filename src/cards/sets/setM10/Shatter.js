@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShatterBase = require("../set6ED/Shatter");
 
 class Shatter extends ShatterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shatter", "Magic 2010", "M10");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PredatorFlagshipBase = require("../setC14/PredatorFlagship");
 
 class PredatorFlagship extends PredatorFlagshipBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Predator, Flagship", "Nemesis", "NMS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CabalTherapyBase = require("../setpFNM/CabalTherapy");
 
 class CabalTherapy extends CabalTherapyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cabal Therapy", "Judgment", "JUD");
   }
 }

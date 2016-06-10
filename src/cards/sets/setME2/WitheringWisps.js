@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WitheringWispsBase = require("../setICE/WitheringWisps");
 
 class WitheringWisps extends WitheringWispsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Withering Wisps", "Masters Edition II", "ME2");
   }
 }

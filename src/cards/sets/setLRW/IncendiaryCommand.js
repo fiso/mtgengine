@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IncendiaryCommandBase = require("../setC13/IncendiaryCommand");
 
 class IncendiaryCommand extends IncendiaryCommandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Incendiary Command", "Lorwyn", "LRW");
   }
 }

@@ -123,3 +123,4 @@ module.exports = {
   WitheredWretch: require("./WitheredWretch"),
   ZhalfirinCommander: require("./ZhalfirinCommander")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTSB = module.exports;}

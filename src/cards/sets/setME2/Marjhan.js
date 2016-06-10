@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MarjhanBase = require("../setHML/Marjhan");
 
 class Marjhan extends MarjhanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Marjhan", "Masters Edition II", "ME2");
   }
 }

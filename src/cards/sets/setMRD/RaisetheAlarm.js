@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RaisetheAlarmBase = require("../setDDO/RaisetheAlarm");
 
 class RaisetheAlarm extends RaisetheAlarmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Raise the Alarm", "Mirrodin", "MRD");
   }
 }

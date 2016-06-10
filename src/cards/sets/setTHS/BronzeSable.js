@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BronzeSableBase = require("../setM15/BronzeSable");
 
 class BronzeSable extends BronzeSableBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bronze Sable", "Theros", "THS");
   }
 }

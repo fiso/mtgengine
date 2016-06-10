@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UrGolemsEyeBase = require("../setC14/UrGolemsEye");
 
 class UrGolemsEye extends UrGolemsEyeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ur-Golem's Eye", "Ninth Edition", "9ED");
   }
 }

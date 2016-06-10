@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SwellofCourageBase = require("../setDDF/SwellofCourage");
 
 class SwellofCourage extends SwellofCourageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Swell of Courage", "Morningtide", "MOR");
   }
 }

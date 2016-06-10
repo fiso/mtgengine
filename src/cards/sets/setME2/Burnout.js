@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BurnoutBase = require("../setALL/Burnout");
 
 class Burnout extends BurnoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Burnout", "Masters Edition II", "ME2");
   }
 }

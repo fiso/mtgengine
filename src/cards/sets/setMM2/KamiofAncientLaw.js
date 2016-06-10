@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KamiofAncientLawBase = require("../setCHK/KamiofAncientLaw");
 
 class KamiofAncientLaw extends KamiofAncientLawBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kami of Ancient Law", "Modern Masters 2015 Edition", "MM2");
   }
 }

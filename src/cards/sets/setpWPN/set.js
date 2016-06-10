@@ -44,3 +44,4 @@ module.exports = {
   VaultSkirge: require("./VaultSkirge"),
   WoollyThoctar: require("./WoollyThoctar")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpWPN = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SilverKnightBase = require("../setDDG/SilverKnight");
 
 class SilverKnight extends SilverKnightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Silver Knight", "Friday Night Magic", "pFNM");
   }
 }

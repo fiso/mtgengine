@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MountainBase = require("../setATH/Mountain");
 
 class Mountain extends MountainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mountain", "Premium Deck Series: Fire and Lightning", "PD2");
   }
 }

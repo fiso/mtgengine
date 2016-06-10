@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RiptideSurvivorBase = require("../setC14/RiptideSurvivor");
 
 class RiptideSurvivor extends RiptideSurvivorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Riptide Survivor", "Scourge", "SCG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SlateStreetRuffianBase = require("../setDDM/SlateStreetRuffian");
 
 class SlateStreetRuffian extends SlateStreetRuffianBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slate Street Ruffian", "Gatecrash", "GTC");
   }
 }

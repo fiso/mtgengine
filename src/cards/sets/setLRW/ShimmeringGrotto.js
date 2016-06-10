@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShimmeringGrottoBase = require("../setISD/ShimmeringGrotto");
 
 class ShimmeringGrotto extends ShimmeringGrottoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shimmering Grotto", "Lorwyn", "LRW");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JeskaiInfiltratorBase = require("../setFRF/JeskaiInfiltrator");
 
 class JeskaiInfiltrator extends JeskaiInfiltratorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jeskai Infiltrator", "Ugin's Fate promos", "FRF_UGIN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class SteamcoreWeird extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Steamcore Weird", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

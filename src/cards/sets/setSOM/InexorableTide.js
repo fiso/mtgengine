@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InexorableTideBase = require("../setMM2/InexorableTide");
 
 class InexorableTide extends InexorableTideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Inexorable Tide", "Scars of Mirrodin", "SOM");
   }
 }

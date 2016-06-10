@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SummonersBaneBase = require("../setDDM/SummonersBane");
 
 class SummonersBane extends SummonersBaneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Summoner's Bane", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ImperiosaurBase = require("../setFUT/Imperiosaur");
 
 class Imperiosaur extends ImperiosaurBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Imperiosaur", "Modern Masters", "MMA");
   }
 }

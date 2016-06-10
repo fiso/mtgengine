@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InvoketheFiremindBase = require("../setDDJ/InvoketheFiremind");
 
 class InvoketheFiremind extends InvoketheFiremindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Invoke the Firemind", "Guildpact", "GPT");
   }
 }

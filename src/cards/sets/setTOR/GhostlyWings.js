@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GhostlyWingsBase = require("../setSOI/GhostlyWings");
 
 class GhostlyWings extends GhostlyWingsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghostly Wings", "Torment", "TOR");
   }
 }

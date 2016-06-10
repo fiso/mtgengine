@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SwampBase = require("../setATH/Swamp");
 
 class Swamp extends SwampBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Swamp", "Seventh Edition", "7ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DrownedBase = require("../setME4/Drowned");
 
 class Drowned extends DrownedBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Drowned", "The Dark", "DRK");
   }
 }

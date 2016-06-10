@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RakshasaVizierBase = require("../setKTK/RakshasaVizier");
 
 class RakshasaVizier extends RakshasaVizierBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rakshasa Vizier", "Prerelease Events", "pPRE");
   }
 }

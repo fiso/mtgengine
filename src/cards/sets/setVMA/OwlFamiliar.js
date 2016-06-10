@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OwlFamiliarBase = require("../setME4/OwlFamiliar");
 
 class OwlFamiliar extends OwlFamiliarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Owl Familiar", "Vintage Masters", "VMA");
   }
 }

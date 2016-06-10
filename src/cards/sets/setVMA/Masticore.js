@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MasticoreBase = require("../setV10/Masticore");
 
 class Masticore extends MasticoreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Masticore", "Vintage Masters", "VMA");
   }
 }

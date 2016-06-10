@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkeletonShipBase = require("../setICE/SkeletonShip");
 
 class SkeletonShip extends SkeletonShipBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skeleton Ship", "Masters Edition II", "ME2");
   }
 }

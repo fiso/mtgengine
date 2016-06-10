@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DorantheSiegeTowerBase = require("../setpCMP/DorantheSiegeTower");
 
 class DorantheSiegeTower extends DorantheSiegeTowerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Doran, the Siege Tower", "Lorwyn", "LRW");
   }
 }

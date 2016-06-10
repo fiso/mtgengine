@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PainBase = require("../setDDH/Pain");
 
 class Pain extends PainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pain", "Invasion", "INV");
   }
 }

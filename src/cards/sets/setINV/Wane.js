@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WaneBase = require("../setARC/Wane");
 
 class Wane extends WaneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wane", "Invasion", "INV");
   }
 }

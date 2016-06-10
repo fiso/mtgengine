@@ -166,3 +166,4 @@ module.exports = {
   WurmweaverCoil: require("./WurmweaverCoil"),
   YoreTillerNephilim: require("./YoreTillerNephilim")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setGPT = module.exports;}

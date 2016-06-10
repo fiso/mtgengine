@@ -168,3 +168,4 @@ module.exports = {
   WindShear: require("./WindShear"),
   ZhalfirinCrusader: require("./ZhalfirinCrusader")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setVIS = module.exports;}

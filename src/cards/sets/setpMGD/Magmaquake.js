@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagmaquakeBase = require("../setC14/Magmaquake");
 
 class Magmaquake extends MagmaquakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magmaquake", "Magic Game Day", "pMGD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkirsdagHighPriestBase = require("../setC14/SkirsdagHighPriest");
 
 class SkirsdagHighPriest extends SkirsdagHighPriestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skirsdag High Priest", "Innistrad", "ISD");
   }
 }

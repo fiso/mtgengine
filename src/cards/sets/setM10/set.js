@@ -235,3 +235,4 @@ module.exports = {
   ZephyrSprite: require("./ZephyrSprite"),
   ZombieGoliath: require("./ZombieGoliath")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM10 = module.exports;}

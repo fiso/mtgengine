@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SerraPaladinBase = require("../set5ED/SerraPaladin");
 
 class SerraPaladin extends SerraPaladinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Serra Paladin", "Homelands", "HML");
   }
 }

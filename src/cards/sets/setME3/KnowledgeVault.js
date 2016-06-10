@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KnowledgeVaultBase = require("../setLEG/KnowledgeVault");
 
 class KnowledgeVault extends KnowledgeVaultBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Knowledge Vault", "Masters Edition III", "ME3");
   }
 }

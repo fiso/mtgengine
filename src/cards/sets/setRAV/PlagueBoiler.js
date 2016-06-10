@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlagueBoilerBase = require("../setC13/PlagueBoiler");
 
 class PlagueBoiler extends PlagueBoilerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Plague Boiler", "Ravnica: City of Guilds", "RAV");
   }
 }

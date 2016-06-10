@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReveillarkBase = require("../setMMA/Reveillark");
 
 class Reveillark extends ReveillarkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reveillark", "Morningtide", "MOR");
   }
 }

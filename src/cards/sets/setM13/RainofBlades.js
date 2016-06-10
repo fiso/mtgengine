@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RainofBladesBase = require("../set8ED/RainofBlades");
 
 class RainofBlades extends RainofBladesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rain of Blades", "Magic 2013", "M13");
   }
 }

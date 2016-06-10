@@ -230,3 +230,4 @@ module.exports = {
   WormHarvest: require("./WormHarvest"),
   YoseitheMorningStar: require("./YoseitheMorningStar")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMMA = module.exports;}

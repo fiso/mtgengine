@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MossDiamondBase = require("../set6ED/MossDiamond");
 
 class MossDiamond extends MossDiamondBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moss Diamond", "Seventh Edition", "7ED");
   }
 }

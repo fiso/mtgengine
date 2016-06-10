@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TouchofBrillianceBase = require("../setPOR/TouchofBrilliance");
 
 class TouchofBrilliance extends TouchofBrillianceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Touch of Brilliance", "Portal Second Age", "PO2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SanctumGuardianBase = require("../setBRB/SanctumGuardian");
 
 class SanctumGuardian extends SanctumGuardianBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sanctum Guardian", "Urza's Saga", "USG");
   }
 }

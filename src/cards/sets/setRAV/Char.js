@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CharBase = require("../setp15A/Char");
 
 class Char extends CharBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Char", "Ravnica: City of Guilds", "RAV");
   }
 }

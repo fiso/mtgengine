@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BreakthroughBase = require("../setCNS/Breakthrough");
 
 class Breakthrough extends BreakthroughBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Breakthrough", "Torment", "TOR");
   }
 }

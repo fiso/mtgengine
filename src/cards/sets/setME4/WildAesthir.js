@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildAesthirBase = require("../setALL/WildAesthir");
 
 class WildAesthir extends WildAesthirBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wild Aesthir", "Masters Edition IV", "ME4");
   }
 }

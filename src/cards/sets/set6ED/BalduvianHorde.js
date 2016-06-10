@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BalduvianHordeBase = require("../setALL/BalduvianHorde");
 
 class BalduvianHorde extends BalduvianHordeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Balduvian Horde", "Classic Sixth Edition", "6ED");
   }
 }

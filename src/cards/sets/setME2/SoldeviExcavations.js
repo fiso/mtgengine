@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoldeviExcavationsBase = require("../setALL/SoldeviExcavations");
 
 class SoldeviExcavations extends SoldeviExcavationsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soldevi Excavations", "Masters Edition II", "ME2");
   }
 }

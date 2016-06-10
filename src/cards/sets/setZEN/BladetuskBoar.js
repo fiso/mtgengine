@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BladetuskBoarBase = require("../setJOU/BladetuskBoar");
 
 class BladetuskBoar extends BladetuskBoarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bladetusk Boar", "Zendikar", "ZEN");
   }
 }

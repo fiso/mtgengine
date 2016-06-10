@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RakaliteBase = require("../setATQ/Rakalite");
 
 class Rakalite extends RakaliteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rakalite", "Chronicles", "CHR");
   }
 }

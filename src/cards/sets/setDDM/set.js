@@ -77,3 +77,4 @@ module.exports = {
   VraskatheUnseen: require("./VraskatheUnseen"),
   WightofPrecinctSix: require("./WightofPrecinctSix")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDM = module.exports;}

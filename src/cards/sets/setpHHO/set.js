@@ -11,3 +11,4 @@ module.exports = {
   StockingTiger: require("./StockingTiger"),
   YuleOoze: require("./YuleOoze")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpHHO = module.exports;}

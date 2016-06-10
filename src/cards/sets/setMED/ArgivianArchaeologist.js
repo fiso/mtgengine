@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArgivianArchaeologistBase = require("../setATQ/ArgivianArchaeologist");
 
 class ArgivianArchaeologist extends ArgivianArchaeologistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Argivian Archaeologist", "Masters Edition", "MED");
   }
 }

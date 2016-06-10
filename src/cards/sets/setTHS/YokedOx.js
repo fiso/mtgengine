@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const YokedOxBase = require("../setORI/YokedOx");
 
 class YokedOx extends YokedOxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Yoked Ox", "Theros", "THS");
   }
 }

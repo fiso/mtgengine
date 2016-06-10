@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShadowstormBase = require("../setTMP/Shadowstorm");
 
 class Shadowstorm extends ShadowstormBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shadowstorm", "Tempest Remastered", "TPR");
   }
 }

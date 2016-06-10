@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RansackBase = require("../setS99/Ransack");
 
 class Ransack extends RansackBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ransack", "Stronghold", "STH");
   }
 }

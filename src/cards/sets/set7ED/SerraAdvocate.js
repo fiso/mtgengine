@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SerraAdvocateBase = require("../setDD3_DVD/SerraAdvocate");
 
 class SerraAdvocate extends SerraAdvocateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Serra Advocate", "Seventh Edition", "7ED");
   }
 }

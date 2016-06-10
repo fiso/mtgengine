@@ -328,3 +328,4 @@ module.exports = {
   WretchedConfluence: require("./WretchedConfluence"),
   ZoeticCavern: require("./ZoeticCavern")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setC15 = module.exports;}

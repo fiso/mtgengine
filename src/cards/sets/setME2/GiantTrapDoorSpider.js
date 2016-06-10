@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GiantTrapDoorSpiderBase = require("../setCST/GiantTrapDoorSpider");
 
 class GiantTrapDoorSpider extends GiantTrapDoorSpiderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Giant Trap Door Spider", "Masters Edition II", "ME2");
   }
 }

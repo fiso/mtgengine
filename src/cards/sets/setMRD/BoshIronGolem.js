@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BoshIronGolemBase = require("../setC14/BoshIronGolem");
 
 class BoshIronGolem extends BoshIronGolemBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bosh, Iron Golem", "Mirrodin", "MRD");
   }
 }

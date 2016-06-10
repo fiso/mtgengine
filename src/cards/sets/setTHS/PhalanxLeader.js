@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhalanxLeaderBase = require("../setpMGD/PhalanxLeader");
 
 class PhalanxLeader extends PhalanxLeaderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phalanx Leader", "Theros", "THS");
   }
 }

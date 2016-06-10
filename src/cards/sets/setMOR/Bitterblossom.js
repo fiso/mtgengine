@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BitterblossomBase = require("../setpJGP/Bitterblossom");
 
 class Bitterblossom extends BitterblossomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bitterblossom", "Morningtide", "MOR");
   }
 }

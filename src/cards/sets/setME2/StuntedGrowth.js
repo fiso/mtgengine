@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StuntedGrowthBase = require("../setICE/StuntedGrowth");
 
 class StuntedGrowth extends StuntedGrowthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stunted Growth", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeartwoodDryadBase = require("../setTMP/HeartwoodDryad");
 
 class HeartwoodDryad extends HeartwoodDryadBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heartwood Dryad", "Tempest Remastered", "TPR");
   }
 }

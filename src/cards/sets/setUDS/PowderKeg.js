@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PowderKegBase = require("../setpMPR/PowderKeg");
 
 class PowderKeg extends PowderKegBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Powder Keg", "Urza's Destiny", "UDS");
   }
 }

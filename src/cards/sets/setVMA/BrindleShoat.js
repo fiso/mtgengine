@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrindleShoatBase = require("../setPC2/BrindleShoat");
 
 class BrindleShoat extends BrindleShoatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brindle Shoat", "Vintage Masters", "VMA");
   }
 }

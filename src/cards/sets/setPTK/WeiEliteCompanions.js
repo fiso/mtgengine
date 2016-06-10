@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeiEliteCompanionsBase = require("../setME3/WeiEliteCompanions");
 
 class WeiEliteCompanions extends WeiEliteCompanionsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wei Elite Companions", "Portal Three Kingdoms", "PTK");
   }
 }

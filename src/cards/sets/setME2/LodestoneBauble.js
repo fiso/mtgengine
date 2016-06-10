@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LodestoneBaubleBase = require("../setALL/LodestoneBauble");
 
 class LodestoneBauble extends LodestoneBaubleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lodestone Bauble", "Masters Edition II", "ME2");
   }
 }

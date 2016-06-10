@@ -343,3 +343,4 @@ module.exports = {
   Zombify: require("./Zombify"),
   ZursWeirding: require("./ZursWeirding")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set8ED = module.exports;}

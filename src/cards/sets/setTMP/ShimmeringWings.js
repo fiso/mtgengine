@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShimmeringWingsBase = require("../setINV/ShimmeringWings");
 
 class ShimmeringWings extends ShimmeringWingsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shimmering Wings", "Tempest", "TMP");
   }
 }

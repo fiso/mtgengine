@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PollutedDeltaBase = require("../setpJGP/PollutedDelta");
 
 class PollutedDelta extends PollutedDeltaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Polluted Delta", "Zendikar Expedition", "EXP");
   }
 }

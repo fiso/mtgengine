@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DragonscaleGeneralBase = require("../setFRF/DragonscaleGeneral");
 
 class DragonscaleGeneral extends DragonscaleGeneralBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dragonscale General", "Media Inserts", "pMEI");
   }
 }

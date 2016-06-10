@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GalvanicJuggernautBase = require("../setISD/GalvanicJuggernaut");
 
 class GalvanicJuggernaut extends GalvanicJuggernautBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Galvanic Juggernaut", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

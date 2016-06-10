@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ParalyzingGraspBase = require("../setRTR/ParalyzingGrasp");
 
 class ParalyzingGrasp extends ParalyzingGraspBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Paralyzing Grasp", "Zendikar", "ZEN");
   }
 }

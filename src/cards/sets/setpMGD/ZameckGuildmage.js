@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZameckGuildmageBase = require("../setGTC/ZameckGuildmage");
 
 class ZameckGuildmage extends ZameckGuildmageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zameck Guildmage", "Magic Game Day", "pMGD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HordelingOutburstBase = require("../setpFNM/HordelingOutburst");
 
 class HordelingOutburst extends HordelingOutburstBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hordeling Outburst", "Khans of Tarkir", "KTK");
   }
 }

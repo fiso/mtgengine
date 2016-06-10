@@ -106,3 +106,4 @@ module.exports = {
   Windfall: require("./Windfall"),
   WrathofGod: require("./WrathofGod")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setBRB = module.exports;}

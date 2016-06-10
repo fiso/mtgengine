@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BansheeBase = require("../setCHR/Banshee");
 
 class Banshee extends BansheeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Banshee", "The Dark", "DRK");
   }
 }

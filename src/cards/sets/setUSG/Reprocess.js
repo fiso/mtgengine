@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReprocessBase = require("../set7ED/Reprocess");
 
 class Reprocess extends ReprocessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reprocess", "Urza's Saga", "USG");
   }
 }

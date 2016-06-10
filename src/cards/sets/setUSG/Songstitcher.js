@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SongstitcherBase = require("../setBRB/Songstitcher");
 
 class Songstitcher extends SongstitcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Songstitcher", "Urza's Saga", "USG");
   }
 }

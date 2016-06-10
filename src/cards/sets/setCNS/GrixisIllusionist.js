@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrixisIllusionistBase = require("../setCON/GrixisIllusionist");
 
 class GrixisIllusionist extends GrixisIllusionistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grixis Illusionist", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

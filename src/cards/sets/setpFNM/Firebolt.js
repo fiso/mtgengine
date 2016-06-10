@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireboltBase = require("../setDD3_JVC/Firebolt");
 
 class Firebolt extends FireboltBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Firebolt", "Friday Night Magic", "pFNM");
   }
 }

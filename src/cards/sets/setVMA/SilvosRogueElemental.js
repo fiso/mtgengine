@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SilvosRogueElementalBase = require("../setONS/SilvosRogueElemental");
 
 class SilvosRogueElemental extends SilvosRogueElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Silvos, Rogue Elemental", "Vintage Masters", "VMA");
   }
 }

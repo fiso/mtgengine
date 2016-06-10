@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KjeldoranHomeGuardBase = require("../setALL/KjeldoranHomeGuard");
 
 class KjeldoranHomeGuard extends KjeldoranHomeGuardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kjeldoran Home Guard", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExecuteBase = require("../set8ED/Execute");
 
 class Execute extends ExecuteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Execute", "Ninth Edition", "9ED");
   }
 }

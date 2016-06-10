@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoongloveExtractBase = require("../setDD3_EVG/MoongloveExtract");
 
 class MoongloveExtract extends MoongloveExtractBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moonglove Extract", "Lorwyn", "LRW");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OmenspeakerBase = require("../setDDO/Omenspeaker");
 
 class Omenspeaker extends OmenspeakerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Omenspeaker", "Theros", "THS");
   }
 }

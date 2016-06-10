@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RevenantBase = require("../setORI/Revenant");
 
 class Revenant extends RevenantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Revenant", "Prerelease Events", "pPRE");
   }
 }

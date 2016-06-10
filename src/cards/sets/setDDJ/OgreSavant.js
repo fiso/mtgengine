@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OgreSavantBase = require("../setDDH/OgreSavant");
 
 class OgreSavant extends OgreSavantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ogre Savant", "Duel Decks: Izzet vs. Golgari", "DDJ");
   }
 }

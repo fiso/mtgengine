@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IncinerateBase = require("../setCST/Incinerate");
 
 class Incinerate extends IncinerateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Incinerate", "Duel Decks: Jace vs. Chandra", "DD2");
   }
 }

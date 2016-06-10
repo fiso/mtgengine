@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GloomBase = require("../setCED/Gloom");
 
 class Gloom extends GloomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gloom", "Unlimited Edition", "2ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EarlyHarvestBase = require("../set6ED/EarlyHarvest");
 
 class EarlyHarvest extends EarlyHarvestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Early Harvest", "Seventh Edition", "7ED");
   }
 }

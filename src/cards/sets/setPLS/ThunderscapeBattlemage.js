@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThunderscapeBattlemageBase = require("../setDDE/ThunderscapeBattlemage");
 
 class ThunderscapeBattlemage extends ThunderscapeBattlemageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thunderscape Battlemage", "Planeshift", "PLS");
   }
 }

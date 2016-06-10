@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IndomitableArchangelBase = require("../setMM2/IndomitableArchangel");
 
 class IndomitableArchangel extends IndomitableArchangelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Indomitable Archangel", "Scars of Mirrodin", "SOM");
   }
 }

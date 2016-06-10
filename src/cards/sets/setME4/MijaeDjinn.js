@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MijaeDjinnBase = require("../setARN/MijaeDjinn");
 
 class MijaeDjinn extends MijaeDjinnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mijae Djinn", "Masters Edition IV", "ME4");
   }
 }

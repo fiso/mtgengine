@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrimTutorBase = require("../setME3/GrimTutor");
 
 class GrimTutor extends GrimTutorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grim Tutor", "Starter 1999", "S99");
   }
 }

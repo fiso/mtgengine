@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class TitanicUltimatum extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Titanic Ultimatum", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

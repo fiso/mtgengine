@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WrensRunVanquisherBase = require("../setDD3_EVG/WrensRunVanquisher");
 
 class WrensRunVanquisher extends WrensRunVanquisherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wren's Run Vanquisher", "Lorwyn", "LRW");
   }
 }

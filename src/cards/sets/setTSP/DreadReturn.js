@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreadReturnBase = require("../setC14/DreadReturn");
 
 class DreadReturn extends DreadReturnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dread Return", "Time Spiral", "TSP");
   }
 }

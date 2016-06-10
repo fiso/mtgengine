@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OasisBase = require("../setARN/Oasis");
 
 class Oasis extends OasisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oasis", "Fourth Edition", "4ED");
   }
 }

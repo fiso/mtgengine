@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TheloniteHermitBase = require("../setARC/TheloniteHermit");
 
 class TheloniteHermit extends TheloniteHermitBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thelonite Hermit", "Time Spiral", "TSP");
   }
 }

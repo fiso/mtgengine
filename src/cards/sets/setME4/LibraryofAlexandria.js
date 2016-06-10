@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LibraryofAlexandriaBase = require("../setARN/LibraryofAlexandria");
 
 class LibraryofAlexandria extends LibraryofAlexandriaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Library of Alexandria", "Masters Edition IV", "ME4");
   }
 }

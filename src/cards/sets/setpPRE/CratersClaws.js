@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CratersClawsBase = require("../setKTK/CratersClaws");
 
 class CratersClaws extends CratersClawsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crater's Claws", "Prerelease Events", "pPRE");
   }
 }

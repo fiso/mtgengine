@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IntruderAlarmBase = require("../set8ED/IntruderAlarm");
 
 class IntruderAlarm extends IntruderAlarmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Intruder Alarm", "Stronghold", "STH");
   }
 }

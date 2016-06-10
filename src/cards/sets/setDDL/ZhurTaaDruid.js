@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZhurTaaDruidBase = require("../setDGM/ZhurTaaDruid");
 
 class ZhurTaaDruid extends ZhurTaaDruidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zhur-Taa Druid", "Duel Decks: Heroes vs. Monsters", "DDL");
   }
 }

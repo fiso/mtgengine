@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DisasterRadiusBase = require("../setC15/DisasterRadius");
 
 class DisasterRadius extends DisasterRadiusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Disaster Radius", "Magic: The Gathering-Commander", "CMD");
   }
 }

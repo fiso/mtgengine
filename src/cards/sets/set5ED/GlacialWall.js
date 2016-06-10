@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlacialWallBase = require("../set6ED/GlacialWall");
 
 class GlacialWall extends GlacialWallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glacial Wall", "Fifth Edition", "5ED");
   }
 }

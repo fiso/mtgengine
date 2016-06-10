@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnathemancerBase = require("../setARB/Anathemancer");
 
 class Anathemancer extends AnathemancerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Anathemancer", "Friday Night Magic", "pFNM");
   }
 }

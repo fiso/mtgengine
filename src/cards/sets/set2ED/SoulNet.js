@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulNetBase = require("../set6ED/SoulNet");
 
 class SoulNet extends SoulNetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Net", "Unlimited Edition", "2ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoldMyrBase = require("../setMRD/GoldMyr");
 
 class GoldMyr extends GoldMyrBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gold Myr", "Scars of Mirrodin", "SOM");
   }
 }

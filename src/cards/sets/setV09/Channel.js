@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChannelBase = require("../setCED/Channel");
 
 class Channel extends ChannelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Channel", "From the Vault: Exiled", "V09");
   }
 }

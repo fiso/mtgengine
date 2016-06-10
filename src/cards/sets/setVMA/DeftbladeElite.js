@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeftbladeEliteBase = require("../setLGN/DeftbladeElite");
 
 class DeftbladeElite extends DeftbladeEliteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deftblade Elite", "Vintage Masters", "VMA");
   }
 }

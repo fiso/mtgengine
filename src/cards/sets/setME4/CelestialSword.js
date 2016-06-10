@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CelestialSwordBase = require("../setICE/CelestialSword");
 
 class CelestialSword extends CelestialSwordBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Celestial Sword", "Masters Edition IV", "ME4");
   }
 }

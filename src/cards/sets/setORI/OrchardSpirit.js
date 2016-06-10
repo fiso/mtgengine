@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrchardSpiritBase = require("../setISD/OrchardSpirit");
 
 class OrchardSpirit extends OrchardSpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Orchard Spirit", "Magic Origins", "ORI");
   }
 }

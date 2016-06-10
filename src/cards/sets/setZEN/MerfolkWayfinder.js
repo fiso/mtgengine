@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MerfolkWayfinderBase = require("../setDDM/MerfolkWayfinder");
 
 class MerfolkWayfinder extends MerfolkWayfinderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Merfolk Wayfinder", "Zendikar", "ZEN");
   }
 }

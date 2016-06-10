@@ -293,3 +293,4 @@ module.exports = {
   WrathofGod: require("./WrathofGod"),
   ZombieMaster: require("./ZombieMaster")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setLEB = module.exports;}

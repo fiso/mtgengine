@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ConclavePhalanxBase = require("../setDDF/ConclavePhalanx");
 
 class ConclavePhalanx extends ConclavePhalanxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Conclave Phalanx", "Ravnica: City of Guilds", "RAV");
   }
 }

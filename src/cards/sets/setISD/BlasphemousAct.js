@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlasphemousActBase = require("../setC14/BlasphemousAct");
 
 class BlasphemousAct extends BlasphemousActBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blasphemous Act", "Innistrad", "ISD");
   }
 }

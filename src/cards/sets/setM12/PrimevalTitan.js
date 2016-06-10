@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimevalTitanBase = require("../setpGPX/PrimevalTitan");
 
 class PrimevalTitan extends PrimevalTitanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Primeval Titan", "Magic 2012", "M12");
   }
 }

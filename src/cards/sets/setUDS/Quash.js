@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuashBase = require("../setBOK/Quash");
 
 class Quash extends QuashBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Quash", "Urza's Destiny", "UDS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PontiffofBlightBase = require("../setC14/PontiffofBlight");
 
 class PontiffofBlight extends PontiffofBlightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pontiff of Blight", "Dragon's Maze", "DGM");
   }
 }

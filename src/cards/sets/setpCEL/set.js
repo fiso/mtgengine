@@ -7,3 +7,4 @@ module.exports = {
   ShichifukujinDragon: require("./ShichifukujinDragon"),
   SplendidGenesis: require("./SplendidGenesis")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpCEL = module.exports;}

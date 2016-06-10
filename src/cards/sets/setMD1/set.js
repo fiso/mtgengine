@@ -27,3 +27,4 @@ module.exports = {
   WindbriskHeights: require("./WindbriskHeights"),
   ZealousPersecution: require("./ZealousPersecution")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMD1 = module.exports;}

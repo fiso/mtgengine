@@ -275,3 +275,4 @@ module.exports = {
   WoodlandSleuth: require("./WoodlandSleuth"),
   WreathofGeists: require("./WreathofGeists")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setISD = module.exports;}

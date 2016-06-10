@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TormentedThoughtsBase = require("../setJOU/TormentedThoughts");
 
 class TormentedThoughts extends TormentedThoughtsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tormented Thoughts", "Magic Origins", "ORI");
   }
 }

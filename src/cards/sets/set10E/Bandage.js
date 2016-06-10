@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BandageBase = require("../setSTH/Bandage");
 
 class Bandage extends BandageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bandage", "Tenth Edition", "10E");
   }
 }

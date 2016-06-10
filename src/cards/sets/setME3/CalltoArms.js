@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CalltoArmsBase = require("../setICE/CalltoArms");
 
 class CalltoArms extends CalltoArmsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Call to Arms", "Masters Edition III", "ME3");
   }
 }

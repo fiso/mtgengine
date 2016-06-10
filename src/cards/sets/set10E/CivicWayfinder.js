@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CivicWayfinderBase = require("../setDPA/CivicWayfinder");
 
 class CivicWayfinder extends CivicWayfinderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Civic Wayfinder", "Tenth Edition", "10E");
   }
 }

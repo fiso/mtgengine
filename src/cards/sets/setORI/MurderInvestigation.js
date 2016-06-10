@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MurderInvestigationBase = require("../setGTC/MurderInvestigation");
 
 class MurderInvestigation extends MurderInvestigationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Murder Investigation", "Magic Origins", "ORI");
   }
 }

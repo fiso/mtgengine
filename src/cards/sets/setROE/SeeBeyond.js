@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SeeBeyondBase = require("../setPC2/SeeBeyond");
 
 class SeeBeyond extends SeeBeyondBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "See Beyond", "Rise of the Eldrazi", "ROE");
   }
 }

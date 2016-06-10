@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class AbzanSkycaptain extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Abzan Skycaptain", "Fate Reforged", "FRF");
   }
 }

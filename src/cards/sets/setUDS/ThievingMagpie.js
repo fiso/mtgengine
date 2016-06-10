@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThievingMagpieBase = require("../setDPA/ThievingMagpie");
 
 class ThievingMagpie extends ThievingMagpieBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thieving Magpie", "Urza's Destiny", "UDS");
   }
 }

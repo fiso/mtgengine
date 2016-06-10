@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CacklingCounterpartBase = require("../setC14/CacklingCounterpart");
 
 class CacklingCounterpart extends CacklingCounterpartBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cackling Counterpart", "Innistrad", "ISD");
   }
 }

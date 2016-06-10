@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AetherSpellbombBase = require("../setARC/AetherSpellbomb");
 
 class AetherSpellbomb extends AetherSpellbombBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Æther Spellbomb", "Modern Masters", "MMA");
   }
 }

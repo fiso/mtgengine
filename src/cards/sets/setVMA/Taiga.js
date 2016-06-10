@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TaigaBase = require("../setCED/Taiga");
 
 class Taiga extends TaigaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Taiga", "Vintage Masters", "VMA");
   }
 }

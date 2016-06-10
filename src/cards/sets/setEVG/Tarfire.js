@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TarfireBase = require("../setDD3_EVG/Tarfire");
 
 class Tarfire extends TarfireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tarfire", "Duel Decks: Elves vs. Goblins", "EVG");
   }
 }

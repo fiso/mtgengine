@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReturnedCentaurBase = require("../setORI/ReturnedCentaur");
 
 class ReturnedCentaur extends ReturnedCentaurBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Returned Centaur", "Theros", "THS");
   }
 }

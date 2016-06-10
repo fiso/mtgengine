@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MishrasWarMachineBase = require("../setATQ/MishrasWarMachine");
 
 class MishrasWarMachine extends MishrasWarMachineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mishra's War Machine", "Revised Edition", "3ED");
   }
 }

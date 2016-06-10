@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SuntailHawkBase = require("../set8ED/SuntailHawk");
 
 class SuntailHawk extends SuntailHawkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Suntail Hawk", "Tenth Edition", "10E");
   }
 }

@@ -19,3 +19,4 @@ module.exports = {
   TheMimeoplasm: require("./TheMimeoplasm"),
   VelatheNightClad: require("./VelatheNightClad")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCM1 = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChandraNalaarBase = require("../setDD3_JVC/ChandraNalaar");
 
 class ChandraNalaar extends ChandraNalaarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chandra Nalaar", "Magic 2010", "M10");
   }
 }

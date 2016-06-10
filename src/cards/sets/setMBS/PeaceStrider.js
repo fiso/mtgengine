@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PeaceStriderBase = require("../setCNS/PeaceStrider");
 
 class PeaceStrider extends PeaceStriderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Peace Strider", "Mirrodin Besieged", "MBS");
   }
 }

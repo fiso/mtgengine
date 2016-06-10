@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnsnaringBridgeBase = require("../set8ED/EnsnaringBridge");
 
 class EnsnaringBridge extends EnsnaringBridgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ensnaring Bridge", "Stronghold", "STH");
   }
 }

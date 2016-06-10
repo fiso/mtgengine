@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CadaverousKnightBase = require("../setMIR/CadaverousKnight");
 
 class CadaverousKnight extends CadaverousKnightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cadaverous Knight", "Planechase", "HOP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BindingGraspBase = require("../setCST/BindingGrasp");
 
 class BindingGrasp extends BindingGraspBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Binding Grasp", "Masters Edition II", "ME2");
   }
 }

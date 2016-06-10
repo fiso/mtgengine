@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WormHarvestBase = require("../setEVE/WormHarvest");
 
 class WormHarvest extends WormHarvestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Worm Harvest", "Modern Masters", "MMA");
   }
 }

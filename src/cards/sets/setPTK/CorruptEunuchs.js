@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CorruptEunuchsBase = require("../setME3/CorruptEunuchs");
 
 class CorruptEunuchs extends CorruptEunuchsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Corrupt Eunuchs", "Portal Three Kingdoms", "PTK");
   }
 }

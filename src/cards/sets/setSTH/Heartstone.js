@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeartstoneBase = require("../setH09/Heartstone");
 
 class Heartstone extends HeartstoneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heartstone", "Stronghold", "STH");
   }
 }

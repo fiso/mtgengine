@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UrzasMineBase = require("../setATQ/UrzasMine");
 
 class UrzasMine extends UrzasMineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Urza's Mine", "Eighth Edition", "8ED");
   }
 }

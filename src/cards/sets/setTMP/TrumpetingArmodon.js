@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrumpetingArmodonBase = require("../setBRB/TrumpetingArmodon");
 
 class TrumpetingArmodon extends TrumpetingArmodonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trumpeting Armodon", "Tempest", "TMP");
   }
 }

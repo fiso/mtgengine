@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RangerenVecBase = require("../setATH/RangerenVec");
 
 class RangerenVec extends RangerenVecBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ranger en-Vec", "Tempest", "TMP");
   }
 }

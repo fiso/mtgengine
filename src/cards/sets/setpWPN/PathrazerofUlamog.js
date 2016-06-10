@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PathrazerofUlamogBase = require("../setROE/PathrazerofUlamog");
 
 class PathrazerofUlamog extends PathrazerofUlamogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pathrazer of Ulamog", "WPN and Gateway", "pWPN");
   }
 }

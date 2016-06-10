@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class ForkedBranchGarami extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forked-Branch Garami", "Betrayers of Kamigawa", "BOK");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PyroblastBase = require("../set5ED/Pyroblast");
 
 class Pyroblast extends PyroblastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pyroblast", "Masters Edition", "MED");
   }
 }

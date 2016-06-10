@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FreewindFalconBase = require("../setATH/FreewindFalcon");
 
 class FreewindFalcon extends FreewindFalconBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Freewind Falcon", "Visions", "VIS");
   }
 }

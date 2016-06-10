@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SuntouchedMyrBase = require("../set5DN/SuntouchedMyr");
 
 class SuntouchedMyr extends SuntouchedMyrBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Suntouched Myr", "Planechase", "HOP");
   }
 }

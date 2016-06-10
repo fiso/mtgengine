@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class LoxodonPartisan extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Loxodon Partisan", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

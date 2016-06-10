@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhytotitanBase = require("../setM15/Phytotitan");
 
 class Phytotitan extends PhytotitanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phytotitan", "Prerelease Events", "pPRE");
   }
 }

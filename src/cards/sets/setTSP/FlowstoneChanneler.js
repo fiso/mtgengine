@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class FlowstoneChanneler extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flowstone Channeler", "Time Spiral", "TSP");
   }
 }

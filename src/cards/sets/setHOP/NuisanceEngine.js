@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NuisanceEngineBase = require("../setMRD/NuisanceEngine");
 
 class NuisanceEngine extends NuisanceEngineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nuisance Engine", "Planechase", "HOP");
   }
 }

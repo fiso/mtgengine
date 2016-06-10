@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UpwellingBase = require("../setSCG/Upwelling");
 
 class Upwelling extends UpwellingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Upwelling", "Tenth Edition", "10E");
   }
 }

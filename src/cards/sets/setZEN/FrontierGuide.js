@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FrontierGuideBase = require("../setDDP/FrontierGuide");
 
 class FrontierGuide extends FrontierGuideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Frontier Guide", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeartlessHidetsuguBase = require("../setBOK/HeartlessHidetsugu");
 
 class HeartlessHidetsugu extends HeartlessHidetsuguBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heartless Hidetsugu", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

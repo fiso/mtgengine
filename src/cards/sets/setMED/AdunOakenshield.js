@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AdunOakenshieldBase = require("../setLEG/AdunOakenshield");
 
 class AdunOakenshield extends AdunOakenshieldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Adun Oakenshield", "Masters Edition", "MED");
   }
 }

@@ -336,3 +336,4 @@ module.exports = {
   WoodSage: require("./WoodSage"),
   WorthyCause: require("./WorthyCause")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTMP = module.exports;}

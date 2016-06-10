@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InGarruksWakeBase = require("../setpLPA/InGarruksWake");
 
 class InGarruksWake extends InGarruksWakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "In Garruk's Wake", "Magic 2015 Core Set", "M15");
   }
 }

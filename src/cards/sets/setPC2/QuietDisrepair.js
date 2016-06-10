@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuietDisrepairBase = require("../setFUT/QuietDisrepair");
 
 class QuietDisrepair extends QuietDisrepairBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Quiet Disrepair", "Planechase 2012 Edition", "PC2");
   }
 }

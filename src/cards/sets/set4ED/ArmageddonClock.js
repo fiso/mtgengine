@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArmageddonClockBase = require("../setATQ/ArmageddonClock");
 
 class ArmageddonClock extends ArmageddonClockBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Armageddon Clock", "Fourth Edition", "4ED");
   }
 }

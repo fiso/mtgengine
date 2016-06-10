@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SerumTankBase = require("../setMRD/SerumTank");
 
 class SerumTank extends SerumTankBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Serum Tank", "Planechase", "HOP");
   }
 }

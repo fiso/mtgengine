@@ -71,3 +71,4 @@ module.exports = {
   WhitemaneLion: require("./WhitemaneLion"),
   Windreaver: require("./Windreaver")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDI = module.exports;}

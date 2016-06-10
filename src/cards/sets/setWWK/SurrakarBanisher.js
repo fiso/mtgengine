@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SurrakarBanisherBase = require("../setDDO/SurrakarBanisher");
 
 class SurrakarBanisher extends SurrakarBanisherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Surrakar Banisher", "Worldwake", "WWK");
   }
 }

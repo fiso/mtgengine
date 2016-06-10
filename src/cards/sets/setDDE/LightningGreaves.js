@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LightningGreavesBase = require("../setARC/LightningGreaves");
 
 class LightningGreaves extends LightningGreavesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lightning Greaves", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }
 }

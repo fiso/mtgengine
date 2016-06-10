@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScavengerDrakeBase = require("../setMM2/ScavengerDrake");
 
 class ScavengerDrake extends ScavengerDrakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scavenger Drake", "Shards of Alara", "ALA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CloudpostBase = require("../setpFNM/Cloudpost");
 
 class Cloudpost extends CloudpostBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cloudpost", "Mirrodin", "MRD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FurySliverBase = require("../setH09/FurySliver");
 
 class FurySliver extends FurySliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fury Sliver", "Time Spiral", "TSP");
   }
 }

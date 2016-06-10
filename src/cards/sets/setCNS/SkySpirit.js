@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkySpiritBase = require("../setDDI/SkySpirit");
 
 class SkySpirit extends SkySpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sky Spirit", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

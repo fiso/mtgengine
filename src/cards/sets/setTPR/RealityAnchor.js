@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RealityAnchorBase = require("../setTMP/RealityAnchor");
 
 class RealityAnchor extends RealityAnchorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reality Anchor", "Tempest Remastered", "TPR");
   }
 }

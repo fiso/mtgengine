@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BarrenMoorBase = require("../setARC/BarrenMoor");
 
 class BarrenMoor extends BarrenMoorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Barren Moor", "Vintage Masters", "VMA");
   }
 }

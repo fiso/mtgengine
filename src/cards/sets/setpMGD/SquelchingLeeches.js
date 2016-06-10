@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SquelchingLeechesBase = require("../setJOU/SquelchingLeeches");
 
 class SquelchingLeeches extends SquelchingLeechesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Squelching Leeches", "Magic Game Day", "pMGD");
   }
 }

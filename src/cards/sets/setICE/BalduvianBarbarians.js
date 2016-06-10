@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BalduvianBarbariansBase = require("../set6ED/BalduvianBarbarians");
 
 class BalduvianBarbarians extends BalduvianBarbariansBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Balduvian Barbarians", "Ice Age", "ICE");
   }
 }

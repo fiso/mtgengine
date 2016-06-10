@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CribSwapBase = require("../setC15/CribSwap");
 
 class CribSwap extends CribSwapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crib Swap", "Lorwyn", "LRW");
   }
 }

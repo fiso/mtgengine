@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZoeticCavernBase = require("../setC14/ZoeticCavern");
 
 class ZoeticCavern extends ZoeticCavernBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zoetic Cavern", "Commander 2015", "C15");
   }
 }

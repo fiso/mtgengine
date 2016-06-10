@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InfestBase = require("../setARC/Infest");
 
 class Infest extends InfestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Infest", "Magic Player Rewards", "pMPR");
   }
 }

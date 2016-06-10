@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZhalfirinCommanderBase = require("../setDDG/ZhalfirinCommander");
 
 class ZhalfirinCommander extends ZhalfirinCommanderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zhalfirin Commander", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

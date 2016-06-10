@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WaterspoutDjinnBase = require("../setDD3_JVC/WaterspoutDjinn");
 
 class WaterspoutDjinn extends WaterspoutDjinnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Waterspout Djinn", "Visions", "VIS");
   }
 }

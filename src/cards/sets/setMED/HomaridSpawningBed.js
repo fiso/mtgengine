@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HomaridSpawningBedBase = require("../setFEM/HomaridSpawningBed");
 
 class HomaridSpawningBed extends HomaridSpawningBedBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Homarid Spawning Bed", "Masters Edition", "MED");
   }
 }

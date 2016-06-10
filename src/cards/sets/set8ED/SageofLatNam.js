@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SageofLatNamBase = require("../setATQ/SageofLatNam");
 
 class SageofLatNam extends SageofLatNamBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sage of Lat-Nam", "Eighth Edition", "8ED");
   }
 }

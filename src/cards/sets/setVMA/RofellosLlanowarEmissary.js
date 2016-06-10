@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RofellosLlanowarEmissaryBase = require("../setUDS/RofellosLlanowarEmissary");
 
 class RofellosLlanowarEmissary extends RofellosLlanowarEmissaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rofellos, Llanowar Emissary", "Vintage Masters", "VMA");
   }
 }

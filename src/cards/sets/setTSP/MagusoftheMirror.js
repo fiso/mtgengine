@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagusoftheMirrorBase = require("../setCNS/MagusoftheMirror");
 
 class MagusoftheMirror extends MagusoftheMirrorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magus of the Mirror", "Time Spiral", "TSP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NecromancersCovenantBase = require("../setARB/NecromancersCovenant");
 
 class NecromancersCovenant extends NecromancersCovenantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Necromancer's Covenant", "Commander 2015", "C15");
   }
 }

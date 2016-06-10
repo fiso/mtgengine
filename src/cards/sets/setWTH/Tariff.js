@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TariffBase = require("../set6ED/Tariff");
 
 class Tariff extends TariffBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tariff", "Weatherlight", "WTH");
   }
 }

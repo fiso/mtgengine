@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThirstforKnowledgeBase = require("../setDDF/ThirstforKnowledge");
 
 class ThirstforKnowledge extends ThirstforKnowledgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thirst for Knowledge", "Planechase", "HOP");
   }
 }

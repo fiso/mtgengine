@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AstrolabeBase = require("../setALL/Astrolabe");
 
 class Astrolabe extends AstrolabeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Astrolabe", "Masters Edition III", "ME3");
   }
 }

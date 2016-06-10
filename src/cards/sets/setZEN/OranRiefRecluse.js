@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OranRiefRecluseBase = require("../setDDM/OranRiefRecluse");
 
 class OranRiefRecluse extends OranRiefRecluseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oran-Rief Recluse", "Zendikar", "ZEN");
   }
 }

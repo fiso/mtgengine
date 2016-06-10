@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlightBase = require("../set6ED/Flight");
 
 class Flight extends FlightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flight", "Magic 2012", "M12");
   }
 }

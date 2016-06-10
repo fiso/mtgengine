@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SejiriSteppeBase = require("../setDDG/SejiriSteppe");
 
 class SejiriSteppe extends SejiriSteppeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sejiri Steppe", "Worldwake", "WWK");
   }
 }

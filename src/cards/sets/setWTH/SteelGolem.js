@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SteelGolemBase = require("../set10E/SteelGolem");
 
 class SteelGolem extends SteelGolemBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Steel Golem", "Weatherlight", "WTH");
   }
 }

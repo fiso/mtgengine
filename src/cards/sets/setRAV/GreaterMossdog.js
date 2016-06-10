@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GreaterMossdogBase = require("../setDDJ/GreaterMossdog");
 
 class GreaterMossdog extends GreaterMossdogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Greater Mossdog", "Ravnica: City of Guilds", "RAV");
   }
 }

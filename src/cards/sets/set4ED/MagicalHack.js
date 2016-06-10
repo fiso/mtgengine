@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagicalHackBase = require("../setCED/MagicalHack");
 
 class MagicalHack extends MagicalHackBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magical Hack", "Fourth Edition", "4ED");
   }
 }

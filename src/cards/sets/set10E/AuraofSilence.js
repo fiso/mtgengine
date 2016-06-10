@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuraofSilenceBase = require("../setC15/AuraofSilence");
 
 class AuraofSilence extends AuraofSilenceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aura of Silence", "Tenth Edition", "10E");
   }
 }

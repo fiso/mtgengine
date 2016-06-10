@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScrublandBase = require("../setCED/Scrubland");
 
 class Scrubland extends ScrublandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scrubland", "Limited Edition Alpha", "LEA");
   }
 }

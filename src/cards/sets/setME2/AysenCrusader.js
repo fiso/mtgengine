@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AysenCrusaderBase = require("../setHML/AysenCrusader");
 
 class AysenCrusader extends AysenCrusaderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aysen Crusader", "Masters Edition II", "ME2");
   }
 }

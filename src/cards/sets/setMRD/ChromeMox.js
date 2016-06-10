@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChromeMoxBase = require("../setpGPX/ChromeMox");
 
 class ChromeMox extends ChromeMoxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chrome Mox", "Mirrodin", "MRD");
   }
 }

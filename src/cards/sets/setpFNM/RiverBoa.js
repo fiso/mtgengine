@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RiverBoaBase = require("../setBRB/RiverBoa");
 
 class RiverBoa extends RiverBoaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "River Boa", "Friday Night Magic", "pFNM");
   }
 }

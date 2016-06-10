@@ -235,3 +235,4 @@ module.exports = {
   ZombieGoliath: require("./ZombieGoliath"),
   ZombieInfestation: require("./ZombieInfestation")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM12 = module.exports;}

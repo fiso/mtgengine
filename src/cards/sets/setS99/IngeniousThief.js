@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IngeniousThiefBase = require("../setPOR/IngeniousThief");
 
 class IngeniousThief extends IngeniousThiefBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ingenious Thief", "Starter 1999", "S99");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QumuloxBase = require("../setDDF/Qumulox");
 
 class Qumulox extends QumuloxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Qumulox", "Fifth Dawn", "5DN");
   }
 }

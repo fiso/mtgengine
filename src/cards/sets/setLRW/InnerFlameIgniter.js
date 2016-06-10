@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class InnerFlameIgniter extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Inner-Flame Igniter", "Lorwyn", "LRW");
   }
 }

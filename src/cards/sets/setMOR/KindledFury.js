@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KindledFuryBase = require("../setDTK/KindledFury");
 
 class KindledFury extends KindledFuryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kindled Fury", "Morningtide", "MOR");
   }
 }

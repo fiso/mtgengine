@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TheAbyssBase = require("../setLEG/TheAbyss");
 
 class TheAbyss extends TheAbyssBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "The Abyss", "Masters Edition III", "ME3");
   }
 }

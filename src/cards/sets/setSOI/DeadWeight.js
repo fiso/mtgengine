@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeadWeightBase = require("../setISD/DeadWeight");
 
 class DeadWeight extends DeadWeightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dead Weight", "Shadows over Innistrad", "SOI");
   }
 }

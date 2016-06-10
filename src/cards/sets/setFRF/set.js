@@ -181,3 +181,4 @@ module.exports = {
   WriteintoBeing: require("./WriteintoBeing"),
   YasovaDragonclaw: require("./YasovaDragonclaw")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setFRF = module.exports;}

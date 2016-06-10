@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KarplusanForestBase = require("../set6ED/KarplusanForest");
 
 class KarplusanForest extends KarplusanForestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Karplusan Forest", "Ninth Edition", "9ED");
   }
 }

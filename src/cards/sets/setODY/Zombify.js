@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZombifyBase = require("../setARC/Zombify");
 
 class Zombify extends ZombifyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zombify", "Odyssey", "ODY");
   }
 }

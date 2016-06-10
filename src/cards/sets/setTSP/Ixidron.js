@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IxidronBase = require("../setC14/Ixidron");
 
 class Ixidron extends IxidronBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ixidron", "Time Spiral", "TSP");
   }
 }

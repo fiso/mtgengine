@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RayofRevelationBase = require("../setDKA/RayofRevelation");
 
 class RayofRevelation extends RayofRevelationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ray of Revelation", "Judgment", "JUD");
   }
 }

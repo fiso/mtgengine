@@ -287,3 +287,4 @@ module.exports = {
   WydwentheBitingGale: require("./WydwentheBitingGale"),
   ZephyrNet: require("./ZephyrNet")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setLRW = module.exports;}

@@ -181,3 +181,4 @@ module.exports = {
   WoodlurkerMimic: require("./WoodlurkerMimic"),
   WormHarvest: require("./WormHarvest")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setEVE = module.exports;}

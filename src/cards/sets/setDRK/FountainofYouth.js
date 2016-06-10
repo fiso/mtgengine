@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FountainofYouthBase = require("../setCHR/FountainofYouth");
 
 class FountainofYouth extends FountainofYouthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fountain of Youth", "The Dark", "DRK");
   }
 }

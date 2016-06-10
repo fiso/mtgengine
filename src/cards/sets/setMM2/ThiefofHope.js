@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThiefofHopeBase = require("../setCHK/ThiefofHope");
 
 class ThiefofHope extends ThiefofHopeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thief of Hope", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SunblastAngelBase = require("../setC14/SunblastAngel");
 
 class SunblastAngel extends SunblastAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sunblast Angel", "Media Inserts", "pMEI");
   }
 }

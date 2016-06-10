@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SidisiBroodTyrantBase = require("../setKTK/SidisiBroodTyrant");
 
 class SidisiBroodTyrant extends SidisiBroodTyrantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sidisi, Brood Tyrant", "Prerelease Events", "pPRE");
   }
 }

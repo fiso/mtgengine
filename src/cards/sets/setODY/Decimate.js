@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DecimateBase = require("../setCNS/Decimate");
 
 class Decimate extends DecimateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Decimate", "Odyssey", "ODY");
   }
 }

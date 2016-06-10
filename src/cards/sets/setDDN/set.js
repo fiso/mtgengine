@@ -73,3 +73,4 @@ module.exports = {
   Willbender: require("./Willbender"),
   ZurgoHelmsmasher: require("./ZurgoHelmsmasher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDN = module.exports;}

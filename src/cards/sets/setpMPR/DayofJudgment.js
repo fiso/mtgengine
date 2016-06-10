@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DayofJudgmentBase = require("../setM11/DayofJudgment");
 
 class DayofJudgment extends DayofJudgmentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Day of Judgment", "Magic Player Rewards", "pMPR");
   }
 }

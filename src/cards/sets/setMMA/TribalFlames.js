@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TribalFlamesBase = require("../setDDE/TribalFlames");
 
 class TribalFlames extends TribalFlamesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tribal Flames", "Modern Masters", "MMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OloroAgelessAsceticBase = require("../setC13/OloroAgelessAscetic");
 
 class OloroAgelessAscetic extends OloroAgelessAsceticBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oloro, Ageless Ascetic", "Judge Gift Program", "pJGP");
   }
 }

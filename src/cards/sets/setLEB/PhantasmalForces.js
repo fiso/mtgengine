@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhantasmalForcesBase = require("../setCED/PhantasmalForces");
 
 class PhantasmalForces extends PhantasmalForcesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phantasmal Forces", "Limited Edition Beta", "LEB");
   }
 }

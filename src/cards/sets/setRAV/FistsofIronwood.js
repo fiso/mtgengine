@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FistsofIronwoodBase = require("../setCMD/FistsofIronwood");
 
 class FistsofIronwood extends FistsofIronwoodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fists of Ironwood", "Ravnica: City of Guilds", "RAV");
   }
 }

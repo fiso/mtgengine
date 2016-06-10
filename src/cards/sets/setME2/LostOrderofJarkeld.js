@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LostOrderofJarkeldBase = require("../setICE/LostOrderofJarkeld");
 
 class LostOrderofJarkeld extends LostOrderofJarkeldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lost Order of Jarkeld", "Masters Edition II", "ME2");
   }
 }

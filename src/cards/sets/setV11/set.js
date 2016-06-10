@@ -16,3 +16,4 @@ module.exports = {
   UlamogtheInfiniteGyre: require("./UlamogtheInfiniteGyre"),
   VisaratheDreadful: require("./VisaratheDreadful")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV11 = module.exports;}

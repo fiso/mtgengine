@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SacredNectarBase = require("../set8ED/SacredNectar");
 
 class SacredNectar extends SacredNectarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sacred Nectar", "Ninth Edition", "9ED");
   }
 }

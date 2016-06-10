@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeadlyInsectBase = require("../setALL/DeadlyInsect");
 
 class DeadlyInsect extends DeadlyInsectBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deadly Insect", "Beatdown Box Set", "BTD");
   }
 }

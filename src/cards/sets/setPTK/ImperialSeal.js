@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ImperialSealBase = require("../setME2/ImperialSeal");
 
 class ImperialSeal extends ImperialSealBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Imperial Seal", "Portal Three Kingdoms", "PTK");
   }
 }

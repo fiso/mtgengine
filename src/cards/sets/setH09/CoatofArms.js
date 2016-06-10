@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoatofArmsBase = require("../setDPA/CoatofArms");
 
 class CoatofArms extends CoatofArmsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coat of Arms", "Premium Deck Series: Slivers", "H09");
   }
 }

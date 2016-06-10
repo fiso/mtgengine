@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StanggBase = require("../setCHR/Stangg");
 
 class Stangg extends StanggBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stangg", "Legends", "LEG");
   }
 }

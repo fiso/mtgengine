@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LotusPetalBase = require("../setV09/LotusPetal");
 
 class LotusPetal extends LotusPetalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lotus Petal", "Tempest Remastered", "TPR");
   }
 }

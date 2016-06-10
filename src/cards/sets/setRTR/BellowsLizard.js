@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BellowsLizardBase = require("../setORI/BellowsLizard");
 
 class BellowsLizard extends BellowsLizardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bellows Lizard", "Return to Ravnica", "RTR");
   }
 }

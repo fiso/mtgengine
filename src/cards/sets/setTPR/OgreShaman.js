@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OgreShamanBase = require("../setEXO/OgreShaman");
 
 class OgreShaman extends OgreShamanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ogre Shaman", "Tempest Remastered", "TPR");
   }
 }

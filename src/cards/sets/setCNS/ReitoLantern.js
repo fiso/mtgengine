@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReitoLanternBase = require("../setCHK/ReitoLantern");
 
 class ReitoLantern extends ReitoLanternBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reito Lantern", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

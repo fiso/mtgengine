@@ -169,3 +169,4 @@ module.exports = {
   WildPair: require("./WildPair"),
   WistfulThinking: require("./WistfulThinking")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPLC = module.exports;}

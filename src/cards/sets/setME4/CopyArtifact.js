@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CopyArtifactBase = require("../setCED/CopyArtifact");
 
 class CopyArtifact extends CopyArtifactBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Copy Artifact", "Masters Edition IV", "ME4");
   }
 }

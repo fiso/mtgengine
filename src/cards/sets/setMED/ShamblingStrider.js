@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShamblingStriderBase = require("../setBTD/ShamblingStrider");
 
 class ShamblingStrider extends ShamblingStriderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shambling Strider", "Masters Edition", "MED");
   }
 }

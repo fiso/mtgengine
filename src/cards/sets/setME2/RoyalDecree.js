@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RoyalDecreeBase = require("../setALL/RoyalDecree");
 
 class RoyalDecree extends RoyalDecreeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Royal Decree", "Masters Edition II", "ME2");
   }
 }

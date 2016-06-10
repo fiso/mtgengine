@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CandelabraofTawnosBase = require("../setATQ/CandelabraofTawnos");
 
 class CandelabraofTawnos extends CandelabraofTawnosBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Candelabra of Tawnos", "Masters Edition IV", "ME4");
   }
 }

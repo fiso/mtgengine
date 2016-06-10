@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KioratheCrashingWaveBase = require("../setBNG/KioratheCrashingWave");
 
 class KioratheCrashingWave extends KioratheCrashingWaveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kiora, the Crashing Wave", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

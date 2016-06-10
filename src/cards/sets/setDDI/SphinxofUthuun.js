@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SphinxofUthuunBase = require("../setC14/SphinxofUthuun");
 
 class SphinxofUthuun extends SphinxofUthuunBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sphinx of Uthuun", "Duel Decks: Venser vs. Koth", "DDI");
   }
 }

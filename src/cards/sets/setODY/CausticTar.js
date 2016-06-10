@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CausticTarBase = require("../setM15/CausticTar");
 
 class CausticTar extends CausticTarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Caustic Tar", "Odyssey", "ODY");
   }
 }

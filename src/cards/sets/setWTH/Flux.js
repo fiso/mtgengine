@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FluxBase = require("../setPOR/Flux");
 
 class Flux extends FluxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flux", "Weatherlight", "WTH");
   }
 }

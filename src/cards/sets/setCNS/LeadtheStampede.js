@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeadtheStampedeBase = require("../setDDH/LeadtheStampede");
 
 class LeadtheStampede extends LeadtheStampedeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lead the Stampede", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

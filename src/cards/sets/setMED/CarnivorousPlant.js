@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CarnivorousPlantBase = require("../setATH/CarnivorousPlant");
 
 class CarnivorousPlant extends CarnivorousPlantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Carnivorous Plant", "Masters Edition", "MED");
   }
 }

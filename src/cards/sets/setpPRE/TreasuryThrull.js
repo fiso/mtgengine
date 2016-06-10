@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TreasuryThrullBase = require("../setC15/TreasuryThrull");
 
 class TreasuryThrull extends TreasuryThrullBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treasury Thrull", "Prerelease Events", "pPRE");
   }
 }

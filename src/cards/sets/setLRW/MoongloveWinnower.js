@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoongloveWinnowerBase = require("../setDPA/MoongloveWinnower");
 
 class MoongloveWinnower extends MoongloveWinnowerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moonglove Winnower", "Lorwyn", "LRW");
   }
 }

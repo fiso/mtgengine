@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncientHellkiteBase = require("../setpLPA/AncientHellkite");
 
 class AncientHellkite extends AncientHellkiteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancient Hellkite", "Magic 2011", "M11");
   }
 }

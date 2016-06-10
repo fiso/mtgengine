@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VigorBase = require("../setDPA/Vigor");
 
 class Vigor extends VigorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vigor", "Lorwyn", "LRW");
   }
 }

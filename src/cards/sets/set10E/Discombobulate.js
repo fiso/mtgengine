@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DiscombobulateBase = require("../setONS/Discombobulate");
 
 class Discombobulate extends DiscombobulateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Discombobulate", "Tenth Edition", "10E");
   }
 }

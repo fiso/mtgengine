@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrumblingNecropolisBase = require("../setC13/CrumblingNecropolis");
 
 class CrumblingNecropolis extends CrumblingNecropolisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crumbling Necropolis", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

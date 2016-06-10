@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DragonsClawBase = require("../setDST/DragonsClaw");
 
 class DragonsClaw extends DragonsClawBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dragon's Claw", "Magic 2011", "M11");
   }
 }

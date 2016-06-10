@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SaprolingBurstBase = require("../setNMS/SaprolingBurst");
 
 class SaprolingBurst extends SaprolingBurstBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Saproling Burst", "Vintage Masters", "VMA");
   }
 }

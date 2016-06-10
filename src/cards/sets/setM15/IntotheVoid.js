@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IntotheVoidBase = require("../setAVR/IntotheVoid");
 
 class IntotheVoid extends IntotheVoidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Into the Void", "Magic 2015 Core Set", "M15");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KoboldsofKherKeepBase = require("../setLEG/KoboldsofKherKeep");
 
 class KoboldsofKherKeep extends KoboldsofKherKeepBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kobolds of Kher Keep", "Masters Edition III", "ME3");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TelethopterBase = require("../setTMP/Telethopter");
 
 class Telethopter extends TelethopterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Telethopter", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WorldlyTutorBase = require("../set6ED/WorldlyTutor");
 
 class WorldlyTutor extends WorldlyTutorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Worldly Tutor", "Mirage", "MIR");
   }
 }

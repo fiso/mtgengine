@@ -235,3 +235,4 @@ module.exports = {
   YevasForcemage: require("./YevasForcemage"),
   ZombieGoliath: require("./ZombieGoliath")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM13 = module.exports;}

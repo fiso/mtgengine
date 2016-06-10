@@ -144,3 +144,4 @@ module.exports = {
   WormfangNewt: require("./WormfangNewt"),
   WormfangTurtle: require("./WormfangTurtle")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setJUD = module.exports;}

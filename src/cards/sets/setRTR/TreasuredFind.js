@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TreasuredFindBase = require("../setDDM/TreasuredFind");
 
 class TreasuredFind extends TreasuredFindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treasured Find", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcboundWandererBase = require("../set5DN/ArcboundWanderer");
 
 class ArcboundWanderer extends ArcboundWandererBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcbound Wanderer", "Modern Masters", "MMA");
   }
 }

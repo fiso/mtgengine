@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VirtuesRuinBase = require("../setV14/VirtuesRuin");
 
 class VirtuesRuin extends VirtuesRuinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Virtue's Ruin", "Portal", "POR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RestorationAngelBase = require("../setAVR/RestorationAngel");
 
 class RestorationAngel extends RestorationAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Restoration Angel", "Launch Parties", "pLPA");
   }
 }

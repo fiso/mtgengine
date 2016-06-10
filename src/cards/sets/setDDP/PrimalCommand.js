@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrimalCommandBase = require("../setARC/PrimalCommand");
 
 class PrimalCommand extends PrimalCommandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Primal Command", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

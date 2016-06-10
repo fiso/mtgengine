@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AftershockBase = require("../setTMP/Aftershock");
 
 class Aftershock extends AftershockBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aftershock", "Vintage Masters", "VMA");
   }
 }

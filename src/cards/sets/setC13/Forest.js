@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForestBase = require("../setATH/Forest");
 
 class Forest extends ForestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forest", "Commander 2013 Edition", "C13");
   }
 }

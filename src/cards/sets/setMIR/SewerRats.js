@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SewerRatsBase = require("../setBRB/SewerRats");
 
 class SewerRats extends SewerRatsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sewer Rats", "Mirage", "MIR");
   }
 }

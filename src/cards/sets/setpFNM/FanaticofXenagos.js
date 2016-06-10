@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FanaticofXenagosBase = require("../setBNG/FanaticofXenagos");
 
 class FanaticofXenagos extends FanaticofXenagosBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fanatic of Xenagos", "Friday Night Magic", "pFNM");
   }
 }

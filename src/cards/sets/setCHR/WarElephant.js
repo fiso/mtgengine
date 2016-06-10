@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarElephantBase = require("../setARN/WarElephant");
 
 class WarElephant extends WarElephantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "War Elephant", "Chronicles", "CHR");
   }
 }

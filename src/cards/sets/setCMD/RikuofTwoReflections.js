@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RikuofTwoReflectionsBase = require("../setpJGP/RikuofTwoReflections");
 
 class RikuofTwoReflections extends RikuofTwoReflectionsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Riku of Two Reflections", "Magic: The Gathering-Commander", "CMD");
   }
 }

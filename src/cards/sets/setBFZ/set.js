@@ -255,3 +255,4 @@ module.exports = {
   ZadaHedronGrinder: require("./ZadaHedronGrinder"),
   ZulaportCutthroat: require("./ZulaportCutthroat")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setBFZ = module.exports;}

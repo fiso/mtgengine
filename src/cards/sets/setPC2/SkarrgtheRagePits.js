@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkarrgtheRagePitsBase = require("../setDDL/SkarrgtheRagePits");
 
 class SkarrgtheRagePits extends SkarrgtheRagePitsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skarrg, the Rage Pits", "Planechase 2012 Edition", "PC2");
   }
 }

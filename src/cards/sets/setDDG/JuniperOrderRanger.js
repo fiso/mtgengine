@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JuniperOrderRangerBase = require("../setCSP/JuniperOrderRanger");
 
 class JuniperOrderRanger extends JuniperOrderRangerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Juniper Order Ranger", "Duel Decks: Knights vs. Dragons", "DDG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrassHeraldBase = require("../setAPC/BrassHerald");
 
 class BrassHerald extends BrassHeraldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brass Herald", "Eighth Edition", "8ED");
   }
 }

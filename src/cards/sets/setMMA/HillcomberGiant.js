@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HillcomberGiantBase = require("../setLRW/HillcomberGiant");
 
 class HillcomberGiant extends HillcomberGiantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hillcomber Giant", "Modern Masters", "MMA");
   }
 }

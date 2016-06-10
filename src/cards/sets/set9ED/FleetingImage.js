@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FleetingImageBase = require("../set8ED/FleetingImage");
 
 class FleetingImage extends FleetingImageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fleeting Image", "Ninth Edition", "9ED");
   }
 }

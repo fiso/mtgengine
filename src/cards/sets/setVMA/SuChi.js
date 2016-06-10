@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SuChiBase = require("../setATQ/SuChi");
 
 class SuChi extends SuChiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Su-Chi", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UncontrollableAngerBase = require("../setCHK/UncontrollableAnger");
 
 class UncontrollableAnger extends UncontrollableAngerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Uncontrollable Anger", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class DeepSpawn extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deep Spawn", "Fallen Empires", "FEM");
   }
 }

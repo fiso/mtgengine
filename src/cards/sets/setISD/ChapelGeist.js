@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChapelGeistBase = require("../setDDQ/ChapelGeist");
 
 class ChapelGeist extends ChapelGeistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chapel Geist", "Innistrad", "ISD");
   }
 }

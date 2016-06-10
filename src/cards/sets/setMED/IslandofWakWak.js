@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IslandofWakWakBase = require("../setARN/IslandofWakWak");
 
 class IslandofWakWak extends IslandofWakWakBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Island of Wak-Wak", "Masters Edition", "MED");
   }
 }

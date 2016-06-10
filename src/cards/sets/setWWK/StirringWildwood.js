@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StirringWildwoodBase = require("../setDDP/StirringWildwood");
 
 class StirringWildwood extends StirringWildwoodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stirring Wildwood", "Worldwake", "WWK");
   }
 }

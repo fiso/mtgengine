@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GhostlyVisitBase = require("../setME3/GhostlyVisit");
 
 class GhostlyVisit extends GhostlyVisitBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghostly Visit", "Portal Three Kingdoms", "PTK");
   }
 }

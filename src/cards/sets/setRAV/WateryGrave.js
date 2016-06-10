@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WateryGraveBase = require("../setGTC/WateryGrave");
 
 class WateryGrave extends WateryGraveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Watery Grave", "Ravnica: City of Guilds", "RAV");
   }
 }

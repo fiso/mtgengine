@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ObeliskofEsperBase = require("../setARC/ObeliskofEsper");
 
 class ObeliskofEsper extends ObeliskofEsperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Obelisk of Esper", "Shards of Alara", "ALA");
   }
 }

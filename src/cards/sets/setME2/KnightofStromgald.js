@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KnightofStromgaldBase = require("../setATH/KnightofStromgald");
 
 class KnightofStromgald extends KnightofStromgaldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Knight of Stromgald", "Masters Edition II", "ME2");
   }
 }

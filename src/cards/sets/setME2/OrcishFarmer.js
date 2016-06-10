@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrcishFarmerBase = require("../set5ED/OrcishFarmer");
 
 class OrcishFarmer extends OrcishFarmerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Orcish Farmer", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnZerrinRuinsBase = require("../setHML/AnZerrinRuins");
 
 class AnZerrinRuins extends AnZerrinRuinsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "An-Zerrin Ruins", "Masters Edition II", "ME2");
   }
 }

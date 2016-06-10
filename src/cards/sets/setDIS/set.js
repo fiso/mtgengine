@@ -191,3 +191,4 @@ module.exports = {
   WreckingBall: require("./WreckingBall"),
   WritofPassage: require("./WritofPassage")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDIS = module.exports;}

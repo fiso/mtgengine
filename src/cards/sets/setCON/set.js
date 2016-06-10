@@ -146,3 +146,4 @@ module.exports = {
   YokeoftheDamned: require("./YokeoftheDamned"),
   ZombieOutlander: require("./ZombieOutlander")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCON = module.exports;}

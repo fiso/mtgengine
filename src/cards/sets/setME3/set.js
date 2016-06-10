@@ -221,3 +221,4 @@ module.exports = {
   ZhangFeiFierceWarrior: require("./ZhangFeiFierceWarrior"),
   ZodiacDragon: require("./ZodiacDragon")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setME3 = module.exports;}

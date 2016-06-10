@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DormantVolcanoBase = require("../setC14/DormantVolcano");
 
 class DormantVolcano extends DormantVolcanoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dormant Volcano", "Visions", "VIS");
   }
 }

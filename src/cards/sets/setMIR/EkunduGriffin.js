@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EkunduGriffinBase = require("../set6ED/EkunduGriffin");
 
 class EkunduGriffin extends EkunduGriffinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ekundu Griffin", "Mirage", "MIR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FiendHunterBase = require("../setC13/FiendHunter");
 
 class FiendHunter extends FiendHunterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fiend Hunter", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }
 }

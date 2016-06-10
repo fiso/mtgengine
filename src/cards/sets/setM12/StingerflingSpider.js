@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StingerflingSpiderBase = require("../setC15/StingerflingSpider");
 
 class StingerflingSpider extends StingerflingSpiderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stingerfling Spider", "Magic 2012", "M12");
   }
 }

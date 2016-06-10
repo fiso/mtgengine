@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VoidmageApprenticeBase = require("../setDD3_JVC/VoidmageApprentice");
 
 class VoidmageApprentice extends VoidmageApprenticeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Voidmage Apprentice", "Legions", "LGN");
   }
 }

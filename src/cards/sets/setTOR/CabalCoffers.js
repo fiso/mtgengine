@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CabalCoffersBase = require("../setpFNM/CabalCoffers");
 
 class CabalCoffers extends CabalCoffersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cabal Coffers", "Torment", "TOR");
   }
 }

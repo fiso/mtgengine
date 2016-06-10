@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LynxBase = require("../setPO2/Lynx");
 
 class Lynx extends LynxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lynx", "Starter 1999", "S99");
   }
 }

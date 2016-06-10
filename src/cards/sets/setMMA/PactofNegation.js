@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PactofNegationBase = require("../setFUT/PactofNegation");
 
 class PactofNegation extends PactofNegationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pact of Negation", "Modern Masters", "MMA");
   }
 }

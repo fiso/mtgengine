@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BountifulHarvestBase = require("../setM10/BountifulHarvest");
 
 class BountifulHarvest extends BountifulHarvestBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bountiful Harvest", "Magic 2012", "M12");
   }
 }

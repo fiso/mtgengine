@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SekKuarDeathkeeperBase = require("../setCSP/SekKuarDeathkeeper");
 
 class SekKuarDeathkeeper extends SekKuarDeathkeeperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sek'Kuar, Deathkeeper", "Commander 2013 Edition", "C13");
   }
 }

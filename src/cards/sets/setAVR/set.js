@@ -235,3 +235,4 @@ module.exports = {
   ZealousConscripts: require("./ZealousConscripts"),
   ZealousStrike: require("./ZealousStrike")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setAVR = module.exports;}

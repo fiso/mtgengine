@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GreaterBasiliskBase = require("../setM11/GreaterBasilisk");
 
 class GreaterBasilisk extends GreaterBasiliskBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Greater Basilisk", "Magic 2012", "M12");
   }
 }

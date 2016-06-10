@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InsidiousBookwormsBase = require("../setALL/InsidiousBookworms");
 
 class InsidiousBookworms extends InsidiousBookwormsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Insidious Bookworms", "Coldsnap Theme Decks", "CST");
   }
 }

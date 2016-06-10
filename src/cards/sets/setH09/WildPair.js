@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildPairBase = require("../setPLC/WildPair");
 
 class WildPair extends WildPairBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wild Pair", "Premium Deck Series: Slivers", "H09");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhantomWingsBase = require("../setBOK/PhantomWings");
 
 class PhantomWings extends PhantomWingsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phantom Wings", "Weatherlight", "WTH");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RitualoftheMachineBase = require("../setALL/RitualoftheMachine");
 
 class RitualoftheMachine extends RitualoftheMachineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ritual of the Machine", "Masters Edition II", "ME2");
   }
 }

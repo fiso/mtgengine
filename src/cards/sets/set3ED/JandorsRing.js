@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JandorsRingBase = require("../setARN/JandorsRing");
 
 class JandorsRing extends JandorsRingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jandor's Ring", "Revised Edition", "3ED");
   }
 }

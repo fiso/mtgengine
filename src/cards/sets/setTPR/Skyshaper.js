@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkyshaperBase = require("../setEXO/Skyshaper");
 
 class Skyshaper extends SkyshaperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skyshaper", "Tempest Remastered", "TPR");
   }
 }

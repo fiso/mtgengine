@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SustainingSpiritBase = require("../setALL/SustainingSpirit");
 
 class SustainingSpirit extends SustainingSpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sustaining Spirit", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CarnophageBase = require("../setEXO/Carnophage");
 
 class Carnophage extends CarnophageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Carnophage", "Tempest Remastered", "TPR");
   }
 }

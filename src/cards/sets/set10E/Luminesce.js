@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LuminesceBase = require("../setCSP/Luminesce");
 
 class Luminesce extends LuminesceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Luminesce", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RobeofMirrorsBase = require("../setEXO/RobeofMirrors");
 
 class RobeofMirrors extends RobeofMirrorsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Robe of Mirrors", "Tenth Edition", "10E");
   }
 }

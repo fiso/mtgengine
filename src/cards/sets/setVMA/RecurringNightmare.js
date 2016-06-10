@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RecurringNightmareBase = require("../setEXO/RecurringNightmare");
 
 class RecurringNightmare extends RecurringNightmareBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Recurring Nightmare", "Vintage Masters", "VMA");
   }
 }

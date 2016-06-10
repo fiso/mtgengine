@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CloudthresherBase = require("../setC15/Cloudthresher");
 
 class Cloudthresher extends CloudthresherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cloudthresher", "Lorwyn", "LRW");
   }
 }

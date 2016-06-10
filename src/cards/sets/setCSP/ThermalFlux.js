@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class ThermalFlux extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thermal Flux", "Coldsnap", "CSP");
   }
 }

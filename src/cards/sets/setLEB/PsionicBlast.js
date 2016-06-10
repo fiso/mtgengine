@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PsionicBlastBase = require("../setCED/PsionicBlast");
 
 class PsionicBlast extends PsionicBlastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Psionic Blast", "Limited Edition Beta", "LEB");
   }
 }

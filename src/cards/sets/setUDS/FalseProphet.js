@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FalseProphetBase = require("../setCMD/FalseProphet");
 
 class FalseProphet extends FalseProphetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "False Prophet", "Urza's Destiny", "UDS");
   }
 }

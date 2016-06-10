@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StompingGroundBase = require("../setGTC/StompingGround");
 
 class StompingGround extends StompingGroundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stomping Ground", "Zendikar Expedition", "EXP");
   }
 }

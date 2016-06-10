@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForbidBase = require("../setEXO/Forbid");
 
 class Forbid extends ForbidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forbid", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThunderboltBase = require("../setAVR/Thunderbolt");
 
 class Thunderbolt extends ThunderboltBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thunderbolt", "Beatdown Box Set", "BTD");
   }
 }

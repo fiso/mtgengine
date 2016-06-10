@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReachThroughMistsBase = require("../setCHK/ReachThroughMists");
 
 class ReachThroughMists extends ReachThroughMistsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reach Through Mists", "Modern Masters", "MMA");
   }
 }

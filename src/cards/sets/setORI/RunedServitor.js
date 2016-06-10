@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RunedServitorBase = require("../setDDF/RunedServitor");
 
 class RunedServitor extends RunedServitorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Runed Servitor", "Magic Origins", "ORI");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeiStrikeForceBase = require("../setME3/WeiStrikeForce");
 
 class WeiStrikeForce extends WeiStrikeForceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wei Strike Force", "Portal Three Kingdoms", "PTK");
   }
 }

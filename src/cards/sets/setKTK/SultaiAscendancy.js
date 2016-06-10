@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SultaiAscendancyBase = require("../setCPK/SultaiAscendancy");
 
 class SultaiAscendancy extends SultaiAscendancyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sultai Ascendancy", "Khans of Tarkir", "KTK");
   }
 }

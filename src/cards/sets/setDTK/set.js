@@ -255,3 +255,4 @@ module.exports = {
   ZephyrScribe: require("./ZephyrScribe"),
   ZurgoBellstriker: require("./ZurgoBellstriker")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDTK = module.exports;}

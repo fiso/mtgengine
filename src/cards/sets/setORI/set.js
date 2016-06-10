@@ -279,3 +279,4 @@ module.exports = {
   ZendikarIncarnate: require("./ZendikarIncarnate"),
   ZendikarsRoil: require("./ZendikarsRoil")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setORI = module.exports;}

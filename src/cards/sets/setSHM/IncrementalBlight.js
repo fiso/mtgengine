@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IncrementalBlightBase = require("../setARC/IncrementalBlight");
 
 class IncrementalBlight extends IncrementalBlightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Incremental Blight", "Shadowmoor", "SHM");
   }
 }

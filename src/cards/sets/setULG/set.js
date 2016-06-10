@@ -144,3 +144,4 @@ module.exports = {
   YavimayaScion: require("./YavimayaScion"),
   YavimayaWurm: require("./YavimayaWurm")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setULG = module.exports;}

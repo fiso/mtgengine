@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DimirCharmBase = require("../setpFNM/DimirCharm");
 
 class DimirCharm extends DimirCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dimir Charm", "Gatecrash", "GTC");
   }
 }

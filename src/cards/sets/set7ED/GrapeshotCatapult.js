@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrapeshotCatapultBase = require("../setATQ/GrapeshotCatapult");
 
 class GrapeshotCatapult extends GrapeshotCatapultBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grapeshot Catapult", "Seventh Edition", "7ED");
   }
 }

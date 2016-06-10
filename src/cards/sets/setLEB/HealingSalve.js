@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HealingSalveBase = require("../setBRB/HealingSalve");
 
 class HealingSalve extends HealingSalveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Healing Salve", "Limited Edition Beta", "LEB");
   }
 }

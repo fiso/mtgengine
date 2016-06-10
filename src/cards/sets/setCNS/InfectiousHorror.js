@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const InfectiousHorrorBase = require("../setARC/InfectiousHorror");
 
 class InfectiousHorror extends InfectiousHorrorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Infectious Horror", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

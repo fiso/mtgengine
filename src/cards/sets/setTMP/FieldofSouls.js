@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FieldofSoulsBase = require("../setDDK/FieldofSouls");
 
 class FieldofSouls extends FieldofSoulsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Field of Souls", "Tempest", "TMP");
   }
 }

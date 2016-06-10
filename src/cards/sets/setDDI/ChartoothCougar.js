@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChartoothCougarBase = require("../setDD3_JVC/ChartoothCougar");
 
 class ChartoothCougar extends ChartoothCougarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chartooth Cougar", "Duel Decks: Venser vs. Koth", "DDI");
   }
 }

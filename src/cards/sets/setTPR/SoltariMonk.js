@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoltariMonkBase = require("../setTMP/SoltariMonk");
 
 class SoltariMonk extends SoltariMonkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soltari Monk", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GuttersnipeBase = require("../setC13/Guttersnipe");
 
 class Guttersnipe extends GuttersnipeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Guttersnipe", "Return to Ravnica", "RTR");
   }
 }

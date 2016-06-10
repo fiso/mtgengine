@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StoneshockGiantBase = require("../setC15/StoneshockGiant");
 
 class StoneshockGiant extends StoneshockGiantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Stoneshock Giant", "Theros", "THS");
   }
 }

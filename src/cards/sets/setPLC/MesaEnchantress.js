@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MesaEnchantressBase = require("../setC15/MesaEnchantress");
 
 class MesaEnchantress extends MesaEnchantressBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mesa Enchantress", "Planar Chaos", "PLC");
   }
 }

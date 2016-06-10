@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CityofTraitorsBase = require("../setEXO/CityofTraitors");
 
 class CityofTraitors extends CityofTraitorsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "City of Traitors", "Tempest Remastered", "TPR");
   }
 }

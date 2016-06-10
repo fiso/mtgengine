@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MurkDwellersBase = require("../set5ED/MurkDwellers");
 
 class MurkDwellers extends MurkDwellersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Murk Dwellers", "Introductory Two-Player Set", "ITP");
   }
 }

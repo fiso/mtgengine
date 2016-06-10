@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArtisanofKozilekBase = require("../setARC/ArtisanofKozilek");
 
 class ArtisanofKozilek extends ArtisanofKozilekBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Artisan of Kozilek", "Modern Masters 2015 Edition", "MM2");
   }
 }

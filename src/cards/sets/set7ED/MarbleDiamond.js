@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MarbleDiamondBase = require("../set6ED/MarbleDiamond");
 
 class MarbleDiamond extends MarbleDiamondBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Marble Diamond", "Seventh Edition", "7ED");
   }
 }

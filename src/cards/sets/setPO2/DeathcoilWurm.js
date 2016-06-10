@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathcoilWurmBase = require("../setME4/DeathcoilWurm");
 
 class DeathcoilWurm extends DeathcoilWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deathcoil Wurm", "Portal Second Age", "PO2");
   }
 }

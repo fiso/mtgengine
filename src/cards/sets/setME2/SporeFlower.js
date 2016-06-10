@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SporeFlowerBase = require("../setFEM/SporeFlower");
 
 class SporeFlower extends SporeFlowerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spore Flower", "Masters Edition II", "ME2");
   }
 }

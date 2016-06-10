@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RetaliatorGriffinBase = require("../setARB/RetaliatorGriffin");
 
 class RetaliatorGriffin extends RetaliatorGriffinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Retaliator Griffin", "Media Inserts", "pMEI");
   }
 }

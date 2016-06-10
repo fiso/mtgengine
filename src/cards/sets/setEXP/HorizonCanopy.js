@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HorizonCanopyBase = require("../setFUT/HorizonCanopy");
 
 class HorizonCanopy extends HorizonCanopyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Horizon Canopy", "Zendikar Expedition", "EXP");
   }
 }

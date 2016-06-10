@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AcidicSliverBase = require("../setH09/AcidicSliver");
 
 class AcidicSliver extends AcidicSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Acidic Sliver", "Tempest Remastered", "TPR");
   }
 }

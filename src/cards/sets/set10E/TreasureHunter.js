@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TreasureHunterBase = require("../setEXO/TreasureHunter");
 
 class TreasureHunter extends TreasureHunterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treasure Hunter", "Tenth Edition", "10E");
   }
 }

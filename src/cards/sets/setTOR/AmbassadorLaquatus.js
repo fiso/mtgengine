@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AmbassadorLaquatusBase = require("../set10E/AmbassadorLaquatus");
 
 class AmbassadorLaquatus extends AmbassadorLaquatusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ambassador Laquatus", "Torment", "TOR");
   }
 }

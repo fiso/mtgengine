@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LatNamsLegacyBase = require("../setALL/LatNamsLegacy");
 
 class LatNamsLegacy extends LatNamsLegacyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lat-Nam's Legacy", "Coldsnap Theme Decks", "CST");
   }
 }

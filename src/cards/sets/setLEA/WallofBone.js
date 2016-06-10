@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WallofBoneBase = require("../setCED/WallofBone");
 
 class WallofBone extends WallofBoneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wall of Bone", "Limited Edition Alpha", "LEA");
   }
 }

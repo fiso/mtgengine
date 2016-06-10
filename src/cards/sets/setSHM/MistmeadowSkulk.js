@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MistmeadowSkulkBase = require("../setFUT/MistmeadowSkulk");
 
 class MistmeadowSkulk extends MistmeadowSkulkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mistmeadow Skulk", "Shadowmoor", "SHM");
   }
 }

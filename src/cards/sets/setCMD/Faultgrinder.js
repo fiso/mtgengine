@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FaultgrinderBase = require("../setLRW/Faultgrinder");
 
 class Faultgrinder extends FaultgrinderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Faultgrinder", "Magic: The Gathering-Commander", "CMD");
   }
 }

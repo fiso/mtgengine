@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MaskofMemoryBase = require("../setC14/MaskofMemory");
 
 class MaskofMemory extends MaskofMemoryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mask of Memory", "Mirrodin", "MRD");
   }
 }

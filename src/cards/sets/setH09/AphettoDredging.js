@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AphettoDredgingBase = require("../setONS/AphettoDredging");
 
 class AphettoDredging extends AphettoDredgingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aphetto Dredging", "Premium Deck Series: Slivers", "H09");
   }
 }

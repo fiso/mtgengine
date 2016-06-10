@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PriestofUrabraskBase = require("../setpMGD/PriestofUrabrask");
 
 class PriestofUrabrask extends PriestofUrabraskBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Priest of Urabrask", "New Phyrexia", "NPH");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TeeteringPeaksBase = require("../setpFNM/TeeteringPeaks");
 
 class TeeteringPeaks extends TeeteringPeaksBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Teetering Peaks", "Zendikar", "ZEN");
   }
 }

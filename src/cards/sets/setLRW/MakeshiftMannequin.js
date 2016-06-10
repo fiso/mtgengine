@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MakeshiftMannequinBase = require("../setARC/MakeshiftMannequin");
 
 class MakeshiftMannequin extends MakeshiftMannequinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Makeshift Mannequin", "Lorwyn", "LRW");
   }
 }

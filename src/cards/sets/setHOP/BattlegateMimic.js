@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BattlegateMimicBase = require("../setEVE/BattlegateMimic");
 
 class BattlegateMimic extends BattlegateMimicBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Battlegate Mimic", "Planechase", "HOP");
   }
 }

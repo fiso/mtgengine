@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeafGilderBase = require("../setARC/LeafGilder");
 
 class LeafGilder extends LeafGilderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leaf Gilder", "Lorwyn", "LRW");
   }
 }

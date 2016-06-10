@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CentaurArcherBase = require("../setICE/CentaurArcher");
 
 class CentaurArcher extends CentaurArcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Centaur Archer", "Masters Edition", "MED");
   }
 }

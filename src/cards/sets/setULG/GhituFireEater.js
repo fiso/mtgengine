@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GhituFireEaterBase = require("../set7ED/GhituFireEater");
 
 class GhituFireEater extends GhituFireEaterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghitu Fire-Eater", "Urza's Legacy", "ULG");
   }
 }

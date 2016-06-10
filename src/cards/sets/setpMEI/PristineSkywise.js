@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PristineSkywiseBase = require("../setDTK/PristineSkywise");
 
 class PristineSkywise extends PristineSkywiseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pristine Skywise", "Media Inserts", "pMEI");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PutridImpBase = require("../setPD3/PutridImp");
 
 class PutridImp extends PutridImpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Putrid Imp", "Vintage Masters", "VMA");
   }
 }

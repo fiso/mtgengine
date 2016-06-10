@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlingBase = require("../setpARL/Fling");
 
 class Fling extends FlingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fling", "Dark Ascension", "DKA");
   }
 }

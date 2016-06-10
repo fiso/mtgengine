@@ -287,3 +287,4 @@ module.exports = {
   YavimayaDryad: require("./YavimayaDryad"),
   ZealotilVec: require("./ZealotilVec")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTSP = module.exports;}

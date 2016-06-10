@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CelestialColonnadeBase = require("../setpMEI/CelestialColonnade");
 
 class CelestialColonnade extends CelestialColonnadeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Celestial Colonnade", "Worldwake", "WWK");
   }
 }

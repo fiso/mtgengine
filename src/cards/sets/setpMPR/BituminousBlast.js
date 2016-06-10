@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BituminousBlastBase = require("../setARB/BituminousBlast");
 
 class BituminousBlast extends BituminousBlastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bituminous Blast", "Magic Player Rewards", "pMPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VaevictisAsmadiBase = require("../setCHR/VaevictisAsmadi");
 
 class VaevictisAsmadi extends VaevictisAsmadiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vaevictis Asmadi", "Masters Edition III", "ME3");
   }
 }

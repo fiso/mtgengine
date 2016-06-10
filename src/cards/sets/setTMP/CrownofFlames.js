@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrownofFlamesBase = require("../setINV/CrownofFlames");
 
 class CrownofFlames extends CrownofFlamesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crown of Flames", "Tempest", "TMP");
   }
 }

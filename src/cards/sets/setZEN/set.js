@@ -235,3 +235,4 @@ module.exports = {
   ZektarShrineExpedition: require("./ZektarShrineExpedition"),
   ZendikarFarguide: require("./ZendikarFarguide")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setZEN = module.exports;}

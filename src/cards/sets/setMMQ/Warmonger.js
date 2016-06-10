@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarmongerBase = require("../setpMEI/Warmonger");
 
 class Warmonger extends WarmongerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Warmonger", "Mercadian Masques", "MMQ");
   }
 }

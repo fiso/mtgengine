@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FieryHellhoundBase = require("../setDDI/FieryHellhound");
 
 class FieryHellhound extends FieryHellhoundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fiery Hellhound", "Magic 2011", "M11");
   }
 }

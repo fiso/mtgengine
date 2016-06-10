@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const YavimayaElderBase = require("../setDDE/YavimayaElder");
 
 class YavimayaElder extends YavimayaElderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Yavimaya Elder", "Magic: The Gathering-Commander", "CMD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VillageElderBase = require("../setBRB/VillageElder");
 
 class VillageElder extends VillageElderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Village Elder", "Mirage", "MIR");
   }
 }

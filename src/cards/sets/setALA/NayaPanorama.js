@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NayaPanoramaBase = require("../setC13/NayaPanorama");
 
 class NayaPanorama extends NayaPanoramaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Naya Panorama", "Shards of Alara", "ALA");
   }
 }

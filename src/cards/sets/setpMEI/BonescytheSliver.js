@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BonescytheSliverBase = require("../setM14/BonescytheSliver");
 
 class BonescytheSliver extends BonescytheSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bonescythe Sliver", "Media Inserts", "pMEI");
   }
 }

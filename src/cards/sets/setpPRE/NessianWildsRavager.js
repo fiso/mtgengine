@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NessianWildsRavagerBase = require("../setBNG/NessianWildsRavager");
 
 class NessianWildsRavager extends NessianWildsRavagerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nessian Wilds Ravager", "Prerelease Events", "pPRE");
   }
 }

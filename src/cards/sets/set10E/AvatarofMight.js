@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AvatarofMightBase = require("../setPCY/AvatarofMight");
 
 class AvatarofMight extends AvatarofMightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Avatar of Might", "Tenth Edition", "10E");
   }
 }

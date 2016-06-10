@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SabertoothWyvernBase = require("../setEXO/SabertoothWyvern");
 
 class SabertoothWyvern extends SabertoothWyvernBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sabertooth Wyvern", "Tempest Remastered", "TPR");
   }
 }

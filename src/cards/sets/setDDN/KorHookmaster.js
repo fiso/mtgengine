@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorHookmasterBase = require("../setDDF/KorHookmaster");
 
 class KorHookmaster extends KorHookmasterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Hookmaster", "Duel Decks: Speed vs. Cunning", "DDN");
   }
 }

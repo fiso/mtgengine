@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagisterofWorthBase = require("../setCNS/MagisterofWorth");
 
 class MagisterofWorth extends MagisterofWorthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magister of Worth", "Vintage Masters", "VMA");
   }
 }

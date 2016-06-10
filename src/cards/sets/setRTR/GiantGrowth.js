@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GiantGrowthBase = require("../setATH/GiantGrowth");
 
 class GiantGrowth extends GiantGrowthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Giant Growth", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FelidarSovereignBase = require("../setBFZ/FelidarSovereign");
 
 class FelidarSovereign extends FelidarSovereignBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Felidar Sovereign", "Zendikar", "ZEN");
   }
 }

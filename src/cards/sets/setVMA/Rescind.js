@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RescindBase = require("../setUSG/Rescind");
 
 class Rescind extends RescindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rescind", "Vintage Masters", "VMA");
   }
 }

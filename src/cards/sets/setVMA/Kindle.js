@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KindleBase = require("../setTMP/Kindle");
 
 class Kindle extends KindleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kindle", "Vintage Masters", "VMA");
   }
 }

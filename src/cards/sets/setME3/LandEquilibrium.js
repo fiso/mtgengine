@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LandEquilibriumBase = require("../setLEG/LandEquilibrium");
 
 class LandEquilibrium extends LandEquilibriumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Land Equilibrium", "Masters Edition III", "ME3");
   }
 }

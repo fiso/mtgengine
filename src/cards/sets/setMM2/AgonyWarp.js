@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AgonyWarpBase = require("../setARC/AgonyWarp");
 
 class AgonyWarp extends AgonyWarpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Agony Warp", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ElvishSpiritGuideBase = require("../setALL/ElvishSpiritGuide");
 
 class ElvishSpiritGuide extends ElvishSpiritGuideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Elvish Spirit Guide", "Masters Edition II", "ME2");
   }
 }

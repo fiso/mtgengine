@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LotlethTrollBase = require("../setC15/LotlethTroll");
 
 class LotlethTroll extends LotlethTrollBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lotleth Troll", "Return to Ravnica", "RTR");
   }
 }

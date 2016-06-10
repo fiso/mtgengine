@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulExchangeBase = require("../setFEM/SoulExchange");
 
 class SoulExchange extends SoulExchangeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Exchange", "Masters Edition II", "ME2");
   }
 }

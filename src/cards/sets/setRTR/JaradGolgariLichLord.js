@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JaradGolgariLichLordBase = require("../setC15/JaradGolgariLichLord");
 
 class JaradGolgariLichLord extends JaradGolgariLichLordBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jarad, Golgari Lich Lord", "Return to Ravnica", "RTR");
   }
 }

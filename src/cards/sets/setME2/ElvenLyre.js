@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ElvenLyreBase = require("../setFEM/ElvenLyre");
 
 class ElvenLyre extends ElvenLyreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Elven Lyre", "Masters Edition II", "ME2");
   }
 }

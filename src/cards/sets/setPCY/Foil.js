@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FoilBase = require("../setDDF/Foil");
 
 class Foil extends FoilBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Foil", "Prophecy", "PCY");
   }
 }

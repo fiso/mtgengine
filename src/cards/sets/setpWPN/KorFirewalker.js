@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorFirewalkerBase = require("../setWWK/KorFirewalker");
 
 class KorFirewalker extends KorFirewalkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Firewalker", "WPN and Gateway", "pWPN");
   }
 }

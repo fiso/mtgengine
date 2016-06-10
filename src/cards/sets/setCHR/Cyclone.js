@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CycloneBase = require("../setARN/Cyclone");
 
 class Cyclone extends CycloneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cyclone", "Chronicles", "CHR");
   }
 }

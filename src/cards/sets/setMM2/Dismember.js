@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DismemberBase = require("../setpFNM/Dismember");
 
 class Dismember extends DismemberBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dismember", "Modern Masters 2015 Edition", "MM2");
   }
 }

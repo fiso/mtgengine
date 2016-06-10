@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class ScourgeofFleets extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scourge of Fleets", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

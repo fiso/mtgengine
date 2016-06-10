@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathStrokeBase = require("../setBTD/DeathStroke");
 
 class DeathStroke extends DeathStrokeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Death Stroke", "Stronghold", "STH");
   }
 }

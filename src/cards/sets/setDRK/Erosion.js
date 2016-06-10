@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ErosionBase = require("../set4ED/Erosion");
 
 class Erosion extends ErosionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Erosion", "The Dark", "DRK");
   }
 }

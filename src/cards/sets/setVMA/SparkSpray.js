@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SparkSprayBase = require("../setSCG/SparkSpray");
 
 class SparkSpray extends SparkSprayBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spark Spray", "Vintage Masters", "VMA");
   }
 }

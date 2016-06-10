@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MysticZealotBase = require("../setODY/MysticZealot");
 
 class MysticZealot extends MysticZealotBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mystic Zealot", "Vintage Masters", "VMA");
   }
 }

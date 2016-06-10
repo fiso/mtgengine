@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CorpsejackMenaceBase = require("../setpPRE/CorpsejackMenace");
 
 class CorpsejackMenace extends CorpsejackMenaceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Corpsejack Menace", "Return to Ravnica", "RTR");
   }
 }

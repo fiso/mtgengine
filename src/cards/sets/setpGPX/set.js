@@ -12,3 +12,4 @@ module.exports = {
   Spiritmonger: require("./Spiritmonger"),
   UmezawasJitte: require("./UmezawasJitte")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpGPX = module.exports;}

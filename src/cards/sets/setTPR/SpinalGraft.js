@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpinalGraftBase = require("../setTMP/SpinalGraft");
 
 class SpinalGraft extends SpinalGraftBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spinal Graft", "Tempest Remastered", "TPR");
   }
 }

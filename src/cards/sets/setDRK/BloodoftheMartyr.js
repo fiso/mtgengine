@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BloodoftheMartyrBase = require("../setCHR/BloodoftheMartyr");
 
 class BloodoftheMartyr extends BloodoftheMartyrBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blood of the Martyr", "The Dark", "DRK");
   }
 }

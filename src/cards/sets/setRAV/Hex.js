@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HexBase = require("../setCMD/Hex");
 
 class Hex extends HexBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hex", "Ravnica: City of Guilds", "RAV");
   }
 }

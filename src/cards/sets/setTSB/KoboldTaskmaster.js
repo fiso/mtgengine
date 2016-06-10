@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KoboldTaskmasterBase = require("../setLEG/KoboldTaskmaster");
 
 class KoboldTaskmaster extends KoboldTaskmasterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kobold Taskmaster", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

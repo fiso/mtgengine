@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SymbiosisBase = require("../setBRB/Symbiosis");
 
 class Symbiosis extends SymbiosisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Symbiosis", "Urza's Saga", "USG");
   }
 }

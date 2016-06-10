@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnointBase = require("../setTMP/Anoint");
 
 class Anoint extends AnointBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Anoint", "Tempest Remastered", "TPR");
   }
 }

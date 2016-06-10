@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreamspoilerWitchesBase = require("../setLRW/DreamspoilerWitches");
 
 class DreamspoilerWitches extends DreamspoilerWitchesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dreamspoiler Witches", "Modern Masters", "MMA");
   }
 }

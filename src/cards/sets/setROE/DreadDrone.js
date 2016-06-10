@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreadDroneBase = require("../setMM2/DreadDrone");
 
 class DreadDrone extends DreadDroneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dread Drone", "Rise of the Eldrazi", "ROE");
   }
 }

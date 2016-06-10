@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SwordofFeastandFamineBase = require("../setpJGP/SwordofFeastandFamine");
 
 class SwordofFeastandFamine extends SwordofFeastandFamineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sword of Feast and Famine", "Mirrodin Besieged", "MBS");
   }
 }

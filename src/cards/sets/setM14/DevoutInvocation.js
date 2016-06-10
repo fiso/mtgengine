@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class DevoutInvocation extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Devout Invocation", "Magic 2014 Core Set", "M14");
   }
 }

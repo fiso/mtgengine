@@ -292,3 +292,4 @@ module.exports = {
   WurmskinForger: require("./WurmskinForger"),
   YotianSoldier: require("./YotianSoldier")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMRD = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShelterBase = require("../setODY/Shelter");
 
 class Shelter extends ShelterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shelter", "Vintage Masters", "VMA");
   }
 }

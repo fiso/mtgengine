@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KazanduTuskcallerBase = require("../setC13/KazanduTuskcaller");
 
 class KazanduTuskcaller extends KazanduTuskcallerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kazandu Tuskcaller", "Rise of the Eldrazi", "ROE");
   }
 }

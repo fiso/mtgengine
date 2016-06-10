@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RusticClachanBase = require("../setDDF/RusticClachan");
 
 class RusticClachan extends RusticClachanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rustic Clachan", "Morningtide", "MOR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnimateArtifactBase = require("../setCED/AnimateArtifact");
 
 class AnimateArtifact extends AnimateArtifactBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Animate Artifact", "International Collector's Edition", "CEI");
   }
 }

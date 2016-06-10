@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IsochronScepterBase = require("../setDDJ/IsochronScepter");
 
 class IsochronScepter extends IsochronScepterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Isochron Scepter", "Friday Night Magic", "pFNM");
   }
 }

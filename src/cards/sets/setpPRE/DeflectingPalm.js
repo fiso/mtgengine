@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeflectingPalmBase = require("../setKTK/DeflectingPalm");
 
 class DeflectingPalm extends DeflectingPalmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deflecting Palm", "Prerelease Events", "pPRE");
   }
 }

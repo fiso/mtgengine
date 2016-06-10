@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuestingPhelddagrifBase = require("../setPLS/QuestingPhelddagrif");
 
 class QuestingPhelddagrif extends QuestingPhelddagrifBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Questing Phelddagrif", "Prerelease Events", "pPRE");
   }
 }

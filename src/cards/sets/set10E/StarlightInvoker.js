@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StarlightInvokerBase = require("../setLGN/StarlightInvoker");
 
 class StarlightInvoker extends StarlightInvokerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Starlight Invoker", "Tenth Edition", "10E");
   }
 }

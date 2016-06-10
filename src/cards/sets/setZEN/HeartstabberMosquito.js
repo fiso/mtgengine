@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeartstabberMosquitoBase = require("../setDDP/HeartstabberMosquito");
 
 class HeartstabberMosquito extends HeartstabberMosquitoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heartstabber Mosquito", "Zendikar", "ZEN");
   }
 }

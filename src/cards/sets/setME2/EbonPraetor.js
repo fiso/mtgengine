@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EbonPraetorBase = require("../setFEM/EbonPraetor");
 
 class EbonPraetor extends EbonPraetorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ebon Praetor", "Masters Edition II", "ME2");
   }
 }

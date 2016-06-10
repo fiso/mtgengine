@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FencingAceBase = require("../setDDL/FencingAce");
 
 class FencingAce extends FencingAceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fencing Ace", "Return to Ravnica", "RTR");
   }
 }

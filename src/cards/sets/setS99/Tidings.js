@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TidingsBase = require("../setpMPR/Tidings");
 
 class Tidings extends TidingsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tidings", "Starter 1999", "S99");
   }
 }

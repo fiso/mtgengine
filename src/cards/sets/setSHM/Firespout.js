@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FirespoutBase = require("../setV14/Firespout");
 
 class Firespout extends FirespoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Firespout", "Shadowmoor", "SHM");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ProvokeBase = require("../setCNS/Provoke");
 
 class Provoke extends ProvokeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Provoke", "Tempest Remastered", "TPR");
   }
 }

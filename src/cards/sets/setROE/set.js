@@ -234,3 +234,4 @@ module.exports = {
   ZofShade: require("./ZofShade"),
   ZulaportEnforcer: require("./ZulaportEnforcer")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setROE = module.exports;}

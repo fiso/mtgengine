@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AngelofDespairBase = require("../setGPT/AngelofDespair");
 
 class AngelofDespair extends AngelofDespairBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Angel of Despair", "Magic: The Gathering-Commander", "CMD");
   }
 }

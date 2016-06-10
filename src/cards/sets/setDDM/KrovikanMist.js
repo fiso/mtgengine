@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KrovikanMistBase = require("../setCSP/KrovikanMist");
 
 class KrovikanMist extends KrovikanMistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Krovikan Mist", "Duel Decks: Jace vs. Vraska", "DDM");
   }
 }

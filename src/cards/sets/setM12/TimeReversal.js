@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TimeReversalBase = require("../setM11/TimeReversal");
 
 class TimeReversal extends TimeReversalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Time Reversal", "Magic 2012", "M12");
   }
 }

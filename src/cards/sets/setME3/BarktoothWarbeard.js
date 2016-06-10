@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BarktoothWarbeardBase = require("../setLEG/BarktoothWarbeard");
 
 class BarktoothWarbeard extends BarktoothWarbeardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Barktooth Warbeard", "Masters Edition III", "ME3");
   }
 }

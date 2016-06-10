@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FieryFallBase = require("../setCON/FieryFall");
 
 class FieryFall extends FieryFallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fiery Fall", "Modern Masters 2015 Edition", "MM2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MartonStromgaldBase = require("../setICE/MartonStromgald");
 
 class MartonStromgald extends MartonStromgaldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Márton Stromgald", "Masters Edition", "MED");
   }
 }

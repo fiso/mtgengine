@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KhabalGhoulBase = require("../setARN/KhabalGhoul");
 
 class KhabalGhoul extends KhabalGhoulBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Khabál Ghoul", "Masters Edition", "MED");
   }
 }

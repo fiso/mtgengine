@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShadowGuildmageBase = require("../setMIR/ShadowGuildmage");
 
 class ShadowGuildmage extends ShadowGuildmageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shadow Guildmage", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

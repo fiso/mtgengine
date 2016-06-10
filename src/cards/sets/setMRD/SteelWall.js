@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SteelWallBase = require("../setDDF/SteelWall");
 
 class SteelWall extends SteelWallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Steel Wall", "Mirrodin", "MRD");
   }
 }

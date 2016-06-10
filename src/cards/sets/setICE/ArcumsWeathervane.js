@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcumsWeathervaneBase = require("../setCST/ArcumsWeathervane");
 
 class ArcumsWeathervane extends ArcumsWeathervaneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcum's Weathervane", "Ice Age", "ICE");
   }
 }

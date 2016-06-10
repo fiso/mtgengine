@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AllIsDustBase = require("../setpGPX/AllIsDust");
 
 class AllIsDust extends AllIsDustBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "All Is Dust", "Rise of the Eldrazi", "ROE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SplinterBase = require("../setBOK/Splinter");
 
 class Splinter extends SplinterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Splinter", "Urza's Destiny", "UDS");
   }
 }

@@ -178,3 +178,4 @@ module.exports = {
   WhispersilkCloak: require("./WhispersilkCloak"),
   WindriddlePalaces: require("./WindriddlePalaces")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPC2 = module.exports;}

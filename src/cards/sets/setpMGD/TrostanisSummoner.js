@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrostanisSummonerBase = require("../setDGM/TrostanisSummoner");
 
 class TrostanisSummoner extends TrostanisSummonerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trostani's Summoner", "Magic Game Day", "pMGD");
   }
 }

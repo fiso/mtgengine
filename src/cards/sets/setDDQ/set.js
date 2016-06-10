@@ -72,3 +72,4 @@ module.exports = {
   VoiceoftheProvinces: require("./VoiceoftheProvinces"),
   Zombie: require("./Zombie")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDQ = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LevitationBase = require("../setM10/Levitation");
 
 class Levitation extends LevitationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Levitation", "Urza's Legacy", "ULG");
   }
 }

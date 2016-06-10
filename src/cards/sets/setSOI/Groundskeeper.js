@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GroundskeeperBase = require("../setMMQ/Groundskeeper");
 
 class Groundskeeper extends GroundskeeperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Groundskeeper", "Shadows over Innistrad", "SOI");
   }
 }

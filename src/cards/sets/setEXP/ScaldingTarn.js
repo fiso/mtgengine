@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScaldingTarnBase = require("../setZEN/ScaldingTarn");
 
 class ScaldingTarn extends ScaldingTarnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scalding Tarn", "Zendikar Expedition", "EXP");
   }
 }

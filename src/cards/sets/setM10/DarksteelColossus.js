@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DarksteelColossusBase = require("../setDST/DarksteelColossus");
 
 class DarksteelColossus extends DarksteelColossusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Darksteel Colossus", "Magic 2010", "M10");
   }
 }

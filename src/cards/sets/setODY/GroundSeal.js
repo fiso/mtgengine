@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GroundSealBase = require("../setM13/GroundSeal");
 
 class GroundSeal extends GroundSealBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ground Seal", "Odyssey", "ODY");
   }
 }

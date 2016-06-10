@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ImperiousPerfectBase = require("../setpCMP/ImperiousPerfect");
 
 class ImperiousPerfect extends ImperiousPerfectBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Imperious Perfect", "Duel Decks: Elves vs. Goblins", "EVG");
   }
 }

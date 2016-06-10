@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TukatongueThallidBase = require("../setCON/TukatongueThallid");
 
 class TukatongueThallid extends TukatongueThallidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tukatongue Thallid", "Modern Masters 2015 Edition", "MM2");
   }
 }

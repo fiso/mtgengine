@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhthisisBase = require("../setC13/Phthisis");
 
 class Phthisis extends PhthisisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phthisis", "Modern Masters", "MMA");
   }
 }

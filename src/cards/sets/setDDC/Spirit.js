@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpiritBase = require("../setDDQ/Spirit");
 
 class Spirit extends SpiritBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spirit", "Duel Decks: Divine vs. Demonic", "DDC");
   }
 }

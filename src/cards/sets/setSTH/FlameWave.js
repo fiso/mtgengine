@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlameWaveBase = require("../set9ED/FlameWave");
 
 class FlameWave extends FlameWaveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flame Wave", "Stronghold", "STH");
   }
 }

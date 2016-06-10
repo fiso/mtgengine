@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KnotvinePaladinBase = require("../setARB/KnotvinePaladin");
 
 class KnotvinePaladin extends KnotvinePaladinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Knotvine Paladin", "Duel Decks: Knights vs. Dragons", "DDG");
   }
 }

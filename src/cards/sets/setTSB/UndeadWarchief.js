@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UndeadWarchiefBase = require("../setHOP/UndeadWarchief");
 
 class UndeadWarchief extends UndeadWarchiefBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Undead Warchief", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

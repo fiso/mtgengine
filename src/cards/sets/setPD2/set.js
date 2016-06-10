@@ -32,3 +32,4 @@ module.exports = {
   Thunderbolt: require("./Thunderbolt"),
   VulshokSorcerer: require("./VulshokSorcerer")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPD2 = module.exports;}

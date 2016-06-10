@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SeasonedMarshalBase = require("../setBRB/SeasonedMarshal");
 
 class SeasonedMarshal extends SeasonedMarshalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Seasoned Marshal", "Portal", "POR");
   }
 }

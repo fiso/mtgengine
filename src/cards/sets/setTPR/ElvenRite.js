@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ElvenRiteBase = require("../setSTH/ElvenRite");
 
 class ElvenRite extends ElvenRiteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Elven Rite", "Tempest Remastered", "TPR");
   }
 }

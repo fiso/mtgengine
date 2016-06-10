@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VividCreekBase = require("../setC13/VividCreek");
 
 class VividCreek extends VividCreekBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vivid Creek", "Commander 2015", "C15");
   }
 }

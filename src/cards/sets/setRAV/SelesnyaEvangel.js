@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SelesnyaEvangelBase = require("../setCMD/SelesnyaEvangel");
 
 class SelesnyaEvangel extends SelesnyaEvangelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Selesnya Evangel", "Ravnica: City of Guilds", "RAV");
   }
 }

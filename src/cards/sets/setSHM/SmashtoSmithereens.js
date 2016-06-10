@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SmashtoSmithereensBase = require("../setORI/SmashtoSmithereens");
 
 class SmashtoSmithereens extends SmashtoSmithereensBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Smash to Smithereens", "Shadowmoor", "SHM");
   }
 }

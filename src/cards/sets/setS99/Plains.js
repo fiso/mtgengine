@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlainsBase = require("../setATH/Plains");
 
 class Plains extends PlainsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Plains", "Starter 1999", "S99");
   }
 }

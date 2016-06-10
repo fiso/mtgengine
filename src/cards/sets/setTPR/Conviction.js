@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ConvictionBase = require("../setSTH/Conviction");
 
 class Conviction extends ConvictionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Conviction", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DismissBase = require("../setpARL/Dismiss");
 
 class Dismiss extends DismissBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dismiss", "Commander 2014", "C14");
   }
 }

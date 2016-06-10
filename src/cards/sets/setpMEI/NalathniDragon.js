@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NalathniDragonBase = require("../setpDRC/NalathniDragon");
 
 class NalathniDragon extends NalathniDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nalathni Dragon", "Media Inserts", "pMEI");
   }
 }

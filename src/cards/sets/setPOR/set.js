@@ -201,3 +201,4 @@ module.exports = {
   WoodElves: require("./WoodElves"),
   WrathofGod: require("./WrathofGod")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPOR = module.exports;}

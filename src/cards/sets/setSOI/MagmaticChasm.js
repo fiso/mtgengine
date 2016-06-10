@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagmaticChasmBase = require("../setDTK/MagmaticChasm");
 
 class MagmaticChasm extends MagmaticChasmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magmatic Chasm", "Shadows over Innistrad", "SOI");
   }
 }

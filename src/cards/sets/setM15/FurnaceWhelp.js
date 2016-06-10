@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FurnaceWhelpBase = require("../setARC/FurnaceWhelp");
 
 class FurnaceWhelp extends FurnaceWhelpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Furnace Whelp", "Magic 2015 Core Set", "M15");
   }
 }

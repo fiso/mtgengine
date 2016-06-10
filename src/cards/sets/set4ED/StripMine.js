@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StripMineBase = require("../setATH/StripMine");
 
 class StripMine extends StripMineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Strip Mine", "Fourth Edition", "4ED");
   }
 }

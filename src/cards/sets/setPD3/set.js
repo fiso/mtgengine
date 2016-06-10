@@ -28,3 +28,4 @@ module.exports = {
   VerdantForce: require("./VerdantForce"),
   ZombieInfestation: require("./ZombieInfestation")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPD3 = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MayaeltheAnimaBase = require("../setC13/MayaeltheAnima");
 
 class MayaeltheAnima extends MayaeltheAnimaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mayael the Anima", "Shards of Alara", "ALA");
   }
 }

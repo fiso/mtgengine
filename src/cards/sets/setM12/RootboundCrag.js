@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RootboundCragBase = require("../setM10/RootboundCrag");
 
 class RootboundCrag extends RootboundCragBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rootbound Crag", "Magic 2012", "M12");
   }
 }

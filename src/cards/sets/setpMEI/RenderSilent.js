@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RenderSilentBase = require("../setDGM/RenderSilent");
 
 class RenderSilent extends RenderSilentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Render Silent", "Media Inserts", "pMEI");
   }
 }

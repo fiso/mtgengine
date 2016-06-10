@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinShrineBase = require("../setCHR/GoblinShrine");
 
 class GoblinShrine extends GoblinShrineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin Shrine", "The Dark", "DRK");
   }
 }

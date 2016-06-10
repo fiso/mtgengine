@@ -326,3 +326,4 @@ module.exports = {
   YawgmothsWill: require("./YawgmothsWill"),
   ZhalfirinCrusader: require("./ZhalfirinCrusader")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setVMA = module.exports;}

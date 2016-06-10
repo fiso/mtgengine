@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PaladinofPrahvBase = require("../setDIS/PaladinofPrahv");
 
 class PaladinofPrahv extends PaladinofPrahvBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Paladin of Prahv", "Duel Decks: Knights vs. Dragons", "DDG");
   }
 }

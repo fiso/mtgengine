@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MarshFlitterBase = require("../setLRW/MarshFlitter");
 
 class MarshFlitter extends MarshFlitterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Marsh Flitter", "Modern Masters", "MMA");
   }
 }

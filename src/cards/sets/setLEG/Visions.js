@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VisionsBase = require("../set4ED/Visions");
 
 class Visions extends VisionsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Visions", "Legends", "LEG");
   }
 }

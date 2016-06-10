@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JeditsDragoonsBase = require("../setDDI/JeditsDragoons");
 
 class JeditsDragoons extends JeditsDragoonsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jedit's Dragoons", "Time Spiral", "TSP");
   }
 }

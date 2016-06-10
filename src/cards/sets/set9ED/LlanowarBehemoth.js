@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LlanowarBehemothBase = require("../set8ED/LlanowarBehemoth");
 
 class LlanowarBehemoth extends LlanowarBehemothBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Llanowar Behemoth", "Ninth Edition", "9ED");
   }
 }

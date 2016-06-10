@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DregscapeZombieBase = require("../setARC/DregscapeZombie");
 
 class DregscapeZombie extends DregscapeZombieBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dregscape Zombie", "Planechase", "HOP");
   }
 }

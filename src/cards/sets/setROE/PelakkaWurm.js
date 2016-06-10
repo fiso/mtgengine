@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PelakkaWurmBase = require("../setCNS/PelakkaWurm");
 
 class PelakkaWurm extends PelakkaWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pelakka Wurm", "Rise of the Eldrazi", "ROE");
   }
 }

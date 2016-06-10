@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SlipstreamEelBase = require("../setCMD/SlipstreamEel");
 
 class SlipstreamEel extends SlipstreamEelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Slipstream Eel", "Onslaught", "ONS");
   }
 }

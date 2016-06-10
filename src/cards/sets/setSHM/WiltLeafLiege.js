@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WiltLeafLiegeBase = require("../setMM2/WiltLeafLiege");
 
 class WiltLeafLiege extends WiltLeafLiegeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wilt-Leaf Liege", "Shadowmoor", "SHM");
   }
 }

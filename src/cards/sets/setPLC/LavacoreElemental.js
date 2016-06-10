@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class LavacoreElemental extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lavacore Elemental", "Planar Chaos", "PLC");
   }
 }

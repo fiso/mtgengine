@@ -102,3 +102,4 @@ module.exports = {
   WallofWood: require("./WallofWood"),
   WurmsTooth: require("./WurmsTooth")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDPA = module.exports;}

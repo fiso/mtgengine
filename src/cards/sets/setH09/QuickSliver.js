@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const QuickSliverBase = require("../setLGN/QuickSliver");
 
 class QuickSliver extends QuickSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Quick Sliver", "Premium Deck Series: Slivers", "H09");
   }
 }

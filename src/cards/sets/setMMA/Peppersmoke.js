@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PeppersmokeBase = require("../setLRW/Peppersmoke");
 
 class Peppersmoke extends PeppersmokeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Peppersmoke", "Modern Masters", "MMA");
   }
 }

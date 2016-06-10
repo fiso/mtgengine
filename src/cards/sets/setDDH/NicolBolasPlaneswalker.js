@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NicolBolasPlaneswalkerBase = require("../setCON/NicolBolasPlaneswalker");
 
 class NicolBolasPlaneswalker extends NicolBolasPlaneswalkerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nicol Bolas, Planeswalker", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

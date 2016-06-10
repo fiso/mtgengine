@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DismalBackwaterBase = require("../setDDQ/DismalBackwater");
 
 class DismalBackwater extends DismalBackwaterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dismal Backwater", "Khans of Tarkir", "KTK");
   }
 }

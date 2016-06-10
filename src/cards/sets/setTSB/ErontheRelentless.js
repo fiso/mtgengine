@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ErontheRelentlessBase = require("../setHML/ErontheRelentless");
 
 class ErontheRelentless extends ErontheRelentlessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Eron the Relentless", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

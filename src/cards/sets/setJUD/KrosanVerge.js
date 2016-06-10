@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KrosanVergeBase = require("../setARC/KrosanVerge");
 
 class KrosanVerge extends KrosanVergeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Krosan Verge", "Judgment", "JUD");
   }
 }

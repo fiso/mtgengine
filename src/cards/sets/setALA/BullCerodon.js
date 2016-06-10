@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BullCerodonBase = require("../setHOP/BullCerodon");
 
 class BullCerodon extends BullCerodonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bull Cerodon", "Shards of Alara", "ALA");
   }
 }

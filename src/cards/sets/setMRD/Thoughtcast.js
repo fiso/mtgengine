@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThoughtcastBase = require("../setDDF/Thoughtcast");
 
 class Thoughtcast extends ThoughtcastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thoughtcast", "Mirrodin", "MRD");
   }
 }

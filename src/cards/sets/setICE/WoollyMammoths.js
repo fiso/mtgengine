@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoollyMammothsBase = require("../setCST/WoollyMammoths");
 
 class WoollyMammoths extends WoollyMammothsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Woolly Mammoths", "Ice Age", "ICE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StreetWraithBase = require("../setFUT/StreetWraith");
 
 class StreetWraith extends StreetWraithBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Street Wraith", "Modern Masters", "MMA");
   }
 }

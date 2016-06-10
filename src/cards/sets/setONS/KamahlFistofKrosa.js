@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KamahlFistofKrosaBase = require("../setARC/KamahlFistofKrosa");
 
 class KamahlFistofKrosa extends KamahlFistofKrosaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kamahl, Fist of Krosa", "Onslaught", "ONS");
   }
 }

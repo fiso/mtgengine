@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MasterTransmuterBase = require("../setARC/MasterTransmuter");
 
 class MasterTransmuter extends MasterTransmuterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Master Transmuter", "Conflux", "CON");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathforgeShamanBase = require("../setCNS/DeathforgeShaman");
 
 class DeathforgeShaman extends DeathforgeShamanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deathforge Shaman", "Worldwake", "WWK");
   }
 }

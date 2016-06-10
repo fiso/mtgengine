@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpinalEmbraceBase = require("../setC13/SpinalEmbrace");
 
 class SpinalEmbrace extends SpinalEmbraceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spinal Embrace", "Invasion", "INV");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BriarhornBase = require("../setDDH/Briarhorn");
 
 class Briarhorn extends BriarhornBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Briarhorn", "Lorwyn", "LRW");
   }
 }

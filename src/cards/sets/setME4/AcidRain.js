@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AcidRainBase = require("../setLEG/AcidRain");
 
 class AcidRain extends AcidRainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Acid Rain", "Masters Edition IV", "ME4");
   }
 }

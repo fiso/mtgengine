@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DystopiaBase = require("../setALL/Dystopia");
 
 class Dystopia extends DystopiaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dystopia", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VeteranArmorerBase = require("../setMMA/VeteranArmorer");
 
 class VeteranArmorer extends VeteranArmorerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Veteran Armorer", "Ravnica: City of Guilds", "RAV");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrderoftheWhiteShieldBase = require("../setATH/OrderoftheWhiteShield");
 
 class OrderoftheWhiteShield extends OrderoftheWhiteShieldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Order of the White Shield", "Masters Edition II", "ME2");
   }
 }

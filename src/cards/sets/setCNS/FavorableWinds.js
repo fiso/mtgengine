@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FavorableWindsBase = require("../setAVR/FavorableWinds");
 
 class FavorableWinds extends FavorableWindsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Favorable Winds", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulCollectorBase = require("../setpPRE/SoulCollector");
 
 class SoulCollector extends SoulCollectorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Collector", "Scourge", "SCG");
   }
 }

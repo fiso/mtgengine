@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinLackeyBase = require("../setV09/GoblinLackey");
 
 class GoblinLackey extends GoblinLackeyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin Lackey", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LavaBurstBase = require("../setDKM/LavaBurst");
 
 class LavaBurst extends LavaBurstBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lava Burst", "Masters Edition II", "ME2");
   }
 }

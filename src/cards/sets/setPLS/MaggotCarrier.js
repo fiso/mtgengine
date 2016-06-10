@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MaggotCarrierBase = require("../set8ED/MaggotCarrier");
 
 class MaggotCarrier extends MaggotCarrierBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Maggot Carrier", "Planeshift", "PLS");
   }
 }

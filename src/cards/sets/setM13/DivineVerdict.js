@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DivineVerdictBase = require("../setM10/DivineVerdict");
 
 class DivineVerdict extends DivineVerdictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Divine Verdict", "Magic 2013", "M13");
   }
 }

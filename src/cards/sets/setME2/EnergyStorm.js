@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnergyStormBase = require("../setICE/EnergyStorm");
 
 class EnergyStorm extends EnergyStormBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Energy Storm", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KikiJikiMirrorBreakerBase = require("../setCHK/KikiJikiMirrorBreaker");
 
 class KikiJikiMirrorBreaker extends KikiJikiMirrorBreakerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kiki-Jiki, Mirror Breaker", "From the Vault: Legends", "V11");
   }
 }

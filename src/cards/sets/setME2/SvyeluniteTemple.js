@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SvyeluniteTempleBase = require("../setBTD/SvyeluniteTemple");
 
 class SvyeluniteTemple extends SvyeluniteTempleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Svyelunite Temple", "Masters Edition II", "ME2");
   }
 }

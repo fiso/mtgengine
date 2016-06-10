@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IndexBase = require("../setAPC/Index");
 
 class Index extends IndexBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Index", "Ninth Edition", "9ED");
   }
 }

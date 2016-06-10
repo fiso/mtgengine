@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CruelUltimatumBase = require("../setC13/CruelUltimatum");
 
 class CruelUltimatum extends CruelUltimatumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cruel Ultimatum", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoralFightersBase = require("../setDDI/CoralFighters");
 
 class CoralFighters extends CoralFightersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coral Fighters", "Mirage", "MIR");
   }
 }

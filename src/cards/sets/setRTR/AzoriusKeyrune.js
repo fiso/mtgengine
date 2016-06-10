@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AzoriusKeyruneBase = require("../setC13/AzoriusKeyrune");
 
 class AzoriusKeyrune extends AzoriusKeyruneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Azorius Keyrune", "Return to Ravnica", "RTR");
   }
 }

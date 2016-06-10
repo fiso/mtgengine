@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NecriteBase = require("../setFEM/Necrite");
 
 class Necrite extends NecriteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Necrite", "Masters Edition II", "ME2");
   }
 }

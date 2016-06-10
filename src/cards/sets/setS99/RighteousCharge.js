@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RighteousChargeBase = require("../setGTC/RighteousCharge");
 
 class RighteousCharge extends RighteousChargeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Righteous Charge", "Starter 1999", "S99");
   }
 }

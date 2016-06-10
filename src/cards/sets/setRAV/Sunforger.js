@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SunforgerBase = require("../setMM2/Sunforger");
 
 class Sunforger extends SunforgerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sunforger", "Ravnica: City of Guilds", "RAV");
   }
 }

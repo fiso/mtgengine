@@ -235,3 +235,4 @@ module.exports = {
   YoungPyromancer: require("./YoungPyromancer"),
   ZephyrCharge: require("./ZephyrCharge")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setM14 = module.exports;}

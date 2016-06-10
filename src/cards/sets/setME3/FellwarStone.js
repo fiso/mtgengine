@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FellwarStoneBase = require("../setC15/FellwarStone");
 
 class FellwarStone extends FellwarStoneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fellwar Stone", "Masters Edition III", "ME3");
   }
 }

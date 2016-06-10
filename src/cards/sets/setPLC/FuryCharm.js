@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FuryCharmBase = require("../setMMA/FuryCharm");
 
 class FuryCharm extends FuryCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fury Charm", "Planar Chaos", "PLC");
   }
 }

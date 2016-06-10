@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpellshockBase = require("../setEXO/Spellshock");
 
 class Spellshock extends SpellshockBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spellshock", "Tempest Remastered", "TPR");
   }
 }

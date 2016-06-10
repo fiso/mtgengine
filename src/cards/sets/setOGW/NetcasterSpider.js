@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NetcasterSpiderBase = require("../setDDO/NetcasterSpider");
 
 class NetcasterSpider extends NetcasterSpiderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Netcaster Spider", "Oath of the Gatewatch", "OGW");
   }
 }

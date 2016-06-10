@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlissatheTraitorBase = require("../setMBS/GlissatheTraitor");
 
 class GlissatheTraitor extends GlissatheTraitorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glissa, the Traitor", "Prerelease Events", "pPRE");
   }
 }

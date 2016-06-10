@@ -235,3 +235,4 @@ module.exports = {
   WithstandDeath: require("./WithstandDeath"),
   WurmcoilEngine: require("./WurmcoilEngine")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setSOM = module.exports;}

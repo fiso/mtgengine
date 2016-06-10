@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LatchSeekerBase = require("../setAVR/LatchSeeker");
 
 class LatchSeeker extends LatchSeekerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Latch Seeker", "Magic Game Day", "pMGD");
   }
 }

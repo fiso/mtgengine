@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HadaFreebladeBase = require("../setWWK/HadaFreeblade");
 
 class HadaFreeblade extends HadaFreebladeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hada Freeblade", "WPN and Gateway", "pWPN");
   }
 }

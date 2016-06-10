@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MorphlingBase = require("../setpJGP/Morphling");
 
 class Morphling extends MorphlingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Morphling", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SunscapeBattlemageBase = require("../setDDE/SunscapeBattlemage");
 
 class SunscapeBattlemage extends SunscapeBattlemageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sunscape Battlemage", "Planeshift", "PLS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TriassicEggBase = require("../setCHR/TriassicEgg");
 
 class TriassicEgg extends TriassicEggBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Triassic Egg", "Legends", "LEG");
   }
 }

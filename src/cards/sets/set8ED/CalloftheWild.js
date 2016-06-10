@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CalloftheWildBase = require("../set6ED/CalloftheWild");
 
 class CalloftheWild extends CalloftheWildBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Call of the Wild", "Eighth Edition", "8ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MountainGoatBase = require("../set6ED/MountainGoat");
 
 class MountainGoat extends MountainGoatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mountain Goat", "Fifth Edition", "5ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CelestialArchonBase = require("../setC15/CelestialArchon");
 
 class CelestialArchon extends CelestialArchonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Celestial Archon", "Theros", "THS");
   }
 }

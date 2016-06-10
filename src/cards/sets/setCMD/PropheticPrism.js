@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PropheticPrismBase = require("../setGTC/PropheticPrism");
 
 class PropheticPrism extends PropheticPrismBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Prophetic Prism", "Magic: The Gathering-Commander", "CMD");
   }
 }

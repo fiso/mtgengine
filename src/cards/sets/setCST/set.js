@@ -53,3 +53,4 @@ module.exports = {
   WoollyMammoths: require("./WoollyMammoths"),
   ZuranSpellcaster: require("./ZuranSpellcaster")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setCST = module.exports;}

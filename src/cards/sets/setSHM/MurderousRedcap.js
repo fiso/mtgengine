@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MurderousRedcapBase = require("../setpFNM/MurderousRedcap");
 
 class MurderousRedcap extends MurderousRedcapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Murderous Redcap", "Shadowmoor", "SHM");
   }
 }

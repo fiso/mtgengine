@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GhoulsFeastBase = require("../setDDJ/GhoulsFeast");
 
 class GhoulsFeast extends GhoulsFeastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghoul's Feast", "Mercadian Masques", "MMQ");
   }
 }

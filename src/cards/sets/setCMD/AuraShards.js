@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuraShardsBase = require("../setINV/AuraShards");
 
 class AuraShards extends AuraShardsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aura Shards", "Magic: The Gathering-Commander", "CMD");
   }
 }

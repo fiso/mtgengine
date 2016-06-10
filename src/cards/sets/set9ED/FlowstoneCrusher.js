@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlowstoneCrusherBase = require("../setNMS/FlowstoneCrusher");
 
 class FlowstoneCrusher extends FlowstoneCrusherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flowstone Crusher", "Ninth Edition", "9ED");
   }
 }

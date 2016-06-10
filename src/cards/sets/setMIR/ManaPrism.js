@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ManaPrismBase = require("../set6ED/ManaPrism");
 
 class ManaPrism extends ManaPrismBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mana Prism", "Mirage", "MIR");
   }
 }

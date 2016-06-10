@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulWardenBase = require("../setBRB/SoulWarden");
 
 class SoulWarden extends SoulWardenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Warden", "Ninth Edition", "9ED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SisaysRingBase = require("../set7ED/SisaysRing");
 
 class SisaysRing extends SisaysRingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sisay's Ring", "Visions", "VIS");
   }
 }

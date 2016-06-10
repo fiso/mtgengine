@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AeonChroniclerBase = require("../setDDM/AeonChronicler");
 
 class AeonChronicler extends AeonChroniclerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aeon Chronicler", "Planar Chaos", "PLC");
   }
 }

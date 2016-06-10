@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlindingMageBase = require("../setM10/BlindingMage");
 
 class BlindingMage extends BlindingMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blinding Mage", "Magic 2011", "M11");
   }
 }

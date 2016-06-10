@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreadshipReefBase = require("../setCMD/DreadshipReef");
 
 class DreadshipReef extends DreadshipReefBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dreadship Reef", "Time Spiral", "TSP");
   }
 }

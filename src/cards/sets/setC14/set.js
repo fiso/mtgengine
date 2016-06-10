@@ -323,3 +323,4 @@ module.exports = {
   XathridDemon: require("./XathridDemon"),
   ZoeticCavern: require("./ZoeticCavern")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setC14 = module.exports;}

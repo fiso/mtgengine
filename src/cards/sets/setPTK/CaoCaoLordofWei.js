@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CaoCaoLordofWeiBase = require("../setV11/CaoCaoLordofWei");
 
 class CaoCaoLordofWei extends CaoCaoLordofWeiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cao Cao, Lord of Wei", "Portal Three Kingdoms", "PTK");
   }
 }

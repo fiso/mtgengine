@@ -60,3 +60,4 @@ module.exports = {
   UnholyStrength: require("./UnholyStrength"),
   VenerableMonk: require("./VenerableMonk")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDC = module.exports;}

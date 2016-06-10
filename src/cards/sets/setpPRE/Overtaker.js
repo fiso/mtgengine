@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OvertakerBase = require("../setMMQ/Overtaker");
 
 class Overtaker extends OvertakerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Overtaker", "Prerelease Events", "pPRE");
   }
 }

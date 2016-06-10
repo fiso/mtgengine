@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcboundCrusherBase = require("../setDST/ArcboundCrusher");
 
 class ArcboundCrusher extends ArcboundCrusherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arcbound Crusher", "Planechase", "HOP");
   }
 }

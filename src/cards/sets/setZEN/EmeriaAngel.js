@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EmeriaAngelBase = require("../setpWPN/EmeriaAngel");
 
 class EmeriaAngel extends EmeriaAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Emeria Angel", "Zendikar", "ZEN");
   }
 }

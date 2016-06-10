@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RocofKherRidgesBase = require("../setCED/RocofKherRidges");
 
 class RocofKherRidges extends RocofKherRidgesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Roc of Kher Ridges", "Masters Edition IV", "ME4");
   }
 }

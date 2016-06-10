@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhipcorderBase = require("../setpFNM/Whipcorder");
 
 class Whipcorder extends WhipcorderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whipcorder", "Onslaught", "ONS");
   }
 }

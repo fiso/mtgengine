@@ -246,3 +246,4 @@ module.exports = {
   YavimayaAncients: require("./YavimayaAncients"),
   ZuranSpellcaster: require("./ZuranSpellcaster")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setME2 = module.exports;}

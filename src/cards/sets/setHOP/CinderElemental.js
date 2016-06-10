@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CinderElementalBase = require("../setGTC/CinderElemental");
 
 class CinderElemental extends CinderElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cinder Elemental", "Planechase", "HOP");
   }
 }

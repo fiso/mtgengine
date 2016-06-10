@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AwakenerDruidBase = require("../setM10/AwakenerDruid");
 
 class AwakenerDruid extends AwakenerDruidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Awakener Druid", "Magic 2011", "M11");
   }
 }

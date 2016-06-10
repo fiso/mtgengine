@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DissolveBase = require("../setpFNM/Dissolve");
 
 class Dissolve extends DissolveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dissolve", "Theros", "THS");
   }
 }

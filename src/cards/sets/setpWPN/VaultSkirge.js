@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VaultSkirgeBase = require("../setNPH/VaultSkirge");
 
 class VaultSkirge extends VaultSkirgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vault Skirge", "WPN and Gateway", "pWPN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CathedralSanctifierBase = require("../setAVR/CathedralSanctifier");
 
 class CathedralSanctifier extends CathedralSanctifierBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cathedral Sanctifier", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }
 }

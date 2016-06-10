@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OkkBase = require("../set8ED/Okk");
 
 class Okk extends OkkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Okk", "Seventh Edition", "7ED");
   }
 }

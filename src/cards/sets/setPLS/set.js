@@ -144,3 +144,4 @@ module.exports = {
   WarpedDevotion: require("./WarpedDevotion"),
   WaterspoutElemental: require("./WaterspoutElemental")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPLS = module.exports;}

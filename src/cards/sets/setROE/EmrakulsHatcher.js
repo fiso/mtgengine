@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EmrakulsHatcherBase = require("../setDDP/EmrakulsHatcher");
 
 class EmrakulsHatcher extends EmrakulsHatcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Emrakul's Hatcher", "Rise of the Eldrazi", "ROE");
   }
 }

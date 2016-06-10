@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagmaGiantBase = require("../setC15/MagmaGiant");
 
 class MagmaGiant extends MagmaGiantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magma Giant", "Portal Second Age", "PO2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ObeliskofUndoingBase = require("../setATQ/ObeliskofUndoing");
 
 class ObeliskofUndoing extends ObeliskofUndoingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Obelisk of Undoing", "Fifth Edition", "5ED");
   }
 }

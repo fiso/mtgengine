@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HighTideBase = require("../setFEM/HighTide");
 
 class HighTide extends HighTideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "High Tide", "Media Inserts", "pMEI");
   }
 }

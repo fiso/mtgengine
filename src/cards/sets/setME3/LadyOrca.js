@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LadyOrcaBase = require("../setATH/LadyOrca");
 
 class LadyOrca extends LadyOrcaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lady Orca", "Masters Edition III", "ME3");
   }
 }

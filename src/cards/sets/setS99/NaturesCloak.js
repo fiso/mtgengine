@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NaturesCloakBase = require("../setPOR/NaturesCloak");
 
 class NaturesCloak extends NaturesCloakBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nature's Cloak", "Starter 1999", "S99");
   }
 }

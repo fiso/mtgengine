@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThallidDevourerBase = require("../setFEM/ThallidDevourer");
 
 class ThallidDevourer extends ThallidDevourerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thallid Devourer", "Masters Edition II", "ME2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpontaneousCombustionBase = require("../setCNS/SpontaneousCombustion");
 
 class SpontaneousCombustion extends SpontaneousCombustionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spontaneous Combustion", "Tempest", "TMP");
   }
 }

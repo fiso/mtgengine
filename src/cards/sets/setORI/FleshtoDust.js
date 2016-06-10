@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FleshtoDustBase = require("../setM15/FleshtoDust");
 
 class FleshtoDust extends FleshtoDustBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flesh to Dust", "Magic Origins", "ORI");
   }
 }

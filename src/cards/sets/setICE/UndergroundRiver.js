@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UndergroundRiverBase = require("../set6ED/UndergroundRiver");
 
 class UndergroundRiver extends UndergroundRiverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Underground River", "Ice Age", "ICE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExecutionersCapsuleBase = require("../setMMA/ExecutionersCapsule");
 
 class ExecutionersCapsule extends ExecutionersCapsuleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Executioner's Capsule", "Shards of Alara", "ALA");
   }
 }

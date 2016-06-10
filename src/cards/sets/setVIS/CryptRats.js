@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CryptRatsBase = require("../set7ED/CryptRats");
 
 class CryptRats extends CryptRatsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crypt Rats", "Visions", "VIS");
   }
 }

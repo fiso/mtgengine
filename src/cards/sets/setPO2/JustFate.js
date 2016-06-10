@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JustFateBase = require("../setME4/JustFate");
 
 class JustFate extends JustFateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Just Fate", "Portal Second Age", "PO2");
   }
 }

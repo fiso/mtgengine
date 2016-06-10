@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MetallurgeonBase = require("../setARC/Metallurgeon");
 
 class Metallurgeon extends MetallurgeonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Metallurgeon", "Shards of Alara", "ALA");
   }
 }

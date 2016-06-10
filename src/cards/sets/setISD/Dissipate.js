@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DissipateBase = require("../setDDJ/Dissipate");
 
 class Dissipate extends DissipateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dissipate", "Innistrad", "ISD");
   }
 }

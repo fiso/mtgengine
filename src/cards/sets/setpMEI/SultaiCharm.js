@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SultaiCharmBase = require("../setKTK/SultaiCharm");
 
 class SultaiCharm extends SultaiCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sultai Charm", "Media Inserts", "pMEI");
   }
 }

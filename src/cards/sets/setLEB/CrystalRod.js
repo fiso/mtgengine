@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrystalRodBase = require("../set6ED/CrystalRod");
 
 class CrystalRod extends CrystalRodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crystal Rod", "Limited Edition Beta", "LEB");
   }
 }

@@ -235,3 +235,4 @@ module.exports = {
   XenagostheReveler: require("./XenagostheReveler"),
   YokedOx: require("./YokedOx")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTHS = module.exports;}

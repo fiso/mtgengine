@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NocturnalRaidBase = require("../setMIR/NocturnalRaid");
 
 class NocturnalRaid extends NocturnalRaidBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nocturnal Raid", "Seventh Edition", "7ED");
   }
 }

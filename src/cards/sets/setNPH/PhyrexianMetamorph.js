@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PhyrexianMetamorphBase = require("../setpLPA/PhyrexianMetamorph");
 
 class PhyrexianMetamorph extends PhyrexianMetamorphBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Phyrexian Metamorph", "New Phyrexia", "NPH");
   }
 }

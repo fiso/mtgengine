@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForbiddenAlchemyBase = require("../setDDQ/ForbiddenAlchemy");
 
 class ForbiddenAlchemy extends ForbiddenAlchemyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forbidden Alchemy", "Friday Night Magic", "pFNM");
   }
 }

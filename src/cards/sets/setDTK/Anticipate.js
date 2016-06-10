@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnticipateBase = require("../setBFZ/Anticipate");
 
 class Anticipate extends AnticipateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Anticipate", "Dragons of Tarkir", "DTK");
   }
 }

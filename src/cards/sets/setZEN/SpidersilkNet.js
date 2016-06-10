@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpidersilkNetBase = require("../setDTK/SpidersilkNet");
 
 class SpidersilkNet extends SpidersilkNetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spidersilk Net", "Zendikar", "ZEN");
   }
 }

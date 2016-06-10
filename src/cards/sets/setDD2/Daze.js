@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DazeBase = require("../setDD3_JVC/Daze");
 
 class Daze extends DazeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Daze", "Duel Decks: Jace vs. Chandra", "DD2");
   }
 }

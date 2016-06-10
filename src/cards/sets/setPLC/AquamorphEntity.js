@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AquamorphEntityBase = require("../setDDN/AquamorphEntity");
 
 class AquamorphEntity extends AquamorphEntityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Aquamorph Entity", "Planar Chaos", "PLC");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KeeneyeAvenBase = require("../setLGN/KeeneyeAven");
 
 class KeeneyeAven extends KeeneyeAvenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Keeneye Aven", "Vintage Masters", "VMA");
   }
 }

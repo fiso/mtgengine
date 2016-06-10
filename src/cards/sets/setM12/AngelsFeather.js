@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AngelsFeatherBase = require("../setDST/AngelsFeather");
 
 class AngelsFeather extends AngelsFeatherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Angel's Feather", "Magic 2012", "M12");
   }
 }

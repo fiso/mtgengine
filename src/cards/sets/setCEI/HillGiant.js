@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HillGiantBase = require("../setCED/HillGiant");
 
 class HillGiant extends HillGiantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hill Giant", "International Collector's Edition", "CEI");
   }
 }

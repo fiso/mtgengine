@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MiseBase = require("../setpARL/Mise");
 
 class Mise extends MiseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mise", "Unhinged", "UNH");
   }
 }

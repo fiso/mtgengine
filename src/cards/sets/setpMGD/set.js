@@ -45,3 +45,4 @@ module.exports = {
   ZameckGuildmage: require("./ZameckGuildmage"),
   ZombieApocalypse: require("./ZombieApocalypse")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpMGD = module.exports;}

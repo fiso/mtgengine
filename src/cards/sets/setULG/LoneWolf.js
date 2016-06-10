@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LoneWolfBase = require("../set8ED/LoneWolf");
 
 class LoneWolf extends LoneWolfBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lone Wolf", "Urza's Legacy", "ULG");
   }
 }

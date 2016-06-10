@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MirrorUniverseBase = require("../setLEG/MirrorUniverse");
 
 class MirrorUniverse extends MirrorUniverseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mirror Universe", "Masters Edition", "MED");
   }
 }

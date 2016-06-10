@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlyingCarpetBase = require("../setARN/FlyingCarpet");
 
 class FlyingCarpet extends FlyingCarpetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flying Carpet", "Revised Edition", "3ED");
   }
 }

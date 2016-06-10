@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NaturalizeBase = require("../setDTK/Naturalize");
 
 class Naturalize extends NaturalizeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Naturalize", "Duels of the Planeswalkers", "DPA");
   }
 }

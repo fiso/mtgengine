@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpitemareBase = require("../setDDH/Spitemare");
 
 class Spitemare extends SpitemareBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spitemare", "Eventide", "EVE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TurntimberGroveBase = require("../setDDP/TurntimberGrove");
 
 class TurntimberGrove extends TurntimberGroveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Turntimber Grove", "Zendikar", "ZEN");
   }
 }

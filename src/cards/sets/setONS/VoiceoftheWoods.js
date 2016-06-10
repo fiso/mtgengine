@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VoiceoftheWoodsBase = require("../setDD3_EVG/VoiceoftheWoods");
 
 class VoiceoftheWoods extends VoiceoftheWoodsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Voice of the Woods", "Onslaught", "ONS");
   }
 }

@@ -81,3 +81,4 @@ module.exports = {
   WeeDragonauts: require("./WeeDragonauts"),
   YokeoftheDamned: require("./YokeoftheDamned")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDJ = module.exports;}

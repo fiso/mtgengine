@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WillowPriestessBase = require("../setHML/WillowPriestess");
 
 class WillowPriestess extends WillowPriestessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Willow Priestess", "Masters Edition III", "ME3");
   }
 }

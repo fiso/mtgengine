@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ProhibitBase = require("../setDDM/Prohibit");
 
 class Prohibit extends ProhibitBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Prohibit", "Invasion", "INV");
   }
 }

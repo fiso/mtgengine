@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HypnoticCloudBase = require("../setDDM/HypnoticCloud");
 
 class HypnoticCloud extends HypnoticCloudBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hypnotic Cloud", "Invasion", "INV");
   }
 }

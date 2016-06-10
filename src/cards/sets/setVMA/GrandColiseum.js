@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrandColiseumBase = require("../setONS/GrandColiseum");
 
 class GrandColiseum extends GrandColiseumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grand Coliseum", "Vintage Masters", "VMA");
   }
 }

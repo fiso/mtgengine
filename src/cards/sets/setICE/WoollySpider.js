@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoollySpiderBase = require("../setATH/WoollySpider");
 
 class WoollySpider extends WoollySpiderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Woolly Spider", "Ice Age", "ICE");
   }
 }

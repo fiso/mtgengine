@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HowlingBansheeBase = require("../setDD3_GVL/HowlingBanshee");
 
 class HowlingBanshee extends HowlingBansheeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Howling Banshee", "Magic 2011", "M11");
   }
 }

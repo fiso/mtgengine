@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const StormEntityBase = require("../setFUT/StormEntity");
 
 class StormEntity extends StormEntityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Storm Entity", "Release Events", "pREL");
   }
 }

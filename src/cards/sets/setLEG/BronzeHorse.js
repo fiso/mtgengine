@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BronzeHorseBase = require("../setCHR/BronzeHorse");
 
 class BronzeHorse extends BronzeHorseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bronze Horse", "Legends", "LEG");
   }
 }

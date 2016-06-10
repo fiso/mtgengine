@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PsychatogBase = require("../setpMPR/Psychatog");
 
 class Psychatog extends PsychatogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Psychatog", "Odyssey", "ODY");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathGraspBase = require("../setAPC/DeathGrasp");
 
 class DeathGrasp extends DeathGraspBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Death Grasp", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }
 }

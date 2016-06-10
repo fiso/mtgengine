@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PrairieStreamBase = require("../setBFZ/PrairieStream");
 
 class PrairieStream extends PrairieStreamBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Prairie Stream", "Zendikar Expedition", "EXP");
   }
 }

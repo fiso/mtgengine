@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UrborgSyphonMageBase = require("../setARC/UrborgSyphonMage");
 
 class UrborgSyphonMage extends UrborgSyphonMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Urborg Syphon-Mage", "Time Spiral", "TSP");
   }
 }

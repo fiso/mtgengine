@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TorrentofSoulsBase = require("../setARC/TorrentofSouls");
 
 class TorrentofSouls extends TorrentofSoulsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Torrent of Souls", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }
 }

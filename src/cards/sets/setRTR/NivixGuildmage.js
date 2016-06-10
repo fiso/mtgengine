@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NivixGuildmageBase = require("../setC13/NivixGuildmage");
 
 class NivixGuildmage extends NivixGuildmageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nivix Guildmage", "Return to Ravnica", "RTR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AjanisMantraBase = require("../setDDH/AjanisMantra");
 
 class AjanisMantra extends AjanisMantraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ajani's Mantra", "Magic 2011", "M11");
   }
 }

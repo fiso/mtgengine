@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TempleAcolyteBase = require("../setDDF/TempleAcolyte");
 
 class TempleAcolyte extends TempleAcolyteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Temple Acolyte", "Masters Edition IV", "ME4");
   }
 }

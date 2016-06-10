@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CloudDragonBase = require("../setME4/CloudDragon");
 
 class CloudDragon extends CloudDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cloud Dragon", "Portal", "POR");
   }
 }

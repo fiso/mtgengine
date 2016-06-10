@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChaosOrbBase = require("../setCED/ChaosOrb");
 
 class ChaosOrb extends ChaosOrbBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chaos Orb", "Unlimited Edition", "2ED");
   }
 }

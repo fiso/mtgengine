@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DrainLifeBase = require("../setBTD/DrainLife");
 
 class DrainLife extends DrainLifeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Drain Life", "Friday Night Magic", "pFNM");
   }
 }

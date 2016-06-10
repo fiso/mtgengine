@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScoriaWurmBase = require("../set10E/ScoriaWurm");
 
 class ScoriaWurm extends ScoriaWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scoria Wurm", "Urza's Saga", "USG");
   }
 }

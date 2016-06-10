@@ -146,3 +146,4 @@ module.exports = {
   WolfbriarElemental: require("./WolfbriarElemental"),
   WrexialtheRisenDeep: require("./WrexialtheRisenDeep")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setWWK = module.exports;}

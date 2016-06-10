@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SnowFortressBase = require("../setICE/SnowFortress");
 
 class SnowFortress extends SnowFortressBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Snow Fortress", "Masters Edition II", "ME2");
   }
 }

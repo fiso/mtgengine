@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FosterBase = require("../setC13/Foster");
 
 class Foster extends FosterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Foster", "Mercadian Masques", "MMQ");
   }
 }

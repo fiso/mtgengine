@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WickedRewardBase = require("../setMGB/WickedReward");
 
 class WickedReward extends WickedRewardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wicked Reward", "Visions", "VIS");
   }
 }

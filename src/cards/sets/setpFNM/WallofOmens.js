@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WallofOmensBase = require("../setDDK/WallofOmens");
 
 class WallofOmens extends WallofOmensBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wall of Omens", "Friday Night Magic", "pFNM");
   }
 }

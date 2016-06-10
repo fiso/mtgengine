@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CourtStreetDenizenBase = require("../setDDO/CourtStreetDenizen");
 
 class CourtStreetDenizen extends CourtStreetDenizenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Court Street Denizen", "Gatecrash", "GTC");
   }
 }

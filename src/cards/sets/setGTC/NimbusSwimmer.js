@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NimbusSwimmerBase = require("../setDDO/NimbusSwimmer");
 
 class NimbusSwimmer extends NimbusSwimmerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nimbus Swimmer", "Gatecrash", "GTC");
   }
 }

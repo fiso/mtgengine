@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CracklingDoomBase = require("../setKTK/CracklingDoom");
 
 class CracklingDoom extends CracklingDoomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crackling Doom", "Prerelease Events", "pPRE");
   }
 }

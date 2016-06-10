@@ -71,3 +71,4 @@ module.exports = {
   WornPowerstone: require("./WornPowerstone"),
   YavimayaElder: require("./YavimayaElder")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDE = module.exports;}

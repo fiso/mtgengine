@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VampireBatsBase = require("../setDD3_GVL/VampireBats");
 
 class VampireBats extends VampireBatsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vampire Bats", "Rivals Quick Start Set", "RQS");
   }
 }

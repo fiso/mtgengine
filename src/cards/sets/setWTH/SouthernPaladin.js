@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SouthernPaladinBase = require("../set7ED/SouthernPaladin");
 
 class SouthernPaladin extends SouthernPaladinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Southern Paladin", "Weatherlight", "WTH");
   }
 }

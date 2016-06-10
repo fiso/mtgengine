@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IronclawOrcsBase = require("../setCED/IronclawOrcs");
 
 class IronclawOrcs extends IronclawOrcsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ironclaw Orcs", "International Collector's Edition", "CEI");
   }
 }

@@ -16,3 +16,4 @@ module.exports = {
   SerraAngel: require("./SerraAngel"),
   TarielReckonerofSouls: require("./TarielReckonerofSouls")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV15 = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BravetheElementsBase = require("../setC14/BravetheElements");
 
 class BravetheElements extends BravetheElementsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brave the Elements", "Magic Player Rewards", "pMPR");
   }
 }

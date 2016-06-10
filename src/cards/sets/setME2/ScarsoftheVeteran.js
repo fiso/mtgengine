@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ScarsoftheVeteranBase = require("../setALL/ScarsoftheVeteran");
 
 class ScarsoftheVeteran extends ScarsoftheVeteranBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Scars of the Veteran", "Masters Edition II", "ME2");
   }
 }

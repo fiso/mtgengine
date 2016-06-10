@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PineBarrensBase = require("../setTMP/PineBarrens");
 
 class PineBarrens extends PineBarrensBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pine Barrens", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TetsuoUmezawaBase = require("../setLEG/TetsuoUmezawa");
 
 class TetsuoUmezawa extends TetsuoUmezawaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tetsuo Umezawa", "Masters Edition III", "ME3");
   }
 }

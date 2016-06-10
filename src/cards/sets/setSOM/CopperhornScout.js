@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CopperhornScoutBase = require("../setCNS/CopperhornScout");
 
 class CopperhornScout extends CopperhornScoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Copperhorn Scout", "Scars of Mirrodin", "SOM");
   }
 }

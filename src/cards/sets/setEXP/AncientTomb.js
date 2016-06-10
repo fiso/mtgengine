@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncientTombBase = require("../setV12/AncientTomb");
 
 class AncientTomb extends AncientTombBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancient Tomb", "Zendikar Expedition", "EXP");
   }
 }

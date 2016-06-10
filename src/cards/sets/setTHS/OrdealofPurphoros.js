@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrdealofPurphorosBase = require("../setDDL/OrdealofPurphoros");
 
 class OrdealofPurphoros extends OrdealofPurphorosBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ordeal of Purphoros", "Theros", "THS");
   }
 }

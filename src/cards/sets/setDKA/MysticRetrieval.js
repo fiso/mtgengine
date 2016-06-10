@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MysticRetrievalBase = require("../setC15/MysticRetrieval");
 
 class MysticRetrieval extends MysticRetrievalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mystic Retrieval", "Dark Ascension", "DKA");
   }
 }

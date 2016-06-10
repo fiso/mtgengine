@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BogWitchBase = require("../setARC/BogWitch");
 
 class BogWitch extends BogWitchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bog Witch", "Mercadian Masques", "MMQ");
   }
 }

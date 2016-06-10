@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PenumbraWurmBase = require("../setAPC/PenumbraWurm");
 
 class PenumbraWurm extends PenumbraWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Penumbra Wurm", "Vintage Masters", "VMA");
   }
 }

@@ -93,3 +93,4 @@ module.exports = {
   XiahouDuntheOneEyed: require("./XiahouDuntheOneEyed"),
   YawgmothsWill: require("./YawgmothsWill")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpJGP = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FastbondBase = require("../setCED/Fastbond");
 
 class Fastbond extends FastbondBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fastbond", "Limited Edition Beta", "LEB");
   }
 }

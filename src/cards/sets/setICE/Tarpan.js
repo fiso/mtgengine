@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TarpanBase = require("../set5ED/Tarpan");
 
 class Tarpan extends TarpanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tarpan", "Ice Age", "ICE");
   }
 }

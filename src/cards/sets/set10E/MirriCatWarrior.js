@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MirriCatWarriorBase = require("../setATH/MirriCatWarrior");
 
 class MirriCatWarrior extends MirriCatWarriorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mirri, Cat Warrior", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NoblePurposeBase = require("../set8ED/NoblePurpose");
 
 class NoblePurpose extends NoblePurposeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Noble Purpose", "Mercadian Masques", "MMQ");
   }
 }

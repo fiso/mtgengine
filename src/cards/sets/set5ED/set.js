@@ -435,3 +435,4 @@ module.exports = {
   ZombieMaster: require("./ZombieMaster"),
   ZursWeirding: require("./ZursWeirding")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set5ED = module.exports;}

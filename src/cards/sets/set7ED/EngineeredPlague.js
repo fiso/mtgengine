@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EngineeredPlagueBase = require("../setpFNM/EngineeredPlague");
 
 class EngineeredPlague extends EngineeredPlagueBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Engineered Plague", "Seventh Edition", "7ED");
   }
 }

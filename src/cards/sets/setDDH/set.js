@@ -81,3 +81,4 @@ module.exports = {
   WildNacatl: require("./WildNacatl"),
   WoollyThoctar: require("./WoollyThoctar")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDH = module.exports;}

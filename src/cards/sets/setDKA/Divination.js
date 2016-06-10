@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DivinationBase = require("../setBNG/Divination");
 
 class Divination extends DivinationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Divination", "Dark Ascension", "DKA");
   }
 }

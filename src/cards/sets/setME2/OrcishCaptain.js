@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrcishCaptainBase = require("../setFEM/OrcishCaptain");
 
 class OrcishCaptain extends OrcishCaptainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Orcish Captain", "Masters Edition II", "ME2");
   }
 }

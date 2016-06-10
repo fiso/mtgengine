@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SearingWindBase = require("../set8ED/SearingWind");
 
 class SearingWind extends SearingWindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Searing Wind", "Prophecy", "PCY");
   }
 }

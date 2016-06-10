@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZealousInquisitorBase = require("../set9ED/ZealousInquisitor");
 
 class ZealousInquisitor extends ZealousInquisitorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zealous Inquisitor", "Scourge", "SCG");
   }
 }

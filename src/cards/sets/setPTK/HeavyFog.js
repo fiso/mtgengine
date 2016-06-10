@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeavyFogBase = require("../setME3/HeavyFog");
 
 class HeavyFog extends HeavyFogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heavy Fog", "Portal Three Kingdoms", "PTK");
   }
 }

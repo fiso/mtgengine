@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TolarianAcademyBase = require("../setUSG/TolarianAcademy");
 
 class TolarianAcademy extends TolarianAcademyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tolarian Academy", "Vintage Masters", "VMA");
   }
 }

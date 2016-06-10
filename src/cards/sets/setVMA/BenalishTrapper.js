@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BenalishTrapperBase = require("../setINV/BenalishTrapper");
 
 class BenalishTrapper extends BenalishTrapperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Benalish Trapper", "Vintage Masters", "VMA");
   }
 }

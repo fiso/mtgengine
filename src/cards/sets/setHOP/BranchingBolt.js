@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BranchingBoltBase = require("../setARC/BranchingBolt");
 
 class BranchingBolt extends BranchingBoltBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Branching Bolt", "Planechase", "HOP");
   }
 }

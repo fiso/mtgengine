@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoodfallPrimusBase = require("../setMMA/WoodfallPrimus");
 
 class WoodfallPrimus extends WoodfallPrimusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Woodfall Primus", "Shadowmoor", "SHM");
   }
 }

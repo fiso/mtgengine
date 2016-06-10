@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrzhovGuildgateBase = require("../setC13/OrzhovGuildgate");
 
 class OrzhovGuildgate extends OrzhovGuildgateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Orzhov Guildgate", "Commander 2015", "C15");
   }
 }

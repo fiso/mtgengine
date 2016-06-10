@@ -19,3 +19,4 @@ module.exports = {
   VolcanicHammer: require("./VolcanicHammer"),
   WhirlingDervish: require("./WhirlingDervish")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpSUS = module.exports;}

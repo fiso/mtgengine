@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SwansofBrynArgollBase = require("../setMM2/SwansofBrynArgoll");
 
 class SwansofBrynArgoll extends SwansofBrynArgollBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Swans of Bryn Argoll", "Shadowmoor", "SHM");
   }
 }

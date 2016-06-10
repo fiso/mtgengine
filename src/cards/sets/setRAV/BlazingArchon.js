@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlazingArchonBase = require("../setPD3/BlazingArchon");
 
 class BlazingArchon extends BlazingArchonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blazing Archon", "Ravnica: City of Guilds", "RAV");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PsychicTransferBase = require("../set6ED/PsychicTransfer");
 
 class PsychicTransfer extends PsychicTransferBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Psychic Transfer", "Mirage", "MIR");
   }
 }

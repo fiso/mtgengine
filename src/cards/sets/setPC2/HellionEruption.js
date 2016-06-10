@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HellionEruptionBase = require("../setDDP/HellionEruption");
 
 class HellionEruption extends HellionEruptionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hellion Eruption", "Planechase 2012 Edition", "PC2");
   }
 }

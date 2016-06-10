@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DAvenantArcherBase = require("../setCHR/DAvenantArcher");
 
 class DAvenantArcher extends DAvenantArcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "D'Avenant Archer", "Classic Sixth Edition", "6ED");
   }
 }

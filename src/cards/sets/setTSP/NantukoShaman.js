@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NantukoShamanBase = require("../setMMA/NantukoShaman");
 
 class NantukoShaman extends NantukoShamanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nantuko Shaman", "Time Spiral", "TSP");
   }
 }

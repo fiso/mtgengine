@@ -374,3 +374,4 @@ module.exports = {
   ZuranSpellcaster: require("./ZuranSpellcaster"),
   ZursWeirding: require("./ZursWeirding")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setICE = module.exports;}

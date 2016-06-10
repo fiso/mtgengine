@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HypersonicDragonBase = require("../setpPRE/HypersonicDragon");
 
 class HypersonicDragon extends HypersonicDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hypersonic Dragon", "Return to Ravnica", "RTR");
   }
 }

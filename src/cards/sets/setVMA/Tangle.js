@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TangleBase = require("../setINV/Tangle");
 
 class Tangle extends TangleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tangle", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShieldofKaldraBase = require("../setDST/ShieldofKaldra");
 
 class ShieldofKaldra extends ShieldofKaldraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shield of Kaldra", "Prerelease Events", "pPRE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThoughtlaceBase = require("../setCED/Thoughtlace");
 
 class Thoughtlace extends ThoughtlaceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thoughtlace", "Unlimited Edition", "2ED");
   }
 }

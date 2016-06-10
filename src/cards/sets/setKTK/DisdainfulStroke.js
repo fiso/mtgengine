@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DisdainfulStrokeBase = require("../setpFNM/DisdainfulStroke");
 
 class DisdainfulStroke extends DisdainfulStrokeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Disdainful Stroke", "Khans of Tarkir", "KTK");
   }
 }

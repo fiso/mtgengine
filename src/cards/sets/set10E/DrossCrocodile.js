@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DrossCrocodileBase = require("../set5DN/DrossCrocodile");
 
 class DrossCrocodile extends DrossCrocodileBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dross Crocodile", "Tenth Edition", "10E");
   }
 }

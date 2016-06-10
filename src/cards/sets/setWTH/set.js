@@ -168,3 +168,4 @@ module.exports = {
   XanthicStatue: require("./XanthicStatue"),
   ZombieScavengers: require("./ZombieScavengers")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setWTH = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AzoriusGuildgateBase = require("../setC13/AzoriusGuildgate");
 
 class AzoriusGuildgate extends AzoriusGuildgateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Azorius Guildgate", "Return to Ravnica", "RTR");
   }
 }

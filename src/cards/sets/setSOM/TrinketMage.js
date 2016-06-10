@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrinketMageBase = require("../setDDF/TrinketMage");
 
 class TrinketMage extends TrinketMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trinket Mage", "Scars of Mirrodin", "SOM");
   }
 }

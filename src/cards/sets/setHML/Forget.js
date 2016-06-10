@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForgetBase = require("../set6ED/Forget");
 
 class Forget extends ForgetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forget", "Homelands", "HML");
   }
 }

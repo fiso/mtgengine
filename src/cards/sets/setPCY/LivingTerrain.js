@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LivingTerrainBase = require("../set8ED/LivingTerrain");
 
 class LivingTerrain extends LivingTerrainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Living Terrain", "Prophecy", "PCY");
   }
 }

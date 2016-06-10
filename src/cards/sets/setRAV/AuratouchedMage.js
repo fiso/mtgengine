@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AuratouchedMageBase = require("../setPC2/AuratouchedMage");
 
 class AuratouchedMage extends AuratouchedMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Auratouched Mage", "Ravnica: City of Guilds", "RAV");
   }
 }

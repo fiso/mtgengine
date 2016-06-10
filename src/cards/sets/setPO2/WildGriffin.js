@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildGriffinBase = require("../setM11/WildGriffin");
 
 class WildGriffin extends WildGriffinBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wild Griffin", "Portal Second Age", "PO2");
   }
 }

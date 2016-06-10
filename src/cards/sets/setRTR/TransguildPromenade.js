@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TransguildPromenadeBase = require("../setC13/TransguildPromenade");
 
 class TransguildPromenade extends TransguildPromenadeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Transguild Promenade", "Return to Ravnica", "RTR");
   }
 }

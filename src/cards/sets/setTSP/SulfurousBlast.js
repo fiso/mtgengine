@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SulfurousBlastBase = require("../setCMD/SulfurousBlast");
 
 class SulfurousBlast extends SulfurousBlastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sulfurous Blast", "Time Spiral", "TSP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DidgeridooBase = require("../setHML/Didgeridoo");
 
 class Didgeridoo extends DidgeridooBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Didgeridoo", "Masters Edition III", "ME3");
   }
 }

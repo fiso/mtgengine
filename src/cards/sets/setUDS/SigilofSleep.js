@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SigilofSleepBase = require("../setDDI/SigilofSleep");
 
 class SigilofSleep extends SigilofSleepBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sigil of Sleep", "Urza's Destiny", "UDS");
   }
 }

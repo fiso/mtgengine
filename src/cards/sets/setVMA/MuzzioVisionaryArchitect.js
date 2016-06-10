@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MuzzioVisionaryArchitectBase = require("../setCNS/MuzzioVisionaryArchitect");
 
 class MuzzioVisionaryArchitect extends MuzzioVisionaryArchitectBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Muzzio, Visionary Architect", "Vintage Masters", "VMA");
   }
 }

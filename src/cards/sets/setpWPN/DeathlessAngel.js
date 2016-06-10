@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathlessAngelBase = require("../setROE/DeathlessAngel");
 
 class DeathlessAngel extends DeathlessAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deathless Angel", "WPN and Gateway", "pWPN");
   }
 }

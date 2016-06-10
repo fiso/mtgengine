@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrucibleofFireBase = require("../setM15/CrucibleofFire");
 
 class CrucibleofFire extends CrucibleofFireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Crucible of Fire", "Shards of Alara", "ALA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RitesofInitiationBase = require("../setODY/RitesofInitiation");
 
 class RitesofInitiation extends RitesofInitiationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rites of Initiation", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SunwebBase = require("../set6ED/Sunweb");
 
 class Sunweb extends SunwebBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sunweb", "Mirage", "MIR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BloodriteInvokerBase = require("../setDDP/BloodriteInvoker");
 
 class BloodriteInvoker extends BloodriteInvokerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bloodrite Invoker", "Rise of the Eldrazi", "ROE");
   }
 }

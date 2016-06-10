@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SyphonMindBase = require("../setC14/SyphonMind");
 
 class SyphonMind extends SyphonMindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Syphon Mind", "Magic: The Gathering-Commander", "CMD");
   }
 }

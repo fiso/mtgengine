@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SteadfastGuardBase = require("../setMMQ/SteadfastGuard");
 
 class SteadfastGuard extends SteadfastGuardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Steadfast Guard", "Tenth Edition", "10E");
   }
 }

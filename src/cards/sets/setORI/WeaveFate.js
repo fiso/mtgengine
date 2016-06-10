@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeaveFateBase = require("../setKTK/WeaveFate");
 
 class WeaveFate extends WeaveFateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Weave Fate", "Magic Origins", "ORI");
   }
 }

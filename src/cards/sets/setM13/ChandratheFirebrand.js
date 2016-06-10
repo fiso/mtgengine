@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChandratheFirebrandBase = require("../setM12/ChandratheFirebrand");
 
 class ChandratheFirebrand extends ChandratheFirebrandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Chandra, the Firebrand", "Magic 2013", "M13");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AshmouthHoundBase = require("../setDDK/AshmouthHound");
 
 class AshmouthHound extends AshmouthHoundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ashmouth Hound", "Innistrad", "ISD");
   }
 }

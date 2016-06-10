@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HollowDogsBase = require("../setBTD/HollowDogs");
 
 class HollowDogs extends HollowDogsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hollow Dogs", "Starter 1999", "S99");
   }
 }

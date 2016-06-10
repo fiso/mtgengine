@@ -144,3 +144,4 @@ module.exports = {
   Workhorse: require("./Workhorse"),
   ZealotsenDal: require("./ZealotsenDal")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setEXO = module.exports;}

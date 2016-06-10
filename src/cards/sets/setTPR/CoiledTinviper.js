@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CoiledTinviperBase = require("../setTMP/CoiledTinviper");
 
 class CoiledTinviper extends CoiledTinviperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Coiled Tinviper", "Tempest Remastered", "TPR");
   }
 }

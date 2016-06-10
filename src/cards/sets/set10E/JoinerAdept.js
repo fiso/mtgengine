@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JoinerAdeptBase = require("../set5DN/JoinerAdept");
 
 class JoinerAdept extends JoinerAdeptBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Joiner Adept", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FeastofBloodBase = require("../setpMEI/FeastofBlood");
 
 class FeastofBlood extends FeastofBloodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Feast of Blood", "Zendikar", "ZEN");
   }
 }

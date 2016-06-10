@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BlackManaBatteryBase = require("../set4ED/BlackManaBattery");
 
 class BlackManaBattery extends BlackManaBatteryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Black Mana Battery", "Legends", "LEG");
   }
 }

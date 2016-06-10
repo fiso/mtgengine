@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KrosanWarchiefBase = require("../setC13/KrosanWarchief");
 
 class KrosanWarchief extends KrosanWarchiefBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Krosan Warchief", "Scourge", "SCG");
   }
 }

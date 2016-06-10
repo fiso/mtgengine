@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThalakosScoutBase = require("../setEXO/ThalakosScout");
 
 class ThalakosScout extends ThalakosScoutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thalakos Scout", "Tempest Remastered", "TPR");
   }
 }

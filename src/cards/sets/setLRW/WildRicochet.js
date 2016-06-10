@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WildRicochetBase = require("../setC13/WildRicochet");
 
 class WildRicochet extends WildRicochetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wild Ricochet", "Lorwyn", "LRW");
   }
 }

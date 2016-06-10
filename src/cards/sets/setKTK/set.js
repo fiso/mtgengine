@@ -255,3 +255,4 @@ module.exports = {
   WoollyLoxodon: require("./WoollyLoxodon"),
   ZurgoHelmsmasher: require("./ZurgoHelmsmasher")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setKTK = module.exports;}

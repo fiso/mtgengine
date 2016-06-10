@@ -166,3 +166,4 @@ module.exports = {
   WhimsoftheFates: require("./WhimsoftheFates"),
   XenagosGodofRevels: require("./XenagosGodofRevels")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setBNG = module.exports;}

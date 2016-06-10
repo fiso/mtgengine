@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CouncilsJudgmentBase = require("../setCNS/CouncilsJudgment");
 
 class CouncilsJudgment extends CouncilsJudgmentBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Council's Judgment", "Vintage Masters", "VMA");
   }
 }

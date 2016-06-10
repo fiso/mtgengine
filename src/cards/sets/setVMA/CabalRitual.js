@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CabalRitualBase = require("../setTOR/CabalRitual");
 
 class CabalRitual extends CabalRitualBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cabal Ritual", "Vintage Masters", "VMA");
   }
 }

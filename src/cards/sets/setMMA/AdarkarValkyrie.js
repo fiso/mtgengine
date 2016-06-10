@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AdarkarValkyrieBase = require("../setCSP/AdarkarValkyrie");
 
 class AdarkarValkyrie extends AdarkarValkyrieBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Adarkar Valkyrie", "Modern Masters", "MMA");
   }
 }

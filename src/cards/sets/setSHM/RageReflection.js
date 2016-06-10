@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RageReflectionBase = require("../setDPA/RageReflection");
 
 class RageReflection extends RageReflectionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rage Reflection", "Shadowmoor", "SHM");
   }
 }

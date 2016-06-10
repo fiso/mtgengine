@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GaeasLiegeBase = require("../setCED/GaeasLiege");
 
 class GaeasLiege extends GaeasLiegeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gaea's Liege", "Fourth Edition", "4ED");
   }
 }

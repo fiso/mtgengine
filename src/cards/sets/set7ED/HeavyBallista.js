@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HeavyBallistaBase = require("../set6ED/HeavyBallista");
 
 class HeavyBallista extends HeavyBallistaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Heavy Ballista", "Seventh Edition", "7ED");
   }
 }

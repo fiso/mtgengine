@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RakdosCarnariumBase = require("../setARC/RakdosCarnarium");
 
 class RakdosCarnarium extends RakdosCarnariumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rakdos Carnarium", "Magic: The Gathering-Commander", "CMD");
   }
 }

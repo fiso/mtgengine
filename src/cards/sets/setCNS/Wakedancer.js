@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WakedancerBase = require("../setDKA/Wakedancer");
 
 class Wakedancer extends WakedancerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wakedancer", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

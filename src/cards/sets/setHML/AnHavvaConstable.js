@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnHavvaConstableBase = require("../set5ED/AnHavvaConstable");
 
 class AnHavvaConstable extends AnHavvaConstableBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "An-Havva Constable", "Homelands", "HML");
   }
 }

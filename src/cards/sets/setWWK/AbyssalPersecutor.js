@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AbyssalPersecutorBase = require("../setC14/AbyssalPersecutor");
 
 class AbyssalPersecutor extends AbyssalPersecutorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Abyssal Persecutor", "Worldwake", "WWK");
   }
 }

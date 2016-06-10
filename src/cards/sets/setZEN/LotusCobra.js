@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LotusCobraBase = require("../setpGPX/LotusCobra");
 
 class LotusCobra extends LotusCobraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Lotus Cobra", "Zendikar", "ZEN");
   }
 }

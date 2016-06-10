@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ZealousPersecutionBase = require("../setARB/ZealousPersecution");
 
 class ZealousPersecution extends ZealousPersecutionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Zealous Persecution", "Modern Event Deck 2014", "MD1");
   }
 }

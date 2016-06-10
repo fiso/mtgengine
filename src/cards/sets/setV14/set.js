@@ -16,3 +16,4 @@ module.exports = {
   VirtuesRuin: require("./VirtuesRuin"),
   WrathofGod: require("./WrathofGod")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setV14 = module.exports;}

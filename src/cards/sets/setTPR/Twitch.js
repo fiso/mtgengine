@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TwitchBase = require("../setTMP/Twitch");
 
 class Twitch extends TwitchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Twitch", "Tempest Remastered", "TPR");
   }
 }

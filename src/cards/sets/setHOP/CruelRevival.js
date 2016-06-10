@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CruelRevivalBase = require("../setORI/CruelRevival");
 
 class CruelRevival extends CruelRevivalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cruel Revival", "Planechase", "HOP");
   }
 }

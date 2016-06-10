@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class SultaiSkullkeeper extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sultai Skullkeeper", "Fate Reforged", "FRF");
   }
 }

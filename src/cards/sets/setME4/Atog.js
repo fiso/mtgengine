@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AtogBase = require("../setATQ/Atog");
 
 class Atog extends AtogBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Atog", "Masters Edition IV", "ME4");
   }
 }

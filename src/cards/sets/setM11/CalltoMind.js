@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CalltoMindBase = require("../setC14/CalltoMind");
 
 class CalltoMind extends CalltoMindBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Call to Mind", "Magic 2011", "M11");
   }
 }

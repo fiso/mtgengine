@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BadRiverBase = require("../setMIR/BadRiver");
 
 class BadRiver extends BadRiverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bad River", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MirariBase = require("../setC13/Mirari");
 
 class Mirari extends MirariBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mirari", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

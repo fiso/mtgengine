@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpellBlastBase = require("../set6ED/SpellBlast");
 
 class SpellBlast extends SpellBlastBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spell Blast", "Tempest", "TMP");
   }
 }

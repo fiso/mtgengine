@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SorinLordofInnistradBase = require("../setDKA/SorinLordofInnistrad");
 
 class SorinLordofInnistrad extends SorinLordofInnistradBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sorin, Lord of Innistrad", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }
 }

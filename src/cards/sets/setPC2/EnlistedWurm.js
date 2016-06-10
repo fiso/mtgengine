@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnlistedWurmBase = require("../setARB/EnlistedWurm");
 
 class EnlistedWurm extends EnlistedWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Enlisted Wurm", "Planechase 2012 Edition", "PC2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SyphonLifeBase = require("../setEVE/SyphonLife");
 
 class SyphonLife extends SyphonLifeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Syphon Life", "Modern Masters", "MMA");
   }
 }

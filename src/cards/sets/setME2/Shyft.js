@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ShyftBase = require("../setICE/Shyft");
 
 class Shyft extends ShyftBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Shyft", "Masters Edition II", "ME2");
   }
 }

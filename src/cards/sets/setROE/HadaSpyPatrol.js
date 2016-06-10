@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HadaSpyPatrolBase = require("../setC13/HadaSpyPatrol");
 
 class HadaSpyPatrol extends HadaSpyPatrolBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hada Spy Patrol", "Rise of the Eldrazi", "ROE");
   }
 }

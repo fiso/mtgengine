@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FeralShadowBase = require("../setBTD/FeralShadow");
 
 class FeralShadow extends FeralShadowBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Feral Shadow", "Mirage", "MIR");
   }
 }

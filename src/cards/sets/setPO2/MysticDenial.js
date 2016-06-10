@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MysticDenialBase = require("../setPOR/MysticDenial");
 
 class MysticDenial extends MysticDenialBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mystic Denial", "Portal Second Age", "PO2");
   }
 }

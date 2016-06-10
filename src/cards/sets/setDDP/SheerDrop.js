@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SheerDropBase = require("../setBFZ/SheerDrop");
 
 class SheerDrop extends SheerDropBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sheer Drop", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

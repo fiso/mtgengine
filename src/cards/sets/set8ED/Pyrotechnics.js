@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PyrotechnicsBase = require("../setATH/Pyrotechnics");
 
 class Pyrotechnics extends PyrotechnicsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pyrotechnics", "Eighth Edition", "8ED");
   }
 }

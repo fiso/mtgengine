@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TerohsFaithfulBase = require("../setTOR/TerohsFaithful");
 
 class TerohsFaithful extends TerohsFaithfulBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Teroh's Faithful", "Vintage Masters", "VMA");
   }
 }

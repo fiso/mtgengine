@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ApexHawksBase = require("../setCNS/ApexHawks");
 
 class ApexHawks extends ApexHawksBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Apex Hawks", "Worldwake", "WWK");
   }
 }

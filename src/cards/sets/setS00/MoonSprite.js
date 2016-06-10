@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoonSpriteBase = require("../setPOR/MoonSprite");
 
 class MoonSprite extends MoonSpriteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moon Sprite", "Starter 2000", "S00");
   }
 }

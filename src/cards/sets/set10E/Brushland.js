@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BrushlandBase = require("../setATH/Brushland");
 
 class Brushland extends BrushlandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Brushland", "Tenth Edition", "10E");
   }
 }

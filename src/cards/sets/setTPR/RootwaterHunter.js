@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RootwaterHunterBase = require("../setTMP/RootwaterHunter");
 
 class RootwaterHunter extends RootwaterHunterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rootwater Hunter", "Tempest Remastered", "TPR");
   }
 }

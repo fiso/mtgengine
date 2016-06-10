@@ -255,3 +255,4 @@ module.exports = {
   WorldspineWurm: require("./WorldspineWurm"),
   ZanikevLocust: require("./ZanikevLocust")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setRTR = module.exports;}

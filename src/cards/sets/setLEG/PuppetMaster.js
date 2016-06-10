@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PuppetMasterBase = require("../setCHR/PuppetMaster");
 
 class PuppetMaster extends PuppetMasterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Puppet Master", "Legends", "LEG");
   }
 }

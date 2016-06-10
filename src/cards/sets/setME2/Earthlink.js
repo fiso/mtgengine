@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EarthlinkBase = require("../setICE/Earthlink");
 
 class Earthlink extends EarthlinkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Earthlink", "Masters Edition II", "ME2");
   }
 }

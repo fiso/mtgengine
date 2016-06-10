@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoulKissBase = require("../setICE/SoulKiss");
 
 class SoulKiss extends SoulKissBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Kiss", "Masters Edition II", "ME2");
   }
 }

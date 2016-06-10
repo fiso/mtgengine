@@ -21,3 +21,4 @@ module.exports = {
   YixlidJailer: require("./YixlidJailer"),
   ZoeticCavern: require("./ZoeticCavern")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpGTW = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AzoriusSignetBase = require("../setARC/AzoriusSignet");
 
 class AzoriusSignet extends AzoriusSignetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Azorius Signet", "Dissension", "DIS");
   }
 }

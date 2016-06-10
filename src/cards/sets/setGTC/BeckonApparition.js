@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BeckonApparitionBase = require("../setEVE/BeckonApparition");
 
 class BeckonApparition extends BeckonApparitionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Beckon Apparition", "Gatecrash", "GTC");
   }
 }

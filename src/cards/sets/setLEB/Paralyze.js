@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ParalyzeBase = require("../setCED/Paralyze");
 
 class Paralyze extends ParalyzeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Paralyze", "Limited Edition Beta", "LEB");
   }
 }

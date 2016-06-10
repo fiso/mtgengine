@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireCovenantBase = require("../setICE/FireCovenant");
 
 class FireCovenant extends FireCovenantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire Covenant", "Masters Edition", "MED");
   }
 }

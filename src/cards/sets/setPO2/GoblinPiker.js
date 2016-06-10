@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinPikerBase = require("../setDPA/GoblinPiker");
 
 class GoblinPiker extends GoblinPikerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin Piker", "Portal Second Age", "PO2");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RazorBarrierBase = require("../setDDF/RazorBarrier");
 
 class RazorBarrier extends RazorBarrierBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Razor Barrier", "Mirrodin", "MRD");
   }
 }

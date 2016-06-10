@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RemoveSoulBase = require("../setCHR/RemoveSoul");
 
 class RemoveSoul extends RemoveSoulBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Remove Soul", "Legends", "LEG");
   }
 }

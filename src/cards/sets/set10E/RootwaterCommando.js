@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RootwaterCommandoBase = require("../setNMS/RootwaterCommando");
 
 class RootwaterCommando extends RootwaterCommandoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rootwater Commando", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DacksDuplicateBase = require("../setCNS/DacksDuplicate");
 
 class DacksDuplicate extends DacksDuplicateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dack's Duplicate", "Vintage Masters", "VMA");
   }
 }

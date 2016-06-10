@@ -250,3 +250,4 @@ module.exports = {
   WrapinFlames: require("./WrapinFlames"),
   WreckingBall: require("./WreckingBall")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMM2 = module.exports;}

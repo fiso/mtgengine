@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TajuruArcherBase = require("../setDDP/TajuruArcher");
 
 class TajuruArcher extends TajuruArcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tajuru Archer", "Zendikar", "ZEN");
   }
 }

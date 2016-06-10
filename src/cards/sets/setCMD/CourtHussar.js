@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CourtHussarBase = require("../setDIS/CourtHussar");
 
 class CourtHussar extends CourtHussarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Court Hussar", "Magic: The Gathering-Commander", "CMD");
   }
 }

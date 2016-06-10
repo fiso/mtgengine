@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LlanowarElvesBase = require("../setATH/LlanowarElves");
 
 class LlanowarElves extends LlanowarElvesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Llanowar Elves", "Fifth Edition", "5ED");
   }
 }

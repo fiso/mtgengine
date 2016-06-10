@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnabaShamanBase = require("../set6ED/AnabaShaman");
 
 class AnabaShaman extends AnabaShamanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Anaba Shaman", "Homelands", "HML");
   }
 }

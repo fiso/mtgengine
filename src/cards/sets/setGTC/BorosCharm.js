@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BorosCharmBase = require("../setC13/BorosCharm");
 
 class BorosCharm extends BorosCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Boros Charm", "Gatecrash", "GTC");
   }
 }

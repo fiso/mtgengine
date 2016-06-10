@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RunedStalactiteBase = require("../setLRW/RunedStalactite");
 
 class RunedStalactite extends RunedStalactiteBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Runed Stalactite", "Modern Masters", "MMA");
   }
 }

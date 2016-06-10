@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MulchBase = require("../setC15/Mulch");
 
 class Mulch extends MulchBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mulch", "Innistrad", "ISD");
   }
 }

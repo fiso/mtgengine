@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SkullcageBase = require("../setARC/Skullcage");
 
 class Skullcage extends SkullcageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Skullcage", "Fifth Dawn", "5DN");
   }
 }

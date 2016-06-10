@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WeakstoneBase = require("../setATQ/Weakstone");
 
 class Weakstone extends WeakstoneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Weakstone", "Masters Edition IV", "ME4");
   }
 }

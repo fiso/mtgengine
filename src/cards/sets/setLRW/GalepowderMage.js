@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GalepowderMageBase = require("../setDDI/GalepowderMage");
 
 class GalepowderMage extends GalepowderMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Galepowder Mage", "Lorwyn", "LRW");
   }
 }

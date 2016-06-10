@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FalterBase = require("../setUSG/Falter");
 
 class Falter extends FalterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Falter", "Vintage Masters", "VMA");
   }
 }

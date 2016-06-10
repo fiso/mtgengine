@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathgazerBase = require("../set8ED/Deathgazer");
 
 class Deathgazer extends DeathgazerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deathgazer", "Ninth Edition", "9ED");
   }
 }

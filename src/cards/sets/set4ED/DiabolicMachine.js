@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DiabolicMachineBase = require("../set5ED/DiabolicMachine");
 
 class DiabolicMachine extends DiabolicMachineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Diabolic Machine", "Fourth Edition", "4ED");
   }
 }

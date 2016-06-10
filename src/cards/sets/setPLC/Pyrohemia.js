@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PyrohemiaBase = require("../setCMD/Pyrohemia");
 
 class Pyrohemia extends PyrohemiaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pyrohemia", "Planar Chaos", "PLC");
   }
 }

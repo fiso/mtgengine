@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EliteCatWarriorBase = require("../setME4/EliteCatWarrior");
 
 class EliteCatWarrior extends EliteCatWarriorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Elite Cat Warrior", "Portal", "POR");
   }
 }

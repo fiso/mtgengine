@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TheHiveBase = require("../set6ED/TheHive");
 
 class TheHive extends TheHiveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "The Hive", "Fourth Edition", "4ED");
   }
 }

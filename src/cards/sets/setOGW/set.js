@@ -184,3 +184,4 @@ module.exports = {
   ZendikarResurgent: require("./ZendikarResurgent"),
   ZulaportChainmage: require("./ZulaportChainmage")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setOGW = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HelldozerBase = require("../setHOP/Helldozer");
 
 class Helldozer extends HelldozerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Helldozer", "Ravnica: City of Guilds", "RAV");
   }
 }

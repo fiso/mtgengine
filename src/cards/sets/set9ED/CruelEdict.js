@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CruelEdictBase = require("../setDD3_DVD/CruelEdict");
 
 class CruelEdict extends CruelEdictBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cruel Edict", "Ninth Edition", "9ED");
   }
 }

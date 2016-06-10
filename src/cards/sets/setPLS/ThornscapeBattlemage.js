@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThornscapeBattlemageBase = require("../setDDE/ThornscapeBattlemage");
 
 class ThornscapeBattlemage extends ThornscapeBattlemageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thornscape Battlemage", "Planeshift", "PLS");
   }
 }

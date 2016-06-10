@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DivineInterventionBase = require("../setLEG/DivineIntervention");
 
 class DivineIntervention extends DivineInterventionBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Divine Intervention", "Masters Edition III", "ME3");
   }
 }

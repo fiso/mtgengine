@@ -46,3 +46,4 @@ module.exports = {
   WoodedBastion: require("./WoodedBastion"),
   WoodedFoothills: require("./WoodedFoothills")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setEXP = module.exports;}

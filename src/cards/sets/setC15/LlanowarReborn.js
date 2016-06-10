@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LlanowarRebornBase = require("../setARC/LlanowarReborn");
 
 class LlanowarReborn extends LlanowarRebornBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Llanowar Reborn", "Commander 2015", "C15");
   }
 }

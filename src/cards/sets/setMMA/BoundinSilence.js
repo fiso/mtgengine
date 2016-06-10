@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BoundinSilenceBase = require("../setFUT/BoundinSilence");
 
 class BoundinSilence extends BoundinSilenceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Bound in Silence", "Modern Masters", "MMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ClawsofValakutBase = require("../setDDG/ClawsofValakut");
 
 class ClawsofValakut extends ClawsofValakutBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Claws of Valakut", "Worldwake", "WWK");
   }
 }

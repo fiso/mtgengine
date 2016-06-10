@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncientGrudgeBase = require("../setpFNM/AncientGrudge");
 
 class AncientGrudge extends AncientGrudgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancient Grudge", "Time Spiral", "TSP");
   }
 }

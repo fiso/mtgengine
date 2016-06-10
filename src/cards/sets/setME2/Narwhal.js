@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NarwhalBase = require("../setHML/Narwhal");
 
 class Narwhal extends NarwhalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Narwhal", "Masters Edition II", "ME2");
   }
 }

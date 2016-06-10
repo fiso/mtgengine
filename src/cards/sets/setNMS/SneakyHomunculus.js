@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SneakyHomunculusBase = require("../set8ED/SneakyHomunculus");
 
 class SneakyHomunculus extends SneakyHomunculusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sneaky Homunculus", "Nemesis", "NMS");
   }
 }

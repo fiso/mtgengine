@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeepcavernImpBase = require("../setFUT/DeepcavernImp");
 
 class DeepcavernImp extends DeepcavernImpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Deepcavern Imp", "Modern Masters", "MMA");
   }
 }

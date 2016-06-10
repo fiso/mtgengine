@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FamiliarGroundBase = require("../set6ED/FamiliarGround");
 
 class FamiliarGround extends FamiliarGroundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Familiar Ground", "Weatherlight", "WTH");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArcLightningBase = require("../setpARL/ArcLightning");
 
 class ArcLightning extends ArcLightningBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arc Lightning", "Urza's Saga", "USG");
   }
 }

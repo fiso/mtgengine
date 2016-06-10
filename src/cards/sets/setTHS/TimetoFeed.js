@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TimetoFeedBase = require("../setDDO/TimetoFeed");
 
 class TimetoFeed extends TimetoFeedBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Time to Feed", "Theros", "THS");
   }
 }

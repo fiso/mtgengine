@@ -13,3 +13,4 @@ module.exports = {
   UrzasFactory: require("./UrzasFactory"),
   Voidslime: require("./Voidslime")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpCMP = module.exports;}

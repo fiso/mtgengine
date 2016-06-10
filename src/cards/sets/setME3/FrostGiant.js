@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FrostGiantBase = require("../setLEG/FrostGiant");
 
 class FrostGiant extends FrostGiantBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Frost Giant", "Masters Edition III", "ME3");
   }
 }

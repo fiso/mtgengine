@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PuppeteerCliqueBase = require("../setMM2/PuppeteerClique");
 
 class PuppeteerClique extends PuppeteerCliqueBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Puppeteer Clique", "Shadowmoor", "SHM");
   }
 }

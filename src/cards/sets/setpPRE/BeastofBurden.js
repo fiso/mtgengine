@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BeastofBurdenBase = require("../set8ED/BeastofBurden");
 
 class BeastofBurden extends BeastofBurdenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Beast of Burden", "Prerelease Events", "pPRE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MinamoScrollkeeperBase = require("../setCNS/MinamoScrollkeeper");
 
 class MinamoScrollkeeper extends MinamoScrollkeeperBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Minamo Scrollkeeper", "Saviors of Kamigawa", "SOK");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AlabarasCarpetBase = require("../setLEG/AlabarasCarpet");
 
 class AlabarasCarpet extends AlabarasCarpetBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Al-abara's Carpet", "Masters Edition IV", "ME4");
   }
 }

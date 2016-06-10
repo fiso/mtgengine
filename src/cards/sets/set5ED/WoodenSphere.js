@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WoodenSphereBase = require("../set6ED/WoodenSphere");
 
 class WoodenSphere extends WoodenSphereBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wooden Sphere", "Fifth Edition", "5ED");
   }
 }

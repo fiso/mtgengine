@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MeddleBase = require("../setMIR/Meddle");
 
 class Meddle extends MeddleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Meddle", "Onslaught", "ONS");
   }
 }

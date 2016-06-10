@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireImpBase = require("../setME4/FireImp");
 
 class FireImp extends FireImpBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire Imp", "Portal", "POR");
   }
 }

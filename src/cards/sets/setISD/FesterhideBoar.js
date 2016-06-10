@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FesterhideBoarBase = require("../setDDM/FesterhideBoar");
 
 class FesterhideBoar extends FesterhideBoarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Festerhide Boar", "Innistrad", "ISD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeafdrakeRoostBase = require("../setC13/LeafdrakeRoost");
 
 class LeafdrakeRoost extends LeafdrakeRoostBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leafdrake Roost", "Dissension", "DIS");
   }
 }

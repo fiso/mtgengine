@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IvorytuskFortressBase = require("../setKTK/IvorytuskFortress");
 
 class IvorytuskFortress extends IvorytuskFortressBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ivorytusk Fortress", "Media Inserts", "pMEI");
   }
 }

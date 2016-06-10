@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnnihilateBase = require("../setC13/Annihilate");
 
 class Annihilate extends AnnihilateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Annihilate", "Invasion", "INV");
   }
 }

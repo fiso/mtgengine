@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GeistflameBase = require("../setDDK/Geistflame");
 
 class Geistflame extends GeistflameBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Geistflame", "Innistrad", "ISD");
   }
 }

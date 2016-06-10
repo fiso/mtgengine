@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EnergyFluxBase = require("../setATQ/EnergyFlux");
 
 class EnergyFlux extends EnergyFluxBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Energy Flux", "Fifth Edition", "5ED");
   }
 }

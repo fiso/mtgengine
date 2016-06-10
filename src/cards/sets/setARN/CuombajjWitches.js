@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CuombajjWitchesBase = require("../setATH/CuombajjWitches");
 
 class CuombajjWitches extends CuombajjWitchesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cuombajj Witches", "Arabian Nights", "ARN");
   }
 }

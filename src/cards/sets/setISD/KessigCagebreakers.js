@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KessigCagebreakersBase = require("../setC15/KessigCagebreakers");
 
 class KessigCagebreakers extends KessigCagebreakersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kessig Cagebreakers", "Innistrad", "ISD");
   }
 }

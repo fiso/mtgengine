@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForcedRetreatBase = require("../setME3/ForcedRetreat");
 
 class ForcedRetreat extends ForcedRetreatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forced Retreat", "Portal Three Kingdoms", "PTK");
   }
 }

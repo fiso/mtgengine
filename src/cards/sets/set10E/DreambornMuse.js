@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreambornMuseBase = require("../setLGN/DreambornMuse");
 
 class DreambornMuse extends DreambornMuseBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dreamborn Muse", "Tenth Edition", "10E");
   }
 }

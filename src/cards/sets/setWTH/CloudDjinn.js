@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CloudDjinnBase = require("../setBTD/CloudDjinn");
 
 class CloudDjinn extends CloudDjinnBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cloud Djinn", "Weatherlight", "WTH");
   }
 }

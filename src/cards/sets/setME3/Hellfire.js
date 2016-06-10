@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HellfireBase = require("../setLEG/Hellfire");
 
 class Hellfire extends HellfireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hellfire", "Masters Edition III", "ME3");
   }
 }

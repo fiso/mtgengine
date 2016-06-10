@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AbhorrentOverlordBase = require("../setpPRE/AbhorrentOverlord");
 
 class AbhorrentOverlord extends AbhorrentOverlordBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Abhorrent Overlord", "Theros", "THS");
   }
 }

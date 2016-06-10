@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GenesisBase = require("../setpJGP/Genesis");
 
 class Genesis extends GenesisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Genesis", "Vintage Masters", "VMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HammerofBogardanBase = require("../set6ED/HammerofBogardan");
 
 class HammerofBogardan extends HammerofBogardanBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hammer of Bogardan", "Premium Deck Series: Fire and Lightning", "PD2");
   }
 }

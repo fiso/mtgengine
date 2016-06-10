@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EssenceSliverBase = require("../setLGN/EssenceSliver");
 
 class EssenceSliver extends EssenceSliverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Essence Sliver", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

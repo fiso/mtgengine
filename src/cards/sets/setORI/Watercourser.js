@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WatercourserBase = require("../setM13/Watercourser");
 
 class Watercourser extends WatercourserBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Watercourser", "Magic Origins", "ORI");
   }
 }

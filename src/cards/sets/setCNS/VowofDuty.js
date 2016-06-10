@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VowofDutyBase = require("../setC15/VowofDuty");
 
 class VowofDuty extends VowofDutyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vow of Duty", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

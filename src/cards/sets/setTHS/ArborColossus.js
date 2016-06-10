@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArborColossusBase = require("../setC15/ArborColossus");
 
 class ArborColossus extends ArborColossusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arbor Colossus", "Theros", "THS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TalasResearcherBase = require("../setME4/TalasResearcher");
 
 class TalasResearcher extends TalasResearcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Talas Researcher", "Portal Second Age", "PO2");
   }
 }

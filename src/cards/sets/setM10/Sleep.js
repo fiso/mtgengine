@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SleepBase = require("../setC15/Sleep");
 
 class Sleep extends SleepBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sleep", "Magic 2010", "M10");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnhallowedPactBase = require("../setAVR/UnhallowedPact");
 
 class UnhallowedPact extends UnhallowedPactBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Unhallowed Pact", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

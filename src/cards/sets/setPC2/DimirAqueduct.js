@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DimirAqueductBase = require("../setCMD/DimirAqueduct");
 
 class DimirAqueduct extends DimirAqueductBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dimir Aqueduct", "Planechase 2012 Edition", "PC2");
   }
 }

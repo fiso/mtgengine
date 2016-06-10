@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SnappingDrakeBase = require("../setBTD/SnappingDrake");
 
 class SnappingDrake extends SnappingDrakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Snapping Drake", "Magic 2010", "M10");
   }
 }

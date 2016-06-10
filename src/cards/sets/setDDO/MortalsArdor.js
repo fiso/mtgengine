@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MortalsArdorBase = require("../setBNG/MortalsArdor");
 
 class MortalsArdor extends MortalsArdorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mortal's Ardor", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

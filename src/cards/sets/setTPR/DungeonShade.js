@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DungeonShadeBase = require("../setSTH/DungeonShade");
 
 class DungeonShade extends DungeonShadeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dungeon Shade", "Tempest Remastered", "TPR");
   }
 }

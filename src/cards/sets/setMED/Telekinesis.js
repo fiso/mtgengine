@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TelekinesisBase = require("../setLEG/Telekinesis");
 
 class Telekinesis extends TelekinesisBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Telekinesis", "Masters Edition", "MED");
   }
 }

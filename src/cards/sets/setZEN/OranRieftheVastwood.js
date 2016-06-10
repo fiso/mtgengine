@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OranRieftheVastwoodBase = require("../setC14/OranRieftheVastwood");
 
 class OranRieftheVastwood extends OranRieftheVastwoodBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oran-Rief, the Vastwood", "Zendikar", "ZEN");
   }
 }

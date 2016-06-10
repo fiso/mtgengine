@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PouncingJaguarBase = require("../setpARL/PouncingJaguar");
 
 class PouncingJaguar extends PouncingJaguarBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pouncing Jaguar", "Urza's Saga", "USG");
   }
 }

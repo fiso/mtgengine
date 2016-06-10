@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EvolvingWildsBase = require("../setBFZ/EvolvingWilds");
 
 class EvolvingWilds extends EvolvingWildsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Evolving Wilds", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

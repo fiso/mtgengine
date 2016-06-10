@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AncientDenBase = require("../setMRD/AncientDen");
 
 class AncientDen extends AncientDenBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ancient Den", "Planechase", "HOP");
   }
 }

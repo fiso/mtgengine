@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeoninBladetrapBase = require("../setC13/LeoninBladetrap");
 
 class LeoninBladetrap extends LeoninBladetrapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leonin Bladetrap", "Mirrodin", "MRD");
   }
 }

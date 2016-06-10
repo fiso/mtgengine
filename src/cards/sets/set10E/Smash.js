@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SmashBase = require("../setAPC/Smash");
 
 class Smash extends SmashBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Smash", "Tenth Edition", "10E");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OblivionSowerBase = require("../setBFZ/OblivionSower");
 
 class OblivionSower extends OblivionSowerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Oblivion Sower", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BalduvianHydraBase = require("../setICE/BalduvianHydra");
 
 class BalduvianHydra extends BalduvianHydraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Balduvian Hydra", "Masters Edition II", "ME2");
   }
 }

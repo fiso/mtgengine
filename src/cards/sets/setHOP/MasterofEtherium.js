@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MasterofEtheriumBase = require("../setDDF/MasterofEtherium");
 
 class MasterofEtherium extends MasterofEtheriumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Master of Etherium", "Planechase", "HOP");
   }
 }

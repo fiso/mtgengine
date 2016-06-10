@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BurrowingBase = require("../set6ED/Burrowing");
 
 class Burrowing extends BurrowingBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Burrowing", "Unlimited Edition", "2ED");
   }
 }

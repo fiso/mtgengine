@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MausoleumGuardBase = require("../setDDK/MausoleumGuard");
 
 class MausoleumGuard extends MausoleumGuardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mausoleum Guard", "Innistrad", "ISD");
   }
 }

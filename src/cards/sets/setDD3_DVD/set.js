@@ -57,3 +57,4 @@ module.exports = {
   UnholyStrength: require("./UnholyStrength"),
   VenerableMonk: require("./VenerableMonk")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDD3_DVD = module.exports;}

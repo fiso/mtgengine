@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WakestoneGargoyleBase = require("../setDIS/WakestoneGargoyle");
 
 class WakestoneGargoyle extends WakestoneGargoyleBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wakestone Gargoyle", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

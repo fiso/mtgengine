@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const JacesPhantasmBase = require("../setDDM/JacesPhantasm");
 
 class JacesPhantasm extends JacesPhantasmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Jace's Phantasm", "Magic 2013", "M13");
   }
 }

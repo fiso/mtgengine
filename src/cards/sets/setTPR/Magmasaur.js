@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MagmasaurBase = require("../setTMP/Magmasaur");
 
 class Magmasaur extends MagmasaurBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Magmasaur", "Tempest Remastered", "TPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ExtinguishBase = require("../setPO2/Extinguish");
 
 class Extinguish extends ExtinguishBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Extinguish", "Portal Three Kingdoms", "PTK");
   }
 }

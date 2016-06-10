@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SoaringSeacliffBase = require("../setDDI/SoaringSeacliff");
 
 class SoaringSeacliff extends SoaringSeacliffBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soaring Seacliff", "Zendikar", "ZEN");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GoblinWelderBase = require("../setC14/GoblinWelder");
 
 class GoblinWelder extends GoblinWelderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Goblin Welder", "Urza's Legacy", "ULG");
   }
 }

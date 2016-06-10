@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KorAeronautBase = require("../setDDF/KorAeronaut");
 
 class KorAeronaut extends KorAeronautBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kor Aeronaut", "Zendikar", "ZEN");
   }
 }

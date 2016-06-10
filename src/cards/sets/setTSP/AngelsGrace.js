@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AngelsGraceBase = require("../setMMA/AngelsGrace");
 
 class AngelsGrace extends AngelsGraceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Angel's Grace", "Time Spiral", "TSP");
   }
 }

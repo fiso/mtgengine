@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SeasideCitadelBase = require("../setC13/SeasideCitadel");
 
 class SeasideCitadel extends SeasideCitadelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Seaside Citadel", "Shards of Alara", "ALA");
   }
 }

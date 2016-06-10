@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DuressBase = require("../setpARL/Duress");
 
 class Duress extends DuressBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Duress", "Magic 2010", "M10");
   }
 }

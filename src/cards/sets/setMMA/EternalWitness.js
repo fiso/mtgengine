@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EternalWitnessBase = require("../setC15/EternalWitness");
 
 class EternalWitness extends EternalWitnessBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Eternal Witness", "Modern Masters", "MMA");
   }
 }

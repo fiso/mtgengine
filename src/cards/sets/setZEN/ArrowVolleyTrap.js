@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArrowVolleyTrapBase = require("../setDDN/ArrowVolleyTrap");
 
 class ArrowVolleyTrap extends ArrowVolleyTrapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Arrow Volley Trap", "Zendikar", "ZEN");
   }
 }

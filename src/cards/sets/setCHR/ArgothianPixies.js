@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArgothianPixiesBase = require("../setATQ/ArgothianPixies");
 
 class ArgothianPixies extends ArgothianPixiesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Argothian Pixies", "Chronicles", "CHR");
   }
 }

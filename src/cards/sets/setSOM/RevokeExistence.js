@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RevokeExistenceBase = require("../setBNG/RevokeExistence");
 
 class RevokeExistence extends RevokeExistenceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Revoke Existence", "Scars of Mirrodin", "SOM");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VertigoBase = require("../set6ED/Vertigo");
 
 class Vertigo extends VertigoBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vertigo", "Ice Age", "ICE");
   }
 }

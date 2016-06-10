@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TerritorialBalothBase = require("../setBFZ/TerritorialBaloth");
 
 class TerritorialBaloth extends TerritorialBalothBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Territorial Baloth", "Zendikar", "ZEN");
   }
 }

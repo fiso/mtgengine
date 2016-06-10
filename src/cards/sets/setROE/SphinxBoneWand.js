@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SphinxBoneWandBase = require("../setDDJ/SphinxBoneWand");
 
 class SphinxBoneWand extends SphinxBoneWandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sphinx-Bone Wand", "Rise of the Eldrazi", "ROE");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhiplashTrapBase = require("../setDDN/WhiplashTrap");
 
 class WhiplashTrap extends WhiplashTrapBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whiplash Trap", "Zendikar", "ZEN");
   }
 }

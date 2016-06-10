@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GrinningIgnusBase = require("../setFUT/GrinningIgnus");
 
 class GrinningIgnus extends GrinningIgnusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Grinning Ignus", "Modern Masters", "MMA");
   }
 }

@@ -250,3 +250,4 @@ module.exports = {
   ZarichiTiger: require("./ZarichiTiger"),
   ZhurTaaSwine: require("./ZhurTaaSwine")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setGTC = module.exports;}

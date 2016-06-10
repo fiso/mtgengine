@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AnarchistBase = require("../setEXO/Anarchist");
 
 class Anarchist extends AnarchistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Anarchist", "Odyssey", "ODY");
   }
 }

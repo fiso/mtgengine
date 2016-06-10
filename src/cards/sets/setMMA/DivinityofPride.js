@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DivinityofPrideBase = require("../setC13/DivinityofPride");
 
 class DivinityofPride extends DivinityofPrideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Divinity of Pride", "Modern Masters", "MMA");
   }
 }

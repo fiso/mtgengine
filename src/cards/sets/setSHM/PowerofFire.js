@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PowerofFireBase = require("../setCNS/PowerofFire");
 
 class PowerofFire extends PowerofFireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Power of Fire", "Shadowmoor", "SHM");
   }
 }

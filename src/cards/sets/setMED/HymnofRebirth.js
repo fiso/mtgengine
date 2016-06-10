@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HymnofRebirthBase = require("../setICE/HymnofRebirth");
 
 class HymnofRebirth extends HymnofRebirthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hymn of Rebirth", "Masters Edition", "MED");
   }
 }

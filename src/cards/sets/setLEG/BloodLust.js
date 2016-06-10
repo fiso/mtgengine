@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const BloodLustBase = require("../set5ED/BloodLust");
 
 class BloodLust extends BloodLustBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Blood Lust", "Legends", "LEG");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PlaxmantaBase = require("../setC15/Plaxmanta");
 
 class Plaxmanta extends PlaxmantaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Plaxmanta", "Dissension", "DIS");
   }
 }

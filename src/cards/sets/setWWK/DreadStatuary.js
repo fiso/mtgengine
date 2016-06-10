@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DreadStatuaryBase = require("../setDDM/DreadStatuary");
 
 class DreadStatuary extends DreadStatuaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dread Statuary", "Worldwake", "WWK");
   }
 }

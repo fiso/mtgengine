@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SproutingVinesBase = require("../setC13/SproutingVines");
 
 class SproutingVines extends SproutingVinesBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sprouting Vines", "Scourge", "SCG");
   }
 }

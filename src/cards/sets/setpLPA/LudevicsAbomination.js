@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LudevicsAbominationBase = require("../setISD/LudevicsAbomination");
 
 class LudevicsAbomination extends LudevicsAbominationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ludevic's Abomination", "Launch Parties", "pLPA");
   }
 }

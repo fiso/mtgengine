@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrevasCharmBase = require("../setDDE/TrevasCharm");
 
 class TrevasCharm extends TrevasCharmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treva's Charm", "Planeshift", "PLS");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RockslideElementalBase = require("../setHOP/RockslideElemental");
 
 class RockslideElemental extends RockslideElementalBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rockslide Elemental", "Shards of Alara", "ALA");
   }
 }

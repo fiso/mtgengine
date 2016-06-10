@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarmthBase = require("../set6ED/Warmth");
 
 class Warmth extends WarmthBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Warmth", "Tempest", "TMP");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DuskdaleWurmBase = require("../setDPA/DuskdaleWurm");
 
 class DuskdaleWurm extends DuskdaleWurmBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Duskdale Wurm", "Magic 2013", "M13");
   }
 }

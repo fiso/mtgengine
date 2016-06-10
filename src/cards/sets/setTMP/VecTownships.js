@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VecTownshipsBase = require("../setBRB/VecTownships");
 
 class VecTownships extends VecTownshipsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vec Townships", "Tempest", "TMP");
   }
 }

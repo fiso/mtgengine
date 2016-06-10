@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VodalianKnightsBase = require("../setFEM/VodalianKnights");
 
 class VodalianKnights extends VodalianKnightsBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vodalian Knights", "Masters Edition", "MED");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ViciousHungerBase = require("../setDD3_GVL/ViciousHunger");
 
 class ViciousHunger extends ViciousHungerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vicious Hunger", "Eighth Edition", "8ED");
   }
 }

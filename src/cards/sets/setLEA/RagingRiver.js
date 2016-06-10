@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RagingRiverBase = require("../setCED/RagingRiver");
 
 class RagingRiver extends RagingRiverBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Raging River", "Limited Edition Alpha", "LEA");
   }
 }

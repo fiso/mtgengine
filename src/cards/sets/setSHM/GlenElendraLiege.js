@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlenElendraLiegeBase = require("../setPC2/GlenElendraLiege");
 
 class GlenElendraLiege extends GlenElendraLiegeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glen Elendra Liege", "Shadowmoor", "SHM");
   }
 }

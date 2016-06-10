@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EurekaBase = require("../setLEG/Eureka");
 
 class Eureka extends EurekaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Eureka", "Masters Edition", "MED");
   }
 }

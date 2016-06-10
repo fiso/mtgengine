@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class GhirapurAetherGrid extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ghirapur Æther Grid", "Magic Origins", "ORI");
   }
 }

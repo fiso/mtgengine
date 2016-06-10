@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AzureMageBase = require("../setC14/AzureMage");
 
 class AzureMage extends AzureMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Azure Mage", "Magic 2012", "M12");
   }
 }

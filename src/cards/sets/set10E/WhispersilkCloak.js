@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhispersilkCloakBase = require("../setDST/WhispersilkCloak");
 
 class WhispersilkCloak extends WhispersilkCloakBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whispersilk Cloak", "Tenth Edition", "10E");
   }
 }

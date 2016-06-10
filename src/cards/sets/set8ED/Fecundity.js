@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FecundityBase = require("../setBRB/Fecundity");
 
 class Fecundity extends FecundityBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fecundity", "Eighth Edition", "8ED");
   }
 }

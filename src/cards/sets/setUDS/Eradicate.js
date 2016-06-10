@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const EradicateBase = require("../setBOK/Eradicate");
 
 class Eradicate extends EradicateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Eradicate", "Urza's Destiny", "UDS");
   }
 }

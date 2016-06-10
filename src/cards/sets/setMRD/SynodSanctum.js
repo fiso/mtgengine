@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SynodSanctumBase = require("../setARC/SynodSanctum");
 
 class SynodSanctum extends SynodSanctumBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Synod Sanctum", "Mirrodin", "MRD");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const OrderofLeitburBase = require("../setFEM/OrderofLeitbur");
 
 class OrderofLeitbur extends OrderofLeitburBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Order of Leitbur", "Masters Edition", "MED");
   }
 }

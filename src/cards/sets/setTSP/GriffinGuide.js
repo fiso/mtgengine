@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GriffinGuideBase = require("../setDDH/GriffinGuide");
 
 class GriffinGuide extends GriffinGuideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Griffin Guide", "Time Spiral", "TSP");
   }
 }

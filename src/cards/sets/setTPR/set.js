@@ -255,3 +255,4 @@ module.exports = {
   WoodSage: require("./WoodSage"),
   YouthfulKnight: require("./YouthfulKnight")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTPR = module.exports;}

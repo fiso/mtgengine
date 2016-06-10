@@ -235,3 +235,4 @@ module.exports = {
   WoollyThoctar: require("./WoollyThoctar"),
   YokedPlowbeast: require("./YokedPlowbeast")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setALA = module.exports;}

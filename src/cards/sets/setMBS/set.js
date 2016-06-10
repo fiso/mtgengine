@@ -151,3 +151,4 @@ module.exports = {
   Vivisection: require("./Vivisection"),
   WhiteSunsZenith: require("./WhiteSunsZenith")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setMBS = module.exports;}

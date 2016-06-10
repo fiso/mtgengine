@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ErraticMutationBase = require("../setMMA/ErraticMutation");
 
 class ErraticMutation extends ErraticMutationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Erratic Mutation", "Planar Chaos", "PLC");
   }
 }

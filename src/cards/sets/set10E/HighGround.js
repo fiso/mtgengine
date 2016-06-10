@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HighGroundBase = require("../setEXO/HighGround");
 
 class HighGround extends HighGroundBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "High Ground", "Tenth Edition", "10E");
   }
 }

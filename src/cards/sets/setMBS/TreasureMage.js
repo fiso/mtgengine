@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TreasureMageBase = require("../setpMGD/TreasureMage");
 
 class TreasureMage extends TreasureMageBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Treasure Mage", "Mirrodin Besieged", "MBS");
   }
 }

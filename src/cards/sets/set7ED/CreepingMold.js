@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CreepingMoldBase = require("../setpARL/CreepingMold");
 
 class CreepingMold extends CreepingMoldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Creeping Mold", "Seventh Edition", "7ED");
   }
 }

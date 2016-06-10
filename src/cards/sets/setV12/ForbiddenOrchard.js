@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForbiddenOrchardBase = require("../setCHK/ForbiddenOrchard");
 
 class ForbiddenOrchard extends ForbiddenOrchardBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forbidden Orchard", "From the Vault: Realms", "V12");
   }
 }

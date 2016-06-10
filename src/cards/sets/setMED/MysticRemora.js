@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MysticRemoraBase = require("../setICE/MysticRemora");
 
 class MysticRemora extends MysticRemoraBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mystic Remora", "Masters Edition", "MED");
   }
 }

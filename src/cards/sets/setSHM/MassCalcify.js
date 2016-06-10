@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MassCalcifyBase = require("../setM15/MassCalcify");
 
 class MassCalcify extends MassCalcifyBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mass Calcify", "Shadowmoor", "SHM");
   }
 }

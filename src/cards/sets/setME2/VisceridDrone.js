@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VisceridDroneBase = require("../setALL/VisceridDrone");
 
 class VisceridDrone extends VisceridDroneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Viscerid Drone", "Masters Edition II", "ME2");
   }
 }

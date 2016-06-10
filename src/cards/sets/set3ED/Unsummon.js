@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnsummonBase = require("../set6ED/Unsummon");
 
 class Unsummon extends UnsummonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Unsummon", "Revised Edition", "3ED");
   }
 }

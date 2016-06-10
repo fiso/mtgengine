@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MortalCombatBase = require("../set10E/MortalCombat");
 
 class MortalCombat extends MortalCombatBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mortal Combat", "Torment", "TOR");
   }
 }

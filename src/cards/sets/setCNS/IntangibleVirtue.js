@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IntangibleVirtueBase = require("../setISD/IntangibleVirtue");
 
 class IntangibleVirtue extends IntangibleVirtueBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Intangible Virtue", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

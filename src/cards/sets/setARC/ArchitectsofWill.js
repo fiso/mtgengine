@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ArchitectsofWillBase = require("../setARB/ArchitectsofWill");
 
 class ArchitectsofWill extends ArchitectsofWillBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Architects of Will", "Archenemy", "ARC");
   }
 }

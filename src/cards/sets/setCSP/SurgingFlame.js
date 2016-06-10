@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SurgingFlameBase = require("../setpARL/SurgingFlame");
 
 class SurgingFlame extends SurgingFlameBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Surging Flame", "Coldsnap", "CSP");
   }
 }

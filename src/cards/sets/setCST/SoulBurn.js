@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class SoulBurn extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Soul Burn", "Coldsnap Theme Decks", "CST");
   }
 }

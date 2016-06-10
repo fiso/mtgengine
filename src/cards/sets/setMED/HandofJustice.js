@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HandofJusticeBase = require("../setFEM/HandofJustice");
 
 class HandofJustice extends HandofJusticeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hand of Justice", "Masters Edition", "MED");
   }
 }

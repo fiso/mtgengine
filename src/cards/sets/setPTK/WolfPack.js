@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WolfPackBase = require("../setME2/WolfPack");
 
 class WolfPack extends WolfPackBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Wolf Pack", "Portal Three Kingdoms", "PTK");
   }
 }

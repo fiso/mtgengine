@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TrollhideBase = require("../setM12/Trollhide");
 
 class Trollhide extends TrollhideBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Trollhide", "Magic 2014 Core Set", "M14");
   }
 }

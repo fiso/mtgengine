@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GlassdustHulkBase = require("../setARB/GlassdustHulk");
 
 class GlassdustHulk extends GlassdustHulkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Glassdust Hulk", "Modern Masters 2015 Edition", "MM2");
   }
 }

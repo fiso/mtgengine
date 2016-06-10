@@ -146,3 +146,4 @@ module.exports = {
   ZombieFanboy: require("./ZombieFanboy"),
   ZzzyxassAbyss: require("./ZzzyxassAbyss")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setUNH = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SerraAviaryBase = require("../setHML/SerraAviary");
 
 class SerraAviary extends SerraAviaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Serra Aviary", "Masters Edition IV", "ME4");
   }
 }

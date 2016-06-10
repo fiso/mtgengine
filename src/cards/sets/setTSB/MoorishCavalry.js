@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoorishCavalryBase = require("../setARN/MoorishCavalry");
 
 class MoorishCavalry extends MoorishCavalryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Moorish Cavalry", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

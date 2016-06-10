@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VividGroveBase = require("../setC13/VividGrove");
 
 class VividGrove extends VividGroveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vivid Grove", "Modern Masters", "MMA");
   }
 }

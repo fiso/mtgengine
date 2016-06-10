@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IslandSanctuaryBase = require("../setCED/IslandSanctuary");
 
 class IslandSanctuary extends IslandSanctuaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Island Sanctuary", "Limited Edition Beta", "LEB");
   }
 }

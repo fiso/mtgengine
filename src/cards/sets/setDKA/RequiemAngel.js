@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RequiemAngelBase = require("../setC14/RequiemAngel");
 
 class RequiemAngel extends RequiemAngelBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Requiem Angel", "Dark Ascension", "DKA");
   }
 }

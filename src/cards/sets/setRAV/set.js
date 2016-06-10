@@ -292,3 +292,4 @@ module.exports = {
   WoodwraithStrangler: require("./WoodwraithStrangler"),
   ZephyrSpirit: require("./ZephyrSpirit")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setRAV = module.exports;}

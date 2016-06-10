@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MindShatterBase = require("../setDPA/MindShatter");
 
 class MindShatter extends MindShatterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Mind Shatter", "Morningtide", "MOR");
   }
 }

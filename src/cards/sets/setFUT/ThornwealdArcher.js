@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThornwealdArcherBase = require("../setC14/ThornwealdArcher");
 
 class ThornwealdArcher extends ThornwealdArcherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thornweald Archer", "Future Sight", "FUT");
   }
 }

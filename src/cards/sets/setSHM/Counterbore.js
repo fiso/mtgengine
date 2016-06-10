@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CounterboreBase = require("../setDPA/Counterbore");
 
 class Counterbore extends CounterboreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Counterbore", "Shadowmoor", "SHM");
   }
 }

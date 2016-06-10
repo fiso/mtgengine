@@ -83,3 +83,4 @@ module.exports = {
   WoollySpider: require("./WoollySpider"),
   YavimayaWurm: require("./YavimayaWurm")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setBTD = module.exports;}

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FatedConflagrationBase = require("../setBNG/FatedConflagration");
 
 class FatedConflagration extends FatedConflagrationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fated Conflagration", "Media Inserts", "pMEI");
   }
 }

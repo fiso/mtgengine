@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForkedLightningBase = require("../setME3/ForkedLightning");
 
 class ForkedLightning extends ForkedLightningBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forked Lightning", "Portal", "POR");
   }
 }

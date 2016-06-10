@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HallowedFountainBase = require("../setDIS/HallowedFountain");
 
 class HallowedFountain extends HallowedFountainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hallowed Fountain", "Return to Ravnica", "RTR");
   }
 }

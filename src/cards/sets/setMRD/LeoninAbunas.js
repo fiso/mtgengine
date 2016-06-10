@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LeoninAbunasBase = require("../setARC/LeoninAbunas");
 
 class LeoninAbunas extends LeoninAbunasBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Leonin Abunas", "Mirrodin", "MRD");
   }
 }

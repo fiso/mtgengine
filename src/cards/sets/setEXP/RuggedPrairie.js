@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RuggedPrairieBase = require("../setEVE/RuggedPrairie");
 
 class RuggedPrairie extends RuggedPrairieBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Rugged Prairie", "Zendikar Expedition", "EXP");
   }
 }

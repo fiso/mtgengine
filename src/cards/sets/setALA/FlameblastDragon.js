@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FlameblastDragonBase = require("../setARC/FlameblastDragon");
 
 class FlameblastDragon extends FlameblastDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Flameblast Dragon", "Shards of Alara", "ALA");
   }
 }

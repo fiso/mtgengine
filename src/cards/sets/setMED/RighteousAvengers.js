@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RighteousAvengersBase = require("../setLEG/RighteousAvengers");
 
 class RighteousAvengers extends RighteousAvengersBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Righteous Avengers", "Masters Edition", "MED");
   }
 }

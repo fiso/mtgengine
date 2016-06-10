@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AshnodsBattleGearBase = require("../setATQ/AshnodsBattleGear");
 
 class AshnodsBattleGear extends AshnodsBattleGearBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ashnod's Battle Gear", "Fourth Edition", "4ED");
   }
 }

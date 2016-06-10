@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ForgottenLoreBase = require("../setICE/ForgottenLore");
 
 class ForgottenLore extends ForgottenLoreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Forgotten Lore", "Masters Edition II", "ME2");
   }
 }

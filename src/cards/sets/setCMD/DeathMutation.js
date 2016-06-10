@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DeathMutationBase = require("../setAPC/DeathMutation");
 
 class DeathMutation extends DeathMutationBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Death Mutation", "Magic: The Gathering-Commander", "CMD");
   }
 }

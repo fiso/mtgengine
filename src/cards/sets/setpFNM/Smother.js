@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SmotherBase = require("../setDDP/Smother");
 
 class Smother extends SmotherBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Smother", "Friday Night Magic", "pFNM");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const KeiTakahashiBase = require("../setCHR/KeiTakahashi");
 
 class KeiTakahashi extends KeiTakahashiBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Kei Takahashi", "Legends", "LEG");
   }
 }

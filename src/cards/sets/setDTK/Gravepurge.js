@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GravepurgeBase = require("../setDKA/Gravepurge");
 
 class Gravepurge extends GravepurgeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gravepurge", "Dragons of Tarkir", "DTK");
   }
 }

@@ -71,3 +71,4 @@ module.exports = {
   VeteranWarleader: require("./VeteranWarleader"),
   WildheartInvoker: require("./WildheartInvoker")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDP = module.exports;}

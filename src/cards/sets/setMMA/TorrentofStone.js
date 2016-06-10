@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TorrentofStoneBase = require("../setBOK/TorrentofStone");
 
 class TorrentofStone extends TorrentofStoneBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Torrent of Stone", "Modern Masters", "MMA");
   }
 }

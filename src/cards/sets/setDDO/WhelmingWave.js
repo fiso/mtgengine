@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhelmingWaveBase = require("../setBNG/WhelmingWave");
 
 class WhelmingWave extends WhelmingWaveBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whelming Wave", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }
 }

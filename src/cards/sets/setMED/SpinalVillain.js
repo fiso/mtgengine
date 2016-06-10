@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SpinalVillainBase = require("../setLEG/SpinalVillain");
 
 class SpinalVillain extends SpinalVillainBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Spinal Villain", "Masters Edition", "MED");
   }
 }

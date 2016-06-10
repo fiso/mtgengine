@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VigilantDrakeBase = require("../setBTD/VigilantDrake");
 
 class VigilantDrake extends VigilantDrakeBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vigilant Drake", "Seventh Edition", "7ED");
   }
 }

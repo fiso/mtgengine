@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HellsThunderBase = require("../setDDN/HellsThunder");
 
 class HellsThunder extends HellsThunderBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hell's Thunder", "Shards of Alara", "ALA");
   }
 }

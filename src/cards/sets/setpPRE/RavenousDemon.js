@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RavenousDemonBase = require("../setDKA/RavenousDemon");
 
 class RavenousDemon extends RavenousDemonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ravenous Demon", "Prerelease Events", "pPRE");
   }
 }

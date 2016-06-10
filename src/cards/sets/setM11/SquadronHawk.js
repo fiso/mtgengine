@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SquadronHawkBase = require("../setpFNM/SquadronHawk");
 
 class SquadronHawk extends SquadronHawkBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Squadron Hawk", "Magic 2011", "M11");
   }
 }

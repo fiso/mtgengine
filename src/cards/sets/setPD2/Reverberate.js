@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ReverberateBase = require("../setM11/Reverberate");
 
 class Reverberate extends ReverberateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Reverberate", "Premium Deck Series: Fire and Lightning", "PD2");
   }
 }

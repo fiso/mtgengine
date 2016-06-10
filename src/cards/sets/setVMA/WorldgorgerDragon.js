@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WorldgorgerDragonBase = require("../setJUD/WorldgorgerDragon");
 
 class WorldgorgerDragon extends WorldgorgerDragonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Worldgorger Dragon", "Vintage Masters", "VMA");
   }
 }

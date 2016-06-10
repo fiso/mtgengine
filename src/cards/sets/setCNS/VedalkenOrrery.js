@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VedalkenOrreryBase = require("../set5DN/VedalkenOrrery");
 
 class VedalkenOrrery extends VedalkenOrreryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vedalken Orrery", "Magic: The Gathering—Conspiracy", "CNS");
   }
 }

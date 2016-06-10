@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DregManglerBase = require("../setDDJ/DregMangler");
 
 class DregMangler extends DregManglerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dreg Mangler", "Media Inserts", "pMEI");
   }
 }

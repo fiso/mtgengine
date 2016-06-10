@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WintersGraspBase = require("../setPOR/WintersGrasp");
 
 class WintersGrasp extends WintersGraspBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Winter's Grasp", "Tempest", "TMP");
   }
 }

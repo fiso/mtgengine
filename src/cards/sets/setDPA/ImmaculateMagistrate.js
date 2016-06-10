@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ImmaculateMagistrateBase = require("../setC14/ImmaculateMagistrate");
 
 class ImmaculateMagistrate extends ImmaculateMagistrateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Immaculate Magistrate", "Duels of the Planeswalkers", "DPA");
   }
 }

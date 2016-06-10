@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DominateBase = require("../setC15/Dominate");
 
 class Dominate extends DominateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dominate", "Nemesis", "NMS");
   }
 }

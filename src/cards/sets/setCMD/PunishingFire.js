@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PunishingFireBase = require("../setDDG/PunishingFire");
 
 class PunishingFire extends PunishingFireBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Punishing Fire", "Magic: The Gathering-Commander", "CMD");
   }
 }

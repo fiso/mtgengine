@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ProgenitusBase = require("../setCON/Progenitus");
 
 class Progenitus extends ProgenitusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Progenitus", "Modern Masters", "MMA");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CrypticCommandBase = require("../setLRW/CrypticCommand");
 
 class CrypticCommand extends CrypticCommandBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cryptic Command", "Magic Player Rewards", "pMPR");
   }
 }

@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const NightveilSpecterBase = require("../setGTC/NightveilSpecter");
 
 class NightveilSpecter extends NightveilSpecterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Nightveil Specter", "Media Inserts", "pMEI");
   }
 }

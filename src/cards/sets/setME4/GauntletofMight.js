@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GauntletofMightBase = require("../setCED/GauntletofMight");
 
 class GauntletofMight extends GauntletofMightBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gauntlet of Might", "Masters Edition IV", "ME4");
   }
 }

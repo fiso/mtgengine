@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const MoltenDisasterBase = require("../setC13/MoltenDisaster");
 
 class MoltenDisaster extends MoltenDisasterBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Molten Disaster", "Future Sight", "FUT");
   }
 }

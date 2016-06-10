@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const HungryMistBase = require("../set5ED/HungryMist");
 
 class HungryMist extends HungryMistBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Hungry Mist", "Homelands", "HML");
   }
 }

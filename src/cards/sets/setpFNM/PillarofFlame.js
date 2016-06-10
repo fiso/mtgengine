@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PillarofFlameBase = require("../setAVR/PillarofFlame");
 
 class PillarofFlame extends PillarofFlameBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pillar of Flame", "Friday Night Magic", "pFNM");
   }
 }

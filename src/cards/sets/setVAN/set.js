@@ -107,3 +107,4 @@ module.exports = {
   Volrath: require("./Volrath"),
   Xantcha: require("./Xantcha")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setVAN = module.exports;}

@@ -72,3 +72,4 @@ module.exports = {
   WallofOmens: require("./WallofOmens"),
   ZealousPersecution: require("./ZealousPersecution")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setDDK = module.exports;}

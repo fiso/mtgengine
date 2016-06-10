@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ChoMannoRevolutionaryBase = require("../setMMQ/ChoMannoRevolutionary");
 
 class ChoMannoRevolutionary extends ChoMannoRevolutionaryBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Cho-Manno, Revolutionary", "Tenth Edition", "10E");
   }
 }

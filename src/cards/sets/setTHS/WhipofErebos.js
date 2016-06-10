@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WhipofErebosBase = require("../setCPK/WhipofErebos");
 
 class WhipofErebos extends WhipofErebosBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Whip of Erebos", "Theros", "THS");
   }
 }

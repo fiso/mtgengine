@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const AgoraphobiaBase = require("../setDDM/Agoraphobia");
 
 class Agoraphobia extends AgoraphobiaBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Agoraphobia", "Gatecrash", "GTC");
   }
 }

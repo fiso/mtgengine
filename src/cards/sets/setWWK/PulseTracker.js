@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const PulseTrackerBase = require("../setDDM/PulseTracker");
 
 class PulseTracker extends PulseTrackerBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Pulse Tracker", "Worldwake", "WWK");
   }
 }

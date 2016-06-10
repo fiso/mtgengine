@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const SporolothAncientBase = require("../setFUT/SporolothAncient");
 
 class SporolothAncient extends SporolothAncientBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Sporoloth Ancient", "Modern Masters", "MMA");
   }
 }

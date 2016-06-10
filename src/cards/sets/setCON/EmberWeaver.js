@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const UnimplementedCard = require("../../UnimplementedCard");
 
 class EmberWeaver extends UnimplementedCard {
-  constructor(game) {
+  constructor (game) {
     super(game, "Ember Weaver", "Conflux", "CON");
   }
 }

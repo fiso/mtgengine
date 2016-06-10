@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const GemstoneMineBase = require("../setpJGP/GemstoneMine");
 
 class GemstoneMine extends GemstoneMineBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Gemstone Mine", "Time Spiral \"Timeshifted\"", "TSB");
   }
 }

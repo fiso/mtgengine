@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VenomBase = require("../set5ED/Venom");
 
 class Venom extends VenomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Venom", "Fourth Edition", "4ED");
   }
 }

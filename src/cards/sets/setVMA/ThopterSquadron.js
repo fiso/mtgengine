@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const ThopterSquadronBase = require("../setEXO/ThopterSquadron");
 
 class ThopterSquadron extends ThopterSquadronBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Thopter Squadron", "Vintage Masters", "VMA");
   }
 }

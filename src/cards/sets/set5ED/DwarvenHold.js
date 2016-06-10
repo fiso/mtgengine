@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DwarvenHoldBase = require("../setFEM/DwarvenHold");
 
 class DwarvenHold extends DwarvenHoldBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Dwarven Hold", "Fifth Edition", "5ED");
   }
 }

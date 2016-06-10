@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const DouseinGloomBase = require("../setFRF/DouseinGloom");
 
 class DouseinGloom extends DouseinGloomBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Douse in Gloom", "Guildpact", "GPT");
   }
 }

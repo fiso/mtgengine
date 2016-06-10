@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const IcyPrisonBase = require("../setICE/IcyPrison");
 
 class IcyPrison extends IcyPrisonBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Icy Prison", "Masters Edition II", "ME2");
   }
 }

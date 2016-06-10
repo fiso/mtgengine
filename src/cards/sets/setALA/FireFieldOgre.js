@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FireFieldOgreBase = require("../setDDH/FireFieldOgre");
 
 class FireFieldOgre extends FireFieldOgreBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Fire-Field Ogre", "Shards of Alara", "ALA");
   }
 }

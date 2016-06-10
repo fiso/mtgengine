@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const LifeChiselBase = require("../setLEG/LifeChisel");
 
 class LifeChisel extends LifeChiselBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Life Chisel", "Masters Edition III", "ME3");
   }
 }

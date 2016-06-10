@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const TetravusBase = require("../setATQ/Tetravus");
 
 class Tetravus extends TetravusBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Tetravus", "Fourth Edition", "4ED");
   }
 }

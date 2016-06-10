@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const CompellingDeterrenceBase = require("../setDDQ/CompellingDeterrence");
 
 class CompellingDeterrence extends CompellingDeterrenceBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Compelling Deterrence", "Shadows over Innistrad", "SOI");
   }
 }

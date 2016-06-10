@@ -336,3 +336,4 @@ module.exports = {
   YavimayaEnchantress: require("./YavimayaEnchantress"),
   YawgmothsEdict: require("./YawgmothsEdict")
 };
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.set7ED = module.exports;}

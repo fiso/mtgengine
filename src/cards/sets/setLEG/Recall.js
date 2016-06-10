@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const RecallBase = require("../setCHR/Recall");
 
 class Recall extends RecallBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Recall", "Legends", "LEG");
   }
 }

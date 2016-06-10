@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const FeastoftheUnicornBase = require("../setATH/FeastoftheUnicorn");
 
 class FeastoftheUnicorn extends FeastoftheUnicornBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Feast of the Unicorn", "Homelands", "HML");
   }
 }

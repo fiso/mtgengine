@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const WarriorsHonorBase = require("../setATH/WarriorsHonor");
 
 class WarriorsHonor extends WarriorsHonorBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Warrior's Honor", "Tenth Edition", "10E");
   }
 }

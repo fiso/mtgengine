@@ -3,7 +3,7 @@ const Constants = require ("../../../Constants");
 const VindicateBase = require("../setAPC/Vindicate");
 
 class Vindicate extends VindicateBase {
-  constructor(game) {
+  constructor (game) {
     super(game, "Vindicate", "Judge Gift Program", "pJGP");
   }
 }
