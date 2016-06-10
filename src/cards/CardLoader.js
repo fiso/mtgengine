@@ -5,7 +5,7 @@ class CardLoader {
   constructor (cardName, setName, setCode, game) {
     let safeCardName = this.getSafeCardName(cardName);
 
-    if (window) {
+    if (!global) {  // FIXME: This should check if we're in the browser. Can't use window object or Mocha crashes?
       let importString = `js/bundles/set${setCode}/set`;
       this._promise = new Promise((resolve, reject) => {
         requirejs([importString], function(set) {

@@ -54,6 +54,13 @@ Sideboard:
 1 Spellskite
 2 Stony Silence`;
 
+const monoredList =
+`40 Mountain
+20 Lightning Bolt
+Sideboard:
+
+15 Goblin Bully`;
+
 function handleNewTime (data) {
 	document.getElementById("turn-number").innerHTML = data.turnNumber;
 	document.getElementById("active-player-name").innerHTML = data.activePlayer._guid.replace("_", " ");
@@ -139,7 +146,7 @@ function processOutputs() {
 window.startGame = function () {
 	let game = new Game.Game(2, 0, false,
 		[new Deck.Deck(new Deck.StringLoader(kikiChordList)),
-		 new Deck.Deck(new Deck.StringLoader(kikiChordList))]);
+		 new Deck.Deck(new Deck.StringLoader(monoredList))]);
 	window.game = game;
 
 	game.ready().then(() => {

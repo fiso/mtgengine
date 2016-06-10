@@ -1,10 +1,16 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const Card = require("../../../objects/Card");
 
-class Mountain extends UnimplementedCard {
+class Mountain extends Card {
   constructor (game) {
     super(game, "Mountain", "Anthologies", "ATH");
+
+    this.addAbility(
+      [],
+      (controller, modes, targets, parameters) => {
+        controller.addToManaPool(Constants.manaTypes.RED, 1);
+      }, true);
   }
 }
 

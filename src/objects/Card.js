@@ -3,6 +3,7 @@ const _ = require("underscore");
 const MTGObject = require("./MTGObject");
 const Constants = require("../Constants");
 const assert = require("assert");
+const Cost = require("../Cost");
 
 class Card extends MTGObject {
   constructor (game, cardName, setName, setCode) {
@@ -18,6 +19,7 @@ class Card extends MTGObject {
     this._imageUrl = "";
     this._setName = setName;
     this._setCode = setCode;
+    this._cost = undefined;
 
     this._promise = new Promise((resolve, reject) => {
       this._game._cardApi.getCard(cardName, setName, setCode).then((card) => {
@@ -97,12 +99,16 @@ class Card extends MTGObject {
     return false;
   }
 
-  resolve () {
+  resolve (controller, targets) {
     this._game.log("Card resolves");
   }
 
   get cost () {
-    return {};
+    return this._cost;
+  }
+
+  set cost (costString) {
+    this._cost = new Cost(costString);
   }
 
   placeInZone (zone) {
