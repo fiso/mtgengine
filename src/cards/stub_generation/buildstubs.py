@@ -151,6 +151,7 @@ if __name__ == "__main__":
 					firstCard = False
 
 				setJs.write("\n};\n")
+				setJs.write("if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.%s = module.exports;}" % mtgSet["folderName"])
 
 			if not firstSet:
 				setsJs.write(",\n")

@@ -137,7 +137,7 @@ class Player {
         cardsDiscarded += card ? 1 : 0;
       }
       if (cardsDiscarded > 0) {
-        this._game.log("Active player discarded " + cardsDiscarded + " cards");
+        this._game.log(`Active player discarded ${cardsDiscarded} cards`);
       }
     }
   }
@@ -149,7 +149,7 @@ class Player {
       this._life -= amount;
     }
 
-    this._game.log(this._guid + " takes " + amount + " damage from " + sourceId + ". Life total: " + this._life + " Poision counters: " + this._poisonCounters);
+    this._game.log(`${this._guid} takes ${amount} damage from ${sourceId}. Life total: ${this._life} Poision counters: ${this._poisonCounters}`);
   }
 
   concede () {
@@ -180,10 +180,10 @@ class Player {
     let card = this._library.drawCard();
     if (!card) {
       this._triedToDrawFromEmptyLibrary = true;
-      this._game.log(this._guid + " tried to draw from an empty library");
+      this._game.log(`${this._guid} tried to draw from an empty library`);
     } else {
       this._hand.addObject(card);
-      this._game.log(this._guid + " draws " + card._name + ". " + this._library.objects.length + " cards left in library.");
+      this._game.log(`${this._guid} draws ${card._name}. ${this._library.objects.length} cards left in library.`);
     }
   }
 
@@ -240,14 +240,14 @@ class Player {
     let cost = card.cost;
     let hasUnpaidCosts = false;
     for (let manaType in cost.mana) {
-      this._game.log("cost: " + cost.mana[manaType] + " " + manaType);
+      this._game.log(`Cost: ${cost.mana[manaType]} ${manaType}`);
       if (manaType === Constants.costs.GENERIC) {
         this._game.log("FIXME: Considering generic mana to be auto-paid");
       } else if (!this._manaPool[manaType] ||
         (this._manaPool[manaType] < cost.mana[manaType])) {
         hasUnpaidCosts = true;
       } else {
-        this._game.log("Pool has " + this._manaPool[manaType]);
+        this._game.log(`Pool has ${this._manaPool[manaType]}`);
         this._manaPool[manaType] -= cost.mana[manaType];
       }
     }
@@ -278,7 +278,7 @@ class Player {
       this._manaPool[mana] = 0;
     }
 
-    this._game.log("ADDING TO MANA POOL: ", mana, amount);
+    this._game.log(`ADDING TO MANA POOL: ${mana} ${amount}`);
     this._manaPool[mana] += amount;
   }
 

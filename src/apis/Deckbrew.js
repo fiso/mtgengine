@@ -56,40 +56,27 @@ class Deckbrew extends CardFetcher {
               }
             }
 
-            /*
+            /**/
             // Pick out the best matching edition that has a non-null image
             let edition = card.editions[0];
             bestMatch = -1;
-            for (let editionIter of card.editions) {
-              if (editionIter.image_url.indexOf("/0.jpg") !== -1) {
-                continue;
-              }
 
-              if (setName) {
-                // If we were given a specific set...
-                let pos = editionIter["set"].toLowerCase().indexOf(setName.toLowerCase());
-                if (pos === -1) {
-                  continue;
-                }
-                if (pos < bestMatch) {
-                  bestMatch = pos;
-                  edition = editionIter;
-                }
-              } else {
-                // If set doesn't matter
+            for (let editionIter of card.editions) {
+              if (editionIter.image_url.indexOf("/0.jpg") === -1) {
                 edition = editionIter;
                 break;
               }
             }
 
             let cardPrinting = JSON.parse(JSON.stringify(card));  // Deep copy
-            delete cardPrinting.editions;
-            cardPrinting.printing = JSON.parse(JSON.stringify(edition));
-            */
+            //delete cardPrinting.editions;
+            //cardPrinting.printing = JSON.parse(JSON.stringify(edition));
+            cardPrinting.editions = [JSON.parse(JSON.stringify(edition))];
+            /**/
 
-            this.setObject(keyName, card);
+            this.setObject(keyName, cardPrinting);
             delete this._pendingRequests[keyName];
-            resolve(card);
+            resolve(cardPrinting);
           });
         }).end();
       });

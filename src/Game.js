@@ -59,7 +59,7 @@ class Game {
   }
 
   logCurrentGameTime () {
-    this.log("== It is now the " + this.getStepName(this._currentStep) + " step ==");
+    this.log(`== It is now the ${this.getStepName(this._currentStep)} step ==`);
   }
 
   ready () {
@@ -214,7 +214,7 @@ class Game {
       }
     } else {
       this._turnNumber++;
-      this.log("\n>>>>>>>>>>>>>> TURN " + this._turnNumber + " <<<<<<<<<<<<<<")
+      this.log(`\n>>>>>>>>>>>>>> TURN ${this._turnNumber} <<<<<<<<<<<<<<`);
       this._activePlayer = this.getNextPlayer(this._activePlayer);
       this._currentStep = Constants.steps.UNTAP;
       for (let player of this._players) {
@@ -335,7 +335,7 @@ class Game {
   }
 
   handleGameWon (winner) {
-    this.log(winner._guid + " has won the game!");
+    this.log(`${winner._guid} has won the game!`);
     throw new GameOver(winner);
   }
 
@@ -375,7 +375,7 @@ class Game {
   handleInput (player, input, data) {
     this.performAllStateBasedActions();
 
-    this.log(">> " + player._guid + " " + input);
+    this.log(`>> ${player._guid} ${input}`);
     switch(input) {
       case Inputs.PASS_PRIORITY:
         this.passPriority(player);

@@ -7,6 +7,7 @@
 		<title>MTG Engine</title>
 		<link rel="stylesheet" href="css/base.css" />
 		<script src="js/bundle.js"></script>
+		<script src="js/require.js"></script>
 	</head>
 
 	<body>
@@ -56,6 +57,11 @@
 		<script>
 			(function () {
 				window.startGame();
+				/*
+				requirejs(["js/bundles/set10E/set"], function(set) {
+					debugger;
+				});
+				*/
 			})();
 		</script>
 	</body>

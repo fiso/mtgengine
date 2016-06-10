@@ -1,15 +1,27 @@
 "use strict";
 const Utils = require("../Utils");
 
-// const sets = require("./sets/sets");
-
 class CardLoader {
   constructor (cardName, setName, setCode, game) {
     let safeCardName = this.getSafeCardName(cardName);
-    let importString = "./sets/set" + setCode + "/" + safeCardName;
-    let cardClass = require(importString);
-    let card = new cardClass(game, cardName, setName, setCode);
-    this._promise = card.ready();
+
+    if (window) {
+      let importString = `js/bundles/set${setCode}/set`;
+      this._promise = new Promise((resolve, reject) => {
+        requirejs([importString], function(set) {
+          let cardClass = window.mtgSets[`set${setCode}`][safeCardName];
+          let card = new cardClass(game, cardName, setName, setCode);
+          card.ready().then(() => {
+            resolve(card);
+          });
+        });
+      });
+    } else {
+      let importString = `./sets/set${setCode}/${safeCardName}`;
+      let cardClass = require(importString);
+      let card = new cardClass(game, cardName, setName, setCode);
+      this._promise = card.ready();
+    }
   }
 
   ready () {
