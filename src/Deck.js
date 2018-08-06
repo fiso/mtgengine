@@ -1,4 +1,5 @@
 "use strict";
+const fetch = require("cross-fetch");
 const fs = require("fs");
 const http = require("http");
 const Utils = require("./Utils");
@@ -90,24 +91,15 @@ class HTTPLoader extends DeckLoader {
   constructor (urlString, scraper) {
     super();
 
-    let urlInfo = url.parse(urlString);
-
-    http.request({
-      host: urlInfo.host,
-      path: urlInfo.pathname
-    }, response => {
-      let data = "";
-      response.on("data", chunk => {
-        data += chunk;
-      });
-      response.on("end", () => {
-        let html = data.toString();
+    fetch(urlString)
+    .then((response) => {
+      response.text().then((html) => {
         if (scraper) {
           html = scraper(html);
         }
         this.parseFile(html);
-      })
-    }).end();
+      });
+    });
   }
 }
 

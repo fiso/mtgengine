@@ -5,7 +5,7 @@ class CardLoader {
   constructor (cardName, setName, setCode, game) {
     let safeCardName = this.getSafeCardName(cardName);
 
-    if (!global) {  // FIXME: This should check if we're in the browser. Can't use window object or Mocha crashes?
+    if (typeof window !== 'undefined') {
       let importString = `js/bundles/set${setCode}/set`;
       this._promise = new Promise((resolve, reject) => {
         requirejs([importString], function(set) {
@@ -31,22 +31,22 @@ class CardLoader {
   getSafeCardName (cardName) {
     // This code must mirror the functionality in buildstubs.py
     let illegalCharacters = " ?!()\",.-'®:&";
-  	let characterReplacements = {
-  		"û": "u",
-  		"ú": "u",
-  		"ù": "u",
-  		"â": "a",
-  		"á": "a",
-  		"à": "a",
-  		"ê": "e",
-  		"é": "e",
-  		"è": "e",
-  		"î": "i",
-  		"í": "i",
-  		"ì": "i",
-  		"ö": "o",
-  		"Æ": "Ae"
-  	};
+    let characterReplacements = {
+      "û": "u",
+      "ú": "u",
+      "ù": "u",
+      "â": "a",
+      "á": "a",
+      "à": "a",
+      "ê": "e",
+      "é": "e",
+      "è": "e",
+      "î": "i",
+      "í": "i",
+      "ì": "i",
+      "ö": "o",
+      "Æ": "Ae"
+    };
 
     for (let char of illegalCharacters) {
       cardName = Utils.replaceAll(cardName, char, "");
@@ -57,11 +57,11 @@ class CardLoader {
     }
 
     // One card in all of Magic starts with a digit - 1996 World Champion
-  	if (Utils.isNumeric(cardName[0])) {
-  		cardName = "_" + cardName;
+    if (Utils.isNumeric(cardName[0])) {
+      cardName = "_" + cardName;
     }
 
-  	return cardName
+    return cardName
   }
 }
 

@@ -24,7 +24,7 @@ class Card extends MTGObject {
     this._promise = new Promise((resolve, reject) => {
       this._game._cardApi.getCard(cardName, setName, setCode).then((card) => {
         assert(card.name === cardName);
-        this._imageUrl = card.editions[0].image_url;
+        this._imageUrl = card.image_uris.normal;
         this._mapTypes(card);
         resolve(this);
       });
@@ -32,24 +32,23 @@ class Card extends MTGObject {
   }
 
   _mapTypes (card) {
-    if (card.supertypes) {
-      this._superTypes = _.map(card.supertypes, function (superType) {
-        return Constants.cardSuperTypes[superType.toUpperCase()] ?
-               Constants.cardSuperTypes[superType.toUpperCase()] :
-               superType.toUpperCase();
-      });
-    }
-    if (card.types) {
-      this._types = _.map(card.types, function (type) {
-        return Constants.cardTypes[type.toUpperCase()] ?
-               Constants.cardTypes[type.toUpperCase()] :
-               type.toUpperCase();
-      });
-    }
-    if (card.subtypes) {
-      this._subTypes = _.map(card.subtypes, function (subtype) {
-        return subtype.toUpperCase();
-      });
+    const sections = card.type_line.split("—");
+    assert(sections.length < 3);
+
+    const words1 = sections[0].split(" ");
+    this._superTypes = words1.map((word) =>
+      Constants.cardSuperTypes[word.toUpperCase()]
+    ).filter(Boolean);
+
+    this._types = words1.map((word) =>
+      Constants.cardTypes[word.toUpperCase()]
+    ).filter(Boolean);
+
+    if (sections.length > 1) {
+      const words2 = sections[1].split(" ");
+      this._subTypes = words2.map((word) =>
+        word.toUpperCase()
+      ).filter(Boolean);
     }
   }
 

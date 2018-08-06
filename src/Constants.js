@@ -59,11 +59,14 @@ const Constants = {
     BASIC: "BASIC",
     WORLD: "WORLD",
     SNOW: "SNOW",
-    ONGOING: "ONGOING"
+    ONGOING: "ONGOING",
+    ELITE: "ELITE",
+    HOST: "HOST"
   },
 
   cardTypes: {
     ARTIFACT: "ARTIFACT",
+    CONSPIRACY: "CONSPIRACY",
     CREATURE: "CREATURE",
     ENCHANTMENT: "ENCHANTMENT",
     INSTANT: "INSTANT",

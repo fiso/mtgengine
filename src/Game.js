@@ -7,7 +7,7 @@ const Outputs = require("./Outputs");
 const _ = require("underscore");
 const Battlefield = require("./zones/Battlefield");
 const Stack = require("./zones/Stack");
-const Deckbrew = require("./apis/Deckbrew");
+const Scryfall = require("./apis/Scryfall");
 const assert = require("assert");
 
 class GameOver {
@@ -21,7 +21,7 @@ class Game {
                 startingPlayerIndex,
                 silenceLogging,
                 decks, cardApi) {
-    this._cardApi = cardApi || new Deckbrew();
+    this._cardApi = cardApi || new Scryfall();
     this._turnNumber = 0;
     this._players = [];
     this._currentStep = -1;

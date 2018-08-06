@@ -11,8 +11,7 @@ class Library extends Zone {
     this._promise = new Promise((resolve, reject) => {
       for (let cardName of deck._mainDeck) {
         game._cardApi.getCard(cardName).then((card) => {
-          let edition = card.editions[0];
-          let loader = new CardLoader(cardName, edition.set, edition.set_id, game);
+          let loader = new CardLoader(cardName, card.set_name, card.set.toUpperCase(), game);
           loader.ready().then(card => {
             this._objects.push(card);
             if (this._objects.length === deck._mainDeck.length) {

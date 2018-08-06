@@ -8,11 +8,11 @@ const UnimplementedCard = require("../src/cards/UnimplementedCard");
 const Game = require("../src/Game");
 const Cost = require("../src/Cost");
 const Deck = require("../src/Deck");
-const Deckbrew = require("../src/apis/Deckbrew");
+const Scryfall = require("../src/apis/Scryfall");
 
 // istanbul cover node_modules/mocha/bin/_mocha -- -R spec
 
-let cardApi = new Deckbrew();
+let cardApi = new Scryfall();
 
 describe('Card', function() {
   let game = new Game.Game(2, 0, true,
@@ -174,7 +174,7 @@ describe('Deck', function() {
   describe('# Deck.HTTPLoader', function () {
     it('Should be able to load deck from URL', function (done) {
       let deck = new Deck.Deck(
-        new Deck.HTTPLoader("http://deckbox.org/sets/1294166/export",
+        new Deck.HTTPLoader("https://deckbox.org/sets/1294166/export",
         Deck.DeckboxScraper));
       assert(deck);
       deck.ready().then(() => {
@@ -186,8 +186,8 @@ describe('Deck', function() {
   });
 });
 
-describe('Deckbrew API', function() {
-  describe('# Deckbrew.getCard', function () {
+describe('Scryfall API', function() {
+  describe('# Scryfall.getCard', function () {
     it('Should be able to find card information', function (done) {
       cardApi.getCard("Lightning Bolt").then((card) => {
         assert(card);
