@@ -1,6 +1,5 @@
 node_modules/
 coverage/
-src/simplefrontend/js/*bundle*.js
-src/simplefrontend/js/bundles/*
+src/simplefrontend/js/bundle.js
+src/simplefrontend/js/bundles/**
 scripts/stub_generation/output/*
-!**/.gitkeep
