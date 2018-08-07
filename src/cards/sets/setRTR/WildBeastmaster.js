@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WildBeastmasterBase = require("../setC16/WildBeastmaster");
 
-class WildBeastmaster extends UnimplementedCard {
+class WildBeastmaster extends WildBeastmasterBase {
   constructor (game) {
     super(game, "Wild Beastmaster", "Return to Ravnica", "RTR");
   }

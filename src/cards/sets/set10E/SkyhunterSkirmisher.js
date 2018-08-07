@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyhunterSkirmisherBase = require("../setC14/SkyhunterSkirmisher");
+const SkyhunterSkirmisherBase = require("../setMM2/SkyhunterSkirmisher");
 
 class SkyhunterSkirmisher extends SkyhunterSkirmisherBase {
   constructor (game) {

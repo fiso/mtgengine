@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RetributionBase = require("../setME2/Retribution");
 
-class Retribution extends UnimplementedCard {
+class Retribution extends RetributionBase {
   constructor (game) {
     super(game, "Retribution", "Homelands", "HML");
   }

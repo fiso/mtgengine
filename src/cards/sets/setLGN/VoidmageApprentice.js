@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoidmageApprenticeBase = require("../setDD3_JVC/VoidmageApprentice");
+const VoidmageApprenticeBase = require("../setJVC/VoidmageApprentice");
 
 class VoidmageApprentice extends VoidmageApprenticeBase {
   constructor (game) {

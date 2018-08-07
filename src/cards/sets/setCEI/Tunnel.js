@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TunnelBase = require("../setCED/Tunnel");
+const TunnelBase = require("../set4ED/Tunnel");
 
 class Tunnel extends TunnelBase {
   constructor (game) {
-    super(game, "Tunnel", "International Collector's Edition", "CEI");
+    super(game, "Tunnel", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

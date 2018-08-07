@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LuXunScholarGeneralBase = require("../setCMA/LuXunScholarGeneral");
 
-class LuXunScholarGeneral extends UnimplementedCard {
+class LuXunScholarGeneral extends LuXunScholarGeneralBase {
   constructor (game) {
-    super(game, "Lu Xun, Scholar General", "Commander 2013 Edition", "C13");
+    super(game, "Lu Xun, Scholar General", "Commander 2013", "C13");
   }
 }
 

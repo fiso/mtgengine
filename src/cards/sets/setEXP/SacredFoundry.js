@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SacredFoundryBase = require("../setGTC/SacredFoundry");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SacredFoundry extends SacredFoundryBase {
+class SacredFoundry extends UnimplementedCard {
   constructor (game) {
-    super(game, "Sacred Foundry", "Zendikar Expedition", "EXP");
+    super(game, "Sacred Foundry", "Zendikar Expeditions", "EXP");
   }
 }
 

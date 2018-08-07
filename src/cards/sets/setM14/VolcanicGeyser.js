@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VolcanicGeyserBase = require("../set6ED/VolcanicGeyser");
+const VolcanicGeyserBase = require("../setE01/VolcanicGeyser");
 
 class VolcanicGeyser extends VolcanicGeyserBase {
   constructor (game) {
-    super(game, "Volcanic Geyser", "Magic 2014 Core Set", "M14");
+    super(game, "Volcanic Geyser", "Magic 2014", "M14");
   }
 }
 

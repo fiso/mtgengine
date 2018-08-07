@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArmadilloCloakBase = require("../setARC/ArmadilloCloak");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArmadilloCloak extends ArmadilloCloakBase {
+class ArmadilloCloak extends UnimplementedCard {
   constructor (game) {
     super(game, "Armadillo Cloak", "Eternal Masters", "EMA");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MistRavenBase = require("../setAVR/MistRaven");
+const MistRavenBase = require("../setMM3/MistRaven");
 
 class MistRaven extends MistRavenBase {
   constructor (game) {

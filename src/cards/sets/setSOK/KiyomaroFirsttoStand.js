@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KiyomaroFirsttoStandBase = require("../setpPRE/KiyomaroFirsttoStand");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KiyomaroFirsttoStand extends KiyomaroFirsttoStandBase {
+class KiyomaroFirsttoStand extends UnimplementedCard {
   constructor (game) {
     super(game, "Kiyomaro, First to Stand", "Saviors of Kamigawa", "SOK");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaterfrontBouncerBase = require("../setMMQ/WaterfrontBouncer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WaterfrontBouncer extends WaterfrontBouncerBase {
+class WaterfrontBouncer extends UnimplementedCard {
   constructor (game) {
     super(game, "Waterfront Bouncer", "Vintage Masters", "VMA");
   }

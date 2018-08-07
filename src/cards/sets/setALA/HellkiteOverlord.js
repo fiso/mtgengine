@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HellkiteOverlordBase = require("../setDRB/HellkiteOverlord");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HellkiteOverlord extends HellkiteOverlordBase {
+class HellkiteOverlord extends UnimplementedCard {
   constructor (game) {
     super(game, "Hellkite Overlord", "Shards of Alara", "ALA");
   }

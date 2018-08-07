@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NetcasterSpiderBase = require("../setIMA/NetcasterSpider");
 
-class NetcasterSpider extends UnimplementedCard {
+class NetcasterSpider extends NetcasterSpiderBase {
   constructor (game) {
     super(game, "Netcaster Spider", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

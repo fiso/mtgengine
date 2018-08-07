@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WeatherseedTreefolkBase = require("../setWC99/WeatherseedTreefolk");
 
-class WeatherseedTreefolk extends UnimplementedCard {
+class WeatherseedTreefolk extends WeatherseedTreefolkBase {
   constructor (game) {
     super(game, "Weatherseed Treefolk", "Urza's Legacy", "ULG");
   }

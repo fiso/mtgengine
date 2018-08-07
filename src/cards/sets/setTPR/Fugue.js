@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FugueBase = require("../setEXO/Fugue");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Fugue extends FugueBase {
+class Fugue extends UnimplementedCard {
   constructor (game) {
     super(game, "Fugue", "Tempest Remastered", "TPR");
   }

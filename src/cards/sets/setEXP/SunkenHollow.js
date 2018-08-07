@@ -4,7 +4,7 @@ const SunkenHollowBase = require("../setBFZ/SunkenHollow");
 
 class SunkenHollow extends SunkenHollowBase {
   constructor (game) {
-    super(game, "Sunken Hollow", "Zendikar Expedition", "EXP");
+    super(game, "Sunken Hollow", "Zendikar Expeditions", "EXP");
   }
 }
 

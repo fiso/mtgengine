@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GildedLotusBase = require("../setV13/GildedLotus");
+const GildedLotusBase = require("../setDOM/GildedLotus");
 
 class GildedLotus extends GildedLotusBase {
   constructor (game) {

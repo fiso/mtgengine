@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TurnaboutBase = require("../setpMEI/Turnabout");
+const TurnaboutBase = require("../setVMA/Turnabout");
 
 class Turnabout extends TurnaboutBase {
   constructor (game) {

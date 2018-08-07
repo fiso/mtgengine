@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SvogthostheRestlessTombBase = require("../setDDJ/SvogthostheRestlessTomb");
+const SvogthostheRestlessTombBase = require("../setCM2/SvogthostheRestlessTomb");
 
 class SvogthostheRestlessTomb extends SvogthostheRestlessTombBase {
   constructor (game) {
-    super(game, "Svogthos, the Restless Tomb", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Svogthos, the Restless Tomb", "Commander 2011", "CMD");
   }
 }
 

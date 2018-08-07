@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MistralChargerBase = require("../setEMA/MistralCharger");
 
-class MistralCharger extends UnimplementedCard {
+class MistralCharger extends MistralChargerBase {
   constructor (game) {
     super(game, "Mistral Charger", "Dissension", "DIS");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MirrorUniverseBase = require("../setLEG/MirrorUniverse");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MirrorUniverse extends MirrorUniverseBase {
+class MirrorUniverse extends UnimplementedCard {
   constructor (game) {
     super(game, "Mirror Universe", "Masters Edition", "MED");
   }

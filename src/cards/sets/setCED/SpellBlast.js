@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpellBlastBase = require("../set6ED/SpellBlast");
+const SpellBlastBase = require("../setTPR/SpellBlast");
 
 class SpellBlast extends SpellBlastBase {
   constructor (game) {
-    super(game, "Spell Blast", "Collector's Edition", "CED");
+    super(game, "Spell Blast", "Collectors’ Edition", "CED");
   }
 }
 

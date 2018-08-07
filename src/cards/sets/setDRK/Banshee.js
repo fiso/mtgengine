@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BansheeBase = require("../setCHR/Banshee");
+const BansheeBase = require("../setME3/Banshee");
 
 class Banshee extends BansheeBase {
   constructor (game) {

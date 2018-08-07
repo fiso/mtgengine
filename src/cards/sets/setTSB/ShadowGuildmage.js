@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShadowGuildmageBase = require("../setMIR/ShadowGuildmage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShadowGuildmage extends ShadowGuildmageBase {
+class ShadowGuildmage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Shadow Guildmage", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Shadow Guildmage", "Time Spiral Timeshifted", "TSB");
   }
 }
 

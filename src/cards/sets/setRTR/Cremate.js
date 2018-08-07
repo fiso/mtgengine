@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CremateBase = require("../setGPT/Cremate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Cremate extends CremateBase {
+class Cremate extends UnimplementedCard {
   constructor (game) {
     super(game, "Cremate", "Return to Ravnica", "RTR");
   }

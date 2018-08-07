@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LongRoadHomeBase = require("../setBBD/LongRoadHome");
 
-class LongRoadHome extends UnimplementedCard {
+class LongRoadHome extends LongRoadHomeBase {
   constructor (game) {
     super(game, "Long Road Home", "Eldritch Moon", "EMN");
   }

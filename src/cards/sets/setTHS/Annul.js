@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnnulBase = require("../setMRD/Annul");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Annul extends AnnulBase {
+class Annul extends UnimplementedCard {
   constructor (game) {
     super(game, "Annul", "Theros", "THS");
   }

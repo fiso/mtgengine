@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VolcanicHammerBase = require("../set8ED/VolcanicHammer");
+const VolcanicHammerBase = require("../set9ED/VolcanicHammer");
 
 class VolcanicHammer extends VolcanicHammerBase {
   constructor (game) {
-    super(game, "Volcanic Hammer", "Super Series", "pSUS");
+    super(game, "Volcanic Hammer", "Junior Super Series", "PSUS");
   }
 }
 

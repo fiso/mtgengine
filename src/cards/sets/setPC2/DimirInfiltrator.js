@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DimirInfiltratorBase = require("../setPCA/DimirInfiltrator");
 
-class DimirInfiltrator extends UnimplementedCard {
+class DimirInfiltrator extends DimirInfiltratorBase {
   constructor (game) {
-    super(game, "Dimir Infiltrator", "Planechase 2012 Edition", "PC2");
+    super(game, "Dimir Infiltrator", "Planechase 2012", "PC2");
   }
 }
 

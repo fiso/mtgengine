@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HeliumSquirterBase = require("../setDIS/HeliumSquirter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HeliumSquirter extends HeliumSquirterBase {
+class HeliumSquirter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Helium Squirter", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Helium Squirter", "Modern Masters 2015", "MM2");
   }
 }
 

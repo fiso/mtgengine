@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StaffofNinBase = require("../setC15/StaffofNin");
+const StaffofNinBase = require("../setCM2/StaffofNin");
 
 class StaffofNin extends StaffofNinBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IchorSlickBase = require("../setDD3_GVL/IchorSlick");
+const IchorSlickBase = require("../setGVL/IchorSlick");
 
 class IchorSlick extends IchorSlickBase {
   constructor (game) {

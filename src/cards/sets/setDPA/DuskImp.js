@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DuskImpBase = require("../setDD3_DVD/DuskImp");
+const DuskImpBase = require("../setDVD/DuskImp");
 
 class DuskImp extends DuskImpBase {
   constructor (game) {

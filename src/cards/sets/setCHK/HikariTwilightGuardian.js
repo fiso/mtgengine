@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HikariTwilightGuardianBase = require("../setMM2/HikariTwilightGuardian");
 
-class HikariTwilightGuardian extends UnimplementedCard {
+class HikariTwilightGuardian extends HikariTwilightGuardianBase {
   constructor (game) {
     super(game, "Hikari, Twilight Guardian", "Champions of Kamigawa", "CHK");
   }

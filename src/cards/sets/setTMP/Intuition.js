@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IntuitionBase = require("../setpJGP/Intuition");
+const IntuitionBase = require("../setTPR/Intuition");
 
 class Intuition extends IntuitionBase {
   constructor (game) {

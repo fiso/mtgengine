@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RudeAwakeningBase = require("../setDD3_GVL/RudeAwakening");
+const RudeAwakeningBase = require("../setGVL/RudeAwakening");
 
 class RudeAwakening extends RudeAwakeningBase {
   constructor (game) {

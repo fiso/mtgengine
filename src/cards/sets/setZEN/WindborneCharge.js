@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WindborneChargeBase = require("../setCN2/WindborneCharge");
 
-class WindborneCharge extends UnimplementedCard {
+class WindborneCharge extends WindborneChargeBase {
   constructor (game) {
     super(game, "Windborne Charge", "Zendikar", "ZEN");
   }

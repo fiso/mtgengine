@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class Narcolepsy extends UnimplementedCard {
   constructor (game) {
-    super(game, "Narcolepsy", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Narcolepsy", "Modern Masters 2015", "MM2");
   }
 }
 

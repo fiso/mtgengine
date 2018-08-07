@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PyrotechnicsBase = require("../setATH/Pyrotechnics");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Pyrotechnics extends PyrotechnicsBase {
+class Pyrotechnics extends UnimplementedCard {
   constructor (game) {
     super(game, "Pyrotechnics", "Fate Reforged", "FRF");
   }

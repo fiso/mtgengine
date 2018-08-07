@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoalitionVictoryBase = require("../setINV/CoalitionVictory");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CoalitionVictory extends CoalitionVictoryBase {
+class CoalitionVictory extends UnimplementedCard {
   constructor (game) {
-    super(game, "Coalition Victory", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Coalition Victory", "Time Spiral Timeshifted", "TSB");
   }
 }
 

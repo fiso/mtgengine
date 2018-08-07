@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IchorWellspringBase = require("../setCM2/IchorWellspring");
 
-class IchorWellspring extends UnimplementedCard {
+class IchorWellspring extends IchorWellspringBase {
   constructor (game) {
     super(game, "Ichor Wellspring", "Commander 2014", "C14");
   }

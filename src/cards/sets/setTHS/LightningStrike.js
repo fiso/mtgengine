@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LightningStrikeBase = require("../setM15/LightningStrike");
+const LightningStrikeBase = require("../setM19/LightningStrike");
 
 class LightningStrike extends LightningStrikeBase {
   constructor (game) {

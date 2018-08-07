@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TurnaboutBase = require("../setpMEI/Turnabout");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Turnabout extends TurnaboutBase {
+class Turnabout extends UnimplementedCard {
   constructor (game) {
     super(game, "Turnabout", "Vintage Masters", "VMA");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ChargingRhinoBase = require("../setBBD/ChargingRhino");
 
-class ChargingRhino extends UnimplementedCard {
+class ChargingRhino extends ChargingRhinoBase {
   constructor (game) {
-    super(game, "Charging Rhino", "Magic 2015 Core Set", "M15");
+    super(game, "Charging Rhino", "Magic 2015", "M15");
   }
 }
 

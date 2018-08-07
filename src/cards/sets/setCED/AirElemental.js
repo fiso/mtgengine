@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AirElementalBase = require("../setBRB/AirElemental");
+const AirElementalBase = require("../setM19/AirElemental");
 
 class AirElemental extends AirElementalBase {
   constructor (game) {
-    super(game, "Air Elemental", "Collector's Edition", "CED");
+    super(game, "Air Elemental", "Collectors’ Edition", "CED");
   }
 }
 

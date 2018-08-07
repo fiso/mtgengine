@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CourtHomunculusBase = require("../setCON/CourtHomunculus");
+const CourtHomunculusBase = require("../setMM2/CourtHomunculus");
 
 class CourtHomunculus extends CourtHomunculusBase {
   constructor (game) {

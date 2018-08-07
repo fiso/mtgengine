@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WildheartInvokerBase = require("../setDDU/WildheartInvoker");
 
-class WildheartInvoker extends UnimplementedCard {
+class WildheartInvoker extends WildheartInvokerBase {
   constructor (game) {
     super(game, "Wildheart Invoker", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

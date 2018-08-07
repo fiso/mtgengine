@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DaggerbackBasiliskBase = require("../setM19/DaggerbackBasilisk");
 
-class DaggerbackBasilisk extends UnimplementedCard {
+class DaggerbackBasilisk extends DaggerbackBasiliskBase {
   constructor (game) {
     super(game, "Daggerback Basilisk", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

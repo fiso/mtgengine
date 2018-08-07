@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WightofPrecinctSixBase = require("../setIMA/WightofPrecinctSix");
 
-class WightofPrecinctSix extends UnimplementedCard {
+class WightofPrecinctSix extends WightofPrecinctSixBase {
   constructor (game) {
-    super(game, "Wight of Precinct Six", "Commander 2013 Edition", "C13");
+    super(game, "Wight of Precinct Six", "Commander 2013", "C13");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JuggernautBase = require("../setBBD/Juggernaut");
 
-class Juggernaut extends UnimplementedCard {
+class Juggernaut extends JuggernautBase {
   constructor (game) {
     super(game, "Juggernaut", "Archenemy", "ARC");
   }

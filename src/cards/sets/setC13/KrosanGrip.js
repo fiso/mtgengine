@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KrosanGripBase = require("../setCMA/KrosanGrip");
 
-class KrosanGrip extends UnimplementedCard {
+class KrosanGrip extends KrosanGripBase {
   constructor (game) {
-    super(game, "Krosan Grip", "Commander 2013 Edition", "C13");
+    super(game, "Krosan Grip", "Commander 2013", "C13");
   }
 }
 

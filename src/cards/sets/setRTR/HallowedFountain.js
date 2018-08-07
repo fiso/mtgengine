@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HallowedFountainBase = require("../setDIS/HallowedFountain");
+const HallowedFountainBase = require("../setEXP/HallowedFountain");
 
 class HallowedFountain extends HallowedFountainBase {
   constructor (game) {

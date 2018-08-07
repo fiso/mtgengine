@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IllusoryAngelBase = require("../setIMA/IllusoryAngel");
 
-class IllusoryAngel extends UnimplementedCard {
+class IllusoryAngel extends IllusoryAngelBase {
   constructor (game) {
-    super(game, "Illusory Angel", "Magic 2015 Core Set", "M15");
+    super(game, "Illusory Angel", "Magic 2015", "M15");
   }
 }
 

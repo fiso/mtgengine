@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HarrowBase = require("../setC14/Harrow");
+const HarrowBase = require("../setC18/Harrow");
 
 class Harrow extends HarrowBase {
   constructor (game) {

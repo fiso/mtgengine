@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArtisanofKozilekBase = require("../setARC/ArtisanofKozilek");
+const ArtisanofKozilekBase = require("../setCM2/ArtisanofKozilek");
 
 class ArtisanofKozilek extends ArtisanofKozilekBase {
   constructor (game) {
-    super(game, "Artisan of Kozilek", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Artisan of Kozilek", "Commander 2011", "CMD");
   }
 }
 

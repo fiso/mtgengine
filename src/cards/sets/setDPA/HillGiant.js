@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HillGiantBase = require("../setCED/HillGiant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HillGiant extends HillGiantBase {
+class HillGiant extends UnimplementedCard {
   constructor (game) {
     super(game, "Hill Giant", "Duels of the Planeswalkers", "DPA");
   }

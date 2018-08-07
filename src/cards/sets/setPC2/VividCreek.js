@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VividCreekBase = require("../setC13/VividCreek");
+const VividCreekBase = require("../setC17/VividCreek");
 
 class VividCreek extends VividCreekBase {
   constructor (game) {
-    super(game, "Vivid Creek", "Planechase 2012 Edition", "PC2");
+    super(game, "Vivid Creek", "Planechase 2012", "PC2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaLeakBase = require("../setpARL/ManaLeak");
+const ManaLeakBase = require("../setIMA/ManaLeak");
 
 class ManaLeak extends ManaLeakBase {
   constructor (game) {

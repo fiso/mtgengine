@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HellsparkElementalBase = require("../setCON/HellsparkElemental");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HellsparkElemental extends HellsparkElementalBase {
+class HellsparkElemental extends UnimplementedCard {
   constructor (game) {
     super(game, "Hellspark Elemental", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeismicStrikeBase = require("../setDDG/SeismicStrike");
+const SeismicStrikeBase = require("../setM15/SeismicStrike");
 
 class SeismicStrike extends SeismicStrikeBase {
   constructor (game) {

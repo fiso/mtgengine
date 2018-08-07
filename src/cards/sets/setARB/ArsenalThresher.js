@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ArsenalThresherBase = require("../setHOP/ArsenalThresher");
 
-class ArsenalThresher extends UnimplementedCard {
+class ArsenalThresher extends ArsenalThresherBase {
   constructor (game) {
     super(game, "Arsenal Thresher", "Alara Reborn", "ARB");
   }

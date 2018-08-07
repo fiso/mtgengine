@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HyenaUmbraBase = require("../setPC2/HyenaUmbra");
+const HyenaUmbraBase = require("../setPCA/HyenaUmbra");
 
 class HyenaUmbra extends HyenaUmbraBase {
   constructor (game) {

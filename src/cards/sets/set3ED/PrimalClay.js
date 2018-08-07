@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimalClayBase = require("../setATQ/PrimalClay");
+const PrimalClayBase = require("../setA25/PrimalClay");
 
 class PrimalClay extends PrimalClayBase {
   constructor (game) {

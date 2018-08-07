@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AvenFlockBase = require("../set8ED/AvenFlock");
+const AvenFlockBase = require("../set9ED/AvenFlock");
 
 class AvenFlock extends AvenFlockBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WatercourserBase = require("../setM13/Watercourser");
+const WatercourserBase = require("../setBBD/Watercourser");
 
 class Watercourser extends WatercourserBase {
   constructor (game) {

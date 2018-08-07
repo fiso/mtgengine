@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcatianJavelineersBase = require("../setATH/IcatianJavelineers");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class IcatianJavelineers extends IcatianJavelineersBase {
+class IcatianJavelineers extends UnimplementedCard {
   constructor (game) {
     super(game, "Icatian Javelineers", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LastGaspBase = require("../setBBD/LastGasp");
 
-class LastGasp extends UnimplementedCard {
+class LastGasp extends LastGaspBase {
   constructor (game) {
     super(game, "Last Gasp", "Ravnica: City of Guilds", "RAV");
   }

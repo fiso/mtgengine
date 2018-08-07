@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WormHarvestBase = require("../setEVE/WormHarvest");
+const WormHarvestBase = require("../setC18/WormHarvest");
 
 class WormHarvest extends WormHarvestBase {
   constructor (game) {

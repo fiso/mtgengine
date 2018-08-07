@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VampiricDragonBase = require("../setARC/VampiricDragon");
+const VampiricDragonBase = require("../setTD0/VampiricDragon");
 
 class VampiricDragon extends VampiricDragonBase {
   constructor (game) {

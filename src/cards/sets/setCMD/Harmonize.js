@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HarmonizeBase = require("../setARC/Harmonize");
+const HarmonizeBase = require("../setC17/Harmonize");
 
 class Harmonize extends HarmonizeBase {
   constructor (game) {
-    super(game, "Harmonize", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Harmonize", "Commander 2011", "CMD");
   }
 }
 

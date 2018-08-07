@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArmoredAscensionBase = require("../setM10/ArmoredAscension");
+const ArmoredAscensionBase = require("../setM11/ArmoredAscension");
 
 class ArmoredAscension extends ArmoredAscensionBase {
   constructor (game) {

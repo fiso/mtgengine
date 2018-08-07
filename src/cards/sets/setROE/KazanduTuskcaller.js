@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KazanduTuskcallerBase = require("../setC13/KazanduTuskcaller");
+const KazanduTuskcallerBase = require("../setCMA/KazanduTuskcaller");
 
 class KazanduTuskcaller extends KazanduTuskcallerBase {
   constructor (game) {

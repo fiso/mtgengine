@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcatianTownBase = require("../set6ED/IcatianTown");
+const IcatianTownBase = require("../setMED/IcatianTown");
 
 class IcatianTown extends IcatianTownBase {
   constructor (game) {

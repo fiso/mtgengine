@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FishliverOilBase = require("../setARN/FishliverOil");
+const FishliverOilBase = require("../set9ED/FishliverOil");
 
 class FishliverOil extends FishliverOilBase {
   constructor (game) {

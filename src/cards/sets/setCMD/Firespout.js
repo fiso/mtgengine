@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FirespoutBase = require("../setV14/Firespout");
+const FirespoutBase = require("../setPZ1/Firespout");
 
 class Firespout extends FirespoutBase {
   constructor (game) {
-    super(game, "Firespout", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Firespout", "Commander 2011", "CMD");
   }
 }
 

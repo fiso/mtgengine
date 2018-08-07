@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnknownShoresBase = require("../setOGW/UnknownShores");
+const UnknownShoresBase = require("../setXLN/UnknownShores");
 
 class UnknownShores extends UnknownShoresBase {
   constructor (game) {

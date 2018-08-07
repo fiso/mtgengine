@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlithFirewalkerBase = require("../setDD3_JVC/SlithFirewalker");
+const SlithFirewalkerBase = require("../setJVC/SlithFirewalker");
 
 class SlithFirewalker extends SlithFirewalkerBase {
   constructor (game) {
-    super(game, "Slith Firewalker", "Super Series", "pSUS");
+    super(game, "Slith Firewalker", "Junior Super Series", "PSUS");
   }
 }
 

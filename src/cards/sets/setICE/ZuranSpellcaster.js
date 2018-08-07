@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ZuranSpellcasterBase = require("../setCST/ZuranSpellcaster");
+const ZuranSpellcasterBase = require("../setME2/ZuranSpellcaster");
 
 class ZuranSpellcaster extends ZuranSpellcasterBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CinderWallBase = require("../setDDG/CinderWall");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CinderWall extends CinderWallBase {
+class CinderWall extends UnimplementedCard {
   constructor (game) {
-    super(game, "Cinder Wall", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Cinder Wall", "Conspiracy", "CNS");
   }
 }
 

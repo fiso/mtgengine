@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DystopiaBase = require("../setME2/Dystopia");
 
-class Dystopia extends UnimplementedCard {
+class Dystopia extends DystopiaBase {
   constructor (game) {
     super(game, "Dystopia", "Alliances", "ALL");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ObsessiveSearchBase = require("../setVMA/ObsessiveSearch");
 
-class ObsessiveSearch extends UnimplementedCard {
+class ObsessiveSearch extends ObsessiveSearchBase {
   constructor (game) {
     super(game, "Obsessive Search", "Torment", "TOR");
   }

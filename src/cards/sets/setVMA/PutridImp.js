@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PutridImpBase = require("../setPD3/PutridImp");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PutridImp extends PutridImpBase {
+class PutridImp extends UnimplementedCard {
   constructor (game) {
     super(game, "Putrid Imp", "Vintage Masters", "VMA");
   }

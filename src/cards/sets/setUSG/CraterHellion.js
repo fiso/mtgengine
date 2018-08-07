@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CraterHellionBase = require("../setC13/CraterHellion");
+const CraterHellionBase = require("../setEMA/CraterHellion");
 
 class CraterHellion extends CraterHellionBase {
   constructor (game) {

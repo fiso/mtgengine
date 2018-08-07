@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AssemblyWorkerBase = require("../setA25/AssemblyWorker");
 
-class AssemblyWorker extends UnimplementedCard {
+class AssemblyWorker extends AssemblyWorkerBase {
   constructor (game) {
     super(game, "Assembly-Worker", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

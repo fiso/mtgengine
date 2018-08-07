@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OniofWildPlacesBase = require("../setDDN/OniofWildPlaces");
+const OniofWildPlacesBase = require("../setCMA/OniofWildPlaces");
 
 class OniofWildPlaces extends OniofWildPlacesBase {
   constructor (game) {

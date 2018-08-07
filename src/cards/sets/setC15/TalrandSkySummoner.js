@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TalrandSkySummonerBase = require("../setDDS/TalrandSkySummoner");
 
-class TalrandSkySummoner extends UnimplementedCard {
+class TalrandSkySummoner extends TalrandSkySummonerBase {
   constructor (game) {
     super(game, "Talrand, Sky Summoner", "Commander 2015", "C15");
   }

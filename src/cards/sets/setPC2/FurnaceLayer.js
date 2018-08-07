@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FurnaceLayerBase = require("../setPCA/FurnaceLayer");
 
-class FurnaceLayer extends UnimplementedCard {
+class FurnaceLayer extends FurnaceLayerBase {
   constructor (game) {
-    super(game, "Furnace Layer", "Planechase 2012 Edition", "PC2");
+    super(game, "Furnace Layer", "Planechase 2012", "PC2");
   }
 }
 

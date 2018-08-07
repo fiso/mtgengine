@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FireboltBase = require("../setDD3_JVC/Firebolt");
+const FireboltBase = require("../setDDS/Firebolt");
 
 class Firebolt extends FireboltBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LavaBurstBase = require("../setDKM/LavaBurst");
+const LavaBurstBase = require("../setME2/LavaBurst");
 
 class LavaBurst extends LavaBurstBase {
   constructor (game) {

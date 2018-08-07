@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RathiAssassinBase = require("../setNMS/RathiAssassin");
+const RathiAssassinBase = require("../setPRM/RathiAssassin");
 
 class RathiAssassin extends RathiAssassinBase {
   constructor (game) {
-    super(game, "Rathi Assassin", "Prerelease Events", "pPRE");
+    super(game, "Rathi Assassin", "Prerelease Events", "PPRE");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MonkIdealistBase = require("../setC15/MonkIdealist");
+const MonkIdealistBase = require("../setEMA/MonkIdealist");
 
 class MonkIdealist extends MonkIdealistBase {
   constructor (game) {

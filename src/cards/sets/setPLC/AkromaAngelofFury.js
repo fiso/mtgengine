@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AkromaAngelofFuryBase = require("../setV15/AkromaAngelofFury");
+const AkromaAngelofFuryBase = require("../setA25/AkromaAngelofFury");
 
 class AkromaAngelofFury extends AkromaAngelofFuryBase {
   constructor (game) {

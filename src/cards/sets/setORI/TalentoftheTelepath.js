@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TalentoftheTelepathBase = require("../setPORI/TalentoftheTelepath");
 
-class TalentoftheTelepath extends UnimplementedCard {
+class TalentoftheTelepath extends TalentoftheTelepathBase {
   constructor (game) {
     super(game, "Talent of the Telepath", "Magic Origins", "ORI");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AbsorbVisBase = require("../setCON/AbsorbVis");
+const AbsorbVisBase = require("../setCN2/AbsorbVis");
 
 class AbsorbVis extends AbsorbVisBase {
   constructor (game) {

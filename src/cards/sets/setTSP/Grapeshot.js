@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrapeshotBase = require("../setMMA/Grapeshot");
+const GrapeshotBase = require("../setDDS/Grapeshot");
 
 class Grapeshot extends GrapeshotBase {
   constructor (game) {

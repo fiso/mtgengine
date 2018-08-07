@@ -4,7 +4,7 @@ const FeralThrowbackBase = require("../setLGN/FeralThrowback");
 
 class FeralThrowback extends FeralThrowbackBase {
   constructor (game) {
-    super(game, "Feral Throwback", "Prerelease Events", "pPRE");
+    super(game, "Feral Throwback", "Prerelease Events", "PPRE");
   }
 }
 

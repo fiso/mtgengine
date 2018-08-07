@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrostheAvengerBase = require("../setCMD/OrostheAvenger");
+const OrostheAvengerBase = require("../setCMA/OrostheAvenger");
 
 class OrostheAvenger extends OrostheAvengerBase {
   constructor (game) {

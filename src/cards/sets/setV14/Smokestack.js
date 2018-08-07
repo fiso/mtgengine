@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class Smokestack extends UnimplementedCard {
   constructor (game) {
-    super(game, "Smokestack", "From the Vault: Annihilation (2014)", "V14");
+    super(game, "Smokestack", "From the Vault: Annihilation", "V14");
   }
 }
 

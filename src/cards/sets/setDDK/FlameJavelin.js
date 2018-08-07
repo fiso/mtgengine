@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlameJavelinBase = require("../setDD3_JVC/FlameJavelin");
+const FlameJavelinBase = require("../setJVC/FlameJavelin");
 
 class FlameJavelin extends FlameJavelinBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ConclavePhalanxBase = require("../setMM2/ConclavePhalanx");
 
-class ConclavePhalanx extends UnimplementedCard {
+class ConclavePhalanx extends ConclavePhalanxBase {
   constructor (game) {
     super(game, "Conclave Phalanx", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MirrorweaveBase = require("../setCM2/Mirrorweave");
 
-class Mirrorweave extends UnimplementedCard {
+class Mirrorweave extends MirrorweaveBase {
   constructor (game) {
     super(game, "Mirrorweave", "Shadowmoor", "SHM");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunpetalGroveBase = require("../setM10/SunpetalGrove");
+const SunpetalGroveBase = require("../setXLN/SunpetalGrove");
 
 class SunpetalGrove extends SunpetalGroveBase {
   constructor (game) {

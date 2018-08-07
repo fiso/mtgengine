@@ -4,7 +4,7 @@ const FigureofDestinyBase = require("../setDDL/FigureofDestiny");
 
 class FigureofDestiny extends FigureofDestinyBase {
   constructor (game) {
-    super(game, "Figure of Destiny", "Launch Parties", "pLPA");
+    super(game, "Figure of Destiny", "Launch Parties", "PLPA");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JayaBallardTaskMageBase = require("../setpMEI/JayaBallardTaskMage");
+const JayaBallardTaskMageBase = require("../setPD2/JayaBallardTaskMage");
 
 class JayaBallardTaskMage extends JayaBallardTaskMageBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GriptideBase = require("../setDKA/Griptide");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Griptide extends GriptideBase {
+class Griptide extends UnimplementedCard {
   constructor (game) {
     super(game, "Griptide", "Duel Decks: Jace vs. Vraska", "DDM");
   }

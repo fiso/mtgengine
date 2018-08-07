@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class BurningEarth extends UnimplementedCard {
   constructor (game) {
-    super(game, "Burning Earth", "Magic 2014 Core Set", "M14");
+    super(game, "Burning Earth", "Magic 2014", "M14");
   }
 }
 

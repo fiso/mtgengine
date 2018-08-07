@@ -4,7 +4,7 @@ const HedgeTrollBase = require("../setPLC/HedgeTroll");
 
 class HedgeTroll extends HedgeTrollBase {
   constructor (game) {
-    super(game, "Hedge Troll", "Release Events", "pREL");
+    super(game, "Hedge Troll", "Release Events", "PREL");
   }
 }
 

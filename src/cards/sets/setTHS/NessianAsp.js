@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NessianAspBase = require("../setDDO/NessianAsp");
+const NessianAspBase = require("../setCN2/NessianAsp");
 
 class NessianAsp extends NessianAspBase {
   constructor (game) {

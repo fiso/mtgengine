@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TeferisPuzzleBoxBase = require("../set6ED/TeferisPuzzleBox");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TeferisPuzzleBox extends TeferisPuzzleBoxBase {
+class TeferisPuzzleBox extends UnimplementedCard {
   constructor (game) {
     super(game, "Teferi's Puzzle Box", "Ninth Edition", "9ED");
   }

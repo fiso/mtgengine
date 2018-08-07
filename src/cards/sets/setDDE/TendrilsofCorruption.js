@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TendrilsofCorruptionBase = require("../setC14/TendrilsofCorruption");
+const TendrilsofCorruptionBase = require("../setDDR/TendrilsofCorruption");
 
 class TendrilsofCorruption extends TendrilsofCorruptionBase {
   constructor (game) {

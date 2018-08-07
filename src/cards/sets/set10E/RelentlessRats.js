@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RelentlessRatsBase = require("../set5DN/RelentlessRats");
+const RelentlessRatsBase = require("../setA25/RelentlessRats");
 
 class RelentlessRats extends RelentlessRatsBase {
   constructor (game) {

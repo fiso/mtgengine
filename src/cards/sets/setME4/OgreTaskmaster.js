@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OgreTaskmasterBase = require("../set8ED/OgreTaskmaster");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OgreTaskmaster extends OgreTaskmasterBase {
+class OgreTaskmaster extends UnimplementedCard {
   constructor (game) {
     super(game, "Ogre Taskmaster", "Masters Edition IV", "ME4");
   }

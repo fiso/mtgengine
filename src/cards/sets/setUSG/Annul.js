@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnnulBase = require("../setMRD/Annul");
+const AnnulBase = require("../setTHS/Annul");
 
 class Annul extends AnnulBase {
   constructor (game) {

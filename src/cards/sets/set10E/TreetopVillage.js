@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TreetopVillageBase = require("../setDD3_GVL/TreetopVillage");
+const TreetopVillageBase = require("../setDDU/TreetopVillage");
 
 class TreetopVillage extends TreetopVillageBase {
   constructor (game) {

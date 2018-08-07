@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoonSpriteBase = require("../setPOR/MoonSprite");
+const MoonSpriteBase = require("../setS00/MoonSprite");
 
 class MoonSprite extends MoonSpriteBase {
   constructor (game) {

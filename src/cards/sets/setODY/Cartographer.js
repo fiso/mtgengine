@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CartographerBase = require("../setEXO/Cartographer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Cartographer extends CartographerBase {
+class Cartographer extends UnimplementedCard {
   constructor (game) {
     super(game, "Cartographer", "Odyssey", "ODY");
   }

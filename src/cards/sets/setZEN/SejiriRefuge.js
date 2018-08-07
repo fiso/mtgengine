@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SejiriRefugeBase = require("../setC13/SejiriRefuge");
+const SejiriRefugeBase = require("../setC18/SejiriRefuge");
 
 class SejiriRefuge extends SejiriRefugeBase {
   constructor (game) {

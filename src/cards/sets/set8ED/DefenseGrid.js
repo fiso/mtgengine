@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DefenseGridBase = require("../setMPS/DefenseGrid");
 
-class DefenseGrid extends UnimplementedCard {
+class DefenseGrid extends DefenseGridBase {
   constructor (game) {
     super(game, "Defense Grid", "Eighth Edition", "8ED");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EssenceFilterBase = require("../setME2/EssenceFilter");
 
-class EssenceFilter extends UnimplementedCard {
+class EssenceFilter extends EssenceFilterBase {
   constructor (game) {
     super(game, "Essence Filter", "Ice Age", "ICE");
   }

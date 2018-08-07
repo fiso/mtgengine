@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RadiantArchangelBase = require("../setULG/RadiantArchangel");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RadiantArchangel extends RadiantArchangelBase {
+class RadiantArchangel extends UnimplementedCard {
   constructor (game) {
     super(game, "Radiant, Archangel", "Vintage Masters", "VMA");
   }

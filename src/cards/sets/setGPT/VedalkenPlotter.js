@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VedalkenPlotterBase = require("../setCMD/VedalkenPlotter");
 
-class VedalkenPlotter extends UnimplementedCard {
+class VedalkenPlotter extends VedalkenPlotterBase {
   constructor (game) {
     super(game, "Vedalken Plotter", "Guildpact", "GPT");
   }

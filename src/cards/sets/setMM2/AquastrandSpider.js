@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AquastrandSpiderBase = require("../setDIS/AquastrandSpider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AquastrandSpider extends AquastrandSpiderBase {
+class AquastrandSpider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Aquastrand Spider", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Aquastrand Spider", "Modern Masters 2015", "MM2");
   }
 }
 

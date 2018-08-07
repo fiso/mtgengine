@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmashBase = require("../setAPC/Smash");
+const SmashBase = require("../set10E/Smash");
 
 class Smash extends SmashBase {
   constructor (game) {

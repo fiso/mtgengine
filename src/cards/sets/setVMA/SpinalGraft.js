@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpinalGraftBase = require("../setTMP/SpinalGraft");
+const SpinalGraftBase = require("../setTPR/SpinalGraft");
 
 class SpinalGraft extends SpinalGraftBase {
   constructor (game) {

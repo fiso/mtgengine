@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RakdosSignetBase = require("../setARC/RakdosSignet");
+const RakdosSignetBase = require("../setC17/RakdosSignet");
 
 class RakdosSignet extends RakdosSignetBase {
   constructor (game) {
-    super(game, "Rakdos Signet", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Rakdos Signet", "Commander 2011", "CMD");
   }
 }
 

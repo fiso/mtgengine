@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CryptbornHorrorBase = require("../setpMGD/CryptbornHorror");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CryptbornHorror extends CryptbornHorrorBase {
+class CryptbornHorror extends UnimplementedCard {
   constructor (game) {
     super(game, "Cryptborn Horror", "Return to Ravnica", "RTR");
   }

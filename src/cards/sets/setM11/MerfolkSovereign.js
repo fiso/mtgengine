@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MerfolkSovereignBase = require("../setM10/MerfolkSovereign");
+const MerfolkSovereignBase = require("../setE02/MerfolkSovereign");
 
 class MerfolkSovereign extends MerfolkSovereignBase {
   constructor (game) {

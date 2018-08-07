@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KindleBase = require("../setTMP/Kindle");
+const KindleBase = require("../setA25/Kindle");
 
 class Kindle extends KindleBase {
   constructor (game) {

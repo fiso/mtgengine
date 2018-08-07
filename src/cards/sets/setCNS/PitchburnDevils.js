@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PitchburnDevilsBase = require("../setISD/PitchburnDevils");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PitchburnDevils extends PitchburnDevilsBase {
+class PitchburnDevils extends UnimplementedCard {
   constructor (game) {
-    super(game, "Pitchburn Devils", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Pitchburn Devils", "Conspiracy", "CNS");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PalinchronBase = require("../setVMA/Palinchron");
 
-class Palinchron extends UnimplementedCard {
+class Palinchron extends PalinchronBase {
   constructor (game) {
     super(game, "Palinchron", "Urza's Legacy", "ULG");
   }

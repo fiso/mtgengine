@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SteamVentsBase = require("../setGPT/SteamVents");
+const SteamVentsBase = require("../setEXP/SteamVents");
 
 class SteamVents extends SteamVentsBase {
   constructor (game) {

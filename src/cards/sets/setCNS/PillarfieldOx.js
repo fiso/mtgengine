@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PillarfieldOxBase = require("../setM13/PillarfieldOx");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PillarfieldOx extends PillarfieldOxBase {
+class PillarfieldOx extends UnimplementedCard {
   constructor (game) {
-    super(game, "Pillarfield Ox", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Pillarfield Ox", "Conspiracy", "CNS");
   }
 }
 

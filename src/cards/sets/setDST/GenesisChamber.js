@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GenesisChamberBase = require("../setBBD/GenesisChamber");
 
-class GenesisChamber extends UnimplementedCard {
+class GenesisChamber extends GenesisChamberBase {
   constructor (game) {
     super(game, "Genesis Chamber", "Darksteel", "DST");
   }

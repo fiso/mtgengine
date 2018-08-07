@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BogImpBase = require("../set6ED/BogImp");
+const BogImpBase = require("../set9ED/BogImp");
 
 class BogImp extends BogImpBase {
   constructor (game) {

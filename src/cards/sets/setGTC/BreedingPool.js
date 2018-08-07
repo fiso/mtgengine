@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BreedingPoolBase = require("../setDIS/BreedingPool");
+const BreedingPoolBase = require("../setEXP/BreedingPool");
 
 class BreedingPool extends BreedingPoolBase {
   constructor (game) {

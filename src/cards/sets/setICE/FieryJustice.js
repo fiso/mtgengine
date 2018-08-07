@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieryJusticeBase = require("../setC13/FieryJustice");
+const FieryJusticeBase = require("../setMM3/FieryJustice");
 
 class FieryJustice extends FieryJusticeBase {
   constructor (game) {

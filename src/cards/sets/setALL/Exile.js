@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ExileBase = require("../setVMA/Exile");
 
-class Exile extends UnimplementedCard {
+class Exile extends ExileBase {
   constructor (game) {
     super(game, "Exile", "Alliances", "ALL");
   }

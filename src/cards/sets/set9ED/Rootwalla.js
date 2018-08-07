@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootwallaBase = require("../setM14/Rootwalla");
+const RootwallaBase = require("../setW17/Rootwalla");
 
 class Rootwalla extends RootwallaBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ActofTreasonBase = require("../setDDN/ActofTreason");
+const ActofTreasonBase = require("../setM19/ActofTreason");
 
 class ActofTreason extends ActofTreasonBase {
   constructor (game) {
-    super(game, "Act of Treason", "Magic 2014 Core Set", "M14");
+    super(game, "Act of Treason", "Magic 2014", "M14");
   }
 }
 

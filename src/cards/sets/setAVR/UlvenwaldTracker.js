@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UlvenwaldTrackerBase = require("../setMM3/UlvenwaldTracker");
 
-class UlvenwaldTracker extends UnimplementedCard {
+class UlvenwaldTracker extends UlvenwaldTrackerBase {
   constructor (game) {
     super(game, "Ulvenwald Tracker", "Avacyn Restored", "AVR");
   }

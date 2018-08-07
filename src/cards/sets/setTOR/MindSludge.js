@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MindSludgeBase = require("../set8ED/MindSludge");
+const MindSludgeBase = require("../setZEN/MindSludge");
 
 class MindSludge extends MindSludgeBase {
   constructor (game) {

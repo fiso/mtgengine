@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CacklingCounterpartBase = require("../setC14/CacklingCounterpart");
+const CacklingCounterpartBase = require("../setMM3/CacklingCounterpart");
 
 class CacklingCounterpart extends CacklingCounterpartBase {
   constructor (game) {

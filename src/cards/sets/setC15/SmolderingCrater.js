@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmolderingCraterBase = require("../setATH/SmolderingCrater");
+const SmolderingCraterBase = require("../setCM2/SmolderingCrater");
 
 class SmolderingCrater extends SmolderingCraterBase {
   constructor (game) {

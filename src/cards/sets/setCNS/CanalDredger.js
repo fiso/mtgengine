@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class CanalDredger extends UnimplementedCard {
   constructor (game) {
-    super(game, "Canal Dredger", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Canal Dredger", "Conspiracy", "CNS");
   }
 }
 

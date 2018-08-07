@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InvigorateBase = require("../setDD3_GVL/Invigorate");
+const InvigorateBase = require("../setA25/Invigorate");
 
 class Invigorate extends InvigorateBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FlowstoneBladeBase = require("../setTPR/FlowstoneBlade");
 
-class FlowstoneBlade extends UnimplementedCard {
+class FlowstoneBlade extends FlowstoneBladeBase {
   constructor (game) {
-    super(game, "Flowstone Blade", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Flowstone Blade", "Conspiracy", "CNS");
   }
 }
 

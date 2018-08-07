@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TarmogoyfBase = require("../setFUT/Tarmogoyf");
+const TarmogoyfBase = require("../setMM3/Tarmogoyf");
 
 class Tarmogoyf extends TarmogoyfBase {
   constructor (game) {

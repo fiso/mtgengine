@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkitteringSkirgeBase = require("../setpARL/SkitteringSkirge");
+const SkitteringSkirgeBase = require("../setPRM/SkitteringSkirge");
 
 class SkitteringSkirge extends SkitteringSkirgeBase {
   constructor (game) {

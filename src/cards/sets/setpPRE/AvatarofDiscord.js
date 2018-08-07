@@ -4,7 +4,7 @@ const AvatarofDiscordBase = require("../setARC/AvatarofDiscord");
 
 class AvatarofDiscord extends AvatarofDiscordBase {
   constructor (game) {
-    super(game, "Avatar of Discord", "Prerelease Events", "pPRE");
+    super(game, "Avatar of Discord", "Prerelease Events", "PPRE");
   }
 }
 

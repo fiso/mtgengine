@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HealingSalveBase = require("../setBRB/HealingSalve");
+const HealingSalveBase = require("../setDVD/HealingSalve");
 
 class HealingSalve extends HealingSalveBase {
   constructor (game) {

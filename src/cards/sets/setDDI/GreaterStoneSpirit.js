@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GreaterStoneSpiritBase = require("../setCSP/GreaterStoneSpirit");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GreaterStoneSpirit extends GreaterStoneSpiritBase {
+class GreaterStoneSpirit extends UnimplementedCard {
   constructor (game) {
     super(game, "Greater Stone Spirit", "Duel Decks: Venser vs. Koth", "DDI");
   }

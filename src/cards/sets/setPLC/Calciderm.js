@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CalcidermBase = require("../setpGTW/Calciderm");
+const CalcidermBase = require("../setEMA/Calciderm");
 
 class Calciderm extends CalcidermBase {
   constructor (game) {

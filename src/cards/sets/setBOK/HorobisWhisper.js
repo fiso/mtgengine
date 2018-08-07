@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HorobisWhisperBase = require("../setMMA/HorobisWhisper");
 
-class HorobisWhisper extends UnimplementedCard {
+class HorobisWhisper extends HorobisWhisperBase {
   constructor (game) {
     super(game, "Horobi's Whisper", "Betrayers of Kamigawa", "BOK");
   }

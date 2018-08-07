@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DismemberBase = require("../setpFNM/Dismember");
+const DismemberBase = require("../setMM2/Dismember");
 
 class Dismember extends DismemberBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzamiLadyofScrollsBase = require("../setCHK/AzamiLadyofScrolls");
+const AzamiLadyofScrollsBase = require("../setC17/AzamiLadyofScrolls");
 
 class AzamiLadyofScrolls extends AzamiLadyofScrollsBase {
   constructor (game) {
-    super(game, "Azami, Lady of Scrolls", "Commander 2013 Edition", "C13");
+    super(game, "Azami, Lady of Scrolls", "Commander 2013", "C13");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TradewindRiderBase = require("../setpJGP/TradewindRider");
+const TradewindRiderBase = require("../setTPR/TradewindRider");
 
 class TradewindRider extends TradewindRiderBase {
   constructor (game) {

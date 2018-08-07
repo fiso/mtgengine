@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FeralHydraBase = require("../setARC/FeralHydra");
+const FeralHydraBase = require("../setBBD/FeralHydra");
 
 class FeralHydra extends FeralHydraBase {
   constructor (game) {

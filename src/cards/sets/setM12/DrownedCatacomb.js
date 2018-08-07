@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DrownedCatacombBase = require("../setM10/DrownedCatacomb");
+const DrownedCatacombBase = require("../setXLN/DrownedCatacomb");
 
 class DrownedCatacomb extends DrownedCatacombBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LlanowarEmpathBase = require("../setFUT/LlanowarEmpath");
+const LlanowarEmpathBase = require("../setDDU/LlanowarEmpath");
 
 class LlanowarEmpath extends LlanowarEmpathBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxOpalBase = require("../setMM2/MoxOpal");
+const MoxOpalBase = require("../setMPS/MoxOpal");
 
 class MoxOpal extends MoxOpalBase {
   constructor (game) {

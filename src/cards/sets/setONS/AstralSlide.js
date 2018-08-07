@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AstralSlideBase = require("../setpFNM/AstralSlide");
+const AstralSlideBase = require("../setVMA/AstralSlide");
 
 class AstralSlide extends AstralSlideBase {
   constructor (game) {

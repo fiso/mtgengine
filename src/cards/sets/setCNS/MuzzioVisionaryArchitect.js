@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MuzzioVisionaryArchitectBase = require("../setVMA/MuzzioVisionaryArchitect");
 
-class MuzzioVisionaryArchitect extends UnimplementedCard {
+class MuzzioVisionaryArchitect extends MuzzioVisionaryArchitectBase {
   constructor (game) {
-    super(game, "Muzzio, Visionary Architect", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Muzzio, Visionary Architect", "Conspiracy", "CNS");
   }
 }
 

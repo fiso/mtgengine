@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnabaSpiritCrafterBase = require("../setHML/AnabaSpiritCrafter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AnabaSpiritCrafter extends AnabaSpiritCrafterBase {
+class AnabaSpiritCrafter extends UnimplementedCard {
   constructor (game) {
     super(game, "Anaba Spirit Crafter", "Masters Edition III", "ME3");
   }

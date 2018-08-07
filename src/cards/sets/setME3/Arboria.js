@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArboriaBase = require("../setLEG/Arboria");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Arboria extends ArboriaBase {
+class Arboria extends UnimplementedCard {
   constructor (game) {
     super(game, "Arboria", "Masters Edition III", "ME3");
   }

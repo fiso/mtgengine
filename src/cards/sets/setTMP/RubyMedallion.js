@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RubyMedallionBase = require("../setC14/RubyMedallion");
+const RubyMedallionBase = require("../setCM2/RubyMedallion");
 
 class RubyMedallion extends RubyMedallionBase {
   constructor (game) {

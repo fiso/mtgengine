@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MyrIncubatorBase = require("../setWC04/MyrIncubator");
 
-class MyrIncubator extends UnimplementedCard {
+class MyrIncubator extends MyrIncubatorBase {
   constructor (game) {
     super(game, "Myr Incubator", "Mirrodin", "MRD");
   }

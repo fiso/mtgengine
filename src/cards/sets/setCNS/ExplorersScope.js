@@ -4,7 +4,7 @@ const ExplorersScopeBase = require("../setDDP/ExplorersScope");
 
 class ExplorersScope extends ExplorersScopeBase {
   constructor (game) {
-    super(game, "Explorer's Scope", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Explorer's Scope", "Conspiracy", "CNS");
   }
 }
 

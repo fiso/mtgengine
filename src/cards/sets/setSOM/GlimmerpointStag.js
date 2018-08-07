@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GlimmerpointStagBase = require("../setCNS/GlimmerpointStag");
+const GlimmerpointStagBase = require("../setEMA/GlimmerpointStag");
 
 class GlimmerpointStag extends GlimmerpointStagBase {
   constructor (game) {

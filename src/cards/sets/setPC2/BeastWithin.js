@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BeastWithinBase = require("../setDDL/BeastWithin");
+const BeastWithinBase = require("../setBBD/BeastWithin");
 
 class BeastWithin extends BeastWithinBase {
   constructor (game) {
-    super(game, "Beast Within", "Planechase 2012 Edition", "PC2");
+    super(game, "Beast Within", "Planechase 2012", "PC2");
   }
 }
 

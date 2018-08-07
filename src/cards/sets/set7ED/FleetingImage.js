@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FleetingImageBase = require("../set8ED/FleetingImage");
+const FleetingImageBase = require("../set9ED/FleetingImage");
 
 class FleetingImage extends FleetingImageBase {
   constructor (game) {

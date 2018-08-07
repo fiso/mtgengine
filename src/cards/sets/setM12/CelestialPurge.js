@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CelestialPurgeBase = require("../setCON/CelestialPurge");
+const CelestialPurgeBase = require("../setMM2/CelestialPurge");
 
 class CelestialPurge extends CelestialPurgeBase {
   constructor (game) {

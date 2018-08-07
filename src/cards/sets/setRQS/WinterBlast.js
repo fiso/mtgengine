@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WinterBlastBase = require("../set5ED/WinterBlast");
+const WinterBlastBase = require("../setMED/WinterBlast");
 
 class WinterBlast extends WinterBlastBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FoulImpBase = require("../setDD3_DVD/FoulImp");
+const FoulImpBase = require("../setDDR/FoulImp");
 
 class FoulImp extends FoulImpBase {
   constructor (game) {

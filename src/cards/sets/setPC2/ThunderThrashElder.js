@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThunderThrashElderBase = require("../setPCA/ThunderThrashElder");
 
-class ThunderThrashElder extends UnimplementedCard {
+class ThunderThrashElder extends ThunderThrashElderBase {
   constructor (game) {
-    super(game, "Thunder-Thrash Elder", "Planechase 2012 Edition", "PC2");
+    super(game, "Thunder-Thrash Elder", "Planechase 2012", "PC2");
   }
 }
 

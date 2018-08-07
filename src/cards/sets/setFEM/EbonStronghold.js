@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EbonStrongholdBase = require("../setBTD/EbonStronghold");
+const EbonStrongholdBase = require("../setPD3/EbonStronghold");
 
 class EbonStronghold extends EbonStrongholdBase {
   constructor (game) {

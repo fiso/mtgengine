@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class CrookclawTransmuter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Crookclaw Transmuter", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Crookclaw Transmuter", "Conspiracy", "CNS");
   }
 }
 

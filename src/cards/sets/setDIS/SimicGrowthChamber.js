@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimicGrowthChamberBase = require("../setC15/SimicGrowthChamber");
+const SimicGrowthChamberBase = require("../setC18/SimicGrowthChamber");
 
 class SimicGrowthChamber extends SimicGrowthChamberBase {
   constructor (game) {

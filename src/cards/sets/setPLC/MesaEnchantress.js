@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MesaEnchantressBase = require("../setC15/MesaEnchantress");
+const MesaEnchantressBase = require("../setEMA/MesaEnchantress");
 
 class MesaEnchantress extends MesaEnchantressBase {
   constructor (game) {

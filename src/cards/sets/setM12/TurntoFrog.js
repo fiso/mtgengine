@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TurntoFrogBase = require("../setC14/TurntoFrog");
+const TurntoFrogBase = require("../setORI/TurntoFrog");
 
 class TurntoFrog extends TurntoFrogBase {
   constructor (game) {

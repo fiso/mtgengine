@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IronMyrBase = require("../setMRD/IronMyr");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class IronMyr extends IronMyrBase {
+class IronMyr extends UnimplementedCard {
   constructor (game) {
     super(game, "Iron Myr", "Scars of Mirrodin", "SOM");
   }

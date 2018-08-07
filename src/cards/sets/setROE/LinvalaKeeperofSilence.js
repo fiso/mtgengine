@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LinvalaKeeperofSilenceBase = require("../setMM3/LinvalaKeeperofSilence");
 
-class LinvalaKeeperofSilence extends UnimplementedCard {
+class LinvalaKeeperofSilence extends LinvalaKeeperofSilenceBase {
   constructor (game) {
     super(game, "Linvala, Keeper of Silence", "Rise of the Eldrazi", "ROE");
   }

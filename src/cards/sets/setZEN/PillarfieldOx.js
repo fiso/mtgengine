@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PillarfieldOxBase = require("../setM13/PillarfieldOx");
+const PillarfieldOxBase = require("../setCNS/PillarfieldOx");
 
 class PillarfieldOx extends PillarfieldOxBase {
   constructor (game) {

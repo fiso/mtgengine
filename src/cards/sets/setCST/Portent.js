@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PortentBase = require("../setC18/Portent");
 
-class Portent extends UnimplementedCard {
+class Portent extends PortentBase {
   constructor (game) {
     super(game, "Portent", "Coldsnap Theme Decks", "CST");
   }

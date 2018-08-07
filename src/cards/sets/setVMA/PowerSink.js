@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PowerSinkBase = require("../setBTD/PowerSink");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PowerSink extends PowerSinkBase {
+class PowerSink extends UnimplementedCard {
   constructor (game) {
     super(game, "Power Sink", "Vintage Masters", "VMA");
   }

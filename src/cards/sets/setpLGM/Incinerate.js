@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IncinerateBase = require("../setCST/Incinerate");
+const IncinerateBase = require("../setJVC/Incinerate");
 
 class Incinerate extends IncinerateBase {
   constructor (game) {
-    super(game, "Incinerate", "Legend Membership", "pLGM");
+    super(game, "Incinerate", "DCI Legend Membership", "PLGM");
   }
 }
 

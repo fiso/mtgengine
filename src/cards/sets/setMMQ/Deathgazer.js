@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathgazerBase = require("../set8ED/Deathgazer");
+const DeathgazerBase = require("../set9ED/Deathgazer");
 
 class Deathgazer extends DeathgazerBase {
   constructor (game) {

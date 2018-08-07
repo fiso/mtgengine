@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AetherTradewindsBase = require("../setCNS/AetherTradewinds");
+const AetherTradewindsBase = require("../setKLD/AetherTradewinds");
 
 class AetherTradewinds extends AetherTradewindsBase {
   constructor (game) {
-    super(game, "Æther Tradewinds", "Worldwake", "WWK");
+    super(game, "Aether Tradewinds", "Worldwake", "WWK");
   }
 }
 

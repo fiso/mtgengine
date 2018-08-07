@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CausticTarBase = require("../setM15/CausticTar");
+const CausticTarBase = require("../setA25/CausticTar");
 
 class CausticTar extends CausticTarBase {
   constructor (game) {

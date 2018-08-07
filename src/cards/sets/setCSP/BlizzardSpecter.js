@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BlizzardSpecterBase = require("../setIMA/BlizzardSpecter");
 
-class BlizzardSpecter extends UnimplementedCard {
+class BlizzardSpecter extends BlizzardSpecterBase {
   constructor (game) {
     super(game, "Blizzard Specter", "Coldsnap", "CSP");
   }

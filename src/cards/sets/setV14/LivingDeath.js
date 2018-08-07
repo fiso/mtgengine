@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LivingDeathBase = require("../setBRB/LivingDeath");
+const LivingDeathBase = require("../setCM2/LivingDeath");
 
 class LivingDeath extends LivingDeathBase {
   constructor (game) {
-    super(game, "Living Death", "From the Vault: Annihilation (2014)", "V14");
+    super(game, "Living Death", "From the Vault: Annihilation", "V14");
   }
 }
 

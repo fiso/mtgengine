@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcboundSlithBase = require("../setDST/ArcboundSlith");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArcboundSlith extends ArcboundSlithBase {
+class ArcboundSlith extends UnimplementedCard {
   constructor (game) {
     super(game, "Arcbound Slith", "Planechase", "HOP");
   }

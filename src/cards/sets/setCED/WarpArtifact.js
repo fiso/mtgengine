@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WarpArtifactBase = require("../setME4/WarpArtifact");
 
-class WarpArtifact extends UnimplementedCard {
+class WarpArtifact extends WarpArtifactBase {
   constructor (game) {
-    super(game, "Warp Artifact", "Collector's Edition", "CED");
+    super(game, "Warp Artifact", "Collectors’ Edition", "CED");
   }
 }
 

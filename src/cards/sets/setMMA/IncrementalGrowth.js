@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IncrementalGrowthBase = require("../setKTK/IncrementalGrowth");
+const IncrementalGrowthBase = require("../setW16/IncrementalGrowth");
 
 class IncrementalGrowth extends IncrementalGrowthBase {
   constructor (game) {

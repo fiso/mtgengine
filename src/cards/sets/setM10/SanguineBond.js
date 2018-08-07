@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SanguineBondBase = require("../setC13/SanguineBond");
+const SanguineBondBase = require("../setIMA/SanguineBond");
 
 class SanguineBond extends SanguineBondBase {
   constructor (game) {

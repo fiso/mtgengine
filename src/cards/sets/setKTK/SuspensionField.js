@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SuspensionFieldBase = require("../setpFNM/SuspensionField");
+const SuspensionFieldBase = require("../setF15/SuspensionField");
 
 class SuspensionField extends SuspensionFieldBase {
   constructor (game) {

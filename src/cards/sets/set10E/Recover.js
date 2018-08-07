@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecoverBase = require("../setINV/Recover");
+const RecoverBase = require("../setRIX/Recover");
 
 class Recover extends RecoverBase {
   constructor (game) {

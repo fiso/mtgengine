@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GruulGuildgateBase = require("../setC13/GruulGuildgate");
+const GruulGuildgateBase = require("../setMM3/GruulGuildgate");
 
 class GruulGuildgate extends GruulGuildgateBase {
   constructor (game) {

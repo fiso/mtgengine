@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NayaCharmBase = require("../setC16/NayaCharm");
 
-class NayaCharm extends UnimplementedCard {
+class NayaCharm extends NayaCharmBase {
   constructor (game) {
-    super(game, "Naya Charm", "Commander 2013 Edition", "C13");
+    super(game, "Naya Charm", "Commander 2013", "C13");
   }
 }
 

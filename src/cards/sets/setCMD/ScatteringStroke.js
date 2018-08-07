@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScatteringStrokeBase = require("../setLRW/ScatteringStroke");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ScatteringStroke extends ScatteringStrokeBase {
+class ScatteringStroke extends UnimplementedCard {
   constructor (game) {
-    super(game, "Scattering Stroke", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Scattering Stroke", "Commander 2011", "CMD");
   }
 }
 

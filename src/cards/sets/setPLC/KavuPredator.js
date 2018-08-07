@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KavuPredatorBase = require("../setDDL/KavuPredator");
+const KavuPredatorBase = require("../setA25/KavuPredator");
 
 class KavuPredator extends KavuPredatorBase {
   constructor (game) {

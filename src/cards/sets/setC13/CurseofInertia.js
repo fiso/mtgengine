@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CurseofInertiaBase = require("../setCMA/CurseofInertia");
 
-class CurseofInertia extends UnimplementedCard {
+class CurseofInertia extends CurseofInertiaBase {
   constructor (game) {
-    super(game, "Curse of Inertia", "Commander 2013 Edition", "C13");
+    super(game, "Curse of Inertia", "Commander 2013", "C13");
   }
 }
 

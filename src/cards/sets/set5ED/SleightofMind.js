@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SleightofMindBase = require("../setCED/SleightofMind");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SleightofMind extends SleightofMindBase {
+class SleightofMind extends UnimplementedCard {
   constructor (game) {
     super(game, "Sleight of Mind", "Fifth Edition", "5ED");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzureMageBase = require("../setC14/AzureMage");
+const AzureMageBase = require("../setMM3/AzureMage");
 
 class AzureMage extends AzureMageBase {
   constructor (game) {

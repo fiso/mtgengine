@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrimsonManticoreBase = require("../set5ED/CrimsonManticore");
+const CrimsonManticoreBase = require("../setME3/CrimsonManticore");
 
 class CrimsonManticore extends CrimsonManticoreBase {
   constructor (game) {

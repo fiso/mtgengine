@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelicProtectorBase = require("../setDD3_DVD/AngelicProtector");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AngelicProtector extends AngelicProtectorBase {
+class AngelicProtector extends UnimplementedCard {
   constructor (game) {
     super(game, "Angelic Protector", "Tempest Remastered", "TPR");
   }

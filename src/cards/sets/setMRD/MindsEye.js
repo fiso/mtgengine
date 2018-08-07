@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MindsEyeBase = require("../setCM1/MindsEye");
+const MindsEyeBase = require("../setBBD/MindsEye");
 
 class MindsEye extends MindsEyeBase {
   constructor (game) {

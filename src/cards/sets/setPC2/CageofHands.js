@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CageofHandsBase = require("../setCHK/CageofHands");
+const CageofHandsBase = require("../setPCA/CageofHands");
 
 class CageofHands extends CageofHandsBase {
   constructor (game) {
-    super(game, "Cage of Hands", "Planechase 2012 Edition", "PC2");
+    super(game, "Cage of Hands", "Planechase 2012", "PC2");
   }
 }
 

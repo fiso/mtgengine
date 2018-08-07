@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GriptideBase = require("../setDKA/Griptide");
+const GriptideBase = require("../setDDM/Griptide");
 
 class Griptide extends GriptideBase {
   constructor (game) {

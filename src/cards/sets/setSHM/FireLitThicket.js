@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FireLitThicketBase = require("../setEXP/FireLitThicket");
 
-class FireLitThicket extends UnimplementedCard {
+class FireLitThicket extends FireLitThicketBase {
   constructor (game) {
     super(game, "Fire-Lit Thicket", "Shadowmoor", "SHM");
   }

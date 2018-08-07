@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecklessOneBase = require("../setDD3_EVG/RecklessOne");
+const RecklessOneBase = require("../setEVG/RecklessOne");
 
 class RecklessOne extends RecklessOneBase {
   constructor (game) {

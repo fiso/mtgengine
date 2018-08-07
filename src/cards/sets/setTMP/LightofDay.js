@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LightofDayBase = require("../set6ED/LightofDay");
+const LightofDayBase = require("../setWC00/LightofDay");
 
 class LightofDay extends LightofDayBase {
   constructor (game) {

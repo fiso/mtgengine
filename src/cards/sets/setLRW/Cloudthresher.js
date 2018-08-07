@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CloudthresherBase = require("../setC15/Cloudthresher");
+const CloudthresherBase = require("../setCMA/Cloudthresher");
 
 class Cloudthresher extends CloudthresherBase {
   constructor (game) {

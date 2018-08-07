@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathgreeterBase = require("../setDD3_GVL/Deathgreeter");
+const DeathgreeterBase = require("../setGVL/Deathgreeter");
 
 class Deathgreeter extends DeathgreeterBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PalladiumMyrBase = require("../setC14/PalladiumMyr");
+const PalladiumMyrBase = require("../setCM2/PalladiumMyr");
 
 class PalladiumMyr extends PalladiumMyrBase {
   constructor (game) {

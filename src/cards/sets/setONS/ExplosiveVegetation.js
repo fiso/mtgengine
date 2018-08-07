@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExplosiveVegetationBase = require("../setDTK/ExplosiveVegetation");
+const ExplosiveVegetationBase = require("../setC18/ExplosiveVegetation");
 
 class ExplosiveVegetation extends ExplosiveVegetationBase {
   constructor (game) {

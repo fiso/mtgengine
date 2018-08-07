@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxRubyBase = require("../setCED/MoxRuby");
+const MoxRubyBase = require("../setVMA/MoxRuby");
 
 class MoxRuby extends MoxRubyBase {
   constructor (game) {

@@ -4,7 +4,7 @@ const WildRicochetBase = require("../setC13/WildRicochet");
 
 class WildRicochet extends WildRicochetBase {
   constructor (game) {
-    super(game, "Wild Ricochet", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Wild Ricochet", "Commander 2011", "CMD");
   }
 }
 

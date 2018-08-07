@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SolemnSimulacrumBase = require("../setC14/SolemnSimulacrum");
+const SolemnSimulacrumBase = require("../setCM2/SolemnSimulacrum");
 
 class SolemnSimulacrum extends SolemnSimulacrumBase {
   constructor (game) {
-    super(game, "Solemn Simulacrum", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Solemn Simulacrum", "Commander 2011", "CMD");
   }
 }
 

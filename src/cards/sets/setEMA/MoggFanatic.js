@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoggFanaticBase = require("../setATH/MoggFanatic");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoggFanatic extends MoggFanaticBase {
+class MoggFanatic extends UnimplementedCard {
   constructor (game) {
     super(game, "Mogg Fanatic", "Eternal Masters", "EMA");
   }

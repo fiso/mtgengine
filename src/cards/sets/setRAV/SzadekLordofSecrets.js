@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SzadekLordofSecretsBase = require("../setCMD/SzadekLordofSecrets");
+const SzadekLordofSecretsBase = require("../setCM2/SzadekLordofSecrets");
 
 class SzadekLordofSecrets extends SzadekLordofSecretsBase {
   constructor (game) {

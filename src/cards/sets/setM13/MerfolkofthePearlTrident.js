@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MerfolkofthePearlTridentBase = require("../set6ED/MerfolkofthePearlTrident");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MerfolkofthePearlTrident extends MerfolkofthePearlTridentBase {
+class MerfolkofthePearlTrident extends UnimplementedCard {
   constructor (game) {
     super(game, "Merfolk of the Pearl Trident", "Magic 2013", "M13");
   }

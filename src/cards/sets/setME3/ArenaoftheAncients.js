@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArenaoftheAncientsBase = require("../setCHR/ArenaoftheAncients");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArenaoftheAncients extends ArenaoftheAncientsBase {
+class ArenaoftheAncients extends UnimplementedCard {
   constructor (game) {
     super(game, "Arena of the Ancients", "Masters Edition III", "ME3");
   }

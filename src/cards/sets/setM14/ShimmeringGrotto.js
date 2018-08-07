@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShimmeringGrottoBase = require("../setISD/ShimmeringGrotto");
+const ShimmeringGrottoBase = require("../setIMA/ShimmeringGrotto");
 
 class ShimmeringGrotto extends ShimmeringGrottoBase {
   constructor (game) {
-    super(game, "Shimmering Grotto", "Magic 2014 Core Set", "M14");
+    super(game, "Shimmering Grotto", "Magic 2014", "M14");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SynodCenturionBase = require("../setARC/SynodCenturion");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SynodCenturion extends SynodCenturionBase {
+class SynodCenturion extends UnimplementedCard {
   constructor (game) {
     super(game, "Synod Centurion", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

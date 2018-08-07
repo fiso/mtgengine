@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NecroticSliverBase = require("../setPLC/NecroticSliver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NecroticSliver extends NecroticSliverBase {
+class NecroticSliver extends UnimplementedCard {
   constructor (game) {
     super(game, "Necrotic Sliver", "Premium Deck Series: Slivers", "H09");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MistyRainforestBase = require("../setZEN/MistyRainforest");
+const MistyRainforestBase = require("../setMM3/MistyRainforest");
 
 class MistyRainforest extends MistyRainforestBase {
   constructor (game) {
-    super(game, "Misty Rainforest", "Zendikar Expedition", "EXP");
+    super(game, "Misty Rainforest", "Zendikar Expeditions", "EXP");
   }
 }
 

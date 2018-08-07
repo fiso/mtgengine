@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FishliverOilBase = require("../setARN/FishliverOil");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FishliverOil extends FishliverOilBase {
+class FishliverOil extends UnimplementedCard {
   constructor (game) {
     super(game, "Fishliver Oil", "Ninth Edition", "9ED");
   }

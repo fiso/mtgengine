@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FirebreathingBase = require("../set6ED/Firebreathing");
+const FirebreathingBase = require("../setM12/Firebreathing");
 
 class Firebreathing extends FirebreathingBase {
   constructor (game) {
-    super(game, "Firebreathing", "International Collector's Edition", "CEI");
+    super(game, "Firebreathing", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

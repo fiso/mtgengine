@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LifetapBase = require("../setCED/Lifetap");
+const LifetapBase = require("../set5ED/Lifetap");
 
 class Lifetap extends LifetapBase {
   constructor (game) {
-    super(game, "Lifetap", "International Collector's Edition", "CEI");
+    super(game, "Lifetap", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class ChimericMass extends UnimplementedCard {
   constructor (game) {
-    super(game, "Chimeric Mass", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Chimeric Mass", "Modern Masters 2015", "MM2");
   }
 }
 

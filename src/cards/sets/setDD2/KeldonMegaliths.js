@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KeldonMegalithsBase = require("../setDD3_JVC/KeldonMegaliths");
+const KeldonMegalithsBase = require("../setJVC/KeldonMegaliths");
 
 class KeldonMegaliths extends KeldonMegalithsBase {
   constructor (game) {

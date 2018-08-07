@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SwampMosquitoBase = require("../setALL/SwampMosquito");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SwampMosquito extends SwampMosquitoBase {
+class SwampMosquito extends UnimplementedCard {
   constructor (game) {
-    super(game, "Swamp Mosquito", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Swamp Mosquito", "Time Spiral Timeshifted", "TSB");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ImpulseBase = require("../setBTD/Impulse");
+const ImpulseBase = require("../setBBD/Impulse");
 
 class Impulse extends ImpulseBase {
   constructor (game) {

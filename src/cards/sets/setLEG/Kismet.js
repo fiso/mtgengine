@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KismetBase = require("../set6ED/Kismet");
+const KismetBase = require("../setME4/Kismet");
 
 class Kismet extends KismetBase {
   constructor (game) {

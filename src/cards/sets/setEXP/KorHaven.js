@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KorHavenBase = require("../setNMS/KorHaven");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KorHaven extends KorHavenBase {
+class KorHaven extends UnimplementedCard {
   constructor (game) {
-    super(game, "Kor Haven", "Zendikar Expedition", "EXP");
+    super(game, "Kor Haven", "Zendikar Expeditions", "EXP");
   }
 }
 

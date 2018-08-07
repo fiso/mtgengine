@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AggressiveUrgeBase = require("../setINV/AggressiveUrge");
+const AggressiveUrgeBase = require("../setRIX/AggressiveUrge");
 
 class AggressiveUrge extends AggressiveUrgeBase {
   constructor (game) {

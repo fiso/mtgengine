@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SamiteHealerBase = require("../setATH/SamiteHealer");
+const SamiteHealerBase = require("../set10E/SamiteHealer");
 
 class SamiteHealer extends SamiteHealerBase {
   constructor (game) {
-    super(game, "Samite Healer", "Collector's Edition", "CED");
+    super(game, "Samite Healer", "Collectors’ Edition", "CED");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MemoryJarBase = require("../setVMA/MemoryJar");
 
-class MemoryJar extends UnimplementedCard {
+class MemoryJar extends MemoryJarBase {
   constructor (game) {
     super(game, "Memory Jar", "From the Vault: Relics", "V10");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HearthfireHobgoblinBase = require("../setEVE/HearthfireHobgoblin");
+const HearthfireHobgoblinBase = require("../setMM2/HearthfireHobgoblin");
 
 class HearthfireHobgoblin extends HearthfireHobgoblinBase {
   constructor (game) {

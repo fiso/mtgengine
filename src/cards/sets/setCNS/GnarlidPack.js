@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GnarlidPackBase = require("../setMM2/GnarlidPack");
 
-class GnarlidPack extends UnimplementedCard {
+class GnarlidPack extends GnarlidPackBase {
   constructor (game) {
-    super(game, "Gnarlid Pack", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Gnarlid Pack", "Conspiracy", "CNS");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FalkenrathReaverBase = require("../setW17/FalkenrathReaver");
 
-class FalkenrathReaver extends UnimplementedCard {
+class FalkenrathReaver extends FalkenrathReaverBase {
   constructor (game) {
     super(game, "Falkenrath Reaver", "Eldritch Moon", "EMN");
   }

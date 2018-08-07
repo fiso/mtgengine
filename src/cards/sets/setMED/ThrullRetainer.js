@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThrullRetainerBase = require("../setFEM/ThrullRetainer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ThrullRetainer extends ThrullRetainerBase {
+class ThrullRetainer extends UnimplementedCard {
   constructor (game) {
     super(game, "Thrull Retainer", "Masters Edition", "MED");
   }

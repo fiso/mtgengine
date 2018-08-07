@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PollutedDeltaBase = require("../setpJGP/PollutedDelta");
+const PollutedDeltaBase = require("../setEXP/PollutedDelta");
 
 class PollutedDelta extends PollutedDeltaBase {
   constructor (game) {

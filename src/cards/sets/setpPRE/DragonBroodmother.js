@@ -4,7 +4,7 @@ const DragonBroodmotherBase = require("../setARB/DragonBroodmother");
 
 class DragonBroodmother extends DragonBroodmotherBase {
   constructor (game) {
-    super(game, "Dragon Broodmother", "Prerelease Events", "pPRE");
+    super(game, "Dragon Broodmother", "Prerelease Events", "PPRE");
   }
 }
 

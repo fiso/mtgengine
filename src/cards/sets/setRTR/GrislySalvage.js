@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrislySalvageBase = require("../setC15/GrislySalvage");
+const GrislySalvageBase = require("../setC18/GrislySalvage");
 
 class GrislySalvage extends GrislySalvageBase {
   constructor (game) {

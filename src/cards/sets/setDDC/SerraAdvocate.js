@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SerraAdvocateBase = require("../setDD3_DVD/SerraAdvocate");
+const SerraAdvocateBase = require("../setDVD/SerraAdvocate");
 
 class SerraAdvocate extends SerraAdvocateBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DerangedHermitBase = require("../setpJGP/DerangedHermit");
+const DerangedHermitBase = require("../setVMA/DerangedHermit");
 
 class DerangedHermit extends DerangedHermitBase {
   constructor (game) {

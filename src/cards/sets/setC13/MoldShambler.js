@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MoldShamblerBase = require("../setDDM/MoldShambler");
 
-class MoldShambler extends UnimplementedCard {
+class MoldShambler extends MoldShamblerBase {
   constructor (game) {
-    super(game, "Mold Shambler", "Commander 2013 Edition", "C13");
+    super(game, "Mold Shambler", "Commander 2013", "C13");
   }
 }
 

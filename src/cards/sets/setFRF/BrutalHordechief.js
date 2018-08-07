@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BrutalHordechiefBase = require("../setC16/BrutalHordechief");
 
-class BrutalHordechief extends UnimplementedCard {
+class BrutalHordechief extends BrutalHordechiefBase {
   constructor (game) {
     super(game, "Brutal Hordechief", "Fate Reforged", "FRF");
   }

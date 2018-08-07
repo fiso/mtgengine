@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ParallaxWaveBase = require("../setNMS/ParallaxWave");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ParallaxWave extends ParallaxWaveBase {
+class ParallaxWave extends UnimplementedCard {
   constructor (game) {
     super(game, "Parallax Wave", "Vintage Masters", "VMA");
   }

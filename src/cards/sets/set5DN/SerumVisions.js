@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SerumVisionsBase = require("../setpARL/SerumVisions");
+const SerumVisionsBase = require("../setMM3/SerumVisions");
 
 class SerumVisions extends SerumVisionsBase {
   constructor (game) {

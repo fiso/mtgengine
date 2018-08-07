@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeoninBladetrapBase = require("../setC13/LeoninBladetrap");
+const LeoninBladetrapBase = require("../setCMA/LeoninBladetrap");
 
 class LeoninBladetrap extends LeoninBladetrapBase {
   constructor (game) {

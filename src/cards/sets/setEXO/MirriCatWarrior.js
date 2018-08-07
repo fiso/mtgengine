@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MirriCatWarriorBase = require("../setATH/MirriCatWarrior");
+const MirriCatWarriorBase = require("../setTPR/MirriCatWarrior");
 
 class MirriCatWarrior extends MirriCatWarriorBase {
   constructor (game) {

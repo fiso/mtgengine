@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InkfathomWitchBase = require("../setPC2/InkfathomWitch");
+const InkfathomWitchBase = require("../setPCA/InkfathomWitch");
 
 class InkfathomWitch extends InkfathomWitchBase {
   constructor (game) {

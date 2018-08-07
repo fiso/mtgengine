@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JacesIngenuityBase = require("../setDDM/JacesIngenuity");
+const JacesIngenuityBase = require("../setM15/JacesIngenuity");
 
 class JacesIngenuity extends JacesIngenuityBase {
   constructor (game) {

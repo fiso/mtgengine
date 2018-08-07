@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SinkholeBase = require("../setCED/Sinkhole");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Sinkhole extends SinkholeBase {
+class Sinkhole extends UnimplementedCard {
   constructor (game) {
     super(game, "Sinkhole", "Eternal Masters", "EMA");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RunedServitorBase = require("../setIMA/RunedServitor");
 
-class RunedServitor extends UnimplementedCard {
+class RunedServitor extends RunedServitorBase {
   constructor (game) {
     super(game, "Runed Servitor", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

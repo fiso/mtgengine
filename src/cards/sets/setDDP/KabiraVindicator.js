@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KabiraVindicatorBase = require("../setDDG/KabiraVindicator");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KabiraVindicator extends KabiraVindicatorBase {
+class KabiraVindicator extends UnimplementedCard {
   constructor (game) {
     super(game, "Kabira Vindicator", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

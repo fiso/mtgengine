@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TormentingVoiceBase = require("../setDTK/TormentingVoice");
+const TormentingVoiceBase = require("../setM19/TormentingVoice");
 
 class TormentingVoice extends TormentingVoiceBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LotusCobraBase = require("../setpGPX/LotusCobra");
+const LotusCobraBase = require("../setIMA/LotusCobra");
 
 class LotusCobra extends LotusCobraBase {
   constructor (game) {

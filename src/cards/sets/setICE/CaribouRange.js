@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CaribouRangeBase = require("../set5ED/CaribouRange");
+const CaribouRangeBase = require("../setME2/CaribouRange");
 
 class CaribouRange extends CaribouRangeBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FabricateBase = require("../setM10/Fabricate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Fabricate extends FabricateBase {
+class Fabricate extends UnimplementedCard {
   constructor (game) {
     super(game, "Fabricate", "Planechase", "HOP");
   }

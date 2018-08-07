@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FledglingMawcorBase = require("../setDD3_JVC/FledglingMawcor");
+const FledglingMawcorBase = require("../setJVC/FledglingMawcor");
 
 class FledglingMawcor extends FledglingMawcorBase {
   constructor (game) {

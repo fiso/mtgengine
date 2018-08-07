@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IcefallRegentBase = require("../setE01/IcefallRegent");
 
-class IcefallRegent extends UnimplementedCard {
+class IcefallRegent extends IcefallRegentBase {
   constructor (game) {
     super(game, "Icefall Regent", "Dragons of Tarkir", "DTK");
   }

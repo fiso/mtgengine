@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishAberrationBase = require("../setpARL/ElvishAberration");
+const ElvishAberrationBase = require("../setDDU/ElvishAberration");
 
 class ElvishAberration extends ElvishAberrationBase {
   constructor (game) {
-    super(game, "Elvish Aberration", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Elvish Aberration", "Commander 2011", "CMD");
   }
 }
 

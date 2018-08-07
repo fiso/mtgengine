@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ImperiosaurBase = require("../setMMA/Imperiosaur");
 
-class Imperiosaur extends UnimplementedCard {
+class Imperiosaur extends ImperiosaurBase {
   constructor (game) {
     super(game, "Imperiosaur", "Future Sight", "FUT");
   }

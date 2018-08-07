@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SunspearShikariBase = require("../setC17/SunspearShikari");
 
-class SunspearShikari extends UnimplementedCard {
+class SunspearShikari extends SunspearShikariBase {
   constructor (game) {
-    super(game, "Sunspear Shikari", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Sunspear Shikari", "Modern Masters 2015", "MM2");
   }
 }
 

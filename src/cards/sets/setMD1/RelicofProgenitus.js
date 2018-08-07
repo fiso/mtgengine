@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RelicofProgenitusBase = require("../setEMA/RelicofProgenitus");
 
-class RelicofProgenitus extends UnimplementedCard {
+class RelicofProgenitus extends RelicofProgenitusBase {
   constructor (game) {
     super(game, "Relic of Progenitus", "Modern Event Deck 2014", "MD1");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimicSignetBase = require("../setC13/SimicSignet");
+const SimicSignetBase = require("../setCM2/SimicSignet");
 
 class SimicSignet extends SimicSignetBase {
   constructor (game) {

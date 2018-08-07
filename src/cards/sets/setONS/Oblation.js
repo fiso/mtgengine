@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OblationBase = require("../setC14/Oblation");
+const OblationBase = require("../setC16/Oblation");
 
 class Oblation extends OblationBase {
   constructor (game) {

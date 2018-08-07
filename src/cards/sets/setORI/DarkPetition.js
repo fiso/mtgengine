@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DarkPetitionBase = require("../setPORI/DarkPetition");
 
-class DarkPetition extends UnimplementedCard {
+class DarkPetition extends DarkPetitionBase {
   constructor (game) {
     super(game, "Dark Petition", "Magic Origins", "ORI");
   }

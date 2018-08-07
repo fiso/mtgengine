@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChaosOrbBase = require("../setCED/ChaosOrb");
+const ChaosOrbBase = require("../setCEI/ChaosOrb");
 
 class ChaosOrb extends ChaosOrbBase {
   constructor (game) {

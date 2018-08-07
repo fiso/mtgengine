@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class TidehollowStrix extends UnimplementedCard {
   constructor (game) {
-    super(game, "Tidehollow Strix", "Commander 2013 Edition", "C13");
+    super(game, "Tidehollow Strix", "Commander 2013", "C13");
   }
 }
 

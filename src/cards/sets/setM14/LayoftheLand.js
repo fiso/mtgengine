@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LayoftheLandBase = require("../setAPC/LayoftheLand");
+const LayoftheLandBase = require("../setCN2/LayoftheLand");
 
 class LayoftheLand extends LayoftheLandBase {
   constructor (game) {
-    super(game, "Lay of the Land", "Magic 2014 Core Set", "M14");
+    super(game, "Lay of the Land", "Magic 2014", "M14");
   }
 }
 

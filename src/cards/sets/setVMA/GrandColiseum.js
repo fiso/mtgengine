@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrandColiseumBase = require("../setONS/GrandColiseum");
+const GrandColiseumBase = require("../setC16/GrandColiseum");
 
 class GrandColiseum extends GrandColiseumBase {
   constructor (game) {

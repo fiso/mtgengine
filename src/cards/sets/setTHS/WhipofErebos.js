@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WhipofErebosBase = require("../setCPK/WhipofErebos");
+const WhipofErebosBase = require("../setCP2/WhipofErebos");
 
 class WhipofErebos extends WhipofErebosBase {
   constructor (game) {

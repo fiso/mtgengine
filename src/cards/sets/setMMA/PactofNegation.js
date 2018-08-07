@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PactofNegationBase = require("../setFUT/PactofNegation");
+const PactofNegationBase = require("../setA25/PactofNegation");
 
 class PactofNegation extends PactofNegationBase {
   constructor (game) {

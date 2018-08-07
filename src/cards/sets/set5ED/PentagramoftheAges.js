@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PentagramoftheAgesBase = require("../set6ED/PentagramoftheAges");
+const PentagramoftheAgesBase = require("../setME4/PentagramoftheAges");
 
 class PentagramoftheAges extends PentagramoftheAgesBase {
   constructor (game) {

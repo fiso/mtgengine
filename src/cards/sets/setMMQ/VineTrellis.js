@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VineTrellisBase = require("../setDD3_GVL/VineTrellis");
+const VineTrellisBase = require("../setGVL/VineTrellis");
 
 class VineTrellis extends VineTrellisBase {
   constructor (game) {

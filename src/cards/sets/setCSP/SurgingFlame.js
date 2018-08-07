@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SurgingFlameBase = require("../setpARL/SurgingFlame");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SurgingFlame extends SurgingFlameBase {
+class SurgingFlame extends UnimplementedCard {
   constructor (game) {
     super(game, "Surging Flame", "Coldsnap", "CSP");
   }

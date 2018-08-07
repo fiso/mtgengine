@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrackwaterElementalBase = require("../setCON/BrackwaterElemental");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BrackwaterElemental extends BrackwaterElementalBase {
+class BrackwaterElemental extends UnimplementedCard {
   constructor (game) {
     super(game, "Brackwater Elemental", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

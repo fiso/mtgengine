@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BirdMaidenBase = require("../setARN/BirdMaiden");
+const BirdMaidenBase = require("../setME4/BirdMaiden");
 
 class BirdMaiden extends BirdMaidenBase {
   constructor (game) {

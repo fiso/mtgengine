@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HandofSilumgarBase = require("../setBBD/HandofSilumgar");
 
-class HandofSilumgar extends UnimplementedCard {
+class HandofSilumgar extends HandofSilumgarBase {
   constructor (game) {
     super(game, "Hand of Silumgar", "Dragons of Tarkir", "DTK");
   }

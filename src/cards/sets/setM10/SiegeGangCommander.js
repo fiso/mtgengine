@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SiegeGangCommanderBase = require("../setDD3_EVG/SiegeGangCommander");
+const SiegeGangCommanderBase = require("../setDOM/SiegeGangCommander");
 
 class SiegeGangCommander extends SiegeGangCommanderBase {
   constructor (game) {

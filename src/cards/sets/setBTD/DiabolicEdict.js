@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DiabolicEdictBase = require("../setpARL/DiabolicEdict");
+const DiabolicEdictBase = require("../setA25/DiabolicEdict");
 
 class DiabolicEdict extends DiabolicEdictBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NimbleMongooseBase = require("../setEMA/NimbleMongoose");
 
-class NimbleMongoose extends UnimplementedCard {
+class NimbleMongoose extends NimbleMongooseBase {
   constructor (game) {
     super(game, "Nimble Mongoose", "Odyssey", "ODY");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CloudthresherBase = require("../setCMA/Cloudthresher");
 
-class Cloudthresher extends UnimplementedCard {
+class Cloudthresher extends CloudthresherBase {
   constructor (game) {
     super(game, "Cloudthresher", "Commander 2015", "C15");
   }

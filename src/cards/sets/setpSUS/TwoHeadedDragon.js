@@ -4,7 +4,7 @@ const TwoHeadedDragonBase = require("../setARC/TwoHeadedDragon");
 
 class TwoHeadedDragon extends TwoHeadedDragonBase {
   constructor (game) {
-    super(game, "Two-Headed Dragon", "Super Series", "pSUS");
+    super(game, "Two-Headed Dragon", "Junior Super Series", "PSUS");
   }
 }
 

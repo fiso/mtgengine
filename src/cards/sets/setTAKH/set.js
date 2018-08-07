@@ -1,0 +1,30 @@
+"use strict";
+module.exports = {
+  AngelofSanctionsToken: require("./AngelofSanctionsToken"),
+  AnointerPriestToken: require("./AnointerPriestToken"),
+  AvenInitiateToken: require("./AvenInitiateToken"),
+  AvenWindGuideToken: require("./AvenWindGuideToken"),
+  Beast: require("./Beast"),
+  Cat: require("./Cat"),
+  Drake: require("./Drake"),
+  GideonoftheTrialsEmblem: require("./GideonoftheTrialsEmblem"),
+  GlyphKeeperToken: require("./GlyphKeeperToken"),
+  HeartPiercerManticoreToken: require("./HeartPiercerManticoreToken"),
+  Hippo: require("./Hippo"),
+  HonoredHydraToken: require("./HonoredHydraToken"),
+  Insect: require("./Insect"),
+  LabyrinthGuardianToken: require("./LabyrinthGuardianToken"),
+  OketrasAttendantToken: require("./OketrasAttendantToken"),
+  Punchcard: require("./Punchcard"),
+  SacredCatToken: require("./SacredCatToken"),
+  Snake: require("./Snake"),
+  TahCropSkirmisherToken: require("./TahCropSkirmisherToken"),
+  TemmetVizierofNaktamunToken: require("./TemmetVizierofNaktamunToken"),
+  TrueheartDuelistToken: require("./TrueheartDuelistToken"),
+  UnwaveringInitiateToken: require("./UnwaveringInitiateToken"),
+  VizierofManyFacesToken: require("./VizierofManyFacesToken"),
+  Warrior: require("./Warrior"),
+  Wurm: require("./Wurm"),
+  Zombie: require("./Zombie")
+};
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setTAKH = module.exports;}

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OkibaGangShinobiBase = require("../setPCA/OkibaGangShinobi");
 
-class OkibaGangShinobi extends UnimplementedCard {
+class OkibaGangShinobi extends OkibaGangShinobiBase {
   constructor (game) {
     super(game, "Okiba-Gang Shinobi", "Betrayers of Kamigawa", "BOK");
   }

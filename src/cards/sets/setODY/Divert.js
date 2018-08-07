@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DivertBase = require("../setMP2/Divert");
 
-class Divert extends UnimplementedCard {
+class Divert extends DivertBase {
   constructor (game) {
     super(game, "Divert", "Odyssey", "ODY");
   }

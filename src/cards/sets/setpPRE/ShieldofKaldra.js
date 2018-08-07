@@ -4,7 +4,7 @@ const ShieldofKaldraBase = require("../setDST/ShieldofKaldra");
 
 class ShieldofKaldra extends ShieldofKaldraBase {
   constructor (game) {
-    super(game, "Shield of Kaldra", "Prerelease Events", "pPRE");
+    super(game, "Shield of Kaldra", "Prerelease Events", "PPRE");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TribalUnityBase = require("../setHOP/TribalUnity");
 
-class TribalUnity extends UnimplementedCard {
+class TribalUnity extends TribalUnityBase {
   constructor (game) {
     super(game, "Tribal Unity", "Onslaught", "ONS");
   }

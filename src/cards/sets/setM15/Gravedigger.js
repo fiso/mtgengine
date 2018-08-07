@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GravediggerBase = require("../setBTD/Gravedigger");
+const GravediggerBase = require("../setM19/Gravedigger");
 
 class Gravedigger extends GravediggerBase {
   constructor (game) {
-    super(game, "Gravedigger", "Magic 2015 Core Set", "M15");
+    super(game, "Gravedigger", "Magic 2015", "M15");
   }
 }
 

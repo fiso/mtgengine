@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OwlFamiliarBase = require("../setME4/OwlFamiliar");
+const OwlFamiliarBase = require("../setVMA/OwlFamiliar");
 
 class OwlFamiliar extends OwlFamiliarBase {
   constructor (game) {

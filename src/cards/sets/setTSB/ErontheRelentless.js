@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ErontheRelentlessBase = require("../setHML/ErontheRelentless");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ErontheRelentless extends ErontheRelentlessBase {
+class ErontheRelentless extends UnimplementedCard {
   constructor (game) {
-    super(game, "Eron the Relentless", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Eron the Relentless", "Time Spiral Timeshifted", "TSB");
   }
 }
 

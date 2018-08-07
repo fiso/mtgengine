@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SnowFortressBase = require("../setICE/SnowFortress");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SnowFortress extends SnowFortressBase {
+class SnowFortress extends UnimplementedCard {
   constructor (game) {
     super(game, "Snow Fortress", "Masters Edition II", "ME2");
   }

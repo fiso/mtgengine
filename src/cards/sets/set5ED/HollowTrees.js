@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HollowTreesBase = require("../setFEM/HollowTrees");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HollowTrees extends HollowTreesBase {
+class HollowTrees extends UnimplementedCard {
   constructor (game) {
     super(game, "Hollow Trees", "Fifth Edition", "5ED");
   }

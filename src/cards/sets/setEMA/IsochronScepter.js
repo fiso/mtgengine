@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IsochronScepterBase = require("../setDDJ/IsochronScepter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class IsochronScepter extends IsochronScepterBase {
+class IsochronScepter extends UnimplementedCard {
   constructor (game) {
     super(game, "Isochron Scepter", "Eternal Masters", "EMA");
   }

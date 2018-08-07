@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class StormscapeBattlemage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Stormscape Battlemage", "Commander 2013 Edition", "C13");
+    super(game, "Stormscape Battlemage", "Commander 2013", "C13");
   }
 }
 

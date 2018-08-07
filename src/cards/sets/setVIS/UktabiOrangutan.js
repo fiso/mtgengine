@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UktabiOrangutanBase = require("../setpARL/UktabiOrangutan");
+const UktabiOrangutanBase = require("../setPRM/UktabiOrangutan");
 
 class UktabiOrangutan extends UktabiOrangutanBase {
   constructor (game) {

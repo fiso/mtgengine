@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DisintegrateBase = require("../setCED/Disintegrate");
+const DisintegrateBase = require("../setTSB/Disintegrate");
 
 class Disintegrate extends DisintegrateBase {
   constructor (game) {

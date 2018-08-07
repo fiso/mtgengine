@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReturntotheEarthBase = require("../setBBD/ReturntotheEarth");
 
-class ReturntotheEarth extends UnimplementedCard {
+class ReturntotheEarth extends ReturntotheEarthBase {
   constructor (game) {
     super(game, "Return to the Earth", "Fate Reforged", "FRF");
   }

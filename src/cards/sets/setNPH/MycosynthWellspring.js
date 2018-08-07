@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MycosynthWellspringBase = require("../setC14/MycosynthWellspring");
+const MycosynthWellspringBase = require("../setCM2/MycosynthWellspring");
 
 class MycosynthWellspring extends MycosynthWellspringBase {
   constructor (game) {

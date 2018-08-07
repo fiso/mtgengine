@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RegenerationBase = require("../set6ED/Regeneration");
+const RegenerationBase = require("../set10E/Regeneration");
 
 class Regeneration extends RegenerationBase {
   constructor (game) {
-    super(game, "Regeneration", "Collector's Edition", "CED");
+    super(game, "Regeneration", "Collectors’ Edition", "CED");
   }
 }
 

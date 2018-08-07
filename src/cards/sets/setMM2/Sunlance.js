@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunlanceBase = require("../setDDO/Sunlance");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Sunlance extends SunlanceBase {
+class Sunlance extends UnimplementedCard {
   constructor (game) {
-    super(game, "Sunlance", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Sunlance", "Modern Masters 2015", "MM2");
   }
 }
 

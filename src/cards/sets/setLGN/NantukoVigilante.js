@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NantukoVigilanteBase = require("../setWC03/NantukoVigilante");
 
-class NantukoVigilante extends UnimplementedCard {
+class NantukoVigilante extends NantukoVigilanteBase {
   constructor (game) {
     super(game, "Nantuko Vigilante", "Legions", "LGN");
   }

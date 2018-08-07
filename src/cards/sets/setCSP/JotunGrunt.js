@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JotunGruntBase = require("../setCMD/JotunGrunt");
 
-class JotunGrunt extends UnimplementedCard {
+class JotunGrunt extends JotunGruntBase {
   constructor (game) {
     super(game, "Jötun Grunt", "Coldsnap", "CSP");
   }

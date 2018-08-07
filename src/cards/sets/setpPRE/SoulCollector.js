@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SoulCollectorBase = require("../setTSB/SoulCollector");
 
-class SoulCollector extends UnimplementedCard {
+class SoulCollector extends SoulCollectorBase {
   constructor (game) {
-    super(game, "Soul Collector", "Prerelease Events", "pPRE");
+    super(game, "Soul Collector", "Prerelease Events", "PPRE");
   }
 }
 

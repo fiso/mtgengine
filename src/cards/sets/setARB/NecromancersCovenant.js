@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NecromancersCovenantBase = require("../setC15/NecromancersCovenant");
 
-class NecromancersCovenant extends UnimplementedCard {
+class NecromancersCovenant extends NecromancersCovenantBase {
   constructor (game) {
     super(game, "Necromancer's Covenant", "Alara Reborn", "ARB");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TwoHeadedGiantofForiysBase = require("../setCED/TwoHeadedGiantofForiys");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TwoHeadedGiantofForiys extends TwoHeadedGiantofForiysBase {
+class TwoHeadedGiantofForiys extends UnimplementedCard {
   constructor (game) {
     super(game, "Two-Headed Giant of Foriys", "Masters Edition IV", "ME4");
   }

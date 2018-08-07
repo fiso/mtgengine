@@ -4,7 +4,7 @@ const NantukoHuskBase = require("../setORI/NantukoHusk");
 
 class NantukoHusk extends NantukoHuskBase {
   constructor (game) {
-    super(game, "Nantuko Husk", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Nantuko Husk", "Commander 2011", "CMD");
   }
 }
 

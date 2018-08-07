@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DuplicantBase = require("../setARC/Duplicant");
+const DuplicantBase = require("../setC18/Duplicant");
 
 class Duplicant extends DuplicantBase {
   constructor (game) {

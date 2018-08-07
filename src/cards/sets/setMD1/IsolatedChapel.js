@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IsolatedChapelBase = require("../setISD/IsolatedChapel");
+const IsolatedChapelBase = require("../setDOM/IsolatedChapel");
 
 class IsolatedChapel extends IsolatedChapelBase {
   constructor (game) {

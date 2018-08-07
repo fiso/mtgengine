@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AttritionBase = require("../setCMD/Attrition");
+const AttritionBase = require("../setMP2/Attrition");
 
 class Attrition extends AttritionBase {
   constructor (game) {

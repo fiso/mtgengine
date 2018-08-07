@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WashOutBase = require("../setC13/WashOut");
+const WashOutBase = require("../setCMA/WashOut");
 
 class WashOut extends WashOutBase {
   constructor (game) {

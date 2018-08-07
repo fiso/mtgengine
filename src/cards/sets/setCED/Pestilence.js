@@ -4,7 +4,7 @@ const PestilenceBase = require("../setBRB/Pestilence");
 
 class Pestilence extends PestilenceBase {
   constructor (game) {
-    super(game, "Pestilence", "Collector's Edition", "CED");
+    super(game, "Pestilence", "Collectors’ Edition", "CED");
   }
 }
 

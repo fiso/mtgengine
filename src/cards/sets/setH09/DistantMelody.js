@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DistantMelodyBase = require("../setMOR/DistantMelody");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DistantMelody extends DistantMelodyBase {
+class DistantMelody extends UnimplementedCard {
   constructor (game) {
     super(game, "Distant Melody", "Premium Deck Series: Slivers", "H09");
   }

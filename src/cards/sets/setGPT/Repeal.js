@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RepealBase = require("../setC15/Repeal");
+const RepealBase = require("../setIMA/Repeal");
 
 class Repeal extends RepealBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElkinBottleBase = require("../setDKM/ElkinBottle");
+const ElkinBottleBase = require("../setME2/ElkinBottle");
 
 class ElkinBottle extends ElkinBottleBase {
   constructor (game) {

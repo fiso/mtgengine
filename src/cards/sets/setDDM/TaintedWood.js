@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TaintedWoodBase = require("../setC15/TaintedWood");
+const TaintedWoodBase = require("../setCMA/TaintedWood");
 
 class TaintedWood extends TaintedWoodBase {
   constructor (game) {

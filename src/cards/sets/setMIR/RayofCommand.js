@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RayofCommandBase = require("../setBRB/RayofCommand");
+const RayofCommandBase = require("../setDDM/RayofCommand");
 
 class RayofCommand extends RayofCommandBase {
   constructor (game) {

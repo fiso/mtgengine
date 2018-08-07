@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhagetheUntouchableBase = require("../setLGN/PhagetheUntouchable");
+const PhagetheUntouchableBase = require("../setCNS/PhagetheUntouchable");
 
 class PhagetheUntouchable extends PhagetheUntouchableBase {
   constructor (game) {

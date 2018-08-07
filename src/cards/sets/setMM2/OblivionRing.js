@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OblivionRingBase = require("../setARC/OblivionRing");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OblivionRing extends OblivionRingBase {
+class OblivionRing extends UnimplementedCard {
   constructor (game) {
-    super(game, "Oblivion Ring", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Oblivion Ring", "Modern Masters 2015", "MM2");
   }
 }
 

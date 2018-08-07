@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HedronFieldsofAgadeemBase = require("../setPCA/HedronFieldsofAgadeem");
 
-class HedronFieldsofAgadeem extends UnimplementedCard {
+class HedronFieldsofAgadeem extends HedronFieldsofAgadeemBase {
   constructor (game) {
-    super(game, "Hedron Fields of Agadeem", "Planechase 2012 Edition", "PC2");
+    super(game, "Hedron Fields of Agadeem", "Planechase 2012", "PC2");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SabertoothWyvernBase = require("../setEXO/SabertoothWyvern");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SabertoothWyvern extends SabertoothWyvernBase {
+class SabertoothWyvern extends UnimplementedCard {
   constructor (game) {
     super(game, "Sabertooth Wyvern", "Tempest Remastered", "TPR");
   }

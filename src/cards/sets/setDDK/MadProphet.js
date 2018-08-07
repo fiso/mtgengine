@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MadProphetBase = require("../setAVR/MadProphet");
+const MadProphetBase = require("../setSOI/MadProphet");
 
 class MadProphet extends MadProphetBase {
   constructor (game) {

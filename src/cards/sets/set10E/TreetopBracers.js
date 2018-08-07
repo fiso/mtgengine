@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TreetopBracersBase = require("../setNMS/TreetopBracers");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TreetopBracers extends TreetopBracersBase {
+class TreetopBracers extends UnimplementedCard {
   constructor (game) {
     super(game, "Treetop Bracers", "Tenth Edition", "10E");
   }

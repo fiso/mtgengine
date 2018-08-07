@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SafePassageBase = require("../setDDI/SafePassage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SafePassage extends SafePassageBase {
+class SafePassage extends UnimplementedCard {
   constructor (game) {
     super(game, "Safe Passage", "Magic 2013", "M13");
   }

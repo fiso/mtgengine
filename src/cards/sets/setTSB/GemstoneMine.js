@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GemstoneMineBase = require("../setpJGP/GemstoneMine");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GemstoneMine extends GemstoneMineBase {
+class GemstoneMine extends UnimplementedCard {
   constructor (game) {
-    super(game, "Gemstone Mine", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Gemstone Mine", "Time Spiral Timeshifted", "TSB");
   }
 }
 

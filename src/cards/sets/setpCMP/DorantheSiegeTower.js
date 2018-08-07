@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DorantheSiegeTowerBase = require("../setJ17/DorantheSiegeTower");
 
-class DorantheSiegeTower extends UnimplementedCard {
+class DorantheSiegeTower extends DorantheSiegeTowerBase {
   constructor (game) {
-    super(game, "Doran, the Siege Tower", "Champs and States", "pCMP");
+    super(game, "Doran, the Siege Tower", "Champs and States", "PCMP");
   }
 }
 

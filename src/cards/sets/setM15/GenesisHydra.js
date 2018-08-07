@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GenesisHydraBase = require("../setIMA/GenesisHydra");
 
-class GenesisHydra extends UnimplementedCard {
+class GenesisHydra extends GenesisHydraBase {
   constructor (game) {
-    super(game, "Genesis Hydra", "Magic 2015 Core Set", "M15");
+    super(game, "Genesis Hydra", "Magic 2015", "M15");
   }
 }
 

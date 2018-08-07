@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FogElementalBase = require("../setBTD/FogElemental");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FogElemental extends FogElementalBase {
+class FogElemental extends UnimplementedCard {
   constructor (game) {
     super(game, "Fog Elemental", "Tenth Edition", "10E");
   }

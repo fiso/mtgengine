@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SnowCoveredIslandBase = require("../setCSP/SnowCoveredIsland");
+const SnowCoveredIslandBase = require("../setME2/SnowCoveredIsland");
 
 class SnowCoveredIsland extends SnowCoveredIslandBase {
   constructor (game) {

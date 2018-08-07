@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElectrolyzeBase = require("../setpCMP/Electrolyze");
+const ElectrolyzeBase = require("../setIMA/Electrolyze");
 
 class Electrolyze extends ElectrolyzeBase {
   constructor (game) {

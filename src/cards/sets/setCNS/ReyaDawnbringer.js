@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReyaDawnbringerBase = require("../setDD3_DVD/ReyaDawnbringer");
+const ReyaDawnbringerBase = require("../setPZ1/ReyaDawnbringer");
 
 class ReyaDawnbringer extends ReyaDawnbringerBase {
   constructor (game) {
-    super(game, "Reya Dawnbringer", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Reya Dawnbringer", "Conspiracy", "CNS");
   }
 }
 

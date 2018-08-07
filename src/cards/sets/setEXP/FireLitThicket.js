@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FireLitThicketBase = require("../setSHM/FireLitThicket");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FireLitThicket extends FireLitThicketBase {
+class FireLitThicket extends UnimplementedCard {
   constructor (game) {
-    super(game, "Fire-Lit Thicket", "Zendikar Expedition", "EXP");
+    super(game, "Fire-Lit Thicket", "Zendikar Expeditions", "EXP");
   }
 }
 

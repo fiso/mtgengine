@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GraniteGargoyleBase = require("../setCED/GraniteGargoyle");
+const GraniteGargoyleBase = require("../setMED/GraniteGargoyle");
 
 class GraniteGargoyle extends GraniteGargoyleBase {
   constructor (game) {
-    super(game, "Granite Gargoyle", "International Collector's Edition", "CEI");
+    super(game, "Granite Gargoyle", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

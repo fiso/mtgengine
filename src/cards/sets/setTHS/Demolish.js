@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DemolishBase = require("../setAVR/Demolish");
+const DemolishBase = require("../setXLN/Demolish");
 
 class Demolish extends DemolishBase {
   constructor (game) {

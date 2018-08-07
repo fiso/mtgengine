@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SteelOverseerBase = require("../setMPS/SteelOverseer");
 
-class SteelOverseer extends UnimplementedCard {
+class SteelOverseer extends SteelOverseerBase {
   constructor (game) {
     super(game, "Steel Overseer", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

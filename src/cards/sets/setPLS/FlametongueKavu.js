@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlametongueKavuBase = require("../setC14/FlametongueKavu");
+const FlametongueKavuBase = require("../setCM2/FlametongueKavu");
 
 class FlametongueKavu extends FlametongueKavuBase {
   constructor (game) {

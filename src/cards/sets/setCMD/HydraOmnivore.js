@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HydraOmnivoreBase = require("../setC18/HydraOmnivore");
 
-class HydraOmnivore extends UnimplementedCard {
+class HydraOmnivore extends HydraOmnivoreBase {
   constructor (game) {
-    super(game, "Hydra Omnivore", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Hydra Omnivore", "Commander 2011", "CMD");
   }
 }
 

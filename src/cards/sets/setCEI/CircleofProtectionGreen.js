@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CircleofProtectionGreenBase = require("../set6ED/CircleofProtectionGreen");
+const CircleofProtectionGreenBase = require("../set8ED/CircleofProtectionGreen");
 
 class CircleofProtectionGreen extends CircleofProtectionGreenBase {
   constructor (game) {
-    super(game, "Circle of Protection: Green", "International Collector's Edition", "CEI");
+    super(game, "Circle of Protection: Green", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

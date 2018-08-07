@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EurekaBase = require("../setLEG/Eureka");
+const EurekaBase = require("../setVMA/Eureka");
 
 class Eureka extends EurekaBase {
   constructor (game) {

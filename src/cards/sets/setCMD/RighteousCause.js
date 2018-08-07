@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RighteousCauseBase = require("../setDD3_DVD/RighteousCause");
+const RighteousCauseBase = require("../setCMA/RighteousCause");
 
 class RighteousCause extends RighteousCauseBase {
   constructor (game) {
-    super(game, "Righteous Cause", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Righteous Cause", "Commander 2011", "CMD");
   }
 }
 

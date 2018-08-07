@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuicksilverAmuletBase = require("../setM12/QuicksilverAmulet");
+const QuicksilverAmuletBase = require("../setE02/QuicksilverAmulet");
 
 class QuicksilverAmulet extends QuicksilverAmuletBase {
   constructor (game) {

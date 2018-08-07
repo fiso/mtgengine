@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BronzeHorseBase = require("../setCHR/BronzeHorse");
+const BronzeHorseBase = require("../setME4/BronzeHorse");
 
 class BronzeHorse extends BronzeHorseBase {
   constructor (game) {

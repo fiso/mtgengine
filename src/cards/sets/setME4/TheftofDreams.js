@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TheftofDreamsBase = require("../setEXO/TheftofDreams");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TheftofDreams extends TheftofDreamsBase {
+class TheftofDreams extends UnimplementedCard {
   constructor (game) {
     super(game, "Theft of Dreams", "Masters Edition IV", "ME4");
   }

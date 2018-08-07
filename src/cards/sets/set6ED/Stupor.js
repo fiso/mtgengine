@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StuporBase = require("../setpARL/Stupor");
+const StuporBase = require("../setTSB/Stupor");
 
 class Stupor extends StuporBase {
   constructor (game) {

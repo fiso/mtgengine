@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoralMerfolkBase = require("../setM10/CoralMerfolk");
+const CoralMerfolkBase = require("../setW17/CoralMerfolk");
 
 class CoralMerfolk extends CoralMerfolkBase {
   constructor (game) {

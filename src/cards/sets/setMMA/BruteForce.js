@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BruteForceBase = require("../setMM2/BruteForce");
 
-class BruteForce extends UnimplementedCard {
+class BruteForce extends BruteForceBase {
   constructor (game) {
     super(game, "Brute Force", "Modern Masters", "MMA");
   }

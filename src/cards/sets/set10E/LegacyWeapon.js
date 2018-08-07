@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LegacyWeaponBase = require("../setAPC/LegacyWeapon");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LegacyWeapon extends LegacyWeaponBase {
+class LegacyWeapon extends UnimplementedCard {
   constructor (game) {
     super(game, "Legacy Weapon", "Tenth Edition", "10E");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CoralMerfolkBase = require("../setW17/CoralMerfolk");
 
-class CoralMerfolk extends UnimplementedCard {
+class CoralMerfolk extends CoralMerfolkBase {
   constructor (game) {
     super(game, "Coral Merfolk", "Magic 2010", "M10");
   }

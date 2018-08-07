@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HuntingTriadBase = require("../setC14/HuntingTriad");
+const HuntingTriadBase = require("../setCMA/HuntingTriad");
 
 class HuntingTriad extends HuntingTriadBase {
   constructor (game) {

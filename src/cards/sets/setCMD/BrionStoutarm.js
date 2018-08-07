@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrionStoutarmBase = require("../setLRW/BrionStoutarm");
+const BrionStoutarmBase = require("../setA25/BrionStoutarm");
 
 class BrionStoutarm extends BrionStoutarmBase {
   constructor (game) {
-    super(game, "Brion Stoutarm", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Brion Stoutarm", "Commander 2011", "CMD");
   }
 }
 

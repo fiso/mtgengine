@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ClockworkBeastBase = require("../setBTD/ClockworkBeast");
+const ClockworkBeastBase = require("../setMED/ClockworkBeast");
 
 class ClockworkBeast extends ClockworkBeastBase {
   constructor (game) {

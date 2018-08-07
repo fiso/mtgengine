@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SymbioticWurmBase = require("../setCMD/SymbioticWurm");
+const SymbioticWurmBase = require("../setVMA/SymbioticWurm");
 
 class SymbioticWurm extends SymbioticWurmBase {
   constructor (game) {

@@ -4,7 +4,7 @@ const GleancrawlerBase = require("../setDDJ/Gleancrawler");
 
 class Gleancrawler extends GleancrawlerBase {
   constructor (game) {
-    super(game, "Gleancrawler", "Prerelease Events", "pPRE");
+    super(game, "Gleancrawler", "Prerelease Events", "PPRE");
   }
 }
 

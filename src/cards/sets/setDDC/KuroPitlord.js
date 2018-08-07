@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KuroPitlordBase = require("../setCHK/KuroPitlord");
+const KuroPitlordBase = require("../setDVD/KuroPitlord");
 
 class KuroPitlord extends KuroPitlordBase {
   constructor (game) {

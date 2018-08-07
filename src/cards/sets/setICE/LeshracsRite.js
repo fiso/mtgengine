@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeshracsRiteBase = require("../set6ED/LeshracsRite");
+const LeshracsRiteBase = require("../set7ED/LeshracsRite");
 
 class LeshracsRite extends LeshracsRiteBase {
   constructor (game) {

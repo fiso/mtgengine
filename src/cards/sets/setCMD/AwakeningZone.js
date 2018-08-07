@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AwakeningZoneBase = require("../setPCA/AwakeningZone");
 
-class AwakeningZone extends UnimplementedCard {
+class AwakeningZone extends AwakeningZoneBase {
   constructor (game) {
-    super(game, "Awakening Zone", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Awakening Zone", "Commander 2011", "CMD");
   }
 }
 

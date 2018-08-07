@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AssassinateBase = require("../setM10/Assassinate");
+const AssassinateBase = require("../setBBD/Assassinate");
 
 class Assassinate extends AssassinateBase {
   constructor (game) {
-    super(game, "Assassinate", "Planechase 2012 Edition", "PC2");
+    super(game, "Assassinate", "Planechase 2012", "PC2");
   }
 }
 

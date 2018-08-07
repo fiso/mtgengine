@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SteppeGliderBase = require("../setBBD/SteppeGlider");
 
-class SteppeGlider extends UnimplementedCard {
+class SteppeGlider extends SteppeGliderBase {
   constructor (game) {
     super(game, "Steppe Glider", "Oath of the Gatewatch", "OGW");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RazorfinHunterBase = require("../setPRM/RazorfinHunter");
 
-class RazorfinHunter extends UnimplementedCard {
+class RazorfinHunter extends RazorfinHunterBase {
   constructor (game) {
     super(game, "Razorfin Hunter", "Apocalypse", "APC");
   }

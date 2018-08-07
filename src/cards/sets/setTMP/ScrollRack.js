@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrollRackBase = require("../setCM1/ScrollRack");
+const ScrollRackBase = require("../setMPS/ScrollRack");
 
 class ScrollRack extends ScrollRackBase {
   constructor (game) {

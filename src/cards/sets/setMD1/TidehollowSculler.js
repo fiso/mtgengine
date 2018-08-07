@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TidehollowScullerBase = require("../setpFNM/TidehollowSculler");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TidehollowSculler extends TidehollowScullerBase {
+class TidehollowSculler extends UnimplementedCard {
   constructor (game) {
     super(game, "Tidehollow Sculler", "Modern Event Deck 2014", "MD1");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CloakofConfusionBase = require("../set5ED/CloakofConfusion");
+const CloakofConfusionBase = require("../setME2/CloakofConfusion");
 
 class CloakofConfusion extends CloakofConfusionBase {
   constructor (game) {

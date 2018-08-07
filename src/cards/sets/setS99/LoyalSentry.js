@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LoyalSentryBase = require("../setDDF/LoyalSentry");
+const LoyalSentryBase = require("../setA25/LoyalSentry");
 
 class LoyalSentry extends LoyalSentryBase {
   constructor (game) {

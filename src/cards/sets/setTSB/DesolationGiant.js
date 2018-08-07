@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DesolationGiantBase = require("../setAPC/DesolationGiant");
+const DesolationGiantBase = require("../setCM2/DesolationGiant");
 
 class DesolationGiant extends DesolationGiantBase {
   constructor (game) {
-    super(game, "Desolation Giant", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Desolation Giant", "Time Spiral Timeshifted", "TSB");
   }
 }
 

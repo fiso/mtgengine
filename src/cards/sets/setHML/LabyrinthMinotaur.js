@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LabyrinthMinotaurBase = require("../set5ED/LabyrinthMinotaur");
+const LabyrinthMinotaurBase = require("../setME3/LabyrinthMinotaur");
 
 class LabyrinthMinotaur extends LabyrinthMinotaurBase {
   constructor (game) {

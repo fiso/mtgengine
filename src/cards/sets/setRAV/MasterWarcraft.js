@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MasterWarcraftBase = require("../setCMD/MasterWarcraft");
+const MasterWarcraftBase = require("../setCMA/MasterWarcraft");
 
 class MasterWarcraft extends MasterWarcraftBase {
   constructor (game) {

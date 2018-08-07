@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CryptRatsBase = require("../set7ED/CryptRats");
+const CryptRatsBase = require("../setPHUK/CryptRats");
 
 class CryptRats extends CryptRatsBase {
   constructor (game) {

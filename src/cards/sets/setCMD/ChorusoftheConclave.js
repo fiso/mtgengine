@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class ChorusoftheConclave extends UnimplementedCard {
   constructor (game) {
-    super(game, "Chorus of the Conclave", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Chorus of the Conclave", "Commander 2011", "CMD");
   }
 }
 

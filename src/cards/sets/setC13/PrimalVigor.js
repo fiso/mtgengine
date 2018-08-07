@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class PrimalVigor extends UnimplementedCard {
   constructor (game) {
-    super(game, "Primal Vigor", "Commander 2013 Edition", "C13");
+    super(game, "Primal Vigor", "Commander 2013", "C13");
   }
 }
 

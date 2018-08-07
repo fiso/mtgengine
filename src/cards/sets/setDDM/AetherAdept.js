@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class AetherAdept extends UnimplementedCard {
   constructor (game) {
-    super(game, "Æther Adept", "Duel Decks: Jace vs. Vraska", "DDM");
+    super(game, "Aether Adept", "Duel Decks: Jace vs. Vraska", "DDM");
   }
 }
 

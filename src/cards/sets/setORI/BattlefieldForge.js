@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BattlefieldForgeBase = require("../setAPC/BattlefieldForge");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BattlefieldForge extends BattlefieldForgeBase {
+class BattlefieldForge extends UnimplementedCard {
   constructor (game) {
     super(game, "Battlefield Forge", "Magic Origins", "ORI");
   }

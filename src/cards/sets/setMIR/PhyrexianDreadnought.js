@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianDreadnoughtBase = require("../setpJGP/PhyrexianDreadnought");
+const PhyrexianDreadnoughtBase = require("../setG10/PhyrexianDreadnought");
 
 class PhyrexianDreadnought extends PhyrexianDreadnoughtBase {
   constructor (game) {

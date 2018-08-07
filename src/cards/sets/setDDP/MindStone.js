@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MindStoneBase = require("../setC14/MindStone");
+const MindStoneBase = require("../setC18/MindStone");
 
 class MindStone extends MindStoneBase {
   constructor (game) {

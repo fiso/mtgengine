@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BoldwyrIntimidatorBase = require("../setFUT/BoldwyrIntimidator");
+const BoldwyrIntimidatorBase = require("../setBBD/BoldwyrIntimidator");
 
 class BoldwyrIntimidator extends BoldwyrIntimidatorBase {
   constructor (game) {
-    super(game, "Boldwyr Intimidator", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Boldwyr Intimidator", "Conspiracy", "CNS");
   }
 }
 

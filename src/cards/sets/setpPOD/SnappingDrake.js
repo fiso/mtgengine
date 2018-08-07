@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SnappingDrakeBase = require("../setBTD/SnappingDrake");
+const SnappingDrakeBase = require("../setM19/SnappingDrake");
 
 class SnappingDrake extends SnappingDrakeBase {
   constructor (game) {
-    super(game, "Snapping Drake", "Portal Demo Game", "pPOD");
+    super(game, "Snapping Drake", "Portal Demo Game", "PPOD");
   }
 }
 

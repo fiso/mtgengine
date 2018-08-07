@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieldMarshalBase = require("../setCSP/FieldMarshal");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FieldMarshal extends FieldMarshalBase {
+class FieldMarshal extends UnimplementedCard {
   constructor (game) {
     super(game, "Field Marshal", "Tenth Edition", "10E");
   }

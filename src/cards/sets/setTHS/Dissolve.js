@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DissolveBase = require("../setpFNM/Dissolve");
+const DissolveBase = require("../setIMA/Dissolve");
 
 class Dissolve extends DissolveBase {
   constructor (game) {

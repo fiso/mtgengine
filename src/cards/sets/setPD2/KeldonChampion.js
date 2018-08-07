@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KeldonChampionBase = require("../setHOP/KeldonChampion");
+const KeldonChampionBase = require("../setEMA/KeldonChampion");
 
 class KeldonChampion extends KeldonChampionBase {
   constructor (game) {

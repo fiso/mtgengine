@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LabyrinthMinotaurBase = require("../set5ED/LabyrinthMinotaur");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LabyrinthMinotaur extends LabyrinthMinotaurBase {
+class LabyrinthMinotaur extends UnimplementedCard {
   constructor (game) {
     super(game, "Labyrinth Minotaur", "Masters Edition III", "ME3");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MarshCasualtiesBase = require("../setDDM/MarshCasualties");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MarshCasualties extends MarshCasualtiesBase {
+class MarshCasualties extends UnimplementedCard {
   constructor (game) {
     super(game, "Marsh Casualties", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

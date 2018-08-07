@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KjeldoranEliteGuardBase = require("../setME2/KjeldoranEliteGuard");
 
-class KjeldoranEliteGuard extends UnimplementedCard {
+class KjeldoranEliteGuard extends KjeldoranEliteGuardBase {
   constructor (game) {
     super(game, "Kjeldoran Elite Guard", "Coldsnap Theme Decks", "CST");
   }

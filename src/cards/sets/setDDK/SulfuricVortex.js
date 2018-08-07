@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SulfuricVortexBase = require("../setEMA/SulfuricVortex");
 
-class SulfuricVortex extends UnimplementedCard {
+class SulfuricVortex extends SulfuricVortexBase {
   constructor (game) {
     super(game, "Sulfuric Vortex", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }

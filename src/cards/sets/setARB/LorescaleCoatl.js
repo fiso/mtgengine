@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LorescaleCoatlBase = require("../setA25/LorescaleCoatl");
 
-class LorescaleCoatl extends UnimplementedCard {
+class LorescaleCoatl extends LorescaleCoatlBase {
   constructor (game) {
     super(game, "Lorescale Coatl", "Alara Reborn", "ARB");
   }

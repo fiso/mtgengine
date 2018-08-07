@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OverwhelmBase = require("../setM15/Overwhelm");
+const OverwhelmBase = require("../setMM2/Overwhelm");
 
 class Overwhelm extends OverwhelmBase {
   constructor (game) {

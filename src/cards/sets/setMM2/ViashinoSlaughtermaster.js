@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ViashinoSlaughtermasterBase = require("../setCON/ViashinoSlaughtermaster");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ViashinoSlaughtermaster extends ViashinoSlaughtermasterBase {
+class ViashinoSlaughtermaster extends UnimplementedCard {
   constructor (game) {
-    super(game, "Viashino Slaughtermaster", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Viashino Slaughtermaster", "Modern Masters 2015", "MM2");
   }
 }
 

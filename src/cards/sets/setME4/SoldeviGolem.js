@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoldeviGolemBase = require("../setICE/SoldeviGolem");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SoldeviGolem extends SoldeviGolemBase {
+class SoldeviGolem extends UnimplementedCard {
   constructor (game) {
     super(game, "Soldevi Golem", "Masters Edition IV", "ME4");
   }

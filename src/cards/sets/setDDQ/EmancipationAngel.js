@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EmancipationAngelBase = require("../setAVR/EmancipationAngel");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EmancipationAngel extends EmancipationAngelBase {
+class EmancipationAngel extends UnimplementedCard {
   constructor (game) {
     super(game, "Emancipation Angel", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrochiHatcheryBase = require("../setCHK/OrochiHatchery");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OrochiHatchery extends OrochiHatcheryBase {
+class OrochiHatchery extends UnimplementedCard {
   constructor (game) {
     super(game, "Orochi Hatchery", "Commander 2015", "C15");
   }

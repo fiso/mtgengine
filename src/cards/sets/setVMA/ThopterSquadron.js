@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThopterSquadronBase = require("../setEXO/ThopterSquadron");
+const ThopterSquadronBase = require("../setTPR/ThopterSquadron");
 
 class ThopterSquadron extends ThopterSquadronBase {
   constructor (game) {

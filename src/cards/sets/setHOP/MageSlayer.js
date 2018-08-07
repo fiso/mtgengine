@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MageSlayerBase = require("../setARB/MageSlayer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MageSlayer extends MageSlayerBase {
+class MageSlayer extends UnimplementedCard {
   constructor (game) {
     super(game, "Mage Slayer", "Planechase", "HOP");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LandEquilibriumBase = require("../setLEG/LandEquilibrium");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LandEquilibrium extends LandEquilibriumBase {
+class LandEquilibrium extends UnimplementedCard {
   constructor (game) {
     super(game, "Land Equilibrium", "Masters Edition III", "ME3");
   }

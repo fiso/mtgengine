@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UlamogtheInfiniteGyreBase = require("../setV11/UlamogtheInfiniteGyre");
+const UlamogtheInfiniteGyreBase = require("../setMM2/UlamogtheInfiniteGyre");
 
 class UlamogtheInfiniteGyre extends UlamogtheInfiniteGyreBase {
   constructor (game) {

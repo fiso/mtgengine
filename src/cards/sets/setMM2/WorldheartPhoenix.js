@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WorldheartPhoenixBase = require("../setCON/WorldheartPhoenix");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WorldheartPhoenix extends WorldheartPhoenixBase {
+class WorldheartPhoenix extends UnimplementedCard {
   constructor (game) {
-    super(game, "Worldheart Phoenix", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Worldheart Phoenix", "Modern Masters 2015", "MM2");
   }
 }
 

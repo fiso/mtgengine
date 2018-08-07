@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThunderStrikeBase = require("../setM11/ThunderStrike");
+const ThunderStrikeBase = require("../setBBD/ThunderStrike");
 
 class ThunderStrike extends ThunderStrikeBase {
   constructor (game) {
-    super(game, "Thunder Strike", "Magic 2014 Core Set", "M14");
+    super(game, "Thunder Strike", "Magic 2014", "M14");
   }
 }
 

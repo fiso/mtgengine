@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KazanduTuskcallerBase = require("../setCMA/KazanduTuskcaller");
 
-class KazanduTuskcaller extends UnimplementedCard {
+class KazanduTuskcaller extends KazanduTuskcallerBase {
   constructor (game) {
-    super(game, "Kazandu Tuskcaller", "Commander 2013 Edition", "C13");
+    super(game, "Kazandu Tuskcaller", "Commander 2013", "C13");
   }
 }
 

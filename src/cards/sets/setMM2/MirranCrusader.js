@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MirranCrusaderBase = require("../setpMEI/MirranCrusader");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MirranCrusader extends MirranCrusaderBase {
+class MirranCrusader extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mirran Crusader", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Mirran Crusader", "Modern Masters 2015", "MM2");
   }
 }
 

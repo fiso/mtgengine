@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoltariPriestBase = require("../setpFNM/SoltariPriest");
+const SoltariPriestBase = require("../setTPR/SoltariPriest");
 
 class SoltariPriest extends SoltariPriestBase {
   constructor (game) {
-    super(game, "Soltari Priest", "Super Series", "pSUS");
+    super(game, "Soltari Priest", "Junior Super Series", "PSUS");
   }
 }
 

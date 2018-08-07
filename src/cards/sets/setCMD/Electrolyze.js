@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElectrolyzeBase = require("../setpCMP/Electrolyze");
+const ElectrolyzeBase = require("../setIMA/Electrolyze");
 
 class Electrolyze extends ElectrolyzeBase {
   constructor (game) {
-    super(game, "Electrolyze", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Electrolyze", "Commander 2011", "CMD");
   }
 }
 

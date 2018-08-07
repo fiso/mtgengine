@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FertilidBase = require("../setARC/Fertilid");
+const FertilidBase = require("../setBBD/Fertilid");
 
 class Fertilid extends FertilidBase {
   constructor (game) {

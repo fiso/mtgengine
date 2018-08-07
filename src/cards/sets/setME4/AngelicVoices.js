@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelicVoicesBase = require("../setCHR/AngelicVoices");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AngelicVoices extends AngelicVoicesBase {
+class AngelicVoices extends UnimplementedCard {
   constructor (game) {
     super(game, "Angelic Voices", "Masters Edition IV", "ME4");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FellwarStoneBase = require("../setC15/FellwarStone");
+const FellwarStoneBase = require("../setCM2/FellwarStone");
 
 class FellwarStone extends FellwarStoneBase {
   constructor (game) {
-    super(game, "Fellwar Stone", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Fellwar Stone", "Commander 2011", "CMD");
   }
 }
 

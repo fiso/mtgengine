@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ValleyRannetBase = require("../setARB/ValleyRannet");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ValleyRannet extends ValleyRannetBase {
+class ValleyRannet extends UnimplementedCard {
   constructor (game) {
-    super(game, "Valley Rannet", "Commander 2013 Edition", "C13");
+    super(game, "Valley Rannet", "Commander 2013", "C13");
   }
 }
 

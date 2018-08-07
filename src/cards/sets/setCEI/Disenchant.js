@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DisenchantBase = require("../setATH/Disenchant");
+const DisenchantBase = require("../setA25/Disenchant");
 
 class Disenchant extends DisenchantBase {
   constructor (game) {
-    super(game, "Disenchant", "International Collector's Edition", "CEI");
+    super(game, "Disenchant", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

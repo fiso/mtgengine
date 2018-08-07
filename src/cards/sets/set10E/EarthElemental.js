@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarthElementalBase = require("../setCED/EarthElemental");
+const EarthElementalBase = require("../setBBD/EarthElemental");
 
 class EarthElemental extends EarthElementalBase {
   constructor (game) {

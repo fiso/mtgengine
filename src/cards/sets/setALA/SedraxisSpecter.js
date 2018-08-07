@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SedraxisSpecterBase = require("../setMM3/SedraxisSpecter");
 
-class SedraxisSpecter extends UnimplementedCard {
+class SedraxisSpecter extends SedraxisSpecterBase {
   constructor (game) {
     super(game, "Sedraxis Specter", "Shards of Alara", "ALA");
   }

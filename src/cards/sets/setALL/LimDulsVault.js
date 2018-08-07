@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LimDulsVaultBase = require("../setC13/LimDulsVault");
 
-class LimDulsVault extends UnimplementedCard {
+class LimDulsVault extends LimDulsVaultBase {
   constructor (game) {
     super(game, "Lim-Dûl's Vault", "Alliances", "ALL");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CloneBase = require("../setCED/Clone");
+const CloneBase = require("../setM14/Clone");
 
 class Clone extends CloneBase {
   constructor (game) {

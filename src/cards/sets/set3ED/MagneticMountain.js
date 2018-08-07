@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MagneticMountainBase = require("../setARN/MagneticMountain");
+const MagneticMountainBase = require("../set4ED/MagneticMountain");
 
 class MagneticMountain extends MagneticMountainBase {
   constructor (game) {

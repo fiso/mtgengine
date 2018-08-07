@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RavenousRatsBase = require("../setDD3_GVL/RavenousRats");
+const RavenousRatsBase = require("../setGVL/RavenousRats");
 
 class RavenousRats extends RavenousRatsBase {
   constructor (game) {

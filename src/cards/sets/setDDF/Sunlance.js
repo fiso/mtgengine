@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunlanceBase = require("../setDDO/Sunlance");
+const SunlanceBase = require("../setMM2/Sunlance");
 
 class Sunlance extends SunlanceBase {
   constructor (game) {

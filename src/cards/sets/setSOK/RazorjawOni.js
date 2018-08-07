@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RazorjawOniBase = require("../setCMD/RazorjawOni");
+const RazorjawOniBase = require("../setCMA/RazorjawOni");
 
 class RazorjawOni extends RazorjawOniBase {
   constructor (game) {

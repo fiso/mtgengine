@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NestInvaderBase = require("../setMM2/NestInvader");
+const NestInvaderBase = require("../setPCA/NestInvader");
 
 class NestInvader extends NestInvaderBase {
   constructor (game) {

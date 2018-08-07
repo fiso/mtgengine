@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StormscapeFamiliarBase = require("../setPLS/StormscapeFamiliar");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StormscapeFamiliar extends StormscapeFamiliarBase {
+class StormscapeFamiliar extends UnimplementedCard {
   constructor (game) {
-    super(game, "Stormscape Familiar", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Stormscape Familiar", "Time Spiral Timeshifted", "TSB");
   }
 }
 

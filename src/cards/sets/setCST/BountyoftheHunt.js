@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BountyoftheHuntBase = require("../setALL/BountyoftheHunt");
+const BountyoftheHuntBase = require("../setME2/BountyoftheHunt");
 
 class BountyoftheHunt extends BountyoftheHuntBase {
   constructor (game) {

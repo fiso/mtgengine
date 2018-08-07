@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlackViseBase = require("../setCED/BlackVise");
+const BlackViseBase = require("../setMPS/BlackVise");
 
 class BlackVise extends BlackViseBase {
   constructor (game) {

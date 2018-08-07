@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SaprolingBurstBase = require("../setNMS/SaprolingBurst");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SaprolingBurst extends SaprolingBurstBase {
+class SaprolingBurst extends UnimplementedCard {
   constructor (game) {
     super(game, "Saproling Burst", "Vintage Masters", "VMA");
   }

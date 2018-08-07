@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KudzuBase = require("../setCED/Kudzu");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Kudzu extends KudzuBase {
+class Kudzu extends UnimplementedCard {
   constructor (game) {
     super(game, "Kudzu", "Masters Edition IV", "ME4");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CompellingDeterrenceBase = require("../setSOI/CompellingDeterrence");
 
-class CompellingDeterrence extends UnimplementedCard {
+class CompellingDeterrence extends CompellingDeterrenceBase {
   constructor (game) {
     super(game, "Compelling Deterrence", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

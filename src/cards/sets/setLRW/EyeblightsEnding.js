@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EyeblightsEndingBase = require("../setDPA/EyeblightsEnding");
+const EyeblightsEndingBase = require("../setEMA/EyeblightsEnding");
 
 class EyeblightsEnding extends EyeblightsEndingBase {
   constructor (game) {

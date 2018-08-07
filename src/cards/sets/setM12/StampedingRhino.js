@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StampedingRhinoBase = require("../setM10/StampedingRhino");
+const StampedingRhinoBase = require("../setW17/StampedingRhino");
 
 class StampedingRhino extends StampedingRhinoBase {
   constructor (game) {

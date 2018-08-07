@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LordofthePitBase = require("../setCED/LordofthePit");
+const LordofthePitBase = require("../setIMA/LordofthePit");
 
 class LordofthePit extends LordofthePitBase {
   constructor (game) {

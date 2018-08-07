@@ -4,7 +4,7 @@ const AetherSnapBase = require("../setC14/AetherSnap");
 
 class AetherSnap extends AetherSnapBase {
   constructor (game) {
-    super(game, "Æther Snap", "Darksteel", "DST");
+    super(game, "Aether Snap", "Darksteel", "DST");
   }
 }
 

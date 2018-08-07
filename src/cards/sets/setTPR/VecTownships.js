@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VecTownshipsBase = require("../setBRB/VecTownships");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VecTownships extends VecTownshipsBase {
+class VecTownships extends UnimplementedCard {
   constructor (game) {
     super(game, "Vec Townships", "Tempest Remastered", "TPR");
   }

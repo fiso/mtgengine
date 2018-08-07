@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrislySpectacleBase = require("../setDDM/GrislySpectacle");
+const GrislySpectacleBase = require("../setIMA/GrislySpectacle");
 
 class GrislySpectacle extends GrislySpectacleBase {
   constructor (game) {

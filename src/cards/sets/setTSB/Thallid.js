@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThallidBase = require("../setFEM/Thallid");
+const ThallidBase = require("../setMMA/Thallid");
 
 class Thallid extends ThallidBase {
   constructor (game) {
-    super(game, "Thallid", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Thallid", "Time Spiral Timeshifted", "TSB");
   }
 }
 

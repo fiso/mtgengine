@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VarchildsWarRidersBase = require("../setALL/VarchildsWarRiders");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VarchildsWarRiders extends VarchildsWarRidersBase {
+class VarchildsWarRiders extends UnimplementedCard {
   constructor (game) {
     super(game, "Varchild's War-Riders", "Masters Edition", "MED");
   }

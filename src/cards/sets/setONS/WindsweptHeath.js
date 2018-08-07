@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WindsweptHeathBase = require("../setpJGP/WindsweptHeath");
+const WindsweptHeathBase = require("../setEXP/WindsweptHeath");
 
 class WindsweptHeath extends WindsweptHeathBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScentofCinderBase = require("../setpMEI/ScentofCinder");
+const ScentofCinderBase = require("../setPRM/ScentofCinder");
 
 class ScentofCinder extends ScentofCinderBase {
   constructor (game) {

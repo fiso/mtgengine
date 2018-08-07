@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BattleMasteryBase = require("../setBBD/BattleMastery");
 
-class BattleMastery extends UnimplementedCard {
+class BattleMastery extends BattleMasteryBase {
   constructor (game) {
     super(game, "Battle Mastery", "Dragons of Tarkir", "DTK");
   }

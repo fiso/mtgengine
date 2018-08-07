@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TezzerettheSeekerBase = require("../setDDF/TezzerettheSeeker");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TezzerettheSeeker extends TezzerettheSeekerBase {
+class TezzerettheSeeker extends UnimplementedCard {
   constructor (game) {
-    super(game, "Tezzeret the Seeker", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Tezzeret the Seeker", "Modern Masters 2015", "MM2");
   }
 }
 

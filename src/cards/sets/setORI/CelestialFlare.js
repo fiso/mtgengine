@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CelestialFlareBase = require("../setDDO/CelestialFlare");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CelestialFlare extends CelestialFlareBase {
+class CelestialFlare extends UnimplementedCard {
   constructor (game) {
     super(game, "Celestial Flare", "Magic Origins", "ORI");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrinningTotemBase = require("../set6ED/GrinningTotem");
+const GrinningTotemBase = require("../setTSB/GrinningTotem");
 
 class GrinningTotem extends GrinningTotemBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SootImpBase = require("../setDD3_DVD/SootImp");
+const SootImpBase = require("../setDVD/SootImp");
 
 class SootImp extends SootImpBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArmageddonClockBase = require("../setATQ/ArmageddonClock");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArmageddonClock extends ArmageddonClockBase {
+class ArmageddonClock extends UnimplementedCard {
   constructor (game) {
     super(game, "Armageddon Clock", "Masters Edition IV", "ME4");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GauntletofPowerBase = require("../setMPS/GauntletofPower");
 
-class GauntletofPower extends UnimplementedCard {
+class GauntletofPower extends GauntletofPowerBase {
   constructor (game) {
     super(game, "Gauntlet of Power", "Time Spiral", "TSP");
   }

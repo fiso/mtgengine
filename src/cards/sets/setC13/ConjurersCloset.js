@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConjurersClosetBase = require("../setAVR/ConjurersCloset");
+const ConjurersClosetBase = require("../setCMA/ConjurersCloset");
 
 class ConjurersCloset extends ConjurersClosetBase {
   constructor (game) {
-    super(game, "Conjurer's Closet", "Commander 2013 Edition", "C13");
+    super(game, "Conjurer's Closet", "Commander 2013", "C13");
   }
 }
 

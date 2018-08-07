@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PowerSinkBase = require("../setBTD/PowerSink");
+const PowerSinkBase = require("../setVMA/PowerSink");
 
 class PowerSink extends PowerSinkBase {
   constructor (game) {

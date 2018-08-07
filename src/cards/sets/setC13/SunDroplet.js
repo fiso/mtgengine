@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunDropletBase = require("../setARC/SunDroplet");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SunDroplet extends SunDropletBase {
+class SunDroplet extends UnimplementedCard {
   constructor (game) {
-    super(game, "Sun Droplet", "Commander 2013 Edition", "C13");
+    super(game, "Sun Droplet", "Commander 2013", "C13");
   }
 }
 

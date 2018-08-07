@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IvoryCupBase = require("../set6ED/IvoryCup");
+const IvoryCupBase = require("../set8ED/IvoryCup");
 
 class IvoryCup extends IvoryCupBase {
   constructor (game) {
-    super(game, "Ivory Cup", "International Collector's Edition", "CEI");
+    super(game, "Ivory Cup", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

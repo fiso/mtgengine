@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmallpoxBase = require("../setM12/Smallpox");
+const SmallpoxBase = require("../setDDR/Smallpox");
 
 class Smallpox extends SmallpoxBase {
   constructor (game) {

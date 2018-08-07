@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BindingGraspBase = require("../setCST/BindingGrasp");
+const BindingGraspBase = require("../setME2/BindingGrasp");
 
 class BindingGrasp extends BindingGraspBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HuntingPackBase = require("../setCMD/HuntingPack");
+const HuntingPackBase = require("../setIMA/HuntingPack");
 
 class HuntingPack extends HuntingPackBase {
   constructor (game) {

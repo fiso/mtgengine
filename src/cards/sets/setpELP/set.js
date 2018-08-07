@@ -6,4 +6,4 @@ module.exports = {
   Plains: require("./Plains"),
   Swamp: require("./Swamp")
 };
-if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpELP = module.exports;}
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPELP = module.exports;}

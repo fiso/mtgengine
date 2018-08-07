@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SealofFireBase = require("../setDIS/SealofFire");
+const SealofFireBase = require("../setJVC/SealofFire");
 
 class SealofFire extends SealofFireBase {
   constructor (game) {

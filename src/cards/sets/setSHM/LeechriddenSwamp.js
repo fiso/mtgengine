@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeechriddenSwampBase = require("../setHOP/LeechriddenSwamp");
+const LeechriddenSwampBase = require("../setDDR/LeechriddenSwamp");
 
 class LeechriddenSwamp extends LeechriddenSwampBase {
   constructor (game) {

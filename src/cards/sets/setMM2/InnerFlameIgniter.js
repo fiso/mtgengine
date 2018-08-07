@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InnerFlameIgniterBase = require("../setLRW/InnerFlameIgniter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class InnerFlameIgniter extends InnerFlameIgniterBase {
+class InnerFlameIgniter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Inner-Flame Igniter", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Inner-Flame Igniter", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LightkeeperofEmeriaBase = require("../setCMA/LightkeeperofEmeria");
 
-class LightkeeperofEmeria extends UnimplementedCard {
+class LightkeeperofEmeria extends LightkeeperofEmeriaBase {
   constructor (game) {
-    super(game, "Lightkeeper of Emeria", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Lightkeeper of Emeria", "Commander 2011", "CMD");
   }
 }
 

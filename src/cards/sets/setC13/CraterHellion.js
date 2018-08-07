@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CraterHellionBase = require("../setEMA/CraterHellion");
 
-class CraterHellion extends UnimplementedCard {
+class CraterHellion extends CraterHellionBase {
   constructor (game) {
-    super(game, "Crater Hellion", "Commander 2013 Edition", "C13");
+    super(game, "Crater Hellion", "Commander 2013", "C13");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VizkopaGuildmageBase = require("../setC13/VizkopaGuildmage");
+const VizkopaGuildmageBase = require("../setIMA/VizkopaGuildmage");
 
 class VizkopaGuildmage extends VizkopaGuildmageBase {
   constructor (game) {

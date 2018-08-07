@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FungusaurBase = require("../setCED/Fungusaur");
+const FungusaurBase = require("../set8ED/Fungusaur");
 
 class Fungusaur extends FungusaurBase {
   constructor (game) {
-    super(game, "Fungusaur", "International Collector's Edition", "CEI");
+    super(game, "Fungusaur", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AllSunsDawnBase = require("../set5DN/AllSunsDawn");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AllSunsDawn extends AllSunsDawnBase {
+class AllSunsDawn extends UnimplementedCard {
   constructor (game) {
-    super(game, "All Suns' Dawn", "Modern Masters 2015 Edition", "MM2");
+    super(game, "All Suns' Dawn", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MulldrifterBase = require("../setC14/Mulldrifter");
+const MulldrifterBase = require("../setC18/Mulldrifter");
 
 class Mulldrifter extends MulldrifterBase {
   constructor (game) {
-    super(game, "Mulldrifter", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Mulldrifter", "Commander 2011", "CMD");
   }
 }
 

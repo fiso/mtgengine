@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class BarrageofExpendables extends UnimplementedCard {
   constructor (game) {
-    super(game, "Barrage of Expendables", "Magic 2014 Core Set", "M14");
+    super(game, "Barrage of Expendables", "Magic 2014", "M14");
   }
 }
 

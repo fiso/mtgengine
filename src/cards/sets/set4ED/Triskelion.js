@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TriskelionBase = require("../setATQ/Triskelion");
+const TriskelionBase = require("../setDDF/Triskelion");
 
 class Triskelion extends TriskelionBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SvyeluniteTempleBase = require("../setBTD/SvyeluniteTemple");
+const SvyeluniteTempleBase = require("../setME2/SvyeluniteTemple");
 
 class SvyeluniteTemple extends SvyeluniteTempleBase {
   constructor (game) {

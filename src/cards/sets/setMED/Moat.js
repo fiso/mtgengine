@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoatBase = require("../setLEG/Moat");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Moat extends MoatBase {
+class Moat extends UnimplementedCard {
   constructor (game) {
     super(game, "Moat", "Masters Edition", "MED");
   }

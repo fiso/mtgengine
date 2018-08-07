@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PeelfromRealityBase = require("../setAVR/PeelfromReality");
+const PeelfromRealityBase = require("../setDDO/PeelfromReality");
 
 class PeelfromReality extends PeelfromRealityBase {
   constructor (game) {

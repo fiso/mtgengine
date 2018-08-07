@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CircleofProtectionWhiteBase = require("../set6ED/CircleofProtectionWhite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CircleofProtectionWhite extends CircleofProtectionWhiteBase {
+class CircleofProtectionWhite extends UnimplementedCard {
   constructor (game) {
     super(game, "Circle of Protection: White", "Eighth Edition", "8ED");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SabretoothTigerBase = require("../set6ED/SabretoothTiger");
+const SabretoothTigerBase = require("../set8ED/SabretoothTiger");
 
 class SabretoothTiger extends SabretoothTigerBase {
   constructor (game) {

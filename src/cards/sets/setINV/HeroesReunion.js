@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HeroesReunionBase = require("../setARC/HeroesReunion");
+const HeroesReunionBase = require("../setRTR/HeroesReunion");
 
 class HeroesReunion extends HeroesReunionBase {
   constructor (game) {

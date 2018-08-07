@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SteamcoreWeirdBase = require("../setDDH/SteamcoreWeird");
+const SteamcoreWeirdBase = require("../setDDJ/SteamcoreWeird");
 
 class SteamcoreWeird extends SteamcoreWeirdBase {
   constructor (game) {

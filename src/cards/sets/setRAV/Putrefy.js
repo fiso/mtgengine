@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PutrefyBase = require("../setC15/Putrefy");
+const PutrefyBase = require("../setC18/Putrefy");
 
 class Putrefy extends PutrefyBase {
   constructor (game) {

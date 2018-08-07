@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DakmorSalvageBase = require("../setDDJ/DakmorSalvage");
+const DakmorSalvageBase = require("../setMMA/DakmorSalvage");
 
 class DakmorSalvage extends DakmorSalvageBase {
   constructor (game) {

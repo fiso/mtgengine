@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NecrogenesisBase = require("../setC16/Necrogenesis");
 
-class Necrogenesis extends UnimplementedCard {
+class Necrogenesis extends NecrogenesisBase {
   constructor (game) {
-    super(game, "Necrogenesis", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Necrogenesis", "Commander 2011", "CMD");
   }
 }
 

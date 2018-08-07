@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GodlessShrineBase = require("../setGTC/GodlessShrine");
+const GodlessShrineBase = require("../setEXP/GodlessShrine");
 
 class GodlessShrine extends GodlessShrineBase {
   constructor (game) {

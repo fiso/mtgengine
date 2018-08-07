@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DominusofFealtyBase = require("../setCMD/DominusofFealty");
 
-class DominusofFealty extends UnimplementedCard {
+class DominusofFealty extends DominusofFealtyBase {
   constructor (game) {
     super(game, "Dominus of Fealty", "Eventide", "EVE");
   }

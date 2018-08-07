@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FistsoftheAnvilBase = require("../setMRD/FistsoftheAnvil");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FistsoftheAnvil extends FistsoftheAnvilBase {
+class FistsoftheAnvil extends UnimplementedCard {
   constructor (game) {
     super(game, "Fists of the Anvil", "Tenth Edition", "10E");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DroveofElvesBase = require("../setC14/DroveofElves");
+const DroveofElvesBase = require("../setCMA/DroveofElves");
 
 class DroveofElves extends DroveofElvesBase {
   constructor (game) {

@@ -2,4 +2,4 @@
 module.exports = {
   BalduvianHorde: require("./BalduvianHorde")
 };
-if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpWOR = module.exports;}
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPWOR = module.exports;}

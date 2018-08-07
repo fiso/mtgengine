@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimalCommandBase = require("../setARC/PrimalCommand");
+const PrimalCommandBase = require("../setMM3/PrimalCommand");
 
 class PrimalCommand extends PrimalCommandBase {
   constructor (game) {

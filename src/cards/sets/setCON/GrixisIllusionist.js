@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GrixisIllusionistBase = require("../setCNS/GrixisIllusionist");
 
-class GrixisIllusionist extends UnimplementedCard {
+class GrixisIllusionist extends GrixisIllusionistBase {
   constructor (game) {
     super(game, "Grixis Illusionist", "Conflux", "CON");
   }

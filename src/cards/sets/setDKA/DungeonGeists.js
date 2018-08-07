@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DungeonGeistsBase = require("../setC13/DungeonGeists");
+const DungeonGeistsBase = require("../setCMA/DungeonGeists");
 
 class DungeonGeists extends DungeonGeistsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MemoryJarBase = require("../setV10/MemoryJar");
+const MemoryJarBase = require("../setVMA/MemoryJar");
 
 class MemoryJar extends MemoryJarBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UyoSilentProphetBase = require("../setCHK/UyoSilentProphet");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class UyoSilentProphet extends UyoSilentProphetBase {
+class UyoSilentProphet extends UnimplementedCard {
   constructor (game) {
-    super(game, "Uyo, Silent Prophet", "Commander 2013 Edition", "C13");
+    super(game, "Uyo, Silent Prophet", "Commander 2013", "C13");
   }
 }
 

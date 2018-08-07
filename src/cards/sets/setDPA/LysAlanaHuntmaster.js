@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LysAlanaHuntmasterBase = require("../setC14/LysAlanaHuntmaster");
+const LysAlanaHuntmasterBase = require("../setCMA/LysAlanaHuntmaster");
 
 class LysAlanaHuntmaster extends LysAlanaHuntmasterBase {
   constructor (game) {

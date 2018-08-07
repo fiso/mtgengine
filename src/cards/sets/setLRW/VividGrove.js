@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VividGroveBase = require("../setC13/VividGrove");
+const VividGroveBase = require("../setC17/VividGrove");
 
 class VividGrove extends VividGroveBase {
   constructor (game) {

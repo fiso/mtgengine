@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TarfireBase = require("../setDD3_EVG/Tarfire");
+const TarfireBase = require("../setDDT/Tarfire");
 
 class Tarfire extends TarfireBase {
   constructor (game) {

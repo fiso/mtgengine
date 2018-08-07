@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RuggedHighlandsBase = require("../setFRF/RuggedHighlands");
+const RuggedHighlandsBase = require("../setDDS/RuggedHighlands");
 
 class RuggedHighlands extends RuggedHighlandsBase {
   constructor (game) {

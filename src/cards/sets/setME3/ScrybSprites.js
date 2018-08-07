@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrybSpritesBase = require("../setBRB/ScrybSprites");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ScrybSprites extends ScrybSpritesBase {
+class ScrybSprites extends UnimplementedCard {
   constructor (game) {
     super(game, "Scryb Sprites", "Masters Edition III", "ME3");
   }

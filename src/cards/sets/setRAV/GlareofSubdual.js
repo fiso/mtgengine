@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GlareofSubdualBase = require("../setEMA/GlareofSubdual");
 
-class GlareofSubdual extends UnimplementedCard {
+class GlareofSubdual extends GlareofSubdualBase {
   constructor (game) {
     super(game, "Glare of Subdual", "Ravnica: City of Guilds", "RAV");
   }

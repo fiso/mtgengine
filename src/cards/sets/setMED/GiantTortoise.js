@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GiantTortoiseBase = require("../setARN/GiantTortoise");
+const GiantTortoiseBase = require("../setEMA/GiantTortoise");
 
 class GiantTortoise extends GiantTortoiseBase {
   constructor (game) {

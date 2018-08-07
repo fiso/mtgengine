@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const InnerFlameIgniterBase = require("../setMM2/InnerFlameIgniter");
 
-class InnerFlameIgniter extends UnimplementedCard {
+class InnerFlameIgniter extends InnerFlameIgniterBase {
   constructor (game) {
     super(game, "Inner-Flame Igniter", "Lorwyn", "LRW");
   }

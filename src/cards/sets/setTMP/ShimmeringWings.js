@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShimmeringWingsBase = require("../setINV/ShimmeringWings");
+const ShimmeringWingsBase = require("../set10E/ShimmeringWings");
 
 class ShimmeringWings extends ShimmeringWingsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReclaimBase = require("../setEXO/Reclaim");
+const ReclaimBase = require("../setORI/Reclaim");
 
 class Reclaim extends ReclaimBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GriffinSentinelBase = require("../setM10/GriffinSentinel");
+const GriffinSentinelBase = require("../setM14/GriffinSentinel");
 
 class GriffinSentinel extends GriffinSentinelBase {
   constructor (game) {

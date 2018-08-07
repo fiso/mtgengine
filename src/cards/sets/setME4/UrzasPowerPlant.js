@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UrzasPowerPlantBase = require("../setATQ/UrzasPowerPlant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class UrzasPowerPlant extends UrzasPowerPlantBase {
+class UrzasPowerPlant extends UnimplementedCard {
   constructor (game) {
     super(game, "Urza's Power Plant", "Masters Edition IV", "ME4");
   }

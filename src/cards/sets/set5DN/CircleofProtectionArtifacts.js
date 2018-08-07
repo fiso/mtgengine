@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CircleofProtectionArtifactsBase = require("../setATQ/CircleofProtectionArtifacts");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CircleofProtectionArtifacts extends CircleofProtectionArtifactsBase {
+class CircleofProtectionArtifacts extends UnimplementedCard {
   constructor (game) {
     super(game, "Circle of Protection: Artifacts", "Fifth Dawn", "5DN");
   }

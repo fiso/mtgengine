@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class TumbleMagnet extends UnimplementedCard {
   constructor (game) {
-    super(game, "Tumble Magnet", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Tumble Magnet", "Modern Masters 2015", "MM2");
   }
 }
 

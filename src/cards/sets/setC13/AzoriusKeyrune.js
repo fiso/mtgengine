@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AzoriusKeyruneBase = require("../setCMA/AzoriusKeyrune");
 
-class AzoriusKeyrune extends UnimplementedCard {
+class AzoriusKeyrune extends AzoriusKeyruneBase {
   constructor (game) {
-    super(game, "Azorius Keyrune", "Commander 2013 Edition", "C13");
+    super(game, "Azorius Keyrune", "Commander 2013", "C13");
   }
 }
 

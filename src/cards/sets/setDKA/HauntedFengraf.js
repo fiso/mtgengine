@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HauntedFengrafBase = require("../setC14/HauntedFengraf");
+const HauntedFengrafBase = require("../setC18/HauntedFengraf");
 
 class HauntedFengraf extends HauntedFengrafBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlinkmothNexusBase = require("../setDST/BlinkmothNexus");
+const BlinkmothNexusBase = require("../setMM2/BlinkmothNexus");
 
 class BlinkmothNexus extends BlinkmothNexusBase {
   constructor (game) {

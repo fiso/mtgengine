@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AncestralVisionBase = require("../setDD3_JVC/AncestralVision");
+const AncestralVisionBase = require("../setIMA/AncestralVision");
 
 class AncestralVision extends AncestralVisionBase {
   constructor (game) {

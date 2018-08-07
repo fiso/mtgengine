@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VictualSliverBase = require("../setH09/VictualSliver");
+const VictualSliverBase = require("../setTPR/VictualSliver");
 
 class VictualSliver extends VictualSliverBase {
   constructor (game) {

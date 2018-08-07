@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StompingGroundBase = require("../setGTC/StompingGround");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StompingGround extends StompingGroundBase {
+class StompingGround extends UnimplementedCard {
   constructor (game) {
-    super(game, "Stomping Ground", "Zendikar Expedition", "EXP");
+    super(game, "Stomping Ground", "Zendikar Expeditions", "EXP");
   }
 }
 

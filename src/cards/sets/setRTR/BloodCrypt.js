@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodCryptBase = require("../setDIS/BloodCrypt");
+const BloodCryptBase = require("../setEXP/BloodCrypt");
 
 class BloodCrypt extends BloodCryptBase {
   constructor (game) {

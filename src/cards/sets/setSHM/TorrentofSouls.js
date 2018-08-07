@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TorrentofSoulsBase = require("../setARC/TorrentofSouls");
+const TorrentofSoulsBase = require("../setMM3/TorrentofSouls");
 
 class TorrentofSouls extends TorrentofSoulsBase {
   constructor (game) {

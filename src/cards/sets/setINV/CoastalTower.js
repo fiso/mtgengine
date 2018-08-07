@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoastalTowerBase = require("../set8ED/CoastalTower");
+const CoastalTowerBase = require("../setTD2/CoastalTower");
 
 class CoastalTower extends CoastalTowerBase {
   constructor (game) {

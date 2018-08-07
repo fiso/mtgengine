@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MorphicTideBase = require("../setPCA/MorphicTide");
 
-class MorphicTide extends UnimplementedCard {
+class MorphicTide extends MorphicTideBase {
   constructor (game) {
-    super(game, "Morphic Tide", "Planechase 2012 Edition", "PC2");
+    super(game, "Morphic Tide", "Planechase 2012", "PC2");
   }
 }
 

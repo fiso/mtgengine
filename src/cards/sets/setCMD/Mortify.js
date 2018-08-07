@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MortifyBase = require("../setDDK/Mortify");
+const MortifyBase = require("../setC18/Mortify");
 
 class Mortify extends MortifyBase {
   constructor (game) {
-    super(game, "Mortify", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Mortify", "Commander 2011", "CMD");
   }
 }
 

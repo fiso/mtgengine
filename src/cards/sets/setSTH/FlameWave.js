@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlameWaveBase = require("../set9ED/FlameWave");
+const FlameWaveBase = require("../setTPR/FlameWave");
 
 class FlameWave extends FlameWaveBase {
   constructor (game) {

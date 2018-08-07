@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DemolishBase = require("../setAVR/Demolish");
+const DemolishBase = require("../setXLN/Demolish");
 
 class Demolish extends DemolishBase {
   constructor (game) {
-    super(game, "Demolish", "Magic 2014 Core Set", "M14");
+    super(game, "Demolish", "Magic 2014", "M14");
   }
 }
 

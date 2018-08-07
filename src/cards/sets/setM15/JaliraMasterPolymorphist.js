@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JaliraMasterPolymorphistBase = require("../setA25/JaliraMasterPolymorphist");
 
-class JaliraMasterPolymorphist extends UnimplementedCard {
+class JaliraMasterPolymorphist extends JaliraMasterPolymorphistBase {
   constructor (game) {
-    super(game, "Jalira, Master Polymorphist", "Magic 2015 Core Set", "M15");
+    super(game, "Jalira, Master Polymorphist", "Magic 2015", "M15");
   }
 }
 

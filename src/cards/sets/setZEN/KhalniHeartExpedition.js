@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KhalniHeartExpeditionBase = require("../setDDP/KhalniHeartExpedition");
+const KhalniHeartExpeditionBase = require("../setC18/KhalniHeartExpedition");
 
 class KhalniHeartExpedition extends KhalniHeartExpeditionBase {
   constructor (game) {

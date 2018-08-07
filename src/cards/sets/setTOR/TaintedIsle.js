@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TaintedIsleBase = require("../setPC2/TaintedIsle");
+const TaintedIsleBase = require("../setPCA/TaintedIsle");
 
 class TaintedIsle extends TaintedIsleBase {
   constructor (game) {

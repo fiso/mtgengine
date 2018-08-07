@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BriarpackAlphaBase = require("../setDKA/BriarpackAlpha");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BriarpackAlpha extends BriarpackAlphaBase {
+class BriarpackAlpha extends UnimplementedCard {
   constructor (game) {
-    super(game, "Briarpack Alpha", "Magic 2014 Core Set", "M14");
+    super(game, "Briarpack Alpha", "Magic 2014", "M14");
   }
 }
 

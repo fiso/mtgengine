@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AncientTombBase = require("../setV12/AncientTomb");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AncientTomb extends AncientTombBase {
+class AncientTomb extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ancient Tomb", "Zendikar Expedition", "EXP");
+    super(game, "Ancient Tomb", "Zendikar Expeditions", "EXP");
   }
 }
 

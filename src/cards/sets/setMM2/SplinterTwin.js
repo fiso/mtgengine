@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class SplinterTwin extends UnimplementedCard {
   constructor (game) {
-    super(game, "Splinter Twin", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Splinter Twin", "Modern Masters 2015", "MM2");
   }
 }
 

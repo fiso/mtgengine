@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AccumulatedKnowledgeBase = require("../setA25/AccumulatedKnowledge");
 
-class AccumulatedKnowledge extends UnimplementedCard {
+class AccumulatedKnowledge extends AccumulatedKnowledgeBase {
   constructor (game) {
     super(game, "Accumulated Knowledge", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

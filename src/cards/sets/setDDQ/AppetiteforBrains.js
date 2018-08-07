@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AppetiteforBrainsBase = require("../setAVR/AppetiteforBrains");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AppetiteforBrains extends AppetiteforBrainsBase {
+class AppetiteforBrains extends UnimplementedCard {
   constructor (game) {
     super(game, "Appetite for Brains", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

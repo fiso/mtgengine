@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CivicWayfinderBase = require("../setDDR/CivicWayfinder");
 
-class CivicWayfinder extends UnimplementedCard {
+class CivicWayfinder extends CivicWayfinderBase {
   constructor (game) {
     super(game, "Civic Wayfinder", "Duels of the Planeswalkers", "DPA");
   }

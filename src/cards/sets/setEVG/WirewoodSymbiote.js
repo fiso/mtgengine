@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WirewoodSymbioteBase = require("../setDD3_EVG/WirewoodSymbiote");
+const WirewoodSymbioteBase = require("../setEMA/WirewoodSymbiote");
 
 class WirewoodSymbiote extends WirewoodSymbioteBase {
   constructor (game) {
-    super(game, "Wirewood Symbiote", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Wirewood Symbiote", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

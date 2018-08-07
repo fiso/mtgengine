@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProdigalPyromancerBase = require("../setDPA/ProdigalPyromancer");
+const ProdigalPyromancerBase = require("../setIMA/ProdigalPyromancer");
 
 class ProdigalPyromancer extends ProdigalPyromancerBase {
   constructor (game) {

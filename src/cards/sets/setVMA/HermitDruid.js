@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HermitDruidBase = require("../setpJGP/HermitDruid");
+const HermitDruidBase = require("../setTPR/HermitDruid");
 
 class HermitDruid extends HermitDruidBase {
   constructor (game) {

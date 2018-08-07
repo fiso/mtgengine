@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoilingOracleBase = require("../setpARL/CoilingOracle");
+const CoilingOracleBase = require("../setMM3/CoilingOracle");
 
 class CoilingOracle extends CoilingOracleBase {
   constructor (game) {

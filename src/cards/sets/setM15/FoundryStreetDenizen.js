@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FoundryStreetDenizenBase = require("../setGTC/FoundryStreetDenizen");
+const FoundryStreetDenizenBase = require("../setDDT/FoundryStreetDenizen");
 
 class FoundryStreetDenizen extends FoundryStreetDenizenBase {
   constructor (game) {
-    super(game, "Foundry Street Denizen", "Magic 2015 Core Set", "M15");
+    super(game, "Foundry Street Denizen", "Magic 2015", "M15");
   }
 }
 

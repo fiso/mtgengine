@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PriceofProgressBase = require("../setEXO/PriceofProgress");
+const PriceofProgressBase = require("../setEMA/PriceofProgress");
 
 class PriceofProgress extends PriceofProgressBase {
   constructor (game) {

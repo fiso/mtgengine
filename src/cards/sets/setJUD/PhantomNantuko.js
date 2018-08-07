@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhantomNantukoBase = require("../setC13/PhantomNantuko");
+const PhantomNantukoBase = require("../setCMA/PhantomNantuko");
 
 class PhantomNantuko extends PhantomNantukoBase {
   constructor (game) {

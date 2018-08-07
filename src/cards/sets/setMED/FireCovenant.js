@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FireCovenantBase = require("../setICE/FireCovenant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FireCovenant extends FireCovenantBase {
+class FireCovenant extends UnimplementedCard {
   constructor (game) {
     super(game, "Fire Covenant", "Masters Edition", "MED");
   }

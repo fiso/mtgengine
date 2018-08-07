@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RubiniaSoulsingerBase = require("../setCHR/RubiniaSoulsinger");
+const RubiniaSoulsingerBase = require("../setCMA/RubiniaSoulsinger");
 
 class RubiniaSoulsinger extends RubiniaSoulsingerBase {
   constructor (game) {

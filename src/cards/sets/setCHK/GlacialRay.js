@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GlacialRayBase = require("../setpARL/GlacialRay");
+const GlacialRayBase = require("../setMMA/GlacialRay");
 
 class GlacialRay extends GlacialRayBase {
   constructor (game) {

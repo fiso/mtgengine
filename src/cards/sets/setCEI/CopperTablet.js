@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CopperTabletBase = require("../setCED/CopperTablet");
+const CopperTabletBase = require("../setMED/CopperTablet");
 
 class CopperTablet extends CopperTabletBase {
   constructor (game) {
-    super(game, "Copper Tablet", "International Collector's Edition", "CEI");
+    super(game, "Copper Tablet", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

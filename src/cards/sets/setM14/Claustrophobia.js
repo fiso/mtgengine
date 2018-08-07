@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ClaustrophobiaBase = require("../setDDM/Claustrophobia");
+const ClaustrophobiaBase = require("../setBBD/Claustrophobia");
 
 class Claustrophobia extends ClaustrophobiaBase {
   constructor (game) {
-    super(game, "Claustrophobia", "Magic 2014 Core Set", "M14");
+    super(game, "Claustrophobia", "Magic 2014", "M14");
   }
 }
 

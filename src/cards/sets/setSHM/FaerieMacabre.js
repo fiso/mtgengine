@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FaerieMacabreBase = require("../setDD3_GVL/FaerieMacabre");
+const FaerieMacabreBase = require("../setGVL/FaerieMacabre");
 
 class FaerieMacabre extends FaerieMacabreBase {
   constructor (game) {

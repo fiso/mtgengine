@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WateryGraveBase = require("../setGTC/WateryGrave");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WateryGrave extends WateryGraveBase {
+class WateryGrave extends UnimplementedCard {
   constructor (game) {
-    super(game, "Watery Grave", "Zendikar Expedition", "EXP");
+    super(game, "Watery Grave", "Zendikar Expeditions", "EXP");
   }
 }
 

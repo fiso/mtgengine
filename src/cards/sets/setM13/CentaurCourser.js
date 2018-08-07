@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CentaurCourserBase = require("../setM10/CentaurCourser");
+const CentaurCourserBase = require("../setM19/CentaurCourser");
 
 class CentaurCourser extends CentaurCourserBase {
   constructor (game) {

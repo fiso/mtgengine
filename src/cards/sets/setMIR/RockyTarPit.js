@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RockyTarPitBase = require("../setDDP/RockyTarPit");
+const RockyTarPitBase = require("../setC18/RockyTarPit");
 
 class RockyTarPit extends RockyTarPitBase {
   constructor (game) {

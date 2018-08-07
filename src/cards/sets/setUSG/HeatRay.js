@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HeatRayBase = require("../setBRB/HeatRay");
+const HeatRayBase = require("../setIMA/HeatRay");
 
 class HeatRay extends HeatRayBase {
   constructor (game) {

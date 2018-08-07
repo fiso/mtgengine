@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConclavePhalanxBase = require("../setDDF/ConclavePhalanx");
+const ConclavePhalanxBase = require("../setMM2/ConclavePhalanx");
 
 class ConclavePhalanx extends ConclavePhalanxBase {
   constructor (game) {

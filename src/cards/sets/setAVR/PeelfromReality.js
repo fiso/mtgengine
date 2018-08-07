@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PeelfromRealityBase = require("../setDDO/PeelfromReality");
 
-class PeelfromReality extends UnimplementedCard {
+class PeelfromReality extends PeelfromRealityBase {
   constructor (game) {
     super(game, "Peel from Reality", "Avacyn Restored", "AVR");
   }

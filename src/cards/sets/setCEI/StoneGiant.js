@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StoneGiantBase = require("../setCED/StoneGiant");
+const StoneGiantBase = require("../setDDI/StoneGiant");
 
 class StoneGiant extends StoneGiantBase {
   constructor (game) {
-    super(game, "Stone Giant", "International Collector's Edition", "CEI");
+    super(game, "Stone Giant", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

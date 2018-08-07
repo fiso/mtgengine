@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UlamogtheInfiniteGyreBase = require("../setMM2/UlamogtheInfiniteGyre");
 
-class UlamogtheInfiniteGyre extends UnimplementedCard {
+class UlamogtheInfiniteGyre extends UlamogtheInfiniteGyreBase {
   constructor (game) {
     super(game, "Ulamog, the Infinite Gyre", "From the Vault: Legends", "V11");
   }

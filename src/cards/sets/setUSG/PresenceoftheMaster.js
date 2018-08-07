@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PresenceoftheMasterBase = require("../setLEG/PresenceoftheMaster");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PresenceoftheMaster extends PresenceoftheMasterBase {
+class PresenceoftheMaster extends UnimplementedCard {
   constructor (game) {
     super(game, "Presence of the Master", "Urza's Saga", "USG");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VaultoftheArchangelBase = require("../setMD1/VaultoftheArchangel");
 
-class VaultoftheArchangel extends UnimplementedCard {
+class VaultoftheArchangel extends VaultoftheArchangelBase {
   constructor (game) {
     super(game, "Vault of the Archangel", "Dark Ascension", "DKA");
   }

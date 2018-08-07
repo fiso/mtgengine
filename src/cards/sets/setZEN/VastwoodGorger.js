@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VastwoodGorgerBase = require("../setM12/VastwoodGorger");
+const VastwoodGorgerBase = require("../setORI/VastwoodGorger");
 
 class VastwoodGorger extends VastwoodGorgerBase {
   constructor (game) {

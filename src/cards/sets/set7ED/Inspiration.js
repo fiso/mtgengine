@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InspirationBase = require("../set6ED/Inspiration");
+const InspirationBase = require("../setW17/Inspiration");
 
 class Inspiration extends InspirationBase {
   constructor (game) {

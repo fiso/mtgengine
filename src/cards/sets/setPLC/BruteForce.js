@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BruteForceBase = require("../setMMA/BruteForce");
+const BruteForceBase = require("../setMM2/BruteForce");
 
 class BruteForce extends BruteForceBase {
   constructor (game) {

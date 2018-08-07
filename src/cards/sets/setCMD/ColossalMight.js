@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ColossalMightBase = require("../setARB/ColossalMight");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ColossalMight extends ColossalMightBase {
+class ColossalMight extends UnimplementedCard {
   constructor (game) {
-    super(game, "Colossal Might", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Colossal Might", "Commander 2011", "CMD");
   }
 }
 

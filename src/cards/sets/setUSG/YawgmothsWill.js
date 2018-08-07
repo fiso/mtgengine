@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const YawgmothsWillBase = require("../setpJGP/YawgmothsWill");
+const YawgmothsWillBase = require("../setVMA/YawgmothsWill");
 
 class YawgmothsWill extends YawgmothsWillBase {
   constructor (game) {

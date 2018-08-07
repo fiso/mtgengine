@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SporeFlowerBase = require("../setFEM/SporeFlower");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SporeFlower extends SporeFlowerBase {
+class SporeFlower extends UnimplementedCard {
   constructor (game) {
     super(game, "Spore Flower", "Masters Edition II", "ME2");
   }

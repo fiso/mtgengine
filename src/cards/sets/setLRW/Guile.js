@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GuileBase = require("../setDD3_JVC/Guile");
+const GuileBase = require("../setMM2/Guile");
 
 class Guile extends GuileBase {
   constructor (game) {

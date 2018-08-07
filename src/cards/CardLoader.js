@@ -30,7 +30,7 @@ class CardLoader {
 
   getSafeCardName (cardName) {
     // This code must mirror the functionality in buildstubs.py
-    let illegalCharacters = " ?!()\",.-'®:&";
+    let illegalCharacters = " ?!()\",.-'®:&/";
     let characterReplacements = {
       "û": "u",
       "ú": "u",

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoiceofAllBase = require("../setCMD/VoiceofAll");
+const VoiceofAllBase = require("../setCMA/VoiceofAll");
 
 class VoiceofAll extends VoiceofAllBase {
   constructor (game) {

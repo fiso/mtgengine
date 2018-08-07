@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AmbushCommanderBase = require("../setDD3_EVG/AmbushCommander");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AmbushCommander extends AmbushCommanderBase {
+class AmbushCommander extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ambush Commander", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Ambush Commander", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

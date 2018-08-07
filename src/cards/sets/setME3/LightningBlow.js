@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LightningBlowBase = require("../setICE/LightningBlow");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LightningBlow extends LightningBlowBase {
+class LightningBlow extends UnimplementedCard {
   constructor (game) {
     super(game, "Lightning Blow", "Masters Edition III", "ME3");
   }

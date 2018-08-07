@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GarrukWildspeakerBase = require("../setDD3_GVL/GarrukWildspeaker");
+const GarrukWildspeakerBase = require("../setGVL/GarrukWildspeaker");
 
 class GarrukWildspeaker extends GarrukWildspeakerBase {
   constructor (game) {
-    super(game, "Garruk Wildspeaker", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Garruk Wildspeaker", "Commander 2011", "CMD");
   }
 }
 

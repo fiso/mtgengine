@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KaradorGhostChieftainBase = require("../setpJGP/KaradorGhostChieftain");
+const KaradorGhostChieftainBase = require("../setJ14/KaradorGhostChieftain");
 
 class KaradorGhostChieftain extends KaradorGhostChieftainBase {
   constructor (game) {
-    super(game, "Karador, Ghost Chieftain", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Karador, Ghost Chieftain", "Commander 2011", "CMD");
   }
 }
 

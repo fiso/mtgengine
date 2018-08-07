@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NayaCharmBase = require("../setC13/NayaCharm");
+const NayaCharmBase = require("../setC16/NayaCharm");
 
 class NayaCharm extends NayaCharmBase {
   constructor (game) {

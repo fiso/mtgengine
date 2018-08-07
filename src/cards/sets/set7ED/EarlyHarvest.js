@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarlyHarvestBase = require("../set6ED/EarlyHarvest");
+const EarlyHarvestBase = require("../set9ED/EarlyHarvest");
 
 class EarlyHarvest extends EarlyHarvestBase {
   constructor (game) {

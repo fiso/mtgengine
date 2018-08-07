@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PincherBeetlesBase = require("../setBRB/PincherBeetles");
+const PincherBeetlesBase = require("../set10E/PincherBeetles");
 
 class PincherBeetles extends PincherBeetlesBase {
   constructor (game) {

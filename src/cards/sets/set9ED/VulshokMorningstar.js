@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VulshokMorningstarBase = require("../setDST/VulshokMorningstar");
+const VulshokMorningstarBase = require("../setDDI/VulshokMorningstar");
 
 class VulshokMorningstar extends VulshokMorningstarBase {
   constructor (game) {

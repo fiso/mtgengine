@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DoomedTravelerBase = require("../setDDQ/DoomedTraveler");
+const DoomedTravelerBase = require("../setBBD/DoomedTraveler");
 
 class DoomedTraveler extends DoomedTravelerBase {
   constructor (game) {
-    super(game, "Doomed Traveler", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Doomed Traveler", "Conspiracy", "CNS");
   }
 }
 

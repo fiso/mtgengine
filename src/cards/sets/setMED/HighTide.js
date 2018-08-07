@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HighTideBase = require("../setFEM/HighTide");
+const HighTideBase = require("../setVMA/HighTide");
 
 class HighTide extends HighTideBase {
   constructor (game) {

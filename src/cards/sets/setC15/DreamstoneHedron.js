@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreamstoneHedronBase = require("../setARC/DreamstoneHedron");
+const DreamstoneHedronBase = require("../setC18/DreamstoneHedron");
 
 class DreamstoneHedron extends DreamstoneHedronBase {
   constructor (game) {

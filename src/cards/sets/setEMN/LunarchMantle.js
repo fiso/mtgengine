@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LunarchMantleBase = require("../setA25/LunarchMantle");
 
-class LunarchMantle extends UnimplementedCard {
+class LunarchMantle extends LunarchMantleBase {
   constructor (game) {
     super(game, "Lunarch Mantle", "Eldritch Moon", "EMN");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FalkenrathNobleBase = require("../setDDQ/FalkenrathNoble");
+const FalkenrathNobleBase = require("../setC17/FalkenrathNoble");
 
 class FalkenrathNoble extends FalkenrathNobleBase {
   constructor (game) {

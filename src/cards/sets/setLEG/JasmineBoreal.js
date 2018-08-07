@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JasmineBorealBase = require("../setTSB/JasmineBoreal");
 
-class JasmineBoreal extends UnimplementedCard {
+class JasmineBoreal extends JasmineBorealBase {
   constructor (game) {
     super(game, "Jasmine Boreal", "Legends", "LEG");
   }

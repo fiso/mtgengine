@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PriestofTitaniaBase = require("../setC14/PriestofTitania");
+const PriestofTitaniaBase = require("../setCMA/PriestofTitania");
 
 class PriestofTitania extends PriestofTitaniaBase {
   constructor (game) {

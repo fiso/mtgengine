@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OvergrownBattlementBase = require("../setIMA/OvergrownBattlement");
 
-class OvergrownBattlement extends UnimplementedCard {
+class OvergrownBattlement extends OvergrownBattlementBase {
   constructor (game) {
     super(game, "Overgrown Battlement", "Rise of the Eldrazi", "ROE");
   }

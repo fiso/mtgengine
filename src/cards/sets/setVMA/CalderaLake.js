@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CalderaLakeBase = require("../setTMP/CalderaLake");
+const CalderaLakeBase = require("../setTPR/CalderaLake");
 
 class CalderaLake extends CalderaLakeBase {
   constructor (game) {

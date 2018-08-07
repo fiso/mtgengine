@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrawWurmBase = require("../setCED/CrawWurm");
+const CrawWurmBase = require("../setM10/CrawWurm");
 
 class CrawWurm extends CrawWurmBase {
   constructor (game) {
-    super(game, "Craw Wurm", "International Collector's Edition", "CEI");
+    super(game, "Craw Wurm", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

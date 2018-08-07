@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AbundanceBase = require("../set10E/Abundance");
+const AbundanceBase = require("../setC17/Abundance");
 
 class Abundance extends AbundanceBase {
   constructor (game) {

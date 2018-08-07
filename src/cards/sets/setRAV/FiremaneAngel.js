@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FiremaneAngelBase = require("../setDDH/FiremaneAngel");
+const FiremaneAngelBase = require("../setIMA/FiremaneAngel");
 
 class FiremaneAngel extends FiremaneAngelBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SyphonSoulBase = require("../setBRB/SyphonSoul");
+const SyphonSoulBase = require("../setCNS/SyphonSoul");
 
 class SyphonSoul extends SyphonSoulBase {
   constructor (game) {

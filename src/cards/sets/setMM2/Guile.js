@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GuileBase = require("../setDD3_JVC/Guile");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Guile extends GuileBase {
+class Guile extends UnimplementedCard {
   constructor (game) {
-    super(game, "Guile", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Guile", "Modern Masters 2015", "MM2");
   }
 }
 

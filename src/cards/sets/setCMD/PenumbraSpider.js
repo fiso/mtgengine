@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PenumbraSpiderBase = require("../setMM3/PenumbraSpider");
 
-class PenumbraSpider extends UnimplementedCard {
+class PenumbraSpider extends PenumbraSpiderBase {
   constructor (game) {
-    super(game, "Penumbra Spider", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Penumbra Spider", "Commander 2011", "CMD");
   }
 }
 

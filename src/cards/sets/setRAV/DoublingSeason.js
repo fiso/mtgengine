@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DoublingSeasonBase = require("../setpJGP/DoublingSeason");
+const DoublingSeasonBase = require("../setBBD/DoublingSeason");
 
 class DoublingSeason extends DoublingSeasonBase {
   constructor (game) {

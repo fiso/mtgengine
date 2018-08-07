@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AkronLegionnaireBase = require("../setCHR/AkronLegionnaire");
+const AkronLegionnaireBase = require("../setME3/AkronLegionnaire");
 
 class AkronLegionnaire extends AkronLegionnaireBase {
   constructor (game) {

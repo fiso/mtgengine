@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LongForgottenGoheiBase = require("../setCHK/LongForgottenGohei");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LongForgottenGohei extends LongForgottenGoheiBase {
+class LongForgottenGohei extends UnimplementedCard {
   constructor (game) {
-    super(game, "Long-Forgotten Gohei", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Long-Forgotten Gohei", "Modern Masters 2015", "MM2");
   }
 }
 

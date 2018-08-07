@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NaturalSelectionBase = require("../setCED/NaturalSelection");
+const NaturalSelectionBase = require("../setCEI/NaturalSelection");
 
 class NaturalSelection extends NaturalSelectionBase {
   constructor (game) {

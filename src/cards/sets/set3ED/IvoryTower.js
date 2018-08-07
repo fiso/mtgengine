@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IvoryTowerBase = require("../setATQ/IvoryTower");
+const IvoryTowerBase = require("../setVMA/IvoryTower");
 
 class IvoryTower extends IvoryTowerBase {
   constructor (game) {

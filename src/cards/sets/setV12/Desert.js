@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DesertBase = require("../setARN/Desert");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Desert extends DesertBase {
+class Desert extends UnimplementedCard {
   constructor (game) {
     super(game, "Desert", "From the Vault: Realms", "V12");
   }

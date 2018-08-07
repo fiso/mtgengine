@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RuneclawBearBase = require("../setDPA/RuneclawBear");
+const RuneclawBearBase = require("../setM15/RuneclawBear");
 
 class RuneclawBear extends RuneclawBearBase {
   constructor (game) {

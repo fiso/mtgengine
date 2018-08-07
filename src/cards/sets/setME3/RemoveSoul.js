@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RemoveSoulBase = require("../setCHR/RemoveSoul");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RemoveSoul extends RemoveSoulBase {
+class RemoveSoul extends UnimplementedCard {
   constructor (game) {
     super(game, "Remove Soul", "Masters Edition III", "ME3");
   }

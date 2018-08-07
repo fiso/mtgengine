@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PillageBase = require("../setALL/Pillage");
+const PillageBase = require("../setA25/Pillage");
 
 class Pillage extends PillageBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SparkElementalBase = require("../set5DN/SparkElemental");
+const SparkElementalBase = require("../setPD2/SparkElemental");
 
 class SparkElemental extends SparkElementalBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JotunGruntBase = require("../setCSP/JotunGrunt");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class JotunGrunt extends JotunGruntBase {
+class JotunGrunt extends UnimplementedCard {
   constructor (game) {
-    super(game, "Jötun Grunt", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Jötun Grunt", "Commander 2011", "CMD");
   }
 }
 

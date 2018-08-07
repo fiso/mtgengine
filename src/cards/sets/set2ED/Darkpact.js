@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarkpactBase = require("../setCED/Darkpact");
+const DarkpactBase = require("../setSUM/Darkpact");
 
 class Darkpact extends DarkpactBase {
   constructor (game) {

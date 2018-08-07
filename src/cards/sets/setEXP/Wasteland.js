@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WastelandBase = require("../setpJGP/Wasteland");
+const WastelandBase = require("../setEMA/Wasteland");
 
 class Wasteland extends WastelandBase {
   constructor (game) {
-    super(game, "Wasteland", "Zendikar Expedition", "EXP");
+    super(game, "Wasteland", "Zendikar Expeditions", "EXP");
   }
 }
 

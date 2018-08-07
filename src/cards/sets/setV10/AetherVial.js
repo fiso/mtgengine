@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AetherVialBase = require("../setDST/AetherVial");
+const AetherVialBase = require("../setIMA/AetherVial");
 
 class AetherVial extends AetherVialBase {
   constructor (game) {
-    super(game, "Æther Vial", "From the Vault: Relics", "V10");
+    super(game, "Aether Vial", "From the Vault: Relics", "V10");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GreenSunsZenithBase = require("../setEMA/GreenSunsZenith");
 
-class GreenSunsZenith extends UnimplementedCard {
+class GreenSunsZenith extends GreenSunsZenithBase {
   constructor (game) {
     super(game, "Green Sun's Zenith", "From the Vault: Twenty", "V13");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WightofPrecinctSixBase = require("../setC13/WightofPrecinctSix");
+const WightofPrecinctSixBase = require("../setIMA/WightofPrecinctSix");
 
 class WightofPrecinctSix extends WightofPrecinctSixBase {
   constructor (game) {

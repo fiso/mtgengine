@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TenebtheHarvesterBase = require("../setCMD/TenebtheHarvester");
+const TenebtheHarvesterBase = require("../setC17/TenebtheHarvester");
 
 class TenebtheHarvester extends TenebtheHarvesterBase {
   constructor (game) {

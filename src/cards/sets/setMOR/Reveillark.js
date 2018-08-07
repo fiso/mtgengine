@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReveillarkBase = require("../setMMA/Reveillark");
+const ReveillarkBase = require("../setCM2/Reveillark");
 
 class Reveillark extends ReveillarkBase {
   constructor (game) {

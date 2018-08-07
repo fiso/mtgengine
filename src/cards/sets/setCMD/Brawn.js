@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrawnBase = require("../setJUD/Brawn");
+const BrawnBase = require("../setCM2/Brawn");
 
 class Brawn extends BrawnBase {
   constructor (game) {
-    super(game, "Brawn", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Brawn", "Commander 2011", "CMD");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BrainstormBase = require("../setC18/Brainstorm");
 
-class Brainstorm extends UnimplementedCard {
+class Brainstorm extends BrainstormBase {
   constructor (game) {
     super(game, "Brainstorm", "Beatdown Box Set", "BTD");
   }

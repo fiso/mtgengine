@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnstableMutationBase = require("../setARN/UnstableMutation");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class UnstableMutation extends UnstableMutationBase {
+class UnstableMutation extends UnimplementedCard {
   constructor (game) {
-    super(game, "Unstable Mutation", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Unstable Mutation", "Time Spiral Timeshifted", "TSB");
   }
 }
 

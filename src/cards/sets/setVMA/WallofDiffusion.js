@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WallofDiffusionBase = require("../setTMP/WallofDiffusion");
+const WallofDiffusionBase = require("../setTPR/WallofDiffusion");
 
 class WallofDiffusion extends WallofDiffusionBase {
   constructor (game) {

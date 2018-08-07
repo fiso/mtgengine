@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MorticianBeetleBase = require("../setMM3/MorticianBeetle");
 
-class MorticianBeetle extends UnimplementedCard {
+class MorticianBeetle extends MorticianBeetleBase {
   constructor (game) {
     super(game, "Mortician Beetle", "Rise of the Eldrazi", "ROE");
   }

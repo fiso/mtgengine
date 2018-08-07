@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ColossalWhaleBase = require("../setpLPA/ColossalWhale");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ColossalWhale extends ColossalWhaleBase {
+class ColossalWhale extends UnimplementedCard {
   constructor (game) {
-    super(game, "Colossal Whale", "Magic 2014 Core Set", "M14");
+    super(game, "Colossal Whale", "Magic 2014", "M14");
   }
 }
 

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class AnchortotheAether extends UnimplementedCard {
   constructor (game) {
-    super(game, "Anchor to the Æther", "Magic Origins", "ORI");
+    super(game, "Anchor to the Aether", "Magic Origins", "ORI");
   }
 }
 

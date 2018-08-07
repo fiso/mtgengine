@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FalseOrdersBase = require("../setCED/FalseOrders");
+const FalseOrdersBase = require("../setCEI/FalseOrders");
 
 class FalseOrders extends FalseOrdersBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DaggerclawImpBase = require("../setDD3_DVD/DaggerclawImp");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DaggerclawImp extends DaggerclawImpBase {
+class DaggerclawImp extends UnimplementedCard {
   constructor (game) {
-    super(game, "Daggerclaw Imp", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Daggerclaw Imp", "Modern Masters 2015", "MM2");
   }
 }
 

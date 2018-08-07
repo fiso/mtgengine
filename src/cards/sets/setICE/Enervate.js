@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnervateBase = require("../set5ED/Enervate");
+const EnervateBase = require("../setME2/Enervate");
 
 class Enervate extends EnervateBase {
   constructor (game) {

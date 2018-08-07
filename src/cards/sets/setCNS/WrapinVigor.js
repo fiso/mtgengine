@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WrapinVigorBase = require("../setFUT/WrapinVigor");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WrapinVigor extends WrapinVigorBase {
+class WrapinVigor extends UnimplementedCard {
   constructor (game) {
-    super(game, "Wrap in Vigor", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Wrap in Vigor", "Conspiracy", "CNS");
   }
 }
 

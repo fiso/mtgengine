@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ClearaPathBase = require("../setM15/ClearaPath");
 
-class ClearaPath extends UnimplementedCard {
+class ClearaPath extends ClearaPathBase {
   constructor (game) {
     super(game, "Clear a Path", "Dragon's Maze", "DGM");
   }

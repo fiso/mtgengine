@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyreachMantaBase = require("../set5DN/SkyreachManta");
+const SkyreachMantaBase = require("../setMM2/SkyreachManta");
 
 class SkyreachManta extends SkyreachMantaBase {
   constructor (game) {

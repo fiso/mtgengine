@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DaggerclawImpBase = require("../setDD3_DVD/DaggerclawImp");
+const DaggerclawImpBase = require("../setMM2/DaggerclawImp");
 
 class DaggerclawImp extends DaggerclawImpBase {
   constructor (game) {

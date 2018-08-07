@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChokeBase = require("../set8ED/Choke");
+const ChokeBase = require("../setMP2/Choke");
 
 class Choke extends ChokeBase {
   constructor (game) {

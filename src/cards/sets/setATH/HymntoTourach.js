@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HymntoTourachBase = require("../setEMA/HymntoTourach");
 
-class HymntoTourach extends UnimplementedCard {
+class HymntoTourach extends HymntoTourachBase {
   constructor (game) {
     super(game, "Hymn to Tourach", "Anthologies", "ATH");
   }

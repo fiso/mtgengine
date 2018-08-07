@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MasticoreBase = require("../setVMA/Masticore");
 
-class Masticore extends UnimplementedCard {
+class Masticore extends MasticoreBase {
   constructor (game) {
     super(game, "Masticore", "From the Vault: Relics", "V10");
   }

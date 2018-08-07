@@ -4,7 +4,7 @@ const AetherAdeptBase = require("../setDDM/AetherAdept");
 
 class AetherAdept extends AetherAdeptBase {
   constructor (game) {
-    super(game, "Æther Adept", "Magic 2012", "M12");
+    super(game, "Aether Adept", "Magic 2012", "M12");
   }
 }
 

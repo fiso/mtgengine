@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CovenantofMindsBase = require("../setCN2/CovenantofMinds");
 
-class CovenantofMinds extends UnimplementedCard {
+class CovenantofMinds extends CovenantofMindsBase {
   constructor (game) {
     super(game, "Covenant of Minds", "Shards of Alara", "ALA");
   }

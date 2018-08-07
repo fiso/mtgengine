@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BorderlandBehemothBase = require("../setCM2/BorderlandBehemoth");
 
-class BorderlandBehemoth extends UnimplementedCard {
+class BorderlandBehemoth extends BorderlandBehemothBase {
   constructor (game) {
     super(game, "Borderland Behemoth", "Commander 2015", "C15");
   }

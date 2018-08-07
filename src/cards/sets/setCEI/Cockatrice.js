@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CockatriceBase = require("../setCED/Cockatrice");
+const CockatriceBase = require("../setTSB/Cockatrice");
 
 class Cockatrice extends CockatriceBase {
   constructor (game) {
-    super(game, "Cockatrice", "International Collector's Edition", "CEI");
+    super(game, "Cockatrice", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

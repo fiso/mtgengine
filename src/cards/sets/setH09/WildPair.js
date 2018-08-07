@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildPairBase = require("../setPLC/WildPair");
+const WildPairBase = require("../setCN2/WildPair");
 
 class WildPair extends WildPairBase {
   constructor (game) {

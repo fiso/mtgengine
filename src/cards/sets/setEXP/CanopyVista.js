@@ -4,7 +4,7 @@ const CanopyVistaBase = require("../setBFZ/CanopyVista");
 
 class CanopyVista extends CanopyVistaBase {
   constructor (game) {
-    super(game, "Canopy Vista", "Zendikar Expedition", "EXP");
+    super(game, "Canopy Vista", "Zendikar Expeditions", "EXP");
   }
 }
 

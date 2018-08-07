@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeWarpBase = require("../setpJGP/TimeWarp");
+const TimeWarpBase = require("../setE02/TimeWarp");
 
 class TimeWarp extends TimeWarpBase {
   constructor (game) {

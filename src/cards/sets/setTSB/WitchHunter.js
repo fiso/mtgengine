@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WitchHunterBase = require("../setCHR/WitchHunter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WitchHunter extends WitchHunterBase {
+class WitchHunter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Witch Hunter", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Witch Hunter", "Time Spiral Timeshifted", "TSB");
   }
 }
 

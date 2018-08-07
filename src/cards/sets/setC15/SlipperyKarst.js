@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlipperyKarstBase = require("../setATH/SlipperyKarst");
+const SlipperyKarstBase = require("../setCMA/SlipperyKarst");
 
 class SlipperyKarst extends SlipperyKarstBase {
   constructor (game) {

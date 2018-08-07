@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PolymorphistsJestBase = require("../setC17/PolymorphistsJest");
 
-class PolymorphistsJest extends UnimplementedCard {
+class PolymorphistsJest extends PolymorphistsJestBase {
   constructor (game) {
-    super(game, "Polymorphist's Jest", "Magic 2015 Core Set", "M15");
+    super(game, "Polymorphist's Jest", "Magic 2015", "M15");
   }
 }
 

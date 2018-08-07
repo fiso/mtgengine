@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpittingEarthBase = require("../set6ED/SpittingEarth");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SpittingEarth extends SpittingEarthBase {
+class SpittingEarth extends UnimplementedCard {
   constructor (game) {
-    super(game, "Spitting Earth", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Spitting Earth", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

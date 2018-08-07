@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KillerWhaleBase = require("../setBTD/KillerWhale");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KillerWhale extends KillerWhaleBase {
+class KillerWhale extends UnimplementedCard {
   constructor (game) {
     super(game, "Killer Whale", "Tempest Remastered", "TPR");
   }

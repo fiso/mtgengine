@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlickerwispBase = require("../setC13/Flickerwisp");
+const FlickerwispBase = require("../setE01/Flickerwisp");
 
 class Flickerwisp extends FlickerwispBase {
   constructor (game) {

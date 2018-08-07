@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShardingSphinxBase = require("../setC18/ShardingSphinx");
 
-class ShardingSphinx extends UnimplementedCard {
+class ShardingSphinx extends ShardingSphinxBase {
   constructor (game) {
-    super(game, "Sharding Sphinx", "Commander 2013 Edition", "C13");
+    super(game, "Sharding Sphinx", "Commander 2013", "C13");
   }
 }
 

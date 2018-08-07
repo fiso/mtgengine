@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class HourofReckoning extends UnimplementedCard {
   constructor (game) {
-    super(game, "Hour of Reckoning", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Hour of Reckoning", "Commander 2011", "CMD");
   }
 }
 

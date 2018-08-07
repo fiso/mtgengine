@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IncinerateBase = require("../setJVC/Incinerate");
 
-class Incinerate extends UnimplementedCard {
+class Incinerate extends IncinerateBase {
   constructor (game) {
     super(game, "Incinerate", "Coldsnap Theme Decks", "CST");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DynachargeBase = require("../setMM3/Dynacharge");
 
-class Dynacharge extends UnimplementedCard {
+class Dynacharge extends DynachargeBase {
   constructor (game) {
     super(game, "Dynacharge", "Return to Ravnica", "RTR");
   }

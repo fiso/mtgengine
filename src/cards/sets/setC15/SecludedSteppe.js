@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SecludedSteppeBase = require("../setARC/SecludedSteppe");
+const SecludedSteppeBase = require("../setC18/SecludedSteppe");
 
 class SecludedSteppe extends SecludedSteppeBase {
   constructor (game) {

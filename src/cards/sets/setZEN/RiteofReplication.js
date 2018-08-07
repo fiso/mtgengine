@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RiteofReplicationBase = require("../setC14/RiteofReplication");
+const RiteofReplicationBase = require("../setC15/RiteofReplication");
 
 class RiteofReplication extends RiteofReplicationBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TreetopBracersBase = require("../setNMS/TreetopBracers");
+const TreetopBracersBase = require("../set10E/TreetopBracers");
 
 class TreetopBracers extends TreetopBracersBase {
   constructor (game) {

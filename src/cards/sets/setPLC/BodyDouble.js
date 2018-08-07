@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BodyDoubleBase = require("../setDDM/BodyDouble");
+const BodyDoubleBase = require("../setC17/BodyDouble");
 
 class BodyDouble extends BodyDoubleBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JoinerAdeptBase = require("../set5DN/JoinerAdept");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class JoinerAdept extends JoinerAdeptBase {
+class JoinerAdept extends UnimplementedCard {
   constructor (game) {
     super(game, "Joiner Adept", "Tenth Edition", "10E");
   }

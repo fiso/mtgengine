@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChimericIdolBase = require("../setPCY/ChimericIdol");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ChimericIdol extends ChimericIdolBase {
+class ChimericIdol extends UnimplementedCard {
   constructor (game) {
     super(game, "Chimeric Idol", "Vintage Masters", "VMA");
   }

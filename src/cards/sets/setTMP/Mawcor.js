@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MawcorBase = require("../set7ED/Mawcor");
+const MawcorBase = require("../setTPR/Mawcor");
 
 class Mawcor extends MawcorBase {
   constructor (game) {

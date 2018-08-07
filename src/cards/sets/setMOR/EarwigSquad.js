@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarwigSquadBase = require("../setpLPA/EarwigSquad");
+const EarwigSquadBase = require("../setMMA/EarwigSquad");
 
 class EarwigSquad extends EarwigSquadBase {
   constructor (game) {

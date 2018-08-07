@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SteamcoreWeirdBase = require("../setDDJ/SteamcoreWeird");
 
-class SteamcoreWeird extends UnimplementedCard {
+class SteamcoreWeird extends SteamcoreWeirdBase {
   constructor (game) {
     super(game, "Steamcore Weird", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SurvivalCacheBase = require("../setIMA/SurvivalCache");
 
-class SurvivalCache extends UnimplementedCard {
+class SurvivalCache extends SurvivalCacheBase {
   constructor (game) {
-    super(game, "Survival Cache", "Commander 2013 Edition", "C13");
+    super(game, "Survival Cache", "Commander 2013", "C13");
   }
 }
 

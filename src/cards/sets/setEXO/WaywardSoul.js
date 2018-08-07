@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaywardSoulBase = require("../setBTD/WaywardSoul");
+const WaywardSoulBase = require("../setTPR/WaywardSoul");
 
 class WaywardSoul extends WaywardSoulBase {
   constructor (game) {

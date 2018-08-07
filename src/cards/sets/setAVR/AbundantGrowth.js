@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AbundantGrowthBase = require("../setEMA/AbundantGrowth");
 
-class AbundantGrowth extends UnimplementedCard {
+class AbundantGrowth extends AbundantGrowthBase {
   constructor (game) {
     super(game, "Abundant Growth", "Avacyn Restored", "AVR");
   }

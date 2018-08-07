@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const StunSniperBase = require("../setDDL/StunSniper");
 
-class StunSniper extends UnimplementedCard {
+class StunSniper extends StunSniperBase {
   constructor (game) {
     super(game, "Stun Sniper", "Alara Reborn", "ARB");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FertilidBase = require("../setARC/Fertilid");
+const FertilidBase = require("../setBBD/Fertilid");
 
 class Fertilid extends FertilidBase {
   constructor (game) {
-    super(game, "Fertilid", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Fertilid", "Commander 2011", "CMD");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OppositionBase = require("../set7ED/Opposition");
+const OppositionBase = require("../setMP2/Opposition");
 
 class Opposition extends OppositionBase {
   constructor (game) {

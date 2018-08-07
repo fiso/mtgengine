@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NorwoodRangerBase = require("../set8ED/NorwoodRanger");
+const NorwoodRangerBase = require("../set9ED/NorwoodRanger");
 
 class NorwoodRanger extends NorwoodRangerBase {
   constructor (game) {

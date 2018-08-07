@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RadiantArchangelBase = require("../setVMA/RadiantArchangel");
 
-class RadiantArchangel extends UnimplementedCard {
+class RadiantArchangel extends RadiantArchangelBase {
   constructor (game) {
     super(game, "Radiant, Archangel", "Urza's Legacy", "ULG");
   }

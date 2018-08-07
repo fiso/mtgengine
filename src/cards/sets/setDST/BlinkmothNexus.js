@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BlinkmothNexusBase = require("../setMM2/BlinkmothNexus");
 
-class BlinkmothNexus extends UnimplementedCard {
+class BlinkmothNexus extends BlinkmothNexusBase {
   constructor (game) {
     super(game, "Blinkmoth Nexus", "Darksteel", "DST");
   }

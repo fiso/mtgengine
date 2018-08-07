@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoggInfestationBase = require("../setSTH/MoggInfestation");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoggInfestation extends MoggInfestationBase {
+class MoggInfestation extends UnimplementedCard {
   constructor (game) {
     super(game, "Mogg Infestation", "Tempest Remastered", "TPR");
   }

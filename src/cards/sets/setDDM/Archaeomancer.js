@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ArchaeomancerBase = require("../setC17/Archaeomancer");
 
-class Archaeomancer extends UnimplementedCard {
+class Archaeomancer extends ArchaeomancerBase {
   constructor (game) {
     super(game, "Archaeomancer", "Duel Decks: Jace vs. Vraska", "DDM");
   }

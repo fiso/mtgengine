@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FreewindEquenautBase = require("../setDIS/FreewindEquenaut");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FreewindEquenaut extends FreewindEquenautBase {
+class FreewindEquenaut extends UnimplementedCard {
   constructor (game) {
     super(game, "Freewind Equenaut", "Duel Decks: Heroes vs. Monsters", "DDL");
   }

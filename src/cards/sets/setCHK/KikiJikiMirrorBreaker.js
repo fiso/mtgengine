@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KikiJikiMirrorBreakerBase = require("../setIMA/KikiJikiMirrorBreaker");
 
-class KikiJikiMirrorBreaker extends UnimplementedCard {
+class KikiJikiMirrorBreaker extends KikiJikiMirrorBreakerBase {
   constructor (game) {
     super(game, "Kiki-Jiki, Mirror Breaker", "Champions of Kamigawa", "CHK");
   }

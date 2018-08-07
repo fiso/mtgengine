@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnightofCliffhavenBase = require("../setDDG/KnightofCliffhaven");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KnightofCliffhaven extends KnightofCliffhavenBase {
+class KnightofCliffhaven extends UnimplementedCard {
   constructor (game) {
     super(game, "Knight of Cliffhaven", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

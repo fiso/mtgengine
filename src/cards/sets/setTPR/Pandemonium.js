@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PandemoniumBase = require("../setEXO/Pandemonium");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Pandemonium extends PandemoniumBase {
+class Pandemonium extends UnimplementedCard {
   constructor (game) {
     super(game, "Pandemonium", "Tempest Remastered", "TPR");
   }

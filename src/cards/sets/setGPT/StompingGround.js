@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StompingGroundBase = require("../setGTC/StompingGround");
+const StompingGroundBase = require("../setEXP/StompingGround");
 
 class StompingGround extends StompingGroundBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GoblinGrenadeBase = require("../setMTGA/GoblinGrenade");
 
-class GoblinGrenade extends UnimplementedCard {
+class GoblinGrenade extends GoblinGrenadeBase {
   constructor (game) {
     super(game, "Goblin Grenade", "Anthologies", "ATH");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PredatorFlagshipBase = require("../setC14/PredatorFlagship");
+const PredatorFlagshipBase = require("../setCMA/PredatorFlagship");
 
 class PredatorFlagship extends PredatorFlagshipBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootwaterMatriarchBase = require("../setTMP/RootwaterMatriarch");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RootwaterMatriarch extends RootwaterMatriarchBase {
+class RootwaterMatriarch extends UnimplementedCard {
   constructor (game) {
     super(game, "Rootwater Matriarch", "Tenth Edition", "10E");
   }

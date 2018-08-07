@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GnarlidPackBase = require("../setCNS/GnarlidPack");
+const GnarlidPackBase = require("../setMM2/GnarlidPack");
 
 class GnarlidPack extends GnarlidPackBase {
   constructor (game) {

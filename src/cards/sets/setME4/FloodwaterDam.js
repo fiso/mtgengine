@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FloodwaterDamBase = require("../setALL/FloodwaterDam");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FloodwaterDam extends FloodwaterDamBase {
+class FloodwaterDam extends UnimplementedCard {
   constructor (game) {
     super(game, "Floodwater Dam", "Masters Edition IV", "ME4");
   }

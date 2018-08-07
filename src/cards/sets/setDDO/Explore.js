@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ExploreBase = require("../setC18/Explore");
 
-class Explore extends UnimplementedCard {
+class Explore extends ExploreBase {
   constructor (game) {
     super(game, "Explore", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SirensCallBase = require("../setCED/SirensCall");
+const SirensCallBase = require("../set4ED/SirensCall");
 
 class SirensCall extends SirensCallBase {
   constructor (game) {
-    super(game, "Siren's Call", "International Collector's Edition", "CEI");
+    super(game, "Siren's Call", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

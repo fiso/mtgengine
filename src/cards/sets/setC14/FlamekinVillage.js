@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FlamekinVillageBase = require("../setCM2/FlamekinVillage");
 
-class FlamekinVillage extends UnimplementedCard {
+class FlamekinVillage extends FlamekinVillageBase {
   constructor (game) {
     super(game, "Flamekin Village", "Commander 2014", "C14");
   }

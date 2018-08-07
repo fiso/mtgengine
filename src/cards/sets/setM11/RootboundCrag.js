@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootboundCragBase = require("../setM10/RootboundCrag");
+const RootboundCragBase = require("../setXLN/RootboundCrag");
 
 class RootboundCrag extends RootboundCragBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShadowmageInfiltratorBase = require("../setA25/ShadowmageInfiltrator");
 
-class ShadowmageInfiltrator extends UnimplementedCard {
+class ShadowmageInfiltrator extends ShadowmageInfiltratorBase {
   constructor (game) {
-    super(game, "Shadowmage Infiltrator", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Shadowmage Infiltrator", "Modern Masters 2015", "MM2");
   }
 }
 

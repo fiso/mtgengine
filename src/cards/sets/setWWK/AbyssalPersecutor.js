@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AbyssalPersecutorBase = require("../setC14/AbyssalPersecutor");
+const AbyssalPersecutorBase = require("../setIMA/AbyssalPersecutor");
 
 class AbyssalPersecutor extends AbyssalPersecutorBase {
   constructor (game) {

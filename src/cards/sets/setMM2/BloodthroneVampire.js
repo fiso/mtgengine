@@ -4,7 +4,7 @@ const BloodthroneVampireBase = require("../setDDP/BloodthroneVampire");
 
 class BloodthroneVampire extends BloodthroneVampireBase {
   constructor (game) {
-    super(game, "Bloodthrone Vampire", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Bloodthrone Vampire", "Modern Masters 2015", "MM2");
   }
 }
 

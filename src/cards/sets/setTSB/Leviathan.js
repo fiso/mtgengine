@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeviathanBase = require("../setBTD/Leviathan");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Leviathan extends LeviathanBase {
+class Leviathan extends UnimplementedCard {
   constructor (game) {
-    super(game, "Leviathan", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Leviathan", "Time Spiral Timeshifted", "TSB");
   }
 }
 

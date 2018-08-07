@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonWhelpBase = require("../setARC/DragonWhelp");
+const DragonWhelpBase = require("../setCMA/DragonWhelp");
 
 class DragonWhelp extends DragonWhelpBase {
   constructor (game) {
-    super(game, "Dragon Whelp", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Dragon Whelp", "Commander 2011", "CMD");
   }
 }
 

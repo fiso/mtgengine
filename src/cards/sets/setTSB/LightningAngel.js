@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LightningAngelBase = require("../setAPC/LightningAngel");
+const LightningAngelBase = require("../setV15/LightningAngel");
 
 class LightningAngel extends LightningAngelBase {
   constructor (game) {
-    super(game, "Lightning Angel", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Lightning Angel", "Time Spiral Timeshifted", "TSB");
   }
 }
 

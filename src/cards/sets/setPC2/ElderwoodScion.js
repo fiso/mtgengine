@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ElderwoodScionBase = require("../setC18/ElderwoodScion");
 
-class ElderwoodScion extends UnimplementedCard {
+class ElderwoodScion extends ElderwoodScionBase {
   constructor (game) {
-    super(game, "Elderwood Scion", "Planechase 2012 Edition", "PC2");
+    super(game, "Elderwood Scion", "Planechase 2012", "PC2");
   }
 }
 

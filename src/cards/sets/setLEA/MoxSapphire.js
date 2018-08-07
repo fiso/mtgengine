@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxSapphireBase = require("../setCED/MoxSapphire");
+const MoxSapphireBase = require("../setVMA/MoxSapphire");
 
 class MoxSapphire extends MoxSapphireBase {
   constructor (game) {

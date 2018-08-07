@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WarstormSurgeBase = require("../setC13/WarstormSurge");
+const WarstormSurgeBase = require("../setCM2/WarstormSurge");
 
 class WarstormSurge extends WarstormSurgeBase {
   constructor (game) {
-    super(game, "Warstorm Surge", "Planechase 2012 Edition", "PC2");
+    super(game, "Warstorm Surge", "Planechase 2012", "PC2");
   }
 }
 

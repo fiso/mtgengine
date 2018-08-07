@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MalfegorBase = require("../setCON/Malfegor");
+const MalfegorBase = require("../setIMA/Malfegor");
 
 class Malfegor extends MalfegorBase {
   constructor (game) {
-    super(game, "Malfegor", "Prerelease Events", "pPRE");
+    super(game, "Malfegor", "Prerelease Events", "PPRE");
   }
 }
 

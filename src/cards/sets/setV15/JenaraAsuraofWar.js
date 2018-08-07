@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JenaraAsuraofWarBase = require("../setARB/JenaraAsuraofWar");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class JenaraAsuraofWar extends JenaraAsuraofWarBase {
+class JenaraAsuraofWar extends UnimplementedCard {
   constructor (game) {
     super(game, "Jenara, Asura of War", "From the Vault: Angels", "V15");
   }

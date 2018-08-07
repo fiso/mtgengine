@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RealityAnchorBase = require("../setTMP/RealityAnchor");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RealityAnchor extends RealityAnchorBase {
+class RealityAnchor extends UnimplementedCard {
   constructor (game) {
     super(game, "Reality Anchor", "Tempest Remastered", "TPR");
   }

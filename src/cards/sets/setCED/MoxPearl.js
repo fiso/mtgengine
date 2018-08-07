@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MoxPearlBase = require("../setVMA/MoxPearl");
 
-class MoxPearl extends UnimplementedCard {
+class MoxPearl extends MoxPearlBase {
   constructor (game) {
-    super(game, "Mox Pearl", "Collector's Edition", "CED");
+    super(game, "Mox Pearl", "Collectors’ Edition", "CED");
   }
 }
 

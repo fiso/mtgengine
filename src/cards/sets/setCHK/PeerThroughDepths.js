@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PeerThroughDepthsBase = require("../setDDS/PeerThroughDepths");
 
-class PeerThroughDepths extends UnimplementedCard {
+class PeerThroughDepths extends PeerThroughDepthsBase {
   constructor (game) {
     super(game, "Peer Through Depths", "Champions of Kamigawa", "CHK");
   }

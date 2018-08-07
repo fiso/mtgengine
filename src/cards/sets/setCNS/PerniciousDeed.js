@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PerniciousDeedBase = require("../setAPC/PerniciousDeed");
+const PerniciousDeedBase = require("../setA25/PerniciousDeed");
 
 class PerniciousDeed extends PerniciousDeedBase {
   constructor (game) {
-    super(game, "Pernicious Deed", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Pernicious Deed", "Conspiracy", "CNS");
   }
 }
 

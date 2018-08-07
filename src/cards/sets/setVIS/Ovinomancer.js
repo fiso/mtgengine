@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OvinomancerBase = require("../setMGB/Ovinomancer");
+const OvinomancerBase = require("../setTSB/Ovinomancer");
 
 class Ovinomancer extends OvinomancerBase {
   constructor (game) {

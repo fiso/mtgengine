@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnotvinePaladinBase = require("../setARB/KnotvinePaladin");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KnotvinePaladin extends KnotvinePaladinBase {
+class KnotvinePaladin extends UnimplementedCard {
   constructor (game) {
     super(game, "Knotvine Paladin", "Duel Decks: Knights vs. Dragons", "DDG");
   }

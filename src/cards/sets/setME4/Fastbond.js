@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FastbondBase = require("../setCED/Fastbond");
+const FastbondBase = require("../setVMA/Fastbond");
 
 class Fastbond extends FastbondBase {
   constructor (game) {

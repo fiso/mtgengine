@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BreedingPoolBase = require("../setDIS/BreedingPool");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BreedingPool extends BreedingPoolBase {
+class BreedingPool extends UnimplementedCard {
   constructor (game) {
-    super(game, "Breeding Pool", "Zendikar Expedition", "EXP");
+    super(game, "Breeding Pool", "Zendikar Expeditions", "EXP");
   }
 }
 

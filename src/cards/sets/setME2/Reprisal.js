@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReprisalBase = require("../setALL/Reprisal");
+const ReprisalBase = require("../setJOU/Reprisal");
 
 class Reprisal extends ReprisalBase {
   constructor (game) {

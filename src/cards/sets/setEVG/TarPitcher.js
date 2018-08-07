@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TarPitcherBase = require("../setDD3_EVG/TarPitcher");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TarPitcher extends TarPitcherBase {
+class TarPitcher extends UnimplementedCard {
   constructor (game) {
-    super(game, "Tar Pitcher", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Tar Pitcher", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

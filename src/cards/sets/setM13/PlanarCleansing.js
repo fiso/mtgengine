@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlanarCleansingBase = require("../setM10/PlanarCleansing");
+const PlanarCleansingBase = require("../setM14/PlanarCleansing");
 
 class PlanarCleansing extends PlanarCleansingBase {
   constructor (game) {

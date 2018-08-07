@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SulfuricVortexBase = require("../setDDK/SulfuricVortex");
+const SulfuricVortexBase = require("../setEMA/SulfuricVortex");
 
 class SulfuricVortex extends SulfuricVortexBase {
   constructor (game) {

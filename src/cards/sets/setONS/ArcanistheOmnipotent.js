@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcanistheOmnipotentBase = require("../setDDN/ArcanistheOmnipotent");
+const ArcanistheOmnipotentBase = require("../setC17/ArcanistheOmnipotent");
 
 class ArcanistheOmnipotent extends ArcanistheOmnipotentBase {
   constructor (game) {

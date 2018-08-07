@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SacredFoundryBase = require("../setGTC/SacredFoundry");
+const SacredFoundryBase = require("../setEXP/SacredFoundry");
 
 class SacredFoundry extends SacredFoundryBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CaptainsManeuverBase = require("../setAPC/CaptainsManeuver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CaptainsManeuver extends CaptainsManeuverBase {
+class CaptainsManeuver extends UnimplementedCard {
   constructor (game) {
     super(game, "Captain's Maneuver", "Planechase", "HOP");
   }

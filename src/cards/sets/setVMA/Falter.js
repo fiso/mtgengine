@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FalterBase = require("../setUSG/Falter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Falter extends FalterBase {
+class Falter extends UnimplementedCard {
   constructor (game) {
     super(game, "Falter", "Vintage Masters", "VMA");
   }

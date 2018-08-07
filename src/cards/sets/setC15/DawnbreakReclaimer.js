@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DawnbreakReclaimerBase = require("../setCM2/DawnbreakReclaimer");
 
-class DawnbreakReclaimer extends UnimplementedCard {
+class DawnbreakReclaimer extends DawnbreakReclaimerBase {
   constructor (game) {
     super(game, "Dawnbreak Reclaimer", "Commander 2015", "C15");
   }

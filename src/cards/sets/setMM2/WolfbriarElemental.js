@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WolfbriarElementalBase = require("../setC14/WolfbriarElemental");
+const WolfbriarElementalBase = require("../setCMA/WolfbriarElemental");
 
 class WolfbriarElemental extends WolfbriarElementalBase {
   constructor (game) {
-    super(game, "Wolfbriar Elemental", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Wolfbriar Elemental", "Modern Masters 2015", "MM2");
   }
 }
 

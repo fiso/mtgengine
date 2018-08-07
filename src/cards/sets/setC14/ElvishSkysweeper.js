@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishSkysweeperBase = require("../setC13/ElvishSkysweeper");
+const ElvishSkysweeperBase = require("../setCMA/ElvishSkysweeper");
 
 class ElvishSkysweeper extends ElvishSkysweeperBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AbyssalGatekeeperBase = require("../setDD3_DVD/AbyssalGatekeeper");
+const AbyssalGatekeeperBase = require("../setDVD/AbyssalGatekeeper");
 
 class AbyssalGatekeeper extends AbyssalGatekeeperBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RoutBase = require("../setINV/Rout");
+const RoutBase = require("../setC17/Rout");
 
 class Rout extends RoutBase {
   constructor (game) {
-    super(game, "Rout", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Rout", "Conspiracy", "CNS");
   }
 }
 

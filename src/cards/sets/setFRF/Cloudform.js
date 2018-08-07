@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CloudformBase = require("../setC18/Cloudform");
 
-class Cloudform extends UnimplementedCard {
+class Cloudform extends CloudformBase {
   constructor (game) {
     super(game, "Cloudform", "Fate Reforged", "FRF");
   }

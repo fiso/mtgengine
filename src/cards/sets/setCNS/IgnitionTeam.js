@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class IgnitionTeam extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ignition Team", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Ignition Team", "Conspiracy", "CNS");
   }
 }
 

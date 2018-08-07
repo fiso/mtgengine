@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodrockCyclopsBase = require("../setBTD/BloodrockCyclops");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BloodrockCyclops extends BloodrockCyclopsBase {
+class BloodrockCyclops extends UnimplementedCard {
   constructor (game) {
     super(game, "Bloodrock Cyclops", "Tenth Edition", "10E");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TendrilsofAgonyBase = require("../setpFNM/TendrilsofAgony");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TendrilsofAgony extends TendrilsofAgonyBase {
+class TendrilsofAgony extends UnimplementedCard {
   constructor (game) {
     super(game, "Tendrils of Agony", "Vintage Masters", "VMA");
   }

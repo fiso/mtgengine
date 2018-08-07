@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MikaeustheLunarchBase = require("../setISD/MikaeustheLunarch");
 
-class MikaeustheLunarch extends UnimplementedCard {
+class MikaeustheLunarch extends MikaeustheLunarchBase {
   constructor (game) {
     super(game, "Mikaeus, the Lunarch", "From the Vault: Legends", "V11");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeylineofSanctityBase = require("../setM11/LeylineofSanctity");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LeylineofSanctity extends LeylineofSanctityBase {
+class LeylineofSanctity extends UnimplementedCard {
   constructor (game) {
-    super(game, "Leyline of Sanctity", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Leyline of Sanctity", "Modern Masters 2015", "MM2");
   }
 }
 

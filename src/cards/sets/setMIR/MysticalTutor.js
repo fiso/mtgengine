@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MysticalTutorBase = require("../set6ED/MysticalTutor");
+const MysticalTutorBase = require("../setSS1/MysticalTutor");
 
 class MysticalTutor extends MysticalTutorBase {
   constructor (game) {

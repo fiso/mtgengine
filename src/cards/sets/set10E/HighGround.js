@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HighGroundBase = require("../setEXO/HighGround");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HighGround extends HighGroundBase {
+class HighGround extends UnimplementedCard {
   constructor (game) {
     super(game, "High Ground", "Tenth Edition", "10E");
   }

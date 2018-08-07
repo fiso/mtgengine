@@ -4,7 +4,7 @@ const UnderworldDreamsBase = require("../setDPA/UnderworldDreams");
 
 class UnderworldDreams extends UnderworldDreamsBase {
   constructor (game) {
-    super(game, "Underworld Dreams", "Two-Headed Giant Tournament", "p2HG");
+    super(game, "Underworld Dreams", "Two-Headed Giant Tournament", "P2HG");
   }
 }
 

@@ -4,7 +4,7 @@ const PrairieStreamBase = require("../setBFZ/PrairieStream");
 
 class PrairieStream extends PrairieStreamBase {
   constructor (game) {
-    super(game, "Prairie Stream", "Zendikar Expedition", "EXP");
+    super(game, "Prairie Stream", "Zendikar Expeditions", "EXP");
   }
 }
 

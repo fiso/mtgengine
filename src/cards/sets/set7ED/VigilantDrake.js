@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VigilantDrakeBase = require("../setBTD/VigilantDrake");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VigilantDrake extends VigilantDrakeBase {
+class VigilantDrake extends UnimplementedCard {
   constructor (game) {
     super(game, "Vigilant Drake", "Seventh Edition", "7ED");
   }

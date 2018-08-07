@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HiddenHorrorBase = require("../set6ED/HiddenHorror");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HiddenHorror extends HiddenHorrorBase {
+class HiddenHorror extends UnimplementedCard {
   constructor (game) {
     super(game, "Hidden Horror", "Premium Deck Series: Graveborn", "PD3");
   }

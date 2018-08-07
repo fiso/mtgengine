@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NightscapeFamiliarBase = require("../setC13/NightscapeFamiliar");
+const NightscapeFamiliarBase = require("../setE01/NightscapeFamiliar");
 
 class NightscapeFamiliar extends NightscapeFamiliarBase {
   constructor (game) {

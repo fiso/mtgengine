@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunforgerBase = require("../setMM2/Sunforger");
+const SunforgerBase = require("../setC16/Sunforger");
 
 class Sunforger extends SunforgerBase {
   constructor (game) {

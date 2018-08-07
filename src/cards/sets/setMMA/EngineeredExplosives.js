@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EngineeredExplosivesBase = require("../set5DN/EngineeredExplosives");
+const EngineeredExplosivesBase = require("../setMPS/EngineeredExplosives");
 
 class EngineeredExplosives extends EngineeredExplosivesBase {
   constructor (game) {

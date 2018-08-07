@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TezzeretsGambitBase = require("../setMM2/TezzeretsGambit");
+const TezzeretsGambitBase = require("../setCM2/TezzeretsGambit");
 
 class TezzeretsGambit extends TezzeretsGambitBase {
   constructor (game) {

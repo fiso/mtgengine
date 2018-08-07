@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LoneMissionaryBase = require("../setDDN/LoneMissionary");
+const LoneMissionaryBase = require("../setMM3/LoneMissionary");
 
 class LoneMissionary extends LoneMissionaryBase {
   constructor (game) {

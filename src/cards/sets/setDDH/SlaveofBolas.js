@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlaveofBolasBase = require("../setARB/SlaveofBolas");
+const SlaveofBolasBase = require("../setE01/SlaveofBolas");
 
 class SlaveofBolas extends SlaveofBolasBase {
   constructor (game) {

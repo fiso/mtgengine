@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AvatarofFuryBase = require("../setCMD/AvatarofFury");
+const AvatarofFuryBase = require("../setE01/AvatarofFury");
 
 class AvatarofFury extends AvatarofFuryBase {
   constructor (game) {

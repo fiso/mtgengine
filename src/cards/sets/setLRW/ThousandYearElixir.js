@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThousandYearElixirBase = require("../setC13/ThousandYearElixir");
+const ThousandYearElixirBase = require("../setCMA/ThousandYearElixir");
 
 class ThousandYearElixir extends ThousandYearElixirBase {
   constructor (game) {

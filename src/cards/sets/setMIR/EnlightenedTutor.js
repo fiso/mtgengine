@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnlightenedTutorBase = require("../setpARL/EnlightenedTutor");
+const EnlightenedTutorBase = require("../setEMA/EnlightenedTutor");
 
 class EnlightenedTutor extends EnlightenedTutorBase {
   constructor (game) {

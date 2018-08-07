@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BurstLightningBase = require("../setpMPR/BurstLightning");
+const BurstLightningBase = require("../setMM2/BurstLightning");
 
 class BurstLightning extends BurstLightningBase {
   constructor (game) {

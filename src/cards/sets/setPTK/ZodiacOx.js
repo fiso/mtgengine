@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ZodiacOxBase = require("../setPRM/ZodiacOx");
 
-class ZodiacOx extends UnimplementedCard {
+class ZodiacOx extends ZodiacOxBase {
   constructor (game) {
     super(game, "Zodiac Ox", "Portal Three Kingdoms", "PTK");
   }

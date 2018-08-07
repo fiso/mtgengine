@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IchoridBase = require("../setTOR/Ichorid");
+const IchoridBase = require("../setEMA/Ichorid");
 
 class Ichorid extends IchoridBase {
   constructor (game) {

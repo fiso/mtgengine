@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EarthbindBase = require("../setSUM/Earthbind");
 
-class Earthbind extends UnimplementedCard {
+class Earthbind extends EarthbindBase {
   constructor (game) {
-    super(game, "Earthbind", "Collector's Edition", "CED");
+    super(game, "Earthbind", "Collectors’ Edition", "CED");
   }
 }
 

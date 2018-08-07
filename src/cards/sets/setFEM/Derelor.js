@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DerelorBase = require("../set6ED/Derelor");
+const DerelorBase = require("../setMED/Derelor");
 
 class Derelor extends DerelorBase {
   constructor (game) {

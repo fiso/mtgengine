@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TurntimberBasiliskBase = require("../setDDP/TurntimberBasilisk");
+const TurntimberBasiliskBase = require("../setE01/TurntimberBasilisk");
 
 class TurntimberBasilisk extends TurntimberBasiliskBase {
   constructor (game) {

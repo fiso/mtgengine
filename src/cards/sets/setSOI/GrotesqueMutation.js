@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GrotesqueMutationBase = require("../setBBD/GrotesqueMutation");
 
-class GrotesqueMutation extends UnimplementedCard {
+class GrotesqueMutation extends GrotesqueMutationBase {
   constructor (game) {
     super(game, "Grotesque Mutation", "Shadows over Innistrad", "SOI");
   }

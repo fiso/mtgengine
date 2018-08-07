@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnholyStrengthBase = require("../setATH/UnholyStrength");
+const UnholyStrengthBase = require("../setDVD/UnholyStrength");
 
 class UnholyStrength extends UnholyStrengthBase {
   constructor (game) {

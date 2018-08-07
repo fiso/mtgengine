@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SilentBladeOniBase = require("../setC18/SilentBladeOni");
 
-class SilentBladeOni extends UnimplementedCard {
+class SilentBladeOni extends SilentBladeOniBase {
   constructor (game) {
-    super(game, "Silent-Blade Oni", "Planechase 2012 Edition", "PC2");
+    super(game, "Silent-Blade Oni", "Planechase 2012", "PC2");
   }
 }
 

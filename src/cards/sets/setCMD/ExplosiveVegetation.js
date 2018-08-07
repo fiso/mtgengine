@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExplosiveVegetationBase = require("../setDTK/ExplosiveVegetation");
+const ExplosiveVegetationBase = require("../setC18/ExplosiveVegetation");
 
 class ExplosiveVegetation extends ExplosiveVegetationBase {
   constructor (game) {
-    super(game, "Explosive Vegetation", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Explosive Vegetation", "Commander 2011", "CMD");
   }
 }
 

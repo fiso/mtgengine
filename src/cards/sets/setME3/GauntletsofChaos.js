@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GauntletsofChaosBase = require("../setCHR/GauntletsofChaos");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GauntletsofChaos extends GauntletsofChaosBase {
+class GauntletsofChaos extends UnimplementedCard {
   constructor (game) {
     super(game, "Gauntlets of Chaos", "Masters Edition III", "ME3");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WoodedBastionBase = require("../setSHM/WoodedBastion");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WoodedBastion extends WoodedBastionBase {
+class WoodedBastion extends UnimplementedCard {
   constructor (game) {
-    super(game, "Wooded Bastion", "Zendikar Expedition", "EXP");
+    super(game, "Wooded Bastion", "Zendikar Expeditions", "EXP");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NecropotenceBase = require("../setDKM/Necropotence");
+const NecropotenceBase = require("../setIMA/Necropotence");
 
 class Necropotence extends NecropotenceBase {
   constructor (game) {

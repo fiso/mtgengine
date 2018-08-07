@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonstormBase = require("../setDRB/Dragonstorm");
+const DragonstormBase = require("../setMMA/Dragonstorm");
 
 class Dragonstorm extends DragonstormBase {
   constructor (game) {
-    super(game, "Dragonstorm", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Dragonstorm", "Time Spiral Timeshifted", "TSB");
   }
 }
 

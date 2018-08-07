@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KorHookmasterBase = require("../setMM3/KorHookmaster");
 
-class KorHookmaster extends UnimplementedCard {
+class KorHookmaster extends KorHookmasterBase {
   constructor (game) {
     super(game, "Kor Hookmaster", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

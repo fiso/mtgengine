@@ -4,7 +4,7 @@ const ObeliskofAlaraBase = require("../setCON/ObeliskofAlara");
 
 class ObeliskofAlara extends ObeliskofAlaraBase {
   constructor (game) {
-    super(game, "Obelisk of Alara", "Launch Parties", "pLPA");
+    super(game, "Obelisk of Alara", "Launch Parties", "PLPA");
   }
 }
 

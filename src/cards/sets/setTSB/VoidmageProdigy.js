@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoidmageProdigyBase = require("../setpMPR/VoidmageProdigy");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VoidmageProdigy extends VoidmageProdigyBase {
+class VoidmageProdigy extends UnimplementedCard {
   constructor (game) {
-    super(game, "Voidmage Prodigy", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Voidmage Prodigy", "Time Spiral Timeshifted", "TSB");
   }
 }
 

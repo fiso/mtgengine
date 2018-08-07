@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DismissBase = require("../setpARL/Dismiss");
+const DismissBase = require("../setCN2/Dismiss");
 
 class Dismiss extends DismissBase {
   constructor (game) {

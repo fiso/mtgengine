@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class ApostlesBlessing extends UnimplementedCard {
   constructor (game) {
-    super(game, "Apostle's Blessing", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Apostle's Blessing", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HonorofthePureBase = require("../setM10/HonorofthePure");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HonorofthePure extends HonorofthePureBase {
+class HonorofthePure extends UnimplementedCard {
   constructor (game) {
     super(game, "Honor of the Pure", "Modern Event Deck 2014", "MD1");
   }

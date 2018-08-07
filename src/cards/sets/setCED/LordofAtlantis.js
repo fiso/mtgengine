@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LordofAtlantisBase = require("../set6ED/LordofAtlantis");
+const LordofAtlantisBase = require("../setTSB/LordofAtlantis");
 
 class LordofAtlantis extends LordofAtlantisBase {
   constructor (game) {
-    super(game, "Lord of Atlantis", "Collector's Edition", "CED");
+    super(game, "Lord of Atlantis", "Collectors’ Edition", "CED");
   }
 }
 

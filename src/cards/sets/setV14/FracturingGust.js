@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class FracturingGust extends UnimplementedCard {
   constructor (game) {
-    super(game, "Fracturing Gust", "From the Vault: Annihilation (2014)", "V14");
+    super(game, "Fracturing Gust", "From the Vault: Annihilation", "V14");
   }
 }
 

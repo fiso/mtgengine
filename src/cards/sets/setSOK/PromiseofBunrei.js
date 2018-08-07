@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PromiseofBunreiBase = require("../setA25/PromiseofBunrei");
 
-class PromiseofBunrei extends UnimplementedCard {
+class PromiseofBunrei extends PromiseofBunreiBase {
   constructor (game) {
     super(game, "Promise of Bunrei", "Saviors of Kamigawa", "SOK");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GriffinGuideBase = require("../setDDH/GriffinGuide");
+const GriffinGuideBase = require("../setDDL/GriffinGuide");
 
 class GriffinGuide extends GriffinGuideBase {
   constructor (game) {

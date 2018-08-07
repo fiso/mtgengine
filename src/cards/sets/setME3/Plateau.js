@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlateauBase = require("../setCED/Plateau");
+const PlateauBase = require("../setVMA/Plateau");
 
 class Plateau extends PlateauBase {
   constructor (game) {

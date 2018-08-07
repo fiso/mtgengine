@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BrittleEffigyBase = require("../setDDT/BrittleEffigy");
 
-class BrittleEffigy extends UnimplementedCard {
+class BrittleEffigy extends BrittleEffigyBase {
   constructor (game) {
     super(game, "Brittle Effigy", "Magic 2011", "M11");
   }

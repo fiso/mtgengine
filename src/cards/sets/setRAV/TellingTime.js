@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TellingTimeBase = require("../setMM2/TellingTime");
+const TellingTimeBase = require("../setC18/TellingTime");
 
 class TellingTime extends TellingTimeBase {
   constructor (game) {

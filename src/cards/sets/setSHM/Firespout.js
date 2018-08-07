@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FirespoutBase = require("../setV14/Firespout");
+const FirespoutBase = require("../setPZ1/Firespout");
 
 class Firespout extends FirespoutBase {
   constructor (game) {

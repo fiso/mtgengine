@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TabletofEpityrBase = require("../setATQ/TabletofEpityr");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TabletofEpityr extends TabletofEpityrBase {
+class TabletofEpityr extends UnimplementedCard {
   constructor (game) {
     super(game, "Tablet of Epityr", "Masters Edition IV", "ME4");
   }

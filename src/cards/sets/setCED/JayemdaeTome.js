@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JayemdaeTomeBase = require("../set6ED/JayemdaeTome");
+const JayemdaeTomeBase = require("../setORI/JayemdaeTome");
 
 class JayemdaeTome extends JayemdaeTomeBase {
   constructor (game) {
-    super(game, "Jayemdae Tome", "Collector's Edition", "CED");
+    super(game, "Jayemdae Tome", "Collectors’ Edition", "CED");
   }
 }
 

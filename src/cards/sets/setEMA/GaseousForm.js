@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GaseousFormBase = require("../setBTD/GaseousForm");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GaseousForm extends GaseousFormBase {
+class GaseousForm extends UnimplementedCard {
   constructor (game) {
     super(game, "Gaseous Form", "Eternal Masters", "EMA");
   }

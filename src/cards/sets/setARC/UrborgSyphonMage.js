@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UrborgSyphonMageBase = require("../setGVL/UrborgSyphonMage");
 
-class UrborgSyphonMage extends UnimplementedCard {
+class UrborgSyphonMage extends UrborgSyphonMageBase {
   constructor (game) {
     super(game, "Urborg Syphon-Mage", "Archenemy", "ARC");
   }

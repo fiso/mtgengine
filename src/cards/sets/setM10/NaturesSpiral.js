@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NaturesSpiralBase = require("../setDPA/NaturesSpiral");
+const NaturesSpiralBase = require("../setDOM/NaturesSpiral");
 
 class NaturesSpiral extends NaturesSpiralBase {
   constructor (game) {

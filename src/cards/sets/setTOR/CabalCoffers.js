@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CabalCoffersBase = require("../setpFNM/CabalCoffers");
+const CabalCoffersBase = require("../setHOP/CabalCoffers");
 
 class CabalCoffers extends CabalCoffersBase {
   constructor (game) {

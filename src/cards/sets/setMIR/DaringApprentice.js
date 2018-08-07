@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DaringApprenticeBase = require("../set6ED/DaringApprentice");
+const DaringApprenticeBase = require("../set9ED/DaringApprentice");
 
 class DaringApprentice extends DaringApprenticeBase {
   constructor (game) {

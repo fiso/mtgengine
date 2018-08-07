@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class EmrakultheAeonsTorn extends UnimplementedCard {
   constructor (game) {
-    super(game, "Emrakul, the Aeons Torn", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Emrakul, the Aeons Torn", "Modern Masters 2015", "MM2");
   }
 }
 

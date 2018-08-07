@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MightyLeapBase = require("../setM19/MightyLeap");
 
-class MightyLeap extends UnimplementedCard {
+class MightyLeap extends MightyLeapBase {
   constructor (game) {
     super(game, "Mighty Leap", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TempleBellBase = require("../setC13/TempleBell");
+const TempleBellBase = require("../setC16/TempleBell");
 
 class TempleBell extends TempleBellBase {
   constructor (game) {

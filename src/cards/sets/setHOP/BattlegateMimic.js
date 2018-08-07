@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BattlegateMimicBase = require("../setEVE/BattlegateMimic");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BattlegateMimic extends BattlegateMimicBase {
+class BattlegateMimic extends UnimplementedCard {
   constructor (game) {
     super(game, "Battlegate Mimic", "Planechase", "HOP");
   }

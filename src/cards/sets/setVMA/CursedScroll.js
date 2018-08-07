@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CursedScrollBase = require("../setTMP/CursedScroll");
+const CursedScrollBase = require("../setTPR/CursedScroll");
 
 class CursedScroll extends CursedScrollBase {
   constructor (game) {

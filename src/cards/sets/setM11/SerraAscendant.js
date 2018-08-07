@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SerraAscendantBase = require("../setIMA/SerraAscendant");
 
-class SerraAscendant extends UnimplementedCard {
+class SerraAscendant extends SerraAscendantBase {
   constructor (game) {
     super(game, "Serra Ascendant", "Magic 2011", "M11");
   }

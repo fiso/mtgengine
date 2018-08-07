@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BarbedSextantBase = require("../setCST/BarbedSextant");
+const BarbedSextantBase = require("../setME2/BarbedSextant");
 
 class BarbedSextant extends BarbedSextantBase {
   constructor (game) {

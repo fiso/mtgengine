@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxJetBase = require("../setCED/MoxJet");
+const MoxJetBase = require("../setVMA/MoxJet");
 
 class MoxJet extends MoxJetBase {
   constructor (game) {

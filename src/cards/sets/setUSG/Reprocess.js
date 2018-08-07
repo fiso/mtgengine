@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReprocessBase = require("../set7ED/Reprocess");
+const ReprocessBase = require("../setTD2/Reprocess");
 
 class Reprocess extends ReprocessBase {
   constructor (game) {

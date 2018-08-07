@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TalarasBattalionBase = require("../setDDU/TalarasBattalion");
 
-class TalarasBattalion extends UnimplementedCard {
+class TalarasBattalion extends TalarasBattalionBase {
   constructor (game) {
     super(game, "Talara's Battalion", "Duels of the Planeswalkers", "DPA");
   }

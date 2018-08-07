@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunderingTitanBase = require("../setARC/SunderingTitan");
+const SunderingTitanBase = require("../setA25/SunderingTitan");
 
 class SunderingTitan extends SunderingTitanBase {
   constructor (game) {

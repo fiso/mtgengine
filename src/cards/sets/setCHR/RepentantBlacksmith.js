@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RepentantBlacksmithBase = require("../setARN/RepentantBlacksmith");
+const RepentantBlacksmithBase = require("../set5ED/RepentantBlacksmith");
 
 class RepentantBlacksmith extends RepentantBlacksmithBase {
   constructor (game) {

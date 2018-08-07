@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlueElementalBlastBase = require("../setCED/BlueElementalBlast");
+const BlueElementalBlastBase = require("../setSS1/BlueElementalBlast");
 
 class BlueElementalBlast extends BlueElementalBlastBase {
   constructor (game) {
-    super(game, "Blue Elemental Blast", "Media Inserts", "pMEI");
+    super(game, "Blue Elemental Blast", "Magazine Inserts", "PMEI");
   }
 }
 

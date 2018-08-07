@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChainersEdictBase = require("../setpFNM/ChainersEdict");
+const ChainersEdictBase = require("../setVMA/ChainersEdict");
 
 class ChainersEdict extends ChainersEdictBase {
   constructor (game) {

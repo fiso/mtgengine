@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LilianatheLastHopeBase = require("../setPS16/LilianatheLastHope");
 
-class LilianatheLastHope extends UnimplementedCard {
+class LilianatheLastHope extends LilianatheLastHopeBase {
   constructor (game) {
     super(game, "Liliana, the Last Hope", "Eldritch Moon", "EMN");
   }

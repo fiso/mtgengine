@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KnotvinePaladinBase = require("../setDDG/KnotvinePaladin");
 
-class KnotvinePaladin extends UnimplementedCard {
+class KnotvinePaladin extends KnotvinePaladinBase {
   constructor (game) {
     super(game, "Knotvine Paladin", "Alara Reborn", "ARB");
   }

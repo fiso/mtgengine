@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CopyEnchantmentBase = require("../setTD0/CopyEnchantment");
 
-class CopyEnchantment extends UnimplementedCard {
+class CopyEnchantment extends CopyEnchantmentBase {
   constructor (game) {
     super(game, "Copy Enchantment", "Ravnica: City of Guilds", "RAV");
   }

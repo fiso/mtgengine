@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaConfluenceBase = require("../setJOU/ManaConfluence");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ManaConfluence extends ManaConfluenceBase {
+class ManaConfluence extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mana Confluence", "Zendikar Expedition", "EXP");
+    super(game, "Mana Confluence", "Zendikar Expeditions", "EXP");
   }
 }
 

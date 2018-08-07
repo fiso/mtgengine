@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HydraBroodmasterBase = require("../setCPK/HydraBroodmaster");
+const HydraBroodmasterBase = require("../setCP1/HydraBroodmaster");
 
 class HydraBroodmaster extends HydraBroodmasterBase {
   constructor (game) {

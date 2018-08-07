@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GideonJuraBase = require("../setM12/GideonJura");
+const GideonJuraBase = require("../setE01/GideonJura");
 
 class GideonJura extends GideonJuraBase {
   constructor (game) {

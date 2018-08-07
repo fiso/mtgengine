@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KathariRemnantBase = require("../setARB/KathariRemnant");
+const KathariRemnantBase = require("../setPCA/KathariRemnant");
 
 class KathariRemnant extends KathariRemnantBase {
   constructor (game) {
-    super(game, "Kathari Remnant", "Planechase 2012 Edition", "PC2");
+    super(game, "Kathari Remnant", "Planechase 2012", "PC2");
   }
 }
 

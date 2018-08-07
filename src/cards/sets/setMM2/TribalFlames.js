@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TribalFlamesBase = require("../setDDE/TribalFlames");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TribalFlames extends TribalFlamesBase {
+class TribalFlames extends UnimplementedCard {
   constructor (game) {
-    super(game, "Tribal Flames", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Tribal Flames", "Modern Masters 2015", "MM2");
   }
 }
 

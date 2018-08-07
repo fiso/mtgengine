@@ -4,7 +4,7 @@ const OgreBattledriverBase = require("../setDDN/OgreBattledriver");
 
 class OgreBattledriver extends OgreBattledriverBase {
   constructor (game) {
-    super(game, "Ogre Battledriver", "Magic 2014 Core Set", "M14");
+    super(game, "Ogre Battledriver", "Magic 2014", "M14");
   }
 }
 

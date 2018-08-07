@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnnihilateBase = require("../setC13/Annihilate");
+const AnnihilateBase = require("../setEMA/Annihilate");
 
 class Annihilate extends AnnihilateBase {
   constructor (game) {

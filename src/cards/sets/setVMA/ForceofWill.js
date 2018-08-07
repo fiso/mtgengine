@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForceofWillBase = require("../setALL/ForceofWill");
+const ForceofWillBase = require("../setMP2/ForceofWill");
 
 class ForceofWill extends ForceofWillBase {
   constructor (game) {

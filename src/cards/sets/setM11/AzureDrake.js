@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzureDrakeBase = require("../setBRB/AzureDrake");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AzureDrake extends AzureDrakeBase {
+class AzureDrake extends UnimplementedCard {
   constructor (game) {
     super(game, "Azure Drake", "Magic 2011", "M11");
   }

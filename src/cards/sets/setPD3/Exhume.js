@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExhumeBase = require("../setBRB/Exhume");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Exhume extends ExhumeBase {
+class Exhume extends UnimplementedCard {
   constructor (game) {
     super(game, "Exhume", "Premium Deck Series: Graveborn", "PD3");
   }

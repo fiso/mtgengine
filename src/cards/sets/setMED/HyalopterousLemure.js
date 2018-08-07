@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HyalopterousLemureBase = require("../setICE/HyalopterousLemure");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HyalopterousLemure extends HyalopterousLemureBase {
+class HyalopterousLemure extends UnimplementedCard {
   constructor (game) {
     super(game, "Hyalopterous Lemure", "Masters Edition", "MED");
   }

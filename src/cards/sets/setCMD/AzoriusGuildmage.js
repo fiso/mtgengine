@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzoriusGuildmageBase = require("../setDIS/AzoriusGuildmage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AzoriusGuildmage extends AzoriusGuildmageBase {
+class AzoriusGuildmage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Azorius Guildmage", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Azorius Guildmage", "Commander 2011", "CMD");
   }
 }
 

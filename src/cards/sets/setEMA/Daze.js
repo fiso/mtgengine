@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DazeBase = require("../setDD3_JVC/Daze");
+const DazeBase = require("../setMP2/Daze");
 
 class Daze extends DazeBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TorrentofStoneBase = require("../setMMA/TorrentofStone");
 
-class TorrentofStone extends UnimplementedCard {
+class TorrentofStone extends TorrentofStoneBase {
   constructor (game) {
     super(game, "Torrent of Stone", "Betrayers of Kamigawa", "BOK");
   }

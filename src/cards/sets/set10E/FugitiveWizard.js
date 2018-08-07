@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FugitiveWizardBase = require("../set8ED/FugitiveWizard");
+const FugitiveWizardBase = require("../setM15/FugitiveWizard");
 
 class FugitiveWizard extends FugitiveWizardBase {
   constructor (game) {

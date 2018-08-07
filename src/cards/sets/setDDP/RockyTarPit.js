@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RockyTarPitBase = require("../setC18/RockyTarPit");
 
-class RockyTarPit extends UnimplementedCard {
+class RockyTarPit extends RockyTarPitBase {
   constructor (game) {
     super(game, "Rocky Tar Pit", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

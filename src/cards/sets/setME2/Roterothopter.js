@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RoterothopterBase = require("../setHML/Roterothopter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Roterothopter extends RoterothopterBase {
+class Roterothopter extends UnimplementedCard {
   constructor (game) {
     super(game, "Roterothopter", "Masters Edition II", "ME2");
   }

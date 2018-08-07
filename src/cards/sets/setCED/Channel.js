@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ChannelBase = require("../setIMA/Channel");
 
-class Channel extends UnimplementedCard {
+class Channel extends ChannelBase {
   constructor (game) {
-    super(game, "Channel", "Collector's Edition", "CED");
+    super(game, "Channel", "Collectors’ Edition", "CED");
   }
 }
 

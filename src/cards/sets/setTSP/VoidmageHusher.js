@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoidmageHusherBase = require("../setpMEI/VoidmageHusher");
+const VoidmageHusherBase = require("../setPI13/VoidmageHusher");
 
 class VoidmageHusher extends VoidmageHusherBase {
   constructor (game) {

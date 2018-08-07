@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KorChantBase = require("../setEXO/KorChant");
+const KorChantBase = require("../setTPR/KorChant");
 
 class KorChant extends KorChantBase {
   constructor (game) {
-    super(game, "Kor Chant", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Kor Chant", "Conspiracy", "CNS");
   }
 }
 

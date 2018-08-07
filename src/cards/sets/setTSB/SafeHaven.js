@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SafeHavenBase = require("../setCHR/SafeHaven");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SafeHaven extends SafeHavenBase {
+class SafeHaven extends UnimplementedCard {
   constructor (game) {
-    super(game, "Safe Haven", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Safe Haven", "Time Spiral Timeshifted", "TSB");
   }
 }
 

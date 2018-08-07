@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MoxRubyBase = require("../setVMA/MoxRuby");
 
-class MoxRuby extends UnimplementedCard {
+class MoxRuby extends MoxRubyBase {
   constructor (game) {
-    super(game, "Mox Ruby", "Collector's Edition", "CED");
+    super(game, "Mox Ruby", "Collectors’ Edition", "CED");
   }
 }
 

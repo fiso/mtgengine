@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PhyrexianProcessorBase = require("../setV16/PhyrexianProcessor");
 
-class PhyrexianProcessor extends UnimplementedCard {
+class PhyrexianProcessor extends PhyrexianProcessorBase {
   constructor (game) {
     super(game, "Phyrexian Processor", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

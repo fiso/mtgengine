@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JaceUnravelerofSecretsBase = require("../setPS17/JaceUnravelerofSecrets");
 
-class JaceUnravelerofSecrets extends UnimplementedCard {
+class JaceUnravelerofSecrets extends JaceUnravelerofSecretsBase {
   constructor (game) {
     super(game, "Jace, Unraveler of Secrets", "Shadows over Innistrad", "SOI");
   }

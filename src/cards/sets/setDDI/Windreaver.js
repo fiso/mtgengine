@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WindreaverBase = require("../setDIS/Windreaver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Windreaver extends WindreaverBase {
+class Windreaver extends UnimplementedCard {
   constructor (game) {
     super(game, "Windreaver", "Duel Decks: Venser vs. Koth", "DDI");
   }

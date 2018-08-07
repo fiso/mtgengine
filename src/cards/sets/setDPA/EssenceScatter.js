@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EssenceScatterBase = require("../setM19/EssenceScatter");
 
-class EssenceScatter extends UnimplementedCard {
+class EssenceScatter extends EssenceScatterBase {
   constructor (game) {
     super(game, "Essence Scatter", "Duels of the Planeswalkers", "DPA");
   }

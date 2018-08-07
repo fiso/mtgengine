@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoblinKingBase = require("../setATH/GoblinKing");
+const GoblinKingBase = require("../set10E/GoblinKing");
 
 class GoblinKing extends GoblinKingBase {
   constructor (game) {
-    super(game, "Goblin King", "International Collector's Edition", "CEI");
+    super(game, "Goblin King", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

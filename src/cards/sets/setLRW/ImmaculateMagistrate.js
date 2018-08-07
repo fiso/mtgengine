@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ImmaculateMagistrateBase = require("../setC14/ImmaculateMagistrate");
+const ImmaculateMagistrateBase = require("../setCMA/ImmaculateMagistrate");
 
 class ImmaculateMagistrate extends ImmaculateMagistrateBase {
   constructor (game) {

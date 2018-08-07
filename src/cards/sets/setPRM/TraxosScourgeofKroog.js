@@ -1,0 +1,11 @@
+"use strict";
+const Constants = require ("../../../Constants");
+const TraxosScourgeofKroogBase = require("../setDOM/TraxosScourgeofKroog");
+
+class TraxosScourgeofKroog extends TraxosScourgeofKroogBase {
+  constructor (game) {
+    super(game, "Traxos, Scourge of Kroog", "Magic Online Promos", "PRM");
+  }
+}
+
+module.exports = TraxosScourgeofKroog;

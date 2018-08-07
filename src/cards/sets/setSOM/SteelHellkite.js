@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SteelHellkiteBase = require("../setC14/SteelHellkite");
+const SteelHellkiteBase = require("../setC18/SteelHellkite");
 
 class SteelHellkite extends SteelHellkiteBase {
   constructor (game) {

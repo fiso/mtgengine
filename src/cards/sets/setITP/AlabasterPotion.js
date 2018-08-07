@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AlabasterPotionBase = require("../set5ED/AlabasterPotion");
+const AlabasterPotionBase = require("../setME3/AlabasterPotion");
 
 class AlabasterPotion extends AlabasterPotionBase {
   constructor (game) {

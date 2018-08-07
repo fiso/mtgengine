@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManabondBase = require("../setEXO/Manabond");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Manabond extends ManabondBase {
+class Manabond extends UnimplementedCard {
   constructor (game) {
     super(game, "Manabond", "Tempest Remastered", "TPR");
   }

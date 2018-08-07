@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CosmicHorrorBase = require("../set4ED/CosmicHorror");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CosmicHorror extends CosmicHorrorBase {
+class CosmicHorror extends UnimplementedCard {
   constructor (game) {
     super(game, "Cosmic Horror", "Masters Edition III", "ME3");
   }

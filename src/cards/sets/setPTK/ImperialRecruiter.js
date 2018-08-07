@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ImperialRecruiterBase = require("../setpJGP/ImperialRecruiter");
+const ImperialRecruiterBase = require("../setA25/ImperialRecruiter");
 
 class ImperialRecruiter extends ImperialRecruiterBase {
   constructor (game) {

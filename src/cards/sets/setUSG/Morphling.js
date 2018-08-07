@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MorphlingBase = require("../setpJGP/Morphling");
+const MorphlingBase = require("../setVMA/Morphling");
 
 class Morphling extends MorphlingBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DefiantVanguardBase = require("../setNMS/DefiantVanguard");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DefiantVanguard extends DefiantVanguardBase {
+class DefiantVanguard extends UnimplementedCard {
   constructor (game) {
-    super(game, "Defiant Vanguard", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Defiant Vanguard", "Time Spiral Timeshifted", "TSB");
   }
 }
 

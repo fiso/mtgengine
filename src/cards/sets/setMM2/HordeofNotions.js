@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HordeofNotionsBase = require("../setLRW/HordeofNotions");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HordeofNotions extends HordeofNotionsBase {
+class HordeofNotions extends UnimplementedCard {
   constructor (game) {
-    super(game, "Horde of Notions", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Horde of Notions", "Modern Masters 2015", "MM2");
   }
 }
 

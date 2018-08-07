@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DjinnofInfiniteDeceitsBase = require("../setCMA/DjinnofInfiniteDeceits");
 
-class DjinnofInfiniteDeceits extends UnimplementedCard {
+class DjinnofInfiniteDeceits extends DjinnofInfiniteDeceitsBase {
   constructor (game) {
-    super(game, "Djinn of Infinite Deceits", "Commander 2013 Edition", "C13");
+    super(game, "Djinn of Infinite Deceits", "Commander 2013", "C13");
   }
 }
 

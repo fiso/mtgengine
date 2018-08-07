@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PowerSurgeBase = require("../setCED/PowerSurge");
+const PowerSurgeBase = require("../set4ED/PowerSurge");
 
 class PowerSurge extends PowerSurgeBase {
   constructor (game) {

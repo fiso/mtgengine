@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodstainedMireBase = require("../setpJGP/BloodstainedMire");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BloodstainedMire extends BloodstainedMireBase {
+class BloodstainedMire extends UnimplementedCard {
   constructor (game) {
-    super(game, "Bloodstained Mire", "Zendikar Expedition", "EXP");
+    super(game, "Bloodstained Mire", "Zendikar Expeditions", "EXP");
   }
 }
 

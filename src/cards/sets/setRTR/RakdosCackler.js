@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RakdosCacklerBase = require("../setpFNM/RakdosCackler");
+const RakdosCacklerBase = require("../setF13/RakdosCackler");
 
 class RakdosCackler extends RakdosCacklerBase {
   constructor (game) {

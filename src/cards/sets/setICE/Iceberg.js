@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcebergBase = require("../setCST/Iceberg");
+const IcebergBase = require("../setME2/Iceberg");
 
 class Iceberg extends IcebergBase {
   constructor (game) {

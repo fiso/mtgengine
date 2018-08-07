@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HighMarketBase = require("../setC15/HighMarket");
+const HighMarketBase = require("../setCMA/HighMarket");
 
 class HighMarket extends HighMarketBase {
   constructor (game) {

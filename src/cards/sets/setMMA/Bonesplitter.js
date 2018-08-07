@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BonesplitterBase = require("../setpARL/Bonesplitter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Bonesplitter extends BonesplitterBase {
+class Bonesplitter extends UnimplementedCard {
   constructor (game) {
     super(game, "Bonesplitter", "Modern Masters", "MMA");
   }

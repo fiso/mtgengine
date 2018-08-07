@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConsumeStrengthBase = require("../setAPC/ConsumeStrength");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ConsumeStrength extends ConsumeStrengthBase {
+class ConsumeStrength extends UnimplementedCard {
   constructor (game) {
     super(game, "Consume Strength", "Duel Decks: Jace vs. Vraska", "DDM");
   }

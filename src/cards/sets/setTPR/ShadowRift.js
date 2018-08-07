@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShadowRiftBase = require("../setTMP/ShadowRift");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShadowRift extends ShadowRiftBase {
+class ShadowRift extends UnimplementedCard {
   constructor (game) {
     super(game, "Shadow Rift", "Tempest Remastered", "TPR");
   }

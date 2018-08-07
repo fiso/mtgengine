@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WindDancerBase = require("../setCNS/WindDancer");
+const WindDancerBase = require("../setTPR/WindDancer");
 
 class WindDancer extends WindDancerBase {
   constructor (game) {

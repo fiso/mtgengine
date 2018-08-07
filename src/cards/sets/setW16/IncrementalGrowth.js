@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IncrementalGrowthBase = require("../setKTK/IncrementalGrowth");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class IncrementalGrowth extends IncrementalGrowthBase {
+class IncrementalGrowth extends UnimplementedCard {
   constructor (game) {
     super(game, "Incremental Growth", "Welcome Deck 2016", "W16");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlashFloodBase = require("../setCHR/FlashFlood");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FlashFlood extends FlashFloodBase {
+class FlashFlood extends UnimplementedCard {
   constructor (game) {
     super(game, "Flash Flood", "Masters Edition III", "ME3");
   }

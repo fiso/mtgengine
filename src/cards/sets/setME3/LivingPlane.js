@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LivingPlaneBase = require("../setLEG/LivingPlane");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LivingPlane extends LivingPlaneBase {
+class LivingPlane extends UnimplementedCard {
   constructor (game) {
     super(game, "Living Plane", "Masters Edition III", "ME3");
   }

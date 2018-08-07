@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SyphonSoulBase = require("../setBRB/SyphonSoul");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SyphonSoul extends SyphonSoulBase {
+class SyphonSoul extends UnimplementedCard {
   constructor (game) {
-    super(game, "Syphon Soul", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Syphon Soul", "Conspiracy", "CNS");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoonlitStriderBase = require("../setBOK/MoonlitStrider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoonlitStrider extends MoonlitStriderBase {
+class MoonlitStrider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Moonlit Strider", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Moonlit Strider", "Modern Masters 2015", "MM2");
   }
 }
 

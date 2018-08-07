@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BraingeyserBase = require("../setCED/Braingeyser");
+const BraingeyserBase = require("../setME4/Braingeyser");
 
 class Braingeyser extends BraingeyserBase {
   constructor (game) {
-    super(game, "Braingeyser", "International Collector's Edition", "CEI");
+    super(game, "Braingeyser", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

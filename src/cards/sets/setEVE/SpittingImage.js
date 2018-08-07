@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpittingImageBase = require("../setCM2/SpittingImage");
 
-class SpittingImage extends UnimplementedCard {
+class SpittingImage extends SpittingImageBase {
   constructor (game) {
     super(game, "Spitting Image", "Eventide", "EVE");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeVaultBase = require("../setCED/TimeVault");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TimeVault extends TimeVaultBase {
+class TimeVault extends UnimplementedCard {
   constructor (game) {
     super(game, "Time Vault", "Vintage Masters", "VMA");
   }

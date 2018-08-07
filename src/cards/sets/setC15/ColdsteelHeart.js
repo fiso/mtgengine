@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ColdsteelHeartBase = require("../setCSP/ColdsteelHeart");
+const ColdsteelHeartBase = require("../setCM2/ColdsteelHeart");
 
 class ColdsteelHeart extends ColdsteelHeartBase {
   constructor (game) {

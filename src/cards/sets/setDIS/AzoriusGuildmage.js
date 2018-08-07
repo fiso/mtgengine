@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AzoriusGuildmageBase = require("../setCMD/AzoriusGuildmage");
 
-class AzoriusGuildmage extends UnimplementedCard {
+class AzoriusGuildmage extends AzoriusGuildmageBase {
   constructor (game) {
     super(game, "Azorius Guildmage", "Dissension", "DIS");
   }

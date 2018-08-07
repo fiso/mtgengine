@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DualcasterMageBase = require("../setC14/DualcasterMage");
+const DualcasterMageBase = require("../setCM2/DualcasterMage");
 
 class DualcasterMage extends DualcasterMageBase {
   constructor (game) {

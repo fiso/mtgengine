@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CoalitionHonorGuardBase = require("../setEMA/CoalitionHonorGuard");
 
-class CoalitionHonorGuard extends UnimplementedCard {
+class CoalitionHonorGuard extends CoalitionHonorGuardBase {
   constructor (game) {
     super(game, "Coalition Honor Guard", "Apocalypse", "APC");
   }

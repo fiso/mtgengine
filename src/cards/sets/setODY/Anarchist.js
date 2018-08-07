@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnarchistBase = require("../setEXO/Anarchist");
+const AnarchistBase = require("../setTPR/Anarchist");
 
 class Anarchist extends AnarchistBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShockBase = require("../setBTD/Shock");
+const ShockBase = require("../setM19/Shock");
 
 class Shock extends ShockBase {
   constructor (game) {

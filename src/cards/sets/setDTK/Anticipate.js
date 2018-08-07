@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnticipateBase = require("../setBFZ/Anticipate");
+const AnticipateBase = require("../setM19/Anticipate");
 
 class Anticipate extends AnticipateBase {
   constructor (game) {

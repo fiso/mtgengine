@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvenCacheBase = require("../set6ED/ElvenCache");
+const ElvenCacheBase = require("../setTD0/ElvenCache");
 
 class ElvenCache extends ElvenCacheBase {
   constructor (game) {

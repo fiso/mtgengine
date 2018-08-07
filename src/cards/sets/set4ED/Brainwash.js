@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrainwashBase = require("../set5ED/Brainwash");
+const BrainwashBase = require("../setPZ2/Brainwash");
 
 class Brainwash extends BrainwashBase {
   constructor (game) {

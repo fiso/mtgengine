@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CanyonWildcatBase = require("../setTPR/CanyonWildcat");
 
-class CanyonWildcat extends UnimplementedCard {
+class CanyonWildcat extends CanyonWildcatBase {
   constructor (game) {
     super(game, "Canyon Wildcat", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

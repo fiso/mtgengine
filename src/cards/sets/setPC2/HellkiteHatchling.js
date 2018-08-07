@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HellkiteHatchlingBase = require("../setCON/HellkiteHatchling");
+const HellkiteHatchlingBase = require("../setPCA/HellkiteHatchling");
 
 class HellkiteHatchling extends HellkiteHatchlingBase {
   constructor (game) {
-    super(game, "Hellkite Hatchling", "Planechase 2012 Edition", "PC2");
+    super(game, "Hellkite Hatchling", "Planechase 2012", "PC2");
   }
 }
 

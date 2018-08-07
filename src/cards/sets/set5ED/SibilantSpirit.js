@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SibilantSpiritBase = require("../set6ED/SibilantSpirit");
+const SibilantSpiritBase = require("../setME2/SibilantSpirit");
 
 class SibilantSpirit extends SibilantSpiritBase {
   constructor (game) {

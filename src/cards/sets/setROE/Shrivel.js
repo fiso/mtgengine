@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShrivelBase = require("../setM14/Shrivel");
+const ShrivelBase = require("../setMM2/Shrivel");
 
 class Shrivel extends ShrivelBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SevertheBloodlineBase = require("../setC15/SevertheBloodline");
+const SevertheBloodlineBase = require("../setCMA/SevertheBloodline");
 
 class SevertheBloodline extends SevertheBloodlineBase {
   constructor (game) {

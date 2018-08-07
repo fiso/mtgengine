@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DoorofDestiniesBase = require("../setM14/DoorofDestinies");
+const DoorofDestiniesBase = require("../setC17/DoorofDestinies");
 
 class DoorofDestinies extends DoorofDestiniesBase {
   constructor (game) {
-    super(game, "Door of Destinies", "Prerelease Events", "pPRE");
+    super(game, "Door of Destinies", "Prerelease Events", "PPRE");
   }
 }
 

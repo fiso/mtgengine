@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NobleTemplarBase = require("../setDDO/NobleTemplar");
+const NobleTemplarBase = require("../setA25/NobleTemplar");
 
 class NobleTemplar extends NobleTemplarBase {
   constructor (game) {
-    super(game, "Noble Templar", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Noble Templar", "Conspiracy", "CNS");
   }
 }
 

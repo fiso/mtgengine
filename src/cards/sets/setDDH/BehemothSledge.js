@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BehemothSledgeBase = require("../setARB/BehemothSledge");
+const BehemothSledgeBase = require("../setC17/BehemothSledge");
 
 class BehemothSledge extends BehemothSledgeBase {
   constructor (game) {

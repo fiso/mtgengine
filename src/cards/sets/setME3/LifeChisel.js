@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LifeChiselBase = require("../setLEG/LifeChisel");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LifeChisel extends LifeChiselBase {
+class LifeChisel extends UnimplementedCard {
   constructor (game) {
     super(game, "Life Chisel", "Masters Edition III", "ME3");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TranquilThicketBase = require("../setARC/TranquilThicket");
+const TranquilThicketBase = require("../setC18/TranquilThicket");
 
 class TranquilThicket extends TranquilThicketBase {
   constructor (game) {

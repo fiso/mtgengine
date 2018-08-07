@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StormCauldronBase = require("../setALL/StormCauldron");
+const StormCauldronBase = require("../set7ED/StormCauldron");
 
 class StormCauldron extends StormCauldronBase {
   constructor (game) {

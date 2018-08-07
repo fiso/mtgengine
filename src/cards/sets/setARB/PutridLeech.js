@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PutridLeechBase = require("../setDDM/PutridLeech");
 
-class PutridLeech extends UnimplementedCard {
+class PutridLeech extends PutridLeechBase {
   constructor (game) {
     super(game, "Putrid Leech", "Alara Reborn", "ARB");
   }

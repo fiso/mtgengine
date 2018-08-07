@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SafePassageBase = require("../setDDI/SafePassage");
+const SafePassageBase = require("../setM13/SafePassage");
 
 class SafePassage extends SafePassageBase {
   constructor (game) {

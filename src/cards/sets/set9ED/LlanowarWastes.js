@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LlanowarWastesBase = require("../setAPC/LlanowarWastes");
+const LlanowarWastesBase = require("../setORI/LlanowarWastes");
 
 class LlanowarWastes extends LlanowarWastesBase {
   constructor (game) {

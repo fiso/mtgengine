@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UnmaskBase = require("../setV16/Unmask");
 
-class Unmask extends UnimplementedCard {
+class Unmask extends UnmaskBase {
   constructor (game) {
     super(game, "Unmask", "Mercadian Masques", "MMQ");
   }

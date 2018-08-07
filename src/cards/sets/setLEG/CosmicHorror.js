@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CosmicHorrorBase = require("../set4ED/CosmicHorror");
+const CosmicHorrorBase = require("../setME3/CosmicHorror");
 
 class CosmicHorror extends CosmicHorrorBase {
   constructor (game) {

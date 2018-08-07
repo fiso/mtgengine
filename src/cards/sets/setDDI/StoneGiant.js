@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StoneGiantBase = require("../setCED/StoneGiant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StoneGiant extends StoneGiantBase {
+class StoneGiant extends UnimplementedCard {
   constructor (game) {
     super(game, "Stone Giant", "Duel Decks: Venser vs. Koth", "DDI");
   }

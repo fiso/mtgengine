@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimitiveJusticeBase = require("../setALL/PrimitiveJustice");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PrimitiveJustice extends PrimitiveJusticeBase {
+class PrimitiveJustice extends UnimplementedCard {
   constructor (game) {
     super(game, "Primitive Justice", "Masters Edition IV", "ME4");
   }

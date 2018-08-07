@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TragicSlipBase = require("../setC14/TragicSlip");
+const TragicSlipBase = require("../setEMA/TragicSlip");
 
 class TragicSlip extends TragicSlipBase {
   constructor (game) {

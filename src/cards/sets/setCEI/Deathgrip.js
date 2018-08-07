@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathgripBase = require("../setCED/Deathgrip");
+const DeathgripBase = require("../setME4/Deathgrip");
 
 class Deathgrip extends DeathgripBase {
   constructor (game) {
-    super(game, "Deathgrip", "International Collector's Edition", "CEI");
+    super(game, "Deathgrip", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

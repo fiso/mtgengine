@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MountainYetiBase = require("../setCHR/MountainYeti");
+const MountainYetiBase = require("../setMED/MountainYeti");
 
 class MountainYeti extends MountainYetiBase {
   constructor (game) {

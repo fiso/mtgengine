@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfernoTrapBase = require("../setARC/InfernoTrap");
+const InfernoTrapBase = require("../setDDN/InfernoTrap");
 
 class InfernoTrap extends InfernoTrapBase {
   constructor (game) {

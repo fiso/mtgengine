@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CongregateBase = require("../setM14/Congregate");
+const CongregateBase = require("../setA25/Congregate");
 
 class Congregate extends CongregateBase {
   constructor (game) {
-    super(game, "Congregate", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Congregate", "Commander 2011", "CMD");
   }
 }
 

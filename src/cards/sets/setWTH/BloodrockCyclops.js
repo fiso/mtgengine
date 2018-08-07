@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodrockCyclopsBase = require("../setBTD/BloodrockCyclops");
+const BloodrockCyclopsBase = require("../set10E/BloodrockCyclops");
 
 class BloodrockCyclops extends BloodrockCyclopsBase {
   constructor (game) {

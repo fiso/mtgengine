@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SengirAutocratBase = require("../set6ED/SengirAutocrat");
+const SengirAutocratBase = require("../setEMA/SengirAutocrat");
 
 class SengirAutocrat extends SengirAutocratBase {
   constructor (game) {

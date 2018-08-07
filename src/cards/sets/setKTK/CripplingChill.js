@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CripplingChillBase = require("../setAVR/CripplingChill");
+const CripplingChillBase = require("../setMM3/CripplingChill");
 
 class CripplingChill extends CripplingChillBase {
   constructor (game) {

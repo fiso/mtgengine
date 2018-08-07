@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmiteBase = require("../setGTC/Smite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Smite extends SmiteBase {
+class Smite extends UnimplementedCard {
   constructor (game) {
     super(game, "Smite", "Tempest Remastered", "TPR");
   }

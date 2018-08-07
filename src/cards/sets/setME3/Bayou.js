@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BayouBase = require("../setCED/Bayou");
+const BayouBase = require("../setVMA/Bayou");
 
 class Bayou extends BayouBase {
   constructor (game) {

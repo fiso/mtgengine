@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AetherVialBase = require("../setIMA/AetherVial");
 
-class AetherVial extends UnimplementedCard {
+class AetherVial extends AetherVialBase {
   constructor (game) {
-    super(game, "Æther Vial", "Darksteel", "DST");
+    super(game, "Aether Vial", "Darksteel", "DST");
   }
 }
 

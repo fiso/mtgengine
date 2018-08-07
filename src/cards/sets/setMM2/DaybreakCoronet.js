@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DaybreakCoronetBase = require("../setFUT/DaybreakCoronet");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DaybreakCoronet extends DaybreakCoronetBase {
+class DaybreakCoronet extends UnimplementedCard {
   constructor (game) {
-    super(game, "Daybreak Coronet", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Daybreak Coronet", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnimateArtifactBase = require("../setCED/AnimateArtifact");
+const AnimateArtifactBase = require("../setME4/AnimateArtifact");
 
 class AnimateArtifact extends AnimateArtifactBase {
   constructor (game) {

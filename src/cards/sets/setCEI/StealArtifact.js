@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StealArtifactBase = require("../setCED/StealArtifact");
+const StealArtifactBase = require("../set8ED/StealArtifact");
 
 class StealArtifact extends StealArtifactBase {
   constructor (game) {
-    super(game, "Steal Artifact", "International Collector's Edition", "CEI");
+    super(game, "Steal Artifact", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

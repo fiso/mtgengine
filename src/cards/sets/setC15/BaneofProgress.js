@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BaneofProgressBase = require("../setC13/BaneofProgress");
+const BaneofProgressBase = require("../setCMA/BaneofProgress");
 
 class BaneofProgress extends BaneofProgressBase {
   constructor (game) {

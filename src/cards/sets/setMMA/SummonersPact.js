@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SummonersPactBase = require("../setFUT/SummonersPact");
+const SummonersPactBase = require("../setA25/SummonersPact");
 
 class SummonersPact extends SummonersPactBase {
   constructor (game) {

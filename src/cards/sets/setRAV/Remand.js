@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RemandBase = require("../setDDM/Remand");
+const RemandBase = require("../setMM2/Remand");
 
 class Remand extends RemandBase {
   constructor (game) {

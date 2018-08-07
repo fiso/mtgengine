@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VendilionCliqueBase = require("../setpJGP/VendilionClique");
+const VendilionCliqueBase = require("../setA25/VendilionClique");
 
 class VendilionClique extends VendilionCliqueBase {
   constructor (game) {

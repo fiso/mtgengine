@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SolGrailBase = require("../setALL/SolGrail");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SolGrail extends SolGrailBase {
+class SolGrail extends UnimplementedCard {
   constructor (game) {
     super(game, "Sol Grail", "Masters Edition III", "ME3");
   }

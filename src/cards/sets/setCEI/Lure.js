@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LureBase = require("../setCHK/Lure");
+const LureBase = require("../setIMA/Lure");
 
 class Lure extends LureBase {
   constructor (game) {
-    super(game, "Lure", "International Collector's Edition", "CEI");
+    super(game, "Lure", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

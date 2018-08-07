@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JourneytoNowhereBase = require("../setCMD/JourneytoNowhere");
 
-class JourneytoNowhere extends UnimplementedCard {
+class JourneytoNowhere extends JourneytoNowhereBase {
   constructor (game) {
     super(game, "Journey to Nowhere", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

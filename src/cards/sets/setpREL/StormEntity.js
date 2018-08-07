@@ -4,7 +4,7 @@ const StormEntityBase = require("../setFUT/StormEntity");
 
 class StormEntity extends StormEntityBase {
   constructor (game) {
-    super(game, "Storm Entity", "Release Events", "pREL");
+    super(game, "Storm Entity", "Release Events", "PREL");
   }
 }
 

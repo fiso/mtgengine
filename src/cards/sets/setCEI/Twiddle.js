@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TwiddleBase = require("../setCED/Twiddle");
+const TwiddleBase = require("../set8ED/Twiddle");
 
 class Twiddle extends TwiddleBase {
   constructor (game) {
-    super(game, "Twiddle", "International Collector's Edition", "CEI");
+    super(game, "Twiddle", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

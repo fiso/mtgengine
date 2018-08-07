@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TestofFaithBase = require("../setDST/TestofFaith");
+const TestofFaithBase = require("../setMMA/TestofFaith");
 
 class TestofFaith extends TestofFaithBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KazanduRefugeBase = require("../setARC/KazanduRefuge");
+const KazanduRefugeBase = require("../setC18/KazanduRefuge");
 
 class KazanduRefuge extends KazanduRefugeBase {
   constructor (game) {
-    super(game, "Kazandu Refuge", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Kazandu Refuge", "Commander 2011", "CMD");
   }
 }
 

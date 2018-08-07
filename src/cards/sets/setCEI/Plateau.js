@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlateauBase = require("../setCED/Plateau");
+const PlateauBase = require("../setVMA/Plateau");
 
 class Plateau extends PlateauBase {
   constructor (game) {
-    super(game, "Plateau", "International Collector's Edition", "CEI");
+    super(game, "Plateau", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

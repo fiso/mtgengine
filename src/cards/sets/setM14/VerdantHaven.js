@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VerdantHavenBase = require("../setGTC/VerdantHaven");
+const VerdantHavenBase = require("../setM15/VerdantHaven");
 
 class VerdantHaven extends VerdantHavenBase {
   constructor (game) {
-    super(game, "Verdant Haven", "Magic 2014 Core Set", "M14");
+    super(game, "Verdant Haven", "Magic 2014", "M14");
   }
 }
 

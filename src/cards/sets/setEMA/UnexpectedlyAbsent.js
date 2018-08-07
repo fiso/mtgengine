@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnexpectedlyAbsentBase = require("../setC13/UnexpectedlyAbsent");
+const UnexpectedlyAbsentBase = require("../setCMA/UnexpectedlyAbsent");
 
 class UnexpectedlyAbsent extends UnexpectedlyAbsentBase {
   constructor (game) {

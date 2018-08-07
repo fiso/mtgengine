@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeyDruidBase = require("../setCED/LeyDruid");
+const LeyDruidBase = require("../set9ED/LeyDruid");
 
 class LeyDruid extends LeyDruidBase {
   constructor (game) {

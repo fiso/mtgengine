@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WayfarersBaubleBase = require("../setC13/WayfarersBauble");
+const WayfarersBaubleBase = require("../setCM2/WayfarersBauble");
 
 class WayfarersBauble extends WayfarersBaubleBase {
   constructor (game) {

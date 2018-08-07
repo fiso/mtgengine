@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SylvanLibraryBase = require("../setCM1/SylvanLibrary");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SylvanLibrary extends SylvanLibraryBase {
+class SylvanLibrary extends UnimplementedCard {
   constructor (game) {
     super(game, "Sylvan Library", "Eternal Masters", "EMA");
   }

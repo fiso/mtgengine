@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodfireColossusBase = require("../setAPC/BloodfireColossus");
+const BloodfireColossusBase = require("../setDDI/BloodfireColossus");
 
 class BloodfireColossus extends BloodfireColossusBase {
   constructor (game) {

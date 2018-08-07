@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpawningPitBase = require("../setTD2/SpawningPit");
 
-class SpawningPit extends UnimplementedCard {
+class SpawningPit extends SpawningPitBase {
   constructor (game) {
     super(game, "Spawning Pit", "Darksteel", "DST");
   }

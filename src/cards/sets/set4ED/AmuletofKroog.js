@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AmuletofKroogBase = require("../setATQ/AmuletofKroog");
+const AmuletofKroogBase = require("../setME4/AmuletofKroog");
 
 class AmuletofKroog extends AmuletofKroogBase {
   constructor (game) {

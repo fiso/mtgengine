@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PollenbrightWingsBase = require("../setPC2/PollenbrightWings");
+const PollenbrightWingsBase = require("../setPCA/PollenbrightWings");
 
 class PollenbrightWings extends PollenbrightWingsBase {
   constructor (game) {

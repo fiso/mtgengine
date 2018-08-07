@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MirrodinsCoreBase = require("../setDST/MirrodinsCore");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MirrodinsCore extends MirrodinsCoreBase {
+class MirrodinsCore extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mirrodin's Core", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Mirrodin's Core", "Conspiracy", "CNS");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LifelinkBase = require("../setM10/Lifelink");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Lifelink extends LifelinkBase {
+class Lifelink extends UnimplementedCard {
   constructor (game) {
     super(game, "Lifelink", "Magic 2012", "M12");
   }

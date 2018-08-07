@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BeckonApparitionBase = require("../setGTC/BeckonApparition");
 
-class BeckonApparition extends UnimplementedCard {
+class BeckonApparition extends BeckonApparitionBase {
   constructor (game) {
     super(game, "Beckon Apparition", "Eventide", "EVE");
   }

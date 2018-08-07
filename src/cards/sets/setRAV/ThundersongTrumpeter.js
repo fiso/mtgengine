@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThundersongTrumpeterBase = require("../setMM3/ThundersongTrumpeter");
 
-class ThundersongTrumpeter extends UnimplementedCard {
+class ThundersongTrumpeter extends ThundersongTrumpeterBase {
   constructor (game) {
     super(game, "Thundersong Trumpeter", "Ravnica: City of Guilds", "RAV");
   }

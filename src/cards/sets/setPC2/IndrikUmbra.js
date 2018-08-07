@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IndrikUmbraBase = require("../setPCA/IndrikUmbra");
 
-class IndrikUmbra extends UnimplementedCard {
+class IndrikUmbra extends IndrikUmbraBase {
   constructor (game) {
-    super(game, "Indrik Umbra", "Planechase 2012 Edition", "PC2");
+    super(game, "Indrik Umbra", "Planechase 2012", "PC2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RaisetheAlarmBase = require("../setDDO/RaisetheAlarm");
+const RaisetheAlarmBase = require("../setCN2/RaisetheAlarm");
 
 class RaisetheAlarm extends RaisetheAlarmBase {
   constructor (game) {

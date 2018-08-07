@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VentSentinelBase = require("../setIMA/VentSentinel");
 
-class VentSentinel extends UnimplementedCard {
+class VentSentinel extends VentSentinelBase {
   constructor (game) {
-    super(game, "Vent Sentinel", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Vent Sentinel", "Conspiracy", "CNS");
   }
 }
 

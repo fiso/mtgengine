@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FluxBase = require("../setWTH/Flux");
 
-class Flux extends UnimplementedCard {
+class Flux extends FluxBase {
   constructor (game) {
     super(game, "Flux", "Portal", "POR");
   }

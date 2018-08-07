@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SigiloftheEmptyThroneBase = require("../setC15/SigiloftheEmptyThrone");
+const SigiloftheEmptyThroneBase = require("../setC18/SigiloftheEmptyThrone");
 
 class SigiloftheEmptyThrone extends SigiloftheEmptyThroneBase {
   constructor (game) {
-    super(game, "Sigil of the Empty Throne", "Planechase 2012 Edition", "PC2");
+    super(game, "Sigil of the Empty Throne", "Planechase 2012", "PC2");
   }
 }
 

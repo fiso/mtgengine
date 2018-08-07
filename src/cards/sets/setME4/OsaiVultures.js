@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OsaiVulturesBase = require("../set4ED/OsaiVultures");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OsaiVultures extends OsaiVulturesBase {
+class OsaiVultures extends UnimplementedCard {
   constructor (game) {
     super(game, "Osai Vultures", "Masters Edition IV", "ME4");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThousandYearElixirBase = require("../setCMA/ThousandYearElixir");
 
-class ThousandYearElixir extends UnimplementedCard {
+class ThousandYearElixir extends ThousandYearElixirBase {
   constructor (game) {
-    super(game, "Thousand-Year Elixir", "Commander 2013 Edition", "C13");
+    super(game, "Thousand-Year Elixir", "Commander 2013", "C13");
   }
 }
 

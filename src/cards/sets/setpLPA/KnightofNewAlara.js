@@ -4,7 +4,7 @@ const KnightofNewAlaraBase = require("../setARB/KnightofNewAlara");
 
 class KnightofNewAlara extends KnightofNewAlaraBase {
   constructor (game) {
-    super(game, "Knight of New Alara", "Launch Parties", "pLPA");
+    super(game, "Knight of New Alara", "Launch Parties", "PLPA");
   }
 }
 

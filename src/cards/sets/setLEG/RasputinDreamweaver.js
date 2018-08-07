@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RasputinDreamweaverBase = require("../setME3/RasputinDreamweaver");
 
-class RasputinDreamweaver extends UnimplementedCard {
+class RasputinDreamweaver extends RasputinDreamweaverBase {
   constructor (game) {
     super(game, "Rasputin Dreamweaver", "Legends", "LEG");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PegasusChargerBase = require("../setATH/PegasusCharger");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PegasusCharger extends PegasusChargerBase {
+class PegasusCharger extends UnimplementedCard {
   constructor (game) {
     super(game, "Pegasus Charger", "Ninth Edition", "9ED");
   }

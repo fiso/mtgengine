@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpellshockBase = require("../setEXO/Spellshock");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Spellshock extends SpellshockBase {
+class Spellshock extends UnimplementedCard {
   constructor (game) {
     super(game, "Spellshock", "Tempest Remastered", "TPR");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SabretoothTigerBase = require("../set6ED/SabretoothTiger");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SabretoothTiger extends SabretoothTigerBase {
+class SabretoothTiger extends UnimplementedCard {
   constructor (game) {
     super(game, "Sabretooth Tiger", "Eighth Edition", "8ED");
   }

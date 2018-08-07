@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxEmeraldBase = require("../setCED/MoxEmerald");
+const MoxEmeraldBase = require("../setVMA/MoxEmerald");
 
 class MoxEmerald extends MoxEmeraldBase {
   constructor (game) {
-    super(game, "Mox Emerald", "International Collector's Edition", "CEI");
+    super(game, "Mox Emerald", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SliceinTwainBase = require("../setC13/SliceinTwain");
+const SliceinTwainBase = require("../setXLN/SliceinTwain");
 
 class SliceinTwain extends SliceinTwainBase {
   constructor (game) {

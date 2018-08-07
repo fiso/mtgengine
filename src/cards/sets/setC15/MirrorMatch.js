@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MirrorMatchBase = require("../setPZ1/MirrorMatch");
 
-class MirrorMatch extends UnimplementedCard {
+class MirrorMatch extends MirrorMatchBase {
   constructor (game) {
     super(game, "Mirror Match", "Commander 2015", "C15");
   }

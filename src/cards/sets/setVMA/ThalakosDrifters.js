@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThalakosDriftersBase = require("../setEXO/ThalakosDrifters");
+const ThalakosDriftersBase = require("../setTPR/ThalakosDrifters");
 
 class ThalakosDrifters extends ThalakosDriftersBase {
   constructor (game) {

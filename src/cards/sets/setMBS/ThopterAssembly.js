@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThopterAssemblyBase = require("../setpLPA/ThopterAssembly");
+const ThopterAssemblyBase = require("../setC18/ThopterAssembly");
 
 class ThopterAssembly extends ThopterAssemblyBase {
   constructor (game) {

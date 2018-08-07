@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CruelEdictBase = require("../setDD3_DVD/CruelEdict");
+const CruelEdictBase = require("../setDVD/CruelEdict");
 
 class CruelEdict extends CruelEdictBase {
   constructor (game) {

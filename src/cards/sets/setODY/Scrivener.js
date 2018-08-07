@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrivenerBase = require("../setEXO/Scrivener");
+const ScrivenerBase = require("../setTPR/Scrivener");
 
 class Scrivener extends ScrivenerBase {
   constructor (game) {

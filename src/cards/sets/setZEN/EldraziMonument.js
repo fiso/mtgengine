@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EldraziMonumentBase = require("../setC15/EldraziMonument");
+const EldraziMonumentBase = require("../setCMA/EldraziMonument");
 
 class EldraziMonument extends EldraziMonumentBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeaGateOracleBase = require("../setC14/SeaGateOracle");
+const SeaGateOracleBase = require("../setC17/SeaGateOracle");
 
 class SeaGateOracle extends SeaGateOracleBase {
   constructor (game) {

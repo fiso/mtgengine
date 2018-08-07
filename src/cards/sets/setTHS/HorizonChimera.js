@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HorizonChimeraBase = require("../setC16/HorizonChimera");
 
-class HorizonChimera extends UnimplementedCard {
+class HorizonChimera extends HorizonChimeraBase {
   constructor (game) {
     super(game, "Horizon Chimera", "Theros", "THS");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FeastofBloodBase = require("../setpMEI/FeastofBlood");
+const FeastofBloodBase = require("../setPIDW/FeastofBlood");
 
 class FeastofBlood extends FeastofBloodBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DiminishingReturnsBase = require("../setALL/DiminishingReturns");
+const DiminishingReturnsBase = require("../setEMA/DiminishingReturns");
 
 class DiminishingReturns extends DiminishingReturnsBase {
   constructor (game) {

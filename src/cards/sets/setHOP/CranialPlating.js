@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CranialPlatingBase = require("../set5DN/CranialPlating");
+const CranialPlatingBase = require("../setC16/CranialPlating");
 
 class CranialPlating extends CranialPlatingBase {
   constructor (game) {

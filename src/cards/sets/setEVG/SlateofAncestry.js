@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlateofAncestryBase = require("../setDD3_EVG/SlateofAncestry");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SlateofAncestry extends SlateofAncestryBase {
+class SlateofAncestry extends UnimplementedCard {
   constructor (game) {
-    super(game, "Slate of Ancestry", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Slate of Ancestry", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

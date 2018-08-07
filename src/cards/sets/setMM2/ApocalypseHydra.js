@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ApocalypseHydraBase = require("../setCON/ApocalypseHydra");
+const ApocalypseHydraBase = require("../setBBD/ApocalypseHydra");
 
 class ApocalypseHydra extends ApocalypseHydraBase {
   constructor (game) {
-    super(game, "Apocalypse Hydra", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Apocalypse Hydra", "Modern Masters 2015", "MM2");
   }
 }
 

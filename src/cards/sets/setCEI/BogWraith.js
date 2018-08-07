@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BogWraithBase = require("../set6ED/BogWraith");
+const BogWraithBase = require("../setM10/BogWraith");
 
 class BogWraith extends BogWraithBase {
   constructor (game) {
-    super(game, "Bog Wraith", "International Collector's Edition", "CEI");
+    super(game, "Bog Wraith", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

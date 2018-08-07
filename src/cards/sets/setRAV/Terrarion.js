@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TerrarionBase = require("../setEMN/Terrarion");
 
-class Terrarion extends UnimplementedCard {
+class Terrarion extends TerrarionBase {
   constructor (game) {
     super(game, "Terrarion", "Ravnica: City of Guilds", "RAV");
   }

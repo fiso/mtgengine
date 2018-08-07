@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DrainPowerBase = require("../setCED/DrainPower");
+const DrainPowerBase = require("../setME4/DrainPower");
 
 class DrainPower extends DrainPowerBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScuteMobBase = require("../setDDP/ScuteMob");
+const ScuteMobBase = require("../setC18/ScuteMob");
 
 class ScuteMob extends ScuteMobBase {
   constructor (game) {

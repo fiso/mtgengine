@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LandTaxBase = require("../setBRB/LandTax");
+const LandTaxBase = require("../setBBD/LandTax");
 
 class LandTax extends LandTaxBase {
   constructor (game) {

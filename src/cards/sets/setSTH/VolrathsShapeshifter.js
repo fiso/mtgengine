@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VolrathsShapeshifterBase = require("../setVMA/VolrathsShapeshifter");
 
-class VolrathsShapeshifter extends UnimplementedCard {
+class VolrathsShapeshifter extends VolrathsShapeshifterBase {
   constructor (game) {
     super(game, "Volrath's Shapeshifter", "Stronghold", "STH");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ErraticPortalBase = require("../setTPR/ErraticPortal");
 
-class ErraticPortal extends UnimplementedCard {
+class ErraticPortal extends ErraticPortalBase {
   constructor (game) {
     super(game, "Erratic Portal", "Exodus", "EXO");
   }

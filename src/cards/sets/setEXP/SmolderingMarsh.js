@@ -4,7 +4,7 @@ const SmolderingMarshBase = require("../setBFZ/SmolderingMarsh");
 
 class SmolderingMarsh extends SmolderingMarshBase {
   constructor (game) {
-    super(game, "Smoldering Marsh", "Zendikar Expedition", "EXP");
+    super(game, "Smoldering Marsh", "Zendikar Expeditions", "EXP");
   }
 }
 

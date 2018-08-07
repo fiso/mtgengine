@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LightkeeperofEmeriaBase = require("../setCMD/LightkeeperofEmeria");
+const LightkeeperofEmeriaBase = require("../setCMA/LightkeeperofEmeria");
 
 class LightkeeperofEmeria extends LightkeeperofEmeriaBase {
   constructor (game) {

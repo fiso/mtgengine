@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KrovikanMistBase = require("../setCSP/KrovikanMist");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KrovikanMist extends KrovikanMistBase {
+class KrovikanMist extends UnimplementedCard {
   constructor (game) {
     super(game, "Krovikan Mist", "Duel Decks: Jace vs. Vraska", "DDM");
   }

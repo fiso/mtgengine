@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SomberwaldVigilanteBase = require("../setAVR/SomberwaldVigilante");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SomberwaldVigilante extends SomberwaldVigilanteBase {
+class SomberwaldVigilante extends UnimplementedCard {
   constructor (game) {
     super(game, "Somberwald Vigilante", "Duel Decks: Heroes vs. Monsters", "DDL");
   }

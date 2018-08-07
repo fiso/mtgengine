@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KavuClimberBase = require("../setA25/KavuClimber");
 
-class KavuClimber extends UnimplementedCard {
+class KavuClimber extends KavuClimberBase {
   constructor (game) {
     super(game, "Kavu Climber", "Invasion", "INV");
   }

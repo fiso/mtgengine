@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmokebraiderBase = require("../setLRW/Smokebraider");
+const SmokebraiderBase = require("../setMM2/Smokebraider");
 
 class Smokebraider extends SmokebraiderBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ErontheRelentlessBase = require("../setTSB/ErontheRelentless");
 
-class ErontheRelentless extends UnimplementedCard {
+class ErontheRelentless extends ErontheRelentlessBase {
   constructor (game) {
     super(game, "Eron the Relentless", "Homelands", "HML");
   }

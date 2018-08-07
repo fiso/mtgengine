@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrzhovGuildmageBase = require("../setGPT/OrzhovGuildmage");
+const OrzhovGuildmageBase = require("../setCMA/OrzhovGuildmage");
 
 class OrzhovGuildmage extends OrzhovGuildmageBase {
   constructor (game) {
-    super(game, "Orzhov Guildmage", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Orzhov Guildmage", "Commander 2011", "CMD");
   }
 }
 

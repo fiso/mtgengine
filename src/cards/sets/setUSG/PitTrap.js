@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PitTrapBase = require("../setICE/PitTrap");
+const PitTrapBase = require("../set7ED/PitTrap");
 
 class PitTrap extends PitTrapBase {
   constructor (game) {

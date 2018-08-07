@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DranaKalastriaBloodchiefBase = require("../setC14/DranaKalastriaBloodchief");
+const DranaKalastriaBloodchiefBase = require("../setC17/DranaKalastriaBloodchief");
 
 class DranaKalastriaBloodchief extends DranaKalastriaBloodchiefBase {
   constructor (game) {

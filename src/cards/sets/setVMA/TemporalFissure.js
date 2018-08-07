@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TemporalFissureBase = require("../setSCG/TemporalFissure");
+const TemporalFissureBase = require("../setDDS/TemporalFissure");
 
 class TemporalFissure extends TemporalFissureBase {
   constructor (game) {

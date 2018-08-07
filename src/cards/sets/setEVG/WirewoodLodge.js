@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WirewoodLodgeBase = require("../setDD3_EVG/WirewoodLodge");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WirewoodLodge extends WirewoodLodgeBase {
+class WirewoodLodge extends UnimplementedCard {
   constructor (game) {
-    super(game, "Wirewood Lodge", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Wirewood Lodge", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

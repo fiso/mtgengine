@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class GarrukApexPredator extends UnimplementedCard {
   constructor (game) {
-    super(game, "Garruk, Apex Predator", "Magic 2015 Core Set", "M15");
+    super(game, "Garruk, Apex Predator", "Magic 2015", "M15");
   }
 }
 

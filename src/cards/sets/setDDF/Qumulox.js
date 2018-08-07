@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const QumuloxBase = require("../setMM2/Qumulox");
 
-class Qumulox extends UnimplementedCard {
+class Qumulox extends QumuloxBase {
   constructor (game) {
     super(game, "Qumulox", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

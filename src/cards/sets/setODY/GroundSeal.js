@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GroundSealBase = require("../setM13/GroundSeal");
+const GroundSealBase = require("../setC18/GroundSeal");
 
 class GroundSeal extends GroundSealBase {
   constructor (game) {

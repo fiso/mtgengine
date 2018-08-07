@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JuniperOrderAdvocateBase = require("../setME2/JuniperOrderAdvocate");
 
-class JuniperOrderAdvocate extends UnimplementedCard {
+class JuniperOrderAdvocate extends JuniperOrderAdvocateBase {
   constructor (game) {
     super(game, "Juniper Order Advocate", "Alliances", "ALL");
   }

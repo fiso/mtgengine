@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BayouBase = require("../setVMA/Bayou");
 
-class Bayou extends UnimplementedCard {
+class Bayou extends BayouBase {
   constructor (game) {
-    super(game, "Bayou", "Collector's Edition", "CED");
+    super(game, "Bayou", "Collectors’ Edition", "CED");
   }
 }
 

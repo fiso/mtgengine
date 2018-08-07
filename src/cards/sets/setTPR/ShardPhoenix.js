@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShardPhoenixBase = require("../set9ED/ShardPhoenix");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShardPhoenix extends ShardPhoenixBase {
+class ShardPhoenix extends UnimplementedCard {
   constructor (game) {
     super(game, "Shard Phoenix", "Tempest Remastered", "TPR");
   }

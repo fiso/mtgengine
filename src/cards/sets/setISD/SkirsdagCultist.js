@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkirsdagCultistBase = require("../setDDK/SkirsdagCultist");
+const SkirsdagCultistBase = require("../setMM3/SkirsdagCultist");
 
 class SkirsdagCultist extends SkirsdagCultistBase {
   constructor (game) {

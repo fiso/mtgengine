@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoalitionRelicBase = require("../setDDE/CoalitionRelic");
+const CoalitionRelicBase = require("../setA25/CoalitionRelic");
 
 class CoalitionRelic extends CoalitionRelicBase {
   constructor (game) {

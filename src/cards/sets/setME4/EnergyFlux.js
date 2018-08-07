@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnergyFluxBase = require("../setATQ/EnergyFlux");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EnergyFlux extends EnergyFluxBase {
+class EnergyFlux extends UnimplementedCard {
   constructor (game) {
     super(game, "Energy Flux", "Masters Edition IV", "ME4");
   }

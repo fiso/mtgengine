@@ -4,7 +4,7 @@ const DeadlyRecluseBase = require("../setDDL/DeadlyRecluse");
 
 class DeadlyRecluse extends DeadlyRecluseBase {
   constructor (game) {
-    super(game, "Deadly Recluse", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Deadly Recluse", "Commander 2011", "CMD");
   }
 }
 

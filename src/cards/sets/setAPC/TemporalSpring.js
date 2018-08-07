@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TemporalSpringBase = require("../setTD0/TemporalSpring");
 
-class TemporalSpring extends UnimplementedCard {
+class TemporalSpring extends TemporalSpringBase {
   constructor (game) {
     super(game, "Temporal Spring", "Apocalypse", "APC");
   }

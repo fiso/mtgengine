@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FungalBloomBase = require("../setFEM/FungalBloom");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FungalBloom extends FungalBloomBase {
+class FungalBloom extends UnimplementedCard {
   constructor (game) {
     super(game, "Fungal Bloom", "Masters Edition II", "ME2");
   }

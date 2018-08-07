@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PatronoftheNezumiBase = require("../setBOK/PatronoftheNezumi");
+const PatronoftheNezumiBase = require("../setCM2/PatronoftheNezumi");
 
 class PatronoftheNezumi extends PatronoftheNezumiBase {
   constructor (game) {
-    super(game, "Patron of the Nezumi", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Patron of the Nezumi", "Commander 2011", "CMD");
   }
 }
 

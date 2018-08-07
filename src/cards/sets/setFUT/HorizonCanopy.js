@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HorizonCanopyBase = require("../setIMA/HorizonCanopy");
 
-class HorizonCanopy extends UnimplementedCard {
+class HorizonCanopy extends HorizonCanopyBase {
   constructor (game) {
     super(game, "Horizon Canopy", "Future Sight", "FUT");
   }

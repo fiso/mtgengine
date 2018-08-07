@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReachThroughMistsBase = require("../setCHK/ReachThroughMists");
+const ReachThroughMistsBase = require("../setDDS/ReachThroughMists");
 
 class ReachThroughMists extends ReachThroughMistsBase {
   constructor (game) {

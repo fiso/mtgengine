@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CultivateBase = require("../setC13/Cultivate");
+const CultivateBase = require("../setC18/Cultivate");
 
 class Cultivate extends CultivateBase {
   constructor (game) {
-    super(game, "Cultivate", "Planechase 2012 Edition", "PC2");
+    super(game, "Cultivate", "Planechase 2012", "PC2");
   }
 }
 

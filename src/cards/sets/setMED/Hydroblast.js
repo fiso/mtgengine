@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HydroblastBase = require("../set5ED/Hydroblast");
+const HydroblastBase = require("../setEMA/Hydroblast");
 
 class Hydroblast extends HydroblastBase {
   constructor (game) {

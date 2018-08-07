@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfestBase = require("../setARC/Infest");
+const InfestBase = require("../setCN2/Infest");
 
 class Infest extends InfestBase {
   constructor (game) {

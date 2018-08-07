@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BurstLightningBase = require("../setpMPR/BurstLightning");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BurstLightning extends BurstLightningBase {
+class BurstLightning extends UnimplementedCard {
   constructor (game) {
-    super(game, "Burst Lightning", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Burst Lightning", "Modern Masters 2015", "MM2");
   }
 }
 

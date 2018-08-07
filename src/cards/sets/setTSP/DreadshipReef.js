@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreadshipReefBase = require("../setCMD/DreadshipReef");
+const DreadshipReefBase = require("../setCM2/DreadshipReef");
 
 class DreadshipReef extends DreadshipReefBase {
   constructor (game) {

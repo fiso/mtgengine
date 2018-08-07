@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DeadeyeNavigatorBase = require("../setMM3/DeadeyeNavigator");
 
-class DeadeyeNavigator extends UnimplementedCard {
+class DeadeyeNavigator extends DeadeyeNavigatorBase {
   constructor (game) {
     super(game, "Deadeye Navigator", "Avacyn Restored", "AVR");
   }

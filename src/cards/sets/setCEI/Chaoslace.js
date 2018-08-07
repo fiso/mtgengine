@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChaoslaceBase = require("../setCED/Chaoslace");
+const ChaoslaceBase = require("../set4ED/Chaoslace");
 
 class Chaoslace extends ChaoslaceBase {
   constructor (game) {
-    super(game, "Chaoslace", "International Collector's Edition", "CEI");
+    super(game, "Chaoslace", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

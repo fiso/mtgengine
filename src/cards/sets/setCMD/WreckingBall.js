@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WreckingBallBase = require("../setDIS/WreckingBall");
+const WreckingBallBase = require("../setCMA/WreckingBall");
 
 class WreckingBall extends WreckingBallBase {
   constructor (game) {
-    super(game, "Wrecking Ball", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Wrecking Ball", "Commander 2011", "CMD");
   }
 }
 

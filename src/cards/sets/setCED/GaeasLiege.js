@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GaeasLiegeBase = require("../setTSB/GaeasLiege");
 
-class GaeasLiege extends UnimplementedCard {
+class GaeasLiege extends GaeasLiegeBase {
   constructor (game) {
-    super(game, "Gaea's Liege", "Collector's Edition", "CED");
+    super(game, "Gaea's Liege", "Collectors’ Edition", "CED");
   }
 }
 

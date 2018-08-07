@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlaughterPactBase = require("../setFUT/SlaughterPact");
+const SlaughterPactBase = require("../setMP2/SlaughterPact");
 
 class SlaughterPact extends SlaughterPactBase {
   constructor (game) {

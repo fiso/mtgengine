@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CarnivorousPlantBase = require("../setATH/CarnivorousPlant");
+const CarnivorousPlantBase = require("../setMED/CarnivorousPlant");
 
 class CarnivorousPlant extends CarnivorousPlantBase {
   constructor (game) {

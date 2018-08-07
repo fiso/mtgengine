@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HeedlessOneBase = require("../setDD3_EVG/HeedlessOne");
+const HeedlessOneBase = require("../setEVG/HeedlessOne");
 
 class HeedlessOne extends HeedlessOneBase {
   constructor (game) {

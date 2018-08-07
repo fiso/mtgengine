@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NetherShadowBase = require("../setMED/NetherShadow");
 
-class NetherShadow extends UnimplementedCard {
+class NetherShadow extends NetherShadowBase {
   constructor (game) {
-    super(game, "Nether Shadow", "Collector's Edition", "CED");
+    super(game, "Nether Shadow", "Collectors’ Edition", "CED");
   }
 }
 

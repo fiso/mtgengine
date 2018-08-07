@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VictualSliverBase = require("../setH09/VictualSliver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VictualSliver extends VictualSliverBase {
+class VictualSliver extends UnimplementedCard {
   constructor (game) {
     super(game, "Victual Sliver", "Tempest Remastered", "TPR");
   }

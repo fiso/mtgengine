@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IsochronScepterBase = require("../setDDJ/IsochronScepter");
+const IsochronScepterBase = require("../setEMA/IsochronScepter");
 
 class IsochronScepter extends IsochronScepterBase {
   constructor (game) {

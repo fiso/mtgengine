@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DauthiSlayerBase = require("../setpARL/DauthiSlayer");
+const DauthiSlayerBase = require("../setTPR/DauthiSlayer");
 
 class DauthiSlayer extends DauthiSlayerBase {
   constructor (game) {

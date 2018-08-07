@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TormodsCryptBase = require("../setCHR/TormodsCrypt");
+const TormodsCryptBase = require("../setC14/TormodsCrypt");
 
 class TormodsCrypt extends TormodsCryptBase {
   constructor (game) {

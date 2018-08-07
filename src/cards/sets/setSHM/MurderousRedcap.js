@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MurderousRedcapBase = require("../setpFNM/MurderousRedcap");
+const MurderousRedcapBase = require("../setMMA/MurderousRedcap");
 
 class MurderousRedcap extends MurderousRedcapBase {
   constructor (game) {

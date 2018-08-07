@@ -4,7 +4,7 @@ const DjinnIlluminatusBase = require("../setDDJ/DjinnIlluminatus");
 
 class DjinnIlluminatus extends DjinnIlluminatusBase {
   constructor (game) {
-    super(game, "Djinn Illuminatus", "Prerelease Events", "pPRE");
+    super(game, "Djinn Illuminatus", "Prerelease Events", "PPRE");
   }
 }
 

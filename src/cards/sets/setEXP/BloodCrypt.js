@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodCryptBase = require("../setDIS/BloodCrypt");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BloodCrypt extends BloodCryptBase {
+class BloodCrypt extends UnimplementedCard {
   constructor (game) {
-    super(game, "Blood Crypt", "Zendikar Expedition", "EXP");
+    super(game, "Blood Crypt", "Zendikar Expeditions", "EXP");
   }
 }
 

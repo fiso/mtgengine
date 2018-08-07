@@ -4,7 +4,7 @@ const AvatarofHopeBase = require("../set8ED/AvatarofHope");
 
 class AvatarofHope extends AvatarofHopeBase {
   constructor (game) {
-    super(game, "Avatar of Hope", "Prerelease Events", "pPRE");
+    super(game, "Avatar of Hope", "Prerelease Events", "PPRE");
   }
 }
 

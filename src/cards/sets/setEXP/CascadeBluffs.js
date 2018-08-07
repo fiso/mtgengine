@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CascadeBluffsBase = require("../setEVE/CascadeBluffs");
+const CascadeBluffsBase = require("../setA25/CascadeBluffs");
 
 class CascadeBluffs extends CascadeBluffsBase {
   constructor (game) {
-    super(game, "Cascade Bluffs", "Zendikar Expedition", "EXP");
+    super(game, "Cascade Bluffs", "Zendikar Expeditions", "EXP");
   }
 }
 

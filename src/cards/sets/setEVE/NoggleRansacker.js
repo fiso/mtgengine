@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NoggleRansackerBase = require("../setPCA/NoggleRansacker");
 
-class NoggleRansacker extends UnimplementedCard {
+class NoggleRansacker extends NoggleRansackerBase {
   constructor (game) {
     super(game, "Noggle Ransacker", "Eventide", "EVE");
   }

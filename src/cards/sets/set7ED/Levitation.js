@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LevitationBase = require("../setM10/Levitation");
+const LevitationBase = require("../setM12/Levitation");
 
 class Levitation extends LevitationBase {
   constructor (game) {

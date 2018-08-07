@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CondescendBase = require("../setDD3_JVC/Condescend");
+const CondescendBase = require("../setIMA/Condescend");
 
 class Condescend extends CondescendBase {
   constructor (game) {

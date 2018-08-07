@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrimsChantBase = require("../setpJGP/OrimsChant");
+const OrimsChantBase = require("../setG08/OrimsChant");
 
 class OrimsChant extends OrimsChantBase {
   constructor (game) {

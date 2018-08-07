@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MagmaquakeBase = require("../setC14/Magmaquake");
+const MagmaquakeBase = require("../setC18/Magmaquake");
 
 class Magmaquake extends MagmaquakeBase {
   constructor (game) {

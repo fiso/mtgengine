@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MerfolkSpyBase = require("../setM11/MerfolkSpy");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MerfolkSpy extends MerfolkSpyBase {
+class MerfolkSpy extends UnimplementedCard {
   constructor (game) {
-    super(game, "Merfolk Spy", "Magic 2014 Core Set", "M14");
+    super(game, "Merfolk Spy", "Magic 2014", "M14");
   }
 }
 

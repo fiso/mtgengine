@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DriftingMeadowBase = require("../setATH/DriftingMeadow");
+const DriftingMeadowBase = require("../setCM2/DriftingMeadow");
 
 class DriftingMeadow extends DriftingMeadowBase {
   constructor (game) {
-    super(game, "Drifting Meadow", "Commander 2013 Edition", "C13");
+    super(game, "Drifting Meadow", "Commander 2013", "C13");
   }
 }
 

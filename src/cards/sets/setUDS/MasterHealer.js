@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MasterHealerBase = require("../set8ED/MasterHealer");
+const MasterHealerBase = require("../set9ED/MasterHealer");
 
 class MasterHealer extends MasterHealerBase {
   constructor (game) {

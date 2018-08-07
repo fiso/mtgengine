@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LibraryofLengBase = require("../setME4/LibraryofLeng");
 
-class LibraryofLeng extends UnimplementedCard {
+class LibraryofLeng extends LibraryofLengBase {
   constructor (game) {
-    super(game, "Library of Leng", "Collector's Edition", "CED");
+    super(game, "Library of Leng", "Collectors’ Edition", "CED");
   }
 }
 

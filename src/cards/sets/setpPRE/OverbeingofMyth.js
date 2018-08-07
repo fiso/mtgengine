@@ -4,7 +4,7 @@ const OverbeingofMythBase = require("../setEVE/OverbeingofMyth");
 
 class OverbeingofMyth extends OverbeingofMythBase {
   constructor (game) {
-    super(game, "Overbeing of Myth", "Prerelease Events", "pPRE");
+    super(game, "Overbeing of Myth", "Prerelease Events", "PPRE");
   }
 }
 

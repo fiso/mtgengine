@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrcishLibrarianBase = require("../setICE/OrcishLibrarian");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OrcishLibrarian extends OrcishLibrarianBase {
+class OrcishLibrarian extends UnimplementedCard {
   constructor (game) {
-    super(game, "Orcish Librarian", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Orcish Librarian", "Time Spiral Timeshifted", "TSB");
   }
 }
 

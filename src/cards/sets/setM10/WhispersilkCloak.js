@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WhispersilkCloakBase = require("../setDST/WhispersilkCloak");
+const WhispersilkCloakBase = require("../setPCA/WhispersilkCloak");
 
 class WhispersilkCloak extends WhispersilkCloakBase {
   constructor (game) {

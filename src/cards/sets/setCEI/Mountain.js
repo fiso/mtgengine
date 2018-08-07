@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MountainBase = require("../setATH/Mountain");
+const MountainBase = require("../setC18/Mountain");
 
 class Mountain extends MountainBase {
   constructor (game) {
-    super(game, "Mountain", "International Collector's Edition", "CEI");
+    super(game, "Mountain", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

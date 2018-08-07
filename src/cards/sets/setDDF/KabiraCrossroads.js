@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KabiraCrossroadsBase = require("../setC17/KabiraCrossroads");
 
-class KabiraCrossroads extends UnimplementedCard {
+class KabiraCrossroads extends KabiraCrossroadsBase {
   constructor (game) {
     super(game, "Kabira Crossroads", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

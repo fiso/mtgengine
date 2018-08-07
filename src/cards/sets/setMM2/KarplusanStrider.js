@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KarplusanStriderBase = require("../setCSP/KarplusanStrider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KarplusanStrider extends KarplusanStriderBase {
+class KarplusanStrider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Karplusan Strider", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Karplusan Strider", "Modern Masters 2015", "MM2");
   }
 }
 

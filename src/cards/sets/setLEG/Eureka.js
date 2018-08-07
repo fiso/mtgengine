@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EurekaBase = require("../setVMA/Eureka");
 
-class Eureka extends UnimplementedCard {
+class Eureka extends EurekaBase {
   constructor (game) {
     super(game, "Eureka", "Legends", "LEG");
   }

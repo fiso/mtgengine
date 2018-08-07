@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GloomwidowBase = require("../setAVR/Gloomwidow");
+const GloomwidowBase = require("../setSOI/Gloomwidow");
 
 class Gloomwidow extends GloomwidowBase {
   constructor (game) {

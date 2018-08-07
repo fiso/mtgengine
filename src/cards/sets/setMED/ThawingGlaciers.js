@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThawingGlaciersBase = require("../setALL/ThawingGlaciers");
+const ThawingGlaciersBase = require("../setVMA/ThawingGlaciers");
 
 class ThawingGlaciers extends ThawingGlaciersBase {
   constructor (game) {

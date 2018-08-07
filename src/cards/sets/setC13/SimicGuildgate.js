@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SimicGuildgateBase = require("../setCMA/SimicGuildgate");
 
-class SimicGuildgate extends UnimplementedCard {
+class SimicGuildgate extends SimicGuildgateBase {
   constructor (game) {
-    super(game, "Simic Guildgate", "Commander 2013 Edition", "C13");
+    super(game, "Simic Guildgate", "Commander 2013", "C13");
   }
 }
 

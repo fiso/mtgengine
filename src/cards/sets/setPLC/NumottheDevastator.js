@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NumottheDevastatorBase = require("../setCMD/NumottheDevastator");
+const NumottheDevastatorBase = require("../setOCMD/NumottheDevastator");
 
 class NumottheDevastator extends NumottheDevastatorBase {
   constructor (game) {

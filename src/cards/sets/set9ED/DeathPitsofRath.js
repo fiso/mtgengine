@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathPitsofRathBase = require("../set8ED/DeathPitsofRath");
+const DeathPitsofRathBase = require("../setTPR/DeathPitsofRath");
 
 class DeathPitsofRath extends DeathPitsofRathBase {
   constructor (game) {

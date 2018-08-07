@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MagmaGiantBase = require("../setC15/MagmaGiant");
+const MagmaGiantBase = require("../setCM2/MagmaGiant");
 
 class MagmaGiant extends MagmaGiantBase {
   constructor (game) {

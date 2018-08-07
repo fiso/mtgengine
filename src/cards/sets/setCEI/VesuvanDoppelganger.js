@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VesuvanDoppelgangerBase = require("../setCED/VesuvanDoppelganger");
+const VesuvanDoppelgangerBase = require("../setMED/VesuvanDoppelganger");
 
 class VesuvanDoppelganger extends VesuvanDoppelgangerBase {
   constructor (game) {
-    super(game, "Vesuvan Doppelganger", "International Collector's Edition", "CEI");
+    super(game, "Vesuvan Doppelganger", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

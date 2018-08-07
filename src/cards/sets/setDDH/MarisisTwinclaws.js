@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MarisisTwinclawsBase = require("../setARB/MarisisTwinclaws");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MarisisTwinclaws extends MarisisTwinclawsBase {
+class MarisisTwinclaws extends UnimplementedCard {
   constructor (game) {
     super(game, "Marisi's Twinclaws", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

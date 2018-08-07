@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FalloftheHammerBase = require("../setBNG/FalloftheHammer");
+const FalloftheHammerBase = require("../setCM2/FalloftheHammer");
 
 class FalloftheHammer extends FalloftheHammerBase {
   constructor (game) {

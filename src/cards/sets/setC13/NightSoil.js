@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class NightSoil extends UnimplementedCard {
   constructor (game) {
-    super(game, "Night Soil", "Commander 2013 Edition", "C13");
+    super(game, "Night Soil", "Commander 2013", "C13");
   }
 }
 

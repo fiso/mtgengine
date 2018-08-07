@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BruteStrengthBase = require("../setDDT/BruteStrength");
 
-class BruteStrength extends UnimplementedCard {
+class BruteStrength extends BruteStrengthBase {
   constructor (game) {
     super(game, "Brute Strength", "Oath of the Gatewatch", "OGW");
   }

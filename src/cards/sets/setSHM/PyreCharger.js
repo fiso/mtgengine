@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PyreChargerBase = require("../setDD3_JVC/PyreCharger");
+const PyreChargerBase = require("../setJVC/PyreCharger");
 
 class PyreCharger extends PyreChargerBase {
   constructor (game) {

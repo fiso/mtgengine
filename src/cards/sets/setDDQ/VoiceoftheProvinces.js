@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoiceoftheProvincesBase = require("../setAVR/VoiceoftheProvinces");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VoiceoftheProvinces extends VoiceoftheProvincesBase {
+class VoiceoftheProvinces extends UnimplementedCard {
   constructor (game) {
     super(game, "Voice of the Provinces", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

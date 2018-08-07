@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SurgicalExtractionBase = require("../setpMEI/SurgicalExtraction");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SurgicalExtraction extends SurgicalExtractionBase {
+class SurgicalExtraction extends UnimplementedCard {
   constructor (game) {
-    super(game, "Surgical Extraction", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Surgical Extraction", "Modern Masters 2015", "MM2");
   }
 }
 

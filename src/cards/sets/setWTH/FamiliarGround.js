@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FamiliarGroundBase = require("../set6ED/FamiliarGround");
+const FamiliarGroundBase = require("../set7ED/FamiliarGround");
 
 class FamiliarGround extends FamiliarGroundBase {
   constructor (game) {

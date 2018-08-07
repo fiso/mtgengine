@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VeteranExplorerBase = require("../setCMD/VeteranExplorer");
+const VeteranExplorerBase = require("../setBBD/VeteranExplorer");
 
 class VeteranExplorer extends VeteranExplorerBase {
   constructor (game) {

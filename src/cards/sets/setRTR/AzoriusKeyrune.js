@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzoriusKeyruneBase = require("../setC13/AzoriusKeyrune");
+const AzoriusKeyruneBase = require("../setCMA/AzoriusKeyrune");
 
 class AzoriusKeyrune extends AzoriusKeyruneBase {
   constructor (game) {

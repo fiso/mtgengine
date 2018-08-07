@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ControlMagicBase = require("../setBRB/ControlMagic");
+const ControlMagicBase = require("../setCMA/ControlMagic");
 
 class ControlMagic extends ControlMagicBase {
   constructor (game) {
-    super(game, "Control Magic", "Commander 2013 Edition", "C13");
+    super(game, "Control Magic", "Commander 2013", "C13");
   }
 }
 

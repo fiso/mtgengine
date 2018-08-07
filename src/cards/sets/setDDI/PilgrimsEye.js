@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PilgrimsEyeBase = require("../setBFZ/PilgrimsEye");
+const PilgrimsEyeBase = require("../setC18/PilgrimsEye");
 
 class PilgrimsEye extends PilgrimsEyeBase {
   constructor (game) {

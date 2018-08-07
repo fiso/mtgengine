@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootMazeBase = require("../setTMP/RootMaze");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RootMaze extends RootMazeBase {
+class RootMaze extends UnimplementedCard {
   constructor (game) {
     super(game, "Root Maze", "Tenth Edition", "10E");
   }

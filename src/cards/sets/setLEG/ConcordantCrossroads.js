@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConcordantCrossroadsBase = require("../setCHR/ConcordantCrossroads");
+const ConcordantCrossroadsBase = require("../setTD0/ConcordantCrossroads");
 
 class ConcordantCrossroads extends ConcordantCrossroadsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VedalkenEngineerBase = require("../setDST/VedalkenEngineer");
+const VedalkenEngineerBase = require("../setC16/VedalkenEngineer");
 
 class VedalkenEngineer extends VedalkenEngineerBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LashOutBase = require("../setLRW/LashOut");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LashOut extends LashOutBase {
+class LashOut extends UnimplementedCard {
   constructor (game) {
-    super(game, "Lash Out", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Lash Out", "Commander 2011", "CMD");
   }
 }
 

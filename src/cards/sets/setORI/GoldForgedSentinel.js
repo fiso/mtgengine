@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoldForgedSentinelBase = require("../setJOU/GoldForgedSentinel");
+const GoldForgedSentinelBase = require("../setBBD/GoldForgedSentinel");
 
 class GoldForgedSentinel extends GoldForgedSentinelBase {
   constructor (game) {

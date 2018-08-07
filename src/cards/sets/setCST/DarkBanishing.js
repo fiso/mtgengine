@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DarkBanishingBase = require("../setTPR/DarkBanishing");
 
-class DarkBanishing extends UnimplementedCard {
+class DarkBanishing extends DarkBanishingBase {
   constructor (game) {
     super(game, "Dark Banishing", "Coldsnap Theme Decks", "CST");
   }

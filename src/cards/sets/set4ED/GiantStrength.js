@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GiantStrengthBase = require("../set6ED/GiantStrength");
+const GiantStrengthBase = require("../setVMA/GiantStrength");
 
 class GiantStrength extends GiantStrengthBase {
   constructor (game) {

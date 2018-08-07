@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RayofCommandBase = require("../setDDM/RayofCommand");
 
-class RayofCommand extends UnimplementedCard {
+class RayofCommand extends RayofCommandBase {
   constructor (game) {
     super(game, "Ray of Command", "Battle Royale Box Set", "BRB");
   }

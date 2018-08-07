@@ -4,7 +4,7 @@ const HelmofKaldraBase = require("../set5DN/HelmofKaldra");
 
 class HelmofKaldra extends HelmofKaldraBase {
   constructor (game) {
-    super(game, "Helm of Kaldra", "Prerelease Events", "pPRE");
+    super(game, "Helm of Kaldra", "Prerelease Events", "PPRE");
   }
 }
 

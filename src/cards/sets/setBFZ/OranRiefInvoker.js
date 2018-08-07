@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OranRiefInvokerBase = require("../setDDR/OranRiefInvoker");
 
-class OranRiefInvoker extends UnimplementedCard {
+class OranRiefInvoker extends OranRiefInvokerBase {
   constructor (game) {
     super(game, "Oran-Rief Invoker", "Battle for Zendikar", "BFZ");
   }

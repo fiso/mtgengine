@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WirewoodSymbioteBase = require("../setDD3_EVG/WirewoodSymbiote");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WirewoodSymbiote extends WirewoodSymbioteBase {
+class WirewoodSymbiote extends UnimplementedCard {
   constructor (game) {
     super(game, "Wirewood Symbiote", "Eternal Masters", "EMA");
   }

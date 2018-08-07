@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlipstreamEelBase = require("../setCMD/SlipstreamEel");
+const SlipstreamEelBase = require("../setCM2/SlipstreamEel");
 
 class SlipstreamEel extends SlipstreamEelBase {
   constructor (game) {

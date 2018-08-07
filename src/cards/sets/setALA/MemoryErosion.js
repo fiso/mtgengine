@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MemoryErosionBase = require("../setCMD/MemoryErosion");
+const MemoryErosionBase = require("../setCM2/MemoryErosion");
 
 class MemoryErosion extends MemoryErosionBase {
   constructor (game) {

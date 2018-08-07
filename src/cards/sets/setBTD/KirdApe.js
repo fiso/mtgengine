@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KirdApeBase = require("../setARN/KirdApe");
+const KirdApeBase = require("../setEMA/KirdApe");
 
 class KirdApe extends KirdApeBase {
   constructor (game) {

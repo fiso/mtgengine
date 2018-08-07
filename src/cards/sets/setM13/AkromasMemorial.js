@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AkromasMemorialBase = require("../setFUT/AkromasMemorial");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AkromasMemorial extends AkromasMemorialBase {
+class AkromasMemorial extends UnimplementedCard {
   constructor (game) {
     super(game, "Akroma's Memorial", "Magic 2013", "M13");
   }

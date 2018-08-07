@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MartyrofFrostBase = require("../setJVC/MartyrofFrost");
 
-class MartyrofFrost extends UnimplementedCard {
+class MartyrofFrost extends MartyrofFrostBase {
   constructor (game) {
     super(game, "Martyr of Frost", "Coldsnap", "CSP");
   }

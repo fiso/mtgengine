@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThraximundarBase = require("../setARB/Thraximundar");
+const ThraximundarBase = require("../setOC13/Thraximundar");
 
 class Thraximundar extends ThraximundarBase {
   constructor (game) {
-    super(game, "Thraximundar", "Commander 2013 Edition", "C13");
+    super(game, "Thraximundar", "Commander 2013", "C13");
   }
 }
 

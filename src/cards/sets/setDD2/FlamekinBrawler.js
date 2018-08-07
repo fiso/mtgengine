@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlamekinBrawlerBase = require("../setDD3_JVC/FlamekinBrawler");
+const FlamekinBrawlerBase = require("../setJVC/FlamekinBrawler");
 
 class FlamekinBrawler extends FlamekinBrawlerBase {
   constructor (game) {

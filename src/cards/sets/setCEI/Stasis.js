@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StasisBase = require("../setCED/Stasis");
+const StasisBase = require("../setME4/Stasis");
 
 class Stasis extends StasisBase {
   constructor (game) {
-    super(game, "Stasis", "International Collector's Edition", "CEI");
+    super(game, "Stasis", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

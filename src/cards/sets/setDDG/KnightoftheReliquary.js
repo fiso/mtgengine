@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnightoftheReliquaryBase = require("../setCON/KnightoftheReliquary");
+const KnightoftheReliquaryBase = require("../setIMA/KnightoftheReliquary");
 
 class KnightoftheReliquary extends KnightoftheReliquaryBase {
   constructor (game) {

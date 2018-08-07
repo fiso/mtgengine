@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StandstillBase = require("../setpMEI/Standstill");
+const StandstillBase = require("../setPIDW/Standstill");
 
 class Standstill extends StandstillBase {
   constructor (game) {

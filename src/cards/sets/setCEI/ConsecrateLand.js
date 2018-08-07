@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConsecrateLandBase = require("../setCED/ConsecrateLand");
+const ConsecrateLandBase = require("../setTSB/ConsecrateLand");
 
 class ConsecrateLand extends ConsecrateLandBase {
   constructor (game) {
-    super(game, "Consecrate Land", "International Collector's Edition", "CEI");
+    super(game, "Consecrate Land", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DjinnofWishesBase = require("../setM10/DjinnofWishes");
+const DjinnofWishesBase = require("../setC18/DjinnofWishes");
 
 class DjinnofWishes extends DjinnofWishesBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrystalRodBase = require("../set6ED/CrystalRod");
+const CrystalRodBase = require("../set8ED/CrystalRod");
 
 class CrystalRod extends CrystalRodBase {
   constructor (game) {
-    super(game, "Crystal Rod", "Collector's Edition", "CED");
+    super(game, "Crystal Rod", "Collectors’ Edition", "CED");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CarnophageBase = require("../setEXO/Carnophage");
+const CarnophageBase = require("../setTPR/Carnophage");
 
 class Carnophage extends CarnophageBase {
   constructor (game) {

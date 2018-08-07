@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DanceofManyBase = require("../setCHR/DanceofMany");
+const DanceofManyBase = require("../setME3/DanceofMany");
 
 class DanceofMany extends DanceofManyBase {
   constructor (game) {

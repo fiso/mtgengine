@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathbringerThoctarBase = require("../setARB/DeathbringerThoctar");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DeathbringerThoctar extends DeathbringerThoctarBase {
+class DeathbringerThoctar extends UnimplementedCard {
   constructor (game) {
-    super(game, "Deathbringer Thoctar", "Commander 2013 Edition", "C13");
+    super(game, "Deathbringer Thoctar", "Commander 2013", "C13");
   }
 }
 

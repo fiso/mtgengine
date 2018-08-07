@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlyingCarpetBase = require("../setARN/FlyingCarpet");
+const FlyingCarpetBase = require("../setME4/FlyingCarpet");
 
 class FlyingCarpet extends FlyingCarpetBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WallofEssenceBase = require("../setTPR/WallofEssence");
 
-class WallofEssence extends UnimplementedCard {
+class WallofEssence extends WallofEssenceBase {
   constructor (game) {
-    super(game, "Wall of Essence", "Magic 2015 Core Set", "M15");
+    super(game, "Wall of Essence", "Magic 2015", "M15");
   }
 }
 

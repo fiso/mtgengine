@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EmberHaulerBase = require("../setDDT/EmberHauler");
 
-class EmberHauler extends UnimplementedCard {
+class EmberHauler extends EmberHaulerBase {
   constructor (game) {
     super(game, "Ember Hauler", "Magic 2011", "M11");
   }

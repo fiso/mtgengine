@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThornscapeBattlemageBase = require("../setDDE/ThornscapeBattlemage");
+const ThornscapeBattlemageBase = require("../setMM3/ThornscapeBattlemage");
 
 class ThornscapeBattlemage extends ThornscapeBattlemageBase {
   constructor (game) {

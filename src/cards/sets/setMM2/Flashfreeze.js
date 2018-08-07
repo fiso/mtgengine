@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlashfreezeBase = require("../setCSP/Flashfreeze");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Flashfreeze extends FlashfreezeBase {
+class Flashfreeze extends UnimplementedCard {
   constructor (game) {
-    super(game, "Flashfreeze", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Flashfreeze", "Modern Masters 2015", "MM2");
   }
 }
 

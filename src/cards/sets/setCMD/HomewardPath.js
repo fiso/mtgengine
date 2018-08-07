@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HomewardPathBase = require("../setC13/HomewardPath");
+const HomewardPathBase = require("../setJ17/HomewardPath");
 
 class HomewardPath extends HomewardPathBase {
   constructor (game) {
-    super(game, "Homeward Path", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Homeward Path", "Commander 2011", "CMD");
   }
 }
 

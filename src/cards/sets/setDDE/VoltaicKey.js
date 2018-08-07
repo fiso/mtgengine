@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VoltaicKeyBase = require("../setM11/VoltaicKey");
 
-class VoltaicKey extends UnimplementedCard {
+class VoltaicKey extends VoltaicKeyBase {
   constructor (game) {
     super(game, "Voltaic Key", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

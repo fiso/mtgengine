@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrderoftheWhiteShieldBase = require("../setATH/OrderoftheWhiteShield");
+const OrderoftheWhiteShieldBase = require("../setME2/OrderoftheWhiteShield");
 
 class OrderoftheWhiteShield extends OrderoftheWhiteShieldBase {
   constructor (game) {

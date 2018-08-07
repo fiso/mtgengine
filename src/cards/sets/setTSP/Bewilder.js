@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BewilderBase = require("../setIMA/Bewilder");
 
-class Bewilder extends UnimplementedCard {
+class Bewilder extends BewilderBase {
   constructor (game) {
     super(game, "Bewilder", "Time Spiral", "TSP");
   }

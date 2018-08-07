@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeaSpriteBase = require("../set5ED/SeaSprite");
+const SeaSpriteBase = require("../setMED/SeaSprite");
 
 class SeaSprite extends SeaSpriteBase {
   constructor (game) {

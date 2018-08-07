@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GwyllionHedgeMageBase = require("../setCMA/GwyllionHedgeMage");
 
-class GwyllionHedgeMage extends UnimplementedCard {
+class GwyllionHedgeMage extends GwyllionHedgeMageBase {
   constructor (game) {
     super(game, "Gwyllion Hedge-Mage", "Eventide", "EVE");
   }

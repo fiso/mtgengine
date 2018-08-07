@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForbidBase = require("../setEXO/Forbid");
+const ForbidBase = require("../setMP2/Forbid");
 
 class Forbid extends ForbidBase {
   constructor (game) {

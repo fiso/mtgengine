@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TestofFaithBase = require("../setDST/TestofFaith");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TestofFaith extends TestofFaithBase {
+class TestofFaith extends UnimplementedCard {
   constructor (game) {
     super(game, "Test of Faith", "Modern Masters", "MMA");
   }

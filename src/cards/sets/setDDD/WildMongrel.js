@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildMongrelBase = require("../setDD3_GVL/WildMongrel");
+const WildMongrelBase = require("../setGVL/WildMongrel");
 
 class WildMongrel extends WildMongrelBase {
   constructor (game) {

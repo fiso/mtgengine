@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SylvanBasiliskBase = require("../setPO2/SylvanBasilisk");
+const SylvanBasiliskBase = require("../set10E/SylvanBasilisk");
 
 class SylvanBasilisk extends SylvanBasiliskBase {
   constructor (game) {

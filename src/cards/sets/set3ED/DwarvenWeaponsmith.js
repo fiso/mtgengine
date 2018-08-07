@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DwarvenWeaponsmithBase = require("../setATQ/DwarvenWeaponsmith");
+const DwarvenWeaponsmithBase = require("../setSUM/DwarvenWeaponsmith");
 
 class DwarvenWeaponsmith extends DwarvenWeaponsmithBase {
   constructor (game) {

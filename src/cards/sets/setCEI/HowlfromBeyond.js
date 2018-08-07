@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HowlfromBeyondBase = require("../set6ED/HowlfromBeyond");
+const HowlfromBeyondBase = require("../setME4/HowlfromBeyond");
 
 class HowlfromBeyond extends HowlfromBeyondBase {
   constructor (game) {
-    super(game, "Howl from Beyond", "International Collector's Edition", "CEI");
+    super(game, "Howl from Beyond", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

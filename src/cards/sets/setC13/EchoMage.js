@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class EchoMage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Echo Mage", "Commander 2013 Edition", "C13");
+    super(game, "Echo Mage", "Commander 2013", "C13");
   }
 }
 

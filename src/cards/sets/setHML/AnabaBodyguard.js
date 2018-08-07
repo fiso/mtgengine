@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnabaBodyguardBase = require("../set6ED/AnabaBodyguard");
+const AnabaBodyguardBase = require("../set10E/AnabaBodyguard");
 
 class AnabaBodyguard extends AnabaBodyguardBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpellstutterSpriteBase = require("../setpFNM/SpellstutterSprite");
+const SpellstutterSpriteBase = require("../setMMA/SpellstutterSprite");
 
 class SpellstutterSprite extends SpellstutterSpriteBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PersonalIncarnationBase = require("../setME4/PersonalIncarnation");
 
-class PersonalIncarnation extends UnimplementedCard {
+class PersonalIncarnation extends PersonalIncarnationBase {
   constructor (game) {
-    super(game, "Personal Incarnation", "Collector's Edition", "CED");
+    super(game, "Personal Incarnation", "Collectors’ Edition", "CED");
   }
 }
 

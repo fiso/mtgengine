@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SindbadBase = require("../setARN/Sindbad");
+const SindbadBase = require("../setTSB/Sindbad");
 
 class Sindbad extends SindbadBase {
   constructor (game) {

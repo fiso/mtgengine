@@ -1,16 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const Card = require("../../../objects/Card");
+const IslandBase = require("../setC18/Island");
 
-class Island extends Card {
+class Island extends IslandBase {
   constructor (game) {
     super(game, "Island", "Archenemy", "ARC");
-
-    this.addAbility(
-      [],
-      (controller, modes, targets, parameters) => {
-        controller.addToManaPool(Constants.manaTypes.BLUE, 1);
-      }, true);
   }
 }
 

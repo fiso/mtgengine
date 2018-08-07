@@ -4,7 +4,7 @@ const RevenantBase = require("../setORI/Revenant");
 
 class Revenant extends RevenantBase {
   constructor (game) {
-    super(game, "Revenant", "Prerelease Events", "pPRE");
+    super(game, "Revenant", "Prerelease Events", "PPRE");
   }
 }
 

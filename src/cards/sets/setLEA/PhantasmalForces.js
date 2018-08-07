@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhantasmalForcesBase = require("../setCED/PhantasmalForces");
+const PhantasmalForcesBase = require("../setME4/PhantasmalForces");
 
 class PhantasmalForces extends PhantasmalForcesBase {
   constructor (game) {

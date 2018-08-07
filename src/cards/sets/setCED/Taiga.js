@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TaigaBase = require("../setVMA/Taiga");
 
-class Taiga extends UnimplementedCard {
+class Taiga extends TaigaBase {
   constructor (game) {
-    super(game, "Taiga", "Collector's Edition", "CED");
+    super(game, "Taiga", "Collectors’ Edition", "CED");
   }
 }
 

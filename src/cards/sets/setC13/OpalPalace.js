@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OpalPalaceBase = require("../setCM2/OpalPalace");
 
-class OpalPalace extends UnimplementedCard {
+class OpalPalace extends OpalPalaceBase {
   constructor (game) {
-    super(game, "Opal Palace", "Commander 2013 Edition", "C13");
+    super(game, "Opal Palace", "Commander 2013", "C13");
   }
 }
 

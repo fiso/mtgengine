@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PathtoExileBase = require("../setARC/PathtoExile");
+const PathtoExileBase = require("../setE02/PathtoExile");
 
 class PathtoExile extends PathtoExileBase {
   constructor (game) {
-    super(game, "Path to Exile", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Path to Exile", "Commander 2011", "CMD");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MemoryLapseBase = require("../set6ED/MemoryLapse");
+const MemoryLapseBase = require("../setEMA/MemoryLapse");
 
 class MemoryLapse extends MemoryLapseBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RagingRiverBase = require("../setCED/RagingRiver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RagingRiver extends RagingRiverBase {
+class RagingRiver extends UnimplementedCard {
   constructor (game) {
-    super(game, "Raging River", "International Collector's Edition", "CEI");
+    super(game, "Raging River", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

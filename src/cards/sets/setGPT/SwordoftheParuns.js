@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SwordoftheParunsBase = require("../setC13/SwordoftheParuns");
+const SwordoftheParunsBase = require("../setCMA/SwordoftheParuns");
 
 class SwordoftheParuns extends SwordoftheParunsBase {
   constructor (game) {

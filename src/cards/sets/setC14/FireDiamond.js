@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FireDiamondBase = require("../set6ED/FireDiamond");
+const FireDiamondBase = require("../setCM2/FireDiamond");
 
 class FireDiamond extends FireDiamondBase {
   constructor (game) {

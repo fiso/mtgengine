@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TenebtheHarvesterBase = require("../setC17/TenebtheHarvester");
 
-class TenebtheHarvester extends UnimplementedCard {
+class TenebtheHarvester extends TenebtheHarvesterBase {
   constructor (game) {
-    super(game, "Teneb, the Harvester", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Teneb, the Harvester", "Commander 2011", "CMD");
   }
 }
 

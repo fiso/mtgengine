@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuietDisrepairBase = require("../setFUT/QuietDisrepair");
+const QuietDisrepairBase = require("../setPCA/QuietDisrepair");
 
 class QuietDisrepair extends QuietDisrepairBase {
   constructor (game) {
-    super(game, "Quiet Disrepair", "Planechase 2012 Edition", "PC2");
+    super(game, "Quiet Disrepair", "Planechase 2012", "PC2");
   }
 }
 

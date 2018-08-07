@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarthbindBase = require("../setCED/Earthbind");
+const EarthbindBase = require("../setSUM/Earthbind");
 
 class Earthbind extends EarthbindBase {
   constructor (game) {
-    super(game, "Earthbind", "International Collector's Edition", "CEI");
+    super(game, "Earthbind", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

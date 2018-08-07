@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GhostformBase = require("../setM19/Ghostform");
 
-class Ghostform extends UnimplementedCard {
+class Ghostform extends GhostformBase {
   constructor (game) {
     super(game, "Ghostform", "Avacyn Restored", "AVR");
   }

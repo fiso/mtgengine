@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AkromasVengeanceBase = require("../setC18/AkromasVengeance");
 
-class AkromasVengeance extends UnimplementedCard {
+class AkromasVengeance extends AkromasVengeanceBase {
   constructor (game) {
     super(game, "Akroma's Vengeance", "From the Vault: Twenty", "V13");
   }

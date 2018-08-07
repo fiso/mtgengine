@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KavuPrimarchBase = require("../setFUT/KavuPrimarch");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KavuPrimarch extends KavuPrimarchBase {
+class KavuPrimarch extends UnimplementedCard {
   constructor (game) {
-    super(game, "Kavu Primarch", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Kavu Primarch", "Modern Masters 2015", "MM2");
   }
 }
 

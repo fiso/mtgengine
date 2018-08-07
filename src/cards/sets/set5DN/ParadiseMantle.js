@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ParadiseMantleBase = require("../setMMA/ParadiseMantle");
 
-class ParadiseMantle extends UnimplementedCard {
+class ParadiseMantle extends ParadiseMantleBase {
   constructor (game) {
     super(game, "Paradise Mantle", "Fifth Dawn", "5DN");
   }

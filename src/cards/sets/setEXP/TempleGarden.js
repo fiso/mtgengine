@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TempleGardenBase = require("../setRAV/TempleGarden");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TempleGarden extends TempleGardenBase {
+class TempleGarden extends UnimplementedCard {
   constructor (game) {
-    super(game, "Temple Garden", "Zendikar Expedition", "EXP");
+    super(game, "Temple Garden", "Zendikar Expeditions", "EXP");
   }
 }
 

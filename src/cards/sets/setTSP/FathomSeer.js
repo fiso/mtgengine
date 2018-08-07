@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FathomSeerBase = require("../setC14/FathomSeer");
+const FathomSeerBase = require("../setA25/FathomSeer");
 
 class FathomSeer extends FathomSeerBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NimbusoftheIslesBase = require("../setBBD/NimbusoftheIsles");
 
-class NimbusoftheIsles extends UnimplementedCard {
+class NimbusoftheIsles extends NimbusoftheIslesBase {
   constructor (game) {
-    super(game, "Nimbus of the Isles", "Magic 2015 Core Set", "M15");
+    super(game, "Nimbus of the Isles", "Magic 2015", "M15");
   }
 }
 

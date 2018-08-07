@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SakuraTribeElderBase = require("../setARC/SakuraTribeElder");
+const SakuraTribeElderBase = require("../setC18/SakuraTribeElder");
 
 class SakuraTribeElder extends SakuraTribeElderBase {
   constructor (game) {
-    super(game, "Sakura-Tribe Elder", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Sakura-Tribe Elder", "Conspiracy", "CNS");
   }
 }
 

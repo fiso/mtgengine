@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoroiiBase = require("../setDDH/Moroii");
+const MoroiiBase = require("../setMM3/Moroii");
 
 class Moroii extends MoroiiBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EssenceSliverBase = require("../setLGN/EssenceSliver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EssenceSliver extends EssenceSliverBase {
+class EssenceSliver extends UnimplementedCard {
   constructor (game) {
-    super(game, "Essence Sliver", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Essence Sliver", "Time Spiral Timeshifted", "TSB");
   }
 }
 

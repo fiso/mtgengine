@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const XenicPoltergeistBase = require("../setATQ/XenicPoltergeist");
+const XenicPoltergeistBase = require("../setME4/XenicPoltergeist");
 
 class XenicPoltergeist extends XenicPoltergeistBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CoralHelmBase = require("../setATQ/CoralHelm");
+const CoralHelmBase = require("../setME4/CoralHelm");
 
 class CoralHelm extends CoralHelmBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FreewindEquenautBase = require("../setDDL/FreewindEquenaut");
 
-class FreewindEquenaut extends UnimplementedCard {
+class FreewindEquenaut extends FreewindEquenautBase {
   constructor (game) {
     super(game, "Freewind Equenaut", "Dissension", "DIS");
   }

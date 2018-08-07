@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlazeofGloryBase = require("../setCED/BlazeofGlory");
+const BlazeofGloryBase = require("../setME4/BlazeofGlory");
 
 class BlazeofGlory extends BlazeofGloryBase {
   constructor (game) {

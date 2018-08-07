@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WhirlwindBase = require("../setCMA/Whirlwind");
 
-class Whirlwind extends UnimplementedCard {
+class Whirlwind extends WhirlwindBase {
   constructor (game) {
     super(game, "Whirlwind", "Commander 2014", "C14");
   }

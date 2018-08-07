@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForbiddingWatchtowerBase = require("../set10E/ForbiddingWatchtower");
+const ForbiddingWatchtowerBase = require("../setTD2/ForbiddingWatchtower");
 
 class ForbiddingWatchtower extends ForbiddingWatchtowerBase {
   constructor (game) {

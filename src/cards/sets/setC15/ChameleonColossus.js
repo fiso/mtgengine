@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChameleonColossusBase = require("../setARC/ChameleonColossus");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ChameleonColossus extends ChameleonColossusBase {
+class ChameleonColossus extends UnimplementedCard {
   constructor (game) {
     super(game, "Chameleon Colossus", "Commander 2015", "C15");
   }

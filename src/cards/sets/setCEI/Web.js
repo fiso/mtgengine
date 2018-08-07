@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WebBase = require("../setCED/Web");
+const WebBase = require("../set9ED/Web");
 
 class Web extends WebBase {
   constructor (game) {
-    super(game, "Web", "International Collector's Edition", "CEI");
+    super(game, "Web", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

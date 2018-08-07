@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BlazeofGloryBase = require("../setME4/BlazeofGlory");
 
-class BlazeofGlory extends UnimplementedCard {
+class BlazeofGlory extends BlazeofGloryBase {
   constructor (game) {
-    super(game, "Blaze of Glory", "Collector's Edition", "CED");
+    super(game, "Blaze of Glory", "Collectors’ Edition", "CED");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AuratouchedMageBase = require("../setPC2/AuratouchedMage");
+const AuratouchedMageBase = require("../setPCA/AuratouchedMage");
 
 class AuratouchedMage extends AuratouchedMageBase {
   constructor (game) {

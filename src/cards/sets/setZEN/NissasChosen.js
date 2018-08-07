@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NissasChosenBase = require("../setpWPN/NissasChosen");
+const NissasChosenBase = require("../setDDR/NissasChosen");
 
 class NissasChosen extends NissasChosenBase {
   constructor (game) {

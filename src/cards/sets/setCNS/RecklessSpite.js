@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecklessSpiteBase = require("../setC13/RecklessSpite");
+const RecklessSpiteBase = require("../setE01/RecklessSpite");
 
 class RecklessSpite extends RecklessSpiteBase {
   constructor (game) {
-    super(game, "Reckless Spite", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Reckless Spite", "Conspiracy", "CNS");
   }
 }
 

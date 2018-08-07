@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PenumbraSpiderBase = require("../setCMD/PenumbraSpider");
+const PenumbraSpiderBase = require("../setMM3/PenumbraSpider");
 
 class PenumbraSpider extends PenumbraSpiderBase {
   constructor (game) {
-    super(game, "Penumbra Spider", "Planechase 2012 Edition", "PC2");
+    super(game, "Penumbra Spider", "Planechase 2012", "PC2");
   }
 }
 

@@ -4,7 +4,7 @@ const RakdosGuildmageBase = require("../setARC/RakdosGuildmage");
 
 class RakdosGuildmage extends RakdosGuildmageBase {
   constructor (game) {
-    super(game, "Rakdos Guildmage", "Champs and States", "pCMP");
+    super(game, "Rakdos Guildmage", "Champs and States", "PCMP");
   }
 }
 

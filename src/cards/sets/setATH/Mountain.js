@@ -1,16 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const Card = require("../../../objects/Card");
+const MountainBase = require("../setC18/Mountain");
 
-class Mountain extends Card {
+class Mountain extends MountainBase {
   constructor (game) {
     super(game, "Mountain", "Anthologies", "ATH");
-
-    this.addAbility(
-      [],
-      (controller, modes, targets, parameters) => {
-        controller.addToManaPool(Constants.manaTypes.RED, 1);
-      }, true);
   }
 }
 

@@ -4,7 +4,7 @@ const SuddenShockBase = require("../setMMA/SuddenShock");
 
 class SuddenShock extends SuddenShockBase {
   constructor (game) {
-    super(game, "Sudden Shock", "Release Events", "pREL");
+    super(game, "Sudden Shock", "Release Events", "PREL");
   }
 }
 

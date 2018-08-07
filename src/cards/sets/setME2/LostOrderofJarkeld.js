@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LostOrderofJarkeldBase = require("../setICE/LostOrderofJarkeld");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LostOrderofJarkeld extends LostOrderofJarkeldBase {
+class LostOrderofJarkeld extends UnimplementedCard {
   constructor (game) {
     super(game, "Lost Order of Jarkeld", "Masters Edition II", "ME2");
   }

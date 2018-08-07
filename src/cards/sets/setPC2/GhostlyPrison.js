@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GhostlyPrisonBase = require("../setCHK/GhostlyPrison");
+const GhostlyPrisonBase = require("../setPCA/GhostlyPrison");
 
 class GhostlyPrison extends GhostlyPrisonBase {
   constructor (game) {
-    super(game, "Ghostly Prison", "Planechase 2012 Edition", "PC2");
+    super(game, "Ghostly Prison", "Planechase 2012", "PC2");
   }
 }
 

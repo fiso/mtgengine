@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CelestialColonnadeBase = require("../setpMEI/CelestialColonnade");
+const CelestialColonnadeBase = require("../setPWWK/CelestialColonnade");
 
 class CelestialColonnade extends CelestialColonnadeBase {
   constructor (game) {

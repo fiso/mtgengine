@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GoblinLackeyBase = require("../setVMA/GoblinLackey");
 
-class GoblinLackey extends UnimplementedCard {
+class GoblinLackey extends GoblinLackeyBase {
   constructor (game) {
     super(game, "Goblin Lackey", "From the Vault: Exiled", "V09");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InsidiousBookwormsBase = require("../setALL/InsidiousBookworms");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class InsidiousBookworms extends InsidiousBookwormsBase {
+class InsidiousBookworms extends UnimplementedCard {
   constructor (game) {
     super(game, "Insidious Bookworms", "Coldsnap Theme Decks", "CST");
   }

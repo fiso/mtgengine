@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DryadMilitantBase = require("../setpMGD/DryadMilitant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DryadMilitant extends DryadMilitantBase {
+class DryadMilitant extends UnimplementedCard {
   constructor (game) {
     super(game, "Dryad Militant", "Return to Ravnica", "RTR");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SanguineBondBase = require("../setIMA/SanguineBond");
 
-class SanguineBond extends UnimplementedCard {
+class SanguineBond extends SanguineBondBase {
   constructor (game) {
-    super(game, "Sanguine Bond", "Commander 2013 Edition", "C13");
+    super(game, "Sanguine Bond", "Commander 2013", "C13");
   }
 }
 

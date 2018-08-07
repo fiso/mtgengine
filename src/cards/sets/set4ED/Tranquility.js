@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TranquilityBase = require("../setBRB/Tranquility");
+const TranquilityBase = require("../setTPR/Tranquility");
 
 class Tranquility extends TranquilityBase {
   constructor (game) {

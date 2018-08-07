@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VigeanGraftmageBase = require("../setDIS/VigeanGraftmage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VigeanGraftmage extends VigeanGraftmageBase {
+class VigeanGraftmage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Vigean Graftmage", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Vigean Graftmage", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DiminishBase = require("../setIMA/Diminish");
 
-class Diminish extends UnimplementedCard {
+class Diminish extends DiminishBase {
   constructor (game) {
     super(game, "Diminish", "Magic 2011", "M11");
   }

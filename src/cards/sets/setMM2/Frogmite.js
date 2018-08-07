@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FrogmiteBase = require("../setDDF/Frogmite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Frogmite extends FrogmiteBase {
+class Frogmite extends UnimplementedCard {
   constructor (game) {
-    super(game, "Frogmite", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Frogmite", "Modern Masters 2015", "MM2");
   }
 }
 

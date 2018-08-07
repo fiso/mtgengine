@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SerraAviaryBase = require("../setHML/SerraAviary");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SerraAviary extends SerraAviaryBase {
+class SerraAviary extends UnimplementedCard {
   constructor (game) {
     super(game, "Serra Aviary", "Masters Edition IV", "ME4");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StampedingWildebeestsBase = require("../setDD3_GVL/StampedingWildebeests");
+const StampedingWildebeestsBase = require("../setGVL/StampedingWildebeests");
 
 class StampedingWildebeests extends StampedingWildebeestsBase {
   constructor (game) {

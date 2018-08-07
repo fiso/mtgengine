@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SuntailHawkBase = require("../setM14/SuntailHawk");
 
-class SuntailHawk extends UnimplementedCard {
+class SuntailHawk extends SuntailHawkBase {
   constructor (game) {
     super(game, "Suntail Hawk", "Eighth Edition", "8ED");
   }

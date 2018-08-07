@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VampireNighthawkBase = require("../setC13/VampireNighthawk");
+const VampireNighthawkBase = require("../setE02/VampireNighthawk");
 
 class VampireNighthawk extends VampireNighthawkBase {
   constructor (game) {

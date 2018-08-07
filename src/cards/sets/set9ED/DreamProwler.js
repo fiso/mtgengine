@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DreamProwlerBase = require("../setTPR/DreamProwler");
 
-class DreamProwler extends UnimplementedCard {
+class DreamProwler extends DreamProwlerBase {
   constructor (game) {
     super(game, "Dream Prowler", "Ninth Edition", "9ED");
   }

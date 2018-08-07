@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SwordstoPlowsharesBase = require("../setATH/SwordstoPlowshares");
+const SwordstoPlowsharesBase = require("../setBBD/SwordstoPlowshares");
 
 class SwordstoPlowshares extends SwordstoPlowsharesBase {
   constructor (game) {
-    super(game, "Swords to Plowshares", "Collector's Edition", "CED");
+    super(game, "Swords to Plowshares", "Collectors’ Edition", "CED");
   }
 }
 

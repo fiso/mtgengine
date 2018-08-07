@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IbHalfheartGoblinTacticianBase = require("../setDD3_EVG/IbHalfheartGoblinTactician");
+const IbHalfheartGoblinTacticianBase = require("../setEVG/IbHalfheartGoblinTactician");
 
 class IbHalfheartGoblinTactician extends IbHalfheartGoblinTacticianBase {
   constructor (game) {

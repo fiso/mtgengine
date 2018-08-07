@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ObeliskofUndoingBase = require("../setATQ/ObeliskofUndoing");
+const ObeliskofUndoingBase = require("../setME4/ObeliskofUndoing");
 
 class ObeliskofUndoing extends ObeliskofUndoingBase {
   constructor (game) {

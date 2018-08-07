@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FreshMeatBase = require("../setC14/FreshMeat");
+const FreshMeatBase = require("../setCMA/FreshMeat");
 
 class FreshMeat extends FreshMeatBase {
   constructor (game) {

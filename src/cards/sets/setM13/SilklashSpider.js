@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SilklashSpiderBase = require("../setC13/SilklashSpider");
+const SilklashSpiderBase = require("../setCMA/SilklashSpider");
 
 class SilklashSpider extends SilklashSpiderBase {
   constructor (game) {

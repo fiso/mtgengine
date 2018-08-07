@@ -4,7 +4,7 @@ const AfterlifeBase = require("../setC14/Afterlife");
 
 class Afterlife extends AfterlifeBase {
   constructor (game) {
-    super(game, "Afterlife", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Afterlife", "Commander 2011", "CMD");
   }
 }
 

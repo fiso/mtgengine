@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OvertakerBase = require("../setMMQ/Overtaker");
+const OvertakerBase = require("../setPRM/Overtaker");
 
 class Overtaker extends OvertakerBase {
   constructor (game) {
-    super(game, "Overtaker", "Prerelease Events", "pPRE");
+    super(game, "Overtaker", "Prerelease Events", "PPRE");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExcludeBase = require("../setC14/Exclude");
+const ExcludeBase = require("../setA25/Exclude");
 
 class Exclude extends ExcludeBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrassclawOrcsBase = require("../setFEM/BrassclawOrcs");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BrassclawOrcs extends BrassclawOrcsBase {
+class BrassclawOrcs extends UnimplementedCard {
   constructor (game) {
     super(game, "Brassclaw Orcs", "Masters Edition II", "ME2");
   }

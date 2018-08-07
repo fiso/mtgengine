@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PetraSphinxBase = require("../setCHR/PetraSphinx");
+const PetraSphinxBase = require("../setMED/PetraSphinx");
 
 class PetraSphinx extends PetraSphinxBase {
   constructor (game) {

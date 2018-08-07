@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReconstructionBase = require("../setME4/Reconstruction");
 
-class Reconstruction extends UnimplementedCard {
+class Reconstruction extends ReconstructionBase {
   constructor (game) {
     super(game, "Reconstruction", "Antiquities", "ATQ");
   }

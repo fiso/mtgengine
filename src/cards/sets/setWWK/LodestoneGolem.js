@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LodestoneGolemBase = require("../setARC/LodestoneGolem");
+const LodestoneGolemBase = require("../setMM2/LodestoneGolem");
 
 class LodestoneGolem extends LodestoneGolemBase {
   constructor (game) {

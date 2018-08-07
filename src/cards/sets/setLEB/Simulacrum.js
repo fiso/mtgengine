@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimulacrumBase = require("../setCED/Simulacrum");
+const SimulacrumBase = require("../set4ED/Simulacrum");
 
 class Simulacrum extends SimulacrumBase {
   constructor (game) {

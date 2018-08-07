@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ClayStatueBase = require("../setATQ/ClayStatue");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ClayStatue extends ClayStatueBase {
+class ClayStatue extends UnimplementedCard {
   constructor (game) {
     super(game, "Clay Statue", "Masters Edition IV", "ME4");
   }

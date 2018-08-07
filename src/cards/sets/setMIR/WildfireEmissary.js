@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildfireEmissaryBase = require("../setBRB/WildfireEmissary");
+const WildfireEmissaryBase = require("../setEMA/WildfireEmissary");
 
 class WildfireEmissary extends WildfireEmissaryBase {
   constructor (game) {

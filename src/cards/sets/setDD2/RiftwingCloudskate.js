@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RiftwingCloudskateBase = require("../setDD3_JVC/RiftwingCloudskate");
+const RiftwingCloudskateBase = require("../setJVC/RiftwingCloudskate");
 
 class RiftwingCloudskate extends RiftwingCloudskateBase {
   constructor (game) {

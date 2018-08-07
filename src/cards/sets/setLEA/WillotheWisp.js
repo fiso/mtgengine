@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WillotheWispBase = require("../setCED/WillotheWisp");
+const WillotheWispBase = require("../setA25/WillotheWisp");
 
 class WillotheWisp extends WillotheWispBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ValorMadeRealBase = require("../setDIS/ValorMadeReal");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ValorMadeReal extends ValorMadeRealBase {
+class ValorMadeReal extends UnimplementedCard {
   constructor (game) {
-    super(game, "Valor Made Real", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Valor Made Real", "Conspiracy", "CNS");
   }
 }
 

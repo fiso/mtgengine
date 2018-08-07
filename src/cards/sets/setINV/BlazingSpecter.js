@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlazingSpecterBase = require("../setDDH/BlazingSpecter");
+const BlazingSpecterBase = require("../setVMA/BlazingSpecter");
 
 class BlazingSpecter extends BlazingSpecterBase {
   constructor (game) {

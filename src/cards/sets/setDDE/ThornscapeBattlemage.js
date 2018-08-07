@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThornscapeBattlemageBase = require("../setMM3/ThornscapeBattlemage");
 
-class ThornscapeBattlemage extends UnimplementedCard {
+class ThornscapeBattlemage extends ThornscapeBattlemageBase {
   constructor (game) {
     super(game, "Thornscape Battlemage", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

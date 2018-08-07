@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FalseDemiseBase = require("../setMMQ/FalseDemise");
 
-class FalseDemise extends UnimplementedCard {
+class FalseDemise extends FalseDemiseBase {
   constructor (game) {
     super(game, "False Demise", "Alliances", "ALL");
   }

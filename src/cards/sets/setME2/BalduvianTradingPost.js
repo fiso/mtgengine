@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BalduvianTradingPostBase = require("../setALL/BalduvianTradingPost");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BalduvianTradingPost extends BalduvianTradingPostBase {
+class BalduvianTradingPost extends UnimplementedCard {
   constructor (game) {
     super(game, "Balduvian Trading Post", "Masters Edition II", "ME2");
   }

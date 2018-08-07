@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CadaverImpBase = require("../setPCA/CadaverImp");
 
-class CadaverImp extends UnimplementedCard {
+class CadaverImp extends CadaverImpBase {
   constructor (game) {
     super(game, "Cadaver Imp", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

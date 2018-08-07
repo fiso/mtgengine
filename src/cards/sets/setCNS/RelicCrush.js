@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RelicCrushBase = require("../setCMD/RelicCrush");
+const RelicCrushBase = require("../setCM2/RelicCrush");
 
 class RelicCrush extends RelicCrushBase {
   constructor (game) {
-    super(game, "Relic Crush", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Relic Crush", "Conspiracy", "CNS");
   }
 }
 

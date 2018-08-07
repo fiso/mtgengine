@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrizzlyFateBase = require("../setJUD/GrizzlyFate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GrizzlyFate extends GrizzlyFateBase {
+class GrizzlyFate extends UnimplementedCard {
   constructor (game) {
     super(game, "Grizzly Fate", "Vintage Masters", "VMA");
   }

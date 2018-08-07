@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SageofLatNamBase = require("../setATQ/SageofLatNam");
+const SageofLatNamBase = require("../setDOM/SageofLatNam");
 
 class SageofLatNam extends SageofLatNamBase {
   constructor (game) {

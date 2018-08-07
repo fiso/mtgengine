@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NobilisofWarBase = require("../setDDL/NobilisofWar");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NobilisofWar extends NobilisofWarBase {
+class NobilisofWar extends UnimplementedCard {
   constructor (game) {
-    super(game, "Nobilis of War", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Nobilis of War", "Modern Masters 2015", "MM2");
   }
 }
 

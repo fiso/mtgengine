@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CyclonicRiftBase = require("../setC14/CyclonicRift");
+const CyclonicRiftBase = require("../setMM3/CyclonicRift");
 
 class CyclonicRift extends CyclonicRiftBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TradeRoutesBase = require("../set8ED/TradeRoutes");
+const TradeRoutesBase = require("../set9ED/TradeRoutes");
 
 class TradeRoutes extends TradeRoutesBase {
   constructor (game) {

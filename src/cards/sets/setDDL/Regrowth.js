@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RegrowthBase = require("../setCED/Regrowth");
+const RegrowthBase = require("../setA25/Regrowth");
 
 class Regrowth extends RegrowthBase {
   constructor (game) {

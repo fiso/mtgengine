@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StratusWalkBase = require("../setBNG/StratusWalk");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StratusWalk extends StratusWalkBase {
+class StratusWalk extends UnimplementedCard {
   constructor (game) {
     super(game, "Stratus Walk", "Magic Origins", "ORI");
   }

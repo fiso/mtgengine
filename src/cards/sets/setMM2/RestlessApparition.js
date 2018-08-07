@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RestlessApparitionBase = require("../setEVE/RestlessApparition");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RestlessApparition extends RestlessApparitionBase {
+class RestlessApparition extends UnimplementedCard {
   constructor (game) {
-    super(game, "Restless Apparition", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Restless Apparition", "Modern Masters 2015", "MM2");
   }
 }
 

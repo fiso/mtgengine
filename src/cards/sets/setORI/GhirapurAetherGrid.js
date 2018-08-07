@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class GhirapurAetherGrid extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ghirapur Æther Grid", "Magic Origins", "ORI");
+    super(game, "Ghirapur Aether Grid", "Magic Origins", "ORI");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrowbeatBase = require("../setDDK/Browbeat");
+const BrowbeatBase = require("../setA25/Browbeat");
 
 class Browbeat extends BrowbeatBase {
   constructor (game) {
-    super(game, "Browbeat", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Browbeat", "Time Spiral Timeshifted", "TSB");
   }
 }
 

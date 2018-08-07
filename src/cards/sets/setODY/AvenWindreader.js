@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AvenWindreaderBase = require("../set9ED/AvenWindreader");
+const AvenWindreaderBase = require("../set10E/AvenWindreader");
 
 class AvenWindreader extends AvenWindreaderBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EvernightShadeBase = require("../setC14/EvernightShade");
 
-class EvernightShade extends UnimplementedCard {
+class EvernightShade extends EvernightShadeBase {
   constructor (game) {
     super(game, "Evernight Shade", "Avacyn Restored", "AVR");
   }

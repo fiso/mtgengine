@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MycolothBase = require("../setC15/Mycoloth");
+const MycolothBase = require("../setCMA/Mycoloth");
 
 class Mycoloth extends MycolothBase {
   constructor (game) {
-    super(game, "Mycoloth", "Planechase 2012 Edition", "PC2");
+    super(game, "Mycoloth", "Planechase 2012", "PC2");
   }
 }
 

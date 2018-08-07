@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KikiJikiMirrorBreakerBase = require("../setCHK/KikiJikiMirrorBreaker");
+const KikiJikiMirrorBreakerBase = require("../setIMA/KikiJikiMirrorBreaker");
 
 class KikiJikiMirrorBreaker extends KikiJikiMirrorBreakerBase {
   constructor (game) {

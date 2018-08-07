@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForkBase = require("../setCED/Fork");
+const ForkBase = require("../setME4/Fork");
 
 class Fork extends ForkBase {
   constructor (game) {

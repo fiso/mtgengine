@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReversePolarityBase = require("../setATQ/ReversePolarity");
+const ReversePolarityBase = require("../setSUM/ReversePolarity");
 
 class ReversePolarity extends ReversePolarityBase {
   constructor (game) {

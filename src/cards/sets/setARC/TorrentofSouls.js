@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TorrentofSoulsBase = require("../setMM3/TorrentofSouls");
 
-class TorrentofSouls extends UnimplementedCard {
+class TorrentofSouls extends TorrentofSoulsBase {
   constructor (game) {
     super(game, "Torrent of Souls", "Archenemy", "ARC");
   }

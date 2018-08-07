@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConfiscateBase = require("../set8ED/Confiscate");
+const ConfiscateBase = require("../setTD0/Confiscate");
 
 class Confiscate extends ConfiscateBase {
   constructor (game) {

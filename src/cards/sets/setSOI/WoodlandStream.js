@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WoodlandStreamBase = require("../setC18/WoodlandStream");
 
-class WoodlandStream extends UnimplementedCard {
+class WoodlandStream extends WoodlandStreamBase {
   constructor (game) {
     super(game, "Woodland Stream", "Shadows over Innistrad", "SOI");
   }

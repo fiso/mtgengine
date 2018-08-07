@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrystallineSliverBase = require("../setpFNM/CrystallineSliver");
+const CrystallineSliverBase = require("../setTPR/CrystallineSliver");
 
 class CrystallineSliver extends CrystallineSliverBase {
   constructor (game) {

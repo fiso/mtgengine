@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DwarvenDemolitionTeamBase = require("../setCED/DwarvenDemolitionTeam");
+const DwarvenDemolitionTeamBase = require("../set8ED/DwarvenDemolitionTeam");
 
 class DwarvenDemolitionTeam extends DwarvenDemolitionTeamBase {
   constructor (game) {
-    super(game, "Dwarven Demolition Team", "International Collector's Edition", "CEI");
+    super(game, "Dwarven Demolition Team", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

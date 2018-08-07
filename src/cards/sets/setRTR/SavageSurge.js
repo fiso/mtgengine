@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SavageSurgeBase = require("../setTHS/SavageSurge");
 
-class SavageSurge extends UnimplementedCard {
+class SavageSurge extends SavageSurgeBase {
   constructor (game) {
     super(game, "Savage Surge", "Return to Ravnica", "RTR");
   }

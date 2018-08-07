@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BreedingPitBase = require("../setDD3_DVD/BreedingPit");
+const BreedingPitBase = require("../setDVD/BreedingPit");
 
 class BreedingPit extends BreedingPitBase {
   constructor (game) {

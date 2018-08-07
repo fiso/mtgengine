@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NaturesSpiralBase = require("../setDOM/NaturesSpiral");
 
-class NaturesSpiral extends UnimplementedCard {
+class NaturesSpiral extends NaturesSpiralBase {
   constructor (game) {
     super(game, "Nature's Spiral", "Duels of the Planeswalkers", "DPA");
   }

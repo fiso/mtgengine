@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GroundbreakerBase = require("../setPLC/Groundbreaker");
 
-class Groundbreaker extends UnimplementedCard {
+class Groundbreaker extends GroundbreakerBase {
   constructor (game) {
-    super(game, "Groundbreaker", "Champs and States", "pCMP");
+    super(game, "Groundbreaker", "Champs and States", "PCMP");
   }
 }
 

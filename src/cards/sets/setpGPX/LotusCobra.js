@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LotusCobraBase = require("../setIMA/LotusCobra");
 
-class LotusCobra extends UnimplementedCard {
+class LotusCobra extends LotusCobraBase {
   constructor (game) {
-    super(game, "Lotus Cobra", "Grand Prix", "pGPX");
+    super(game, "Lotus Cobra", "Grand Prix Promos", "PGPX");
   }
 }
 

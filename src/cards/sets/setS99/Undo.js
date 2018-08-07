@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UndoBase = require("../setPO2/Undo");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Undo extends UndoBase {
+class Undo extends UnimplementedCard {
   constructor (game) {
     super(game, "Undo", "Starter 1999", "S99");
   }

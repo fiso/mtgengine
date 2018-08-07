@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnightlyValorBase = require("../setORI/KnightlyValor");
+const KnightlyValorBase = require("../setM19/KnightlyValor");
 
 class KnightlyValor extends KnightlyValorBase {
   constructor (game) {

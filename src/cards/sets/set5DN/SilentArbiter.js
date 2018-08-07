@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SilentArbiterBase = require("../setCNS/SilentArbiter");
 
-class SilentArbiter extends UnimplementedCard {
+class SilentArbiter extends SilentArbiterBase {
   constructor (game) {
     super(game, "Silent Arbiter", "Fifth Dawn", "5DN");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StaffoftheMindMagusBase = require("../setM14/StaffoftheMindMagus");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StaffoftheMindMagus extends StaffoftheMindMagusBase {
+class StaffoftheMindMagus extends UnimplementedCard {
   constructor (game) {
-    super(game, "Staff of the Mind Magus", "Magic 2015 Core Set", "M15");
+    super(game, "Staff of the Mind Magus", "Magic 2015", "M15");
   }
 }
 

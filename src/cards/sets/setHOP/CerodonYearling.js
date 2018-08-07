@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CerodonYearlingBase = require("../setARB/CerodonYearling");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CerodonYearling extends CerodonYearlingBase {
+class CerodonYearling extends UnimplementedCard {
   constructor (game) {
     super(game, "Cerodon Yearling", "Planechase", "HOP");
   }

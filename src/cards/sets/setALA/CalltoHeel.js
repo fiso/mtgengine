@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CalltoHeelBase = require("../setDDJ/CalltoHeel");
+const CalltoHeelBase = require("../setBBD/CalltoHeel");
 
 class CalltoHeel extends CalltoHeelBase {
   constructor (game) {

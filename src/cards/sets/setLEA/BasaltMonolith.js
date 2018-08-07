@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BasaltMonolithBase = require("../setCED/BasaltMonolith");
+const BasaltMonolithBase = require("../setCM2/BasaltMonolith");
 
 class BasaltMonolith extends BasaltMonolithBase {
   constructor (game) {

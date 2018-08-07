@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RubiniaSoulsingerBase = require("../setCHR/RubiniaSoulsinger");
+const RubiniaSoulsingerBase = require("../setCMA/RubiniaSoulsinger");
 
 class RubiniaSoulsinger extends RubiniaSoulsingerBase {
   constructor (game) {
-    super(game, "Rubinia Soulsinger", "Commander 2013 Edition", "C13");
+    super(game, "Rubinia Soulsinger", "Commander 2013", "C13");
   }
 }
 

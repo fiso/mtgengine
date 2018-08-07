@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaMatrixBase = require("../setLEG/ManaMatrix");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ManaMatrix extends ManaMatrixBase {
+class ManaMatrix extends UnimplementedCard {
   constructor (game) {
     super(game, "Mana Matrix", "Masters Edition IV", "ME4");
   }

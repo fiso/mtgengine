@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VolunteerMilitiaBase = require("../setPO2/VolunteerMilitia");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VolunteerMilitia extends VolunteerMilitiaBase {
+class VolunteerMilitia extends UnimplementedCard {
   constructor (game) {
     super(game, "Volunteer Militia", "Portal Three Kingdoms", "PTK");
   }

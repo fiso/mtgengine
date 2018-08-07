@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlametongueKavuBase = require("../setC14/FlametongueKavu");
+const FlametongueKavuBase = require("../setCM2/FlametongueKavu");
 
 class FlametongueKavu extends FlametongueKavuBase {
   constructor (game) {
-    super(game, "Flametongue Kavu", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Flametongue Kavu", "Commander 2011", "CMD");
   }
 }
 

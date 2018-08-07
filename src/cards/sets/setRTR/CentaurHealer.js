@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CentaurHealerBase = require("../setBBD/CentaurHealer");
 
-class CentaurHealer extends UnimplementedCard {
+class CentaurHealer extends CentaurHealerBase {
   constructor (game) {
     super(game, "Centaur Healer", "Return to Ravnica", "RTR");
   }

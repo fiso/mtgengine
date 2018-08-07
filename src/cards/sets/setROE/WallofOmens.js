@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WallofOmensBase = require("../setDDK/WallofOmens");
+const WallofOmensBase = require("../setEMA/WallofOmens");
 
 class WallofOmens extends WallofOmensBase {
   constructor (game) {

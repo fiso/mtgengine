@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BonesplitterBase = require("../setpARL/Bonesplitter");
+const BonesplitterBase = require("../setMMA/Bonesplitter");
 
 class Bonesplitter extends BonesplitterBase {
   constructor (game) {

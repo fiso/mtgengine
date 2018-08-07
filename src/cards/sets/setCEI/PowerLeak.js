@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PowerLeakBase = require("../setCED/PowerLeak");
+const PowerLeakBase = require("../set4ED/PowerLeak");
 
 class PowerLeak extends PowerLeakBase {
   constructor (game) {
-    super(game, "Power Leak", "International Collector's Edition", "CEI");
+    super(game, "Power Leak", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

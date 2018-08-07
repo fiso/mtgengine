@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReprocessBase = require("../setTD2/Reprocess");
 
-class Reprocess extends UnimplementedCard {
+class Reprocess extends ReprocessBase {
   constructor (game) {
     super(game, "Reprocess", "Seventh Edition", "7ED");
   }

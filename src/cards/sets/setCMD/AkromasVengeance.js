@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AkromasVengeanceBase = require("../setV13/AkromasVengeance");
+const AkromasVengeanceBase = require("../setC18/AkromasVengeance");
 
 class AkromasVengeance extends AkromasVengeanceBase {
   constructor (game) {
-    super(game, "Akroma's Vengeance", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Akroma's Vengeance", "Commander 2011", "CMD");
   }
 }
 

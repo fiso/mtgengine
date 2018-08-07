@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlowUnderBase = require("../set8ED/PlowUnder");
+const PlowUnderBase = require("../setWC04/PlowUnder");
 
 class PlowUnder extends PlowUnderBase {
   constructor (game) {

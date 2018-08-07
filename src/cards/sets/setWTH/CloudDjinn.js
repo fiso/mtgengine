@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CloudDjinnBase = require("../setBTD/CloudDjinn");
+const CloudDjinnBase = require("../setVMA/CloudDjinn");
 
 class CloudDjinn extends CloudDjinnBase {
   constructor (game) {

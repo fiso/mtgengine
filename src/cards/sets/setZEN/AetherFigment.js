@@ -4,7 +4,7 @@ const AetherFigmentBase = require("../setDDM/AetherFigment");
 
 class AetherFigment extends AetherFigmentBase {
   constructor (game) {
-    super(game, "Æther Figment", "Zendikar", "ZEN");
+    super(game, "Aether Figment", "Zendikar", "ZEN");
   }
 }
 

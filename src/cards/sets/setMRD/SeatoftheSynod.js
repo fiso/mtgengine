@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeatoftheSynodBase = require("../setDDF/SeatoftheSynod");
+const SeatoftheSynodBase = require("../setC18/SeatoftheSynod");
 
 class SeatoftheSynod extends SeatoftheSynodBase {
   constructor (game) {

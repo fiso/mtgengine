@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AncestralRecallBase = require("../setCED/AncestralRecall");
+const AncestralRecallBase = require("../setVMA/AncestralRecall");
 
 class AncestralRecall extends AncestralRecallBase {
   constructor (game) {
-    super(game, "Ancestral Recall", "International Collector's Edition", "CEI");
+    super(game, "Ancestral Recall", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

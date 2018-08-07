@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NettlingImpBase = require("../setCED/NettlingImp");
+const NettlingImpBase = require("../setSUM/NettlingImp");
 
 class NettlingImp extends NettlingImpBase {
   constructor (game) {

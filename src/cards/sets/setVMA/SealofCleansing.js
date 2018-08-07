@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SealofCleansingBase = require("../setC15/SealofCleansing");
+const SealofCleansingBase = require("../setEMA/SealofCleansing");
 
 class SealofCleansing extends SealofCleansingBase {
   constructor (game) {

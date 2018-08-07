@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunwebBase = require("../set6ED/Sunweb");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Sunweb extends SunwebBase {
+class Sunweb extends UnimplementedCard {
   constructor (game) {
     super(game, "Sunweb", "Eighth Edition", "8ED");
   }

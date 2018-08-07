@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LichBase = require("../setCED/Lich");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Lich extends LichBase {
+class Lich extends UnimplementedCard {
   constructor (game) {
     super(game, "Lich", "Masters Edition IV", "ME4");
   }

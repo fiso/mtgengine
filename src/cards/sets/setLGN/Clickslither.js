@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ClickslitherBase = require("../setDD3_EVG/Clickslither");
+const ClickslitherBase = require("../setEVG/Clickslither");
 
 class Clickslither extends ClickslitherBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecallBase = require("../setCHR/Recall");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Recall extends RecallBase {
+class Recall extends UnimplementedCard {
   constructor (game) {
     super(game, "Recall", "Masters Edition III", "ME3");
   }

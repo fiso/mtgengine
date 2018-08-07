@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HowloftheNightPackBase = require("../setDPA/HowloftheNightPack");
+const HowloftheNightPackBase = require("../setM14/HowloftheNightPack");
 
 class HowloftheNightPack extends HowloftheNightPackBase {
   constructor (game) {

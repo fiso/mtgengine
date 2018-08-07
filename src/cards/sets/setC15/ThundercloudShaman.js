@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThundercloudShamanBase = require("../setCM2/ThundercloudShaman");
 
-class ThundercloudShaman extends UnimplementedCard {
+class ThundercloudShaman extends ThundercloudShamanBase {
   constructor (game) {
     super(game, "Thundercloud Shaman", "Commander 2015", "C15");
   }

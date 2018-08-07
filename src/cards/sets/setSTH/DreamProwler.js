@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreamProwlerBase = require("../set9ED/DreamProwler");
+const DreamProwlerBase = require("../setTPR/DreamProwler");
 
 class DreamProwler extends DreamProwlerBase {
   constructor (game) {

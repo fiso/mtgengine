@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KjeldoranPrideBase = require("../setCST/KjeldoranPride");
 
-class KjeldoranPride extends UnimplementedCard {
+class KjeldoranPride extends KjeldoranPrideBase {
   constructor (game) {
     super(game, "Kjeldoran Pride", "Alliances", "ALL");
   }

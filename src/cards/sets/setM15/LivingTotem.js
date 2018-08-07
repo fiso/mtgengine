@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class LivingTotem extends UnimplementedCard {
   constructor (game) {
-    super(game, "Living Totem", "Magic 2015 Core Set", "M15");
+    super(game, "Living Totem", "Magic 2015", "M15");
   }
 }
 

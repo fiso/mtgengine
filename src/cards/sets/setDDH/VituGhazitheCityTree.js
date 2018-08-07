@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VituGhazitheCityTreeBase = require("../setARC/VituGhazitheCityTree");
+const VituGhazitheCityTreeBase = require("../setPCA/VituGhazitheCityTree");
 
 class VituGhazitheCityTree extends VituGhazitheCityTreeBase {
   constructor (game) {

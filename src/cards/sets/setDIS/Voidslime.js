@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoidslimeBase = require("../setpCMP/Voidslime");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Voidslime extends VoidslimeBase {
+class Voidslime extends UnimplementedCard {
   constructor (game) {
     super(game, "Voidslime", "Dissension", "DIS");
   }

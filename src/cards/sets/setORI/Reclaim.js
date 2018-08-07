@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReclaimBase = require("../setEXO/Reclaim");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Reclaim extends ReclaimBase {
+class Reclaim extends UnimplementedCard {
   constructor (game) {
     super(game, "Reclaim", "Magic Origins", "ORI");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EmperorCrocodileBase = require("../set8ED/EmperorCrocodile");
+const EmperorCrocodileBase = require("../setEMA/EmperorCrocodile");
 
 class EmperorCrocodile extends EmperorCrocodileBase {
   constructor (game) {

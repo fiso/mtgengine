@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TornadoElementalBase = require("../setC14/TornadoElemental");
+const TornadoElementalBase = require("../setCMA/TornadoElemental");
 
 class TornadoElemental extends TornadoElementalBase {
   constructor (game) {

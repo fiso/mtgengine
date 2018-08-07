@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OblivionRingBase = require("../setARC/OblivionRing");
+const OblivionRingBase = require("../setMM2/OblivionRing");
 
 class OblivionRing extends OblivionRingBase {
   constructor (game) {

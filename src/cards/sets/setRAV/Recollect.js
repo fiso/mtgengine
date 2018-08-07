@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecollectBase = require("../setpMPR/Recollect");
+const RecollectBase = require("../setM19/Recollect");
 
 class Recollect extends RecollectBase {
   constructor (game) {

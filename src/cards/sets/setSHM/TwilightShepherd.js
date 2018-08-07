@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TwilightShepherdBase = require("../setC14/TwilightShepherd");
+const TwilightShepherdBase = require("../setDVD/TwilightShepherd");
 
 class TwilightShepherd extends TwilightShepherdBase {
   constructor (game) {

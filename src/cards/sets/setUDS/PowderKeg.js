@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PowderKegBase = require("../setpMPR/PowderKeg");
+const PowderKegBase = require("../setP04/PowderKeg");
 
 class PowderKeg extends PowderKegBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WalkeroftheGroveBase = require("../setDDR/WalkeroftheGrove");
 
-class WalkeroftheGrove extends UnimplementedCard {
+class WalkeroftheGrove extends WalkeroftheGroveBase {
   constructor (game) {
-    super(game, "Walker of the Grove", "Commander 2013 Edition", "C13");
+    super(game, "Walker of the Grove", "Commander 2013", "C13");
   }
 }
 

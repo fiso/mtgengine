@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UntamedWildsBase = require("../set6ED/UntamedWilds");
+const UntamedWildsBase = require("../set7ED/UntamedWilds");
 
 class UntamedWilds extends UntamedWildsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BalefulStrixBase = require("../setC13/BalefulStrix");
+const BalefulStrixBase = require("../setE01/BalefulStrix");
 
 class BalefulStrix extends BalefulStrixBase {
   constructor (game) {

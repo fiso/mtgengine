@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VolcanicFalloutBase = require("../setARC/VolcanicFallout");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VolcanicFallout extends VolcanicFalloutBase {
+class VolcanicFallout extends UnimplementedCard {
   constructor (game) {
-    super(game, "Volcanic Fallout", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Volcanic Fallout", "Conspiracy", "CNS");
   }
 }
 

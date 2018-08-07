@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GhorClanRampagerBase = require("../setpFNM/GhorClanRampager");
+const GhorClanRampagerBase = require("../setMM3/GhorClanRampager");
 
 class GhorClanRampager extends GhorClanRampagerBase {
   constructor (game) {

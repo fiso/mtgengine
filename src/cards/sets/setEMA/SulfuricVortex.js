@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SulfuricVortexBase = require("../setDDK/SulfuricVortex");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SulfuricVortex extends SulfuricVortexBase {
+class SulfuricVortex extends UnimplementedCard {
   constructor (game) {
     super(game, "Sulfuric Vortex", "Eternal Masters", "EMA");
   }

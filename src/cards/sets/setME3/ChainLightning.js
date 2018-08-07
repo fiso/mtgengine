@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChainLightningBase = require("../setLEG/ChainLightning");
+const ChainLightningBase = require("../setBBD/ChainLightning");
 
 class ChainLightning extends ChainLightningBase {
   constructor (game) {

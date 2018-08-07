@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ElectrolyzeBase = require("../setIMA/Electrolyze");
 
-class Electrolyze extends UnimplementedCard {
+class Electrolyze extends ElectrolyzeBase {
   constructor (game) {
-    super(game, "Electrolyze", "Champs and States", "pCMP");
+    super(game, "Electrolyze", "Champs and States", "PCMP");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AvoidFateBase = require("../setLEG/AvoidFate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AvoidFate extends AvoidFateBase {
+class AvoidFate extends UnimplementedCard {
   constructor (game) {
-    super(game, "Avoid Fate", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Avoid Fate", "Time Spiral Timeshifted", "TSB");
   }
 }
 

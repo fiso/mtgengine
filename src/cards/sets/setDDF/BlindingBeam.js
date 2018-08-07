@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BlindingBeamBase = require("../setMMA/BlindingBeam");
 
-class BlindingBeam extends UnimplementedCard {
+class BlindingBeam extends BlindingBeamBase {
   constructor (game) {
     super(game, "Blinding Beam", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

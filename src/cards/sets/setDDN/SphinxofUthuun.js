@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SphinxofUthuunBase = require("../setC14/SphinxofUthuun");
+const SphinxofUthuunBase = require("../setC18/SphinxofUthuun");
 
 class SphinxofUthuun extends SphinxofUthuunBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeasonedMarshalBase = require("../setBRB/SeasonedMarshal");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SeasonedMarshal extends SeasonedMarshalBase {
+class SeasonedMarshal extends UnimplementedCard {
   constructor (game) {
     super(game, "Seasoned Marshal", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

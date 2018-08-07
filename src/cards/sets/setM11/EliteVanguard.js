@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EliteVanguardBase = require("../setDDF/EliteVanguard");
+const EliteVanguardBase = require("../setEMA/EliteVanguard");
 
 class EliteVanguard extends EliteVanguardBase {
   constructor (game) {

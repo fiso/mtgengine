@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class GlintHawkIdol extends UnimplementedCard {
   constructor (game) {
-    super(game, "Glint Hawk Idol", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Glint Hawk Idol", "Modern Masters 2015", "MM2");
   }
 }
 

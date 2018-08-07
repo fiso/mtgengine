@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BriarhornBase = require("../setDDH/Briarhorn");
+const BriarhornBase = require("../setDDR/Briarhorn");
 
 class Briarhorn extends BriarhornBase {
   constructor (game) {

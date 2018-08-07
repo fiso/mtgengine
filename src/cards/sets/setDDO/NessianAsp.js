@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NessianAspBase = require("../setCN2/NessianAsp");
 
-class NessianAsp extends UnimplementedCard {
+class NessianAsp extends NessianAspBase {
   constructor (game) {
     super(game, "Nessian Asp", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

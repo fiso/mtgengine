@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArbiterofKnollridgeBase = require("../setC15/ArbiterofKnollridge");
+const ArbiterofKnollridgeBase = require("../setCM2/ArbiterofKnollridge");
 
 class ArbiterofKnollridge extends ArbiterofKnollridgeBase {
   constructor (game) {
-    super(game, "Arbiter of Knollridge", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Arbiter of Knollridge", "Commander 2011", "CMD");
   }
 }
 

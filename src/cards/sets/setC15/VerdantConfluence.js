@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VerdantConfluenceBase = require("../setPZ1/VerdantConfluence");
 
-class VerdantConfluence extends UnimplementedCard {
+class VerdantConfluence extends VerdantConfluenceBase {
   constructor (game) {
     super(game, "Verdant Confluence", "Commander 2015", "C15");
   }

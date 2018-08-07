@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AphettoDredgingBase = require("../setONS/AphettoDredging");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AphettoDredging extends AphettoDredgingBase {
+class AphettoDredging extends UnimplementedCard {
   constructor (game) {
     super(game, "Aphetto Dredging", "Premium Deck Series: Slivers", "H09");
   }

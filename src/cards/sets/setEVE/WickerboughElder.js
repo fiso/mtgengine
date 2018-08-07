@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WickerboughElderBase = require("../setARC/WickerboughElder");
+const WickerboughElderBase = require("../setTD0/WickerboughElder");
 
 class WickerboughElder extends WickerboughElderBase {
   constructor (game) {

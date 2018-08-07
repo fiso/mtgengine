@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BruteForceBase = require("../setMMA/BruteForce");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BruteForce extends BruteForceBase {
+class BruteForce extends UnimplementedCard {
   constructor (game) {
-    super(game, "Brute Force", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Brute Force", "Modern Masters 2015", "MM2");
   }
 }
 

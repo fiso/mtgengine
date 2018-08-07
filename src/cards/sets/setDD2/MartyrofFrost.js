@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MartyrofFrostBase = require("../setCSP/MartyrofFrost");
+const MartyrofFrostBase = require("../setJVC/MartyrofFrost");
 
 class MartyrofFrost extends MartyrofFrostBase {
   constructor (game) {

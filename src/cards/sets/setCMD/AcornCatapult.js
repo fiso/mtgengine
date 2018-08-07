@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class AcornCatapult extends UnimplementedCard {
   constructor (game) {
-    super(game, "Acorn Catapult", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Acorn Catapult", "Commander 2011", "CMD");
   }
 }
 

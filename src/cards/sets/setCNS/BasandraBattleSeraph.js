@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BasandraBattleSeraphBase = require("../setCMD/BasandraBattleSeraph");
+const BasandraBattleSeraphBase = require("../setCMA/BasandraBattleSeraph");
 
 class BasandraBattleSeraph extends BasandraBattleSeraphBase {
   constructor (game) {
-    super(game, "Basandra, Battle Seraph", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Basandra, Battle Seraph", "Conspiracy", "CNS");
   }
 }
 

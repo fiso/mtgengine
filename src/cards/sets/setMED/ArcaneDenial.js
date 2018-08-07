@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcaneDenialBase = require("../setALL/ArcaneDenial");
+const ArcaneDenialBase = require("../setA25/ArcaneDenial");
 
 class ArcaneDenial extends ArcaneDenialBase {
   constructor (game) {

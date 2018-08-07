@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class _1996WorldChampion extends UnimplementedCard {
   constructor (game) {
-    super(game, "1996 World Champion", "Celebration", "pCEL");
+    super(game, "1996 World Champion", "Celebration Cards", "PCEL");
   }
 }
 

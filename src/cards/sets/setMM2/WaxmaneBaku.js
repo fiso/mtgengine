@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaxmaneBakuBase = require("../setBOK/WaxmaneBaku");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WaxmaneBaku extends WaxmaneBakuBase {
+class WaxmaneBaku extends UnimplementedCard {
   constructor (game) {
-    super(game, "Waxmane Baku", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Waxmane Baku", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DesertionBase = require("../set6ED/Desertion");
+const DesertionBase = require("../setCN2/Desertion");
 
 class Desertion extends DesertionBase {
   constructor (game) {

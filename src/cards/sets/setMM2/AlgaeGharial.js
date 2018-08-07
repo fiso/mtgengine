@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class AlgaeGharial extends UnimplementedCard {
   constructor (game) {
-    super(game, "Algae Gharial", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Algae Gharial", "Modern Masters 2015", "MM2");
   }
 }
 

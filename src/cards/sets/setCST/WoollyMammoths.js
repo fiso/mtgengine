@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WoollyMammothsBase = require("../setME2/WoollyMammoths");
 
-class WoollyMammoths extends UnimplementedCard {
+class WoollyMammoths extends WoollyMammothsBase {
   constructor (game) {
     super(game, "Woolly Mammoths", "Coldsnap Theme Decks", "CST");
   }

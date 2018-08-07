@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BartelRuneaxeBase = require("../setLEG/BartelRuneaxe");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BartelRuneaxe extends BartelRuneaxeBase {
+class BartelRuneaxe extends UnimplementedCard {
   constructor (game) {
     super(game, "Bartel Runeaxe", "Masters Edition III", "ME3");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FateUnravelerBase = require("../setBNG/FateUnraveler");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FateUnraveler extends FateUnravelerBase {
+class FateUnraveler extends UnimplementedCard {
   constructor (game) {
     super(game, "Fate Unraveler", "Commander 2015", "C15");
   }

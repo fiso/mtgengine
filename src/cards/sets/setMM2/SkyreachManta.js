@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyreachMantaBase = require("../set5DN/SkyreachManta");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SkyreachManta extends SkyreachMantaBase {
+class SkyreachManta extends UnimplementedCard {
   constructor (game) {
-    super(game, "Skyreach Manta", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Skyreach Manta", "Modern Masters 2015", "MM2");
   }
 }
 

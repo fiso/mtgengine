@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfernoTitanBase = require("../setC13/InfernoTitan");
+const InfernoTitanBase = require("../setCM2/InfernoTitan");
 
 class InfernoTitan extends InfernoTitanBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElixirofImmortalityBase = require("../setDDF/ElixirofImmortality");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ElixirofImmortality extends ElixirofImmortalityBase {
+class ElixirofImmortality extends UnimplementedCard {
   constructor (game) {
-    super(game, "Elixir of Immortality", "Magic 2014 Core Set", "M14");
+    super(game, "Elixir of Immortality", "Magic 2014", "M14");
   }
 }
 

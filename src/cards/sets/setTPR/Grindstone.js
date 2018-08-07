@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrindstoneBase = require("../setTMP/Grindstone");
+const GrindstoneBase = require("../setMPS/Grindstone");
 
 class Grindstone extends GrindstoneBase {
   constructor (game) {

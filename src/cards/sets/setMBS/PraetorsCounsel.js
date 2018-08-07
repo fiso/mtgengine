@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PraetorsCounselBase = require("../setC14/PraetorsCounsel");
+const PraetorsCounselBase = require("../setCMA/PraetorsCounsel");
 
 class PraetorsCounsel extends PraetorsCounselBase {
   constructor (game) {

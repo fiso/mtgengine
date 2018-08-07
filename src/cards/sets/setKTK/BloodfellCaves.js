@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BloodfellCavesBase = require("../setFRF/BloodfellCaves");
+const BloodfellCavesBase = require("../setC17/BloodfellCaves");
 
 class BloodfellCaves extends BloodfellCavesBase {
   constructor (game) {

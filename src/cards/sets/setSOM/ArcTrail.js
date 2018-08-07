@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcTrailBase = require("../setDDN/ArcTrail");
+const ArcTrailBase = require("../setPCA/ArcTrail");
 
 class ArcTrail extends ArcTrailBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NaturalConnectionBase = require("../setDDR/NaturalConnection");
 
-class NaturalConnection extends UnimplementedCard {
+class NaturalConnection extends NaturalConnectionBase {
   constructor (game) {
     super(game, "Natural Connection", "Battle for Zendikar", "BFZ");
   }

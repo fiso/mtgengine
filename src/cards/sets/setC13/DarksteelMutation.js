@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DarksteelMutationBase = require("../setCMA/DarksteelMutation");
 
-class DarksteelMutation extends UnimplementedCard {
+class DarksteelMutation extends DarksteelMutationBase {
   constructor (game) {
-    super(game, "Darksteel Mutation", "Commander 2013 Edition", "C13");
+    super(game, "Darksteel Mutation", "Commander 2013", "C13");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShipbreakerKrakenBase = require("../setpPRE/ShipbreakerKraken");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShipbreakerKraken extends ShipbreakerKrakenBase {
+class ShipbreakerKraken extends UnimplementedCard {
   constructor (game) {
     super(game, "Shipbreaker Kraken", "Theros", "THS");
   }

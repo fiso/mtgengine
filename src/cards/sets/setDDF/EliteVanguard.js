@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EliteVanguardBase = require("../setEMA/EliteVanguard");
 
-class EliteVanguard extends UnimplementedCard {
+class EliteVanguard extends EliteVanguardBase {
   constructor (game) {
     super(game, "Elite Vanguard", "Duel Decks: Elspeth vs. Tezzeret", "DDF");
   }

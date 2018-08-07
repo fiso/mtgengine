@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrainstormBase = require("../setBTD/Brainstorm");
+const BrainstormBase = require("../setC18/Brainstorm");
 
 class Brainstorm extends BrainstormBase {
   constructor (game) {
-    super(game, "Brainstorm", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Brainstorm", "Commander 2011", "CMD");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KalonianHydraBase = require("../setCM2/KalonianHydra");
 
-class KalonianHydra extends UnimplementedCard {
+class KalonianHydra extends KalonianHydraBase {
   constructor (game) {
-    super(game, "Kalonian Hydra", "Magic 2014 Core Set", "M14");
+    super(game, "Kalonian Hydra", "Magic 2014", "M14");
   }
 }
 

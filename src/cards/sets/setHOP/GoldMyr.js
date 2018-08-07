@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoldMyrBase = require("../setMRD/GoldMyr");
+const GoldMyrBase = require("../setTD2/GoldMyr");
 
 class GoldMyr extends GoldMyrBase {
   constructor (game) {

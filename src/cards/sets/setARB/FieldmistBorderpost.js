@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FieldmistBorderpostBase = require("../setARC/FieldmistBorderpost");
 
-class FieldmistBorderpost extends UnimplementedCard {
+class FieldmistBorderpost extends FieldmistBorderpostBase {
   constructor (game) {
     super(game, "Fieldmist Borderpost", "Alara Reborn", "ARB");
   }

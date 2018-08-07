@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ViridianZealotBase = require("../setC15/ViridianZealot");
+const ViridianZealotBase = require("../setCMA/ViridianZealot");
 
 class ViridianZealot extends ViridianZealotBase {
   constructor (game) {

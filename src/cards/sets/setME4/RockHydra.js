@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RockHydraBase = require("../setCED/RockHydra");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RockHydra extends RockHydraBase {
+class RockHydra extends UnimplementedCard {
   constructor (game) {
     super(game, "Rock Hydra", "Masters Edition IV", "ME4");
   }

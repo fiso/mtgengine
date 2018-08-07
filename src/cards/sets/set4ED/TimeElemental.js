@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeElementalBase = require("../set5ED/TimeElemental");
+const TimeElementalBase = require("../setMED/TimeElemental");
 
 class TimeElemental extends TimeElementalBase {
   constructor (game) {

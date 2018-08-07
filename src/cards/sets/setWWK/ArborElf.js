@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArborElfBase = require("../setM13/ArborElf");
+const ArborElfBase = require("../setA25/ArborElf");
 
 class ArborElf extends ArborElfBase {
   constructor (game) {

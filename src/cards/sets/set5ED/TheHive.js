@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TheHiveBase = require("../set6ED/TheHive");
+const TheHiveBase = require("../set10E/TheHive");
 
 class TheHive extends TheHiveBase {
   constructor (game) {

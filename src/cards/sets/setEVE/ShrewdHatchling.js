@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShrewdHatchlingBase = require("../setDDJ/ShrewdHatchling");
+const ShrewdHatchlingBase = require("../setMM2/ShrewdHatchling");
 
 class ShrewdHatchling extends ShrewdHatchlingBase {
   constructor (game) {

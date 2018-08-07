@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhantasmalBearBase = require("../setDDM/PhantasmalBear");
+const PhantasmalBearBase = require("../setA25/PhantasmalBear");
 
 class PhantasmalBear extends PhantasmalBearBase {
   constructor (game) {

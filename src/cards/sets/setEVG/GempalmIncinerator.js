@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GempalmIncineratorBase = require("../setDD3_EVG/GempalmIncinerator");
+const GempalmIncineratorBase = require("../setDDT/GempalmIncinerator");
 
 class GempalmIncinerator extends GempalmIncineratorBase {
   constructor (game) {
-    super(game, "Gempalm Incinerator", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Gempalm Incinerator", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

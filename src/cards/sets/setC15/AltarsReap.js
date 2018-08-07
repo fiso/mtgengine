@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AltarsReapBase = require("../setBFZ/AltarsReap");
+const AltarsReapBase = require("../setMTGA/AltarsReap");
 
 class AltarsReap extends AltarsReapBase {
   constructor (game) {

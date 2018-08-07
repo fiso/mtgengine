@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlastodermBase = require("../setDD3_GVL/Blastoderm");
+const BlastodermBase = require("../setGVL/Blastoderm");
 
 class Blastoderm extends BlastodermBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const InfernalContractBase = require("../setPHUK/InfernalContract");
 
-class InfernalContract extends UnimplementedCard {
+class InfernalContract extends InfernalContractBase {
   constructor (game) {
     super(game, "Infernal Contract", "Classic Sixth Edition", "6ED");
   }

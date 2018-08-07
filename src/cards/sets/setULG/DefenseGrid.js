@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DefenseGridBase = require("../set8ED/DefenseGrid");
+const DefenseGridBase = require("../setMPS/DefenseGrid");
 
 class DefenseGrid extends DefenseGridBase {
   constructor (game) {

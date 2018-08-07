@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SerumPowderBase = require("../setIMA/SerumPowder");
 
-class SerumPowder extends UnimplementedCard {
+class SerumPowder extends SerumPowderBase {
   constructor (game) {
     super(game, "Serum Powder", "Darksteel", "DST");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NissaWorldwakerBase = require("../setE01/NissaWorldwaker");
 
-class NissaWorldwaker extends UnimplementedCard {
+class NissaWorldwaker extends NissaWorldwakerBase {
   constructor (game) {
-    super(game, "Nissa, Worldwaker", "Magic 2015 Core Set", "M15");
+    super(game, "Nissa, Worldwaker", "Magic 2015", "M15");
   }
 }
 

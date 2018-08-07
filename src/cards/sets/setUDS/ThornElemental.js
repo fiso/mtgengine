@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThornElementalBase = require("../set8ED/ThornElemental");
+const ThornElementalBase = require("../setDOM/ThornElemental");
 
 class ThornElemental extends ThornElementalBase {
   constructor (game) {

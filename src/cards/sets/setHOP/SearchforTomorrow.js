@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SearchforTomorrowBase = require("../setMMA/SearchforTomorrow");
+const SearchforTomorrowBase = require("../setIMA/SearchforTomorrow");
 
 class SearchforTomorrow extends SearchforTomorrowBase {
   constructor (game) {

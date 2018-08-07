@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaterElementalBase = require("../setCED/WaterElemental");
+const WaterElementalBase = require("../setME4/WaterElemental");
 
 class WaterElemental extends WaterElementalBase {
   constructor (game) {
-    super(game, "Water Elemental", "International Collector's Edition", "CEI");
+    super(game, "Water Elemental", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

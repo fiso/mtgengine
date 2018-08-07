@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class BurningofXinye extends UnimplementedCard {
   constructor (game) {
-    super(game, "Burning of Xinye", "From the Vault: Annihilation (2014)", "V14");
+    super(game, "Burning of Xinye", "From the Vault: Annihilation", "V14");
   }
 }
 

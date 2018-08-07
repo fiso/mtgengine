@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GarruksHordeBase = require("../setpLPA/GarruksHorde");
+const GarruksHordeBase = require("../setW17/GarruksHorde");
 
 class GarruksHorde extends GarruksHordeBase {
   constructor (game) {

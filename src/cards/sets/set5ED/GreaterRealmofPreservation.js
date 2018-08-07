@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GreaterRealmofPreservationBase = require("../setMED/GreaterRealmofPreservation");
 
-class GreaterRealmofPreservation extends UnimplementedCard {
+class GreaterRealmofPreservation extends GreaterRealmofPreservationBase {
   constructor (game) {
     super(game, "Greater Realm of Preservation", "Fifth Edition", "5ED");
   }

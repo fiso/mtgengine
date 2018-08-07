@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeeBeyondBase = require("../setPC2/SeeBeyond");
+const SeeBeyondBase = require("../setPCA/SeeBeyond");
 
 class SeeBeyond extends SeeBeyondBase {
   constructor (game) {

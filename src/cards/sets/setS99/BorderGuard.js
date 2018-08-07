@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BorderGuardBase = require("../setPOR/BorderGuard");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BorderGuard extends BorderGuardBase {
+class BorderGuard extends UnimplementedCard {
   constructor (game) {
     super(game, "Border Guard", "Starter 1999", "S99");
   }

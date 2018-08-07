@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MistmeadowWitchBase = require("../setC13/MistmeadowWitch");
+const MistmeadowWitchBase = require("../setCMA/MistmeadowWitch");
 
 class MistmeadowWitch extends MistmeadowWitchBase {
   constructor (game) {

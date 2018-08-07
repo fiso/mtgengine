@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TundraBase = require("../setCED/Tundra");
+const TundraBase = require("../setVMA/Tundra");
 
 class Tundra extends TundraBase {
   constructor (game) {

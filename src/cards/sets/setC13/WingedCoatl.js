@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WingedCoatlBase = require("../setARB/WingedCoatl");
+const WingedCoatlBase = require("../setCMA/WingedCoatl");
 
 class WingedCoatl extends WingedCoatlBase {
   constructor (game) {
-    super(game, "Winged Coatl", "Commander 2013 Edition", "C13");
+    super(game, "Winged Coatl", "Commander 2013", "C13");
   }
 }
 

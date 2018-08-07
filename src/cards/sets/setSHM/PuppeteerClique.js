@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PuppeteerCliqueBase = require("../setMM2/PuppeteerClique");
+const PuppeteerCliqueBase = require("../setC17/PuppeteerClique");
 
 class PuppeteerClique extends PuppeteerCliqueBase {
   constructor (game) {

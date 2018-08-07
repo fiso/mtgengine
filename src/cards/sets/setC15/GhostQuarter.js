@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GhostQuarterBase = require("../setC14/GhostQuarter");
+const GhostQuarterBase = require("../setCM2/GhostQuarter");
 
 class GhostQuarter extends GhostQuarterBase {
   constructor (game) {

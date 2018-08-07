@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PathtoExileBase = require("../setARC/PathtoExile");
+const PathtoExileBase = require("../setE02/PathtoExile");
 
 class PathtoExile extends PathtoExileBase {
   constructor (game) {

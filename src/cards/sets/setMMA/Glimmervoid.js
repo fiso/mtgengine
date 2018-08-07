@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GlimmervoidBase = require("../setMRD/Glimmervoid");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Glimmervoid extends GlimmervoidBase {
+class Glimmervoid extends UnimplementedCard {
   constructor (game) {
     super(game, "Glimmervoid", "Modern Masters", "MMA");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CompostBase = require("../set7ED/Compost");
+const CompostBase = require("../setWC02/Compost");
 
 class Compost extends CompostBase {
   constructor (game) {

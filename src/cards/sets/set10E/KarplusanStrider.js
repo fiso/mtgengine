@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KarplusanStriderBase = require("../setCSP/KarplusanStrider");
+const KarplusanStriderBase = require("../setMM2/KarplusanStrider");
 
 class KarplusanStrider extends KarplusanStriderBase {
   constructor (game) {

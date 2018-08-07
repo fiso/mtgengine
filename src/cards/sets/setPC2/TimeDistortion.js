@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TimeDistortionBase = require("../setPCA/TimeDistortion");
 
-class TimeDistortion extends UnimplementedCard {
+class TimeDistortion extends TimeDistortionBase {
   constructor (game) {
-    super(game, "Time Distortion", "Planechase 2012 Edition", "PC2");
+    super(game, "Time Distortion", "Planechase 2012", "PC2");
   }
 }
 

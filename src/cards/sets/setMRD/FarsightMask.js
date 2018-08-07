@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FarsightMaskBase = require("../setPCA/FarsightMask");
 
-class FarsightMask extends UnimplementedCard {
+class FarsightMask extends FarsightMaskBase {
   constructor (game) {
     super(game, "Farsight Mask", "Mirrodin", "MRD");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ZealousPersecutionBase = require("../setARB/ZealousPersecution");
+const ZealousPersecutionBase = require("../setE02/ZealousPersecution");
 
 class ZealousPersecution extends ZealousPersecutionBase {
   constructor (game) {

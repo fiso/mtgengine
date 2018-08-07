@@ -4,7 +4,7 @@ const DemigodofRevengeBase = require("../setMMA/DemigodofRevenge");
 
 class DemigodofRevenge extends DemigodofRevengeBase {
   constructor (game) {
-    super(game, "Demigod of Revenge", "Prerelease Events", "pPRE");
+    super(game, "Demigod of Revenge", "Prerelease Events", "PPRE");
   }
 }
 

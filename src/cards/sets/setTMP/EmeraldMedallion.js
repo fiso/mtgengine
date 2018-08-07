@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EmeraldMedallionBase = require("../setC14/EmeraldMedallion");
+const EmeraldMedallionBase = require("../setCMA/EmeraldMedallion");
 
 class EmeraldMedallion extends EmeraldMedallionBase {
   constructor (game) {

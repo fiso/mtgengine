@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WhirlpoolWhelmBase = require("../setLRW/WhirlpoolWhelm");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WhirlpoolWhelm extends WhirlpoolWhelmBase {
+class WhirlpoolWhelm extends UnimplementedCard {
   constructor (game) {
-    super(game, "Whirlpool Whelm", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Whirlpool Whelm", "Commander 2011", "CMD");
   }
 }
 

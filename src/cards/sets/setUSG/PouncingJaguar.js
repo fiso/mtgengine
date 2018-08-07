@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PouncingJaguarBase = require("../setpARL/PouncingJaguar");
+const PouncingJaguarBase = require("../setPRM/PouncingJaguar");
 
 class PouncingJaguar extends PouncingJaguarBase {
   constructor (game) {

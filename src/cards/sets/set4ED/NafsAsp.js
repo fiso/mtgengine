@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NafsAspBase = require("../setARN/NafsAsp");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NafsAsp extends NafsAspBase {
+class NafsAsp extends UnimplementedCard {
   constructor (game) {
     super(game, "Nafs Asp", "Fourth Edition", "4ED");
   }

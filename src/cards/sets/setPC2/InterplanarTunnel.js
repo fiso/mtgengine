@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const InterplanarTunnelBase = require("../setPCA/InterplanarTunnel");
 
-class InterplanarTunnel extends UnimplementedCard {
+class InterplanarTunnel extends InterplanarTunnelBase {
   constructor (game) {
-    super(game, "Interplanar Tunnel", "Planechase 2012 Edition", "PC2");
+    super(game, "Interplanar Tunnel", "Planechase 2012", "PC2");
   }
 }
 

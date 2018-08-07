@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThranGolemBase = require("../setM12/ThranGolem");
+const ThranGolemBase = require("../setPCA/ThranGolem");
 
 class ThranGolem extends ThranGolemBase {
   constructor (game) {

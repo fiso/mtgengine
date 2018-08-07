@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class MinamoScrollkeeper extends UnimplementedCard {
   constructor (game) {
-    super(game, "Minamo Scrollkeeper", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Minamo Scrollkeeper", "Conspiracy", "CNS");
   }
 }
 

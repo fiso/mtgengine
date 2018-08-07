@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThroatSlitterBase = require("../setBOK/ThroatSlitter");
+const ThroatSlitterBase = require("../setPCA/ThroatSlitter");
 
 class ThroatSlitter extends ThroatSlitterBase {
   constructor (game) {
-    super(game, "Throat Slitter", "Planechase 2012 Edition", "PC2");
+    super(game, "Throat Slitter", "Planechase 2012", "PC2");
   }
 }
 

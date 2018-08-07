@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoulCollectorBase = require("../setpPRE/SoulCollector");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SoulCollector extends SoulCollectorBase {
+class SoulCollector extends UnimplementedCard {
   constructor (game) {
-    super(game, "Soul Collector", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Soul Collector", "Time Spiral Timeshifted", "TSB");
   }
 }
 

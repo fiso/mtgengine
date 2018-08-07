@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SuntailHawkBase = require("../set8ED/SuntailHawk");
+const SuntailHawkBase = require("../setM14/SuntailHawk");
 
 class SuntailHawk extends SuntailHawkBase {
   constructor (game) {

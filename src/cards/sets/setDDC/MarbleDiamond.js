@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MarbleDiamondBase = require("../set6ED/MarbleDiamond");
+const MarbleDiamondBase = require("../setDVD/MarbleDiamond");
 
 class MarbleDiamond extends MarbleDiamondBase {
   constructor (game) {

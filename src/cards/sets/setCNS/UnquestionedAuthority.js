@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnquestionedAuthorityBase = require("../setJUD/UnquestionedAuthority");
+const UnquestionedAuthorityBase = require("../setC18/UnquestionedAuthority");
 
 class UnquestionedAuthority extends UnquestionedAuthorityBase {
   constructor (game) {
-    super(game, "Unquestioned Authority", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Unquestioned Authority", "Conspiracy", "CNS");
   }
 }
 

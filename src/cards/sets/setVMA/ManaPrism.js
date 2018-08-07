@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaPrismBase = require("../set6ED/ManaPrism");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ManaPrism extends ManaPrismBase {
+class ManaPrism extends UnimplementedCard {
   constructor (game) {
     super(game, "Mana Prism", "Vintage Masters", "VMA");
   }

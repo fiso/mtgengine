@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LashOutBase = require("../setCMD/LashOut");
 
-class LashOut extends UnimplementedCard {
+class LashOut extends LashOutBase {
   constructor (game) {
     super(game, "Lash Out", "Lorwyn", "LRW");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StormHerdBase = require("../setGPT/StormHerd");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StormHerd extends StormHerdBase {
+class StormHerd extends UnimplementedCard {
   constructor (game) {
-    super(game, "Storm Herd", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Storm Herd", "Commander 2011", "CMD");
   }
 }
 

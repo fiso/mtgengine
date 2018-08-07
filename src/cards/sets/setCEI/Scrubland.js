@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrublandBase = require("../setCED/Scrubland");
+const ScrublandBase = require("../setVMA/Scrubland");
 
 class Scrubland extends ScrublandBase {
   constructor (game) {
-    super(game, "Scrubland", "International Collector's Edition", "CEI");
+    super(game, "Scrubland", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

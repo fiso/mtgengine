@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FeastorFamineBase = require("../setALL/FeastorFamine");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FeastorFamine extends FeastorFamineBase {
+class FeastorFamine extends UnimplementedCard {
   constructor (game) {
     super(game, "Feast or Famine", "Duel Decks: Izzet vs. Golgari", "DDJ");
   }

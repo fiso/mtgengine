@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WrensRunPackmasterBase = require("../setC14/WrensRunPackmaster");
+const WrensRunPackmasterBase = require("../setCMA/WrensRunPackmaster");
 
 class WrensRunPackmaster extends WrensRunPackmasterBase {
   constructor (game) {
-    super(game, "Wren's Run Packmaster", "Prerelease Events", "pPRE");
+    super(game, "Wren's Run Packmaster", "Prerelease Events", "PPRE");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CleaverRiotBase = require("../setDDT/CleaverRiot");
 
-class CleaverRiot extends UnimplementedCard {
+class CleaverRiot extends CleaverRiotBase {
   constructor (game) {
     super(game, "Cleaver Riot", "Magic 2013", "M13");
   }

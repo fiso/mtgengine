@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WaterElementalBase = require("../setME4/WaterElemental");
 
-class WaterElemental extends UnimplementedCard {
+class WaterElemental extends WaterElementalBase {
   constructor (game) {
-    super(game, "Water Elemental", "Collector's Edition", "CED");
+    super(game, "Water Elemental", "Collectors’ Edition", "CED");
   }
 }
 

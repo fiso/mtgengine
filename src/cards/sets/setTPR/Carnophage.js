@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CarnophageBase = require("../setEXO/Carnophage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Carnophage extends CarnophageBase {
+class Carnophage extends UnimplementedCard {
   constructor (game) {
     super(game, "Carnophage", "Tempest Remastered", "TPR");
   }

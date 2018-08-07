@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShatterBase = require("../set6ED/Shatter");
+const ShatterBase = require("../setRIX/Shatter");
 
 class Shatter extends ShatterBase {
   constructor (game) {
-    super(game, "Shatter", "International Collector's Edition", "CEI");
+    super(game, "Shatter", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ZombieInfestationBase = require("../setARC/ZombieInfestation");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ZombieInfestation extends ZombieInfestationBase {
+class ZombieInfestation extends UnimplementedCard {
   constructor (game) {
     super(game, "Zombie Infestation", "Premium Deck Series: Graveborn", "PD3");
   }

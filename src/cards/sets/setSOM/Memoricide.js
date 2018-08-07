@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MemoricideBase = require("../setpMEI/Memoricide");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Memoricide extends MemoricideBase {
+class Memoricide extends UnimplementedCard {
   constructor (game) {
     super(game, "Memoricide", "Scars of Mirrodin", "SOM");
   }

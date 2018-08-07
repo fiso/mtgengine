@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BladewingtheRisenBase = require("../setDRB/BladewingtheRisen");
+const BladewingtheRisenBase = require("../setIMA/BladewingtheRisen");
 
 class BladewingtheRisen extends BladewingtheRisenBase {
   constructor (game) {

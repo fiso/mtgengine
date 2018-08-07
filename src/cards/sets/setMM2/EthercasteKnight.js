@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EthercasteKnightBase = require("../setARB/EthercasteKnight");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EthercasteKnight extends EthercasteKnightBase {
+class EthercasteKnight extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ethercaste Knight", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Ethercaste Knight", "Modern Masters 2015", "MM2");
   }
 }
 

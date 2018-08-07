@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RadjanSpiritBase = require("../set6ED/RadjanSpirit");
+const RadjanSpiritBase = require("../setME4/RadjanSpirit");
 
 class RadjanSpirit extends RadjanSpiritBase {
   constructor (game) {

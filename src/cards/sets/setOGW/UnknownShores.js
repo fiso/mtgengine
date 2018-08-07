@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UnknownShoresBase = require("../setXLN/UnknownShores");
 
-class UnknownShores extends UnimplementedCard {
+class UnknownShores extends UnknownShoresBase {
   constructor (game) {
     super(game, "Unknown Shores", "Oath of the Gatewatch", "OGW");
   }

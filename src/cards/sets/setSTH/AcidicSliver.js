@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AcidicSliverBase = require("../setH09/AcidicSliver");
+const AcidicSliverBase = require("../setTPR/AcidicSliver");
 
 class AcidicSliver extends AcidicSliverBase {
   constructor (game) {

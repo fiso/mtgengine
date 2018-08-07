@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoulbrightFlamekinBase = require("../setDD3_JVC/SoulbrightFlamekin");
+const SoulbrightFlamekinBase = require("../setA25/SoulbrightFlamekin");
 
 class SoulbrightFlamekin extends SoulbrightFlamekinBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShieldSphereBase = require("../setALL/ShieldSphere");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShieldSphere extends ShieldSphereBase {
+class ShieldSphere extends UnimplementedCard {
   constructor (game) {
     super(game, "Shield Sphere", "Masters Edition", "MED");
   }

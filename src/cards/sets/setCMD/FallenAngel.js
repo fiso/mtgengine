@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FallenAngelBase = require("../setBTD/FallenAngel");
+const FallenAngelBase = require("../setA25/FallenAngel");
 
 class FallenAngel extends FallenAngelBase {
   constructor (game) {
-    super(game, "Fallen Angel", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Fallen Angel", "Commander 2011", "CMD");
   }
 }
 

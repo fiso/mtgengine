@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RangersGuileBase = require("../setISD/RangersGuile");
+const RangersGuileBase = require("../setM15/RangersGuile");
 
 class RangersGuile extends RangersGuileBase {
   constructor (game) {
-    super(game, "Ranger's Guile", "Magic 2014 Core Set", "M14");
+    super(game, "Ranger's Guile", "Magic 2014", "M14");
   }
 }
 

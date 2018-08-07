@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CloudpostBase = require("../setpFNM/Cloudpost");
+const CloudpostBase = require("../setF10/Cloudpost");
 
 class Cloudpost extends CloudpostBase {
   constructor (game) {

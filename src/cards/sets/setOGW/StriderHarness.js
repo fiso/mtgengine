@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const StriderHarnessBase = require("../setRIX/StriderHarness");
 
-class StriderHarness extends UnimplementedCard {
+class StriderHarness extends StriderHarnessBase {
   constructor (game) {
     super(game, "Strider Harness", "Oath of the Gatewatch", "OGW");
   }

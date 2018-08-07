@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianMetamorphBase = require("../setpLPA/PhyrexianMetamorph");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PhyrexianMetamorph extends PhyrexianMetamorphBase {
+class PhyrexianMetamorph extends UnimplementedCard {
   constructor (game) {
     super(game, "Phyrexian Metamorph", "New Phyrexia", "NPH");
   }

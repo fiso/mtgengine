@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChaosWarpBase = require("../setC14/ChaosWarp");
+const ChaosWarpBase = require("../setC18/ChaosWarp");
 
 class ChaosWarp extends ChaosWarpBase {
   constructor (game) {
-    super(game, "Chaos Warp", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Chaos Warp", "Commander 2011", "CMD");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DesertBase = require("../setARN/Desert");
+const DesertBase = require("../setV12/Desert");
 
 class Desert extends DesertBase {
   constructor (game) {
-    super(game, "Desert", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Desert", "Time Spiral Timeshifted", "TSB");
   }
 }
 

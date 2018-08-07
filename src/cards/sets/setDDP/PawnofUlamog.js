@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PawnofUlamogBase = require("../setC17/PawnofUlamog");
 
-class PawnofUlamog extends UnimplementedCard {
+class PawnofUlamog extends PawnofUlamogBase {
   constructor (game) {
     super(game, "Pawn of Ulamog", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

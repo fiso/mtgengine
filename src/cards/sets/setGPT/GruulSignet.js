@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GruulSignetBase = require("../setARC/GruulSignet");
+const GruulSignetBase = require("../setMM3/GruulSignet");
 
 class GruulSignet extends GruulSignetBase {
   constructor (game) {

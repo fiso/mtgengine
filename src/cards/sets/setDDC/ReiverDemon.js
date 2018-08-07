@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReiverDemonBase = require("../setDD3_DVD/ReiverDemon");
+const ReiverDemonBase = require("../setCMA/ReiverDemon");
 
 class ReiverDemon extends ReiverDemonBase {
   constructor (game) {

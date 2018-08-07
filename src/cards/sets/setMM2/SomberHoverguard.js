@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SomberHoverguardBase = require("../setMRD/SomberHoverguard");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SomberHoverguard extends SomberHoverguardBase {
+class SomberHoverguard extends UnimplementedCard {
   constructor (game) {
-    super(game, "Somber Hoverguard", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Somber Hoverguard", "Modern Masters 2015", "MM2");
   }
 }
 

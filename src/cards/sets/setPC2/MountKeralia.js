@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MountKeraliaBase = require("../setPCA/MountKeralia");
 
-class MountKeralia extends UnimplementedCard {
+class MountKeralia extends MountKeraliaBase {
   constructor (game) {
-    super(game, "Mount Keralia", "Planechase 2012 Edition", "PC2");
+    super(game, "Mount Keralia", "Planechase 2012", "PC2");
   }
 }
 

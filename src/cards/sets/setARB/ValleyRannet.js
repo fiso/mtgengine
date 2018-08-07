@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ValleyRannetBase = require("../setC13/ValleyRannet");
 
-class ValleyRannet extends UnimplementedCard {
+class ValleyRannet extends ValleyRannetBase {
   constructor (game) {
     super(game, "Valley Rannet", "Alara Reborn", "ARB");
   }

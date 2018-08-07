@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DurkwoodBalothBase = require("../setMMA/DurkwoodBaloth");
+const DurkwoodBalothBase = require("../setIMA/DurkwoodBaloth");
 
 class DurkwoodBaloth extends DurkwoodBalothBase {
   constructor (game) {

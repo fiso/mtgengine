@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LowlandGiantBase = require("../setBTD/LowlandGiant");
+const LowlandGiantBase = require("../setTPR/LowlandGiant");
 
 class LowlandGiant extends LowlandGiantBase {
   constructor (game) {

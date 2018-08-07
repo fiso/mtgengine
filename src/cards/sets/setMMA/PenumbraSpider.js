@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PenumbraSpiderBase = require("../setCMD/PenumbraSpider");
+const PenumbraSpiderBase = require("../setMM3/PenumbraSpider");
 
 class PenumbraSpider extends PenumbraSpiderBase {
   constructor (game) {

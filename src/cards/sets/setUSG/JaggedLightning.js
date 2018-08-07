@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JaggedLightningBase = require("../setPO2/JaggedLightning");
+const JaggedLightningBase = require("../setS99/JaggedLightning");
 
 class JaggedLightning extends JaggedLightningBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TorchlingBase = require("../setE01/Torchling");
 
-class Torchling extends UnimplementedCard {
+class Torchling extends TorchlingBase {
   constructor (game) {
     super(game, "Torchling", "Duel Decks: Venser vs. Koth", "DDI");
   }

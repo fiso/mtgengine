@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EyeofUginBase = require("../setMM2/EyeofUgin");
+const EyeofUginBase = require("../setEXP/EyeofUgin");
 
 class EyeofUgin extends EyeofUginBase {
   constructor (game) {

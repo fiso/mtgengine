@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThalakosLowlandsBase = require("../setBRB/ThalakosLowlands");
+const ThalakosLowlandsBase = require("../setTPR/ThalakosLowlands");
 
 class ThalakosLowlands extends ThalakosLowlandsBase {
   constructor (game) {

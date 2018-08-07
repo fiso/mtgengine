@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KamahlPitFighterBase = require("../setp15A/KamahlPitFighter");
+const KamahlPitFighterBase = require("../setDDS/KamahlPitFighter");
 
 class KamahlPitFighter extends KamahlPitFighterBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FeldonoftheThirdPathBase = require("../setCM2/FeldonoftheThirdPath");
 
-class FeldonoftheThirdPath extends UnimplementedCard {
+class FeldonoftheThirdPath extends FeldonoftheThirdPathBase {
   constructor (game) {
     super(game, "Feldon of the Third Path", "Commander 2014", "C14");
   }

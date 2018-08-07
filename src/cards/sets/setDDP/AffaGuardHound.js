@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const AffaGuardHoundBase = require("../setCN2/AffaGuardHound");
 
-class AffaGuardHound extends UnimplementedCard {
+class AffaGuardHound extends AffaGuardHoundBase {
   constructor (game) {
     super(game, "Affa Guard Hound", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

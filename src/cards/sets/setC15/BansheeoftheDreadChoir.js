@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BansheeoftheDreadChoirBase = require("../setCMA/BansheeoftheDreadChoir");
 
-class BansheeoftheDreadChoir extends UnimplementedCard {
+class BansheeoftheDreadChoir extends BansheeoftheDreadChoirBase {
   constructor (game) {
     super(game, "Banshee of the Dread Choir", "Commander 2015", "C15");
   }

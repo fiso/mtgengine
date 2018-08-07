@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpriteNobleBase = require("../setEMA/SpriteNoble");
 
-class SpriteNoble extends UnimplementedCard {
+class SpriteNoble extends SpriteNobleBase {
   constructor (game) {
     super(game, "Sprite Noble", "Time Spiral", "TSP");
   }

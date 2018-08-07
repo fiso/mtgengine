@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CanyonMinotaurBase = require("../setCON/CanyonMinotaur");
+const CanyonMinotaurBase = require("../setM14/CanyonMinotaur");
 
 class CanyonMinotaur extends CanyonMinotaurBase {
   constructor (game) {

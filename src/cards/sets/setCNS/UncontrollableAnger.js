@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UncontrollableAngerBase = require("../setCHK/UncontrollableAnger");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class UncontrollableAnger extends UncontrollableAngerBase {
+class UncontrollableAnger extends UnimplementedCard {
   constructor (game) {
-    super(game, "Uncontrollable Anger", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Uncontrollable Anger", "Conspiracy", "CNS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShamblingStriderBase = require("../setBTD/ShamblingStrider");
+const ShamblingStriderBase = require("../setMED/ShamblingStrider");
 
 class ShamblingStrider extends ShamblingStriderBase {
   constructor (game) {

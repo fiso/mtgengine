@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ConvoluteBase = require("../setEMN/Convolute");
 
-class Convolute extends UnimplementedCard {
+class Convolute extends ConvoluteBase {
   constructor (game) {
     super(game, "Convolute", "Ravnica: City of Guilds", "RAV");
   }

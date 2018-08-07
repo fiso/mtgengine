@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MaritimeGuardBase = require("../setM11/MaritimeGuard");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MaritimeGuard extends MaritimeGuardBase {
+class MaritimeGuard extends UnimplementedCard {
   constructor (game) {
     super(game, "Maritime Guard", "Magic Origins", "ORI");
   }

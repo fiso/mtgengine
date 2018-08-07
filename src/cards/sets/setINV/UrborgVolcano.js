@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UrborgVolcanoBase = require("../set8ED/UrborgVolcano");
+const UrborgVolcanoBase = require("../setC17/UrborgVolcano");
 
 class UrborgVolcano extends UrborgVolcanoBase {
   constructor (game) {

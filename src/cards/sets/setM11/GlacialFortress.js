@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GlacialFortressBase = require("../setM10/GlacialFortress");
+const GlacialFortressBase = require("../setXLN/GlacialFortress");
 
 class GlacialFortress extends GlacialFortressBase {
   constructor (game) {

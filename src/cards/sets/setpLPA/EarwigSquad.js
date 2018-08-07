@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EarwigSquadBase = require("../setMMA/EarwigSquad");
 
-class EarwigSquad extends UnimplementedCard {
+class EarwigSquad extends EarwigSquadBase {
   constructor (game) {
-    super(game, "Earwig Squad", "Launch Parties", "pLPA");
+    super(game, "Earwig Squad", "Launch Parties", "PLPA");
   }
 }
 

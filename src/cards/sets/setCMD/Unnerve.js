@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnnerveBase = require("../setBRB/Unnerve");
+const UnnerveBase = require("../setCM2/Unnerve");
 
 class Unnerve extends UnnerveBase {
   constructor (game) {
-    super(game, "Unnerve", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Unnerve", "Commander 2011", "CMD");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThoughtScourBase = require("../setDKA/ThoughtScour");
+const ThoughtScourBase = require("../setIMA/ThoughtScour");
 
 class ThoughtScour extends ThoughtScourBase {
   constructor (game) {

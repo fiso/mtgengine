@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChromiumBase = require("../setCHR/Chromium");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Chromium extends ChromiumBase {
+class Chromium extends UnimplementedCard {
   constructor (game) {
     super(game, "Chromium", "Masters Edition III", "ME3");
   }

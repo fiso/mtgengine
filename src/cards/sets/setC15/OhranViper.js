@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OhranViperBase = require("../setCSP/OhranViper");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OhranViper extends OhranViperBase {
+class OhranViper extends UnimplementedCard {
   constructor (game) {
     super(game, "Ohran Viper", "Commander 2015", "C15");
   }

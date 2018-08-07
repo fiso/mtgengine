@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpiderSpawningBase = require("../setC15/SpiderSpawning");
+const SpiderSpawningBase = require("../setCMA/SpiderSpawning");
 
 class SpiderSpawning extends SpiderSpawningBase {
   constructor (game) {

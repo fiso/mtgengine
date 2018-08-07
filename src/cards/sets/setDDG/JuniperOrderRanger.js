@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JuniperOrderRangerBase = require("../setCSP/JuniperOrderRanger");
+const JuniperOrderRangerBase = require("../setCM2/JuniperOrderRanger");
 
 class JuniperOrderRanger extends JuniperOrderRangerBase {
   constructor (game) {

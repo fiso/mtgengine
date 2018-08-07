@@ -1,0 +1,11 @@
+"use strict";
+const Constants = require ("../../../Constants");
+const LordofthePitBase = require("../setIMA/LordofthePit");
+
+class LordofthePit extends LordofthePitBase {
+  constructor (game) {
+    super(game, "Lord of the Pit", "Duel Decks Anthology: Divine vs. Demonic", "DVD");
+  }
+}
+
+module.exports = LordofthePit;

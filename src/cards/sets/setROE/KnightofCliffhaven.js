@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnightofCliffhavenBase = require("../setDDG/KnightofCliffhaven");
+const KnightofCliffhavenBase = require("../setDDP/KnightofCliffhaven");
 
 class KnightofCliffhaven extends KnightofCliffhavenBase {
   constructor (game) {

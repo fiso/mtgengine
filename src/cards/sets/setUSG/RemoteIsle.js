@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RemoteIsleBase = require("../setBRB/RemoteIsle");
+const RemoteIsleBase = require("../setC14/RemoteIsle");
 
 class RemoteIsle extends RemoteIsleBase {
   constructor (game) {

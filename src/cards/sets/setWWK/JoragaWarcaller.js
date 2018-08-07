@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JoragaWarcallerBase = require("../setC14/JoragaWarcaller");
+const JoragaWarcallerBase = require("../setCMA/JoragaWarcaller");
 
 class JoragaWarcaller extends JoragaWarcallerBase {
   constructor (game) {

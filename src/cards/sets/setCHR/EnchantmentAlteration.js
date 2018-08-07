@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EnchantmentAlterationBase = require("../setUSG/EnchantmentAlteration");
 
-class EnchantmentAlteration extends UnimplementedCard {
+class EnchantmentAlteration extends EnchantmentAlterationBase {
   constructor (game) {
     super(game, "Enchantment Alteration", "Chronicles", "CHR");
   }

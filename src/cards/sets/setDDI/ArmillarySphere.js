@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArmillarySphereBase = require("../setC13/ArmillarySphere");
+const ArmillarySphereBase = require("../setC17/ArmillarySphere");
 
 class ArmillarySphere extends ArmillarySphereBase {
   constructor (game) {

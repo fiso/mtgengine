@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SurvivalCacheBase = require("../setC13/SurvivalCache");
+const SurvivalCacheBase = require("../setIMA/SurvivalCache");
 
 class SurvivalCache extends SurvivalCacheBase {
   constructor (game) {

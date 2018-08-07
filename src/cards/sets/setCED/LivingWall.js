@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LivingWallBase = require("../setME4/LivingWall");
 
-class LivingWall extends UnimplementedCard {
+class LivingWall extends LivingWallBase {
   constructor (game) {
-    super(game, "Living Wall", "Collector's Edition", "CED");
+    super(game, "Living Wall", "Collectors’ Edition", "CED");
   }
 }
 

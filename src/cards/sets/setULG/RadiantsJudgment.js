@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RadiantsJudgmentBase = require("../setVMA/RadiantsJudgment");
 
-class RadiantsJudgment extends UnimplementedCard {
+class RadiantsJudgment extends RadiantsJudgmentBase {
   constructor (game) {
     super(game, "Radiant's Judgment", "Urza's Legacy", "ULG");
   }

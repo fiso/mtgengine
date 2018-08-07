@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpikeFeederBase = require("../setBRB/SpikeFeeder");
+const SpikeFeederBase = require("../setTPR/SpikeFeeder");
 
 class SpikeFeeder extends SpikeFeederBase {
   constructor (game) {

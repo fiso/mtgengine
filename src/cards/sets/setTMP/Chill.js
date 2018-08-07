@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChillBase = require("../setpARL/Chill");
+const ChillBase = require("../setPRM/Chill");
 
 class Chill extends ChillBase {
   constructor (game) {

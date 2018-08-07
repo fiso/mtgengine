@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AgonyWarpBase = require("../setARC/AgonyWarp");
+const AgonyWarpBase = require("../setMM3/AgonyWarp");
 
 class AgonyWarp extends AgonyWarpBase {
   constructor (game) {

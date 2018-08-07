@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CombatMedicBase = require("../setATH/CombatMedic");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CombatMedic extends CombatMedicBase {
+class CombatMedic extends UnimplementedCard {
   constructor (game) {
     super(game, "Combat Medic", "Masters Edition II", "ME2");
   }

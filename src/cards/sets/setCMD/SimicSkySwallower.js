@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimicSkySwallowerBase = require("../setDIS/SimicSkySwallower");
+const SimicSkySwallowerBase = require("../setIMA/SimicSkySwallower");
 
 class SimicSkySwallower extends SimicSkySwallowerBase {
   constructor (game) {
-    super(game, "Simic Sky Swallower", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Simic Sky Swallower", "Commander 2011", "CMD");
   }
 }
 

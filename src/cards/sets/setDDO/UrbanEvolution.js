@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UrbanEvolutionBase = require("../setMM3/UrbanEvolution");
 
-class UrbanEvolution extends UnimplementedCard {
+class UrbanEvolution extends UrbanEvolutionBase {
   constructor (game) {
     super(game, "Urban Evolution", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

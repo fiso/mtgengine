@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GolgariCharmBase = require("../setC15/GolgariCharm");
+const GolgariCharmBase = require("../setCMA/GolgariCharm");
 
 class GolgariCharm extends GolgariCharmBase {
   constructor (game) {

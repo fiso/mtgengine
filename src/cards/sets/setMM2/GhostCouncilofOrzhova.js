@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GhostCouncilofOrzhovaBase = require("../setGPT/GhostCouncilofOrzhova");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GhostCouncilofOrzhova extends GhostCouncilofOrzhovaBase {
+class GhostCouncilofOrzhova extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ghost Council of Orzhova", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Ghost Council of Orzhova", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class VastwoodHydra extends UnimplementedCard {
   constructor (game) {
-    super(game, "Vastwood Hydra", "Magic 2014 Core Set", "M14");
+    super(game, "Vastwood Hydra", "Magic 2014", "M14");
   }
 }
 

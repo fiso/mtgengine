@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BuriedAliveBase = require("../setCMD/BuriedAlive");
+const BuriedAliveBase = require("../setCM2/BuriedAlive");
 
 class BuriedAlive extends BuriedAliveBase {
   constructor (game) {

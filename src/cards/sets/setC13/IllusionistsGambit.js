@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class IllusionistsGambit extends UnimplementedCard {
   constructor (game) {
-    super(game, "Illusionist's Gambit", "Commander 2013 Edition", "C13");
+    super(game, "Illusionist's Gambit", "Commander 2013", "C13");
   }
 }
 

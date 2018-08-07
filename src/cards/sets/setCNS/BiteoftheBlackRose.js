@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class BiteoftheBlackRose extends UnimplementedCard {
   constructor (game) {
-    super(game, "Bite of the Black Rose", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Bite of the Black Rose", "Conspiracy", "CNS");
   }
 }
 

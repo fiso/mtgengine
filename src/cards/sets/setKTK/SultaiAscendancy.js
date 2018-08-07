@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SultaiAscendancyBase = require("../setCPK/SultaiAscendancy");
+const SultaiAscendancyBase = require("../setCP2/SultaiAscendancy");
 
 class SultaiAscendancy extends SultaiAscendancyBase {
   constructor (game) {

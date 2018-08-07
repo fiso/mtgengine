@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TradewindRiderBase = require("../setpJGP/TradewindRider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TradewindRider extends TradewindRiderBase {
+class TradewindRider extends UnimplementedCard {
   constructor (game) {
     super(game, "Tradewind Rider", "Tempest Remastered", "TPR");
   }

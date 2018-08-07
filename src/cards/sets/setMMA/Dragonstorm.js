@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonstormBase = require("../setDRB/Dragonstorm");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Dragonstorm extends DragonstormBase {
+class Dragonstorm extends UnimplementedCard {
   constructor (game) {
     super(game, "Dragonstorm", "Modern Masters", "MMA");
   }

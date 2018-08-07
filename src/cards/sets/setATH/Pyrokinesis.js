@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PyrokinesisBase = require("../setALL/Pyrokinesis");
+const PyrokinesisBase = require("../setEMA/Pyrokinesis");
 
 class Pyrokinesis extends PyrokinesisBase {
   constructor (game) {

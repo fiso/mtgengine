@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrecinctCaptainBase = require("../setDDO/PrecinctCaptain");
+const PrecinctCaptainBase = require("../setE01/PrecinctCaptain");
 
 class PrecinctCaptain extends PrecinctCaptainBase {
   constructor (game) {

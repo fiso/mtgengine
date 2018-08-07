@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EvolvingWildsBase = require("../setBFZ/EvolvingWilds");
+const EvolvingWildsBase = require("../setC18/EvolvingWilds");
 
 class EvolvingWilds extends EvolvingWildsBase {
   constructor (game) {
-    super(game, "Evolving Wilds", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Evolving Wilds", "Commander 2011", "CMD");
   }
 }
 

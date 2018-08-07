@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OnduGiantBase = require("../setDDP/OnduGiant");
+const OnduGiantBase = require("../setPCA/OnduGiant");
 
 class OnduGiant extends OnduGiantBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BountifulHarvestBase = require("../setM10/BountifulHarvest");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BountifulHarvest extends BountifulHarvestBase {
+class BountifulHarvest extends UnimplementedCard {
   constructor (game) {
     super(game, "Bountiful Harvest", "Magic 2013", "M13");
   }

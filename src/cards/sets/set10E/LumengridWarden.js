@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LumengridWardenBase = require("../setMRD/LumengridWarden");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LumengridWarden extends LumengridWardenBase {
+class LumengridWarden extends UnimplementedCard {
   constructor (game) {
     super(game, "Lumengrid Warden", "Tenth Edition", "10E");
   }

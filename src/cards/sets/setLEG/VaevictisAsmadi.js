@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VaevictisAsmadiBase = require("../setCHR/VaevictisAsmadi");
+const VaevictisAsmadiBase = require("../setME3/VaevictisAsmadi");
 
 class VaevictisAsmadi extends VaevictisAsmadiBase {
   constructor (game) {

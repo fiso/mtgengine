@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VelatheNightCladBase = require("../setCM1/VelatheNightClad");
+const VelatheNightCladBase = require("../setC17/VelatheNightClad");
 
 class VelatheNightClad extends VelatheNightCladBase {
   constructor (game) {
-    super(game, "Vela the Night-Clad", "Planechase 2012 Edition", "PC2");
+    super(game, "Vela the Night-Clad", "Planechase 2012", "PC2");
   }
 }
 

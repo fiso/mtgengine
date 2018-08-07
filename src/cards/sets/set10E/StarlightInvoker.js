@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StarlightInvokerBase = require("../setLGN/StarlightInvoker");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StarlightInvoker extends StarlightInvokerBase {
+class StarlightInvoker extends UnimplementedCard {
   constructor (game) {
     super(game, "Starlight Invoker", "Tenth Edition", "10E");
   }

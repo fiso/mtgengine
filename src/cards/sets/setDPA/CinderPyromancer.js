@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CinderPyromancerBase = require("../setPD2/CinderPyromancer");
 
-class CinderPyromancer extends UnimplementedCard {
+class CinderPyromancer extends CinderPyromancerBase {
   constructor (game) {
     super(game, "Cinder Pyromancer", "Duels of the Planeswalkers", "DPA");
   }

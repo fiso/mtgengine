@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PerilousResearchBase = require("../setCSP/PerilousResearch");
+const PerilousResearchBase = require("../setMMA/PerilousResearch");
 
 class PerilousResearch extends PerilousResearchBase {
   constructor (game) {
-    super(game, "Perilous Research", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Perilous Research", "Commander 2011", "CMD");
   }
 }
 

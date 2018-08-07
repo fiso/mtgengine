@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReturntoDustBase = require("../setC14/ReturntoDust");
+const ReturntoDustBase = require("../setC18/ReturntoDust");
 
 class ReturntoDust extends ReturntoDustBase {
   constructor (game) {

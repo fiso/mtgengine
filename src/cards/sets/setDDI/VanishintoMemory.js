@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VanishintoMemoryBase = require("../setCSP/VanishintoMemory");
+const VanishintoMemoryBase = require("../setMM3/VanishintoMemory");
 
 class VanishintoMemory extends VanishintoMemoryBase {
   constructor (game) {

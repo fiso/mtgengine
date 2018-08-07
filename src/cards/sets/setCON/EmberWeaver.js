@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EmberWeaverBase = require("../setA25/EmberWeaver");
 
-class EmberWeaver extends UnimplementedCard {
+class EmberWeaver extends EmberWeaverBase {
   constructor (game) {
     super(game, "Ember Weaver", "Conflux", "CON");
   }

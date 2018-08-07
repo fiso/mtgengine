@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RuptureSpireBase = require("../setC13/RuptureSpire");
+const RuptureSpireBase = require("../setM19/RuptureSpire");
 
 class RuptureSpire extends RuptureSpireBase {
   constructor (game) {

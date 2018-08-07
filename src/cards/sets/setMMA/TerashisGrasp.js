@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TerashisGraspBase = require("../setBOK/TerashisGrasp");
+const TerashisGraspBase = require("../setMM2/TerashisGrasp");
 
 class TerashisGrasp extends TerashisGraspBase {
   constructor (game) {

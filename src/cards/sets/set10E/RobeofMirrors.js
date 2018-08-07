@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RobeofMirrorsBase = require("../setEXO/RobeofMirrors");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RobeofMirrors extends RobeofMirrorsBase {
+class RobeofMirrors extends UnimplementedCard {
   constructor (game) {
     super(game, "Robe of Mirrors", "Tenth Edition", "10E");
   }

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class UnraveltheAether extends UnimplementedCard {
   constructor (game) {
-    super(game, "Unravel the Æther", "Born of the Gods", "BNG");
+    super(game, "Unravel the Aether", "Born of the Gods", "BNG");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DarksteelAxeBase = require("../setIMA/DarksteelAxe");
 
-class DarksteelAxe extends UnimplementedCard {
+class DarksteelAxe extends DarksteelAxeBase {
   constructor (game) {
-    super(game, "Darksteel Axe", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Darksteel Axe", "Modern Masters 2015", "MM2");
   }
 }
 

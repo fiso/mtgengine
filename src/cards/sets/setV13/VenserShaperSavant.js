@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VenserShaperSavantBase = require("../setMM3/VenserShaperSavant");
 
-class VenserShaperSavant extends UnimplementedCard {
+class VenserShaperSavant extends VenserShaperSavantBase {
   constructor (game) {
     super(game, "Venser, Shaper Savant", "From the Vault: Twenty", "V13");
   }

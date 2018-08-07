@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpellskiteBase = require("../setMM2/Spellskite");
+const SpellskiteBase = require("../setJ17/Spellskite");
 
 class Spellskite extends SpellskiteBase {
   constructor (game) {

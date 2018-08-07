@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MelokutheCloudedMirrorBase = require("../setCHK/MelokutheCloudedMirror");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MelokutheCloudedMirror extends MelokutheCloudedMirrorBase {
+class MelokutheCloudedMirror extends UnimplementedCard {
   constructor (game) {
     super(game, "Meloku the Clouded Mirror", "Modern Masters", "MMA");
   }

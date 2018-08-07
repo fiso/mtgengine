@@ -4,7 +4,7 @@ const TaintedAetherBase = require("../set7ED/TaintedAether");
 
 class TaintedAether extends TaintedAetherBase {
   constructor (game) {
-    super(game, "Tainted Æther", "Urza's Saga", "USG");
+    super(game, "Tainted Aether", "Urza's Saga", "USG");
   }
 }
 

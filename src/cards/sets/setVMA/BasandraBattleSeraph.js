@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BasandraBattleSeraphBase = require("../setCMD/BasandraBattleSeraph");
+const BasandraBattleSeraphBase = require("../setCMA/BasandraBattleSeraph");
 
 class BasandraBattleSeraph extends BasandraBattleSeraphBase {
   constructor (game) {

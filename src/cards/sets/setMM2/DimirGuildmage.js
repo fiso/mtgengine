@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class DimirGuildmage extends UnimplementedCard {
   constructor (game) {
-    super(game, "Dimir Guildmage", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Dimir Guildmage", "Modern Masters 2015", "MM2");
   }
 }
 

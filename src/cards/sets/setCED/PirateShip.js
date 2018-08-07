@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PirateShipBase = require("../setTSB/PirateShip");
 
-class PirateShip extends UnimplementedCard {
+class PirateShip extends PirateShipBase {
   constructor (game) {
-    super(game, "Pirate Ship", "Collector's Edition", "CED");
+    super(game, "Pirate Ship", "Collectors’ Edition", "CED");
   }
 }
 

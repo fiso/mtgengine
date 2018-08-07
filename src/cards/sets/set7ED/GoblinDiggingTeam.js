@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoblinDiggingTeamBase = require("../setATH/GoblinDiggingTeam");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GoblinDiggingTeam extends GoblinDiggingTeamBase {
+class GoblinDiggingTeam extends UnimplementedCard {
   constructor (game) {
     super(game, "Goblin Digging Team", "Seventh Edition", "7ED");
   }

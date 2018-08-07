@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElkinBottleBase = require("../setDKM/ElkinBottle");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ElkinBottle extends ElkinBottleBase {
+class ElkinBottle extends UnimplementedCard {
   constructor (game) {
     super(game, "Elkin Bottle", "Masters Edition II", "ME2");
   }

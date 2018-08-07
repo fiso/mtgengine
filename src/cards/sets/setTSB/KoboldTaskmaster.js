@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KoboldTaskmasterBase = require("../setLEG/KoboldTaskmaster");
+const KoboldTaskmasterBase = require("../setME3/KoboldTaskmaster");
 
 class KoboldTaskmaster extends KoboldTaskmasterBase {
   constructor (game) {
-    super(game, "Kobold Taskmaster", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Kobold Taskmaster", "Time Spiral Timeshifted", "TSB");
   }
 }
 

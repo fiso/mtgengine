@@ -4,7 +4,7 @@ const SwordofKaldraBase = require("../setMRD/SwordofKaldra");
 
 class SwordofKaldra extends SwordofKaldraBase {
   constructor (game) {
-    super(game, "Sword of Kaldra", "Prerelease Events", "pPRE");
+    super(game, "Sword of Kaldra", "Prerelease Events", "PPRE");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StingscourgerBase = require("../setMMA/Stingscourger");
+const StingscourgerBase = require("../setEMA/Stingscourger");
 
 class Stingscourger extends StingscourgerBase {
   constructor (game) {

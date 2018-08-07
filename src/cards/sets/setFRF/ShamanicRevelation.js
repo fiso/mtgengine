@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShamanicRevelationBase = require("../setC16/ShamanicRevelation");
 
-class ShamanicRevelation extends UnimplementedCard {
+class ShamanicRevelation extends ShamanicRevelationBase {
   constructor (game) {
     super(game, "Shamanic Revelation", "Fate Reforged", "FRF");
   }

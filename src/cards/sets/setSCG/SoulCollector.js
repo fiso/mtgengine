@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoulCollectorBase = require("../setpPRE/SoulCollector");
+const SoulCollectorBase = require("../setTSB/SoulCollector");
 
 class SoulCollector extends SoulCollectorBase {
   constructor (game) {

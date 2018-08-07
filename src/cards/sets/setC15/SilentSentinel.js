@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SilentSentinelBase = require("../setBNG/SilentSentinel");
+const SilentSentinelBase = require("../setC18/SilentSentinel");
 
 class SilentSentinel extends SilentSentinelBase {
   constructor (game) {

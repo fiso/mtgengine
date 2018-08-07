@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DiminishingReturnsBase = require("../setEMA/DiminishingReturns");
 
-class DiminishingReturns extends UnimplementedCard {
+class DiminishingReturns extends DiminishingReturnsBase {
   constructor (game) {
     super(game, "Diminishing Returns", "Alliances", "ALL");
   }

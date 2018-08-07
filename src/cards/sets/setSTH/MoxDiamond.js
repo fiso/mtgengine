@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxDiamondBase = require("../setV10/MoxDiamond");
+const MoxDiamondBase = require("../setTPR/MoxDiamond");
 
 class MoxDiamond extends MoxDiamondBase {
   constructor (game) {

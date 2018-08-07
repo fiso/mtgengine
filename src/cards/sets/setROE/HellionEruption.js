@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HellionEruptionBase = require("../setDDP/HellionEruption");
+const HellionEruptionBase = require("../setPCA/HellionEruption");
 
 class HellionEruption extends HellionEruptionBase {
   constructor (game) {

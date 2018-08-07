@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KarmaBase = require("../setCED/Karma");
+const KarmaBase = require("../set8ED/Karma");
 
 class Karma extends KarmaBase {
   constructor (game) {
-    super(game, "Karma", "International Collector's Edition", "CEI");
+    super(game, "Karma", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

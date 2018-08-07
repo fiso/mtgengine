@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreampodDruidBase = require("../setPC2/DreampodDruid");
+const DreampodDruidBase = require("../setPCA/DreampodDruid");
 
 class DreampodDruid extends DreampodDruidBase {
   constructor (game) {

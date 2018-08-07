@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaGeyserBase = require("../set5DN/ManaGeyser");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ManaGeyser extends ManaGeyserBase {
+class ManaGeyser extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mana Geyser", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Mana Geyser", "Conspiracy", "CNS");
   }
 }
 

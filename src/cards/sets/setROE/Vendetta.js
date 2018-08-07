@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VendettaBase = require("../setMMQ/Vendetta");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Vendetta extends VendettaBase {
+class Vendetta extends UnimplementedCard {
   constructor (game) {
     super(game, "Vendetta", "Rise of the Eldrazi", "ROE");
   }

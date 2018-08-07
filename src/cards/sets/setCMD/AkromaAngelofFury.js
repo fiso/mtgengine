@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AkromaAngelofFuryBase = require("../setV15/AkromaAngelofFury");
+const AkromaAngelofFuryBase = require("../setA25/AkromaAngelofFury");
 
 class AkromaAngelofFury extends AkromaAngelofFuryBase {
   constructor (game) {
-    super(game, "Akroma, Angel of Fury", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Akroma, Angel of Fury", "Commander 2011", "CMD");
   }
 }
 

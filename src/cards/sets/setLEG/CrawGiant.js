@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrawGiantBase = require("../setCHR/CrawGiant");
+const CrawGiantBase = require("../setTSB/CrawGiant");
 
 class CrawGiant extends CrawGiantBase {
   constructor (game) {

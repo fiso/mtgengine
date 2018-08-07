@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreambornMuseBase = require("../setLGN/DreambornMuse");
+const DreambornMuseBase = require("../setCM2/DreambornMuse");
 
 class DreambornMuse extends DreambornMuseBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CockatriceBase = require("../setCED/Cockatrice");
+const CockatriceBase = require("../setTSB/Cockatrice");
 
 class Cockatrice extends CockatriceBase {
   constructor (game) {

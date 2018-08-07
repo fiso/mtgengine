@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathSparkBase = require("../setALL/DeathSpark");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DeathSpark extends DeathSparkBase {
+class DeathSpark extends UnimplementedCard {
   constructor (game) {
     super(game, "Death Spark", "Masters Edition II", "ME2");
   }

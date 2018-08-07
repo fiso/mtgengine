@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NakedSingularityBase = require("../setICE/NakedSingularity");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NakedSingularity extends NakedSingularityBase {
+class NakedSingularity extends UnimplementedCard {
   constructor (game) {
     super(game, "Naked Singularity", "Masters Edition IV", "ME4");
   }

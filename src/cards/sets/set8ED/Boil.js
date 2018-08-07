@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BoilBase = require("../set6ED/Boil");
+const BoilBase = require("../setMP2/Boil");
 
 class Boil extends BoilBase {
   constructor (game) {

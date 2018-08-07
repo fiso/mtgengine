@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CinderStormBase = require("../setME3/CinderStorm");
+const CinderStormBase = require("../setA25/CinderStorm");
 
 class CinderStorm extends CinderStormBase {
   constructor (game) {

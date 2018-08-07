@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TidehollowScullerBase = require("../setpFNM/TidehollowSculler");
+const TidehollowScullerBase = require("../setMD1/TidehollowSculler");
 
 class TidehollowSculler extends TidehollowScullerBase {
   constructor (game) {

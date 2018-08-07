@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WeatheredWayfarerBase = require("../set9ED/WeatheredWayfarer");
+const WeatheredWayfarerBase = require("../setTD0/WeatheredWayfarer");
 
 class WeatheredWayfarer extends WeatheredWayfarerBase {
   constructor (game) {

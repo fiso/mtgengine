@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DivinationBase = require("../setBNG/Divination");
+const DivinationBase = require("../setMTGA/Divination");
 
 class Divination extends DivinationBase {
   constructor (game) {

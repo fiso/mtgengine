@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CytoplastRootKinBase = require("../setDIS/CytoplastRootKin");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CytoplastRootKin extends CytoplastRootKinBase {
+class CytoplastRootKin extends UnimplementedCard {
   constructor (game) {
-    super(game, "Cytoplast Root-Kin", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Cytoplast Root-Kin", "Modern Masters 2015", "MM2");
   }
 }
 

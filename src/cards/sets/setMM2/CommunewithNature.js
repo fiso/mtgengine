@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CommunewithNatureBase = require("../setCHK/CommunewithNature");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CommunewithNature extends CommunewithNatureBase {
+class CommunewithNature extends UnimplementedCard {
   constructor (game) {
-    super(game, "Commune with Nature", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Commune with Nature", "Modern Masters 2015", "MM2");
   }
 }
 

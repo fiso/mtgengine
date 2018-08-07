@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CoastalTowerBase = require("../setTD2/CoastalTower");
 
-class CoastalTower extends UnimplementedCard {
+class CoastalTower extends CoastalTowerBase {
   constructor (game) {
     super(game, "Coastal Tower", "Eighth Edition", "8ED");
   }

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class SliceandDice extends UnimplementedCard {
   constructor (game) {
-    super(game, "Slice and Dice", "Commander 2013 Edition", "C13");
+    super(game, "Slice and Dice", "Commander 2013", "C13");
   }
 }
 

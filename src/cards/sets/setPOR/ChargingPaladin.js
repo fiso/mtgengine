@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChargingPaladinBase = require("../setDD3_DVD/ChargingPaladin");
+const ChargingPaladinBase = require("../setTPR/ChargingPaladin");
 
 class ChargingPaladin extends ChargingPaladinBase {
   constructor (game) {

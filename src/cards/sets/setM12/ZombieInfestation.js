@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ZombieInfestationBase = require("../setARC/ZombieInfestation");
+const ZombieInfestationBase = require("../setPD3/ZombieInfestation");
 
 class ZombieInfestation extends ZombieInfestationBase {
   constructor (game) {

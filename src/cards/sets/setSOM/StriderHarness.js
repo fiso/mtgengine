@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StriderHarnessBase = require("../setOGW/StriderHarness");
+const StriderHarnessBase = require("../setRIX/StriderHarness");
 
 class StriderHarness extends StriderHarnessBase {
   constructor (game) {

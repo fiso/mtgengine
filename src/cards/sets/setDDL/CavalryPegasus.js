@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CavalryPegasusBase = require("../setTHS/CavalryPegasus");
 
-class CavalryPegasus extends UnimplementedCard {
+class CavalryPegasus extends CavalryPegasusBase {
   constructor (game) {
     super(game, "Cavalry Pegasus", "Duel Decks: Heroes vs. Monsters", "DDL");
   }

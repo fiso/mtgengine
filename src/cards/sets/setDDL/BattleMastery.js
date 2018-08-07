@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BattleMasteryBase = require("../setDTK/BattleMastery");
+const BattleMasteryBase = require("../setBBD/BattleMastery");
 
 class BattleMastery extends BattleMasteryBase {
   constructor (game) {

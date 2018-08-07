@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TetravusBase = require("../setATQ/Tetravus");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Tetravus extends TetravusBase {
+class Tetravus extends UnimplementedCard {
   constructor (game) {
     super(game, "Tetravus", "Masters Edition IV", "ME4");
   }

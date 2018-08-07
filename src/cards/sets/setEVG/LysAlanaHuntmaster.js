@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LysAlanaHuntmasterBase = require("../setC14/LysAlanaHuntmaster");
+const LysAlanaHuntmasterBase = require("../setCMA/LysAlanaHuntmaster");
 
 class LysAlanaHuntmaster extends LysAlanaHuntmasterBase {
   constructor (game) {
-    super(game, "Lys Alana Huntmaster", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Lys Alana Huntmaster", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

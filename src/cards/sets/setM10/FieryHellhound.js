@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieryHellhoundBase = require("../setDDI/FieryHellhound");
+const FieryHellhoundBase = require("../setORI/FieryHellhound");
 
 class FieryHellhound extends FieryHellhoundBase {
   constructor (game) {

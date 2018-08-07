@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MagmaticChasmBase = require("../setSOI/MagmaticChasm");
 
-class MagmaticChasm extends UnimplementedCard {
+class MagmaticChasm extends MagmaticChasmBase {
   constructor (game) {
     super(game, "Magmatic Chasm", "Dragons of Tarkir", "DTK");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarksteelIngotBase = require("../setpARL/DarksteelIngot");
+const DarksteelIngotBase = require("../setCM2/DarksteelIngot");
 
 class DarksteelIngot extends DarksteelIngotBase {
   constructor (game) {
-    super(game, "Darksteel Ingot", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Darksteel Ingot", "Commander 2011", "CMD");
   }
 }
 

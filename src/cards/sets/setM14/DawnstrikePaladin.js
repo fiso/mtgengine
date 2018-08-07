@@ -4,7 +4,7 @@ const DawnstrikePaladinBase = require("../setDDL/DawnstrikePaladin");
 
 class DawnstrikePaladin extends DawnstrikePaladinBase {
   constructor (game) {
-    super(game, "Dawnstrike Paladin", "Magic 2014 Core Set", "M14");
+    super(game, "Dawnstrike Paladin", "Magic 2014", "M14");
   }
 }
 

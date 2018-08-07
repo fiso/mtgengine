@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OtherworldlyJourneyBase = require("../setCHK/OtherworldlyJourney");
+const OtherworldlyJourneyBase = require("../setMM2/OtherworldlyJourney");
 
 class OtherworldlyJourney extends OtherworldlyJourneyBase {
   constructor (game) {

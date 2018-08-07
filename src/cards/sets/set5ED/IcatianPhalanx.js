@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcatianPhalanxBase = require("../setFEM/IcatianPhalanx");
+const IcatianPhalanxBase = require("../setME2/IcatianPhalanx");
 
 class IcatianPhalanx extends IcatianPhalanxBase {
   constructor (game) {

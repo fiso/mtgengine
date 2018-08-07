@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ArchetypeofImaginationBase = require("../setC18/ArchetypeofImagination");
 
-class ArchetypeofImagination extends UnimplementedCard {
+class ArchetypeofImagination extends ArchetypeofImaginationBase {
   constructor (game) {
     super(game, "Archetype of Imagination", "Born of the Gods", "BNG");
   }

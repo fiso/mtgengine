@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class SteadyProgress extends UnimplementedCard {
   constructor (game) {
-    super(game, "Steady Progress", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Steady Progress", "Modern Masters 2015", "MM2");
   }
 }
 

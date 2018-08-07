@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RescindBase = require("../setVMA/Rescind");
 
-class Rescind extends UnimplementedCard {
+class Rescind extends RescindBase {
   constructor (game) {
     super(game, "Rescind", "Urza's Saga", "USG");
   }

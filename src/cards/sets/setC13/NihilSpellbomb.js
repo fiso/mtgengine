@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NihilSpellbombBase = require("../setA25/NihilSpellbomb");
 
-class NihilSpellbomb extends UnimplementedCard {
+class NihilSpellbomb extends NihilSpellbombBase {
   constructor (game) {
-    super(game, "Nihil Spellbomb", "Commander 2013 Edition", "C13");
+    super(game, "Nihil Spellbomb", "Commander 2013", "C13");
   }
 }
 

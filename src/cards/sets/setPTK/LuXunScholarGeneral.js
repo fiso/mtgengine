@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LuXunScholarGeneralBase = require("../setC13/LuXunScholarGeneral");
+const LuXunScholarGeneralBase = require("../setCMA/LuXunScholarGeneral");
 
 class LuXunScholarGeneral extends LuXunScholarGeneralBase {
   constructor (game) {

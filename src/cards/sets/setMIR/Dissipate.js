@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DissipateBase = require("../setDDJ/Dissipate");
+const DissipateBase = require("../setM15/Dissipate");
 
 class Dissipate extends DissipateBase {
   constructor (game) {

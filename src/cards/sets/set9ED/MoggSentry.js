@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoggSentryBase = require("../set8ED/MoggSentry");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoggSentry extends MoggSentryBase {
+class MoggSentry extends UnimplementedCard {
   constructor (game) {
     super(game, "Mogg Sentry", "Ninth Edition", "9ED");
   }

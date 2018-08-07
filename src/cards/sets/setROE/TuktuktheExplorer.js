@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TuktuktheExplorerBase = require("../setC14/TuktuktheExplorer");
+const TuktuktheExplorerBase = require("../setCM2/TuktuktheExplorer");
 
 class TuktuktheExplorer extends TuktuktheExplorerBase {
   constructor (game) {

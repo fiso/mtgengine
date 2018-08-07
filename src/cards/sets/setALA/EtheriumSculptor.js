@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EtheriumSculptorBase = require("../setMMA/EtheriumSculptor");
+const EtheriumSculptorBase = require("../setC18/EtheriumSculptor");
 
 class EtheriumSculptor extends EtheriumSculptorBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FeastorFamineBase = require("../setALL/FeastorFamine");
+const FeastorFamineBase = require("../setDDJ/FeastorFamine");
 
 class FeastorFamine extends FeastorFamineBase {
   constructor (game) {

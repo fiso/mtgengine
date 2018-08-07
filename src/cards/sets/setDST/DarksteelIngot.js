@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarksteelIngotBase = require("../setpARL/DarksteelIngot");
+const DarksteelIngotBase = require("../setCM2/DarksteelIngot");
 
 class DarksteelIngot extends DarksteelIngotBase {
   constructor (game) {

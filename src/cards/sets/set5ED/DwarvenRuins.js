@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DwarvenRuinsBase = require("../setBTD/DwarvenRuins");
+const DwarvenRuinsBase = require("../setME2/DwarvenRuins");
 
 class DwarvenRuins extends DwarvenRuinsBase {
   constructor (game) {

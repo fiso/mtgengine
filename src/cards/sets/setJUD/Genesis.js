@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GenesisBase = require("../setpJGP/Genesis");
+const GenesisBase = require("../setVMA/Genesis");
 
 class Genesis extends GenesisBase {
   constructor (game) {

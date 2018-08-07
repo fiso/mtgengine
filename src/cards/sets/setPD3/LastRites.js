@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LastRitesBase = require("../setODY/LastRites");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LastRites extends LastRitesBase {
+class LastRites extends UnimplementedCard {
   constructor (game) {
     super(game, "Last Rites", "Premium Deck Series: Graveborn", "PD3");
   }

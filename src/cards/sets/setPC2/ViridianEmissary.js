@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ViridianEmissaryBase = require("../setC15/ViridianEmissary");
+const ViridianEmissaryBase = require("../setCMA/ViridianEmissary");
 
 class ViridianEmissary extends ViridianEmissaryBase {
   constructor (game) {
-    super(game, "Viridian Emissary", "Planechase 2012 Edition", "PC2");
+    super(game, "Viridian Emissary", "Planechase 2012", "PC2");
   }
 }
 

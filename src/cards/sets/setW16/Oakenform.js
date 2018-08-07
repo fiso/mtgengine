@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OakenformBase = require("../setM10/Oakenform");
+const OakenformBase = require("../setM19/Oakenform");
 
 class Oakenform extends OakenformBase {
   constructor (game) {

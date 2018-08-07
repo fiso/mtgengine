@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChargingRhinoBase = require("../setM15/ChargingRhino");
+const ChargingRhinoBase = require("../setBBD/ChargingRhino");
 
 class ChargingRhino extends ChargingRhinoBase {
   constructor (game) {
-    super(game, "Charging Rhino", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Charging Rhino", "Conspiracy", "CNS");
   }
 }
 

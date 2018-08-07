@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OniofWildPlacesBase = require("../setDDN/OniofWildPlaces");
+const OniofWildPlacesBase = require("../setCMA/OniofWildPlaces");
 
 class OniofWildPlaces extends OniofWildPlacesBase {
   constructor (game) {
-    super(game, "Oni of Wild Places", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Oni of Wild Places", "Commander 2011", "CMD");
   }
 }
 

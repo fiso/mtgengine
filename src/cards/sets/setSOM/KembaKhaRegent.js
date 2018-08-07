@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KembaKhaRegentBase = require("../setC14/KembaKhaRegent");
+const KembaKhaRegentBase = require("../setC17/KembaKhaRegent");
 
 class KembaKhaRegent extends KembaKhaRegentBase {
   constructor (game) {

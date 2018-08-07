@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChannelBase = require("../setCED/Channel");
+const ChannelBase = require("../setIMA/Channel");
 
 class Channel extends ChannelBase {
   constructor (game) {
-    super(game, "Channel", "International Collector's Edition", "CEI");
+    super(game, "Channel", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

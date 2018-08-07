@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WinterOrbBase = require("../setEMA/WinterOrb");
 
-class WinterOrb extends UnimplementedCard {
+class WinterOrb extends WinterOrbBase {
   constructor (game) {
-    super(game, "Winter Orb", "Collector's Edition", "CED");
+    super(game, "Winter Orb", "Collectors’ Edition", "CED");
   }
 }
 

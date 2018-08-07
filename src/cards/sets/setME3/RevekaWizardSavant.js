@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RevekaWizardSavantBase = require("../setHML/RevekaWizardSavant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RevekaWizardSavant extends RevekaWizardSavantBase {
+class RevekaWizardSavant extends UnimplementedCard {
   constructor (game) {
     super(game, "Reveka, Wizard Savant", "Masters Edition III", "ME3");
   }

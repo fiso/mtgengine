@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MortalsArdorBase = require("../setBNG/MortalsArdor");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MortalsArdor extends MortalsArdorBase {
+class MortalsArdor extends UnimplementedCard {
   constructor (game) {
     super(game, "Mortal's Ardor", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

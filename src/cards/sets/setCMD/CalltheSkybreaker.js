@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CalltheSkybreakerBase = require("../setC15/CalltheSkybreaker");
+const CalltheSkybreakerBase = require("../setEMA/CalltheSkybreaker");
 
 class CalltheSkybreaker extends CalltheSkybreakerBase {
   constructor (game) {
-    super(game, "Call the Skybreaker", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Call the Skybreaker", "Commander 2011", "CMD");
   }
 }
 

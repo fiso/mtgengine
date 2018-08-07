@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BasaltMonolithBase = require("../setCM2/BasaltMonolith");
 
-class BasaltMonolith extends UnimplementedCard {
+class BasaltMonolith extends BasaltMonolithBase {
   constructor (game) {
-    super(game, "Basalt Monolith", "Collector's Edition", "CED");
+    super(game, "Basalt Monolith", "Collectors’ Edition", "CED");
   }
 }
 

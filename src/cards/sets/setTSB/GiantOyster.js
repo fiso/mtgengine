@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GiantOysterBase = require("../setHML/GiantOyster");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GiantOyster extends GiantOysterBase {
+class GiantOyster extends UnimplementedCard {
   constructor (game) {
-    super(game, "Giant Oyster", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Giant Oyster", "Time Spiral Timeshifted", "TSB");
   }
 }
 

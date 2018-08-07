@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SphereofResistanceBase = require("../setEXO/SphereofResistance");
+const SphereofResistanceBase = require("../setMPS/SphereofResistance");
 
 class SphereofResistance extends SphereofResistanceBase {
   constructor (game) {

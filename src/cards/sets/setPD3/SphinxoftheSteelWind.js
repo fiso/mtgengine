@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SphinxoftheSteelWindBase = require("../setARB/SphinxoftheSteelWind");
+const SphinxoftheSteelWindBase = require("../setEMA/SphinxoftheSteelWind");
 
 class SphinxoftheSteelWind extends SphinxoftheSteelWindBase {
   constructor (game) {

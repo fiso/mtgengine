@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InnerFlameAcolyteBase = require("../setDD3_JVC/InnerFlameAcolyte");
+const InnerFlameAcolyteBase = require("../setJVC/InnerFlameAcolyte");
 
 class InnerFlameAcolyte extends InnerFlameAcolyteBase {
   constructor (game) {

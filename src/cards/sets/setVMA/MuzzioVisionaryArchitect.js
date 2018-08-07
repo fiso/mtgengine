@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MuzzioVisionaryArchitectBase = require("../setCNS/MuzzioVisionaryArchitect");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MuzzioVisionaryArchitect extends MuzzioVisionaryArchitectBase {
+class MuzzioVisionaryArchitect extends UnimplementedCard {
   constructor (game) {
     super(game, "Muzzio, Visionary Architect", "Vintage Masters", "VMA");
   }

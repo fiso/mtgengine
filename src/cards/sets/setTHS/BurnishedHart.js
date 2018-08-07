@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BurnishedHartBase = require("../setC14/BurnishedHart");
+const BurnishedHartBase = require("../setC15/BurnishedHart");
 
 class BurnishedHart extends BurnishedHartBase {
   constructor (game) {

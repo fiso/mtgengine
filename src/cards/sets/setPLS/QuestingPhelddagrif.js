@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const QuestingPhelddagrifBase = require("../setTD0/QuestingPhelddagrif");
 
-class QuestingPhelddagrif extends UnimplementedCard {
+class QuestingPhelddagrif extends QuestingPhelddagrifBase {
   constructor (game) {
     super(game, "Questing Phelddagrif", "Planeshift", "PLS");
   }

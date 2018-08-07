@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KrosanVergeBase = require("../setARC/KrosanVerge");
+const KrosanVergeBase = require("../setC18/KrosanVerge");
 
 class KrosanVerge extends KrosanVergeBase {
   constructor (game) {
-    super(game, "Krosan Verge", "Planechase 2012 Edition", "PC2");
+    super(game, "Krosan Verge", "Planechase 2012", "PC2");
   }
 }
 

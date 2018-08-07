@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CoercivePortalBase = require("../setVMA/CoercivePortal");
 
-class CoercivePortal extends UnimplementedCard {
+class CoercivePortal extends CoercivePortalBase {
   constructor (game) {
-    super(game, "Coercive Portal", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Coercive Portal", "Conspiracy", "CNS");
   }
 }
 

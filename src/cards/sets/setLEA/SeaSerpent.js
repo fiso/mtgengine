@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeaSerpentBase = require("../setCED/SeaSerpent");
+const SeaSerpentBase = require("../setME4/SeaSerpent");
 
 class SeaSerpent extends SeaSerpentBase {
   constructor (game) {

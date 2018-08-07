@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ObliterateBase = require("../set8ED/Obliterate");
+const ObliterateBase = require("../setV16/Obliterate");
 
 class Obliterate extends ObliterateBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MahamotiDjinnBase = require("../setBTD/MahamotiDjinn");
+const MahamotiDjinnBase = require("../setIMA/MahamotiDjinn");
 
 class MahamotiDjinn extends MahamotiDjinnBase {
   constructor (game) {
-    super(game, "Mahamoti Djinn", "Magic 2015 Core Set", "M15");
+    super(game, "Mahamoti Djinn", "Magic 2015", "M15");
   }
 }
 

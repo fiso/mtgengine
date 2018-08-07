@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WeeDragonautsBase = require("../setpARL/WeeDragonauts");
+const WeeDragonautsBase = require("../setEMA/WeeDragonauts");
 
 class WeeDragonauts extends WeeDragonautsBase {
   constructor (game) {

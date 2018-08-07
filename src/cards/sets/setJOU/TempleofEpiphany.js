@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TempleofEpiphanyBase = require("../setDDU/TempleofEpiphany");
 
-class TempleofEpiphany extends UnimplementedCard {
+class TempleofEpiphany extends TempleofEpiphanyBase {
   constructor (game) {
     super(game, "Temple of Epiphany", "Journey into Nyx", "JOU");
   }

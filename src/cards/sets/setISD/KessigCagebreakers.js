@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KessigCagebreakersBase = require("../setC15/KessigCagebreakers");
+const KessigCagebreakersBase = require("../setCMA/KessigCagebreakers");
 
 class KessigCagebreakers extends KessigCagebreakersBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TavernSwindlerBase = require("../setDDM/TavernSwindler");
+const TavernSwindlerBase = require("../setBBD/TavernSwindler");
 
 class TavernSwindler extends TavernSwindlerBase {
   constructor (game) {

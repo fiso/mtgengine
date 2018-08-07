@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ValakuttheMoltenPinnacleBase = require("../setpLPA/ValakuttheMoltenPinnacle");
+const ValakuttheMoltenPinnacleBase = require("../setPZEN/ValakuttheMoltenPinnacle");
 
 class ValakuttheMoltenPinnacle extends ValakuttheMoltenPinnacleBase {
   constructor (game) {

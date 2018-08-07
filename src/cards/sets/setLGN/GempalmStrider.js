@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GempalmStriderBase = require("../setDD3_EVG/GempalmStrider");
+const GempalmStriderBase = require("../setEVG/GempalmStrider");
 
 class GempalmStrider extends GempalmStriderBase {
   constructor (game) {

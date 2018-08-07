@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TranquilThicketBase = require("../setARC/TranquilThicket");
+const TranquilThicketBase = require("../setC18/TranquilThicket");
 
 class TranquilThicket extends TranquilThicketBase {
   constructor (game) {
-    super(game, "Tranquil Thicket", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Tranquil Thicket", "Commander 2011", "CMD");
   }
 }
 

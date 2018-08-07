@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GemstoneMineBase = require("../setpJGP/GemstoneMine");
+const GemstoneMineBase = require("../setTSB/GemstoneMine");
 
 class GemstoneMine extends GemstoneMineBase {
   constructor (game) {

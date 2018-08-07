@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcboundCrusherBase = require("../setDST/ArcboundCrusher");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArcboundCrusher extends ArcboundCrusherBase {
+class ArcboundCrusher extends UnimplementedCard {
   constructor (game) {
     super(game, "Arcbound Crusher", "Planechase", "HOP");
   }

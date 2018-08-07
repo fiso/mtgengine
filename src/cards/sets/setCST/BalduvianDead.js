@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BalduvianDeadBase = require("../setALL/BalduvianDead");
+const BalduvianDeadBase = require("../setME2/BalduvianDead");
 
 class BalduvianDead extends BalduvianDeadBase {
   constructor (game) {

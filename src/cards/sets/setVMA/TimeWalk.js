@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeWalkBase = require("../setCED/TimeWalk");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TimeWalk extends TimeWalkBase {
+class TimeWalk extends UnimplementedCard {
   constructor (game) {
     super(game, "Time Walk", "Vintage Masters", "VMA");
   }

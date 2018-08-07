@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CarrionFeederBase = require("../setDDE/CarrionFeeder");
+const CarrionFeederBase = require("../setEMA/CarrionFeeder");
 
 class CarrionFeeder extends CarrionFeederBase {
   constructor (game) {

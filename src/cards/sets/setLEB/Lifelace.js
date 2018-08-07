@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LifelaceBase = require("../setCED/Lifelace");
+const LifelaceBase = require("../set4ED/Lifelace");
 
 class Lifelace extends LifelaceBase {
   constructor (game) {

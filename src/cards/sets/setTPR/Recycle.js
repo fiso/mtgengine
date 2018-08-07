@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecycleBase = require("../setTMP/Recycle");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Recycle extends RecycleBase {
+class Recycle extends UnimplementedCard {
   constructor (game) {
     super(game, "Recycle", "Tempest Remastered", "TPR");
   }

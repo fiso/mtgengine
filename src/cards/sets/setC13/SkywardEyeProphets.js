@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SkywardEyeProphetsBase = require("../setCMA/SkywardEyeProphets");
 
-class SkywardEyeProphets extends UnimplementedCard {
+class SkywardEyeProphets extends SkywardEyeProphetsBase {
   constructor (game) {
-    super(game, "Skyward Eye Prophets", "Commander 2013 Edition", "C13");
+    super(game, "Skyward Eye Prophets", "Commander 2013", "C13");
   }
 }
 

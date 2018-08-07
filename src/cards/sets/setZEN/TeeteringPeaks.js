@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TeeteringPeaksBase = require("../setpFNM/TeeteringPeaks");
+const TeeteringPeaksBase = require("../setF11/TeeteringPeaks");
 
 class TeeteringPeaks extends TeeteringPeaksBase {
   constructor (game) {

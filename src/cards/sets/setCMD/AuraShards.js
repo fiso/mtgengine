@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AuraShardsBase = require("../setINV/AuraShards");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AuraShards extends AuraShardsBase {
+class AuraShards extends UnimplementedCard {
   constructor (game) {
-    super(game, "Aura Shards", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Aura Shards", "Commander 2011", "CMD");
   }
 }
 

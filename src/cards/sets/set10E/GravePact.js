@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GravePactBase = require("../set8ED/GravePact");
+const GravePactBase = require("../setCM2/GravePact");
 
 class GravePact extends GravePactBase {
   constructor (game) {

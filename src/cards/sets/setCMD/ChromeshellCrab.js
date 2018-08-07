@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChromeshellCrabBase = require("../setLGN/ChromeshellCrab");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ChromeshellCrab extends ChromeshellCrabBase {
+class ChromeshellCrab extends UnimplementedCard {
   constructor (game) {
-    super(game, "Chromeshell Crab", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Chromeshell Crab", "Commander 2011", "CMD");
   }
 }
 

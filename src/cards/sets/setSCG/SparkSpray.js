@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SparkSprayBase = require("../setVMA/SparkSpray");
 
-class SparkSpray extends UnimplementedCard {
+class SparkSpray extends SparkSprayBase {
   constructor (game) {
     super(game, "Spark Spray", "Scourge", "SCG");
   }

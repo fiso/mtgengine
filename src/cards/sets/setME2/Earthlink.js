@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarthlinkBase = require("../setICE/Earthlink");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Earthlink extends EarthlinkBase {
+class Earthlink extends UnimplementedCard {
   constructor (game) {
     super(game, "Earthlink", "Masters Edition II", "ME2");
   }

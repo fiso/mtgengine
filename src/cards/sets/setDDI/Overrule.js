@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OverruleBase = require("../setDIS/Overrule");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Overrule extends OverruleBase {
+class Overrule extends UnimplementedCard {
   constructor (game) {
     super(game, "Overrule", "Duel Decks: Venser vs. Koth", "DDI");
   }

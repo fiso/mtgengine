@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DeepSpawnBase = require("../setME2/DeepSpawn");
 
-class DeepSpawn extends UnimplementedCard {
+class DeepSpawn extends DeepSpawnBase {
   constructor (game) {
     super(game, "Deep Spawn", "Fallen Empires", "FEM");
   }

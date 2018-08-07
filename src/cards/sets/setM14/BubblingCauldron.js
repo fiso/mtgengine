@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BubblingCauldronBase = require("../setIMA/BubblingCauldron");
 
-class BubblingCauldron extends UnimplementedCard {
+class BubblingCauldron extends BubblingCauldronBase {
   constructor (game) {
-    super(game, "Bubbling Cauldron", "Magic 2014 Core Set", "M14");
+    super(game, "Bubbling Cauldron", "Magic 2014", "M14");
   }
 }
 

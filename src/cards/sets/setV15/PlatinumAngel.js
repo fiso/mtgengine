@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PlatinumAngelBase = require("../setMPS/PlatinumAngel");
 
-class PlatinumAngel extends UnimplementedCard {
+class PlatinumAngel extends PlatinumAngelBase {
   constructor (game) {
     super(game, "Platinum Angel", "From the Vault: Angels", "V15");
   }

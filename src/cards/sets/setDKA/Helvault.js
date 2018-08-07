@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HelvaultBase = require("../setV16/Helvault");
 
-class Helvault extends UnimplementedCard {
+class Helvault extends HelvaultBase {
   constructor (game) {
     super(game, "Helvault", "Dark Ascension", "DKA");
   }

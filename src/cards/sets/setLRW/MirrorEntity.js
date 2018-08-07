@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MirrorEntityBase = require("../setC13/MirrorEntity");
+const MirrorEntityBase = require("../setCMA/MirrorEntity");
 
 class MirrorEntity extends MirrorEntityBase {
   constructor (game) {

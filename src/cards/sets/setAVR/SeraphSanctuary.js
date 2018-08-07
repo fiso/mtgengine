@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SeraphSanctuaryBase = require("../setDDQ/SeraphSanctuary");
 
-class SeraphSanctuary extends UnimplementedCard {
+class SeraphSanctuary extends SeraphSanctuaryBase {
   constructor (game) {
     super(game, "Seraph Sanctuary", "Avacyn Restored", "AVR");
   }

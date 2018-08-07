@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LotlethTrollBase = require("../setC15/LotlethTroll");
+const LotlethTrollBase = require("../setCMA/LotlethTroll");
 
 class LotlethTroll extends LotlethTrollBase {
   constructor (game) {

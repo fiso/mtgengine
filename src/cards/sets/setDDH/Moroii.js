@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MoroiiBase = require("../setMM3/Moroii");
 
-class Moroii extends UnimplementedCard {
+class Moroii extends MoroiiBase {
   constructor (game) {
     super(game, "Moroii", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

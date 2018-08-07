@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const EpicConfrontationBase = require("../setA25/EpicConfrontation");
 
-class EpicConfrontation extends UnimplementedCard {
+class EpicConfrontation extends EpicConfrontationBase {
   constructor (game) {
     super(game, "Epic Confrontation", "Dragons of Tarkir", "DTK");
   }

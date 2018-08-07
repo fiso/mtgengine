@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoltaicKeyBase = require("../setDDE/VoltaicKey");
+const VoltaicKeyBase = require("../setM11/VoltaicKey");
 
 class VoltaicKey extends VoltaicKeyBase {
   constructor (game) {

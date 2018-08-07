@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TalrandSkySummonerBase = require("../setC15/TalrandSkySummoner");
+const TalrandSkySummonerBase = require("../setDDS/TalrandSkySummoner");
 
 class TalrandSkySummoner extends TalrandSkySummonerBase {
   constructor (game) {

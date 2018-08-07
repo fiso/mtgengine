@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishEulogistBase = require("../setDD3_EVG/ElvishEulogist");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ElvishEulogist extends ElvishEulogistBase {
+class ElvishEulogist extends UnimplementedCard {
   constructor (game) {
-    super(game, "Elvish Eulogist", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Elvish Eulogist", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

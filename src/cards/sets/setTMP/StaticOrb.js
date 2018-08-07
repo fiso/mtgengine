@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StaticOrbBase = require("../set7ED/StaticOrb");
+const StaticOrbBase = require("../setMPS/StaticOrb");
 
 class StaticOrb extends StaticOrbBase {
   constructor (game) {

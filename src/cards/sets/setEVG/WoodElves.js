@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WoodElvesBase = require("../setC14/WoodElves");
+const WoodElvesBase = require("../setCMA/WoodElves");
 
 class WoodElves extends WoodElvesBase {
   constructor (game) {
-    super(game, "Wood Elves", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Wood Elves", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

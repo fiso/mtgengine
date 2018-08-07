@@ -12,7 +12,6 @@ module.exports = {
   Counterspell: require("./Counterspell"),
   Daze: require("./Daze"),
   Demonfire: require("./Demonfire"),
-  ElementalShaman: require("./ElementalShaman"),
   ErrantEphemeron: require("./ErrantEphemeron"),
   FactorFiction: require("./FactorFiction"),
   FathomSeer: require("./FathomSeer"),

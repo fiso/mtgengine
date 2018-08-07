@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RazorjawOniBase = require("../setCMA/RazorjawOni");
 
-class RazorjawOni extends UnimplementedCard {
+class RazorjawOni extends RazorjawOniBase {
   constructor (game) {
-    super(game, "Razorjaw Oni", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Razorjaw Oni", "Commander 2011", "CMD");
   }
 }
 

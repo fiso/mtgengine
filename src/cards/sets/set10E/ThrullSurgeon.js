@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThrullSurgeonBase = require("../setEXO/ThrullSurgeon");
+const ThrullSurgeonBase = require("../setTPR/ThrullSurgeon");
 
 class ThrullSurgeon extends ThrullSurgeonBase {
   constructor (game) {

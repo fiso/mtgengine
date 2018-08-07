@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ValleyRannetBase = require("../setARB/ValleyRannet");
+const ValleyRannetBase = require("../setC13/ValleyRannet");
 
 class ValleyRannet extends ValleyRannetBase {
   constructor (game) {

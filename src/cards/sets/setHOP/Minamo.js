@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MinamoBase = require("../setPCA/Minamo");
 
-class Minamo extends UnimplementedCard {
+class Minamo extends MinamoBase {
   constructor (game) {
     super(game, "Minamo", "Planechase", "HOP");
   }

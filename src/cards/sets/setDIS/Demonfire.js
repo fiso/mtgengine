@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DemonfireBase = require("../setJVC/Demonfire");
 
-class Demonfire extends UnimplementedCard {
+class Demonfire extends DemonfireBase {
   constructor (game) {
     super(game, "Demonfire", "Dissension", "DIS");
   }

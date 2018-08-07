@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfernalContractBase = require("../set6ED/InfernalContract");
+const InfernalContractBase = require("../setPHUK/InfernalContract");
 
 class InfernalContract extends InfernalContractBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HealingSalveBase = require("../setBRB/HealingSalve");
+const HealingSalveBase = require("../setDVD/HealingSalve");
 
 class HealingSalve extends HealingSalveBase {
   constructor (game) {
-    super(game, "Healing Salve", "Collector's Edition", "CED");
+    super(game, "Healing Salve", "Collectors’ Edition", "CED");
   }
 }
 

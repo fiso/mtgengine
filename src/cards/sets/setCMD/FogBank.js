@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FogBankBase = require("../setC13/FogBank");
+const FogBankBase = require("../setBBD/FogBank");
 
 class FogBank extends FogBankBase {
   constructor (game) {
-    super(game, "Fog Bank", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Fog Bank", "Commander 2011", "CMD");
   }
 }
 

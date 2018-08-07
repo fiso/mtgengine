@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MerchantScrollBase = require("../set8ED/MerchantScroll");
+const MerchantScrollBase = require("../setJ18/MerchantScroll");
 
 class MerchantScroll extends MerchantScrollBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpatialMergingBase = require("../setPCA/SpatialMerging");
 
-class SpatialMerging extends UnimplementedCard {
+class SpatialMerging extends SpatialMergingBase {
   constructor (game) {
-    super(game, "Spatial Merging", "Planechase 2012 Edition", "PC2");
+    super(game, "Spatial Merging", "Planechase 2012", "PC2");
   }
 }
 

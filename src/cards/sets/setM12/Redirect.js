@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RedirectBase = require("../setM11/Redirect");
+const RedirectBase = require("../setM13/Redirect");
 
 class Redirect extends RedirectBase {
   constructor (game) {

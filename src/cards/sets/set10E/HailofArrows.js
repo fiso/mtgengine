@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HailofArrowsBase = require("../setSOK/HailofArrows");
+const HailofArrowsBase = require("../setCN2/HailofArrows");
 
 class HailofArrows extends HailofArrowsBase {
   constructor (game) {

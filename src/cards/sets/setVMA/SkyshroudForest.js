@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyshroudForestBase = require("../setTMP/SkyshroudForest");
+const SkyshroudForestBase = require("../setTPR/SkyshroudForest");
 
 class SkyshroudForest extends SkyshroudForestBase {
   constructor (game) {

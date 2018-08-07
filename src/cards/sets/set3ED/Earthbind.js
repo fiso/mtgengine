@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarthbindBase = require("../setCED/Earthbind");
+const EarthbindBase = require("../setSUM/Earthbind");
 
 class Earthbind extends EarthbindBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FertileGroundBase = require("../setBRB/FertileGround");
+const FertileGroundBase = require("../setC18/FertileGround");
 
 class FertileGround extends FertileGroundBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NobleHierarchBase = require("../setMM2/NobleHierarch");
 
-class NobleHierarch extends UnimplementedCard {
+class NobleHierarch extends NobleHierarchBase {
   constructor (game) {
     super(game, "Noble Hierarch", "Conflux", "CON");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SteelOverseerBase = require("../setDDF/SteelOverseer");
+const SteelOverseerBase = require("../setMPS/SteelOverseer");
 
 class SteelOverseer extends SteelOverseerBase {
   constructor (game) {

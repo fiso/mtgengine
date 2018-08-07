@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CyclopeanTombBase = require("../setCED/CyclopeanTomb");
+const CyclopeanTombBase = require("../setME4/CyclopeanTomb");
 
 class CyclopeanTomb extends CyclopeanTombBase {
   constructor (game) {

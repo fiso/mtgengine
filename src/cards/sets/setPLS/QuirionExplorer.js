@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const QuirionExplorerBase = require("../setC16/QuirionExplorer");
 
-class QuirionExplorer extends UnimplementedCard {
+class QuirionExplorer extends QuirionExplorerBase {
   constructor (game) {
     super(game, "Quirion Explorer", "Planeshift", "PLS");
   }

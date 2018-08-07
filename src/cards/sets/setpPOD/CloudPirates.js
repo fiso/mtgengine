@@ -4,7 +4,7 @@ const CloudPiratesBase = require("../setPOR/CloudPirates");
 
 class CloudPirates extends CloudPiratesBase {
   constructor (game) {
-    super(game, "Cloud Pirates", "Portal Demo Game", "pPOD");
+    super(game, "Cloud Pirates", "Portal Demo Game", "PPOD");
   }
 }
 

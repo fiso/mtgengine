@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimicSignetBase = require("../setC13/SimicSignet");
+const SimicSignetBase = require("../setCM2/SimicSignet");
 
 class SimicSignet extends SimicSignetBase {
   constructor (game) {
-    super(game, "Simic Signet", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Simic Signet", "Commander 2011", "CMD");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ObsianusGolemBase = require("../set6ED/ObsianusGolem");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ObsianusGolem extends ObsianusGolemBase {
+class ObsianusGolem extends UnimplementedCard {
   constructor (game) {
     super(game, "Obsianus Golem", "Masters Edition IV", "ME4");
   }

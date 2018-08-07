@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LumberknotBase = require("../setISD/Lumberknot");
+const LumberknotBase = require("../setPCA/Lumberknot");
 
 class Lumberknot extends LumberknotBase {
   constructor (game) {
-    super(game, "Lumberknot", "Planechase 2012 Edition", "PC2");
+    super(game, "Lumberknot", "Planechase 2012", "PC2");
   }
 }
 

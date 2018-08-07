@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WakedancerBase = require("../setDKA/Wakedancer");
+const WakedancerBase = require("../setEMA/Wakedancer");
 
 class Wakedancer extends WakedancerBase {
   constructor (game) {
-    super(game, "Wakedancer", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Wakedancer", "Conspiracy", "CNS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuietusSpikeBase = require("../setPC2/QuietusSpike");
+const QuietusSpikeBase = require("../setC17/QuietusSpike");
 
 class QuietusSpike extends QuietusSpikeBase {
   constructor (game) {

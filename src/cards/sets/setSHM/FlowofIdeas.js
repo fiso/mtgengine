@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlowofIdeasBase = require("../setRAV/FlowofIdeas");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FlowofIdeas extends FlowofIdeasBase {
+class FlowofIdeas extends UnimplementedCard {
   constructor (game) {
     super(game, "Flow of Ideas", "Shadowmoor", "SHM");
   }

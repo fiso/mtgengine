@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const InkmothNexusBase = require("../setPWCQ/InkmothNexus");
 
-class InkmothNexus extends UnimplementedCard {
+class InkmothNexus extends InkmothNexusBase {
   constructor (game) {
     super(game, "Inkmoth Nexus", "Mirrodin Besieged", "MBS");
   }

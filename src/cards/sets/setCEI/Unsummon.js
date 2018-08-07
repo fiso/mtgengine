@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnsummonBase = require("../set6ED/Unsummon");
+const UnsummonBase = require("../setE02/Unsummon");
 
 class Unsummon extends UnsummonBase {
   constructor (game) {
-    super(game, "Unsummon", "International Collector's Edition", "CEI");
+    super(game, "Unsummon", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

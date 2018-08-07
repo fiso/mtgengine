@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnZerrinRuinsBase = require("../setHML/AnZerrinRuins");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AnZerrinRuins extends AnZerrinRuinsBase {
+class AnZerrinRuins extends UnimplementedCard {
   constructor (game) {
     super(game, "An-Zerrin Ruins", "Masters Edition II", "ME2");
   }

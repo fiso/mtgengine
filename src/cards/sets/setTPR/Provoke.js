@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProvokeBase = require("../setCNS/Provoke");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Provoke extends ProvokeBase {
+class Provoke extends UnimplementedCard {
   constructor (game) {
     super(game, "Provoke", "Tempest Remastered", "TPR");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VaporSnagBase = require("../setDDH/VaporSnag");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VaporSnag extends VaporSnagBase {
+class VaporSnag extends UnimplementedCard {
   constructor (game) {
-    super(game, "Vapor Snag", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Vapor Snag", "Modern Masters 2015", "MM2");
   }
 }
 

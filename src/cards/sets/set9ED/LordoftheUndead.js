@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LordoftheUndeadBase = require("../set8ED/LordoftheUndead");
+const LordoftheUndeadBase = require("../set10E/LordoftheUndead");
 
 class LordoftheUndead extends LordoftheUndeadBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TangleBase = require("../setVMA/Tangle");
 
-class Tangle extends UnimplementedCard {
+class Tangle extends TangleBase {
   constructor (game) {
     super(game, "Tangle", "Invasion", "INV");
   }

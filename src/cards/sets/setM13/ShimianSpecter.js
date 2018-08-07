@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShimianSpecterBase = require("../setFUT/ShimianSpecter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ShimianSpecter extends ShimianSpecterBase {
+class ShimianSpecter extends UnimplementedCard {
   constructor (game) {
     super(game, "Shimian Specter", "Magic 2013", "M13");
   }

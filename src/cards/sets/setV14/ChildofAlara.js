@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChildofAlaraBase = require("../setCON/ChildofAlara");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ChildofAlara extends ChildofAlaraBase {
+class ChildofAlara extends UnimplementedCard {
   constructor (game) {
-    super(game, "Child of Alara", "From the Vault: Annihilation (2014)", "V14");
+    super(game, "Child of Alara", "From the Vault: Annihilation", "V14");
   }
 }
 

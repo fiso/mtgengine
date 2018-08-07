@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class YisantheWandererBard extends UnimplementedCard {
   constructor (game) {
-    super(game, "Yisan, the Wanderer Bard", "Magic 2015 Core Set", "M15");
+    super(game, "Yisan, the Wanderer Bard", "Magic 2015", "M15");
   }
 }
 

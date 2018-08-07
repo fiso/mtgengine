@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WhelmingWaveBase = require("../setBNG/WhelmingWave");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WhelmingWave extends WhelmingWaveBase {
+class WhelmingWave extends UnimplementedCard {
   constructor (game) {
     super(game, "Whelming Wave", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReclusiveArtificerBase = require("../setDDU/ReclusiveArtificer");
 
-class ReclusiveArtificer extends UnimplementedCard {
+class ReclusiveArtificer extends ReclusiveArtificerBase {
   constructor (game) {
     super(game, "Reclusive Artificer", "Magic Origins", "ORI");
   }

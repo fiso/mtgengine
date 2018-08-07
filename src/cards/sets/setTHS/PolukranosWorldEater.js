@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PolukranosWorldEaterBase = require("../setDDL/PolukranosWorldEater");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PolukranosWorldEater extends PolukranosWorldEaterBase {
+class PolukranosWorldEater extends UnimplementedCard {
   constructor (game) {
     super(game, "Polukranos, World Eater", "Theros", "THS");
   }

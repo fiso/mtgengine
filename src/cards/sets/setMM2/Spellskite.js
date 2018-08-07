@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpellskiteBase = require("../setJ17/Spellskite");
 
-class Spellskite extends UnimplementedCard {
+class Spellskite extends SpellskiteBase {
   constructor (game) {
-    super(game, "Spellskite", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Spellskite", "Modern Masters 2015", "MM2");
   }
 }
 

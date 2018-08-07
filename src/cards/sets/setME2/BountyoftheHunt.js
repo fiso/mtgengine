@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BountyoftheHuntBase = require("../setALL/BountyoftheHunt");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BountyoftheHunt extends BountyoftheHuntBase {
+class BountyoftheHunt extends UnimplementedCard {
   constructor (game) {
     super(game, "Bounty of the Hunt", "Masters Edition II", "ME2");
   }

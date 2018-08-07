@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EssenceScatterBase = require("../setDPA/EssenceScatter");
+const EssenceScatterBase = require("../setM19/EssenceScatter");
 
 class EssenceScatter extends EssenceScatterBase {
   constructor (game) {

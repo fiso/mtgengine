@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChandraNalaarBase = require("../setDD3_JVC/ChandraNalaar");
+const ChandraNalaarBase = require("../setJVC/ChandraNalaar");
 
 class ChandraNalaar extends ChandraNalaarBase {
   constructor (game) {

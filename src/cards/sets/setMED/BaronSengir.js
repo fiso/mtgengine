@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BaronSengirBase = require("../setHML/BaronSengir");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BaronSengir extends BaronSengirBase {
+class BaronSengir extends UnimplementedCard {
   constructor (game) {
     super(game, "Baron Sengir", "Masters Edition", "MED");
   }

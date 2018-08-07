@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BogRatsBase = require("../setCHR/BogRats");
+const BogRatsBase = require("../set6ED/BogRats");
 
 class BogRats extends BogRatsBase {
   constructor (game) {

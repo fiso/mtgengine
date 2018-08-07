@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootwaterCommandoBase = require("../setNMS/RootwaterCommando");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RootwaterCommando extends RootwaterCommandoBase {
+class RootwaterCommando extends UnimplementedCard {
   constructor (game) {
     super(game, "Rootwater Commando", "Tenth Edition", "10E");
   }

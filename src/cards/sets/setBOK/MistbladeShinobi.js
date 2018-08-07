@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MistbladeShinobiBase = require("../setPCA/MistbladeShinobi");
 
-class MistbladeShinobi extends UnimplementedCard {
+class MistbladeShinobi extends MistbladeShinobiBase {
   constructor (game) {
     super(game, "Mistblade Shinobi", "Betrayers of Kamigawa", "BOK");
   }

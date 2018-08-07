@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class SpikeshotElder extends UnimplementedCard {
   constructor (game) {
-    super(game, "Spikeshot Elder", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Spikeshot Elder", "Modern Masters 2015", "MM2");
   }
 }
 

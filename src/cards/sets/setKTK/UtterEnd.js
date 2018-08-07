@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UtterEndBase = require("../setC18/UtterEnd");
 
-class UtterEnd extends UnimplementedCard {
+class UtterEnd extends UtterEndBase {
   constructor (game) {
     super(game, "Utter End", "Khans of Tarkir", "KTK");
   }

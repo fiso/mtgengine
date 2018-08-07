@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NessianCourserBase = require("../setFUT/NessianCourser");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NessianCourser extends NessianCourserBase {
+class NessianCourser extends UnimplementedCard {
   constructor (game) {
     super(game, "Nessian Courser", "Theros", "THS");
   }

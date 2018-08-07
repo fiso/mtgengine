@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrystalVeinBase = require("../set6ED/CrystalVein");
+const CrystalVeinBase = require("../setCMA/CrystalVein");
 
 class CrystalVein extends CrystalVeinBase {
   constructor (game) {

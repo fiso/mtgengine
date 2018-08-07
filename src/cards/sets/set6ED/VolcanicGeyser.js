@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VolcanicGeyserBase = require("../setE01/VolcanicGeyser");
 
-class VolcanicGeyser extends UnimplementedCard {
+class VolcanicGeyser extends VolcanicGeyserBase {
   constructor (game) {
     super(game, "Volcanic Geyser", "Classic Sixth Edition", "6ED");
   }

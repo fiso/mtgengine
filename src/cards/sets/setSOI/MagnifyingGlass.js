@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MagnifyingGlassBase = require("../setC18/MagnifyingGlass");
 
-class MagnifyingGlass extends UnimplementedCard {
+class MagnifyingGlass extends MagnifyingGlassBase {
   constructor (game) {
     super(game, "Magnifying Glass", "Shadows over Innistrad", "SOI");
   }

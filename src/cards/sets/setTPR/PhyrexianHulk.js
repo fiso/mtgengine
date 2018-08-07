@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianHulkBase = require("../setDDE/PhyrexianHulk");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PhyrexianHulk extends PhyrexianHulkBase {
+class PhyrexianHulk extends UnimplementedCard {
   constructor (game) {
     super(game, "Phyrexian Hulk", "Tempest Remastered", "TPR");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PsychatogBase = require("../setpMPR/Psychatog");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Psychatog extends PsychatogBase {
+class Psychatog extends UnimplementedCard {
   constructor (game) {
     super(game, "Psychatog", "Vintage Masters", "VMA");
   }

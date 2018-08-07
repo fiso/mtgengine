@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VividMarshBase = require("../setC13/VividMarsh");
+const VividMarshBase = require("../setC17/VividMarsh");
 
 class VividMarsh extends VividMarshBase {
   constructor (game) {
-    super(game, "Vivid Marsh", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Vivid Marsh", "Commander 2011", "CMD");
   }
 }
 

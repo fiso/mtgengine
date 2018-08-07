@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PsychicVenomBase = require("../set6ED/PsychicVenom");
+const PsychicVenomBase = require("../setMED/PsychicVenom");
 
 class PsychicVenom extends PsychicVenomBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IntangibleVirtueBase = require("../setISD/IntangibleVirtue");
+const IntangibleVirtueBase = require("../setMM3/IntangibleVirtue");
 
 class IntangibleVirtue extends IntangibleVirtueBase {
   constructor (game) {

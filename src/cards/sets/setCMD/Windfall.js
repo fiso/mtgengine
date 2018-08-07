@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WindfallBase = require("../setBRB/Windfall");
+const WindfallBase = require("../setCM2/Windfall");
 
 class Windfall extends WindfallBase {
   constructor (game) {
-    super(game, "Windfall", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Windfall", "Commander 2011", "CMD");
   }
 }
 

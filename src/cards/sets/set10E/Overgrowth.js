@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OvergrowthBase = require("../set9ED/Overgrowth");
+const OvergrowthBase = require("../setC18/Overgrowth");
 
 class Overgrowth extends OvergrowthBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DriftoftheDeadBase = require("../setCST/DriftoftheDead");
+const DriftoftheDeadBase = require("../setME2/DriftoftheDead");
 
 class DriftoftheDead extends DriftoftheDeadBase {
   constructor (game) {

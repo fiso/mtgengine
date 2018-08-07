@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RedElementalBlastBase = require("../setCED/RedElementalBlast");
+const RedElementalBlastBase = require("../setA25/RedElementalBlast");
 
 class RedElementalBlast extends RedElementalBlastBase {
   constructor (game) {

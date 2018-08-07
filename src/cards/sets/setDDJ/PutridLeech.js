@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PutridLeechBase = require("../setARB/PutridLeech");
+const PutridLeechBase = require("../setDDM/PutridLeech");
 
 class PutridLeech extends PutridLeechBase {
   constructor (game) {

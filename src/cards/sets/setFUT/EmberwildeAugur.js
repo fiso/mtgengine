@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EmberwildeAugurBase = require("../setDD3_EVG/EmberwildeAugur");
+const EmberwildeAugurBase = require("../setEVG/EmberwildeAugur");
 
 class EmberwildeAugur extends EmberwildeAugurBase {
   constructor (game) {

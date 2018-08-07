@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LhurgoyfBase = require("../setBRB/Lhurgoyf");
+const LhurgoyfBase = require("../setCM2/Lhurgoyf");
 
 class Lhurgoyf extends LhurgoyfBase {
   constructor (game) {
-    super(game, "Lhurgoyf", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Lhurgoyf", "Commander 2011", "CMD");
   }
 }
 

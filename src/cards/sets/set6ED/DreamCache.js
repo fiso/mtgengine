@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DreamCacheBase = require("../setC18/DreamCache");
 
-class DreamCache extends UnimplementedCard {
+class DreamCache extends DreamCacheBase {
   constructor (game) {
     super(game, "Dream Cache", "Classic Sixth Edition", "6ED");
   }

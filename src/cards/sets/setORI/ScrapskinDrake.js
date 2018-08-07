@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrapskinDrakeBase = require("../setAVR/ScrapskinDrake");
+const ScrapskinDrakeBase = require("../setDDQ/ScrapskinDrake");
 
 class ScrapskinDrake extends ScrapskinDrakeBase {
   constructor (game) {

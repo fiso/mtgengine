@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AurochsBase = require("../setCST/Aurochs");
+const AurochsBase = require("../setME2/Aurochs");
 
 class Aurochs extends AurochsBase {
   constructor (game) {

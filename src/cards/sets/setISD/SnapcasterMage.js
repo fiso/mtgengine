@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SnapcasterMageBase = require("../setMM3/SnapcasterMage");
 
-class SnapcasterMage extends UnimplementedCard {
+class SnapcasterMage extends SnapcasterMageBase {
   constructor (game) {
     super(game, "Snapcaster Mage", "Innistrad", "ISD");
   }

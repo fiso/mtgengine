@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OkinaNightwatchBase = require("../setpARL/OkinaNightwatch");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OkinaNightwatch extends OkinaNightwatchBase {
+class OkinaNightwatch extends UnimplementedCard {
   constructor (game) {
     super(game, "Okina Nightwatch", "Saviors of Kamigawa", "SOK");
   }

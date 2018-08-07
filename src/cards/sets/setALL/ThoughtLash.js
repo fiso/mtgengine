@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThoughtLashBase = require("../setME2/ThoughtLash");
 
-class ThoughtLash extends UnimplementedCard {
+class ThoughtLash extends ThoughtLashBase {
   constructor (game) {
     super(game, "Thought Lash", "Alliances", "ALL");
   }

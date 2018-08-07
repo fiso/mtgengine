@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThrottleBase = require("../setKTK/Throttle");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Throttle extends ThrottleBase {
+class Throttle extends UnimplementedCard {
   constructor (game) {
     super(game, "Throttle", "Shadows over Innistrad", "SOI");
   }

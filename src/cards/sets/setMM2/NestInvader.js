@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NestInvaderBase = require("../setPCA/NestInvader");
 
-class NestInvader extends UnimplementedCard {
+class NestInvader extends NestInvaderBase {
   constructor (game) {
-    super(game, "Nest Invader", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Nest Invader", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IgneousPouncerBase = require("../setARB/IgneousPouncer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class IgneousPouncer extends IgneousPouncerBase {
+class IgneousPouncer extends UnimplementedCard {
   constructor (game) {
     super(game, "Igneous Pouncer", "Duel Decks: Ajani vs. Nicol Bolas", "DDH");
   }

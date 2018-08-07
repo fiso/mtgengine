@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PoreOverthePagesBase = require("../setDDQ/PoreOverthePages");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PoreOverthePages extends PoreOverthePagesBase {
+class PoreOverthePages extends UnimplementedCard {
   constructor (game) {
     super(game, "Pore Over the Pages", "Shadows over Innistrad", "SOI");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ObeliskofGrixisBase = require("../setE01/ObeliskofGrixis");
 
-class ObeliskofGrixis extends UnimplementedCard {
+class ObeliskofGrixis extends ObeliskofGrixisBase {
   constructor (game) {
-    super(game, "Obelisk of Grixis", "Commander 2013 Edition", "C13");
+    super(game, "Obelisk of Grixis", "Commander 2013", "C13");
   }
 }
 

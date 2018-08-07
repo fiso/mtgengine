@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MageilVecBase = require("../setTPR/MageilVec");
 
-class MageilVec extends UnimplementedCard {
+class MageilVec extends MageilVecBase {
   constructor (game) {
     super(game, "Mage il-Vec", "Exodus", "EXO");
   }

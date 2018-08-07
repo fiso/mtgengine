@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeVaultBase = require("../setCED/TimeVault");
+const TimeVaultBase = require("../setVMA/TimeVault");
 
 class TimeVault extends TimeVaultBase {
   constructor (game) {
-    super(game, "Time Vault", "International Collector's Edition", "CEI");
+    super(game, "Time Vault", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

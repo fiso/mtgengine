@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FontofFertilityBase = require("../setCPK/FontofFertility");
+const FontofFertilityBase = require("../setCP1/FontofFertility");
 
 class FontofFertility extends FontofFertilityBase {
   constructor (game) {

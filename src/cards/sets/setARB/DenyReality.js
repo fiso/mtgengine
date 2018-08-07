@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DenyRealityBase = require("../setPCA/DenyReality");
 
-class DenyReality extends UnimplementedCard {
+class DenyReality extends DenyRealityBase {
   constructor (game) {
     super(game, "Deny Reality", "Alara Reborn", "ARB");
   }

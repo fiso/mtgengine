@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhantasmalMountBase = require("../setICE/PhantasmalMount");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PhantasmalMount extends PhantasmalMountBase {
+class PhantasmalMount extends UnimplementedCard {
   constructor (game) {
     super(game, "Phantasmal Mount", "Masters Edition II", "ME2");
   }

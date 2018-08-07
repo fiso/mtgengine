@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VenserShaperSavantBase = require("../setV13/VenserShaperSavant");
+const VenserShaperSavantBase = require("../setMM3/VenserShaperSavant");
 
 class VenserShaperSavant extends VenserShaperSavantBase {
   constructor (game) {

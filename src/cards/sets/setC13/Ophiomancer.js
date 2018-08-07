@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class Ophiomancer extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ophiomancer", "Commander 2013 Edition", "C13");
+    super(game, "Ophiomancer", "Commander 2013", "C13");
   }
 }
 

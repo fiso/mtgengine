@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AmbitionsCostBase = require("../setC15/AmbitionsCost");
+const AmbitionsCostBase = require("../setMTGA/AmbitionsCost");
 
 class AmbitionsCost extends AmbitionsCostBase {
   constructor (game) {

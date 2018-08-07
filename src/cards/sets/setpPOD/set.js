@@ -7,4 +7,4 @@ module.exports = {
   SnappingDrake: require("./SnappingDrake"),
   StormCrow: require("./StormCrow")
 };
-if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpPOD = module.exports;}
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPPOD = module.exports;}

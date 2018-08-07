@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RepulseBase = require("../setDD3_JVC/Repulse");
+const RepulseBase = require("../setCN2/Repulse");
 
 class Repulse extends RepulseBase {
   constructor (game) {
-    super(game, "Repulse", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Repulse", "Commander 2011", "CMD");
   }
 }
 

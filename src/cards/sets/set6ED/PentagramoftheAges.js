@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PentagramoftheAgesBase = require("../setME4/PentagramoftheAges");
 
-class PentagramoftheAges extends UnimplementedCard {
+class PentagramoftheAges extends PentagramoftheAgesBase {
   constructor (game) {
     super(game, "Pentagram of the Ages", "Classic Sixth Edition", "6ED");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NumottheDevastatorBase = require("../setOCMD/NumottheDevastator");
 
-class NumottheDevastator extends UnimplementedCard {
+class NumottheDevastator extends NumottheDevastatorBase {
   constructor (game) {
-    super(game, "Numot, the Devastator", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Numot, the Devastator", "Commander 2011", "CMD");
   }
 }
 

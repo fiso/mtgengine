@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlowstoneBladeBase = require("../setCNS/FlowstoneBlade");
+const FlowstoneBladeBase = require("../setTPR/FlowstoneBlade");
 
 class FlowstoneBlade extends FlowstoneBladeBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RealityShiftBase = require("../setC17/RealityShift");
 
-class RealityShift extends UnimplementedCard {
+class RealityShift extends RealityShiftBase {
   constructor (game) {
     super(game, "Reality Shift", "Fate Reforged", "FRF");
   }

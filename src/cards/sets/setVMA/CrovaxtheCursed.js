@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrovaxtheCursedBase = require("../setSTH/CrovaxtheCursed");
+const CrovaxtheCursedBase = require("../setTPR/CrovaxtheCursed");
 
 class CrovaxtheCursed extends CrovaxtheCursedBase {
   constructor (game) {

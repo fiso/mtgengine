@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TimeWalkBase = require("../setCED/TimeWalk");
+const TimeWalkBase = require("../setVMA/TimeWalk");
 
 class TimeWalk extends TimeWalkBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SigninBloodBase = require("../setARC/SigninBlood");
+const SigninBloodBase = require("../setCM2/SigninBlood");
 
 class SigninBlood extends SigninBloodBase {
   constructor (game) {
-    super(game, "Sign in Blood", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Sign in Blood", "Commander 2011", "CMD");
   }
 }
 

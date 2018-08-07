@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IslandSanctuaryBase = require("../setCED/IslandSanctuary");
+const IslandSanctuaryBase = require("../setME4/IslandSanctuary");
 
 class IslandSanctuary extends IslandSanctuaryBase {
   constructor (game) {

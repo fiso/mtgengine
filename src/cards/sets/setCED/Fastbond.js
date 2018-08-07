@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FastbondBase = require("../setVMA/Fastbond");
 
-class Fastbond extends UnimplementedCard {
+class Fastbond extends FastbondBase {
   constructor (game) {
-    super(game, "Fastbond", "Collector's Edition", "CED");
+    super(game, "Fastbond", "Collectors’ Edition", "CED");
   }
 }
 

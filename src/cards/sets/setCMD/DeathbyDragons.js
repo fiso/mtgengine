@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DeathbyDragonsBase = require("../setCMA/DeathbyDragons");
 
-class DeathbyDragons extends UnimplementedCard {
+class DeathbyDragons extends DeathbyDragonsBase {
   constructor (game) {
-    super(game, "Death by Dragons", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Death by Dragons", "Commander 2011", "CMD");
   }
 }
 

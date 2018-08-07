@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OranRiefHydraBase = require("../setE01/OranRiefHydra");
 
-class OranRiefHydra extends UnimplementedCard {
+class OranRiefHydra extends OranRiefHydraBase {
   constructor (game) {
     super(game, "Oran-Rief Hydra", "Battle for Zendikar", "BFZ");
   }

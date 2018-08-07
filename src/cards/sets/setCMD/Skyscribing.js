@@ -4,7 +4,7 @@ const SkyscribingBase = require("../setC13/Skyscribing");
 
 class Skyscribing extends SkyscribingBase {
   constructor (game) {
-    super(game, "Skyscribing", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Skyscribing", "Commander 2011", "CMD");
   }
 }
 

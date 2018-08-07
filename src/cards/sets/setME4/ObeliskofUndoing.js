@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ObeliskofUndoingBase = require("../setATQ/ObeliskofUndoing");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ObeliskofUndoing extends ObeliskofUndoingBase {
+class ObeliskofUndoing extends UnimplementedCard {
   constructor (game) {
     super(game, "Obelisk of Undoing", "Masters Edition IV", "ME4");
   }

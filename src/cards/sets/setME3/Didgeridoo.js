@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DidgeridooBase = require("../setHML/Didgeridoo");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Didgeridoo extends DidgeridooBase {
+class Didgeridoo extends UnimplementedCard {
   constructor (game) {
     super(game, "Didgeridoo", "Masters Edition III", "ME3");
   }

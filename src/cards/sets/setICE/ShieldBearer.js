@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShieldBearerBase = require("../set5ED/ShieldBearer");
+const ShieldBearerBase = require("../setME2/ShieldBearer");
 
 class ShieldBearer extends ShieldBearerBase {
   constructor (game) {

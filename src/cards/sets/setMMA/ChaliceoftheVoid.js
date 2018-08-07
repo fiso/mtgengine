@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChaliceoftheVoidBase = require("../setMRD/ChaliceoftheVoid");
+const ChaliceoftheVoidBase = require("../setA25/ChaliceoftheVoid");
 
 class ChaliceoftheVoid extends ChaliceoftheVoidBase {
   constructor (game) {

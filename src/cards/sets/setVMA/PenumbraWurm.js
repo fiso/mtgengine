@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PenumbraWurmBase = require("../setAPC/PenumbraWurm");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PenumbraWurm extends PenumbraWurmBase {
+class PenumbraWurm extends UnimplementedCard {
   constructor (game) {
     super(game, "Penumbra Wurm", "Vintage Masters", "VMA");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrawlersPlateBase = require("../setM15/BrawlersPlate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BrawlersPlate extends BrawlersPlateBase {
+class BrawlersPlate extends UnimplementedCard {
   constructor (game) {
     super(game, "Brawler's Plate", "Magic Origins", "ORI");
   }

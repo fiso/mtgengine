@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeepAnalysisBase = require("../setC13/DeepAnalysis");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DeepAnalysis extends DeepAnalysisBase {
+class DeepAnalysis extends UnimplementedCard {
   constructor (game) {
     super(game, "Deep Analysis", "Eternal Masters", "EMA");
   }

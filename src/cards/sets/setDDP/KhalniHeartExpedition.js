@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KhalniHeartExpeditionBase = require("../setC18/KhalniHeartExpedition");
 
-class KhalniHeartExpedition extends UnimplementedCard {
+class KhalniHeartExpedition extends KhalniHeartExpeditionBase {
   constructor (game) {
     super(game, "Khalni Heart Expedition", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

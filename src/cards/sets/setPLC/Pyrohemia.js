@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PyrohemiaBase = require("../setCMD/Pyrohemia");
+const PyrohemiaBase = require("../setCMA/Pyrohemia");
 
 class Pyrohemia extends PyrohemiaBase {
   constructor (game) {

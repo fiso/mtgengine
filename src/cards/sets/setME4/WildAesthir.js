@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildAesthirBase = require("../setALL/WildAesthir");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WildAesthir extends WildAesthirBase {
+class WildAesthir extends UnimplementedCard {
   constructor (game) {
     super(game, "Wild Aesthir", "Masters Edition IV", "ME4");
   }

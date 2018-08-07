@@ -4,7 +4,7 @@ const AetherMembraneBase = require("../setDDI/AetherMembrane");
 
 class AetherMembrane extends AetherMembraneBase {
   constructor (game) {
-    super(game, "Æther Membrane", "Planar Chaos", "PLC");
+    super(game, "Aether Membrane", "Planar Chaos", "PLC");
   }
 }
 

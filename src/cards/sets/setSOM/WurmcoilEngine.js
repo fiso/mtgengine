@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WurmcoilEngineBase = require("../setC14/WurmcoilEngine");
+const WurmcoilEngineBase = require("../setCM2/WurmcoilEngine");
 
 class WurmcoilEngine extends WurmcoilEngineBase {
   constructor (game) {

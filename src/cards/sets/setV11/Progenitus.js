@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProgenitusBase = require("../setCON/Progenitus");
+const ProgenitusBase = require("../setMMA/Progenitus");
 
 class Progenitus extends ProgenitusBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieryTemperBase = require("../setpGTW/FieryTemper");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FieryTemper extends FieryTemperBase {
+class FieryTemper extends UnimplementedCard {
   constructor (game) {
     super(game, "Fiery Temper", "Shadows over Innistrad", "SOI");
   }

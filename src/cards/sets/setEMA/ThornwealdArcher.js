@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThornwealdArcherBase = require("../setC14/ThornwealdArcher");
+const ThornwealdArcherBase = require("../setCMA/ThornwealdArcher");
 
 class ThornwealdArcher extends ThornwealdArcherBase {
   constructor (game) {

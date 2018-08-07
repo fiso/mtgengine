@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DAvenantArcherBase = require("../setCHR/DAvenantArcher");
+const DAvenantArcherBase = require("../setME3/DAvenantArcher");
 
 class DAvenantArcher extends DAvenantArcherBase {
   constructor (game) {

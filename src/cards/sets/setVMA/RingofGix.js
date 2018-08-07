@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RingofGixBase = require("../setULG/RingofGix");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RingofGix extends RingofGixBase {
+class RingofGix extends UnimplementedCard {
   constructor (game) {
     super(game, "Ring of Gix", "Vintage Masters", "VMA");
   }

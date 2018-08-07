@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RuthlessRipperBase = require("../setA25/RuthlessRipper");
 
-class RuthlessRipper extends UnimplementedCard {
+class RuthlessRipper extends RuthlessRipperBase {
   constructor (game) {
     super(game, "Ruthless Ripper", "Khans of Tarkir", "KTK");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GalvanicJuggernautBase = require("../setISD/GalvanicJuggernaut");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GalvanicJuggernaut extends GalvanicJuggernautBase {
+class GalvanicJuggernaut extends UnimplementedCard {
   constructor (game) {
-    super(game, "Galvanic Juggernaut", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Galvanic Juggernaut", "Conspiracy", "CNS");
   }
 }
 

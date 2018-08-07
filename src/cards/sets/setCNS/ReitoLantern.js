@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReitoLanternBase = require("../setCHK/ReitoLantern");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ReitoLantern extends ReitoLanternBase {
+class ReitoLantern extends UnimplementedCard {
   constructor (game) {
-    super(game, "Reito Lantern", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Reito Lantern", "Conspiracy", "CNS");
   }
 }
 

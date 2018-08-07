@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MadAuntieBase = require("../setLRW/MadAuntie");
+const MadAuntieBase = require("../setMMA/MadAuntie");
 
 class MadAuntie extends MadAuntieBase {
   constructor (game) {
-    super(game, "Mad Auntie", "Super Series", "pSUS");
+    super(game, "Mad Auntie", "Junior Super Series", "PSUS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpikeColonyBase = require("../setBRB/SpikeColony");
+const SpikeColonyBase = require("../setTPR/SpikeColony");
 
 class SpikeColony extends SpikeColonyBase {
   constructor (game) {

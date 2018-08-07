@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HellionBase = require("../setTPCA/Hellion");
 
-class Hellion extends UnimplementedCard {
+class Hellion extends HellionBase {
   constructor (game) {
     super(game, "Hellion", "Duel Decks: Zendikar vs. Eldrazi", "DDP");
   }

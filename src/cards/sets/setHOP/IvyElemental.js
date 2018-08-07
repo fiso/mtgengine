@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IvyElementalBase = require("../setODY/IvyElemental");
+const IvyElementalBase = require("../setIMA/IvyElemental");
 
 class IvyElemental extends IvyElementalBase {
   constructor (game) {

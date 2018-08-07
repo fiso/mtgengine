@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PreyUponBase = require("../setE02/PreyUpon");
 
-class PreyUpon extends UnimplementedCard {
+class PreyUpon extends PreyUponBase {
   constructor (game) {
     super(game, "Prey Upon", "Duel Decks: Heroes vs. Monsters", "DDL");
   }

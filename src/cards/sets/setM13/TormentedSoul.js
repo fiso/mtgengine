@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TormentedSoulBase = require("../setM12/TormentedSoul");
+const TormentedSoulBase = require("../setPCA/TormentedSoul");
 
 class TormentedSoul extends TormentedSoulBase {
   constructor (game) {

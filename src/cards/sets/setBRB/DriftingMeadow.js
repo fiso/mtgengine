@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DriftingMeadowBase = require("../setATH/DriftingMeadow");
+const DriftingMeadowBase = require("../setCM2/DriftingMeadow");
 
 class DriftingMeadow extends DriftingMeadowBase {
   constructor (game) {

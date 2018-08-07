@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DeepcavernImpBase = require("../setMMA/DeepcavernImp");
 
-class DeepcavernImp extends UnimplementedCard {
+class DeepcavernImp extends DeepcavernImpBase {
   constructor (game) {
     super(game, "Deepcavern Imp", "Future Sight", "FUT");
   }

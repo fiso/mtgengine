@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExileBase = require("../setALL/Exile");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Exile extends ExileBase {
+class Exile extends UnimplementedCard {
   constructor (game) {
     super(game, "Exile", "Vintage Masters", "VMA");
   }

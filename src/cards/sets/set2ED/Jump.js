@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JumpBase = require("../setCED/Jump");
+const JumpBase = require("../setM10/Jump");
 
 class Jump extends JumpBase {
   constructor (game) {

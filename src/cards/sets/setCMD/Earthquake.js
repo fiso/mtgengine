@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EarthquakeBase = require("../set6ED/Earthquake");
+const EarthquakeBase = require("../setCM2/Earthquake");
 
 class Earthquake extends EarthquakeBase {
   constructor (game) {
-    super(game, "Earthquake", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Earthquake", "Commander 2011", "CMD");
   }
 }
 

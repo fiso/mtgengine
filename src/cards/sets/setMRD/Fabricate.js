@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FabricateBase = require("../setM10/Fabricate");
+const FabricateBase = require("../setHOP/Fabricate");
 
 class Fabricate extends FabricateBase {
   constructor (game) {

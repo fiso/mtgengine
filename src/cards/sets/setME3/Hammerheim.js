@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HammerheimBase = require("../setLEG/Hammerheim");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Hammerheim extends HammerheimBase {
+class Hammerheim extends UnimplementedCard {
   constructor (game) {
     super(game, "Hammerheim", "Masters Edition III", "ME3");
   }

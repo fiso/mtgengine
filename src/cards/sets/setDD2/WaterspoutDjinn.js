@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaterspoutDjinnBase = require("../setDD3_JVC/WaterspoutDjinn");
+const WaterspoutDjinnBase = require("../setJVC/WaterspoutDjinn");
 
 class WaterspoutDjinn extends WaterspoutDjinnBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AshnodsCouponBase = require("../setpARL/AshnodsCoupon");
+const AshnodsCouponBase = require("../setPAL04/AshnodsCoupon");
 
 class AshnodsCoupon extends AshnodsCouponBase {
   constructor (game) {

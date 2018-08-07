@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReversePolarityBase = require("../setSUM/ReversePolarity");
 
-class ReversePolarity extends UnimplementedCard {
+class ReversePolarity extends ReversePolarityBase {
   constructor (game) {
     super(game, "Reverse Polarity", "Antiquities", "ATQ");
   }

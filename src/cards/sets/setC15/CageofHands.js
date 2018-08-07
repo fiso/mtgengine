@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CageofHandsBase = require("../setCHK/CageofHands");
+const CageofHandsBase = require("../setPCA/CageofHands");
 
 class CageofHands extends CageofHandsBase {
   constructor (game) {

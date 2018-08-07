@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CobbledWingsBase = require("../setDDQ/CobbledWings");
+const CobbledWingsBase = require("../setXLN/CobbledWings");
 
 class CobbledWings extends CobbledWingsBase {
   constructor (game) {

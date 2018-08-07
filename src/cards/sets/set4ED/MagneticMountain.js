@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MagneticMountainBase = require("../setARN/MagneticMountain");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MagneticMountain extends MagneticMountainBase {
+class MagneticMountain extends UnimplementedCard {
   constructor (game) {
     super(game, "Magnetic Mountain", "Fourth Edition", "4ED");
   }

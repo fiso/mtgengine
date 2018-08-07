@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LimDulsVaultBase = require("../setALL/LimDulsVault");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LimDulsVault extends LimDulsVaultBase {
+class LimDulsVault extends UnimplementedCard {
   constructor (game) {
-    super(game, "Lim-Dûl's Vault", "Commander 2013 Edition", "C13");
+    super(game, "Lim-Dûl's Vault", "Commander 2013", "C13");
   }
 }
 

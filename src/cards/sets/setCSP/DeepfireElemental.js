@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DeepfireElementalBase = require("../setC13/DeepfireElemental");
 
-class DeepfireElemental extends UnimplementedCard {
+class DeepfireElemental extends DeepfireElementalBase {
   constructor (game) {
     super(game, "Deepfire Elemental", "Coldsnap", "CSP");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmashtoSmithereensBase = require("../setORI/SmashtoSmithereens");
+const SmashtoSmithereensBase = require("../setF16/SmashtoSmithereens");
 
 class SmashtoSmithereens extends SmashtoSmithereensBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TriskelavusBase = require("../setCMD/Triskelavus");
+const TriskelavusBase = require("../setCM2/Triskelavus");
 
 class Triskelavus extends TriskelavusBase {
   constructor (game) {

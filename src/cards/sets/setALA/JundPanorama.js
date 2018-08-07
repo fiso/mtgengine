@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JundPanoramaBase = require("../setC13/JundPanorama");
+const JundPanoramaBase = require("../setC18/JundPanorama");
 
 class JundPanorama extends JundPanoramaBase {
   constructor (game) {

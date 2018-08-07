@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrixisIllusionistBase = require("../setCON/GrixisIllusionist");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GrixisIllusionist extends GrixisIllusionistBase {
+class GrixisIllusionist extends UnimplementedCard {
   constructor (game) {
-    super(game, "Grixis Illusionist", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Grixis Illusionist", "Conspiracy", "CNS");
   }
 }
 

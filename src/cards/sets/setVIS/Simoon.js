@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SimoonBase = require("../setINV/Simoon");
+const SimoonBase = require("../setWC02/Simoon");
 
 class Simoon extends SimoonBase {
   constructor (game) {

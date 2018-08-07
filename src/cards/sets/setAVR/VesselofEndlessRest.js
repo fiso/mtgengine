@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VesselofEndlessRestBase = require("../setC18/VesselofEndlessRest");
 
-class VesselofEndlessRest extends UnimplementedCard {
+class VesselofEndlessRest extends VesselofEndlessRestBase {
   constructor (game) {
     super(game, "Vessel of Endless Rest", "Avacyn Restored", "AVR");
   }

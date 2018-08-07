@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GlissatheTraitorBase = require("../setV16/GlissatheTraitor");
 
-class GlissatheTraitor extends UnimplementedCard {
+class GlissatheTraitor extends GlissatheTraitorBase {
   constructor (game) {
     super(game, "Glissa, the Traitor", "Mirrodin Besieged", "MBS");
   }

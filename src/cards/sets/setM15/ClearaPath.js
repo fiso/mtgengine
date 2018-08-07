@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ClearaPathBase = require("../setDGM/ClearaPath");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ClearaPath extends ClearaPathBase {
+class ClearaPath extends UnimplementedCard {
   constructor (game) {
-    super(game, "Clear a Path", "Magic 2015 Core Set", "M15");
+    super(game, "Clear a Path", "Magic 2015", "M15");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianVaultBase = require("../set6ED/PhyrexianVault");
+const PhyrexianVaultBase = require("../setDDE/PhyrexianVault");
 
 class PhyrexianVault extends PhyrexianVaultBase {
   constructor (game) {

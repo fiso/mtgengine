@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThousandWindsBase = require("../setDDN/ThousandWinds");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ThousandWinds extends ThousandWindsBase {
+class ThousandWinds extends UnimplementedCard {
   constructor (game) {
     super(game, "Thousand Winds", "Khans of Tarkir", "KTK");
   }

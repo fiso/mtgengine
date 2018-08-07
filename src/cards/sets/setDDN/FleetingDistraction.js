@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FleetingDistractionBase = require("../setAVR/FleetingDistraction");
+const FleetingDistractionBase = require("../setCN2/FleetingDistraction");
 
 class FleetingDistraction extends FleetingDistractionBase {
   constructor (game) {

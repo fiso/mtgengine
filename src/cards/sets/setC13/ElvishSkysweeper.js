@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ElvishSkysweeperBase = require("../setCMA/ElvishSkysweeper");
 
-class ElvishSkysweeper extends UnimplementedCard {
+class ElvishSkysweeper extends ElvishSkysweeperBase {
   constructor (game) {
-    super(game, "Elvish Skysweeper", "Commander 2013 Edition", "C13");
+    super(game, "Elvish Skysweeper", "Commander 2013", "C13");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LumengridWardenBase = require("../setMRD/LumengridWarden");
+const LumengridWardenBase = require("../set10E/LumengridWarden");
 
 class LumengridWarden extends LumengridWardenBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HelmofChatzukBase = require("../setCED/HelmofChatzuk");
+const HelmofChatzukBase = require("../set5ED/HelmofChatzuk");
 
 class HelmofChatzuk extends HelmofChatzukBase {
   constructor (game) {
-    super(game, "Helm of Chatzuk", "International Collector's Edition", "CEI");
+    super(game, "Helm of Chatzuk", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

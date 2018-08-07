@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MisdirectionBase = require("../setCNS/Misdirection");
+const MisdirectionBase = require("../setDDT/Misdirection");
 
 class Misdirection extends MisdirectionBase {
   constructor (game) {

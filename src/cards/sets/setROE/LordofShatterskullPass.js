@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LordofShatterskullPassBase = require("../setpLPA/LordofShatterskullPass");
+const LordofShatterskullPassBase = require("../setPROE/LordofShatterskullPass");
 
 class LordofShatterskullPass extends LordofShatterskullPassBase {
   constructor (game) {

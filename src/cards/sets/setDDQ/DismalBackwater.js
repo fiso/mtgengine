@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DismalBackwaterBase = require("../setC18/DismalBackwater");
 
-class DismalBackwater extends UnimplementedCard {
+class DismalBackwater extends DismalBackwaterBase {
   constructor (game) {
     super(game, "Dismal Backwater", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

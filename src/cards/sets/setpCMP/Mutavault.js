@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MutavaultBase = require("../setM14/Mutavault");
 
-class Mutavault extends UnimplementedCard {
+class Mutavault extends MutavaultBase {
   constructor (game) {
-    super(game, "Mutavault", "Champs and States", "pCMP");
+    super(game, "Mutavault", "Champs and States", "PCMP");
   }
 }
 

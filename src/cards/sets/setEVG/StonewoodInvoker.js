@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StonewoodInvokerBase = require("../setDD3_EVG/StonewoodInvoker");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StonewoodInvoker extends StonewoodInvokerBase {
+class StonewoodInvoker extends UnimplementedCard {
   constructor (game) {
-    super(game, "Stonewood Invoker", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Stonewood Invoker", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

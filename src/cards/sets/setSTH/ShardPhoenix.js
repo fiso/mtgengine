@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShardPhoenixBase = require("../set9ED/ShardPhoenix");
+const ShardPhoenixBase = require("../setTPR/ShardPhoenix");
 
 class ShardPhoenix extends ShardPhoenixBase {
   constructor (game) {

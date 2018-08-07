@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AllosaurusRiderBase = require("../setCSP/AllosaurusRider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AllosaurusRider extends AllosaurusRiderBase {
+class AllosaurusRider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Allosaurus Rider", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Allosaurus Rider", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

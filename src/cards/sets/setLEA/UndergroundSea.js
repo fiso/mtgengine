@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UndergroundSeaBase = require("../setCED/UndergroundSea");
+const UndergroundSeaBase = require("../setVMA/UndergroundSea");
 
 class UndergroundSea extends UndergroundSeaBase {
   constructor (game) {

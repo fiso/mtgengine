@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PutridImpBase = require("../setPD3/PutridImp");
+const PutridImpBase = require("../setVMA/PutridImp");
 
 class PutridImp extends PutridImpBase {
   constructor (game) {

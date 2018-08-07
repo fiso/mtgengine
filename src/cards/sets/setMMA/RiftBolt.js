@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RiftBoltBase = require("../setpFNM/RiftBolt");
+const RiftBoltBase = require("../setIMA/RiftBolt");
 
 class RiftBolt extends RiftBoltBase {
   constructor (game) {

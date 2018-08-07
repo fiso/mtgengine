@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SavannahBase = require("../setCED/Savannah");
+const SavannahBase = require("../setVMA/Savannah");
 
 class Savannah extends SavannahBase {
   constructor (game) {
-    super(game, "Savannah", "International Collector's Edition", "CEI");
+    super(game, "Savannah", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const XiahouDuntheOneEyedBase = require("../setpJGP/XiahouDuntheOneEyed");
+const XiahouDuntheOneEyedBase = require("../setJ12/XiahouDuntheOneEyed");
 
 class XiahouDuntheOneEyed extends XiahouDuntheOneEyedBase {
   constructor (game) {

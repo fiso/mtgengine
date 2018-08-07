@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UthdenTrollBase = require("../setATH/UthdenTroll");
+const UthdenTrollBase = require("../setTSB/UthdenTroll");
 
 class UthdenTroll extends UthdenTrollBase {
   constructor (game) {

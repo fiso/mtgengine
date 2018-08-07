@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmokebraiderBase = require("../setLRW/Smokebraider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Smokebraider extends SmokebraiderBase {
+class Smokebraider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Smokebraider", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Smokebraider", "Modern Masters 2015", "MM2");
   }
 }
 

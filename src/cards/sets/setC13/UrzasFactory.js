@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UrzasFactoryBase = require("../setpCMP/UrzasFactory");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class UrzasFactory extends UrzasFactoryBase {
+class UrzasFactory extends UnimplementedCard {
   constructor (game) {
-    super(game, "Urza's Factory", "Commander 2013 Edition", "C13");
+    super(game, "Urza's Factory", "Commander 2013", "C13");
   }
 }
 

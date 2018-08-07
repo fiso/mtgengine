@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ColossalMightBase = require("../setARB/ColossalMight");
+const ColossalMightBase = require("../setCMD/ColossalMight");
 
 class ColossalMight extends ColossalMightBase {
   constructor (game) {

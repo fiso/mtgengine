@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BloodhillBastionBase = require("../setPCA/BloodhillBastion");
 
-class BloodhillBastion extends UnimplementedCard {
+class BloodhillBastion extends BloodhillBastionBase {
   constructor (game) {
-    super(game, "Bloodhill Bastion", "Planechase 2012 Edition", "PC2");
+    super(game, "Bloodhill Bastion", "Planechase 2012", "PC2");
   }
 }
 

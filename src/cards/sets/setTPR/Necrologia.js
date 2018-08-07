@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NecrologiaBase = require("../setEXO/Necrologia");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Necrologia extends NecrologiaBase {
+class Necrologia extends UnimplementedCard {
   constructor (game) {
     super(game, "Necrologia", "Tempest Remastered", "TPR");
   }

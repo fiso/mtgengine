@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CennsEnlistmentBase = require("../setEVE/CennsEnlistment");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CennsEnlistment extends CennsEnlistmentBase {
+class CennsEnlistment extends UnimplementedCard {
   constructor (game) {
     super(game, "Cenn's Enlistment", "Modern Masters", "MMA");
   }

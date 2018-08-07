@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrimSamiteHealerBase = require("../setTMP/OrimSamiteHealer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class OrimSamiteHealer extends OrimSamiteHealerBase {
+class OrimSamiteHealer extends UnimplementedCard {
   constructor (game) {
     super(game, "Orim, Samite Healer", "Tempest Remastered", "TPR");
   }

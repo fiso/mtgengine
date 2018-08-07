@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FungalShamblerBase = require("../setAPC/FungalShambler");
+const FungalShamblerBase = require("../setPRM/FungalShambler");
 
 class FungalShambler extends FungalShamblerBase {
   constructor (game) {
-    super(game, "Fungal Shambler", "Prerelease Events", "pPRE");
+    super(game, "Fungal Shambler", "Prerelease Events", "PPRE");
   }
 }
 

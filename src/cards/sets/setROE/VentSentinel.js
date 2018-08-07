@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VentSentinelBase = require("../setCNS/VentSentinel");
+const VentSentinelBase = require("../setIMA/VentSentinel");
 
 class VentSentinel extends VentSentinelBase {
   constructor (game) {

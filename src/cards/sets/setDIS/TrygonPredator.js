@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TrygonPredatorBase = require("../setC15/TrygonPredator");
+const TrygonPredatorBase = require("../setEMA/TrygonPredator");
 
 class TrygonPredator extends TrygonPredatorBase {
   constructor (game) {

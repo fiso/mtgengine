@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CarapaceBase = require("../set5ED/Carapace");
+const CarapaceBase = require("../setME2/Carapace");
 
 class Carapace extends CarapaceBase {
   constructor (game) {

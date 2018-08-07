@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SlipstreamEelBase = require("../setCM2/SlipstreamEel");
 
-class SlipstreamEel extends UnimplementedCard {
+class SlipstreamEel extends SlipstreamEelBase {
   constructor (game) {
-    super(game, "Slipstream Eel", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Slipstream Eel", "Commander 2011", "CMD");
   }
 }
 

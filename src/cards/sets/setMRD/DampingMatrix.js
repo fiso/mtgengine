@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DampingMatrixBase = require("../setMM3/DampingMatrix");
 
-class DampingMatrix extends UnimplementedCard {
+class DampingMatrix extends DampingMatrixBase {
   constructor (game) {
     super(game, "Damping Matrix", "Mirrodin", "MRD");
   }

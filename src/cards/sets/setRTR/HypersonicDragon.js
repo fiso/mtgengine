@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HypersonicDragonBase = require("../setpPRE/HypersonicDragon");
+const HypersonicDragonBase = require("../setIMA/HypersonicDragon");
 
 class HypersonicDragon extends HypersonicDragonBase {
   constructor (game) {

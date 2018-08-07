@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VowofMaliceBase = require("../setC15/VowofMalice");
+const VowofMaliceBase = require("../setCM2/VowofMalice");
 
 class VowofMalice extends VowofMaliceBase {
   constructor (game) {
-    super(game, "Vow of Malice", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Vow of Malice", "Commander 2011", "CMD");
   }
 }
 

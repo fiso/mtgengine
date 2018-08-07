@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkullclampBase = require("../setC14/Skullclamp");
+const SkullclampBase = require("../setC17/Skullclamp");
 
 class Skullclamp extends SkullclampBase {
   constructor (game) {
-    super(game, "Skullclamp", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Skullclamp", "Commander 2011", "CMD");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HulkingCyclopsBase = require("../setBTD/HulkingCyclops");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HulkingCyclops extends HulkingCyclopsBase {
+class HulkingCyclops extends UnimplementedCard {
   constructor (game) {
     super(game, "Hulking Cyclops", "Eighth Edition", "8ED");
   }

@@ -4,7 +4,7 @@ const BravetheElementsBase = require("../setC14/BravetheElements");
 
 class BravetheElements extends BravetheElementsBase {
   constructor (game) {
-    super(game, "Brave the Elements", "Magic 2014 Core Set", "M14");
+    super(game, "Brave the Elements", "Magic 2014", "M14");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManoWarBase = require("../setpARL/ManoWar");
+const ManoWarBase = require("../setA25/ManoWar");
 
 class ManoWar extends ManoWarBase {
   constructor (game) {

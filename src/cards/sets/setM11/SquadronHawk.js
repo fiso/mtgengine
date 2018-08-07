@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SquadronHawkBase = require("../setpFNM/SquadronHawk");
+const SquadronHawkBase = require("../setA25/SquadronHawk");
 
 class SquadronHawk extends SquadronHawkBase {
   constructor (game) {

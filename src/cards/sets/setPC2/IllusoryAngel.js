@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IllusoryAngelBase = require("../setM15/IllusoryAngel");
+const IllusoryAngelBase = require("../setIMA/IllusoryAngel");
 
 class IllusoryAngel extends IllusoryAngelBase {
   constructor (game) {
-    super(game, "Illusory Angel", "Planechase 2012 Edition", "PC2");
+    super(game, "Illusory Angel", "Planechase 2012", "PC2");
   }
 }
 

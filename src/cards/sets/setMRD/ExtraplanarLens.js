@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ExtraplanarLensBase = require("../setMPS/ExtraplanarLens");
 
-class ExtraplanarLens extends UnimplementedCard {
+class ExtraplanarLens extends ExtraplanarLensBase {
   constructor (game) {
     super(game, "Extraplanar Lens", "Mirrodin", "MRD");
   }

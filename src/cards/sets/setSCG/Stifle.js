@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StifleBase = require("../setpJGP/Stifle");
+const StifleBase = require("../setMP2/Stifle");
 
 class Stifle extends StifleBase {
   constructor (game) {

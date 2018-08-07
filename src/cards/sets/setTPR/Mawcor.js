@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MawcorBase = require("../set7ED/Mawcor");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Mawcor extends MawcorBase {
+class Mawcor extends UnimplementedCard {
   constructor (game) {
     super(game, "Mawcor", "Tempest Remastered", "TPR");
   }

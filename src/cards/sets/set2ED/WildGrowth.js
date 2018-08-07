@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildGrowthBase = require("../setBTD/WildGrowth");
+const WildGrowthBase = require("../setC18/WildGrowth");
 
 class WildGrowth extends WildGrowthBase {
   constructor (game) {

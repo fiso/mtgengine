@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunkenCityBase = require("../set4ED/SunkenCity");
+const SunkenCityBase = require("../setMED/SunkenCity");
 
 class SunkenCity extends SunkenCityBase {
   constructor (game) {

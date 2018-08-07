@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UndoBase = require("../setPO2/Undo");
+const UndoBase = require("../setS99/Undo");
 
 class Undo extends UndoBase {
   constructor (game) {

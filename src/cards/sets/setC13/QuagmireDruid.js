@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuagmireDruidBase = require("../setAPC/QuagmireDruid");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class QuagmireDruid extends QuagmireDruidBase {
+class QuagmireDruid extends UnimplementedCard {
   constructor (game) {
-    super(game, "Quagmire Druid", "Commander 2013 Edition", "C13");
+    super(game, "Quagmire Druid", "Commander 2013", "C13");
   }
 }
 

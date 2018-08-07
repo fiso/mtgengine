@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FieryTemperBase = require("../setSOI/FieryTemper");
 
-class FieryTemper extends UnimplementedCard {
+class FieryTemper extends FieryTemperBase {
   constructor (game) {
-    super(game, "Fiery Temper", "Gateway", "pGTW");
+    super(game, "Fiery Temper", "Gateway 2006", "PGTW");
   }
 }
 

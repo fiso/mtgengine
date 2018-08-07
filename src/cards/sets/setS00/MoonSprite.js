@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoonSpriteBase = require("../setPOR/MoonSprite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoonSprite extends MoonSpriteBase {
+class MoonSprite extends UnimplementedCard {
   constructor (game) {
     super(game, "Moon Sprite", "Starter 2000", "S00");
   }

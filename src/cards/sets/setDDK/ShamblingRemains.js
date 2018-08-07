@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShamblingRemainsBase = require("../setCON/ShamblingRemains");
+const ShamblingRemainsBase = require("../setDDN/ShamblingRemains");
 
 class ShamblingRemains extends ShamblingRemainsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PyriteSpellbombBase = require("../setMRD/PyriteSpellbomb");
+const PyriteSpellbombBase = require("../setDDU/PyriteSpellbomb");
 
 class PyriteSpellbomb extends PyriteSpellbombBase {
   constructor (game) {

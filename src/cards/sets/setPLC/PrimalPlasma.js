@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimalPlasmaBase = require("../setDDI/PrimalPlasma");
+const PrimalPlasmaBase = require("../setPCA/PrimalPlasma");
 
 class PrimalPlasma extends PrimalPlasmaBase {
   constructor (game) {

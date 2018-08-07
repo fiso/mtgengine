@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CelestialSwordBase = require("../setICE/CelestialSword");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CelestialSword extends CelestialSwordBase {
+class CelestialSword extends UnimplementedCard {
   constructor (game) {
     super(game, "Celestial Sword", "Masters Edition IV", "ME4");
   }

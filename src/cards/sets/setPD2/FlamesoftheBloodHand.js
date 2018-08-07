@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlamesoftheBloodHandBase = require("../setBOK/FlamesoftheBloodHand");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FlamesoftheBloodHand extends FlamesoftheBloodHandBase {
+class FlamesoftheBloodHand extends UnimplementedCard {
   constructor (game) {
     super(game, "Flames of the Blood Hand", "Premium Deck Series: Fire and Lightning", "PD2");
   }

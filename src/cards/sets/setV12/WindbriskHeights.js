@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WindbriskHeightsBase = require("../setC16/WindbriskHeights");
 
-class WindbriskHeights extends UnimplementedCard {
+class WindbriskHeights extends WindbriskHeightsBase {
   constructor (game) {
     super(game, "Windbrisk Heights", "From the Vault: Realms", "V12");
   }

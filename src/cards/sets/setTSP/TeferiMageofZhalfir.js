@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TeferiMageofZhalfirBase = require("../setV11/TeferiMageofZhalfir");
+const TeferiMageofZhalfirBase = require("../setIMA/TeferiMageofZhalfir");
 
 class TeferiMageofZhalfir extends TeferiMageofZhalfirBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PuncturingLightBase = require("../setROE/PuncturingLight");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PuncturingLight extends PuncturingLightBase {
+class PuncturingLight extends UnimplementedCard {
   constructor (game) {
     super(game, "Puncturing Light", "Shadows over Innistrad", "SOI");
   }

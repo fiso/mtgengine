@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GroundskeeperBase = require("../setMMQ/Groundskeeper");
+const GroundskeeperBase = require("../setSOI/Groundskeeper");
 
 class Groundskeeper extends GroundskeeperBase {
   constructor (game) {

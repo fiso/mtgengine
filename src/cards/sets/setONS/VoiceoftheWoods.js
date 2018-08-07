@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VoiceoftheWoodsBase = require("../setDD3_EVG/VoiceoftheWoods");
+const VoiceoftheWoodsBase = require("../setEVG/VoiceoftheWoods");
 
 class VoiceoftheWoods extends VoiceoftheWoodsBase {
   constructor (game) {

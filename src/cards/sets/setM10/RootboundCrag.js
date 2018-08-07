@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RootboundCragBase = require("../setXLN/RootboundCrag");
 
-class RootboundCrag extends UnimplementedCard {
+class RootboundCrag extends RootboundCragBase {
   constructor (game) {
     super(game, "Rootbound Crag", "Magic 2010", "M10");
   }

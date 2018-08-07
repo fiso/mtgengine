@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const BindingGraspBase = require("../setME2/BindingGrasp");
 
-class BindingGrasp extends UnimplementedCard {
+class BindingGrasp extends BindingGraspBase {
   constructor (game) {
     super(game, "Binding Grasp", "Coldsnap Theme Decks", "CST");
   }

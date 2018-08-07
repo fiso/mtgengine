@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BottomlessVaultBase = require("../setFEM/BottomlessVault");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BottomlessVault extends BottomlessVaultBase {
+class BottomlessVault extends UnimplementedCard {
   constructor (game) {
     super(game, "Bottomless Vault", "Fifth Edition", "5ED");
   }

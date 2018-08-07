@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChromeMoxBase = require("../setpGPX/ChromeMox");
+const ChromeMoxBase = require("../setMPS/ChromeMox");
 
 class ChromeMox extends ChromeMoxBase {
   constructor (game) {

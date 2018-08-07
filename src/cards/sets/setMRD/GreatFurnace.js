@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GreatFurnaceBase = require("../setC14/GreatFurnace");
+const GreatFurnaceBase = require("../setC18/GreatFurnace");
 
 class GreatFurnace extends GreatFurnaceBase {
   constructor (game) {

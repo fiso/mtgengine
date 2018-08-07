@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrideGuardianBase = require("../setM12/PrideGuardian");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PrideGuardian extends PrideGuardianBase {
+class PrideGuardian extends UnimplementedCard {
   constructor (game) {
-    super(game, "Pride Guardian", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Pride Guardian", "Conspiracy", "CNS");
   }
 }
 

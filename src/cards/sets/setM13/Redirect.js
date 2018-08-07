@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RedirectBase = require("../setM11/Redirect");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Redirect extends RedirectBase {
+class Redirect extends UnimplementedCard {
   constructor (game) {
     super(game, "Redirect", "Magic 2013", "M13");
   }

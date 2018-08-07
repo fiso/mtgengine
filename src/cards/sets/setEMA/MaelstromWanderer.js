@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MaelstromWandererBase = require("../setCM1/MaelstromWanderer");
+const MaelstromWandererBase = require("../setPCA/MaelstromWanderer");
 
 class MaelstromWanderer extends MaelstromWandererBase {
   constructor (game) {

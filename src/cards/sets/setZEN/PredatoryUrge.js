@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PredatoryUrgeBase = require("../setPC2/PredatoryUrge");
+const PredatoryUrgeBase = require("../setPCA/PredatoryUrge");
 
 class PredatoryUrge extends PredatoryUrgeBase {
   constructor (game) {

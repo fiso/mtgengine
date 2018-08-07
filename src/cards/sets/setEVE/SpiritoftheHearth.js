@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpiritoftheHearthBase = require("../setC17/SpiritoftheHearth");
 
-class SpiritoftheHearth extends UnimplementedCard {
+class SpiritoftheHearth extends SpiritoftheHearthBase {
   constructor (game) {
     super(game, "Spirit of the Hearth", "Eventide", "EVE");
   }

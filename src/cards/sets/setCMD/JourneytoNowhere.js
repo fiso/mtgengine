@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JourneytoNowhereBase = require("../setDDF/JourneytoNowhere");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class JourneytoNowhere extends JourneytoNowhereBase {
+class JourneytoNowhere extends UnimplementedCard {
   constructor (game) {
-    super(game, "Journey to Nowhere", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Journey to Nowhere", "Commander 2011", "CMD");
   }
 }
 

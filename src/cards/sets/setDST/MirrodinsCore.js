@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MirrodinsCoreBase = require("../setCNS/MirrodinsCore");
 
-class MirrodinsCore extends UnimplementedCard {
+class MirrodinsCore extends MirrodinsCoreBase {
   constructor (game) {
     super(game, "Mirrodin's Core", "Darksteel", "DST");
   }

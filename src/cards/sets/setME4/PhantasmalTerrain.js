@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhantasmalTerrainBase = require("../set6ED/PhantasmalTerrain");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PhantasmalTerrain extends PhantasmalTerrainBase {
+class PhantasmalTerrain extends UnimplementedCard {
   constructor (game) {
     super(game, "Phantasmal Terrain", "Masters Edition IV", "ME4");
   }

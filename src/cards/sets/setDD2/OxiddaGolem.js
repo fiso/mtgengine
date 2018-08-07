@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OxiddaGolemBase = require("../setDST/OxiddaGolem");
+const OxiddaGolemBase = require("../setJVC/OxiddaGolem");
 
 class OxiddaGolem extends OxiddaGolemBase {
   constructor (game) {

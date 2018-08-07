@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CloudshiftBase = require("../setA25/Cloudshift");
 
-class Cloudshift extends UnimplementedCard {
+class Cloudshift extends CloudshiftBase {
   constructor (game) {
     super(game, "Cloudshift", "Avacyn Restored", "AVR");
   }

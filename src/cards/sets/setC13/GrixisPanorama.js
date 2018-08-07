@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GrixisPanoramaBase = require("../setC17/GrixisPanorama");
 
-class GrixisPanorama extends UnimplementedCard {
+class GrixisPanorama extends GrixisPanoramaBase {
   constructor (game) {
-    super(game, "Grixis Panorama", "Commander 2013 Edition", "C13");
+    super(game, "Grixis Panorama", "Commander 2013", "C13");
   }
 }
 

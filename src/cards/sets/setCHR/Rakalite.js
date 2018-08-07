@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RakaliteBase = require("../setATQ/Rakalite");
+const RakaliteBase = require("../setME4/Rakalite");
 
 class Rakalite extends RakaliteBase {
   constructor (game) {

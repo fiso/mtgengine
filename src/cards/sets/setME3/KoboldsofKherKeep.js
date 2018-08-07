@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KoboldsofKherKeepBase = require("../setLEG/KoboldsofKherKeep");
+const KoboldsofKherKeepBase = require("../setTA25/KoboldsofKherKeep");
 
 class KoboldsofKherKeep extends KoboldsofKherKeepBase {
   constructor (game) {

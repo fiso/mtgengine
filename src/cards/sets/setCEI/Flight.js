@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlightBase = require("../set6ED/Flight");
+const FlightBase = require("../setM12/Flight");
 
 class Flight extends FlightBase {
   constructor (game) {
-    super(game, "Flight", "International Collector's Edition", "CEI");
+    super(game, "Flight", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

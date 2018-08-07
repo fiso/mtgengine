@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RikuofTwoReflectionsBase = require("../setpJGP/RikuofTwoReflections");
+const RikuofTwoReflectionsBase = require("../setJ14/RikuofTwoReflections");
 
 class RikuofTwoReflections extends RikuofTwoReflectionsBase {
   constructor (game) {
-    super(game, "Riku of Two Reflections", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Riku of Two Reflections", "Commander 2011", "CMD");
   }
 }
 

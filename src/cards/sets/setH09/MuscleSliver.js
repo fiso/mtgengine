@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MuscleSliverBase = require("../setpFNM/MuscleSliver");
+const MuscleSliverBase = require("../setTPR/MuscleSliver");
 
 class MuscleSliver extends MuscleSliverBase {
   constructor (game) {

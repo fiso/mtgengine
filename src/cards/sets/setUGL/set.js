@@ -2,6 +2,7 @@
 module.exports = {
   AshnodsCoupon: require("./AshnodsCoupon"),
   BFMBigFurryMonster: require("./BFMBigFurryMonster"),
+  BFMBigFurryMonster: require("./BFMBigFurryMonster"),
   BlackerLotus: require("./BlackerLotus"),
   BronzeCalendar: require("./BronzeCalendar"),
   Bureaucracy: require("./Bureaucracy"),
@@ -37,7 +38,6 @@ module.exports = {
   GiantFan: require("./GiantFan"),
   GoblinBookie: require("./GoblinBookie"),
   GoblinBowlingTeam: require("./GoblinBowlingTeam"),
-  Goblintokencard: require("./Goblintokencard"),
   GoblinTutor: require("./GoblinTutor"),
   GrowthSpurt: require("./GrowthSpurt"),
   Gus: require("./Gus"),
@@ -66,7 +66,6 @@ module.exports = {
   OrganHarvest: require("./OrganHarvest"),
   Ow: require("./Ow"),
   PaperTiger: require("./PaperTiger"),
-  Pegasustokencard: require("./Pegasustokencard"),
   Plains: require("./Plains"),
   Poultrygeist: require("./Poultrygeist"),
   PrismaticWardrobe: require("./PrismaticWardrobe"),
@@ -75,13 +74,10 @@ module.exports = {
   RockLobster: require("./RockLobster"),
   ScissorsLizard: require("./ScissorsLizard"),
   SexAppeal: require("./SexAppeal"),
-  Sheeptokencard: require("./Sheeptokencard"),
-  Soldiertokencard: require("./Soldiertokencard"),
   Sorry: require("./Sorry"),
   SparkFiend: require("./SparkFiend"),
   SpatulaoftheAges: require("./SpatulaoftheAges"),
   SquirrelFarm: require("./SquirrelFarm"),
-  Squirreltokencard: require("./Squirreltokencard"),
   StrategySchmategy: require("./StrategySchmategy"),
   Swamp: require("./Swamp"),
   TeamSpirit: require("./TeamSpirit"),
@@ -91,7 +87,6 @@ module.exports = {
   TimmyPowerGamer: require("./TimmyPowerGamer"),
   UrzasContactLenses: require("./UrzasContactLenses"),
   UrzasScienceFairProject: require("./UrzasScienceFairProject"),
-  VolrathsMotionSensor: require("./VolrathsMotionSensor"),
-  Zombietokencard: require("./Zombietokencard")
+  VolrathsMotionSensor: require("./VolrathsMotionSensor")
 };
 if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setUGL = module.exports;}

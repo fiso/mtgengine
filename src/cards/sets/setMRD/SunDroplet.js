@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunDropletBase = require("../setARC/SunDroplet");
+const SunDropletBase = require("../setC13/SunDroplet");
 
 class SunDroplet extends SunDropletBase {
   constructor (game) {

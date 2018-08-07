@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KorSanctifiersBase = require("../setC14/KorSanctifiers");
+const KorSanctifiersBase = require("../setC15/KorSanctifiers");
 
 class KorSanctifiers extends KorSanctifiersBase {
   constructor (game) {

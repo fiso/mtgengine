@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HadaSpyPatrolBase = require("../setC13/HadaSpyPatrol");
+const HadaSpyPatrolBase = require("../setCMA/HadaSpyPatrol");
 
 class HadaSpyPatrol extends HadaSpyPatrolBase {
   constructor (game) {

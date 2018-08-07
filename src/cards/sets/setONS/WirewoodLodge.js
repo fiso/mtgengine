@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WirewoodLodgeBase = require("../setDD3_EVG/WirewoodLodge");
+const WirewoodLodgeBase = require("../setEVG/WirewoodLodge");
 
 class WirewoodLodge extends WirewoodLodgeBase {
   constructor (game) {

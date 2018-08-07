@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VampirismBase = require("../setMGB/Vampirism");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Vampirism extends VampirismBase {
+class Vampirism extends UnimplementedCard {
   constructor (game) {
     super(game, "Vampirism", "Visions", "VIS");
   }

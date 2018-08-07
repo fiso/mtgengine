@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AzoriusChanceryBase = require("../setC13/AzoriusChancery");
+const AzoriusChanceryBase = require("../setC18/AzoriusChancery");
 
 class AzoriusChancery extends AzoriusChanceryBase {
   constructor (game) {

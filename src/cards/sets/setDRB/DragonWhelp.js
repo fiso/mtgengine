@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonWhelpBase = require("../setARC/DragonWhelp");
+const DragonWhelpBase = require("../setCMA/DragonWhelp");
 
 class DragonWhelp extends DragonWhelpBase {
   constructor (game) {

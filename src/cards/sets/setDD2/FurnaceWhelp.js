@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FurnaceWhelpBase = require("../setARC/FurnaceWhelp");
+const FurnaceWhelpBase = require("../setIMA/FurnaceWhelp");
 
 class FurnaceWhelp extends FurnaceWhelpBase {
   constructor (game) {

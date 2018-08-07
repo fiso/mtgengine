@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkirgeFamiliarBase = require("../setUSG/SkirgeFamiliar");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SkirgeFamiliar extends SkirgeFamiliarBase {
+class SkirgeFamiliar extends UnimplementedCard {
   constructor (game) {
     super(game, "Skirge Familiar", "Vintage Masters", "VMA");
   }

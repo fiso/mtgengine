@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BoundinSilenceBase = require("../setFUT/BoundinSilence");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BoundinSilence extends BoundinSilenceBase {
+class BoundinSilence extends UnimplementedCard {
   constructor (game) {
     super(game, "Bound in Silence", "Modern Masters", "MMA");
   }

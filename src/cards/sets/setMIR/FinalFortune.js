@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FinalFortuneBase = require("../set6ED/FinalFortune");
+const FinalFortuneBase = require("../set7ED/FinalFortune");
 
 class FinalFortune extends FinalFortuneBase {
   constructor (game) {

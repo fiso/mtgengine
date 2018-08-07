@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HowloftheNightPackBase = require("../setDPA/HowloftheNightPack");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HowloftheNightPack extends HowloftheNightPackBase {
+class HowloftheNightPack extends UnimplementedCard {
   constructor (game) {
-    super(game, "Howl of the Night Pack", "Magic 2014 Core Set", "M14");
+    super(game, "Howl of the Night Pack", "Magic 2014", "M14");
   }
 }
 

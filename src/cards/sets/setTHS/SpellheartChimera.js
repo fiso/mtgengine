@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SpellheartChimeraBase = require("../setDDS/SpellheartChimera");
 
-class SpellheartChimera extends UnimplementedCard {
+class SpellheartChimera extends SpellheartChimeraBase {
   constructor (game) {
     super(game, "Spellheart Chimera", "Theros", "THS");
   }

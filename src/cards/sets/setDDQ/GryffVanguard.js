@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GryffVanguardBase = require("../setAVR/GryffVanguard");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GryffVanguard extends GryffVanguardBase {
+class GryffVanguard extends UnimplementedCard {
   constructor (game) {
     super(game, "Gryff Vanguard", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

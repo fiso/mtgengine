@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SouldrinkerBase = require("../setDD3_DVD/Souldrinker");
+const SouldrinkerBase = require("../setDVD/Souldrinker");
 
 class Souldrinker extends SouldrinkerBase {
   constructor (game) {

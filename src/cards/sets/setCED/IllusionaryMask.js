@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IllusionaryMaskBase = require("../setTD0/IllusionaryMask");
 
-class IllusionaryMask extends UnimplementedCard {
+class IllusionaryMask extends IllusionaryMaskBase {
   constructor (game) {
-    super(game, "Illusionary Mask", "Collector's Edition", "CED");
+    super(game, "Illusionary Mask", "Collectors’ Edition", "CED");
   }
 }
 

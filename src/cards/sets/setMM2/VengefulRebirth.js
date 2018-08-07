@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VengefulRebirthBase = require("../setARB/VengefulRebirth");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VengefulRebirth extends VengefulRebirthBase {
+class VengefulRebirth extends UnimplementedCard {
   constructor (game) {
-    super(game, "Vengeful Rebirth", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Vengeful Rebirth", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class OrderofSuccession extends UnimplementedCard {
   constructor (game) {
-    super(game, "Order of Succession", "Commander 2013 Edition", "C13");
+    super(game, "Order of Succession", "Commander 2013", "C13");
   }
 }
 

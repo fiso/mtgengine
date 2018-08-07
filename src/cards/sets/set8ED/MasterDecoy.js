@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MasterDecoyBase = require("../setBRB/MasterDecoy");
+const MasterDecoyBase = require("../setTPR/MasterDecoy");
 
 class MasterDecoy extends MasterDecoyBase {
   constructor (game) {

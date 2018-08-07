@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PegasusChargerBase = require("../setATH/PegasusCharger");
+const PegasusChargerBase = require("../set9ED/PegasusCharger");
 
 class PegasusCharger extends PegasusChargerBase {
   constructor (game) {

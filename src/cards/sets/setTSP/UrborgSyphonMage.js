@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UrborgSyphonMageBase = require("../setARC/UrborgSyphonMage");
+const UrborgSyphonMageBase = require("../setGVL/UrborgSyphonMage");
 
 class UrborgSyphonMage extends UrborgSyphonMageBase {
   constructor (game) {

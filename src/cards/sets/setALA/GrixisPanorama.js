@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GrixisPanoramaBase = require("../setC13/GrixisPanorama");
+const GrixisPanoramaBase = require("../setC17/GrixisPanorama");
 
 class GrixisPanorama extends GrixisPanoramaBase {
   constructor (game) {

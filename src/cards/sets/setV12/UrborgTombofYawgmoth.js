@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UrborgTombofYawgmothBase = require("../setM15/UrborgTombofYawgmoth");
 
-class UrborgTombofYawgmoth extends UnimplementedCard {
+class UrborgTombofYawgmoth extends UrborgTombofYawgmothBase {
   constructor (game) {
     super(game, "Urborg, Tomb of Yawgmoth", "From the Vault: Realms", "V12");
   }

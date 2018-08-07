@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MasterSplicerBase = require("../setMM3/MasterSplicer");
 
-class MasterSplicer extends UnimplementedCard {
+class MasterSplicer extends MasterSplicerBase {
   constructor (game) {
     super(game, "Master Splicer", "New Phyrexia", "NPH");
   }

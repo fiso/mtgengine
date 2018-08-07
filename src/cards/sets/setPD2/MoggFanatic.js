@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoggFanaticBase = require("../setATH/MoggFanatic");
+const MoggFanaticBase = require("../setEMA/MoggFanatic");
 
 class MoggFanatic extends MoggFanaticBase {
   constructor (game) {

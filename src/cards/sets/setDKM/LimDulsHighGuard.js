@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LimDulsHighGuardBase = require("../setALL/LimDulsHighGuard");
+const LimDulsHighGuardBase = require("../setME2/LimDulsHighGuard");
 
 class LimDulsHighGuard extends LimDulsHighGuardBase {
   constructor (game) {

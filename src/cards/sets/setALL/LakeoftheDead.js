@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LakeoftheDeadBase = require("../setVMA/LakeoftheDead");
 
-class LakeoftheDead extends UnimplementedCard {
+class LakeoftheDead extends LakeoftheDeadBase {
   constructor (game) {
     super(game, "Lake of the Dead", "Alliances", "ALL");
   }

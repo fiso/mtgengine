@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MountainValleyBase = require("../setMIR/MountainValley");
+const MountainValleyBase = require("../setC18/MountainValley");
 
 class MountainValley extends MountainValleyBase {
   constructor (game) {

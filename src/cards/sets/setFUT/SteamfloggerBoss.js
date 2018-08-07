@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SteamfloggerBossBase = require("../setUST/SteamfloggerBoss");
 
-class SteamfloggerBoss extends UnimplementedCard {
+class SteamfloggerBoss extends SteamfloggerBossBase {
   constructor (game) {
     super(game, "Steamflogger Boss", "Future Sight", "FUT");
   }

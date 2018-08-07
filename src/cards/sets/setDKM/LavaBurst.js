@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LavaBurstBase = require("../setME2/LavaBurst");
 
-class LavaBurst extends UnimplementedCard {
+class LavaBurst extends LavaBurstBase {
   constructor (game) {
     super(game, "Lava Burst", "Deckmasters", "DKM");
   }

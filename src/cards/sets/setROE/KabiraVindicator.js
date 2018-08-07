@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KabiraVindicatorBase = require("../setDDG/KabiraVindicator");
+const KabiraVindicatorBase = require("../setDDP/KabiraVindicator");
 
 class KabiraVindicator extends KabiraVindicatorBase {
   constructor (game) {

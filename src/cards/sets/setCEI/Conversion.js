@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ConversionBase = require("../setCED/Conversion");
+const ConversionBase = require("../setME4/Conversion");
 
 class Conversion extends ConversionBase {
   constructor (game) {
-    super(game, "Conversion", "International Collector's Edition", "CEI");
+    super(game, "Conversion", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

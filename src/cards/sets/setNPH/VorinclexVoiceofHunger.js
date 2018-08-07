@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VorinclexVoiceofHungerBase = require("../setIMA/VorinclexVoiceofHunger");
 
-class VorinclexVoiceofHunger extends UnimplementedCard {
+class VorinclexVoiceofHunger extends VorinclexVoiceofHungerBase {
   constructor (game) {
     super(game, "Vorinclex, Voice of Hunger", "New Phyrexia", "NPH");
   }

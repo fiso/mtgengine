@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LeoninBladetrapBase = require("../setCMA/LeoninBladetrap");
 
-class LeoninBladetrap extends UnimplementedCard {
+class LeoninBladetrap extends LeoninBladetrapBase {
   constructor (game) {
-    super(game, "Leonin Bladetrap", "Commander 2013 Edition", "C13");
+    super(game, "Leonin Bladetrap", "Commander 2013", "C13");
   }
 }
 

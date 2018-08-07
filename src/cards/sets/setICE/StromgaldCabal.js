@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StromgaldCabalBase = require("../set6ED/StromgaldCabal");
+const StromgaldCabalBase = require("../setME2/StromgaldCabal");
 
 class StromgaldCabal extends StromgaldCabalBase {
   constructor (game) {

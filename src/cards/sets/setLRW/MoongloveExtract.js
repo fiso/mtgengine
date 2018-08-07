@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoongloveExtractBase = require("../setDD3_EVG/MoongloveExtract");
+const MoongloveExtractBase = require("../setIMA/MoongloveExtract");
 
 class MoongloveExtract extends MoongloveExtractBase {
   constructor (game) {

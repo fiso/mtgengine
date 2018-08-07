@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PollutedDeltaBase = require("../setpJGP/PollutedDelta");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PollutedDelta extends PollutedDeltaBase {
+class PollutedDelta extends UnimplementedCard {
   constructor (game) {
-    super(game, "Polluted Delta", "Zendikar Expedition", "EXP");
+    super(game, "Polluted Delta", "Zendikar Expeditions", "EXP");
   }
 }
 

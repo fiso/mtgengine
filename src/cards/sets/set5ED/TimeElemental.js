@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TimeElementalBase = require("../setMED/TimeElemental");
 
-class TimeElemental extends UnimplementedCard {
+class TimeElemental extends TimeElementalBase {
   constructor (game) {
     super(game, "Time Elemental", "Fifth Edition", "5ED");
   }

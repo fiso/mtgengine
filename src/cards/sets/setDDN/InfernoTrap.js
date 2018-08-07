@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfernoTrapBase = require("../setARC/InfernoTrap");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class InfernoTrap extends InfernoTrapBase {
+class InfernoTrap extends UnimplementedCard {
   constructor (game) {
     super(game, "Inferno Trap", "Duel Decks: Speed vs. Cunning", "DDN");
   }

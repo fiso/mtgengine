@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArtifactBlastBase = require("../setATQ/ArtifactBlast");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ArtifactBlast extends ArtifactBlastBase {
+class ArtifactBlast extends UnimplementedCard {
   constructor (game) {
     super(game, "Artifact Blast", "Masters Edition IV", "ME4");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AeolipileBase = require("../setFEM/Aeolipile");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Aeolipile extends AeolipileBase {
+class Aeolipile extends UnimplementedCard {
   constructor (game) {
     super(game, "Aeolipile", "Masters Edition II", "ME2");
   }

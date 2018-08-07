@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TempleoftheFalseGodBase = require("../setC18/TempleoftheFalseGod");
 
-class TempleoftheFalseGod extends UnimplementedCard {
+class TempleoftheFalseGod extends TempleoftheFalseGodBase {
   constructor (game) {
-    super(game, "Temple of the False God", "Commander 2013 Edition", "C13");
+    super(game, "Temple of the False God", "Commander 2013", "C13");
   }
 }
 

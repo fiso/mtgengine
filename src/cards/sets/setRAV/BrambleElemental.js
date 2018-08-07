@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrambleElementalBase = require("../setPC2/BrambleElemental");
+const BrambleElementalBase = require("../setPCA/BrambleElemental");
 
 class BrambleElemental extends BrambleElementalBase {
   constructor (game) {

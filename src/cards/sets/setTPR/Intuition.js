@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IntuitionBase = require("../setpJGP/Intuition");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Intuition extends IntuitionBase {
+class Intuition extends UnimplementedCard {
   constructor (game) {
     super(game, "Intuition", "Tempest Remastered", "TPR");
   }

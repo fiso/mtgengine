@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoxEmeraldBase = require("../setCED/MoxEmerald");
+const MoxEmeraldBase = require("../setVMA/MoxEmerald");
 
 class MoxEmerald extends MoxEmeraldBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DimirSignetBase = require("../setARC/DimirSignet");
+const DimirSignetBase = require("../setC18/DimirSignet");
 
 class DimirSignet extends DimirSignetBase {
   constructor (game) {
-    super(game, "Dimir Signet", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Dimir Signet", "Commander 2011", "CMD");
   }
 }
 

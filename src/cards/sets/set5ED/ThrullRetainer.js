@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThrullRetainerBase = require("../setFEM/ThrullRetainer");
+const ThrullRetainerBase = require("../setMED/ThrullRetainer");
 
 class ThrullRetainer extends ThrullRetainerBase {
   constructor (game) {

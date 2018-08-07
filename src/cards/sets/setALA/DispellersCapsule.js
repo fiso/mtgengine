@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DispellersCapsuleBase = require("../setMMA/DispellersCapsule");
+const DispellersCapsuleBase = require("../setC16/DispellersCapsule");
 
 class DispellersCapsule extends DispellersCapsuleBase {
   constructor (game) {

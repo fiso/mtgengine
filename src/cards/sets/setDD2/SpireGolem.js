@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpireGolemBase = require("../setDST/SpireGolem");
+const SpireGolemBase = require("../setJVC/SpireGolem");
 
 class SpireGolem extends SpireGolemBase {
   constructor (game) {

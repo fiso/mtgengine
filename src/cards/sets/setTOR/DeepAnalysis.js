@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeepAnalysisBase = require("../setC13/DeepAnalysis");
+const DeepAnalysisBase = require("../setEMA/DeepAnalysis");
 
 class DeepAnalysis extends DeepAnalysisBase {
   constructor (game) {

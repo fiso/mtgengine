@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoulNetBase = require("../set6ED/SoulNet");
+const SoulNetBase = require("../set7ED/SoulNet");
 
 class SoulNet extends SoulNetBase {
   constructor (game) {
-    super(game, "Soul Net", "Collector's Edition", "CED");
+    super(game, "Soul Net", "Collectors’ Edition", "CED");
   }
 }
 

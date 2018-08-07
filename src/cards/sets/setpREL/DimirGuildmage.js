@@ -4,7 +4,7 @@ const DimirGuildmageBase = require("../setMM2/DimirGuildmage");
 
 class DimirGuildmage extends DimirGuildmageBase {
   constructor (game) {
-    super(game, "Dimir Guildmage", "Release Events", "pREL");
+    super(game, "Dimir Guildmage", "Release Events", "PREL");
   }
 }
 

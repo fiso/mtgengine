@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JacesArchivistBase = require("../setC15/JacesArchivist");
 
-class JacesArchivist extends UnimplementedCard {
+class JacesArchivist extends JacesArchivistBase {
   constructor (game) {
-    super(game, "Jace's Archivist", "Commander 2013 Edition", "C13");
+    super(game, "Jace's Archivist", "Commander 2013", "C13");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AuramancerBase = require("../setDDL/Auramancer");
+const AuramancerBase = require("../setA25/Auramancer");
 
 class Auramancer extends AuramancerBase {
   constructor (game) {
-    super(game, "Auramancer", "Magic 2014 Core Set", "M14");
+    super(game, "Auramancer", "Magic 2014", "M14");
   }
 }
 

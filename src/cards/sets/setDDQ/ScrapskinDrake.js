@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrapskinDrakeBase = require("../setAVR/ScrapskinDrake");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ScrapskinDrake extends ScrapskinDrakeBase {
+class ScrapskinDrake extends UnimplementedCard {
   constructor (game) {
     super(game, "Scrapskin Drake", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

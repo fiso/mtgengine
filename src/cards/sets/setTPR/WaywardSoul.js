@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WaywardSoulBase = require("../setBTD/WaywardSoul");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WaywardSoul extends WaywardSoulBase {
+class WaywardSoul extends UnimplementedCard {
   constructor (game) {
     super(game, "Wayward Soul", "Tempest Remastered", "TPR");
   }

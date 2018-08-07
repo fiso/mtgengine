@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OmenspeakerBase = require("../setM19/Omenspeaker");
 
-class Omenspeaker extends UnimplementedCard {
+class Omenspeaker extends OmenspeakerBase {
   constructor (game) {
     super(game, "Omenspeaker", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

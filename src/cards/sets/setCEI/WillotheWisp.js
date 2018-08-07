@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WillotheWispBase = require("../setCED/WillotheWisp");
+const WillotheWispBase = require("../setA25/WillotheWisp");
 
 class WillotheWisp extends WillotheWispBase {
   constructor (game) {
-    super(game, "Will-o'-the-Wisp", "International Collector's Edition", "CEI");
+    super(game, "Will-o'-the-Wisp", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

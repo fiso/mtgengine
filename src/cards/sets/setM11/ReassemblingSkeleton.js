@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReassemblingSkeletonBase = require("../setARC/ReassemblingSkeleton");
+const ReassemblingSkeletonBase = require("../setM19/ReassemblingSkeleton");
 
 class ReassemblingSkeleton extends ReassemblingSkeletonBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BadMoonBase = require("../setCED/BadMoon");
+const BadMoonBase = require("../setGVL/BadMoon");
 
 class BadMoon extends BadMoonBase {
   constructor (game) {

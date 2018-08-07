@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeafdrakeRoostBase = require("../setC13/LeafdrakeRoost");
+const LeafdrakeRoostBase = require("../setCMA/LeafdrakeRoost");
 
 class LeafdrakeRoost extends LeafdrakeRoostBase {
   constructor (game) {

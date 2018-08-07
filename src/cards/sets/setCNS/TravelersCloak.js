@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TravelersCloakBase = require("../setINV/TravelersCloak");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TravelersCloak extends TravelersCloakBase {
+class TravelersCloak extends UnimplementedCard {
   constructor (game) {
-    super(game, "Traveler's Cloak", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Traveler's Cloak", "Conspiracy", "CNS");
   }
 }
 

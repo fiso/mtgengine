@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OvinomancerBase = require("../setMGB/Ovinomancer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Ovinomancer extends OvinomancerBase {
+class Ovinomancer extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ovinomancer", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Ovinomancer", "Time Spiral Timeshifted", "TSB");
   }
 }
 

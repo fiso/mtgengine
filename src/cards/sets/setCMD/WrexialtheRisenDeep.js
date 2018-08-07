@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WrexialtheRisenDeepBase = require("../setCM2/WrexialtheRisenDeep");
 
-class WrexialtheRisenDeep extends UnimplementedCard {
+class WrexialtheRisenDeep extends WrexialtheRisenDeepBase {
   constructor (game) {
-    super(game, "Wrexial, the Risen Deep", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Wrexial, the Risen Deep", "Commander 2011", "CMD");
   }
 }
 

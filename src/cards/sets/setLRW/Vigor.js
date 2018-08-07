@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VigorBase = require("../setDPA/Vigor");
+const VigorBase = require("../setBBD/Vigor");
 
 class Vigor extends VigorBase {
   constructor (game) {

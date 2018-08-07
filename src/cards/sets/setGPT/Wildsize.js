@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WildsizeBase = require("../setDD3_EVG/Wildsize");
+const WildsizeBase = require("../setIMA/Wildsize");
 
 class Wildsize extends WildsizeBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishArchdruidBase = require("../setC14/ElvishArchdruid");
+const ElvishArchdruidBase = require("../setDDU/ElvishArchdruid");
 
 class ElvishArchdruid extends ElvishArchdruidBase {
   constructor (game) {

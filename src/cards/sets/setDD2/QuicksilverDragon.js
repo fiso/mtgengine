@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuicksilverDragonBase = require("../setDD3_JVC/QuicksilverDragon");
+const QuicksilverDragonBase = require("../setJVC/QuicksilverDragon");
 
 class QuicksilverDragon extends QuicksilverDragonBase {
   constructor (game) {

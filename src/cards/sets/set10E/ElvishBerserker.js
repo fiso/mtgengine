@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishBerserkerBase = require("../setEXO/ElvishBerserker");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ElvishBerserker extends ElvishBerserkerBase {
+class ElvishBerserker extends UnimplementedCard {
   constructor (game) {
     super(game, "Elvish Berserker", "Tenth Edition", "10E");
   }

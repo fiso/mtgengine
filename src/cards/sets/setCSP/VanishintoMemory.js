@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VanishintoMemoryBase = require("../setMM3/VanishintoMemory");
 
-class VanishintoMemory extends UnimplementedCard {
+class VanishintoMemory extends VanishintoMemoryBase {
   constructor (game) {
     super(game, "Vanish into Memory", "Coldsnap", "CSP");
   }

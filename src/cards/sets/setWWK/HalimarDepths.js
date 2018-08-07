@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HalimarDepthsBase = require("../setDDM/HalimarDepths");
+const HalimarDepthsBase = require("../setC18/HalimarDepths");
 
 class HalimarDepths extends HalimarDepthsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AmbushCommanderBase = require("../setDD3_EVG/AmbushCommander");
+const AmbushCommanderBase = require("../setEVG/AmbushCommander");
 
 class AmbushCommander extends AmbushCommanderBase {
   constructor (game) {

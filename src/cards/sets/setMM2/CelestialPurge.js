@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CelestialPurgeBase = require("../setCON/CelestialPurge");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CelestialPurge extends CelestialPurgeBase {
+class CelestialPurge extends UnimplementedCard {
   constructor (game) {
-    super(game, "Celestial Purge", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Celestial Purge", "Modern Masters 2015", "MM2");
   }
 }
 

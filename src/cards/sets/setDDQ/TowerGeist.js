@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TowerGeistBase = require("../setDKA/TowerGeist");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TowerGeist extends TowerGeistBase {
+class TowerGeist extends UnimplementedCard {
   constructor (game) {
     super(game, "Tower Geist", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

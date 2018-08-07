@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GildedLotusBase = require("../setDOM/GildedLotus");
 
-class GildedLotus extends UnimplementedCard {
+class GildedLotus extends GildedLotusBase {
   constructor (game) {
     super(game, "Gilded Lotus", "From the Vault: Twenty", "V13");
   }

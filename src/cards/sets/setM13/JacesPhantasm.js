@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JacesPhantasmBase = require("../setDDM/JacesPhantasm");
+const JacesPhantasmBase = require("../setIMA/JacesPhantasm");
 
 class JacesPhantasm extends JacesPhantasmBase {
   constructor (game) {

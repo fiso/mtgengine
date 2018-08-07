@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HideousEndBase = require("../setDD3_GVL/HideousEnd");
+const HideousEndBase = require("../setDDR/HideousEnd");
 
 class HideousEnd extends HideousEndBase {
   constructor (game) {

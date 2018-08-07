@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CabalTherapyBase = require("../setpFNM/CabalTherapy");
+const CabalTherapyBase = require("../setEMA/CabalTherapy");
 
 class CabalTherapy extends CabalTherapyBase {
   constructor (game) {

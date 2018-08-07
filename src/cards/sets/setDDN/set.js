@@ -23,7 +23,6 @@ module.exports = {
   FrenziedGoblin: require("./FrenziedGoblin"),
   FuryoftheHorde: require("./FuryoftheHorde"),
   GhituEncampment: require("./GhituEncampment"),
-  Goblin: require("./Goblin"),
   GoblinBombardment: require("./GoblinBombardment"),
   GoblinDeathraiders: require("./GoblinDeathraiders"),
   GoblinWarchief: require("./GoblinWarchief"),

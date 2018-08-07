@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JaddiOffshootBase = require("../setIMA/JaddiOffshoot");
 
-class JaddiOffshoot extends UnimplementedCard {
+class JaddiOffshoot extends JaddiOffshootBase {
   constructor (game) {
     super(game, "Jaddi Offshoot", "Battle for Zendikar", "BFZ");
   }

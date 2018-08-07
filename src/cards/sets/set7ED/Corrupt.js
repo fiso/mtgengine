@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CorruptBase = require("../setDD3_DVD/Corrupt");
+const CorruptBase = require("../setDVD/Corrupt");
 
 class Corrupt extends CorruptBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BorosCluestoneBase = require("../setC15/BorosCluestone");
+const BorosCluestoneBase = require("../setCM2/BorosCluestone");
 
 class BorosCluestone extends BorosCluestoneBase {
   constructor (game) {

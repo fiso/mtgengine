@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CircularLogicBase = require("../setpFNM/CircularLogic");
+const CircularLogicBase = require("../setVMA/CircularLogic");
 
 class CircularLogic extends CircularLogicBase {
   constructor (game) {

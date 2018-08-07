@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FogBankBase = require("../setC13/FogBank");
+const FogBankBase = require("../setBBD/FogBank");
 
 class FogBank extends FogBankBase {
   constructor (game) {

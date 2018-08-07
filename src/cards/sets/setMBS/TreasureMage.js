@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TreasureMageBase = require("../setpMGD/TreasureMage");
+const TreasureMageBase = require("../setDDU/TreasureMage");
 
 class TreasureMage extends TreasureMageBase {
   constructor (game) {

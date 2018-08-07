@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LiquimetalCoatingBase = require("../setC14/LiquimetalCoating");
+const LiquimetalCoatingBase = require("../setCM2/LiquimetalCoating");
 
 class LiquimetalCoating extends LiquimetalCoatingBase {
   constructor (game) {

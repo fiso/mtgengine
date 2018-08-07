@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SwordofFeastandFamineBase = require("../setpJGP/SwordofFeastandFamine");
+const SwordofFeastandFamineBase = require("../setMPS/SwordofFeastandFamine");
 
 class SwordofFeastandFamine extends SwordofFeastandFamineBase {
   constructor (game) {

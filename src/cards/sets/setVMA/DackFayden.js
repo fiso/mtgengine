@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DackFaydenBase = require("../setCNS/DackFayden");
+const DackFaydenBase = require("../setEMA/DackFayden");
 
 class DackFayden extends DackFaydenBase {
   constructor (game) {

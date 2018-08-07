@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UndyingRageBase = require("../setDDL/UndyingRage");
+const UndyingRageBase = require("../setEMA/UndyingRage");
 
 class UndyingRage extends UndyingRageBase {
   constructor (game) {

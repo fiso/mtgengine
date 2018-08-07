@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PhantasmalImageBase = require("../setMM3/PhantasmalImage");
 
-class PhantasmalImage extends UnimplementedCard {
+class PhantasmalImage extends PhantasmalImageBase {
   constructor (game) {
     super(game, "Phantasmal Image", "Magic 2012", "M12");
   }

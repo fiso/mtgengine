@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LodestoneGolemBase = require("../setARC/LodestoneGolem");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LodestoneGolem extends LodestoneGolemBase {
+class LodestoneGolem extends UnimplementedCard {
   constructor (game) {
-    super(game, "Lodestone Golem", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Lodestone Golem", "Modern Masters 2015", "MM2");
   }
 }
 

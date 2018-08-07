@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ForbiddenAlchemyBase = require("../setMM3/ForbiddenAlchemy");
 
-class ForbiddenAlchemy extends UnimplementedCard {
+class ForbiddenAlchemy extends ForbiddenAlchemyBase {
   constructor (game) {
     super(game, "Forbidden Alchemy", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

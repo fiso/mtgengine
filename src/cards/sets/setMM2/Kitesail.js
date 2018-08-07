@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KitesailBase = require("../setM13/Kitesail");
+const KitesailBase = require("../setCN2/Kitesail");
 
 class Kitesail extends KitesailBase {
   constructor (game) {
-    super(game, "Kitesail", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Kitesail", "Modern Masters 2015", "MM2");
   }
 }
 

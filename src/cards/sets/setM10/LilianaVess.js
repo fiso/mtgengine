@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LilianaVessBase = require("../setDD3_GVL/LilianaVess");
+const LilianaVessBase = require("../setGVL/LilianaVess");
 
 class LilianaVess extends LilianaVessBase {
   constructor (game) {

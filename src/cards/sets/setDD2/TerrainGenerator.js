@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TerrainGeneratorBase = require("../setDD3_JVC/TerrainGenerator");
+const TerrainGeneratorBase = require("../setJVC/TerrainGenerator");
 
 class TerrainGenerator extends TerrainGeneratorBase {
   constructor (game) {

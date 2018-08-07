@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThunderWallBase = require("../setICE/ThunderWall");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ThunderWall extends ThunderWallBase {
+class ThunderWall extends UnimplementedCard {
   constructor (game) {
     super(game, "Thunder Wall", "Masters Edition II", "ME2");
   }

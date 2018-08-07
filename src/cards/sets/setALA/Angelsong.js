@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelsongBase = require("../setDD3_DVD/Angelsong");
+const AngelsongBase = require("../setDVD/Angelsong");
 
 class Angelsong extends AngelsongBase {
   constructor (game) {

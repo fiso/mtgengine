@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MutavaultBase = require("../setpCMP/Mutavault");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Mutavault extends MutavaultBase {
+class Mutavault extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mutavault", "Magic 2014 Core Set", "M14");
+    super(game, "Mutavault", "Magic 2014", "M14");
   }
 }
 

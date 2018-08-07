@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JacetheMindSculptorBase = require("../setV13/JacetheMindSculptor");
+const JacetheMindSculptorBase = require("../setA25/JacetheMindSculptor");
 
 class JacetheMindSculptor extends JacetheMindSculptorBase {
   constructor (game) {

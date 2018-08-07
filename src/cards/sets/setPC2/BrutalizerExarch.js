@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrutalizerExarchBase = require("../setNPH/BrutalizerExarch");
+const BrutalizerExarchBase = require("../setPCA/BrutalizerExarch");
 
 class BrutalizerExarch extends BrutalizerExarchBase {
   constructor (game) {
-    super(game, "Brutalizer Exarch", "Planechase 2012 Edition", "PC2");
+    super(game, "Brutalizer Exarch", "Planechase 2012", "PC2");
   }
 }
 

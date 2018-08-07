@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MagmaticForceBase = require("../setBBD/MagmaticForce");
 
-class MagmaticForce extends UnimplementedCard {
+class MagmaticForce extends MagmaticForceBase {
   constructor (game) {
-    super(game, "Magmatic Force", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Magmatic Force", "Commander 2011", "CMD");
   }
 }
 

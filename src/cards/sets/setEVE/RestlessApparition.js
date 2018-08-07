@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RestlessApparitionBase = require("../setMM2/RestlessApparition");
 
-class RestlessApparition extends UnimplementedCard {
+class RestlessApparition extends RestlessApparitionBase {
   constructor (game) {
     super(game, "Restless Apparition", "Eventide", "EVE");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkirkShamanBase = require("../setDD3_EVG/SkirkShaman");
+const SkirkShamanBase = require("../setEVG/SkirkShaman");
 
 class SkirkShaman extends SkirkShamanBase {
   constructor (game) {

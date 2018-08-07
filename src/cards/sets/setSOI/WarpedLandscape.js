@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WarpedLandscapeBase = require("../setC18/WarpedLandscape");
 
-class WarpedLandscape extends UnimplementedCard {
+class WarpedLandscape extends WarpedLandscapeBase {
   constructor (game) {
     super(game, "Warped Landscape", "Shadows over Innistrad", "SOI");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InstillEnergyBase = require("../setCED/InstillEnergy");
+const InstillEnergyBase = require("../setME4/InstillEnergy");
 
 class InstillEnergy extends InstillEnergyBase {
   constructor (game) {
-    super(game, "Instill Energy", "International Collector's Edition", "CEI");
+    super(game, "Instill Energy", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

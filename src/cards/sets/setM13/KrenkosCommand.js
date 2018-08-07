@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KrenkosCommandBase = require("../setDDN/KrenkosCommand");
+const KrenkosCommandBase = require("../setDDT/KrenkosCommand");
 
 class KrenkosCommand extends KrenkosCommandBase {
   constructor (game) {

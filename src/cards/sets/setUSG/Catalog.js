@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CatalogBase = require("../set8ED/Catalog");
+const CatalogBase = require("../setSOI/Catalog");
 
 class Catalog extends CatalogBase {
   constructor (game) {

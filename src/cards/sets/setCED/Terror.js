@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TerrorBase = require("../setATH/Terror");
+const TerrorBase = require("../setME4/Terror");
 
 class Terror extends TerrorBase {
   constructor (game) {
-    super(game, "Terror", "Collector's Edition", "CED");
+    super(game, "Terror", "Collectors’ Edition", "CED");
   }
 }
 

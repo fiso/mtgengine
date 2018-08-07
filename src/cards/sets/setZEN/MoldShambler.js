@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoldShamblerBase = require("../setC13/MoldShambler");
+const MoldShamblerBase = require("../setDDM/MoldShambler");
 
 class MoldShambler extends MoldShamblerBase {
   constructor (game) {

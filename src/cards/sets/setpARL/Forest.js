@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForestBase = require("../setATH/Forest");
+const ForestBase = require("../setC18/Forest");
 
 class Forest extends ForestBase {
   constructor (game) {
-    super(game, "Forest", "Arena League", "pARL");
+    super(game, "Forest", "Arena League 1996", "PARL");
   }
 }
 

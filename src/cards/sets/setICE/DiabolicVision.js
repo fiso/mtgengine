@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DiabolicVisionBase = require("../setBTD/DiabolicVision");
+const DiabolicVisionBase = require("../setME2/DiabolicVision");
 
 class DiabolicVision extends DiabolicVisionBase {
   constructor (game) {

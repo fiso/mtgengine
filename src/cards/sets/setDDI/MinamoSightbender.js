@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MinamoSightbenderBase = require("../setBOK/MinamoSightbender");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MinamoSightbender extends MinamoSightbenderBase {
+class MinamoSightbender extends UnimplementedCard {
   constructor (game) {
     super(game, "Minamo Sightbender", "Duel Decks: Venser vs. Koth", "DDI");
   }

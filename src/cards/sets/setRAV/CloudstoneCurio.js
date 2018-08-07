@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CloudstoneCurioBase = require("../setMPS/CloudstoneCurio");
 
-class CloudstoneCurio extends UnimplementedCard {
+class CloudstoneCurio extends CloudstoneCurioBase {
   constructor (game) {
     super(game, "Cloudstone Curio", "Ravnica: City of Guilds", "RAV");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InfiniteReflectionBase = require("../setAVR/InfiniteReflection");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class InfiniteReflection extends InfiniteReflectionBase {
+class InfiniteReflection extends UnimplementedCard {
   constructor (game) {
     super(game, "Infinite Reflection", "Commander 2014", "C14");
   }

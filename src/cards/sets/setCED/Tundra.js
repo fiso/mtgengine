@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TundraBase = require("../setVMA/Tundra");
 
-class Tundra extends UnimplementedCard {
+class Tundra extends TundraBase {
   constructor (game) {
-    super(game, "Tundra", "Collector's Edition", "CED");
+    super(game, "Tundra", "Collectors’ Edition", "CED");
   }
 }
 

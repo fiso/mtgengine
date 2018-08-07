@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CommunewithNatureBase = require("../setCHK/CommunewithNature");
+const CommunewithNatureBase = require("../setMM2/CommunewithNature");
 
 class CommunewithNature extends CommunewithNatureBase {
   constructor (game) {

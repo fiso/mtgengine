@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HellkiteIgniterBase = require("../setC18/HellkiteIgniter");
 
-class HellkiteIgniter extends UnimplementedCard {
+class HellkiteIgniter extends HellkiteIgniterBase {
   constructor (game) {
     super(game, "Hellkite Igniter", "Mirrodin Besieged", "MBS");
   }

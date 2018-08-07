@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlaxcasterFroglingBase = require("../setDIS/PlaxcasterFrogling");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PlaxcasterFrogling extends PlaxcasterFroglingBase {
+class PlaxcasterFrogling extends UnimplementedCard {
   constructor (game) {
-    super(game, "Plaxcaster Frogling", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Plaxcaster Frogling", "Modern Masters 2015", "MM2");
   }
 }
 

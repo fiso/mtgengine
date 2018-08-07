@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AerieMysticsBase = require("../setC13/AerieMystics");
+const AerieMysticsBase = require("../setCMA/AerieMystics");
 
 class AerieMystics extends AerieMysticsBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnlistedWurmBase = require("../setARB/EnlistedWurm");
+const EnlistedWurmBase = require("../setPCA/EnlistedWurm");
 
 class EnlistedWurm extends EnlistedWurmBase {
   constructor (game) {
-    super(game, "Enlisted Wurm", "Planechase 2012 Edition", "PC2");
+    super(game, "Enlisted Wurm", "Planechase 2012", "PC2");
   }
 }
 

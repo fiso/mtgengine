@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShivsEmbraceBase = require("../setDDG/ShivsEmbrace");
+const ShivsEmbraceBase = require("../setM14/ShivsEmbrace");
 
 class ShivsEmbrace extends ShivsEmbraceBase {
   constructor (game) {

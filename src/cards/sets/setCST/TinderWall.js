@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TinderWallBase = require("../setME2/TinderWall");
 
-class TinderWall extends UnimplementedCard {
+class TinderWall extends TinderWallBase {
   constructor (game) {
     super(game, "Tinder Wall", "Coldsnap Theme Decks", "CST");
   }

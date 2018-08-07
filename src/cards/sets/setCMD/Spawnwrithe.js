@@ -4,7 +4,7 @@ const SpawnwritheBase = require("../setDDM/Spawnwrithe");
 
 class Spawnwrithe extends SpawnwritheBase {
   constructor (game) {
-    super(game, "Spawnwrithe", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Spawnwrithe", "Commander 2011", "CMD");
   }
 }
 

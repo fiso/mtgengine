@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IvoryMaskBase = require("../set8ED/IvoryMask");
+const IvoryMaskBase = require("../set9ED/IvoryMask");
 
 class IvoryMask extends IvoryMaskBase {
   constructor (game) {

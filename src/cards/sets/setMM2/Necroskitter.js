@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NecroskitterBase = require("../setEVE/Necroskitter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Necroskitter extends NecroskitterBase {
+class Necroskitter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Necroskitter", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Necroskitter", "Modern Masters 2015", "MM2");
   }
 }
 

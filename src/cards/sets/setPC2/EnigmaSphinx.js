@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnigmaSphinxBase = require("../setARB/EnigmaSphinx");
+const EnigmaSphinxBase = require("../setC18/EnigmaSphinx");
 
 class EnigmaSphinx extends EnigmaSphinxBase {
   constructor (game) {
-    super(game, "Enigma Sphinx", "Planechase 2012 Edition", "PC2");
+    super(game, "Enigma Sphinx", "Planechase 2012", "PC2");
   }
 }
 

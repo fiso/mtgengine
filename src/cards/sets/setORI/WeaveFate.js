@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WeaveFateBase = require("../setKTK/WeaveFate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WeaveFate extends WeaveFateBase {
+class WeaveFate extends UnimplementedCard {
   constructor (game) {
     super(game, "Weave Fate", "Magic Origins", "ORI");
   }

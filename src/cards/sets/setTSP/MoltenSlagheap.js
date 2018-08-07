@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoltenSlagheapBase = require("../setC13/MoltenSlagheap");
+const MoltenSlagheapBase = require("../setCMA/MoltenSlagheap");
 
 class MoltenSlagheap extends MoltenSlagheapBase {
   constructor (game) {

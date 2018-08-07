@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const UrgetoFeedBase = require("../setE02/UrgetoFeed");
 
-class UrgetoFeed extends UnimplementedCard {
+class UrgetoFeed extends UrgetoFeedBase {
   constructor (game) {
     super(game, "Urge to Feed", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }

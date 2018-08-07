@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkirkDrillSergeantBase = require("../setDD3_EVG/SkirkDrillSergeant");
+const SkirkDrillSergeantBase = require("../setEVG/SkirkDrillSergeant");
 
 class SkirkDrillSergeant extends SkirkDrillSergeantBase {
   constructor (game) {

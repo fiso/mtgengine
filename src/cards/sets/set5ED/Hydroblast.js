@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HydroblastBase = require("../setEMA/Hydroblast");
 
-class Hydroblast extends UnimplementedCard {
+class Hydroblast extends HydroblastBase {
   constructor (game) {
     super(game, "Hydroblast", "Fifth Edition", "5ED");
   }

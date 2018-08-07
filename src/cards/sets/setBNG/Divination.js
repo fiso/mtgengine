@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const DivinationBase = require("../setMTGA/Divination");
 
-class Divination extends UnimplementedCard {
+class Divination extends DivinationBase {
   constructor (game) {
     super(game, "Divination", "Born of the Gods", "BNG");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VeteranBodyguardBase = require("../setCED/VeteranBodyguard");
+const VeteranBodyguardBase = require("../setME4/VeteranBodyguard");
 
 class VeteranBodyguard extends VeteranBodyguardBase {
   constructor (game) {
-    super(game, "Veteran Bodyguard", "International Collector's Edition", "CEI");
+    super(game, "Veteran Bodyguard", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShrinkBase = require("../set5ED/Shrink");
+const ShrinkBase = require("../setME2/Shrink");
 
 class Shrink extends ShrinkBase {
   constructor (game) {

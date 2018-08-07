@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarksteelForgeBase = require("../setDST/DarksteelForge");
+const DarksteelForgeBase = require("../setM14/DarksteelForge");
 
 class DarksteelForge extends DarksteelForgeBase {
   constructor (game) {

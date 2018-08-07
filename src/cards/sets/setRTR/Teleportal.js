@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TeleportalBase = require("../setMM3/Teleportal");
 
-class Teleportal extends UnimplementedCard {
+class Teleportal extends TeleportalBase {
   constructor (game) {
     super(game, "Teleportal", "Return to Ravnica", "RTR");
   }

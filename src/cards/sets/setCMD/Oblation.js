@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OblationBase = require("../setC14/Oblation");
+const OblationBase = require("../setC16/Oblation");
 
 class Oblation extends OblationBase {
   constructor (game) {
-    super(game, "Oblation", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Oblation", "Commander 2011", "CMD");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LorescaleCoatlBase = require("../setARB/LorescaleCoatl");
+const LorescaleCoatlBase = require("../setA25/LorescaleCoatl");
 
 class LorescaleCoatl extends LorescaleCoatlBase {
   constructor (game) {

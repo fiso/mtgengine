@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EmeriaAngelBase = require("../setpWPN/EmeriaAngel");
+const EmeriaAngelBase = require("../setIMA/EmeriaAngel");
 
 class EmeriaAngel extends EmeriaAngelBase {
   constructor (game) {

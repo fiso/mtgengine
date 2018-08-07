@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BroodSliverBase = require("../setLGN/BroodSliver");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BroodSliver extends BroodSliverBase {
+class BroodSliver extends UnimplementedCard {
   constructor (game) {
     super(game, "Brood Sliver", "Premium Deck Series: Slivers", "H09");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RelicofProgenitusBase = require("../setMD1/RelicofProgenitus");
+const RelicofProgenitusBase = require("../setEMA/RelicofProgenitus");
 
 class RelicofProgenitus extends RelicofProgenitusBase {
   constructor (game) {

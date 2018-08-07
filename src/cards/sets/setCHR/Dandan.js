@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DandanBase = require("../setARN/Dandan");
+const DandanBase = require("../setTSB/Dandan");
 
 class Dandan extends DandanBase {
   constructor (game) {

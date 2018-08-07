@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MotherofRunesBase = require("../setCMA/MotherofRunes");
 
-class MotherofRunes extends UnimplementedCard {
+class MotherofRunes extends MotherofRunesBase {
   constructor (game) {
     super(game, "Mother of Runes", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

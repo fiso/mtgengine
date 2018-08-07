@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MotherofRunesBase = require("../setDDO/MotherofRunes");
+const MotherofRunesBase = require("../setCMA/MotherofRunes");
 
 class MotherofRunes extends MotherofRunesBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CarbonizeBase = require("../setEMA/Carbonize");
 
-class Carbonize extends UnimplementedCard {
+class Carbonize extends CarbonizeBase {
   constructor (game) {
     super(game, "Carbonize", "Scourge", "SCG");
   }

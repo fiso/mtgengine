@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StripMineBase = require("../setATH/StripMine");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StripMine extends StripMineBase {
+class StripMine extends UnimplementedCard {
   constructor (game) {
-    super(game, "Strip Mine", "Zendikar Expedition", "EXP");
+    super(game, "Strip Mine", "Zendikar Expeditions", "EXP");
   }
 }
 

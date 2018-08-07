@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ManaBreachBase = require("../setEXO/ManaBreach");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ManaBreach extends ManaBreachBase {
+class ManaBreach extends UnimplementedCard {
   constructor (game) {
     super(game, "Mana Breach", "Seventh Edition", "7ED");
   }

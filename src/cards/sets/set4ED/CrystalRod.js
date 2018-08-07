@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CrystalRodBase = require("../set6ED/CrystalRod");
+const CrystalRodBase = require("../set8ED/CrystalRod");
 
 class CrystalRod extends CrystalRodBase {
   constructor (game) {

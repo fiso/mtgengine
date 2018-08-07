@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AuguryOwlBase = require("../setDDI/AuguryOwl");
+const AuguryOwlBase = require("../setPCA/AuguryOwl");
 
 class AuguryOwl extends AuguryOwlBase {
   constructor (game) {

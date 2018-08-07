@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SavageTwisterBase = require("../setARC/SavageTwister");
+const SavageTwisterBase = require("../setC18/SavageTwister");
 
 class SavageTwister extends SavageTwisterBase {
   constructor (game) {

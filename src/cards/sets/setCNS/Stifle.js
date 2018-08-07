@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StifleBase = require("../setpJGP/Stifle");
+const StifleBase = require("../setMP2/Stifle");
 
 class Stifle extends StifleBase {
   constructor (game) {
-    super(game, "Stifle", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Stifle", "Conspiracy", "CNS");
   }
 }
 

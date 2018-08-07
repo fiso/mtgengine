@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlatinumAngelBase = require("../setV15/PlatinumAngel");
+const PlatinumAngelBase = require("../setMPS/PlatinumAngel");
 
 class PlatinumAngel extends PlatinumAngelBase {
   constructor (game) {

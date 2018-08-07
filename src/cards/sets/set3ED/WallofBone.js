@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WallofBoneBase = require("../setCED/WallofBone");
+const WallofBoneBase = require("../setGVL/WallofBone");
 
 class WallofBone extends WallofBoneBase {
   constructor (game) {

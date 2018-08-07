@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ReliefCaptainBase = require("../setE01/ReliefCaptain");
 
-class ReliefCaptain extends UnimplementedCard {
+class ReliefCaptain extends ReliefCaptainBase {
   constructor (game) {
     super(game, "Relief Captain", "Oath of the Gatewatch", "OGW");
   }

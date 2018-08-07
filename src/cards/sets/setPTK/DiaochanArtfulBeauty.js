@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DiaochanArtfulBeautyBase = require("../setCM1/DiaochanArtfulBeauty");
+const DiaochanArtfulBeautyBase = require("../setPZ1/DiaochanArtfulBeauty");
 
 class DiaochanArtfulBeauty extends DiaochanArtfulBeautyBase {
   constructor (game) {

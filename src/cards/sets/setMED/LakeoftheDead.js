@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LakeoftheDeadBase = require("../setALL/LakeoftheDead");
+const LakeoftheDeadBase = require("../setVMA/LakeoftheDead");
 
 class LakeoftheDead extends LakeoftheDeadBase {
   constructor (game) {

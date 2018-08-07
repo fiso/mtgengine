@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PeerThroughDepthsBase = require("../setCHK/PeerThroughDepths");
+const PeerThroughDepthsBase = require("../setDDS/PeerThroughDepths");
 
 class PeerThroughDepths extends PeerThroughDepthsBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThunderstaffBase = require("../setARC/Thunderstaff");
+const ThunderstaffBase = require("../setCMA/Thunderstaff");
 
 class Thunderstaff extends ThunderstaffBase {
   constructor (game) {

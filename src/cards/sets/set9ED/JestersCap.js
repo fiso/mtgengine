@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JestersCapBase = require("../set5ED/JestersCap");
+const JestersCapBase = require("../setV10/JestersCap");
 
 class JestersCap extends JestersCapBase {
   constructor (game) {

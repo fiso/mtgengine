@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TopplegeistBase = require("../setSOI/Topplegeist");
 
-class Topplegeist extends UnimplementedCard {
+class Topplegeist extends TopplegeistBase {
   constructor (game) {
     super(game, "Topplegeist", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class AzoriusHerald extends UnimplementedCard {
   constructor (game) {
-    super(game, "Azorius Herald", "Commander 2013 Edition", "C13");
+    super(game, "Azorius Herald", "Commander 2013", "C13");
   }
 }
 

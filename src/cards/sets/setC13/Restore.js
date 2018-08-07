@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RestoreBase = require("../setCMA/Restore");
 
-class Restore extends UnimplementedCard {
+class Restore extends RestoreBase {
   constructor (game) {
-    super(game, "Restore", "Commander 2013 Edition", "C13");
+    super(game, "Restore", "Commander 2013", "C13");
   }
 }
 

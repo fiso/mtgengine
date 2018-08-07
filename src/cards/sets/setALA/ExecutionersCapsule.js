@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExecutionersCapsuleBase = require("../setMMA/ExecutionersCapsule");
+const ExecutionersCapsuleBase = require("../setC16/ExecutionersCapsule");
 
 class ExecutionersCapsule extends ExecutionersCapsuleBase {
   constructor (game) {

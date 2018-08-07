@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HearthfireHobgoblinBase = require("../setMM2/HearthfireHobgoblin");
 
-class HearthfireHobgoblin extends UnimplementedCard {
+class HearthfireHobgoblin extends HearthfireHobgoblinBase {
   constructor (game) {
     super(game, "Hearthfire Hobgoblin", "Eventide", "EVE");
   }

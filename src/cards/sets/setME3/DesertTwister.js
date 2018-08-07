@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DesertTwisterBase = require("../setARN/DesertTwister");
+const DesertTwisterBase = require("../setCMA/DesertTwister");
 
 class DesertTwister extends DesertTwisterBase {
   constructor (game) {

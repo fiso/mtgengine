@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EbonStrongholdBase = require("../setBTD/EbonStronghold");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class EbonStronghold extends EbonStrongholdBase {
+class EbonStronghold extends UnimplementedCard {
   constructor (game) {
     super(game, "Ebon Stronghold", "Premium Deck Series: Graveborn", "PD3");
   }

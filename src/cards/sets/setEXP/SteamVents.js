@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SteamVentsBase = require("../setGPT/SteamVents");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SteamVents extends SteamVentsBase {
+class SteamVents extends UnimplementedCard {
   constructor (game) {
-    super(game, "Steam Vents", "Zendikar Expedition", "EXP");
+    super(game, "Steam Vents", "Zendikar Expeditions", "EXP");
   }
 }
 

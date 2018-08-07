@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VisionSkeinsBase = require("../setC13/VisionSkeins");
+const VisionSkeinsBase = require("../setE01/VisionSkeins");
 
 class VisionSkeins extends VisionSkeinsBase {
   constructor (game) {

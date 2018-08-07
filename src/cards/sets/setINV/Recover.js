@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RecoverBase = require("../setRIX/Recover");
 
-class Recover extends UnimplementedCard {
+class Recover extends RecoverBase {
   constructor (game) {
     super(game, "Recover", "Invasion", "INV");
   }

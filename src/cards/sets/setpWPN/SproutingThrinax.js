@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SproutingThrinaxBase = require("../setC13/SproutingThrinax");
+const SproutingThrinaxBase = require("../setMM3/SproutingThrinax");
 
 class SproutingThrinax extends SproutingThrinaxBase {
   constructor (game) {
-    super(game, "Sprouting Thrinax", "WPN and Gateway", "pWPN");
+    super(game, "Sprouting Thrinax", "Wizards Play Network 2008", "PWPN");
   }
 }
 

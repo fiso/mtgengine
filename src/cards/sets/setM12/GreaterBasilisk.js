@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GreaterBasiliskBase = require("../setM11/GreaterBasilisk");
+const GreaterBasiliskBase = require("../setIMA/GreaterBasilisk");
 
 class GreaterBasilisk extends GreaterBasiliskBase {
   constructor (game) {

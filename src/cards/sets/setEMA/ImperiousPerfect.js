@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ImperiousPerfectBase = require("../setpCMP/ImperiousPerfect");
+const ImperiousPerfectBase = require("../setCMA/ImperiousPerfect");
 
 class ImperiousPerfect extends ImperiousPerfectBase {
   constructor (game) {

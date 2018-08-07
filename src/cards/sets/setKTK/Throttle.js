@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ThrottleBase = require("../setSOI/Throttle");
 
-class Throttle extends UnimplementedCard {
+class Throttle extends ThrottleBase {
   constructor (game) {
     super(game, "Throttle", "Khans of Tarkir", "KTK");
   }

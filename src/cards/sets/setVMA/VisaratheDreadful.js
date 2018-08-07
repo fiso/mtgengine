@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VisaratheDreadfulBase = require("../setV11/VisaratheDreadful");
+const VisaratheDreadfulBase = require("../setEMA/VisaratheDreadful");
 
 class VisaratheDreadful extends VisaratheDreadfulBase {
   constructor (game) {

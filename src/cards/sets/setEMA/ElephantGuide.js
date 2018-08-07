@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElephantGuideBase = require("../setDD3_GVL/ElephantGuide");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ElephantGuide extends ElephantGuideBase {
+class ElephantGuide extends UnimplementedCard {
   constructor (game) {
     super(game, "Elephant Guide", "Eternal Masters", "EMA");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SerpentGeneratorBase = require("../setCHR/SerpentGenerator");
+const SerpentGeneratorBase = require("../setMED/SerpentGenerator");
 
 class SerpentGenerator extends SerpentGeneratorBase {
   constructor (game) {

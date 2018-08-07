@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LeafGilderBase = require("../setDDU/LeafGilder");
 
-class LeafGilder extends UnimplementedCard {
+class LeafGilder extends LeafGilderBase {
   constructor (game) {
     super(game, "Leaf Gilder", "Archenemy", "ARC");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AladdinsLampBase = require("../setARN/AladdinsLamp");
+const AladdinsLampBase = require("../set4ED/AladdinsLamp");
 
 class AladdinsLamp extends AladdinsLampBase {
   constructor (game) {

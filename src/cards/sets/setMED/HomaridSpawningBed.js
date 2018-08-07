@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HomaridSpawningBedBase = require("../setFEM/HomaridSpawningBed");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class HomaridSpawningBed extends HomaridSpawningBedBase {
+class HomaridSpawningBed extends UnimplementedCard {
   constructor (game) {
     super(game, "Homarid Spawning Bed", "Masters Edition", "MED");
   }

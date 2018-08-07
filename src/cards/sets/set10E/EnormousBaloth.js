@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EnormousBalothBase = require("../set8ED/EnormousBaloth");
+const EnormousBalothBase = require("../setM10/EnormousBaloth");
 
 class EnormousBaloth extends EnormousBalothBase {
   constructor (game) {

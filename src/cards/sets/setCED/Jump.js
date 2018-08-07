@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const JumpBase = require("../setM10/Jump");
 
-class Jump extends UnimplementedCard {
+class Jump extends JumpBase {
   constructor (game) {
-    super(game, "Jump", "Collector's Edition", "CED");
+    super(game, "Jump", "Collectors’ Edition", "CED");
   }
 }
 

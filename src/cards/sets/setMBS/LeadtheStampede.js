@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeadtheStampedeBase = require("../setDDH/LeadtheStampede");
+const LeadtheStampedeBase = require("../setDDU/LeadtheStampede");
 
 class LeadtheStampede extends LeadtheStampedeBase {
   constructor (game) {

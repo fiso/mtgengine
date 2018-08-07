@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class Phytotitan extends UnimplementedCard {
   constructor (game) {
-    super(game, "Phytotitan", "Magic 2015 Core Set", "M15");
+    super(game, "Phytotitan", "Magic 2015", "M15");
   }
 }
 

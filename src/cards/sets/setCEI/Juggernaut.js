@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JuggernautBase = require("../setARC/Juggernaut");
+const JuggernautBase = require("../setBBD/Juggernaut");
 
 class Juggernaut extends JuggernautBase {
   constructor (game) {
-    super(game, "Juggernaut", "International Collector's Edition", "CEI");
+    super(game, "Juggernaut", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

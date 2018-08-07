@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OnuletBase = require("../setATQ/Onulet");
+const OnuletBase = require("../setME4/Onulet");
 
 class Onulet extends OnuletBase {
   constructor (game) {

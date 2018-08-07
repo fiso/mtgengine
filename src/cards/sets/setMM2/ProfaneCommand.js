@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProfaneCommandBase = require("../setC14/ProfaneCommand");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ProfaneCommand extends ProfaneCommandBase {
+class ProfaneCommand extends UnimplementedCard {
   constructor (game) {
-    super(game, "Profane Command", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Profane Command", "Modern Masters 2015", "MM2");
   }
 }
 

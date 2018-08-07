@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JaceMemoryAdeptBase = require("../setM12/JaceMemoryAdept");
+const JaceMemoryAdeptBase = require("../setM14/JaceMemoryAdept");
 
 class JaceMemoryAdept extends JaceMemoryAdeptBase {
   constructor (game) {

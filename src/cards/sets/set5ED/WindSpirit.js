@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WindSpiritBase = require("../set6ED/WindSpirit");
+const WindSpiritBase = require("../setME2/WindSpirit");
 
 class WindSpirit extends WindSpiritBase {
   constructor (game) {

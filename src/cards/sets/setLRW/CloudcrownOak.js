@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const CloudcrownOakBase = require("../setDDS/CloudcrownOak");
 
-class CloudcrownOak extends UnimplementedCard {
+class CloudcrownOak extends CloudcrownOakBase {
   constructor (game) {
     super(game, "Cloudcrown Oak", "Lorwyn", "LRW");
   }

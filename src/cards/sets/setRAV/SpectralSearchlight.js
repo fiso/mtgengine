@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpectralSearchlightBase = require("../setCNS/SpectralSearchlight");
+const SpectralSearchlightBase = require("../setBBD/SpectralSearchlight");
 
 class SpectralSearchlight extends SpectralSearchlightBase {
   constructor (game) {

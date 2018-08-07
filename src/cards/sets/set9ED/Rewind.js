@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RewindBase = require("../setpARL/Rewind");
+const RewindBase = require("../setMM3/Rewind");
 
 class Rewind extends RewindBase {
   constructor (game) {

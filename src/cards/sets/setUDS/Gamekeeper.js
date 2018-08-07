@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GamekeeperBase = require("../setCNS/Gamekeeper");
+const GamekeeperBase = require("../setC16/Gamekeeper");
 
 class Gamekeeper extends GamekeeperBase {
   constructor (game) {

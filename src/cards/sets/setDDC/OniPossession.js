@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OniPossessionBase = require("../setCHK/OniPossession");
+const OniPossessionBase = require("../setDVD/OniPossession");
 
 class OniPossession extends OniPossessionBase {
   constructor (game) {

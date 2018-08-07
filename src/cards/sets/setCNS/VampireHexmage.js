@@ -4,7 +4,7 @@ const VampireHexmageBase = require("../setC14/VampireHexmage");
 
 class VampireHexmage extends VampireHexmageBase {
   constructor (game) {
-    super(game, "Vampire Hexmage", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Vampire Hexmage", "Conspiracy", "CNS");
   }
 }
 

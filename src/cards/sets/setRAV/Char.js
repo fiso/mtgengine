@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CharBase = require("../setp15A/Char");
+const CharBase = require("../setV13/Char");
 
 class Char extends CharBase {
   constructor (game) {

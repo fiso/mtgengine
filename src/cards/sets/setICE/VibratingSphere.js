@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VibratingSphereBase = require("../setME4/VibratingSphere");
 
-class VibratingSphere extends UnimplementedCard {
+class VibratingSphere extends VibratingSphereBase {
   constructor (game) {
     super(game, "Vibrating Sphere", "Ice Age", "ICE");
   }

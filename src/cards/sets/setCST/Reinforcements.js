@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReinforcementsBase = require("../setALL/Reinforcements");
+const ReinforcementsBase = require("../setME2/Reinforcements");
 
 class Reinforcements extends ReinforcementsBase {
   constructor (game) {

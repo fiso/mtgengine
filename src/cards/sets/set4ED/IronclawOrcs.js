@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IronclawOrcsBase = require("../setCED/IronclawOrcs");
+const IronclawOrcsBase = require("../setME2/IronclawOrcs");
 
 class IronclawOrcs extends IronclawOrcsBase {
   constructor (game) {

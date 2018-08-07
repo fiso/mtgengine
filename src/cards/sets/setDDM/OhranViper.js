@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OhranViperBase = require("../setCSP/OhranViper");
+const OhranViperBase = require("../setC15/OhranViper");
 
 class OhranViper extends OhranViperBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CleansingBeamBase = require("../setCMD/CleansingBeam");
+const CleansingBeamBase = require("../setCMA/CleansingBeam");
 
 class CleansingBeam extends CleansingBeamBase {
   constructor (game) {

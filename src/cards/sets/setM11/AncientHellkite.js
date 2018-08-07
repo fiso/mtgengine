@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AncientHellkiteBase = require("../setpLPA/AncientHellkite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AncientHellkite extends AncientHellkiteBase {
+class AncientHellkite extends UnimplementedCard {
   constructor (game) {
     super(game, "Ancient Hellkite", "Magic 2011", "M11");
   }

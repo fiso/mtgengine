@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LimDulsVaultBase = require("../setALL/LimDulsVault");
+const LimDulsVaultBase = require("../setC13/LimDulsVault");
 
 class LimDulsVault extends LimDulsVaultBase {
   constructor (game) {

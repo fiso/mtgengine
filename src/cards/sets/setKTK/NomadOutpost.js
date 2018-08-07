@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NomadOutpostBase = require("../setDDN/NomadOutpost");
+const NomadOutpostBase = require("../setC17/NomadOutpost");
 
 class NomadOutpost extends NomadOutpostBase {
   constructor (game) {

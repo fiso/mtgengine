@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EdricSpymasterofTrestBase = require("../setCM1/EdricSpymasterofTrest");
+const EdricSpymasterofTrestBase = require("../setC16/EdricSpymasterofTrest");
 
 class EdricSpymasterofTrest extends EdricSpymasterofTrestBase {
   constructor (game) {

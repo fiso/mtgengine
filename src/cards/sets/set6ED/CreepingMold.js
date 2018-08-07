@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CreepingMoldBase = require("../setpARL/CreepingMold");
+const CreepingMoldBase = require("../setKLD/CreepingMold");
 
 class CreepingMold extends CreepingMoldBase {
   constructor (game) {

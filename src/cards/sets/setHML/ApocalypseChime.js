@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ApocalypseChimeBase = require("../setPTC/ApocalypseChime");
 
-class ApocalypseChime extends UnimplementedCard {
+class ApocalypseChime extends ApocalypseChimeBase {
   constructor (game) {
     super(game, "Apocalypse Chime", "Homelands", "HML");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PortentBase = require("../setCST/Portent");
+const PortentBase = require("../setC18/Portent");
 
 class Portent extends PortentBase {
   constructor (game) {

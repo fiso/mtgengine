@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ProvokeBase = require("../setTPR/Provoke");
 
-class Provoke extends UnimplementedCard {
+class Provoke extends ProvokeBase {
   constructor (game) {
-    super(game, "Provoke", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Provoke", "Conspiracy", "CNS");
   }
 }
 

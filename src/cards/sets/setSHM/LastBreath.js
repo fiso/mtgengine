@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LastBreathBase = require("../setMMQ/LastBreath");
+const LastBreathBase = require("../setTHS/LastBreath");
 
 class LastBreath extends LastBreathBase {
   constructor (game) {

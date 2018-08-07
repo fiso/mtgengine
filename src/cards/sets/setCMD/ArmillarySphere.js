@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArmillarySphereBase = require("../setC13/ArmillarySphere");
+const ArmillarySphereBase = require("../setC17/ArmillarySphere");
 
 class ArmillarySphere extends ArmillarySphereBase {
   constructor (game) {
-    super(game, "Armillary Sphere", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Armillary Sphere", "Commander 2011", "CMD");
   }
 }
 

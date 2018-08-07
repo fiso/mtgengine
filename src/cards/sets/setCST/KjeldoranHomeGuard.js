@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KjeldoranHomeGuardBase = require("../setALL/KjeldoranHomeGuard");
+const KjeldoranHomeGuardBase = require("../setME2/KjeldoranHomeGuard");
 
 class KjeldoranHomeGuard extends KjeldoranHomeGuardBase {
   constructor (game) {

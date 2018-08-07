@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WarPriestofThuneBase = require("../setM11/WarPriestofThune");
+const WarPriestofThuneBase = require("../setEMA/WarPriestofThune");
 
 class WarPriestofThune extends WarPriestofThuneBase {
   constructor (game) {

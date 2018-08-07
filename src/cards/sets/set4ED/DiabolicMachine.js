@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DiabolicMachineBase = require("../set5ED/DiabolicMachine");
+const DiabolicMachineBase = require("../setME4/DiabolicMachine");
 
 class DiabolicMachine extends DiabolicMachineBase {
   constructor (game) {

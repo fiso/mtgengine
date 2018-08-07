@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RemoteIsleBase = require("../setBRB/RemoteIsle");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RemoteIsle extends RemoteIsleBase {
+class RemoteIsle extends UnimplementedCard {
   constructor (game) {
     super(game, "Remote Isle", "Commander 2014", "C14");
   }

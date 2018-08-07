@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FeastoftheUnicornBase = require("../setATH/FeastoftheUnicorn");
+const FeastoftheUnicornBase = require("../set6ED/FeastoftheUnicorn");
 
 class FeastoftheUnicorn extends FeastoftheUnicornBase {
   constructor (game) {

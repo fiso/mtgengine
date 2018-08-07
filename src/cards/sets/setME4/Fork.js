@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForkBase = require("../setCED/Fork");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Fork extends ForkBase {
+class Fork extends UnimplementedCard {
   constructor (game) {
     super(game, "Fork", "Masters Edition IV", "ME4");
   }

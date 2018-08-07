@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SelvalaExplorerReturnedBase = require("../setC16/SelvalaExplorerReturned");
 
-class SelvalaExplorerReturned extends UnimplementedCard {
+class SelvalaExplorerReturned extends SelvalaExplorerReturnedBase {
   constructor (game) {
-    super(game, "Selvala, Explorer Returned", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Selvala, Explorer Returned", "Conspiracy", "CNS");
   }
 }
 

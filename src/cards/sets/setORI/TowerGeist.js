@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TowerGeistBase = require("../setDKA/TowerGeist");
+const TowerGeistBase = require("../setDDQ/TowerGeist");
 
 class TowerGeist extends TowerGeistBase {
   constructor (game) {

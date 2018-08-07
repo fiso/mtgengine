@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const OrzhovSignetBase = require("../setC15/OrzhovSignet");
+const OrzhovSignetBase = require("../setC18/OrzhovSignet");
 
 class OrzhovSignet extends OrzhovSignetBase {
   constructor (game) {

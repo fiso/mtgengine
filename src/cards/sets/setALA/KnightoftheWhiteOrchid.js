@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KnightoftheWhiteOrchidBase = require("../setDDG/KnightoftheWhiteOrchid");
+const KnightoftheWhiteOrchidBase = require("../setPORI/KnightoftheWhiteOrchid");
 
 class KnightoftheWhiteOrchid extends KnightoftheWhiteOrchidBase {
   constructor (game) {

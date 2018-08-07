@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnmakeBase = require("../setARC/Unmake");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Unmake extends UnmakeBase {
+class Unmake extends UnimplementedCard {
   constructor (game) {
     super(game, "Unmake", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }

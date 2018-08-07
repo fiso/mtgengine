@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GiantScorpionBase = require("../setM13/GiantScorpion");
+const GiantScorpionBase = require("../setDDR/GiantScorpion");
 
 class GiantScorpion extends GiantScorpionBase {
   constructor (game) {

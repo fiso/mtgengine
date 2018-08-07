@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CreakwoodLiegeBase = require("../setEVE/CreakwoodLiege");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CreakwoodLiege extends CreakwoodLiegeBase {
+class CreakwoodLiege extends UnimplementedCard {
   constructor (game) {
-    super(game, "Creakwood Liege", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Creakwood Liege", "Modern Masters 2015", "MM2");
   }
 }
 

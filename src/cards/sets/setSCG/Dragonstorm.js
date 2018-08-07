@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonstormBase = require("../setDRB/Dragonstorm");
+const DragonstormBase = require("../setMMA/Dragonstorm");
 
 class Dragonstorm extends DragonstormBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChromiumBase = require("../setCHR/Chromium");
+const ChromiumBase = require("../setME3/Chromium");
 
 class Chromium extends ChromiumBase {
   constructor (game) {

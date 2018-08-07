@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunkenRuinsBase = require("../setSHM/SunkenRuins");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SunkenRuins extends SunkenRuinsBase {
+class SunkenRuins extends UnimplementedCard {
   constructor (game) {
-    super(game, "Sunken Ruins", "Zendikar Expedition", "EXP");
+    super(game, "Sunken Ruins", "Zendikar Expeditions", "EXP");
   }
 }
 

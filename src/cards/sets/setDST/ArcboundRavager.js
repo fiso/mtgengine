@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ArcboundRavagerBase = require("../setMPS/ArcboundRavager");
 
-class ArcboundRavager extends UnimplementedCard {
+class ArcboundRavager extends ArcboundRavagerBase {
   constructor (game) {
     super(game, "Arcbound Ravager", "Darksteel", "DST");
   }

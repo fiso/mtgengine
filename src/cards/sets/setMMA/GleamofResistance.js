@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GleamofResistanceBase = require("../setCON/GleamofResistance");
+const GleamofResistanceBase = require("../setCN2/GleamofResistance");
 
 class GleamofResistance extends GleamofResistanceBase {
   constructor (game) {

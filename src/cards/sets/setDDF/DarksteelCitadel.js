@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarksteelCitadelBase = require("../setC14/DarksteelCitadel");
+const DarksteelCitadelBase = require("../setC18/DarksteelCitadel");
 
 class DarksteelCitadel extends DarksteelCitadelBase {
   constructor (game) {

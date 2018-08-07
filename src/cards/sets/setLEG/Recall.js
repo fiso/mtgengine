@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RecallBase = require("../setCHR/Recall");
+const RecallBase = require("../setME3/Recall");
 
 class Recall extends RecallBase {
   constructor (game) {

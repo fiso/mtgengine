@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForcefieldBase = require("../setCED/Forcefield");
+const ForcefieldBase = require("../setMED/Forcefield");
 
 class Forcefield extends ForcefieldBase {
   constructor (game) {
-    super(game, "Forcefield", "International Collector's Edition", "CEI");
+    super(game, "Forcefield", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

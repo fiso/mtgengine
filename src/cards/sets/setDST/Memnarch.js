@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MemnarchBase = require("../setARC/Memnarch");
+const MemnarchBase = require("../setV16/Memnarch");
 
 class Memnarch extends MemnarchBase {
   constructor (game) {

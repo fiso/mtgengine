@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TimetwisterBase = require("../setVMA/Timetwister");
 
-class Timetwister extends UnimplementedCard {
+class Timetwister extends TimetwisterBase {
   constructor (game) {
-    super(game, "Timetwister", "Collector's Edition", "CED");
+    super(game, "Timetwister", "Collectors’ Edition", "CED");
   }
 }
 

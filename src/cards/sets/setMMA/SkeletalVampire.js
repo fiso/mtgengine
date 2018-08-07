@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkeletalVampireBase = require("../setDD3_GVL/SkeletalVampire");
+const SkeletalVampireBase = require("../setC17/SkeletalVampire");
 
 class SkeletalVampire extends SkeletalVampireBase {
   constructor (game) {

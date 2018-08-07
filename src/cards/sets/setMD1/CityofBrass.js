@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CityofBrassBase = require("../setARN/CityofBrass");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class CityofBrass extends CityofBrassBase {
+class CityofBrass extends UnimplementedCard {
   constructor (game) {
     super(game, "City of Brass", "Modern Event Deck 2014", "MD1");
   }

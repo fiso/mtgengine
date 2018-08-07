@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VithianStingerBase = require("../setMM3/VithianStinger");
 
-class VithianStinger extends UnimplementedCard {
+class VithianStinger extends VithianStingerBase {
   constructor (game) {
     super(game, "Vithian Stinger", "Duel Decks: Sorin vs. Tibalt", "DDK");
   }

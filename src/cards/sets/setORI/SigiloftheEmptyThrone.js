@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SigiloftheEmptyThroneBase = require("../setC15/SigiloftheEmptyThrone");
+const SigiloftheEmptyThroneBase = require("../setC18/SigiloftheEmptyThrone");
 
 class SigiloftheEmptyThrone extends SigiloftheEmptyThroneBase {
   constructor (game) {

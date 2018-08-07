@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MoonlitStriderBase = require("../setMM2/MoonlitStrider");
 
-class MoonlitStrider extends UnimplementedCard {
+class MoonlitStrider extends MoonlitStriderBase {
   constructor (game) {
     super(game, "Moonlit Strider", "Betrayers of Kamigawa", "BOK");
   }

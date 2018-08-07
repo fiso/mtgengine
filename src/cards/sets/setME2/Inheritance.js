@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InheritanceBase = require("../setALL/Inheritance");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Inheritance extends InheritanceBase {
+class Inheritance extends UnimplementedCard {
   constructor (game) {
     super(game, "Inheritance", "Masters Edition II", "ME2");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieryConclusionBase = require("../setORI/FieryConclusion");
+const FieryConclusionBase = require("../setPCA/FieryConclusion");
 
 class FieryConclusion extends FieryConclusionBase {
   constructor (game) {
-    super(game, "Fiery Conclusion", "Planechase 2012 Edition", "PC2");
+    super(game, "Fiery Conclusion", "Planechase 2012", "PC2");
   }
 }
 

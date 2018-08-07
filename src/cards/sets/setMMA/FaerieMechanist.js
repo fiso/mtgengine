@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FaerieMechanistBase = require("../setCON/FaerieMechanist");
+const FaerieMechanistBase = require("../setDDU/FaerieMechanist");
 
 class FaerieMechanist extends FaerieMechanistBase {
   constructor (game) {

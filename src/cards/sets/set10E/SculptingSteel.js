@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SculptingSteelBase = require("../setMRD/SculptingSteel");
+const SculptingSteelBase = require("../setMPS/SculptingSteel");
 
 class SculptingSteel extends SculptingSteelBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhalanxLeaderBase = require("../setpMGD/PhalanxLeader");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PhalanxLeader extends PhalanxLeaderBase {
+class PhalanxLeader extends UnimplementedCard {
   constructor (game) {
     super(game, "Phalanx Leader", "Theros", "THS");
   }

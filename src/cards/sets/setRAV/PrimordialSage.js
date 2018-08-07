@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimordialSageBase = require("../setC14/PrimordialSage");
+const PrimordialSageBase = require("../setCMA/PrimordialSage");
 
 class PrimordialSage extends PrimordialSageBase {
   constructor (game) {

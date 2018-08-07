@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SwordofLightandShadowBase = require("../setDST/SwordofLightandShadow");
+const SwordofLightandShadowBase = require("../setMPS/SwordofLightandShadow");
 
 class SwordofLightandShadow extends SwordofLightandShadowBase {
   constructor (game) {

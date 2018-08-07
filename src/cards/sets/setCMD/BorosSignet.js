@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BorosSignetBase = require("../setC15/BorosSignet");
+const BorosSignetBase = require("../setCM2/BorosSignet");
 
 class BorosSignet extends BorosSignetBase {
   constructor (game) {
-    super(game, "Boros Signet", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Boros Signet", "Commander 2011", "CMD");
   }
 }
 

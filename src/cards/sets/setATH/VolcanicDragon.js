@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const VolcanicDragonBase = require("../setMTGA/VolcanicDragon");
 
-class VolcanicDragon extends UnimplementedCard {
+class VolcanicDragon extends VolcanicDragonBase {
   constructor (game) {
     super(game, "Volcanic Dragon", "Anthologies", "ATH");
   }

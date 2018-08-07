@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GarruksPackleaderBase = require("../setM11/GarruksPackleader");
+const GarruksPackleaderBase = require("../setM15/GarruksPackleader");
 
 class GarruksPackleader extends GarruksPackleaderBase {
   constructor (game) {

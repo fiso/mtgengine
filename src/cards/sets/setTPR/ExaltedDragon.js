@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExaltedDragonBase = require("../setEXO/ExaltedDragon");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ExaltedDragon extends ExaltedDragonBase {
+class ExaltedDragon extends UnimplementedCard {
   constructor (game) {
     super(game, "Exalted Dragon", "Tempest Remastered", "TPR");
   }

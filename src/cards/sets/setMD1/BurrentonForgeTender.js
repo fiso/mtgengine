@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BurrentonForgeTenderBase = require("../setLRW/BurrentonForgeTender");
+const BurrentonForgeTenderBase = require("../setIMA/BurrentonForgeTender");
 
 class BurrentonForgeTender extends BurrentonForgeTenderBase {
   constructor (game) {

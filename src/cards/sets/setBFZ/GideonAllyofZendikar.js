@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GideonAllyofZendikarBase = require("../setPS16/GideonAllyofZendikar");
 
-class GideonAllyofZendikar extends UnimplementedCard {
+class GideonAllyofZendikar extends GideonAllyofZendikarBase {
   constructor (game) {
     super(game, "Gideon, Ally of Zendikar", "Battle for Zendikar", "BFZ");
   }

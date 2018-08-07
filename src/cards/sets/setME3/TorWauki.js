@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TorWaukiBase = require("../setCHR/TorWauki");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class TorWauki extends TorWaukiBase {
+class TorWauki extends UnimplementedCard {
   constructor (game) {
     super(game, "Tor Wauki", "Masters Edition III", "ME3");
   }

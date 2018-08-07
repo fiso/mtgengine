@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SavageTwisterBase = require("../setARC/SavageTwister");
+const SavageTwisterBase = require("../setC18/SavageTwister");
 
 class SavageTwister extends SavageTwisterBase {
   constructor (game) {
-    super(game, "Savage Twister", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Savage Twister", "Commander 2011", "CMD");
   }
 }
 

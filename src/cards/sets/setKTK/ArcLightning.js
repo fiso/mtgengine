@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArcLightningBase = require("../setpARL/ArcLightning");
+const ArcLightningBase = require("../setUGIN/ArcLightning");
 
 class ArcLightning extends ArcLightningBase {
   constructor (game) {

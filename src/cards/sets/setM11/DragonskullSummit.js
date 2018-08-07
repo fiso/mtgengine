@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragonskullSummitBase = require("../setM10/DragonskullSummit");
+const DragonskullSummitBase = require("../setXLN/DragonskullSummit");
 
 class DragonskullSummit extends DragonskullSummitBase {
   constructor (game) {

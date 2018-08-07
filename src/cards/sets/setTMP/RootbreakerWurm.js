@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RootbreakerWurmBase = require("../set9ED/RootbreakerWurm");
+const RootbreakerWurmBase = require("../setTPR/RootbreakerWurm");
 
 class RootbreakerWurm extends RootbreakerWurmBase {
   constructor (game) {

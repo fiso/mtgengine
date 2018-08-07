@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AncientTombBase = require("../setV12/AncientTomb");
+const AncientTombBase = require("../setEXP/AncientTomb");
 
 class AncientTomb extends AncientTombBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KorSkyfisherBase = require("../setDDO/KorSkyfisher");
+const KorSkyfisherBase = require("../setMM3/KorSkyfisher");
 
 class KorSkyfisher extends KorSkyfisherBase {
   constructor (game) {

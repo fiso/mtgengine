@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SulfurousBlastBase = require("../setCMD/SulfurousBlast");
+const SulfurousBlastBase = require("../setCMA/SulfurousBlast");
 
 class SulfurousBlast extends SulfurousBlastBase {
   constructor (game) {

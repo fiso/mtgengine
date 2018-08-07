@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeaSerpentBase = require("../setCED/SeaSerpent");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SeaSerpent extends SeaSerpentBase {
+class SeaSerpent extends UnimplementedCard {
   constructor (game) {
     super(game, "Sea Serpent", "Masters Edition IV", "ME4");
   }

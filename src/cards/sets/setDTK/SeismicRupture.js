@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SeismicRuptureBase = require("../setMTGA/SeismicRupture");
 
-class SeismicRupture extends UnimplementedCard {
+class SeismicRupture extends SeismicRuptureBase {
   constructor (game) {
     super(game, "Seismic Rupture", "Dragons of Tarkir", "DTK");
   }

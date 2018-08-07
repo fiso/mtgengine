@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SunspearShikariBase = require("../setMM2/SunspearShikari");
+const SunspearShikariBase = require("../setC17/SunspearShikari");
 
 class SunspearShikari extends SunspearShikariBase {
   constructor (game) {

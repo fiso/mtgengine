@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuirionRangerBase = require("../setpFNM/QuirionRanger");
+const QuirionRangerBase = require("../setPRM/QuirionRanger");
 
 class QuirionRanger extends QuirionRangerBase {
   constructor (game) {

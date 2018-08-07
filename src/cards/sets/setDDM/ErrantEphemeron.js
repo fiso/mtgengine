@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ErrantEphemeronBase = require("../setDD3_JVC/ErrantEphemeron");
+const ErrantEphemeronBase = require("../setJVC/ErrantEphemeron");
 
 class ErrantEphemeron extends ErrantEphemeronBase {
   constructor (game) {

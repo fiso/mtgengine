@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WoodbornBehemothBase = require("../setE01/WoodbornBehemoth");
 
-class WoodbornBehemoth extends UnimplementedCard {
+class WoodbornBehemoth extends WoodbornBehemothBase {
   constructor (game) {
-    super(game, "Woodborn Behemoth", "Magic 2014 Core Set", "M14");
+    super(game, "Woodborn Behemoth", "Magic 2014", "M14");
   }
 }
 

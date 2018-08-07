@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FyndhornElvesBase = require("../setDKM/FyndhornElves");
+const FyndhornElvesBase = require("../setVMA/FyndhornElves");
 
 class FyndhornElves extends FyndhornElvesBase {
   constructor (game) {

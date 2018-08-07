@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreadReturnBase = require("../setC14/DreadReturn");
+const DreadReturnBase = require("../setDDQ/DreadReturn");
 
 class DreadReturn extends DreadReturnBase {
   constructor (game) {

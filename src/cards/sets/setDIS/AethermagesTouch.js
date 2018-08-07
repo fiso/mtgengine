@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AethermagesTouchBase = require("../setC13/AethermagesTouch");
+const AethermagesTouchBase = require("../setC18/AethermagesTouch");
 
 class AethermagesTouch extends AethermagesTouchBase {
   constructor (game) {
-    super(game, "Æthermage's Touch", "Dissension", "DIS");
+    super(game, "Aethermage's Touch", "Dissension", "DIS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VaporSnagBase = require("../setDDH/VaporSnag");
+const VaporSnagBase = require("../setMM2/VaporSnag");
 
 class VaporSnag extends VaporSnagBase {
   constructor (game) {

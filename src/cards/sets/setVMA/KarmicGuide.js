@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KarmicGuideBase = require("../setC13/KarmicGuide");
+const KarmicGuideBase = require("../setCMA/KarmicGuide");
 
 class KarmicGuide extends KarmicGuideBase {
   constructor (game) {

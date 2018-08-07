@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SylvanScryingBase = require("../setBFZ/SylvanScrying");
+const SylvanScryingBase = require("../setF16/SylvanScrying");
 
 class SylvanScrying extends SylvanScryingBase {
   constructor (game) {

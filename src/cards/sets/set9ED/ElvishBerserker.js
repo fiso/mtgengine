@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElvishBerserkerBase = require("../setEXO/ElvishBerserker");
+const ElvishBerserkerBase = require("../set10E/ElvishBerserker");
 
 class ElvishBerserker extends ElvishBerserkerBase {
   constructor (game) {

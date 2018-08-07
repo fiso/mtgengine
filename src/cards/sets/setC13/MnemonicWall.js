@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MnemonicWallBase = require("../setIMA/MnemonicWall");
 
-class MnemonicWall extends UnimplementedCard {
+class MnemonicWall extends MnemonicWallBase {
   constructor (game) {
-    super(game, "Mnemonic Wall", "Commander 2013 Edition", "C13");
+    super(game, "Mnemonic Wall", "Commander 2013", "C13");
   }
 }
 

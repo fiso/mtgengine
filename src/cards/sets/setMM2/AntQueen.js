@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AntQueenBase = require("../setpLPA/AntQueen");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AntQueen extends AntQueenBase {
+class AntQueen extends UnimplementedCard {
   constructor (game) {
-    super(game, "Ant Queen", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Ant Queen", "Modern Masters 2015", "MM2");
   }
 }
 

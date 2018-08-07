@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SustaineroftheRealmBase = require("../setDD3_DVD/SustaineroftheRealm");
+const SustaineroftheRealmBase = require("../setIMA/SustaineroftheRealm");
 
 class SustaineroftheRealm extends SustaineroftheRealmBase {
   constructor (game) {

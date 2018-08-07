@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BarterinBloodBase = require("../setAVR/BarterinBlood");
+const BarterinBloodBase = require("../setCMA/BarterinBlood");
 
 class BarterinBlood extends BarterinBloodBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BountifulHarvestBase = require("../setM10/BountifulHarvest");
+const BountifulHarvestBase = require("../setM13/BountifulHarvest");
 
 class BountifulHarvest extends BountifulHarvestBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const TemporalManipulationBase = require("../setJ15/TemporalManipulation");
 
-class TemporalManipulation extends UnimplementedCard {
+class TemporalManipulation extends TemporalManipulationBase {
   constructor (game) {
     super(game, "Temporal Manipulation", "Masters Edition II", "ME2");
   }

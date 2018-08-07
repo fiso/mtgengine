@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BorosGuildmageBase = require("../setCMD/BorosGuildmage");
+const BorosGuildmageBase = require("../setCMA/BorosGuildmage");
 
 class BorosGuildmage extends BorosGuildmageBase {
   constructor (game) {

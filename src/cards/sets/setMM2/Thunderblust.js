@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThunderblustBase = require("../setEVE/Thunderblust");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Thunderblust extends ThunderblustBase {
+class Thunderblust extends UnimplementedCard {
   constructor (game) {
-    super(game, "Thunderblust", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Thunderblust", "Modern Masters 2015", "MM2");
   }
 }
 

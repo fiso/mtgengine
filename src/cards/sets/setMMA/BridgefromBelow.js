@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BridgefromBelowBase = require("../setFUT/BridgefromBelow");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BridgefromBelow extends BridgefromBelowBase {
+class BridgefromBelow extends UnimplementedCard {
   constructor (game) {
     super(game, "Bridge from Below", "Modern Masters", "MMA");
   }

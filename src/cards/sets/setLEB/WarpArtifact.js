@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WarpArtifactBase = require("../setCED/WarpArtifact");
+const WarpArtifactBase = require("../setME4/WarpArtifact");
 
 class WarpArtifact extends WarpArtifactBase {
   constructor (game) {

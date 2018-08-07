@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelofDespairBase = require("../setGPT/AngelofDespair");
+const AngelofDespairBase = require("../setCMA/AngelofDespair");
 
 class AngelofDespair extends AngelofDespairBase {
   constructor (game) {
-    super(game, "Angel of Despair", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Angel of Despair", "Commander 2011", "CMD");
   }
 }
 

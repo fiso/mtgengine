@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpectralShieldBase = require("../setICE/SpectralShield");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SpectralShield extends SpectralShieldBase {
+class SpectralShield extends UnimplementedCard {
   constructor (game) {
     super(game, "Spectral Shield", "Masters Edition III", "ME3");
   }

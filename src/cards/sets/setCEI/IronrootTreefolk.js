@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IronrootTreefolkBase = require("../setCED/IronrootTreefolk");
+const IronrootTreefolkBase = require("../set5ED/IronrootTreefolk");
 
 class IronrootTreefolk extends IronrootTreefolkBase {
   constructor (game) {
-    super(game, "Ironroot Treefolk", "International Collector's Edition", "CEI");
+    super(game, "Ironroot Treefolk", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

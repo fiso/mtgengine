@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class ShichifukujinDragon extends UnimplementedCard {
   constructor (game) {
-    super(game, "Shichifukujin Dragon", "Celebration", "pCEL");
+    super(game, "Shichifukujin Dragon", "Celebration Cards", "PCEL");
   }
 }
 

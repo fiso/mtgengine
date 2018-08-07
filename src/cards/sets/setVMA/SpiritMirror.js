@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpiritMirrorBase = require("../setTMP/SpiritMirror");
+const SpiritMirrorBase = require("../setTPR/SpiritMirror");
 
 class SpiritMirror extends SpiritMirrorBase {
   constructor (game) {

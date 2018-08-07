@@ -3,4 +3,4 @@ module.exports = {
   FaerieConclave: require("./FaerieConclave"),
   TreetopVillage: require("./TreetopVillage")
 };
-if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setpSUM = module.exports;}
+if (window) {if (!window.mtgSets) { window.mtgSets = {}; } window.mtgSets.setPSUM = module.exports;}

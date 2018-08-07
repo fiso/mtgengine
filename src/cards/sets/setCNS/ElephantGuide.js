@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ElephantGuideBase = require("../setDD3_GVL/ElephantGuide");
+const ElephantGuideBase = require("../setEMA/ElephantGuide");
 
 class ElephantGuide extends ElephantGuideBase {
   constructor (game) {
-    super(game, "Elephant Guide", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Elephant Guide", "Conspiracy", "CNS");
   }
 }
 

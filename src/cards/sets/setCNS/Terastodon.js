@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TerastodonBase = require("../setC14/Terastodon");
+const TerastodonBase = require("../setCMA/Terastodon");
 
 class Terastodon extends TerastodonBase {
   constructor (game) {
-    super(game, "Terastodon", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Terastodon", "Conspiracy", "CNS");
   }
 }
 

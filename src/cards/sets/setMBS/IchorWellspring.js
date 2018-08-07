@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IchorWellspringBase = require("../setC14/IchorWellspring");
+const IchorWellspringBase = require("../setCM2/IchorWellspring");
 
 class IchorWellspring extends IchorWellspringBase {
   constructor (game) {

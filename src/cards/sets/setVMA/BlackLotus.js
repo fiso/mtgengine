@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BlackLotusBase = require("../setCED/BlackLotus");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BlackLotus extends BlackLotusBase {
+class BlackLotus extends UnimplementedCard {
   constructor (game) {
     super(game, "Black Lotus", "Vintage Masters", "VMA");
   }

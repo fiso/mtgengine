@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GhostLitStalkerBase = require("../setDD3_GVL/GhostLitStalker");
+const GhostLitStalkerBase = require("../setGVL/GhostLitStalker");
 
 class GhostLitStalker extends GhostLitStalkerBase {
   constructor (game) {

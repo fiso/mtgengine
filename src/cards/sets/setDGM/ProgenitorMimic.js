@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ProgenitorMimicBase = require("../setC16/ProgenitorMimic");
 
-class ProgenitorMimic extends UnimplementedCard {
+class ProgenitorMimic extends ProgenitorMimicBase {
   constructor (game) {
     super(game, "Progenitor Mimic", "Dragon's Maze", "DGM");
   }

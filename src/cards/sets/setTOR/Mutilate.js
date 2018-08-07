@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MutilateBase = require("../setC14/Mutilate");
+const MutilateBase = require("../setGVL/Mutilate");
 
 class Mutilate extends MutilateBase {
   constructor (game) {

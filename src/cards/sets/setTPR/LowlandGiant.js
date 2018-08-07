@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LowlandGiantBase = require("../setBTD/LowlandGiant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class LowlandGiant extends LowlandGiantBase {
+class LowlandGiant extends UnimplementedCard {
   constructor (game) {
     super(game, "Lowland Giant", "Tempest Remastered", "TPR");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SatyrWayfinderBase = require("../setBNG/SatyrWayfinder");
+const SatyrWayfinderBase = require("../setCMA/SatyrWayfinder");
 
 class SatyrWayfinder extends SatyrWayfinderBase {
   constructor (game) {

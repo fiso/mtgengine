@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PressurePointBase = require("../setKLD/PressurePoint");
 
-class PressurePoint extends UnimplementedCard {
+class PressurePoint extends PressurePointBase {
   constructor (game) {
     super(game, "Pressure Point", "Fate Reforged", "FRF");
   }

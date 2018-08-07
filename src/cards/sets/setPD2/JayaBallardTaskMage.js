@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const JayaBallardTaskMageBase = require("../setpMEI/JayaBallardTaskMage");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class JayaBallardTaskMage extends JayaBallardTaskMageBase {
+class JayaBallardTaskMage extends UnimplementedCard {
   constructor (game) {
     super(game, "Jaya Ballard, Task Mage", "Premium Deck Series: Fire and Lightning", "PD2");
   }

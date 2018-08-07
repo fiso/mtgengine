@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CalloftheConclaveBase = require("../setpFNM/CalloftheConclave");
+const CalloftheConclaveBase = require("../setMM3/CalloftheConclave");
 
 class CalloftheConclave extends CalloftheConclaveBase {
   constructor (game) {

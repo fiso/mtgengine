@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelicBlessingBase = require("../setEXO/AngelicBlessing");
+const AngelicBlessingBase = require("../setTPR/AngelicBlessing");
 
 class AngelicBlessing extends AngelicBlessingBase {
   constructor (game) {

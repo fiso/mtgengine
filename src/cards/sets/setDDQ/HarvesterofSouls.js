@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HarvesterofSoulsBase = require("../setAVR/HarvesterofSouls");
+const HarvesterofSoulsBase = require("../setE01/HarvesterofSouls");
 
 class HarvesterofSouls extends HarvesterofSoulsBase {
   constructor (game) {

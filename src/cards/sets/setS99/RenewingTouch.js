@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RenewingTouchBase = require("../setPO2/RenewingTouch");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RenewingTouch extends RenewingTouchBase {
+class RenewingTouch extends UnimplementedCard {
   constructor (game) {
     super(game, "Renewing Touch", "Starter 1999", "S99");
   }

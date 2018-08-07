@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FloodedGroveBase = require("../setEVE/FloodedGrove");
+const FloodedGroveBase = require("../setA25/FloodedGrove");
 
 class FloodedGrove extends FloodedGroveBase {
   constructor (game) {
-    super(game, "Flooded Grove", "Zendikar Expedition", "EXP");
+    super(game, "Flooded Grove", "Zendikar Expeditions", "EXP");
   }
 }
 

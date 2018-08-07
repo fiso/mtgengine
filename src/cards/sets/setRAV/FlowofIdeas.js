@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FlowofIdeasBase = require("../setSHM/FlowofIdeas");
 
-class FlowofIdeas extends UnimplementedCard {
+class FlowofIdeas extends FlowofIdeasBase {
   constructor (game) {
     super(game, "Flow of Ideas", "Ravnica: City of Guilds", "RAV");
   }

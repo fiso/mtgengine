@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MycosynthWellspringBase = require("../setCM2/MycosynthWellspring");
 
-class MycosynthWellspring extends UnimplementedCard {
+class MycosynthWellspring extends MycosynthWellspringBase {
   constructor (game) {
     super(game, "Mycosynth Wellspring", "Commander 2014", "C14");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NaturalSelectionBase = require("../setCED/NaturalSelection");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NaturalSelection extends NaturalSelectionBase {
+class NaturalSelection extends UnimplementedCard {
   constructor (game) {
-    super(game, "Natural Selection", "International Collector's Edition", "CEI");
+    super(game, "Natural Selection", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

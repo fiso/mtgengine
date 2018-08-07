@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StreetWraithBase = require("../setFUT/StreetWraith");
+const StreetWraithBase = require("../setA25/StreetWraith");
 
 class StreetWraith extends StreetWraithBase {
   constructor (game) {

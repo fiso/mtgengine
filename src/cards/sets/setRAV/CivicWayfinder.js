@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CivicWayfinderBase = require("../setDPA/CivicWayfinder");
+const CivicWayfinderBase = require("../setDDR/CivicWayfinder");
 
 class CivicWayfinder extends CivicWayfinderBase {
   constructor (game) {

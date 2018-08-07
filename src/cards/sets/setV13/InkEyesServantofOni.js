@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const InkEyesServantofOniBase = require("../setBOK/InkEyesServantofOni");
+const InkEyesServantofOniBase = require("../setPCA/InkEyesServantofOni");
 
 class InkEyesServantofOni extends InkEyesServantofOniBase {
   constructor (game) {

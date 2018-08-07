@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SupremeVerdictBase = require("../setpMEI/SupremeVerdict");
+const SupremeVerdictBase = require("../setIMA/SupremeVerdict");
 
 class SupremeVerdict extends SupremeVerdictBase {
   constructor (game) {

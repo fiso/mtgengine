@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PuppeteerCliqueBase = require("../setC17/PuppeteerClique");
 
-class PuppeteerClique extends UnimplementedCard {
+class PuppeteerClique extends PuppeteerCliqueBase {
   constructor (game) {
-    super(game, "Puppeteer Clique", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Puppeteer Clique", "Modern Masters 2015", "MM2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FaithlessLootingBase = require("../setC14/FaithlessLooting");
+const FaithlessLootingBase = require("../setCM2/FaithlessLooting");
 
 class FaithlessLooting extends FaithlessLootingBase {
   constructor (game) {

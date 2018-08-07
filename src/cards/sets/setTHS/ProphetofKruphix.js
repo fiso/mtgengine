@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProphetofKruphixBase = require("../setCPK/ProphetofKruphix");
+const ProphetofKruphixBase = require("../setCP1/ProphetofKruphix");
 
 class ProphetofKruphix extends ProphetofKruphixBase {
   constructor (game) {

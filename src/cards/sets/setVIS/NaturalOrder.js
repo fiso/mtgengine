@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NaturalOrderBase = require("../setpJGP/NaturalOrder");
+const NaturalOrderBase = require("../setEMA/NaturalOrder");
 
 class NaturalOrder extends NaturalOrderBase {
   constructor (game) {

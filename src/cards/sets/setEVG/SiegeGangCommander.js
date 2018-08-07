@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SiegeGangCommanderBase = require("../setDD3_EVG/SiegeGangCommander");
+const SiegeGangCommanderBase = require("../setDOM/SiegeGangCommander");
 
 class SiegeGangCommander extends SiegeGangCommanderBase {
   constructor (game) {
-    super(game, "Siege-Gang Commander", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Siege-Gang Commander", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

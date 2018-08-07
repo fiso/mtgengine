@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FactorFictionBase = require("../setC15/FactorFiction");
+const FactorFictionBase = require("../setCM2/FactorFiction");
 
 class FactorFiction extends FactorFictionBase {
   constructor (game) {
-    super(game, "Fact or Fiction", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Fact or Fiction", "Conspiracy", "CNS");
   }
 }
 

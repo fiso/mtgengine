@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ExtinguishBase = require("../setPO2/Extinguish");
+const ExtinguishBase = require("../setS99/Extinguish");
 
 class Extinguish extends ExtinguishBase {
   constructor (game) {

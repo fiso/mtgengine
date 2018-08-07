@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NegateBase = require("../setDTK/Negate");
+const NegateBase = require("../setSS1/Negate");
 
 class Negate extends NegateBase {
   constructor (game) {
-    super(game, "Negate", "Magic 2014 Core Set", "M14");
+    super(game, "Negate", "Magic 2014", "M14");
   }
 }
 

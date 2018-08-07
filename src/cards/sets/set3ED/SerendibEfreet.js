@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SerendibEfreetBase = require("../setARN/SerendibEfreet");
+const SerendibEfreetBase = require("../setEMA/SerendibEfreet");
 
 class SerendibEfreet extends SerendibEfreetBase {
   constructor (game) {

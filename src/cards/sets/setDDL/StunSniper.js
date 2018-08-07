@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StunSniperBase = require("../setARB/StunSniper");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class StunSniper extends StunSniperBase {
+class StunSniper extends UnimplementedCard {
   constructor (game) {
     super(game, "Stun Sniper", "Duel Decks: Heroes vs. Monsters", "DDL");
   }

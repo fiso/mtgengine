@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SeleniaDarkAngelBase = require("../setTMP/SeleniaDarkAngel");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SeleniaDarkAngel extends SeleniaDarkAngelBase {
+class SeleniaDarkAngel extends UnimplementedCard {
   constructor (game) {
     super(game, "Selenia, Dark Angel", "Tempest Remastered", "TPR");
   }

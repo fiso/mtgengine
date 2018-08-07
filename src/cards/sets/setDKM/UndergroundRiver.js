@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UndergroundRiverBase = require("../set6ED/UndergroundRiver");
+const UndergroundRiverBase = require("../setCM2/UndergroundRiver");
 
 class UndergroundRiver extends UndergroundRiverBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DustBowlBase = require("../setMMQ/DustBowl");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DustBowl extends DustBowlBase {
+class DustBowl extends UnimplementedCard {
   constructor (game) {
-    super(game, "Dust Bowl", "Zendikar Expedition", "EXP");
+    super(game, "Dust Bowl", "Zendikar Expeditions", "EXP");
   }
 }
 

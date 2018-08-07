@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PathbreakerIbexBase = require("../setCMA/PathbreakerIbex");
 
-class PathbreakerIbex extends UnimplementedCard {
+class PathbreakerIbex extends PathbreakerIbexBase {
   constructor (game) {
     super(game, "Pathbreaker Ibex", "Commander 2015", "C15");
   }

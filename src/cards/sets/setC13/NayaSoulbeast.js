@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class NayaSoulbeast extends UnimplementedCard {
   constructor (game) {
-    super(game, "Naya Soulbeast", "Commander 2013 Edition", "C13");
+    super(game, "Naya Soulbeast", "Commander 2013", "C13");
   }
 }
 

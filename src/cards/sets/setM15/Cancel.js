@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CancelBase = require("../setDPA/Cancel");
+const CancelBase = require("../setM19/Cancel");
 
 class Cancel extends CancelBase {
   constructor (game) {
-    super(game, "Cancel", "Magic 2015 Core Set", "M15");
+    super(game, "Cancel", "Magic 2015", "M15");
   }
 }
 

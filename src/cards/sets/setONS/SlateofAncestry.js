@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SlateofAncestryBase = require("../setDD3_EVG/SlateofAncestry");
+const SlateofAncestryBase = require("../setEVG/SlateofAncestry");
 
 class SlateofAncestry extends SlateofAncestryBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyknightLegionnaireBase = require("../setpARL/SkyknightLegionnaire");
+const SkyknightLegionnaireBase = require("../setMM3/SkyknightLegionnaire");
 
 class SkyknightLegionnaire extends SkyknightLegionnaireBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SmashBase = require("../setAPC/Smash");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Smash extends SmashBase {
+class Smash extends UnimplementedCard {
   constructor (game) {
     super(game, "Smash", "Tenth Edition", "10E");
   }

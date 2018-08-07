@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ErrantryBase = require("../set5ED/Errantry");
+const ErrantryBase = require("../setME2/Errantry");
 
 class Errantry extends ErrantryBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GuardGomazoaBase = require("../setC13/GuardGomazoa");
+const GuardGomazoaBase = require("../setPCA/GuardGomazoa");
 
 class GuardGomazoa extends GuardGomazoaBase {
   constructor (game) {

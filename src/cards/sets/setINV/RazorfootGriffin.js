@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RazorfootGriffinBase = require("../set8ED/RazorfootGriffin");
+const RazorfootGriffinBase = require("../setM15/RazorfootGriffin");
 
 class RazorfootGriffin extends RazorfootGriffinBase {
   constructor (game) {

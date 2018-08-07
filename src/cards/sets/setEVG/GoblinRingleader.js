@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoblinRingleaderBase = require("../setAPC/GoblinRingleader");
+const GoblinRingleaderBase = require("../setDDT/GoblinRingleader");
 
 class GoblinRingleader extends GoblinRingleaderBase {
   constructor (game) {
-    super(game, "Goblin Ringleader", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Goblin Ringleader", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

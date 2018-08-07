@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThornwindFaeriesBase = require("../setC13/ThornwindFaeries");
+const ThornwindFaeriesBase = require("../setCMA/ThornwindFaeries");
 
 class ThornwindFaeries extends ThornwindFaeriesBase {
   constructor (game) {

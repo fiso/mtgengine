@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const KrakenBase = require("../setTA25/Kraken");
 
-class Kraken extends UnimplementedCard {
+class Kraken extends KrakenBase {
   constructor (game) {
     super(game, "Kraken", "Duel Decks: Elspeth vs. Kiora", "DDO");
   }

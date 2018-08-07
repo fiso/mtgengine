@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ZombieGoliathBase = require("../setM10/ZombieGoliath");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ZombieGoliath extends ZombieGoliathBase {
+class ZombieGoliath extends UnimplementedCard {
   constructor (game) {
-    super(game, "Zombie Goliath", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Zombie Goliath", "Conspiracy", "CNS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DisruptingScepterBase = require("../set6ED/DisruptingScepter");
+const DisruptingScepterBase = require("../set9ED/DisruptingScepter");
 
 class DisruptingScepter extends DisruptingScepterBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NocturnalRaidBase = require("../setMIR/NocturnalRaid");
+const NocturnalRaidBase = require("../setPHUK/NocturnalRaid");
 
 class NocturnalRaid extends NocturnalRaidBase {
   constructor (game) {

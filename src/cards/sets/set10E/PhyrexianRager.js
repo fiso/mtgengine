@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianRagerBase = require("../setAPC/PhyrexianRager");
+const PhyrexianRagerBase = require("../setIMA/PhyrexianRager");
 
 class PhyrexianRager extends PhyrexianRagerBase {
   constructor (game) {

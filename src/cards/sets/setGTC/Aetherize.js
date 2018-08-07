@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AetherizeBase = require("../setC15/Aetherize");
+const AetherizeBase = require("../setIMA/Aetherize");
 
 class Aetherize extends AetherizeBase {
   constructor (game) {
-    super(game, "Ætherize", "Gatecrash", "GTC");
+    super(game, "Aetherize", "Gatecrash", "GTC");
   }
 }
 

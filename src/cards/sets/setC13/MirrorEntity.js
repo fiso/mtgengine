@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MirrorEntityBase = require("../setCMA/MirrorEntity");
 
-class MirrorEntity extends UnimplementedCard {
+class MirrorEntity extends MirrorEntityBase {
   constructor (game) {
-    super(game, "Mirror Entity", "Commander 2013 Edition", "C13");
+    super(game, "Mirror Entity", "Commander 2013", "C13");
   }
 }
 

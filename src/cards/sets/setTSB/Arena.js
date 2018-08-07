@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ArenaBase = require("../setpMEI/Arena");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Arena extends ArenaBase {
+class Arena extends UnimplementedCard {
   constructor (game) {
-    super(game, "Arena", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Arena", "Time Spiral Timeshifted", "TSB");
   }
 }
 

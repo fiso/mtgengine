@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LeviathanBase = require("../setBTD/Leviathan");
+const LeviathanBase = require("../setTSB/Leviathan");
 
 class Leviathan extends LeviathanBase {
   constructor (game) {

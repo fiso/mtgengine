@@ -4,7 +4,7 @@ const SilentSpecterBase = require("../setONS/SilentSpecter");
 
 class SilentSpecter extends SilentSpecterBase {
   constructor (game) {
-    super(game, "Silent Specter", "Prerelease Events", "pPRE");
+    super(game, "Silent Specter", "Prerelease Events", "PPRE");
   }
 }
 

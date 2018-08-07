@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MortivoreBase = require("../setDPA/Mortivore");
+const MortivoreBase = require("../setCM2/Mortivore");
 
 class Mortivore extends MortivoreBase {
   constructor (game) {
-    super(game, "Mortivore", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Mortivore", "Commander 2011", "CMD");
   }
 }
 

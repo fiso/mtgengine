@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BurnoutBase = require("../setALL/Burnout");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Burnout extends BurnoutBase {
+class Burnout extends UnimplementedCard {
   constructor (game) {
     super(game, "Burnout", "Masters Edition II", "ME2");
   }

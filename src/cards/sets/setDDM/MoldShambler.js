@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MoldShamblerBase = require("../setC13/MoldShambler");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MoldShambler extends MoldShamblerBase {
+class MoldShambler extends UnimplementedCard {
   constructor (game) {
     super(game, "Mold Shambler", "Duel Decks: Jace vs. Vraska", "DDM");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DimirGuildgateBase = require("../setC13/DimirGuildgate");
+const DimirGuildgateBase = require("../setC18/DimirGuildgate");
 
 class DimirGuildgate extends DimirGuildgateBase {
   constructor (game) {

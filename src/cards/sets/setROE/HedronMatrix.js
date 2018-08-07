@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HedronMatrixBase = require("../setCN2/HedronMatrix");
 
-class HedronMatrix extends UnimplementedCard {
+class HedronMatrix extends HedronMatrixBase {
   constructor (game) {
     super(game, "Hedron Matrix", "Rise of the Eldrazi", "ROE");
   }

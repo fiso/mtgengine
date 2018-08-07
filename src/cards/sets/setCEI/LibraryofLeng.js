@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LibraryofLengBase = require("../setCED/LibraryofLeng");
+const LibraryofLengBase = require("../setME4/LibraryofLeng");
 
 class LibraryofLeng extends LibraryofLengBase {
   constructor (game) {
-    super(game, "Library of Leng", "International Collector's Edition", "CEI");
+    super(game, "Library of Leng", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TerraStomperBase = require("../setM15/TerraStomper");
+const TerraStomperBase = require("../setORI/TerraStomper");
 
 class TerraStomper extends TerraStomperBase {
   constructor (game) {

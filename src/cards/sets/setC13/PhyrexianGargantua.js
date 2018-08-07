@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhyrexianGargantuaBase = require("../setAPC/PhyrexianGargantua");
+const PhyrexianGargantuaBase = require("../setEMA/PhyrexianGargantua");
 
 class PhyrexianGargantua extends PhyrexianGargantuaBase {
   constructor (game) {
-    super(game, "Phyrexian Gargantua", "Commander 2013 Edition", "C13");
+    super(game, "Phyrexian Gargantua", "Commander 2013", "C13");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MarrowBatsBase = require("../setAVR/MarrowBats");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MarrowBats extends MarrowBatsBase {
+class MarrowBats extends UnimplementedCard {
   constructor (game) {
-    super(game, "Marrow Bats", "Commander 2013 Edition", "C13");
+    super(game, "Marrow Bats", "Commander 2013", "C13");
   }
 }
 

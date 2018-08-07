@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EzuriRenegadeLeaderBase = require("../setC14/EzuriRenegadeLeader");
+const EzuriRenegadeLeaderBase = require("../setDDU/EzuriRenegadeLeader");
 
 class EzuriRenegadeLeader extends EzuriRenegadeLeaderBase {
   constructor (game) {

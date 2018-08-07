@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RakdosPitDragonBase = require("../setDIS/RakdosPitDragon");
+const RakdosPitDragonBase = require("../setJVC/RakdosPitDragon");
 
 class RakdosPitDragon extends RakdosPitDragonBase {
   constructor (game) {

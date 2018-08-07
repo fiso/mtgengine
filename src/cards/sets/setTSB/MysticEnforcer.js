@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MysticEnforcerBase = require("../setODY/MysticEnforcer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MysticEnforcer extends MysticEnforcerBase {
+class MysticEnforcer extends UnimplementedCard {
   constructor (game) {
-    super(game, "Mystic Enforcer", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Mystic Enforcer", "Time Spiral Timeshifted", "TSB");
   }
 }
 

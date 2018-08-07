@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const NetherSpiritBase = require("../setWC01/NetherSpirit");
 
-class NetherSpirit extends UnimplementedCard {
+class NetherSpirit extends NetherSpiritBase {
   constructor (game) {
     super(game, "Nether Spirit", "Mercadian Masques", "MMQ");
   }

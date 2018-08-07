@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const KoboldDrillSergeantBase = require("../setLEG/KoboldDrillSergeant");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class KoboldDrillSergeant extends KoboldDrillSergeantBase {
+class KoboldDrillSergeant extends UnimplementedCard {
   constructor (game) {
     super(game, "Kobold Drill Sergeant", "Masters Edition III", "ME3");
   }

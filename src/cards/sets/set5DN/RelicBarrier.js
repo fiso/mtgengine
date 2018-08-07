@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RelicBarrierBase = require("../setWC04/RelicBarrier");
 
-class RelicBarrier extends UnimplementedCard {
+class RelicBarrier extends RelicBarrierBase {
   constructor (game) {
     super(game, "Relic Barrier", "Fifth Dawn", "5DN");
   }

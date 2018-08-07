@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MistveinBorderpostBase = require("../setARB/MistveinBorderpost");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class MistveinBorderpost extends MistveinBorderpostBase {
+class MistveinBorderpost extends UnimplementedCard {
   constructor (game) {
     super(game, "Mistvein Borderpost", "Archenemy", "ARC");
   }

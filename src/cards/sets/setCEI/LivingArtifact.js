@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LivingArtifactBase = require("../setCED/LivingArtifact");
+const LivingArtifactBase = require("../set5ED/LivingArtifact");
 
 class LivingArtifact extends LivingArtifactBase {
   constructor (game) {
-    super(game, "Living Artifact", "International Collector's Edition", "CEI");
+    super(game, "Living Artifact", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PromiseofPowerBase = require("../setC14/PromiseofPower");
+const PromiseofPowerBase = require("../setDVD/PromiseofPower");
 
 class PromiseofPower extends PromiseofPowerBase {
   constructor (game) {

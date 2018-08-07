@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BalduvianHordeBase = require("../setALL/BalduvianHorde");
+const BalduvianHordeBase = require("../setA25/BalduvianHorde");
 
 class BalduvianHorde extends BalduvianHordeBase {
   constructor (game) {

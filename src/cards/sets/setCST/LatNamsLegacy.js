@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LatNamsLegacyBase = require("../setALL/LatNamsLegacy");
+const LatNamsLegacyBase = require("../setME2/LatNamsLegacy");
 
 class LatNamsLegacy extends LatNamsLegacyBase {
   constructor (game) {

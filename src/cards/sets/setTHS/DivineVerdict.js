@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DivineVerdictBase = require("../setM10/DivineVerdict");
+const DivineVerdictBase = require("../setRIX/DivineVerdict");
 
 class DivineVerdict extends DivineVerdictBase {
   constructor (game) {

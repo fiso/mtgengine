@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NephaliaSeakiteBase = require("../setDKA/NephaliaSeakite");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class NephaliaSeakite extends NephaliaSeakiteBase {
+class NephaliaSeakite extends UnimplementedCard {
   constructor (game) {
-    super(game, "Nephalia Seakite", "Magic 2014 Core Set", "M14");
+    super(game, "Nephalia Seakite", "Magic 2014", "M14");
   }
 }
 

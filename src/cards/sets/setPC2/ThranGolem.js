@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThranGolemBase = require("../setM12/ThranGolem");
+const ThranGolemBase = require("../setPCA/ThranGolem");
 
 class ThranGolem extends ThranGolemBase {
   constructor (game) {
-    super(game, "Thran Golem", "Planechase 2012 Edition", "PC2");
+    super(game, "Thran Golem", "Planechase 2012", "PC2");
   }
 }
 

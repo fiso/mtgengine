@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GaeasCradleBase = require("../setpJGP/GaeasCradle");
+const GaeasCradleBase = require("../setOLGC/GaeasCradle");
 
 class GaeasCradle extends GaeasCradleBase {
   constructor (game) {

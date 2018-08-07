@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IllusionaryMaskBase = require("../setCED/IllusionaryMask");
+const IllusionaryMaskBase = require("../setTD0/IllusionaryMask");
 
 class IllusionaryMask extends IllusionaryMaskBase {
   constructor (game) {

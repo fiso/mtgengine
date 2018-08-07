@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DragDownBase = require("../setCON/DragDown");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DragDown extends DragDownBase {
+class DragDown extends UnimplementedCard {
   constructor (game) {
     super(game, "Drag Down", "Modern Masters", "MMA");
   }

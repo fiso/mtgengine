@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MasticoreBase = require("../setV10/Masticore");
+const MasticoreBase = require("../setVMA/Masticore");
 
 class Masticore extends MasticoreBase {
   constructor (game) {

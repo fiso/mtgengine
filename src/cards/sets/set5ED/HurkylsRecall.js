@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HurkylsRecallBase = require("../setATQ/HurkylsRecall");
+const HurkylsRecallBase = require("../setMM2/HurkylsRecall");
 
 class HurkylsRecall extends HurkylsRecallBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FlashBase = require("../set6ED/Flash");
+const FlashBase = require("../setA25/Flash");
 
 class Flash extends FlashBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CounterspellBase = require("../setBRB/Counterspell");
+const CounterspellBase = require("../setSS1/Counterspell");
 
 class Counterspell extends CounterspellBase {
   constructor (game) {
-    super(game, "Counterspell", "International Collector's Edition", "CEI");
+    super(game, "Counterspell", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

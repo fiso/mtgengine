@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpiketailHatchlingBase = require("../set8ED/SpiketailHatchling");
+const SpiketailHatchlingBase = require("../set10E/SpiketailHatchling");
 
 class SpiketailHatchling extends SpiketailHatchlingBase {
   constructor (game) {

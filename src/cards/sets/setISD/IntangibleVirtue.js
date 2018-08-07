@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const IntangibleVirtueBase = require("../setMM3/IntangibleVirtue");
 
-class IntangibleVirtue extends UnimplementedCard {
+class IntangibleVirtue extends IntangibleVirtueBase {
   constructor (game) {
     super(game, "Intangible Virtue", "Innistrad", "ISD");
   }

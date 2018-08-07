@@ -4,7 +4,7 @@ const CobraTrapBase = require("../setC15/CobraTrap");
 
 class CobraTrap extends CobraTrapBase {
   constructor (game) {
-    super(game, "Cobra Trap", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Cobra Trap", "Commander 2011", "CMD");
   }
 }
 

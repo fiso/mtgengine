@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PlasmCaptureBase = require("../setDDO/PlasmCapture");
 
-class PlasmCapture extends UnimplementedCard {
+class PlasmCapture extends PlasmCaptureBase {
   constructor (game) {
     super(game, "Plasm Capture", "Dragon's Maze", "DGM");
   }

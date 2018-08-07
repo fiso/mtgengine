@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ReverberateBase = require("../setM11/Reverberate");
+const ReverberateBase = require("../setM13/Reverberate");
 
 class Reverberate extends ReverberateBase {
   constructor (game) {

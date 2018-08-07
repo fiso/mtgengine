@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoldnightRedeemerBase = require("../setAVR/GoldnightRedeemer");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GoldnightRedeemer extends GoldnightRedeemerBase {
+class GoldnightRedeemer extends UnimplementedCard {
   constructor (game) {
     super(game, "Goldnight Redeemer", "Duel Decks: Blessed vs. Cursed", "DDQ");
   }

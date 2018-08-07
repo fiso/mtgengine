@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoblinCohortBase = require("../setBOK/GoblinCohort");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GoblinCohort extends GoblinCohortBase {
+class GoblinCohort extends UnimplementedCard {
   constructor (game) {
-    super(game, "Goblin Cohort", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Goblin Cohort", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

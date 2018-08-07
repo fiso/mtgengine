@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VolcanicFalloutBase = require("../setARC/VolcanicFallout");
+const VolcanicFalloutBase = require("../setCNS/VolcanicFallout");
 
 class VolcanicFallout extends VolcanicFalloutBase {
   constructor (game) {

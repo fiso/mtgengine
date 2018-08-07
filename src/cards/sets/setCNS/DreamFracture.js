@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DreamFractureBase = require("../setEVE/DreamFracture");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DreamFracture extends DreamFractureBase {
+class DreamFracture extends UnimplementedCard {
   constructor (game) {
-    super(game, "Dream Fracture", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Dream Fracture", "Conspiracy", "CNS");
   }
 }
 

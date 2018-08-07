@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BenthicExplorersBase = require("../setALL/BenthicExplorers");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class BenthicExplorers extends BenthicExplorersBase {
+class BenthicExplorers extends UnimplementedCard {
   constructor (game) {
     super(game, "Benthic Explorers", "Masters Edition III", "ME3");
   }

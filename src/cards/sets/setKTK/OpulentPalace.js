@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const OpulentPalaceBase = require("../setCM2/OpulentPalace");
 
-class OpulentPalace extends UnimplementedCard {
+class OpulentPalace extends OpulentPalaceBase {
   constructor (game) {
     super(game, "Opulent Palace", "Khans of Tarkir", "KTK");
   }

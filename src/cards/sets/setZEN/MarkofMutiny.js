@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MarkofMutinyBase = require("../setM13/MarkofMutiny");
+const MarkofMutinyBase = require("../setIMA/MarkofMutiny");
 
 class MarkofMutiny extends MarkofMutinyBase {
   constructor (game) {

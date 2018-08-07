@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ChildofNightBase = require("../setDDK/ChildofNight");
+const ChildofNightBase = require("../setM19/ChildofNight");
 
 class ChildofNight extends ChildofNightBase {
   constructor (game) {
-    super(game, "Child of Night", "Magic 2014 Core Set", "M14");
+    super(game, "Child of Night", "Magic 2014", "M14");
   }
 }
 

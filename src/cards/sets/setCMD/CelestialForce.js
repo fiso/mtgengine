@@ -4,7 +4,7 @@ const UnimplementedCard = require("../../UnimplementedCard");
 
 class CelestialForce extends UnimplementedCard {
   constructor (game) {
-    super(game, "Celestial Force", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Celestial Force", "Commander 2011", "CMD");
   }
 }
 

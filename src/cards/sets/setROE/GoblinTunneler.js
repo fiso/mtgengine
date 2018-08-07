@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GoblinTunnelerBase = require("../setM11/GoblinTunneler");
+const GoblinTunnelerBase = require("../setDDT/GoblinTunneler");
 
 class GoblinTunneler extends GoblinTunnelerBase {
   constructor (game) {

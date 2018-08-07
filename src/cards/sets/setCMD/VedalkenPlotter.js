@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VedalkenPlotterBase = require("../setGPT/VedalkenPlotter");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class VedalkenPlotter extends VedalkenPlotterBase {
+class VedalkenPlotter extends UnimplementedCard {
   constructor (game) {
-    super(game, "Vedalken Plotter", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Vedalken Plotter", "Commander 2011", "CMD");
   }
 }
 

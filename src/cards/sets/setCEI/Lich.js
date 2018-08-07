@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const LichBase = require("../setCED/Lich");
+const LichBase = require("../setME4/Lich");
 
 class Lich extends LichBase {
   constructor (game) {
-    super(game, "Lich", "International Collector's Edition", "CEI");
+    super(game, "Lich", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

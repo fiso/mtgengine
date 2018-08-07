@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WrexialtheRisenDeepBase = require("../setCMD/WrexialtheRisenDeep");
+const WrexialtheRisenDeepBase = require("../setCM2/WrexialtheRisenDeep");
 
 class WrexialtheRisenDeep extends WrexialtheRisenDeepBase {
   constructor (game) {

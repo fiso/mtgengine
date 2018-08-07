@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DimirAqueductBase = require("../setCMD/DimirAqueduct");
+const DimirAqueductBase = require("../setC18/DimirAqueduct");
 
 class DimirAqueduct extends DimirAqueductBase {
   constructor (game) {
-    super(game, "Dimir Aqueduct", "Planechase 2012 Edition", "PC2");
+    super(game, "Dimir Aqueduct", "Planechase 2012", "PC2");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnstableMutationBase = require("../setARN/UnstableMutation");
+const UnstableMutationBase = require("../setTSB/UnstableMutation");
 
 class UnstableMutation extends UnstableMutationBase {
   constructor (game) {

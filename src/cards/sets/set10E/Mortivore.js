@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MortivoreBase = require("../setDPA/Mortivore");
+const MortivoreBase = require("../setCM2/Mortivore");
 
 class Mortivore extends MortivoreBase {
   constructor (game) {

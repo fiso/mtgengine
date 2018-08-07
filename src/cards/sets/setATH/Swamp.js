@@ -1,16 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const Card = require("../../../objects/Card");
+const SwampBase = require("../setC18/Swamp");
 
-class Swamp extends Card {
+class Swamp extends SwampBase {
   constructor (game) {
     super(game, "Swamp", "Anthologies", "ATH");
-
-    this.addAbility(
-      [],
-      (controller, modes, targets, parameters) => {
-        controller.addToManaPool(Constants.manaTypes.BLACK, 1);
-      }, true);
   }
 }
 

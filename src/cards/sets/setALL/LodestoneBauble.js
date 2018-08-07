@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LodestoneBaubleBase = require("../setME2/LodestoneBauble");
 
-class LodestoneBauble extends UnimplementedCard {
+class LodestoneBauble extends LodestoneBaubleBase {
   constructor (game) {
     super(game, "Lodestone Bauble", "Alliances", "ALL");
   }

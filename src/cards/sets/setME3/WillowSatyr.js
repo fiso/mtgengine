@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WillowSatyrBase = require("../setLEG/WillowSatyr");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class WillowSatyr extends WillowSatyrBase {
+class WillowSatyr extends UnimplementedCard {
   constructor (game) {
     super(game, "Willow Satyr", "Masters Edition III", "ME3");
   }

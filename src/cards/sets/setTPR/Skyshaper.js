@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SkyshaperBase = require("../setEXO/Skyshaper");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Skyshaper extends SkyshaperBase {
+class Skyshaper extends UnimplementedCard {
   constructor (game) {
     super(game, "Skyshaper", "Tempest Remastered", "TPR");
   }

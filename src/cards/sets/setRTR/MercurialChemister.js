@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MercurialChemisterBase = require("../setC17/MercurialChemister");
 
-class MercurialChemister extends UnimplementedCard {
+class MercurialChemister extends MercurialChemisterBase {
   constructor (game) {
     super(game, "Mercurial Chemister", "Return to Ravnica", "RTR");
   }

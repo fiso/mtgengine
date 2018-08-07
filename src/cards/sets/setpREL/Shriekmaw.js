@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ShriekmawBase = require("../setARC/Shriekmaw");
+const ShriekmawBase = require("../setCMA/Shriekmaw");
 
 class Shriekmaw extends ShriekmawBase {
   constructor (game) {
-    super(game, "Shriekmaw", "Release Events", "pREL");
+    super(game, "Shriekmaw", "Release Events", "PREL");
   }
 }
 

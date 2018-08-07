@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ElfhamePalaceBase = require("../setC17/ElfhamePalace");
 
-class ElfhamePalace extends UnimplementedCard {
+class ElfhamePalace extends ElfhamePalaceBase {
   constructor (game) {
     super(game, "Elfhame Palace", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

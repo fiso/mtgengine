@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HuntingPackBase = require("../setIMA/HuntingPack");
 
-class HuntingPack extends UnimplementedCard {
+class HuntingPack extends HuntingPackBase {
   constructor (game) {
-    super(game, "Hunting Pack", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Hunting Pack", "Commander 2011", "CMD");
   }
 }
 

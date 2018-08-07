@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MnemonicWallBase = require("../setC13/MnemonicWall");
+const MnemonicWallBase = require("../setIMA/MnemonicWall");
 
 class MnemonicWall extends MnemonicWallBase {
   constructor (game) {

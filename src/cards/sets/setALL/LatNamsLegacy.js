@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const LatNamsLegacyBase = require("../setME2/LatNamsLegacy");
 
-class LatNamsLegacy extends UnimplementedCard {
+class LatNamsLegacy extends LatNamsLegacyBase {
   constructor (game) {
     super(game, "Lat-Nam's Legacy", "Alliances", "ALL");
   }

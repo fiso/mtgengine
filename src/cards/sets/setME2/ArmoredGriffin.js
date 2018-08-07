@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ArmoredGriffinBase = require("../setPCA/ArmoredGriffin");
 
-class ArmoredGriffin extends UnimplementedCard {
+class ArmoredGriffin extends ArmoredGriffinBase {
   constructor (game) {
     super(game, "Armored Griffin", "Masters Edition II", "ME2");
   }

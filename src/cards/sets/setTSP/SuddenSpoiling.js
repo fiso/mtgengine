@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SuddenSpoilingBase = require("../setC13/SuddenSpoiling");
+const SuddenSpoilingBase = require("../setC14/SuddenSpoiling");
 
 class SuddenSpoiling extends SuddenSpoilingBase {
   constructor (game) {

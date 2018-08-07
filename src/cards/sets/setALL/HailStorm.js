@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HailStormBase = require("../setTSB/HailStorm");
 
-class HailStorm extends UnimplementedCard {
+class HailStorm extends HailStormBase {
   constructor (game) {
     super(game, "Hail Storm", "Alliances", "ALL");
   }

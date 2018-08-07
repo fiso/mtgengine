@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HydraOmnivoreBase = require("../setCMD/HydraOmnivore");
+const HydraOmnivoreBase = require("../setC18/HydraOmnivore");
 
 class HydraOmnivore extends HydraOmnivoreBase {
   constructor (game) {
-    super(game, "Hydra Omnivore", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Hydra Omnivore", "Conspiracy", "CNS");
   }
 }
 

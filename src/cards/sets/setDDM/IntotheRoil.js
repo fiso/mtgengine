@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IntotheRoilBase = require("../setC14/IntotheRoil");
+const IntotheRoilBase = require("../setC18/IntotheRoil");
 
 class IntotheRoil extends IntotheRoilBase {
   constructor (game) {

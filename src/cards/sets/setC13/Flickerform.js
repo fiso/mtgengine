@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const FlickerformBase = require("../setCMA/Flickerform");
 
-class Flickerform extends UnimplementedCard {
+class Flickerform extends FlickerformBase {
   constructor (game) {
-    super(game, "Flickerform", "Commander 2013 Edition", "C13");
+    super(game, "Flickerform", "Commander 2013", "C13");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HymntoTourachBase = require("../setATH/HymntoTourach");
+const HymntoTourachBase = require("../setEMA/HymntoTourach");
 
 class HymntoTourach extends HymntoTourachBase {
   constructor (game) {

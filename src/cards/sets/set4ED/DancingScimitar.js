@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DancingScimitarBase = require("../setARN/DancingScimitar");
+const DancingScimitarBase = require("../set9ED/DancingScimitar");
 
 class DancingScimitar extends DancingScimitarBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const QuirionElvesBase = require("../setBTD/QuirionElves");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class QuirionElves extends QuirionElvesBase {
+class QuirionElves extends UnimplementedCard {
   constructor (game) {
     super(game, "Quirion Elves", "Duel Decks: Phyrexia vs. the Coalition", "DDE");
   }

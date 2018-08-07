@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DarksteelForgeBase = require("../setDST/DarksteelForge");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DarksteelForge extends DarksteelForgeBase {
+class DarksteelForge extends UnimplementedCard {
   constructor (game) {
-    super(game, "Darksteel Forge", "Magic 2014 Core Set", "M14");
+    super(game, "Darksteel Forge", "Magic 2014", "M14");
   }
 }
 

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const GhostlyFlickerBase = require("../setMM3/GhostlyFlicker");
 
-class GhostlyFlicker extends UnimplementedCard {
+class GhostlyFlicker extends GhostlyFlickerBase {
   constructor (game) {
     super(game, "Ghostly Flicker", "Avacyn Restored", "AVR");
   }

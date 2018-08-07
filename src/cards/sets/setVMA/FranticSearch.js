@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FranticSearchBase = require("../setULG/FranticSearch");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class FranticSearch extends FranticSearchBase {
+class FranticSearch extends UnimplementedCard {
   constructor (game) {
     super(game, "Frantic Search", "Vintage Masters", "VMA");
   }

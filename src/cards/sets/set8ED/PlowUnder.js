@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const PlowUnderBase = require("../setWC04/PlowUnder");
 
-class PlowUnder extends UnimplementedCard {
+class PlowUnder extends PlowUnderBase {
   constructor (game) {
     super(game, "Plow Under", "Eighth Edition", "8ED");
   }

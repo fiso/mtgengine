@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AngelicChorusBase = require("../set10E/AngelicChorus");
+const AngelicChorusBase = require("../setBBD/AngelicChorus");
 
 class AngelicChorus extends AngelicChorusBase {
   constructor (game) {

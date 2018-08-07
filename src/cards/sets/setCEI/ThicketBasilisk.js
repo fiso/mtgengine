@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThicketBasiliskBase = require("../set6ED/ThicketBasilisk");
+const ThicketBasiliskBase = require("../setMED/ThicketBasilisk");
 
 class ThicketBasilisk extends ThicketBasiliskBase {
   constructor (game) {
-    super(game, "Thicket Basilisk", "International Collector's Edition", "CEI");
+    super(game, "Thicket Basilisk", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

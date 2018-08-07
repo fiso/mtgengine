@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RagingRiverBase = require("../setCED/RagingRiver");
+const RagingRiverBase = require("../setCEI/RagingRiver");
 
 class RagingRiver extends RagingRiverBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CinderWallBase = require("../setDDG/CinderWall");
+const CinderWallBase = require("../setCNS/CinderWall");
 
 class CinderWall extends CinderWallBase {
   constructor (game) {

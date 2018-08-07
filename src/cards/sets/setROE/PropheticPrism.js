@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PropheticPrismBase = require("../setGTC/PropheticPrism");
+const PropheticPrismBase = require("../setA25/PropheticPrism");
 
 class PropheticPrism extends PropheticPrismBase {
   constructor (game) {

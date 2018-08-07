@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EtchedOracleBase = require("../set5DN/EtchedOracle");
+const EtchedOracleBase = require("../setC16/EtchedOracle");
 
 class EtchedOracle extends EtchedOracleBase {
   constructor (game) {

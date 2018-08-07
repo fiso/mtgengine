@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GiantGrowthBase = require("../setATH/GiantGrowth");
+const GiantGrowthBase = require("../setBBD/GiantGrowth");
 
 class GiantGrowth extends GiantGrowthBase {
   constructor (game) {
-    super(game, "Giant Growth", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Giant Growth", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const WayfarersBaubleBase = require("../setCM2/WayfarersBauble");
 
-class WayfarersBauble extends UnimplementedCard {
+class WayfarersBauble extends WayfarersBaubleBase {
   constructor (game) {
-    super(game, "Wayfarer's Bauble", "Commander 2013 Edition", "C13");
+    super(game, "Wayfarer's Bauble", "Commander 2013", "C13");
   }
 }
 

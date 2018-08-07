@@ -4,7 +4,7 @@ const TyphoidRatsBase = require("../setFRF/TyphoidRats");
 
 class TyphoidRats extends TyphoidRatsBase {
   constructor (game) {
-    super(game, "Typhoid Rats", "Magic: The Gathering—Conspiracy", "CNS");
+    super(game, "Typhoid Rats", "Conspiracy", "CNS");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CitanulWoodreadersBase = require("../setMMA/CitanulWoodreaders");
+const CitanulWoodreadersBase = require("../setDDR/CitanulWoodreaders");
 
 class CitanulWoodreaders extends CitanulWoodreadersBase {
   constructor (game) {

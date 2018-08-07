@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShieldBearerBase = require("../setME2/ShieldBearer");
 
-class ShieldBearer extends UnimplementedCard {
+class ShieldBearer extends ShieldBearerBase {
   constructor (game) {
     super(game, "Shield Bearer", "Fifth Edition", "5ED");
   }

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const RisefromtheGraveBase = require("../setMTGA/RisefromtheGrave");
 
-class RisefromtheGrave extends UnimplementedCard {
+class RisefromtheGrave extends RisefromtheGraveBase {
   constructor (game) {
     super(game, "Rise from the Grave", "Commander 2015", "C15");
   }

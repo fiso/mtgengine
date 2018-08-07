@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ForceofNatureBase = require("../setBTD/ForceofNature");
+const ForceofNatureBase = require("../setME4/ForceofNature");
 
 class ForceofNature extends ForceofNatureBase {
   constructor (game) {
-    super(game, "Force of Nature", "Collector's Edition", "CED");
+    super(game, "Force of Nature", "Collectors’ Edition", "CED");
   }
 }
 

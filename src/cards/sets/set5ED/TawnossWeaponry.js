@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TawnossWeaponryBase = require("../setATQ/TawnossWeaponry");
+const TawnossWeaponryBase = require("../setME4/TawnossWeaponry");
 
 class TawnossWeaponry extends TawnossWeaponryBase {
   constructor (game) {

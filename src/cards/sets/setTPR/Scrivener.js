@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ScrivenerBase = require("../setEXO/Scrivener");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Scrivener extends ScrivenerBase {
+class Scrivener extends UnimplementedCard {
   constructor (game) {
     super(game, "Scrivener", "Tempest Remastered", "TPR");
   }

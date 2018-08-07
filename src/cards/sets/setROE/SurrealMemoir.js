@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const SurrealMemoirBase = require("../setIMA/SurrealMemoir");
 
-class SurrealMemoir extends UnimplementedCard {
+class SurrealMemoir extends SurrealMemoirBase {
   constructor (game) {
     super(game, "Surreal Memoir", "Rise of the Eldrazi", "ROE");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SolkanartheSwampKingBase = require("../setCHR/SolkanartheSwampKing");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SolkanartheSwampKing extends SolkanartheSwampKingBase {
+class SolkanartheSwampKing extends UnimplementedCard {
   constructor (game) {
-    super(game, "Sol'kanar the Swamp King", "Time Spiral \"Timeshifted\"", "TSB");
+    super(game, "Sol'kanar the Swamp King", "Time Spiral Timeshifted", "TSB");
   }
 }
 

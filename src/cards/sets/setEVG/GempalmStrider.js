@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const GempalmStriderBase = require("../setDD3_EVG/GempalmStrider");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class GempalmStrider extends GempalmStriderBase {
+class GempalmStrider extends UnimplementedCard {
   constructor (game) {
-    super(game, "Gempalm Strider", "Duel Decks: Elves vs. Goblins", "EVG");
+    super(game, "Gempalm Strider", "Duel Decks Anthology: Elves vs. Goblins", "EVG");
   }
 }
 

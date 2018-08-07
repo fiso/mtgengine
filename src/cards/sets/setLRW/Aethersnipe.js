@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AethersnipeBase = require("../setDD3_JVC/Aethersnipe");
+const AethersnipeBase = require("../setMM2/Aethersnipe");
 
 class Aethersnipe extends AethersnipeBase {
   constructor (game) {
-    super(game, "Æthersnipe", "Lorwyn", "LRW");
+    super(game, "Aethersnipe", "Lorwyn", "LRW");
   }
 }
 

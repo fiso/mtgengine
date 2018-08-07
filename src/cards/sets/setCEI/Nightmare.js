@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const NightmareBase = require("../set6ED/Nightmare");
+const NightmareBase = require("../setW17/Nightmare");
 
 class Nightmare extends NightmareBase {
   constructor (game) {
-    super(game, "Nightmare", "International Collector's Edition", "CEI");
+    super(game, "Nightmare", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

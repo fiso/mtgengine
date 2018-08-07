@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IslandBase = require("../setARC/Island");
+const IslandBase = require("../setC18/Island");
 
 class Island extends IslandBase {
   constructor (game) {
-    super(game, "Island", "Planechase 2012 Edition", "PC2");
+    super(game, "Island", "Planechase 2012", "PC2");
   }
 }
 

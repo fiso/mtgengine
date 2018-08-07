@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MasterofEtheriumBase = require("../setDDF/MasterofEtherium");
+const MasterofEtheriumBase = require("../setC16/MasterofEtherium");
 
 class MasterofEtherium extends MasterofEtheriumBase {
   constructor (game) {

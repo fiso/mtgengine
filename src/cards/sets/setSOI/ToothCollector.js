@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ToothCollectorBase = require("../setDDQ/ToothCollector");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class ToothCollector extends ToothCollectorBase {
+class ToothCollector extends UnimplementedCard {
   constructor (game) {
     super(game, "Tooth Collector", "Shadows over Innistrad", "SOI");
   }

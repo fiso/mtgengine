@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RuneclawBearBase = require("../setDPA/RuneclawBear");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class RuneclawBear extends RuneclawBearBase {
+class RuneclawBear extends UnimplementedCard {
   constructor (game) {
-    super(game, "Runeclaw Bear", "Magic 2015 Core Set", "M15");
+    super(game, "Runeclaw Bear", "Magic 2015", "M15");
   }
 }
 

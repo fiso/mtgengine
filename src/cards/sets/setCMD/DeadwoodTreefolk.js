@@ -4,7 +4,7 @@ const DeadwoodTreefolkBase = require("../setC13/DeadwoodTreefolk");
 
 class DeadwoodTreefolk extends DeadwoodTreefolkBase {
   constructor (game) {
-    super(game, "Deadwood Treefolk", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Deadwood Treefolk", "Commander 2011", "CMD");
   }
 }
 

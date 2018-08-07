@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const HomewardPathBase = require("../setJ17/HomewardPath");
 
-class HomewardPath extends UnimplementedCard {
+class HomewardPath extends HomewardPathBase {
   constructor (game) {
-    super(game, "Homeward Path", "Commander 2013 Edition", "C13");
+    super(game, "Homeward Path", "Commander 2013", "C13");
   }
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EphemeronBase = require("../setEXO/Ephemeron");
+const EphemeronBase = require("../setTPR/Ephemeron");
 
 class Ephemeron extends EphemeronBase {
   constructor (game) {

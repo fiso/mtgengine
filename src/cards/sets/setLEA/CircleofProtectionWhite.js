@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CircleofProtectionWhiteBase = require("../set6ED/CircleofProtectionWhite");
+const CircleofProtectionWhiteBase = require("../set8ED/CircleofProtectionWhite");
 
 class CircleofProtectionWhite extends CircleofProtectionWhiteBase {
   constructor (game) {

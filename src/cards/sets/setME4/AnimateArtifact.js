@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AnimateArtifactBase = require("../setCED/AnimateArtifact");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class AnimateArtifact extends AnimateArtifactBase {
+class AnimateArtifact extends UnimplementedCard {
   constructor (game) {
     super(game, "Animate Artifact", "Masters Edition IV", "ME4");
   }

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StripMineBase = require("../setATH/StripMine");
+const StripMineBase = require("../setEXP/StripMine");
 
 class StripMine extends StripMineBase {
   constructor (game) {

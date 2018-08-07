@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TrinisphereBase = require("../setDST/Trinisphere");
+const TrinisphereBase = require("../setMPS/Trinisphere");
 
 class Trinisphere extends TrinisphereBase {
   constructor (game) {

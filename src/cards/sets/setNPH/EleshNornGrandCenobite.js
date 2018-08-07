@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const EleshNornGrandCenobiteBase = require("../setpJGP/EleshNornGrandCenobite");
+const EleshNornGrandCenobiteBase = require("../setIMA/EleshNornGrandCenobite");
 
 class EleshNornGrandCenobite extends EleshNornGrandCenobiteBase {
   constructor (game) {

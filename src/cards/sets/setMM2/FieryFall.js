@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const FieryFallBase = require("../setCON/FieryFall");
+const FieryFallBase = require("../setE01/FieryFall");
 
 class FieryFall extends FieryFallBase {
   constructor (game) {
-    super(game, "Fiery Fall", "Modern Masters 2015 Edition", "MM2");
+    super(game, "Fiery Fall", "Modern Masters 2015", "MM2");
   }
 }
 

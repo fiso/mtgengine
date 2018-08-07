@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BrushlandBase = require("../setATH/Brushland");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Brushland extends BrushlandBase {
+class Brushland extends UnimplementedCard {
   constructor (game) {
     super(game, "Brushland", "Tenth Edition", "10E");
   }

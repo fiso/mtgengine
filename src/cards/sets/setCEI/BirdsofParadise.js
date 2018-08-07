@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BirdsofParadiseBase = require("../set6ED/BirdsofParadise");
+const BirdsofParadiseBase = require("../setCN2/BirdsofParadise");
 
 class BirdsofParadise extends BirdsofParadiseBase {
   constructor (game) {
-    super(game, "Birds of Paradise", "International Collector's Edition", "CEI");
+    super(game, "Birds of Paradise", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

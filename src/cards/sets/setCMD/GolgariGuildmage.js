@@ -4,7 +4,7 @@ const GolgariGuildmageBase = require("../setC13/GolgariGuildmage");
 
 class GolgariGuildmage extends GolgariGuildmageBase {
   constructor (game) {
-    super(game, "Golgari Guildmage", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Golgari Guildmage", "Commander 2011", "CMD");
   }
 }
 

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AridMesaBase = require("../setZEN/AridMesa");
+const AridMesaBase = require("../setMM3/AridMesa");
 
 class AridMesa extends AridMesaBase {
   constructor (game) {
-    super(game, "Arid Mesa", "Zendikar Expedition", "EXP");
+    super(game, "Arid Mesa", "Zendikar Expeditions", "EXP");
   }
 }
 

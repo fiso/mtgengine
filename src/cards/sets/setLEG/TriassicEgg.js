@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const TriassicEggBase = require("../setCHR/TriassicEgg");
+const TriassicEggBase = require("../setME4/TriassicEgg");
 
 class TriassicEgg extends TriassicEggBase {
   constructor (game) {

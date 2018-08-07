@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const BonehoardBase = require("../setC14/Bonehoard");
+const BonehoardBase = require("../setCMA/Bonehoard");
 
 class Bonehoard extends BonehoardBase {
   constructor (game) {

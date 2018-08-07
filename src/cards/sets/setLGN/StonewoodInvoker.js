@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const StonewoodInvokerBase = require("../setDD3_EVG/StonewoodInvoker");
+const StonewoodInvokerBase = require("../setEVG/StonewoodInvoker");
 
 class StonewoodInvoker extends StonewoodInvokerBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ProvokeBase = require("../setCNS/Provoke");
+const ProvokeBase = require("../setTPR/Provoke");
 
 class Provoke extends ProvokeBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SoulFeastBase = require("../set8ED/SoulFeast");
+const SoulFeastBase = require("../set10E/SoulFeast");
 
 class SoulFeast extends SoulFeastBase {
   constructor (game) {

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcyManipulatorBase = require("../setCED/IcyManipulator");
+const IcyManipulatorBase = require("../setDOM/IcyManipulator");
 
 class IcyManipulator extends IcyManipulatorBase {
   constructor (game) {
-    super(game, "Icy Manipulator", "International Collector's Edition", "CEI");
+    super(game, "Icy Manipulator", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

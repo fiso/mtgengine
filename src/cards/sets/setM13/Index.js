@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IndexBase = require("../setAPC/Index");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class Index extends IndexBase {
+class Index extends UnimplementedCard {
   constructor (game) {
     super(game, "Index", "Magic 2013", "M13");
   }

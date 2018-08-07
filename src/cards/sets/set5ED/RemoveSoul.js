@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const RemoveSoulBase = require("../setCHR/RemoveSoul");
+const RemoveSoulBase = require("../setME3/RemoveSoul");
 
 class RemoveSoul extends RemoveSoulBase {
   constructor (game) {

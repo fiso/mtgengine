@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MazeofIthBase = require("../setV12/MazeofIth");
+const MazeofIthBase = require("../setEMA/MazeofIth");
 
 class MazeofIth extends MazeofIthBase {
   constructor (game) {

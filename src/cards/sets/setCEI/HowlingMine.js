@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HowlingMineBase = require("../set6ED/HowlingMine");
+const HowlingMineBase = require("../setC16/HowlingMine");
 
 class HowlingMine extends HowlingMineBase {
   constructor (game) {
-    super(game, "Howling Mine", "International Collector's Edition", "CEI");
+    super(game, "Howling Mine", "Intl. Collectors’ Edition", "CEI");
   }
 }
 

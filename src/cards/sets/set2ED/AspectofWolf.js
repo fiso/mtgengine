@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AspectofWolfBase = require("../setCED/AspectofWolf");
+const AspectofWolfBase = require("../setPZ2/AspectofWolf");
 
 class AspectofWolf extends AspectofWolfBase {
   constructor (game) {

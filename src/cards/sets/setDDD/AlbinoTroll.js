@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const AlbinoTrollBase = require("../setDD3_GVL/AlbinoTroll");
+const AlbinoTrollBase = require("../setGVL/AlbinoTroll");
 
 class AlbinoTroll extends AlbinoTrollBase {
   constructor (game) {

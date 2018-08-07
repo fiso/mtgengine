@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DeathCloudBase = require("../setDST/DeathCloud");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DeathCloud extends DeathCloudBase {
+class DeathCloud extends UnimplementedCard {
   constructor (game) {
     super(game, "Death Cloud", "Modern Masters", "MMA");
   }

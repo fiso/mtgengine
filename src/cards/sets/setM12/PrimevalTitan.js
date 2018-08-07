@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PrimevalTitanBase = require("../setpGPX/PrimevalTitan");
+const PrimevalTitanBase = require("../setIMA/PrimevalTitan");
 
 class PrimevalTitan extends PrimevalTitanBase {
   constructor (game) {

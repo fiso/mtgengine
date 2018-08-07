@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const WallofDenialBase = require("../setARB/WallofDenial");
+const WallofDenialBase = require("../setMM3/WallofDenial");
 
 class WallofDenial extends WallofDenialBase {
   constructor (game) {
-    super(game, "Wall of Denial", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Wall of Denial", "Commander 2011", "CMD");
   }
 }
 

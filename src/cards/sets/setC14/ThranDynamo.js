@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const ThranDynamoBase = require("../setARC/ThranDynamo");
+const ThranDynamoBase = require("../setIMA/ThranDynamo");
 
 class ThranDynamo extends ThranDynamoBase {
   constructor (game) {

@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const MosswortBridgeBase = require("../setARC/MosswortBridge");
+const MosswortBridgeBase = require("../setC18/MosswortBridge");
 
 class MosswortBridge extends MosswortBridgeBase {
   constructor (game) {

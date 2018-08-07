@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IndexBase = require("../setAPC/Index");
+const IndexBase = require("../setM13/Index");
 
 class Index extends IndexBase {
   constructor (game) {

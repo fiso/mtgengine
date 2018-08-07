@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const IcatianPriestBase = require("../setDD3_DVD/IcatianPriest");
+const IcatianPriestBase = require("../setDVD/IcatianPriest");
 
 class IcatianPriest extends IcatianPriestBase {
   constructor (game) {

@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const MysticEnforcerBase = require("../setTSB/MysticEnforcer");
 
-class MysticEnforcer extends UnimplementedCard {
+class MysticEnforcer extends MysticEnforcerBase {
   constructor (game) {
     super(game, "Mystic Enforcer", "Odyssey", "ODY");
   }

@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const DominusofFealtyBase = require("../setEVE/DominusofFealty");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class DominusofFealty extends DominusofFealtyBase {
+class DominusofFealty extends UnimplementedCard {
   constructor (game) {
-    super(game, "Dominus of Fealty", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Dominus of Fealty", "Commander 2011", "CMD");
   }
 }
 

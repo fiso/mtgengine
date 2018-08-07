@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const HammerfistGiantBase = require("../setC15/HammerfistGiant");
+const HammerfistGiantBase = require("../setCM2/HammerfistGiant");
 
 class HammerfistGiant extends HammerfistGiantBase {
   constructor (game) {

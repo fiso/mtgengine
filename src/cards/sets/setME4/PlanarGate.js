@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PlanarGateBase = require("../setLEG/PlanarGate");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class PlanarGate extends PlanarGateBase {
+class PlanarGate extends UnimplementedCard {
   constructor (game) {
     super(game, "Planar Gate", "Masters Edition IV", "ME4");
   }

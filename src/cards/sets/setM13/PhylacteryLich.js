@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const PhylacteryLichBase = require("../setM11/PhylacteryLich");
+const PhylacteryLichBase = require("../setM19/PhylacteryLich");
 
 class PhylacteryLich extends PhylacteryLichBase {
   constructor (game) {

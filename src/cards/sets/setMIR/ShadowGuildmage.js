@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShadowGuildmageBase = require("../setTSB/ShadowGuildmage");
 
-class ShadowGuildmage extends UnimplementedCard {
+class ShadowGuildmage extends ShadowGuildmageBase {
   constructor (game) {
     super(game, "Shadow Guildmage", "Mirage", "MIR");
   }

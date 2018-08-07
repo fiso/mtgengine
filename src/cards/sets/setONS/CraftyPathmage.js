@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const CraftyPathmageBase = require("../set9ED/CraftyPathmage");
+const CraftyPathmageBase = require("../set10E/CraftyPathmage");
 
 class CraftyPathmage extends CraftyPathmageBase {
   constructor (game) {

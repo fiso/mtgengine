@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+const ShatterstormBase = require("../setMP2/Shatterstorm");
 
-class Shatterstorm extends UnimplementedCard {
+class Shatterstorm extends ShatterstormBase {
   constructor (game) {
     super(game, "Shatterstorm", "Antiquities", "ATQ");
   }

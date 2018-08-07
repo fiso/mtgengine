@@ -4,7 +4,7 @@ const AjaniVengeantBase = require("../setDDH/AjaniVengeant");
 
 class AjaniVengeant extends AjaniVengeantBase {
   constructor (game) {
-    super(game, "Ajani Vengeant", "Prerelease Events", "pPRE");
+    super(game, "Ajani Vengeant", "Prerelease Events", "PPRE");
   }
 }
 

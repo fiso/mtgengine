@@ -1,10 +1,10 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VividGroveBase = require("../setC13/VividGrove");
+const VividGroveBase = require("../setC17/VividGrove");
 
 class VividGrove extends VividGroveBase {
   constructor (game) {
-    super(game, "Vivid Grove", "Magic: The Gathering-Commander", "CMD");
+    super(game, "Vivid Grove", "Commander 2011", "CMD");
   }
 }
 

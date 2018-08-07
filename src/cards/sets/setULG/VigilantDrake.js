@@ -1,6 +1,6 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const VigilantDrakeBase = require("../setBTD/VigilantDrake");
+const VigilantDrakeBase = require("../set7ED/VigilantDrake");
 
 class VigilantDrake extends VigilantDrakeBase {
   constructor (game) {

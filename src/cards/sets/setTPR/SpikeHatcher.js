@@ -1,8 +1,8 @@
 "use strict";
 const Constants = require ("../../../Constants");
-const SpikeHatcherBase = require("../setEXO/SpikeHatcher");
+const UnimplementedCard = require("../../UnimplementedCard");
 
-class SpikeHatcher extends SpikeHatcherBase {
+class SpikeHatcher extends UnimplementedCard {
   constructor (game) {
     super(game, "Spike Hatcher", "Tempest Remastered", "TPR");
   }
