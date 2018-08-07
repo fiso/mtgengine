@@ -85,7 +85,6 @@ class Permanent extends MTGObject {
   tapOrUntap () {
     let targetState = this._tapState === Constants.tapStates.TAPPED ? Constants.tapStates.UNTAPPED : Constants.tapStates.TAPPED;
     let gameAction = targetState === Constants.tapStates.TAPPED ? GameActions.TAP_PERMANENT : GameActions.UNTAP_PERMANENT;
-    let output = targetState === Constants.tapStates.TAPPED ? Outputs.PERMANENT_TAPPED : Outputs.PERMANENT_UNTAPPED;
     if (this._game.performGameAction(gameAction, {permanent: this})) {
       this._game.log("Toggling tap state for " + this._card._name);
       this._tapState = targetState;

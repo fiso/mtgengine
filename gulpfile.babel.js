@@ -4,7 +4,6 @@ var gutil = require('gulp-util');
 var tap = require('gulp-tap');
 var buffer = require('gulp-buffer');
 var sourcemaps = require('gulp-sourcemaps');
-var uglify = require('gulp-uglify');
 
 gulp.task('sets', function () {
   return gulp.src('src/cards/sets/**/set.js', {read: false}) // no need to read file because browserify does it

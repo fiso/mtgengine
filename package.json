@@ -1,9 +1,16 @@
 {
   "name": "mtgengine",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "browser": "browser.js",
+  "version": "0.1.0",
+  "description": "An attempt at building a fully accurate simulation of the rules of Magic: The Gathering.",
+  "author": "Filip Haglund",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fiso/mtgengine.git"
+  },
   "dependencies": {
     "cross-fetch": "^2.2.2",
     "mocha": "^2.4.5",
@@ -22,14 +29,5 @@
     "gulp-uglify": "^1.5.3",
     "merge-stream": "^1.0.0",
     "watchify": "^3.7.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fiso/mtgengine.git"
-  },
-  "author": "Filip Söderholm",
-  "license": "ISC"
+  }
 }
