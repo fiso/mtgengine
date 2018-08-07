@@ -1,7 +1,7 @@
-const Game = require("./src/Game");
-const Constants = require("./src/Constants");
-const Inputs = require("./src/Inputs");
-const Deck = require("./src/Deck");
+const Game = require("./engine/Game");
+const Constants = require("./engine/Constants");
+const Inputs = require("./engine/Inputs");
+const Deck = require("./engine/Deck");
 
 async function testGame () {
   try {
