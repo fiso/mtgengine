@@ -1,0 +1,57 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint:recommended", "google"],
+
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "rules": {
+    "block-scoped-var": "error",
+    "brace-style": ["error", "1tbs"],
+    "consistent-return": "error",
+    "curly": ["error", "all"],
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": ["error", {"before": false, "after": true}],
+    "default-case": "error",
+    "dot-notation": "error",
+    "eqeqeq": "error",
+    "guard-for-in": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-extend-native": "off",
+    "no-extra-parens": "error",
+    "no-extra-semi": "error",
+    "no-irregular-whitespace": "error",
+    "no-unreachable": "error",
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "none",
+      "ignoreRestSiblings": false,
+      "varsIgnorePattern": "^_"
+    }],
+    "no-multiple-empty-lines": ["error", {
+      "max": 1,
+      "maxEOF": 0,
+      "maxBOF": 0
+    }],
+    "prefer-const": "error",
+    "radix": "error",
+    "require-jsdoc": "off",
+    "sort-imports": ["error", {
+      "ignoreCase": true,
+      "memberSyntaxSortOrder": ["all", "multiple", "single", "none"]
+    }],
+    "space-before-function-paren": ["error", "always"],
+    "space-infix-ops": "error",
+    "valid-typeof": "error",
+    "quotes": ["error", "single", {"avoidEscape": true}]
+  }
+}

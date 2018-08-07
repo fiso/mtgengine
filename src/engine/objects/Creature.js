@@ -1,5 +1,7 @@
-"use strict";
-const Permanent = require("./Permanent");
+'use strict';
+const assert = require('assert');
+const Constants = require('../Constants');
+const Permanent = require('./Permanent');
 
 class Creature extends Permanent {
     constructor (game, owner, controller, card, power, toughness) {
@@ -14,15 +16,19 @@ class Creature extends Permanent {
 
     get power () {
         let power = this._basePower;
-        power += this.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
-        power -= this.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+        power += this.getCountersOfType(
+          Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+        power -= this.getCountersOfType(
+          Constants.counterTypes.MINUS_ONE_MINUS_ONE);
         return power;
     }
 
     get toughness () {
         let toughness = this._baseToughness;
-        toughness += this.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
-        toughness -= this.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+        toughness += this.getCountersOfType(
+          Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+        toughness -= this.getCountersOfType(
+          Constants.counterTypes.MINUS_ONE_MINUS_ONE);
         return toughness;
     }
 
@@ -60,8 +66,9 @@ class Creature extends Permanent {
 
     startBlocking (attacker) {
         if (this._blocking.indexOf(attacker) !== -1) {
-            this._game.log("Warning: startBlocking called twice for the same attacker");
-            return;
+            this._game.log(
+              'Warning: startBlocking called twice for the same attacker');
+            return true;
         }
 
         if (this._blocking.length >= this._maxCreaturesToBlock) {
@@ -73,7 +80,7 @@ class Creature extends Permanent {
     }
 
     stopBlocking (attacker) {
-        let index = this._blocking.indexOf(attacker);
+        const index = this._blocking.indexOf(attacker);
         assert(index !== -1);
         this._blocking.splice(index, 1);
     }

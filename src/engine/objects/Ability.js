@@ -1,8 +1,8 @@
-"use strict";
-const MTGObject = require("./MTGObject");
+'use strict';
+const MTGObject = require('./MTGObject');
 
 class Ability extends MTGObject {
-  constructor(game, ability, controller, source, targets) {
+  constructor (game, ability, controller, source, targets) {
     super(game);
     this._ability = ability;
     this._controller = controller;

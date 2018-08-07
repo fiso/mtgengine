@@ -1,8 +1,8 @@
-"use strict";
-const MTGObject = require("./MTGObject");
-const Constants = require("../Constants");
-const GameActions = require("../GameActions");
-const Outputs = require("../Outputs");
+'use strict';
+const MTGObject = require('./MTGObject');
+const Constants = require('../Constants');
+const GameActions = require('../GameActions');
+const Outputs = require('../Outputs');
 
 class Permanent extends MTGObject {
   constructor (game, owner, controller, card) {
@@ -54,17 +54,14 @@ class Permanent extends MTGObject {
     this._owner._graveyard.addObject(this._card);
   }
 
-  isControlledBy (player) {
-    return this._controller === player;
-  }
-
   tap () {
     if (this._tapState === Constants.tapStates.TAPPED) {
       return;
     }
 
-    if (this._game.performGameAction(GameActions.TAP_PERMANENT, {permanent: this})) {
-      this._game.log("Tapping " + this._card._name);
+    if (this._game.performGameAction(GameActions.TAP_PERMANENT,
+      {permanent: this})) {
+      this._game.log('Tapping ' + this._card._name);
       this._tapState = Constants.tapStates.TAPPED;
       this._game.addOutput(Outputs.PERMANENT_TAPPED, {permanent: this});
     }
@@ -75,18 +72,21 @@ class Permanent extends MTGObject {
       return;
     }
 
-    if (this._game.performGameAction(GameActions.UNTAP_PERMANENT, {permanent: this})) {
-      this._game.log("Untapping " + this._card._name);
+    if (this._game.performGameAction(GameActions.UNTAP_PERMANENT,
+      {permanent: this})) {
+      this._game.log('Untapping ' + this._card._name);
       this._tapState = Constants.tapStates.UNTAPPED;
       this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});
     }
   }
 
   tapOrUntap () {
-    let targetState = this._tapState === Constants.tapStates.TAPPED ? Constants.tapStates.UNTAPPED : Constants.tapStates.TAPPED;
-    let gameAction = targetState === Constants.tapStates.TAPPED ? GameActions.TAP_PERMANENT : GameActions.UNTAP_PERMANENT;
+    const targetState = this._tapState === Constants.tapStates.TAPPED
+      ? Constants.tapStates.UNTAPPED : Constants.tapStates.TAPPED;
+    const gameAction = targetState === Constants.tapStates.TAPPED
+      ? GameActions.TAP_PERMANENT : GameActions.UNTAP_PERMANENT;
     if (this._game.performGameAction(gameAction, {permanent: this})) {
-      this._game.log("Toggling tap state for " + this._card._name);
+      this._game.log('Toggling tap state for ' + this._card._name);
       this._tapState = targetState;
       this._game.addOutput(Outputs.PERMANENT_UNTAPPED, {permanent: this});
     }

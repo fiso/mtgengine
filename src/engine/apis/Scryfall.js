@@ -1,6 +1,6 @@
-"use strict";
-const fetch = require("cross-fetch");
-const CardFetcher = require("./CardFetcher");
+'use strict';
+const fetch = require('cross-fetch');
+const CardFetcher = require('./CardFetcher');
 
 class Scryfall extends CardFetcher {
   constructor () {
@@ -9,7 +9,7 @@ class Scryfall extends CardFetcher {
   }
 
   getCard (cardName, setName, setCode, forceFetch) {
-    let keyName = this.getKeyName("getCard", cardName);
+    const keyName = this.getKeyName('getCard', cardName);
 
     if (this._pendingRequests[keyName]) {
       return this._pendingRequests[keyName];

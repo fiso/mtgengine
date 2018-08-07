@@ -1,17 +1,15 @@
-"use strict";
-const fetch = require("cross-fetch");
-const fs = require("fs");
-const http = require("http");
-const Utils = require("./Utils");
-const assert = require("assert");
-const url = require("url");
+'use strict';
+const fetch = require('cross-fetch');
+const fs = require('fs');
+const Utils = require('./Utils');
+const assert = require('assert');
 
 function DeckboxScraper (html) {
   let scraped = html;
-  scraped = html.slice(html.toLowerCase().indexOf("<body>"));
-  scraped = Utils.replaceAll(scraped, "<br/>", "\n");
-  scraped = Utils.replaceAll(scraped, "<br />", "\n");
-  scraped = Utils.replaceAll(scraped, "<br>", "\n");
+  scraped = html.slice(html.toLowerCase().indexOf('<body>'));
+  scraped = Utils.replaceAll(scraped, '<br/>', '\n');
+  scraped = Utils.replaceAll(scraped, '<br />', '\n');
+  scraped = Utils.replaceAll(scraped, '<br>', '\n');
   scraped = Utils.stripTags(scraped);
   return scraped;
 }
@@ -19,7 +17,7 @@ function DeckboxScraper (html) {
 class DeckLoader {
   constructor () {
     if (new.target === DeckLoader) {
-      throw new TypeError("DeckLoader is not to be used directly");
+      throw new TypeError('DeckLoader is not to be used directly');
     }
 
     this._mainDeck = [];
@@ -33,20 +31,20 @@ class DeckLoader {
   }
 
   parseFile (fileContents) {
-    let rows = fileContents.split("\n");
+    const rows = fileContents.split('\n');
     let target = this._mainDeck;
-    for (let row of rows) {
+    for (const row of rows) {
       let count = 1;
       let item = row.trim();
-      if (Utils.isNumeric(item.split(" ")[0])) {
-        count = parseInt(item.split(" ")[0]);
-        item = item.split(" ").slice(1).join(" ");
-      } else if (item.toUpperCase().indexOf("SIDEBOARD") === 0) {
+      if (Utils.isNumeric(item.split(' ')[0])) {
+        count = parseInt(item.split(' ')[0], 10);
+        item = item.split(' ').slice(1).join(' ');
+      } else if (item.toUpperCase().indexOf('SIDEBOARD') === 0) {
         target = this._sideboard;
         continue;
       }
 
-      item = item.replace("\r", "")
+      item = item.replace('\r', '');
 
       if (item.length < 1) {
         continue;
@@ -76,7 +74,7 @@ class DeckLoader {
 class FSLoader extends DeckLoader {
   constructor (filename) {
     super();
-    this.parseFile(fs.readFileSync(filename, "utf8"));
+    this.parseFile(fs.readFileSync(filename, 'utf8'));
   }
 }
 
@@ -122,5 +120,5 @@ class Deck {
 }
 
 module.exports = {
-  Deck, DeckLoader, FSLoader, HTTPLoader, StringLoader, DeckboxScraper
+  Deck, DeckLoader, FSLoader, HTTPLoader, StringLoader, DeckboxScraper,
 };

@@ -1,9 +1,8 @@
-"use strict";
-const Constants = require ("../../../Constants");
+'use strict';
 ___REQUIRES___
 class ___CLASSNAME___ extends ___BASECLASS___ {
   constructor (game) {
-    super(game, "___CARDNAME___", "___SETNAME___", "___SETCODE___");
+    super(game, '___CARDNAME___', '___SETNAME___', '___SETCODE___');
   }
 }
 

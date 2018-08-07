@@ -1,6 +1,5 @@
-"use strict";
-const MTGObject = require("./MTGObject");
-const Constants = require ("../Constants");
+'use strict';
+const MTGObject = require('./MTGObject');
 
 class Token extends MTGObject {
   constructor (game) {

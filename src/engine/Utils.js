@@ -1,6 +1,6 @@
-"use strict";
-const Constants = require("./Constants");
-const assert = require("assert");
+'use strict';
+const Constants = require('./Constants');
+const assert = require('assert');
 
 function isNumeric (n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
@@ -18,7 +18,7 @@ function getCostTypeFromToken (token) {
 function shuffle (array) {
   // https://github.com/coolaj86/knuth-shuffle
 
-  var currentIndex = array.length, temporaryValue, randomIndex;
+  let currentIndex = array.length; var temporaryValue; var randomIndex;
 
   while (0 !== currentIndex) {
     randomIndex = Math.floor(Math.random() * currentIndex);
@@ -33,13 +33,13 @@ function shuffle (array) {
 }
 
 function replaceAll (string, search, replacement) {
-    return string.split(search).join(replacement);  
+    return string.split(search).join(replacement);
 }
 
 function stripTags (string) {
-  return string.replace(/<\/?[^>]+(>|$)/g, "");
+  return string.replace(/<\/?[^>]+(>|$)/g, '');
 }
 
 module.exports = {
-  isNumeric, getCostTypeFromToken, shuffle, replaceAll, stripTags
+  isNumeric, getCostTypeFromToken, shuffle, replaceAll, stripTags,
 };

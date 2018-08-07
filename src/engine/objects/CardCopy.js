@@ -1,5 +1,5 @@
-"use strict";
-const MTGObject = require("./MTGObject");
+'use strict';
+const MTGObject = require('./MTGObject');
 
 class CardCopy extends MTGObject {
   constructor (game) {

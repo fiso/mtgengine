@@ -1,6 +1,5 @@
-"use strict";
-const Card = require("../objects/Card");
-const assert = require("assert");
+'use strict';
+const Card = require('../objects/Card');
 
 class UnimplementedCard extends Card {
   constructor (game, name, set, setCode) {

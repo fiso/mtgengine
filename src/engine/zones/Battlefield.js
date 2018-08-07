@@ -1,16 +1,17 @@
-"use strict";
-const Zone = require("./Zone");
-const Constants = require("../Constants");
-const assert = require("assert");
+'use strict';
+const Zone = require('./Zone');
+const Constants = require('../Constants');
+const assert = require('assert');
 
 class Battlefield extends Zone {
   constructor (game) {
-    super(game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED, null, Constants.zoneIdentifiers.BATTLEFIELD);
+    super(game, Constants.zoneTypes.PUBLIC, Constants.zoneOwnership.SHARED,
+      null, Constants.zoneIdentifiers.BATTLEFIELD);
   }
 
   get creatures () {
-    let creatures = [];
-    for (let permanent of this._objects) {
+    const creatures = [];
+    for (const permanent of this._objects) {
       if (permanent.isCreature()) {
         creatures.push(permanent);
       }
@@ -22,18 +23,22 @@ class Battlefield extends Zone {
   performStateBasedActions () {
     let actionsPerformed = 0;
 
-    for (let permanent of this._objects) {
-      let p1p1 = permanent.getCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE);
-      let m1m1 = permanent.getCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE);
+    for (const permanent of this._objects) {
+      const p1p1 = permanent.getCountersOfType(
+        Constants.counterTypes.PLUS_ONE_PLUS_ONE);
+      const m1m1 = permanent.getCountersOfType(
+        Constants.counterTypes.MINUS_ONE_MINUS_ONE);
       while (p1p1 > 0 && m1m1 > 0) {
-        let lowestAmount = Math.min(m1m1, p1p1);
-        permanent.removeCountersOfType(Constants.counterTypes.PLUS_ONE_PLUS_ONE, lowestAmount);
-        permanent.removeCountersOfType(Constants.counterTypes.MINUS_ONE_MINUS_ONE, lowestAmount);
+        const lowestAmount = Math.min(m1m1, p1p1);
+        permanent.removeCountersOfType(
+          Constants.counterTypes.PLUS_ONE_PLUS_ONE, lowestAmount);
+        permanent.removeCountersOfType(
+          Constants.counterTypes.MINUS_ONE_MINUS_ONE, lowestAmount);
         actionsPerformed++;
       }
     }
 
-    for (let creature of this.creatures) {
+    for (const creature of this.creatures) {
       assert(creature.isCreature());
 
       let shouldDie = false;
@@ -41,7 +46,8 @@ class Battlefield extends Zone {
         shouldDie = true;
       }
       if (creature.hasLethalDamage() &&
-          !creature.hasKeywordAbility(Constants.keywordAbilities.INDESTRUCTIBLE)) {
+          !creature.hasKeywordAbility(
+            Constants.keywordAbilities.INDESTRUCTIBLE)) {
         shouldDie = true;
       }
 
@@ -55,7 +61,7 @@ class Battlefield extends Zone {
   }
 
   dealCombatDamage () {
-    for (let creature of this.creatures) {
+    for (const creature of this.creatures) {
       if (creature.isAttacking()) {
         // FIXME: Handle damage assignment
 
@@ -77,15 +83,15 @@ class Battlefield extends Zone {
   }
 
   resetAttackersAndBlockers () {
-    for (let creature of this.creatures) {
+    for (const creature of this.creatures) {
       creature.attacking = null;
       creature.resetBlocking();
     }
   }
 
   onCleanup () {
-    let actionsPerformed = 0;
-    for (let permanent of this._objects) {
+    const actionsPerformed = 0;
+    for (const permanent of this._objects) {
       permanent.onCleanup();
     }
 
@@ -93,8 +99,8 @@ class Battlefield extends Zone {
   }
 
   getPermanentsControlledByPlayer (player) {
-    let permanents = [];
-    for (let permanent of this._objects) {
+    const permanents = [];
+    for (const permanent of this._objects) {
       if (permanent.isControlledBy(player)) {
         permanents.push(permanent);
       }
@@ -104,8 +110,8 @@ class Battlefield extends Zone {
   }
 
   getPermanentsOwnedByPlayer (player) {
-    let permanents = [];
-    for (let permanent of this._objects) {
+    const permanents = [];
+    for (const permanent of this._objects) {
       if (permanent.isOwnedBy(player)) {
         permanents.push(permanent);
       }

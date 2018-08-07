@@ -1,12 +1,12 @@
-"use strict";
-const assert = require("assert");
+'use strict';
+const assert = require('assert');
 
 class MTGObject {
   constructor (game) {
     assert(game);
     this._game = game;
     this._zone = undefined;
-    this._guid = game.getGuid("object");
+    this._guid = game.getGuid('object');
     this._counters = {};
   }
 
