@@ -1,5 +1,4 @@
 "use strict";
-const _ = require("underscore");
 const MTGObject = require("./MTGObject");
 const Constants = require("../Constants");
 const assert = require("assert");

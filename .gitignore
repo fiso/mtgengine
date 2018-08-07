@@ -1,5 +1,6 @@
 node_modules/
 coverage/
+.vscode/
 src/simplefrontend/js/bundle.js
 src/simplefrontend/js/bundles/**
 scripts/stub_generation/output/*
