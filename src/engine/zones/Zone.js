@@ -37,6 +37,17 @@ class Zone {
     return this._objects;
   }
 
+  getTypesInZone () {
+    return [...new Set(this._objects.reduce(
+      (acc, object) => {
+        if (!Array.isArray(object._types)) {
+          return acc;
+        }
+        return acc.concat(object._types);
+      }, []
+    ))];
+  }
+
   removeObject (object) {
     const index = this._objects.indexOf(object);
     if (index === -1) {

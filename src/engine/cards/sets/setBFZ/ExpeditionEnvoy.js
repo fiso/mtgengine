@@ -1,10 +1,11 @@
-"use strict";
-const Card = require("../../../objects/Card");
+'use strict';
+const Card = require('../../../objects/Card');
+const Creature = require('../../../objects/Creature');
 
 class ExpeditionEnvoy extends Card {
   constructor (game) {
-    super(game, "Expedition Envoy", "Battle for Zendikar", "BFZ");
-    this.cost = "{W}";
+    super(game, 'Expedition Envoy', 'Battle for Zendikar', 'BFZ');
+    this.cost = '{W}';
   }
 
   resolve (controller) {

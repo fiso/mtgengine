@@ -1,10 +1,11 @@
-"use strict";
-const Card = require("../../../objects/Card");
+'use strict';
+const Card = require('../../../objects/Card');
+const Creature = require('../../../objects/Creature');
 
 class KrakenHatchling extends Card {
   constructor (game) {
-    super(game, "Kraken Hatchling", "Battlebond", "BBD");
-    this.cost = "{U}";
+    super(game, 'Kraken Hatchling', 'Battlebond', 'BBD');
+    this.cost = '{U}';
   }
 
   resolve (controller) {

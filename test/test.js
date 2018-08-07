@@ -1,26 +1,31 @@
-"use strict";
+/* global describe, it */
+'use strict';
 const assert = require('assert');
-const Constants = require("../src/engine/Constants");
-const Permanent = require("../src/engine/objects/Permanent");
-const BasicMountain = require("../src/engine/cards/sets/setATH/Mountain");
-const NessianCourser = require("../src/engine/cards/sets/setTHS/NessianCourser");
-const UnimplementedCard = require("../src/engine/cards/UnimplementedCard");
-const Game = require("../src/engine/Game");
-const Cost = require("../src/engine/Cost");
-const Deck = require("../src/engine/Deck");
-const Scryfall = require("../src/engine/apis/Scryfall");
+const Constants = require('../src/engine/Constants');
+const Permanent = require('../src/engine/objects/Permanent');
+const BasicMountain = require('../src/engine/cards/sets/setATH/Mountain');
+const NessianCourser = require(
+  '../src/engine/cards/sets/setTHS/NessianCourser');
+const Tarmogoyf = require('../src/engine/cards/sets/setMM3/Tarmogoyf');
+const UnimplementedCard = require('../src/engine/cards/UnimplementedCard');
+const Game = require('../src/engine/Game');
+const Cost = require('../src/engine/Cost');
+const Deck = require('../src/engine/Deck');
+const Scryfall = require('../src/engine/apis/Scryfall');
 
-let cardApi = new Scryfall();
+const cardApi = new Scryfall();
 
-describe('Card', function() {
-  let game = new Game.Game(2, 0, true,
-    [new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/kikichord.txt")),
-     new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/monored.txt"))], cardApi);
+describe('Card', function () {
+  const game = new Game.Game(2, 0, true,
+    [new Deck.Deck(new Deck.FSLoader(
+      __dirname + '/../decklists/kikichord.txt')),
+     new Deck.Deck(new Deck.FSLoader(
+       __dirname + '/../decklists/monored.txt'))], cardApi);
 
   describe('# isBasicLand()', function () {
     it('Should identify basic land cards', function (done) {
-      let card1 = new BasicMountain(game);
-      let card2 = new UnimplementedCard(game, "Force of Will");
+      const card1 = new BasicMountain(game);
+      const card2 = new UnimplementedCard(game, 'Force of Will');
       Promise.all([card1.ready(), card2.ready()]).then(() => {
         assert(card1.isBasicLand());
         assert(!card2.isBasicLand());
@@ -31,10 +36,10 @@ describe('Card', function() {
 
   describe('# sharesAnyTypesWith()', function () {
     it('Should recognize cards that share types (or not)', function (done) {
-      let card1 = new BasicMountain(game);
-      let card2 = new UnimplementedCard(game, "Plains");
-      let card3 = new UnimplementedCard(game, "Tarmogoyf");
-      let card4 = new UnimplementedCard(game, "Psychatog");
+      const card1 = new BasicMountain(game);
+      const card2 = new UnimplementedCard(game, 'Plains');
+      const card3 = new UnimplementedCard(game, 'Tarmogoyf');
+      const card4 = new UnimplementedCard(game, 'Psychatog');
       Promise.all([card1.ready(), card2.ready(),
       card3.ready(), card4.ready()]).then(() => {
         assert(card1.sharesAnyTypesWith(card2));
@@ -48,23 +53,51 @@ describe('Card', function() {
 
   describe('# Types', function () {
     it('Should get card types from the API', function (done) {
-      let card = new NessianCourser(game);
+      const card = new NessianCourser(game);
       card.ready().then(() => {
         assert(card.hasType(Constants.cardTypes.CREATURE));
-        assert(card.hasType("CENTAUR"));
-        assert(card.hasType("WARRIOR"));
+        assert(card.hasType('CENTAUR'));
+        assert(card.hasType('WARRIOR'));
         done();
+      });
+    });
+  });
+
+  describe('# Tarmogoyf', function () {
+    it('Should be just a dude', function (done) {
+      const card = new Tarmogoyf(game);
+      Promise.all([card.ready(), game.ready()]).then(() => {
+        assert(card.hasType(Constants.cardTypes.CREATURE));
+        assert(card.hasType('LHURGOYF'));
+        const p0 = game._players[0];
+        const creature = card.resolve(p0);
+
+        const cards = [
+          new BasicMountain(game),
+          new NessianCourser(game),
+          new Tarmogoyf(game),
+        ];
+
+        Promise.all(cards.map((c) => c.ready())).then(() => {
+          for (const c of cards) {
+            p0._graveyard.addObject(c);
+          }
+          assert(creature.power === 2);
+          assert(creature.toughness === 3);
+          done();
+        });
       });
     });
   });
 });
 
-describe('Permanent', function() {
-  let game = new Game.Game(2, 0, true,
-    [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
-  let card = new BasicMountain(game);
-  let permanent = new Permanent(game, game._players[0], game._players[0], card);
+describe('Permanent', function () {
+  const game = new Game.Game(2, 0, true,
+    [new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt')),
+     new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'))], cardApi);
+  const card = new BasicMountain(game);
+  const permanent = new Permanent(game, game._players[0], game._players[0],
+    card);
 
   describe('# tap()', function () {
     it('Should make the permanent tapped', function () {
@@ -90,37 +123,38 @@ describe('Permanent', function() {
   });
 });
 
-describe('Cost', function() {
+describe('Cost', function () {
   describe('# cmc()', function () {
     it('Should understand cmc of costs', function () {
-      assert(new Cost("{2}{B}{B}").cmc === 4);
-      assert(new Cost("{4}").cmc === 4);
-      assert(new Cost("{X}").cmc === 0);
-      assert(new Cost("{X}{X}").cmc === 0);
-      assert(new Cost("{UB}{UB}").cmc === 2);
-      assert(new Cost("{W2}{W2}{W2}").cmc === 6);
-      assert(new Cost("{2}{C}").cmc === 3);
-      assert(new Cost("{C}{C}").cmc === 2);
-      assert(new Cost("{C}{C}").cmc === new Cost("{C}{C}{T}{Q}").cmc);
-      let allSymbols = "{C}{W}{U}{B}{R}{G}{W2}{U2}{B2}{R2}{G2}{P}{WP}{UP}{BP}{RP}{GP}{X}{Y}{Z}{S}{BG}{BR}{GU}{GW}{RG}{RW}{UB}{UR}{WB}{WU}";
+      assert(new Cost('{2}{B}{B}').cmc === 4);
+      assert(new Cost('{4}').cmc === 4);
+      assert(new Cost('{X}').cmc === 0);
+      assert(new Cost('{X}{X}').cmc === 0);
+      assert(new Cost('{UB}{UB}').cmc === 2);
+      assert(new Cost('{W2}{W2}{W2}').cmc === 6);
+      assert(new Cost('{2}{C}').cmc === 3);
+      assert(new Cost('{C}{C}').cmc === 2);
+      assert(new Cost('{C}{C}').cmc === new Cost('{C}{C}{T}{Q}').cmc);
+      // eslint-disable-next-line max-len
+      const allSymbols = '{C}{W}{U}{B}{R}{G}{W2}{U2}{B2}{R2}{G2}{P}{WP}{UP}{BP}{RP}{GP}{X}{Y}{Z}{S}{BG}{BR}{GU}{GW}{RG}{RW}{UB}{UR}{WB}{WU}';
       assert(new Cost(allSymbols).cmc === 33);
-      assert(new Cost(allSymbols + "{15}").cmc === 48);
-      assert(new Cost("{1500}").cmc === 1500);
+      assert(new Cost(allSymbols + '{15}').cmc === 48);
+      assert(new Cost('{1500}').cmc === 1500);
     });
   });
 
   describe('# getCmcOnStack()', function () {
     it('Should understand cmc of costs', function () {
-      assert(new Cost("{2}{B}{B}").getCmcOnStack(1, 2, 3) === 4);
-      assert(new Cost("{X}").getCmcOnStack(1, 2, 3) === 1);
-      assert(new Cost("{X}{X}").getCmcOnStack(3, 2, 1) === 6);
-      assert(new Cost("{X}{Y}{Z}").getCmcOnStack(1, 2, 3) === 6);
-      assert(new Cost("{2}{W}{X}{X}").getCmcOnStack(2) === 7);
+      assert(new Cost('{2}{B}{B}').getCmcOnStack(1, 2, 3) === 4);
+      assert(new Cost('{X}').getCmcOnStack(1, 2, 3) === 1);
+      assert(new Cost('{X}{X}').getCmcOnStack(3, 2, 1) === 6);
+      assert(new Cost('{X}{Y}{Z}').getCmcOnStack(1, 2, 3) === 6);
+      assert(new Cost('{2}{W}{X}{X}').getCmcOnStack(2) === 7);
     });
   });
 });
 
-describe('Deck', function() {
+describe('Deck', function () {
   describe('# Deck.DeckLoader', function () {
     it('Should not be able to instantiate base class', function () {
       let loader = undefined;
@@ -135,43 +169,42 @@ describe('Deck', function() {
 
   describe('# Deck.FSLoader', function () {
     it('Should be able to instantiate with valid file', function () {
-      let loader = new Deck.FSLoader("decklists/monored.txt");
+      const loader = new Deck.FSLoader('decklists/monored.txt');
       assert(loader);
     });
 
     it('Should not be able to instantiate with invalid file', function () {
       let loader = null;
       try {
-        loader = new Deck.FSLoader("nonexistant.file");
+        loader = new Deck.FSLoader('nonexistant.file');
       } catch (e) {
-
+        // This is the expected outcome
       }
       assert(!loader);
     });
 
     it('Should get 60 + 15 cards in provided test deck', function () {
-      let loader = new Deck.FSLoader("decklists/kikichord.txt");
+      const loader = new Deck.FSLoader('decklists/kikichord.txt');
       assert(loader.mainDeck.length === 60);
       assert(loader.sideboard.length === 15);
     });
-
   });
 
   describe('# Deck.constructor()', function () {
-    it('Should not be able to instantiate without providing a loader', function () {
+    it('Should not be able to instantiate without providing a loader', () => {
       let deck = null;
       try {
         deck = new Deck.Deck();
       } catch (e) {
-
+        // This is the expected outcome
       }
       assert(!deck);
     });
   });
 
   describe('# Deck.HTTPLoader', function () {
-    it('Should be able to instantiate when provided with a loader', function (done) {
-      let deck = new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"));
+    it('Should be able to instantiate when provided with a loader', (done) => {
+      const deck = new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'));
       assert(deck);
       deck.ready().then(() => {
         assert(deck._mainDeck.length === 60);
@@ -183,8 +216,8 @@ describe('Deck', function() {
 
   describe('# Deck.HTTPLoader', function () {
     it('Should be able to load deck from URL', function (done) {
-      let deck = new Deck.Deck(
-        new Deck.HTTPLoader("https://deckbox.org/sets/1294166/export",
+      const deck = new Deck.Deck(
+        new Deck.HTTPLoader('https://deckbox.org/sets/1294166/export',
         Deck.DeckboxScraper));
       assert(deck);
       deck.ready().then(() => {
@@ -196,10 +229,10 @@ describe('Deck', function() {
   });
 });
 
-describe('Scryfall API', function() {
+describe('Scryfall API', function () {
   describe('# Scryfall.getCard', function () {
     it('Should be able to find card information', function (done) {
-      cardApi.getCard("Lightning Bolt").then((card) => {
+      cardApi.getCard('Lightning Bolt').then((card) => {
         assert(card);
         done();
       });
@@ -208,55 +241,58 @@ describe('Scryfall API', function() {
 });
 
 /**/
-describe('Game', function() {
+describe('Game', function () {
   this.timeout(10000);
 
   describe('# Continuous priority passing', function () {
-    it('Should make drawing player lose by drawing from empty library', function (done) {
-      let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
+    it('Should make drawing player lose by drawing from empty library',
+      (done) => {
+        const game = new Game.Game(2, 0, true,
+          [new Deck.Deck(new Deck.FSLoader('decklists/monored.txt')),
+          new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt'))], cardApi
+        );
 
-      game.ready().then(() => {
-        let p0 = game._players[0];
-        let p1 = game._players[1];
+        game.ready().then(() => {
+          const p1 = game._players[1];
 
-        try {
-          while (true) {
-            if (game.isWaitingForInput()) {
-              game.passOrFinishChoice();
-            } else {
-             game.tick();
+          try {
+            // eslint-disable-next-line no-constant-condition
+            while (true) {
+              if (game.isWaitingForInput()) {
+                game.passOrFinishChoice();
+              } else {
+                game.tick();
+              }
+            }
+          } catch (e) {
+            if (!(e instanceof Game.GameOver)) {
+              throw e;
             }
           }
-        } catch (e) {
-          if (!(e instanceof Game.GameOver)) {
-            throw e;
-          }
-        }
 
-        assert(p1.hasLost());
-        assert(p1._triedToDrawFromEmptyLibrary);
-        done();
-      });
-    });
+          assert(p1.hasLost());
+          assert(p1._triedToDrawFromEmptyLibrary);
+          done();
+        });
+      }
+    );
   });
 
   describe('# Dealing damage to one player', function () {
     it('Should make that player lose by damage', function (done) {
-      let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt"))], cardApi);
+      const game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt')),
+         new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt'))], cardApi);
 
       game.ready().then(() => {
-        let p0 = game._players[0];
-        let p1 = game._players[1];
+        const p0 = game._players[0];
 
         try {
+          // eslint-disable-next-line no-constant-condition
           while (true) {
             if (game.isWaitingForInput()) {
               game.passOrFinishChoice();
-              p0.damage(3, "debug", false);
+              p0.damage(3, 'debug', false);
             } else {
               game.tick();
             }
@@ -277,19 +313,19 @@ describe('Game', function() {
 
   describe('# Dealing infect damage to one player', function () {
     it('Should make that player lose by poison counters', function (done) {
-      let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
+      const game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt')),
+         new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'))], cardApi);
 
       game.ready().then(() => {
-        let p0 = game._players[0];
-        let p1 = game._players[1];
+        const p0 = game._players[0];
 
         try {
+          // eslint-disable-next-line no-constant-condition
           while (true) {
             if (game.isWaitingForInput()) {
               game.passOrFinishChoice();
-              p0.damage(3, "debug", true);
+              p0.damage(3, 'debug', true);
             } else {
               game.tick();
             }
@@ -309,22 +345,23 @@ describe('Game', function() {
     });
   });
 
-  describe('# Dealing lethal damage to both players simultaneously', function () {
+  describe('# Dealing lethal damage to both players simultaneously', () => {
     it('Should draw the game', function (done) {
-      let game = new Game.Game(2, 0, true,
-        [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-         new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
+      const game = new Game.Game(2, 0, true,
+        [new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt')),
+         new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'))], cardApi);
 
       game.ready().then(() => {
-        let p0 = game._players[0];
-        let p1 = game._players[1];
+        const p0 = game._players[0];
+        const p1 = game._players[1];
 
         try {
+          // eslint-disable-next-line no-constant-condition
           while (true) {
             if (game.isWaitingForInput()) {
               game.passOrFinishChoice();
-              p0.damage(3, "debug", false);
-              p1.damage(3, "debug", false);
+              p0.damage(3, 'debug', false);
+              p1.damage(3, 'debug', false);
             } else {
               game.tick();
             }
@@ -348,4 +385,3 @@ describe('Game', function() {
     });
   });
 });
-/**/
