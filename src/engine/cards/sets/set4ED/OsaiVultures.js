@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const OsaiVulturesBase = require("../setME4/OsaiVultures");
+'use strict';
+const Constants = require('../../../Constants');
+const OsaiVulturesBase = require('../setME4/OsaiVultures');
 
 class OsaiVultures extends OsaiVulturesBase {
   constructor (game) {
-    super(game, "Osai Vultures", "Fourth Edition", "4ED");
+    super(game, 'Osai Vultures', 'Fourth Edition', '4ED');
   }
 }
 

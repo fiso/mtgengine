@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const SwampBase = require("../setC18/Swamp");
+'use strict';
+const Constants = require('../../../Constants');
+const SwampBase = require('../setC18/Swamp');
 
 class Swamp extends SwampBase {
   constructor (game) {
-    super(game, "Swamp", "Unlimited Edition", "2ED");
+    super(game, 'Swamp', 'Unlimited Edition', '2ED');
   }
 }
 

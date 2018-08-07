@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const BalanceBase = require("../setEMA/Balance");
+'use strict';
+const Constants = require('../../../Constants');
+const BalanceBase = require('../setEMA/Balance');
 
 class Balance extends BalanceBase {
   constructor (game) {
-    super(game, "Balance", "Fourth Edition", "4ED");
+    super(game, 'Balance', 'Fourth Edition', '4ED');
   }
 }
 

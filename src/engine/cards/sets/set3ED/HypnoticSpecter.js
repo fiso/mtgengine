@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const HypnoticSpecterBase = require("../setM10/HypnoticSpecter");
+'use strict';
+const Constants = require('../../../Constants');
+const HypnoticSpecterBase = require('../setM10/HypnoticSpecter');
 
 class HypnoticSpecter extends HypnoticSpecterBase {
   constructor (game) {
-    super(game, "Hypnotic Specter", "Revised Edition", "3ED");
+    super(game, 'Hypnotic Specter', 'Revised Edition', '3ED');
   }
 }
 

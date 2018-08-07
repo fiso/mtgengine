@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const HavenwoodBattlegroundBase = require("../setCMA/HavenwoodBattleground");
+'use strict';
+const Constants = require('../../../Constants');
+const HavenwoodBattlegroundBase = require('../setCMA/HavenwoodBattleground');
 
 class HavenwoodBattleground extends HavenwoodBattlegroundBase {
   constructor (game) {
-    super(game, "Havenwood Battleground", "Fifth Edition", "5ED");
+    super(game, 'Havenwood Battleground', 'Fifth Edition', '5ED');
   }
 }
 

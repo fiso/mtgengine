@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const WeaknessBase = require("../setME4/Weakness");
+'use strict';
+const Constants = require('../../../Constants');
+const WeaknessBase = require('../setME4/Weakness');
 
 class Weakness extends WeaknessBase {
   constructor (game) {
-    super(game, "Weakness", "Revised Edition", "3ED");
+    super(game, 'Weakness', 'Revised Edition', '3ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const CopyArtifactBase = require("../setME4/CopyArtifact");
+'use strict';
+const Constants = require('../../../Constants');
+const CopyArtifactBase = require('../setME4/CopyArtifact');
 
 class CopyArtifact extends CopyArtifactBase {
   constructor (game) {
-    super(game, "Copy Artifact", "Unlimited Edition", "2ED");
+    super(game, 'Copy Artifact', 'Unlimited Edition', '2ED');
   }
 }
 

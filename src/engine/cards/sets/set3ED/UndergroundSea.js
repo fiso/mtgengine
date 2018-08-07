@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const UndergroundSeaBase = require("../setVMA/UndergroundSea");
+'use strict';
+const Constants = require('../../../Constants');
+const UndergroundSeaBase = require('../setVMA/UndergroundSea');
 
 class UndergroundSea extends UndergroundSeaBase {
   constructor (game) {
-    super(game, "Underground Sea", "Revised Edition", "3ED");
+    super(game, 'Underground Sea', 'Revised Edition', '3ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const CrawGiantBase = require("../setTSB/CrawGiant");
+'use strict';
+const Constants = require('../../../Constants');
+const CrawGiantBase = require('../setTSB/CrawGiant');
 
 class CrawGiant extends CrawGiantBase {
   constructor (game) {
-    super(game, "Craw Giant", "Fifth Edition", "5ED");
+    super(game, 'Craw Giant', 'Fifth Edition', '5ED');
   }
 }
 

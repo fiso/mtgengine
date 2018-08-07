@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const JadeMonolithBase = require("../setME4/JadeMonolith");
+'use strict';
+const Constants = require('../../../Constants');
+const JadeMonolithBase = require('../setME4/JadeMonolith');
 
 class JadeMonolith extends JadeMonolithBase {
   constructor (game) {
-    super(game, "Jade Monolith", "Revised Edition", "3ED");
+    super(game, 'Jade Monolith', 'Revised Edition', '3ED');
   }
 }
 

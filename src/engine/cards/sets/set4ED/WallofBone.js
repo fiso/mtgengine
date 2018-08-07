@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const WallofBoneBase = require("../setGVL/WallofBone");
+'use strict';
+const Constants = require('../../../Constants');
+const WallofBoneBase = require('../setGVL/WallofBone');
 
 class WallofBone extends WallofBoneBase {
   constructor (game) {
-    super(game, "Wall of Bone", "Fourth Edition", "4ED");
+    super(game, 'Wall of Bone', 'Fourth Edition', '4ED');
   }
 }
 

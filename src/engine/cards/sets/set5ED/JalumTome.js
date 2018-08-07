@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const JalumTomeBase = require("../setCM2/JalumTome");
+'use strict';
+const Constants = require('../../../Constants');
+const JalumTomeBase = require('../setCM2/JalumTome');
 
 class JalumTome extends JalumTomeBase {
   constructor (game) {
-    super(game, "Jalum Tome", "Fifth Edition", "5ED");
+    super(game, 'Jalum Tome', 'Fifth Edition', '5ED');
   }
 }
 

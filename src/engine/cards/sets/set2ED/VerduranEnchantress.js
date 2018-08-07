@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const VerduranEnchantressBase = require("../set9ED/VerduranEnchantress");
+'use strict';
+const Constants = require('../../../Constants');
+const VerduranEnchantressBase = require('../set9ED/VerduranEnchantress');
 
 class VerduranEnchantress extends VerduranEnchantressBase {
   constructor (game) {
-    super(game, "Verduran Enchantress", "Unlimited Edition", "2ED");
+    super(game, 'Verduran Enchantress', 'Unlimited Edition', '2ED');
   }
 }
 

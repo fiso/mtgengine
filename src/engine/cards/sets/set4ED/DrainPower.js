@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const DrainPowerBase = require("../setME4/DrainPower");
+'use strict';
+const Constants = require('../../../Constants');
+const DrainPowerBase = require('../setME4/DrainPower');
 
 class DrainPower extends DrainPowerBase {
   constructor (game) {
-    super(game, "Drain Power", "Fourth Edition", "4ED");
+    super(game, 'Drain Power', 'Fourth Edition', '4ED');
   }
 }
 

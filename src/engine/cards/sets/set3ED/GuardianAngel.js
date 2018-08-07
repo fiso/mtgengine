@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const GuardianAngelBase = require("../setSUM/GuardianAngel");
+'use strict';
+const Constants = require('../../../Constants');
+const GuardianAngelBase = require('../setSUM/GuardianAngel');
 
 class GuardianAngel extends GuardianAngelBase {
   constructor (game) {
-    super(game, "Guardian Angel", "Revised Edition", "3ED");
+    super(game, 'Guardian Angel', 'Revised Edition', '3ED');
   }
 }
 

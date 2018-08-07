@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const WanderlustBase = require("../setMED/Wanderlust");
+'use strict';
+const Constants = require('../../../Constants');
+const WanderlustBase = require('../setMED/Wanderlust');
 
 class Wanderlust extends WanderlustBase {
   constructor (game) {
-    super(game, "Wanderlust", "Fourth Edition", "4ED");
+    super(game, 'Wanderlust', 'Fourth Edition', '4ED');
   }
 }
 

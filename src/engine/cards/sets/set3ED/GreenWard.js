@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const GreenWardBase = require("../set4ED/GreenWard");
+'use strict';
+const Constants = require('../../../Constants');
+const GreenWardBase = require('../set4ED/GreenWard');
 
 class GreenWard extends GreenWardBase {
   constructor (game) {
-    super(game, "Green Ward", "Revised Edition", "3ED");
+    super(game, 'Green Ward', 'Revised Edition', '3ED');
   }
 }
 

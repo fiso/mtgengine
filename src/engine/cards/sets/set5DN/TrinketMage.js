@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const TrinketMageBase = require("../setDDU/TrinketMage");
+'use strict';
+const Constants = require('../../../Constants');
+const TrinketMageBase = require('../setDDU/TrinketMage');
 
 class TrinketMage extends TrinketMageBase {
   constructor (game) {
-    super(game, "Trinket Mage", "Fifth Dawn", "5DN");
+    super(game, 'Trinket Mage', 'Fifth Dawn', '5DN');
   }
 }
 

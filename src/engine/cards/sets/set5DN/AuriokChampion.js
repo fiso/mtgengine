@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const AuriokChampionBase = require("../setIMA/AuriokChampion");
+'use strict';
+const Constants = require('../../../Constants');
+const AuriokChampionBase = require('../setIMA/AuriokChampion');
 
 class AuriokChampion extends AuriokChampionBase {
   constructor (game) {
-    super(game, "Auriok Champion", "Fifth Dawn", "5DN");
+    super(game, 'Auriok Champion', 'Fifth Dawn', '5DN');
   }
 }
 

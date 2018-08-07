@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const CarnivorousPlantBase = require("../setMED/CarnivorousPlant");
+'use strict';
+const Constants = require('../../../Constants');
+const CarnivorousPlantBase = require('../setMED/CarnivorousPlant');
 
 class CarnivorousPlant extends CarnivorousPlantBase {
   constructor (game) {
-    super(game, "Carnivorous Plant", "Fourth Edition", "4ED");
+    super(game, 'Carnivorous Plant', 'Fourth Edition', '4ED');
   }
 }
 

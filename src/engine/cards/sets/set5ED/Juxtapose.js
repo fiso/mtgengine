@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const JuxtaposeBase = require("../setMED/Juxtapose");
+'use strict';
+const Constants = require('../../../Constants');
+const JuxtaposeBase = require('../setMED/Juxtapose');
 
 class Juxtapose extends JuxtaposeBase {
   constructor (game) {
-    super(game, "Juxtapose", "Fifth Edition", "5ED");
+    super(game, 'Juxtapose', 'Fifth Edition', '5ED');
   }
 }
 

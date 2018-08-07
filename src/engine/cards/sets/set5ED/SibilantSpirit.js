@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const SibilantSpiritBase = require("../setME2/SibilantSpirit");
+'use strict';
+const Constants = require('../../../Constants');
+const SibilantSpiritBase = require('../setME2/SibilantSpirit');
 
 class SibilantSpirit extends SibilantSpiritBase {
   constructor (game) {
-    super(game, "Sibilant Spirit", "Fifth Edition", "5ED");
+    super(game, 'Sibilant Spirit', 'Fifth Edition', '5ED');
   }
 }
 

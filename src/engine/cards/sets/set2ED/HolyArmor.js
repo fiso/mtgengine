@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const HolyArmorBase = require("../set4ED/HolyArmor");
+'use strict';
+const Constants = require('../../../Constants');
+const HolyArmorBase = require('../set4ED/HolyArmor');
 
 class HolyArmor extends HolyArmorBase {
   constructor (game) {
-    super(game, "Holy Armor", "Unlimited Edition", "2ED");
+    super(game, 'Holy Armor', 'Unlimited Edition', '2ED');
   }
 }
 

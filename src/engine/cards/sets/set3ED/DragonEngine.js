@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const DragonEngineBase = require("../setME4/DragonEngine");
+'use strict';
+const Constants = require('../../../Constants');
+const DragonEngineBase = require('../setME4/DragonEngine');
 
 class DragonEngine extends DragonEngineBase {
   constructor (game) {
-    super(game, "Dragon Engine", "Revised Edition", "3ED");
+    super(game, 'Dragon Engine', 'Revised Edition', '3ED');
   }
 }
 

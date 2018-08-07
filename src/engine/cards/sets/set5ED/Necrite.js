@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const NecriteBase = require("../setME2/Necrite");
+'use strict';
+const Constants = require('../../../Constants');
+const NecriteBase = require('../setME2/Necrite');
 
 class Necrite extends NecriteBase {
   constructor (game) {
-    super(game, "Necrite", "Fifth Edition", "5ED");
+    super(game, 'Necrite', 'Fifth Edition', '5ED');
   }
 }
 

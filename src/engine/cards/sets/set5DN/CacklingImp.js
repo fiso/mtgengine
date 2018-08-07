@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const CacklingImpBase = require("../setDVD/CacklingImp");
+'use strict';
+const Constants = require('../../../Constants');
+const CacklingImpBase = require('../setDVD/CacklingImp');
 
 class CacklingImp extends CacklingImpBase {
   constructor (game) {
-    super(game, "Cackling Imp", "Fifth Dawn", "5DN");
+    super(game, 'Cackling Imp', 'Fifth Dawn', '5DN');
   }
 }
 

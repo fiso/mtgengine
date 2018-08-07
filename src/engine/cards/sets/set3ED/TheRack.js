@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const TheRackBase = require("../setDPA/TheRack");
+'use strict';
+const Constants = require('../../../Constants');
+const TheRackBase = require('../setDPA/TheRack');
 
 class TheRack extends TheRackBase {
   constructor (game) {
-    super(game, "The Rack", "Revised Edition", "3ED");
+    super(game, 'The Rack', 'Revised Edition', '3ED');
   }
 }
 

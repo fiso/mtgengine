@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const DanceofManyBase = require("../setME3/DanceofMany");
+'use strict';
+const Constants = require('../../../Constants');
+const DanceofManyBase = require('../setME3/DanceofMany');
 
 class DanceofMany extends DanceofManyBase {
   constructor (game) {
-    super(game, "Dance of Many", "Fifth Edition", "5ED");
+    super(game, 'Dance of Many', 'Fifth Edition', '5ED');
   }
 }
 

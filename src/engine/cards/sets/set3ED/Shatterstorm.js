@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const ShatterstormBase = require("../setMP2/Shatterstorm");
+'use strict';
+const Constants = require('../../../Constants');
+const ShatterstormBase = require('../setMP2/Shatterstorm');
 
 class Shatterstorm extends ShatterstormBase {
   constructor (game) {
-    super(game, "Shatterstorm", "Revised Edition", "3ED");
+    super(game, 'Shatterstorm', 'Revised Edition', '3ED');
   }
 }
 

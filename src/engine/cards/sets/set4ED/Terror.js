@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const TerrorBase = require("../setME4/Terror");
+'use strict';
+const Constants = require('../../../Constants');
+const TerrorBase = require('../setME4/Terror');
 
 class Terror extends TerrorBase {
   constructor (game) {
-    super(game, "Terror", "Fourth Edition", "4ED");
+    super(game, 'Terror', 'Fourth Edition', '4ED');
   }
 }
 

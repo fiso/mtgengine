@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const VolcanicIslandBase = require("../setVMA/VolcanicIsland");
+'use strict';
+const Constants = require('../../../Constants');
+const VolcanicIslandBase = require('../setVMA/VolcanicIsland');
 
 class VolcanicIsland extends VolcanicIslandBase {
   constructor (game) {
-    super(game, "Volcanic Island", "Revised Edition", "3ED");
+    super(game, 'Volcanic Island', 'Revised Edition', '3ED');
   }
 }
 

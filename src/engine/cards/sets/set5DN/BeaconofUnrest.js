@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const BeaconofUnrestBase = require("../setC16/BeaconofUnrest");
+'use strict';
+const Constants = require('../../../Constants');
+const BeaconofUnrestBase = require('../setC16/BeaconofUnrest');
 
 class BeaconofUnrest extends BeaconofUnrestBase {
   constructor (game) {
-    super(game, "Beacon of Unrest", "Fifth Dawn", "5DN");
+    super(game, 'Beacon of Unrest', 'Fifth Dawn', '5DN');
   }
 }
 

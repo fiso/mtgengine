@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const WheelofFortuneBase = require("../setVMA/WheelofFortune");
+'use strict';
+const Constants = require('../../../Constants');
+const WheelofFortuneBase = require('../setVMA/WheelofFortune');
 
 class WheelofFortune extends WheelofFortuneBase {
   constructor (game) {
-    super(game, "Wheel of Fortune", "Unlimited Edition", "2ED");
+    super(game, 'Wheel of Fortune', 'Unlimited Edition', '2ED');
   }
 }
 

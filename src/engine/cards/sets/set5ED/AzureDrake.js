@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const AzureDrakeBase = require("../setM11/AzureDrake");
+'use strict';
+const Constants = require('../../../Constants');
+const AzureDrakeBase = require('../setM11/AzureDrake');
 
 class AzureDrake extends AzureDrakeBase {
   constructor (game) {
-    super(game, "Azure Drake", "Fifth Edition", "5ED");
+    super(game, 'Azure Drake', 'Fifth Edition', '5ED');
   }
 }
 

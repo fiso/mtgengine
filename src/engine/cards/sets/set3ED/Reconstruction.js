@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const ReconstructionBase = require("../setME4/Reconstruction");
+'use strict';
+const Constants = require('../../../Constants');
+const ReconstructionBase = require('../setME4/Reconstruction');
 
 class Reconstruction extends ReconstructionBase {
   constructor (game) {
-    super(game, "Reconstruction", "Revised Edition", "3ED");
+    super(game, 'Reconstruction', 'Revised Edition', '3ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const ZombieMasterBase = require("../setME4/ZombieMaster");
+'use strict';
+const Constants = require('../../../Constants');
+const ZombieMasterBase = require('../setME4/ZombieMaster');
 
 class ZombieMaster extends ZombieMasterBase {
   constructor (game) {
-    super(game, "Zombie Master", "Fourth Edition", "4ED");
+    super(game, 'Zombie Master', 'Fourth Edition', '4ED');
   }
 }
 

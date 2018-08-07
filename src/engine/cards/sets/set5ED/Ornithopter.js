@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const OrnithopterBase = require("../setAER/Ornithopter");
+'use strict';
+const Constants = require('../../../Constants');
+const OrnithopterBase = require('../setAER/Ornithopter');
 
 class Ornithopter extends OrnithopterBase {
   constructor (game) {
-    super(game, "Ornithopter", "Fifth Edition", "5ED");
+    super(game, 'Ornithopter', 'Fifth Edition', '5ED');
   }
 }
 

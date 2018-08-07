@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const ManaShortBase = require("../setWC02/ManaShort");
+'use strict';
+const Constants = require('../../../Constants');
+const ManaShortBase = require('../setWC02/ManaShort');
 
 class ManaShort extends ManaShortBase {
   constructor (game) {
-    super(game, "Mana Short", "Revised Edition", "3ED");
+    super(game, 'Mana Short', 'Revised Edition', '3ED');
   }
 }
 

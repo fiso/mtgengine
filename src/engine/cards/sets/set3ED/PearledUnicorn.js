@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const PearledUnicornBase = require("../set5ED/PearledUnicorn");
+'use strict';
+const Constants = require('../../../Constants');
+const PearledUnicornBase = require('../set5ED/PearledUnicorn');
 
 class PearledUnicorn extends PearledUnicornBase {
   constructor (game) {
-    super(game, "Pearled Unicorn", "Revised Edition", "3ED");
+    super(game, 'Pearled Unicorn', 'Revised Edition', '3ED');
   }
 }
 

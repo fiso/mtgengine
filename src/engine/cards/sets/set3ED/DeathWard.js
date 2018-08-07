@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const DeathWardBase = require("../setMED/DeathWard");
+'use strict';
+const Constants = require('../../../Constants');
+const DeathWardBase = require('../setMED/DeathWard');
 
 class DeathWard extends DeathWardBase {
   constructor (game) {
-    super(game, "Death Ward", "Revised Edition", "3ED");
+    super(game, 'Death Ward', 'Revised Edition', '3ED');
   }
 }
 

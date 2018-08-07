@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+'use strict';
+const Constants = require('../../../Constants');
+const UnimplementedCard = require('../../UnimplementedCard');
 
 class BlackManaBattery extends UnimplementedCard {
   constructor (game) {
-    super(game, "Black Mana Battery", "Fourth Edition", "4ED");
+    super(game, 'Black Mana Battery', 'Fourth Edition', '4ED');
   }
 }
 

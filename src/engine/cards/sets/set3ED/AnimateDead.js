@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const AnimateDeadBase = require("../setEMA/AnimateDead");
+'use strict';
+const Constants = require('../../../Constants');
+const AnimateDeadBase = require('../setEMA/AnimateDead');
 
 class AnimateDead extends AnimateDeadBase {
   constructor (game) {
-    super(game, "Animate Dead", "Revised Edition", "3ED");
+    super(game, 'Animate Dead', 'Revised Edition', '3ED');
   }
 }
 

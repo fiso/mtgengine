@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const UnimplementedCard = require("../../UnimplementedCard");
+'use strict';
+const Constants = require('../../../Constants');
+const UnimplementedCard = require('../../UnimplementedCard');
 
 class AdvancedHoverguard extends UnimplementedCard {
   constructor (game) {
-    super(game, "Advanced Hoverguard", "Fifth Dawn", "5DN");
+    super(game, 'Advanced Hoverguard', 'Fifth Dawn', '5DN');
   }
 }
 

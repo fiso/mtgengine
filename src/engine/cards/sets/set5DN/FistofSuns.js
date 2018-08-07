@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const FistofSunsBase = require("../setC17/FistofSuns");
+'use strict';
+const Constants = require('../../../Constants');
+const FistofSunsBase = require('../setC17/FistofSuns');
 
 class FistofSuns extends FistofSunsBase {
   constructor (game) {
-    super(game, "Fist of Suns", "Fifth Dawn", "5DN");
+    super(game, 'Fist of Suns', 'Fifth Dawn', '5DN');
   }
 }
 

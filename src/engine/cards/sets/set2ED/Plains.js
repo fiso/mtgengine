@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const PlainsBase = require("../setC18/Plains");
+'use strict';
+const Constants = require('../../../Constants');
+const PlainsBase = require('../setC18/Plains');
 
 class Plains extends PlainsBase {
   constructor (game) {
-    super(game, "Plains", "Unlimited Edition", "2ED");
+    super(game, 'Plains', 'Unlimited Edition', '2ED');
   }
 }
 

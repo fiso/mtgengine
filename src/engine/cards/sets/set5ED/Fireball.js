@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const FireballBase = require("../setIMA/Fireball");
+'use strict';
+const Constants = require('../../../Constants');
+const FireballBase = require('../setIMA/Fireball');
 
 class Fireball extends FireballBase {
   constructor (game) {
-    super(game, "Fireball", "Fifth Edition", "5ED");
+    super(game, 'Fireball', 'Fifth Edition', '5ED');
   }
 }
 

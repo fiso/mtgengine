@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const OrcishOriflammeBase = require("../setEMA/OrcishOriflamme");
+'use strict';
+const Constants = require('../../../Constants');
+const OrcishOriflammeBase = require('../setEMA/OrcishOriflamme');
 
 class OrcishOriflamme extends OrcishOriflammeBase {
   constructor (game) {
-    super(game, "Orcish Oriflamme", "Revised Edition", "3ED");
+    super(game, 'Orcish Oriflamme', 'Revised Edition', '3ED');
   }
 }
 

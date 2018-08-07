@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const PhantasmalTerrainBase = require("../setME4/PhantasmalTerrain");
+'use strict';
+const Constants = require('../../../Constants');
+const PhantasmalTerrainBase = require('../setME4/PhantasmalTerrain');
 
 class PhantasmalTerrain extends PhantasmalTerrainBase {
   constructor (game) {
-    super(game, "Phantasmal Terrain", "Revised Edition", "3ED");
+    super(game, 'Phantasmal Terrain', 'Revised Edition', '3ED');
   }
 }
 

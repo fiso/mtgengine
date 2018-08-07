@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const GrapeshotCatapultBase = require("../setME4/GrapeshotCatapult");
+'use strict';
+const Constants = require('../../../Constants');
+const GrapeshotCatapultBase = require('../setME4/GrapeshotCatapult');
 
 class GrapeshotCatapult extends GrapeshotCatapultBase {
   constructor (game) {
-    super(game, "Grapeshot Catapult", "Fifth Edition", "5ED");
+    super(game, 'Grapeshot Catapult', 'Fifth Edition', '5ED');
   }
 }
 

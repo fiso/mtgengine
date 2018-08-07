@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const WinterBlastBase = require("../setMED/WinterBlast");
+'use strict';
+const Constants = require('../../../Constants');
+const WinterBlastBase = require('../setMED/WinterBlast');
 
 class WinterBlast extends WinterBlastBase {
   constructor (game) {
-    super(game, "Winter Blast", "Fourth Edition", "4ED");
+    super(game, 'Winter Blast', 'Fourth Edition', '4ED');
   }
 }
 

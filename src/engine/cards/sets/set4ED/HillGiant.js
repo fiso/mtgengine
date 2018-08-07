@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const HillGiantBase = require("../setDPA/HillGiant");
+'use strict';
+const Constants = require('../../../Constants');
+const HillGiantBase = require('../setDPA/HillGiant');
 
 class HillGiant extends HillGiantBase {
   constructor (game) {
-    super(game, "Hill Giant", "Fourth Edition", "4ED");
+    super(game, 'Hill Giant', 'Fourth Edition', '4ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const CityofBrassBase = require("../setMD1/CityofBrass");
+'use strict';
+const Constants = require('../../../Constants');
+const CityofBrassBase = require('../setMD1/CityofBrass');
 
 class CityofBrass extends CityofBrassBase {
   constructor (game) {
-    super(game, "City of Brass", "Fifth Edition", "5ED");
+    super(game, 'City of Brass', 'Fifth Edition', '5ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const OrcishArtilleryBase = require("../set10E/OrcishArtillery");
+'use strict';
+const Constants = require('../../../Constants');
+const OrcishArtilleryBase = require('../set10E/OrcishArtillery');
 
 class OrcishArtillery extends OrcishArtilleryBase {
   constructor (game) {
-    super(game, "Orcish Artillery", "Fourth Edition", "4ED");
+    super(game, 'Orcish Artillery', 'Fourth Edition', '4ED');
   }
 }
 

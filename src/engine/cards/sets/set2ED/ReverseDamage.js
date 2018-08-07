@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const ReverseDamageBase = require("../set9ED/ReverseDamage");
+'use strict';
+const Constants = require('../../../Constants');
+const ReverseDamageBase = require('../set9ED/ReverseDamage');
 
 class ReverseDamage extends ReverseDamageBase {
   constructor (game) {
-    super(game, "Reverse Damage", "Unlimited Edition", "2ED");
+    super(game, 'Reverse Damage', 'Unlimited Edition', '2ED');
   }
 }
 

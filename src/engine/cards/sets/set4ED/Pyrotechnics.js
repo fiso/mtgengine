@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const PyrotechnicsBase = require("../setFRF/Pyrotechnics");
+'use strict';
+const Constants = require('../../../Constants');
+const PyrotechnicsBase = require('../setFRF/Pyrotechnics');
 
 class Pyrotechnics extends PyrotechnicsBase {
   constructor (game) {
-    super(game, "Pyrotechnics", "Fourth Edition", "4ED");
+    super(game, 'Pyrotechnics', 'Fourth Edition', '4ED');
   }
 }
 

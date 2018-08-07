@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const AnkhofMishraBase = require("../setVMA/AnkhofMishra");
+'use strict';
+const Constants = require('../../../Constants');
+const AnkhofMishraBase = require('../setVMA/AnkhofMishra');
 
 class AnkhofMishra extends AnkhofMishraBase {
   constructor (game) {
-    super(game, "Ankh of Mishra", "Revised Edition", "3ED");
+    super(game, 'Ankh of Mishra', 'Revised Edition', '3ED');
   }
 }
 

@@ -1,10 +1,10 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const DandanBase = require("../setTSB/Dandan");
+'use strict';
+const Constants = require('../../../Constants');
+const DandanBase = require('../setTSB/Dandan');
 
 class Dandan extends DandanBase {
   constructor (game) {
-    super(game, "Dandân", "Fifth Edition", "5ED");
+    super(game, 'Dandân', 'Fifth Edition', '5ED');
   }
 }
 
