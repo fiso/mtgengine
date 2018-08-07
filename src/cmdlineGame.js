@@ -6,8 +6,8 @@ const Deck = require("./engine/Deck");
 async function testGame () {
   try {
     let game = new Game.Game(2, 0, false,
-      [new Deck.Deck(new Deck.FSLoader("decklists/monored.txt")),
-       new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))]
+      [new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/monored.txt")),
+       new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/monored.txt"))]
       );
 
     await game.ready();

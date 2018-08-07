@@ -6,7 +6,7 @@ var buffer = require('gulp-buffer');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sets', function () {
-  return gulp.src('src/cards/sets/**/set.js', {read: false}) // no need to read file because browserify does it
+  return gulp.src('src/engine/cards/sets/**/set.js', {read: false}) // no need to read file because browserify does it
     // transform file objects using gulp-tap plugin
     .pipe(tap(function (file) {
       gutil.log('bundling ' + file.path);
@@ -18,5 +18,5 @@ gulp.task('sets', function () {
     .pipe(sourcemaps.init({loadMaps: true}))
     // .pipe(uglify())
     .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('frontend/js/bundles'));
+    .pipe(gulp.dest('src/simplefrontend/js/bundles'));
 });

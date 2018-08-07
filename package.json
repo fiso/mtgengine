@@ -5,7 +5,10 @@
   "author": "Filip Haglund",
   "license": "ISC",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "play": "node src/cmdlineGame.js",
+    "build-simplefrontend-cards": "gulp sets",
+    "build-simplefrontend": "browserify ./src/simplefrontend/index.js --outfile ./src/simplefrontend/js/bundle.js"
   },
   "repository": {
     "type": "git",

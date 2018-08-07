@@ -1,10 +1,8 @@
 "use strict";
 const Player = require("./Player");
 const Constants = require("./Constants");
-const GameActions = require("./GameActions");
 const Inputs = require("./Inputs");
 const Outputs = require("./Outputs");
-const _ = require("underscore");
 const Battlefield = require("./zones/Battlefield");
 const Stack = require("./zones/Stack");
 const Scryfall = require("./apis/Scryfall");

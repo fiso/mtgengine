@@ -1,23 +1,20 @@
 "use strict";
 const assert = require('assert');
-const Constants = require("../src/Constants");
-const Inputs = require("../src/Inputs");
-const Permanent = require("../src/objects/Permanent");
-const BasicMountain = require("../src/cards/sets/setATH/Mountain");
-const UnimplementedCard = require("../src/cards/UnimplementedCard");
-const Game = require("../src/Game");
-const Cost = require("../src/Cost");
-const Deck = require("../src/Deck");
-const Scryfall = require("../src/apis/Scryfall");
-
-// istanbul cover node_modules/mocha/bin/_mocha -- -R spec
+const Constants = require("../src/engine/Constants");
+const Permanent = require("../src/engine/objects/Permanent");
+const BasicMountain = require("../src/engine/cards/sets/setATH/Mountain");
+const UnimplementedCard = require("../src/engine/cards/UnimplementedCard");
+const Game = require("../src/engine/Game");
+const Cost = require("../src/engine/Cost");
+const Deck = require("../src/engine/Deck");
+const Scryfall = require("../src/engine/apis/Scryfall");
 
 let cardApi = new Scryfall();
 
 describe('Card', function() {
   let game = new Game.Game(2, 0, true,
-    [new Deck.Deck(new Deck.FSLoader("decklists/kikichord.txt")),
-     new Deck.Deck(new Deck.FSLoader("decklists/monored.txt"))], cardApi);
+    [new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/kikichord.txt")),
+     new Deck.Deck(new Deck.FSLoader(__dirname + "/../decklists/monored.txt"))], cardApi);
 
   describe('# isBasicLand()', function () {
     it('Should identify basic land cards', function (done) {
