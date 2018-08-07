@@ -3,6 +3,7 @@ const assert = require('assert');
 const Constants = require("../src/engine/Constants");
 const Permanent = require("../src/engine/objects/Permanent");
 const BasicMountain = require("../src/engine/cards/sets/setATH/Mountain");
+const NessianCourser = require("../src/engine/cards/sets/setTHS/NessianCourser");
 const UnimplementedCard = require("../src/engine/cards/UnimplementedCard");
 const Game = require("../src/engine/Game");
 const Cost = require("../src/engine/Cost");
@@ -40,6 +41,18 @@ describe('Card', function() {
         assert(!card1.sharesAnyTypesWith(card3));
         assert(card3.sharesAnyTypesWith(card4));
         assert(!card4.sharesAnyTypesWith(card1));
+        done();
+      });
+    });
+  });
+
+  describe('# Types', function () {
+    it('Should get card types from the API', function (done) {
+      let card = new NessianCourser(game);
+      card.ready().then(() => {
+        assert(card.hasType(Constants.cardTypes.CREATURE));
+        assert(card.hasType("CENTAUR"));
+        assert(card.hasType("WARRIOR"));
         done();
       });
     });

@@ -1,5 +1,4 @@
 "use strict";
-const Constants = require ("../../../Constants");
 const Card = require("../../../objects/Card");
 
 class LightningBolt extends Card {

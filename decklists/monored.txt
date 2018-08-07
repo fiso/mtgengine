@@ -1,5 +1,6 @@
 20 Mountain
-40 Lightning Bolt
+4 Goblin Bully
+36 Lightning Bolt
 Sideboard:
 
-15 Goblin Bully
+15 Island
