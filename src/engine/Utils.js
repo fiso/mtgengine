@@ -11,6 +11,11 @@ function getCostTypeFromToken (token) {
     return Constants.costs.GENERIC;
   }
 
+  if (!Constants.costTokens[token]) {
+    console.error('===============');
+    console.error(token);
+    console.trace();
+  }
   assert(Constants.costTokens[token]);
   return Constants.costTokens[token];
 }
@@ -18,7 +23,9 @@ function getCostTypeFromToken (token) {
 function shuffle (array) {
   // https://github.com/coolaj86/knuth-shuffle
 
-  let currentIndex = array.length; var temporaryValue; var randomIndex;
+  let currentIndex = array.length;
+  let temporaryValue;
+  let randomIndex;
 
   while (0 !== currentIndex) {
     randomIndex = Math.floor(Math.random() * currentIndex);

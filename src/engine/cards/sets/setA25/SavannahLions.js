@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class SavannahLions extends Card {
   constructor (game) {
     super(game, 'Savannah Lions', 'Masters 25', 'A25');
-    this.cost = '{W}';
   }
 
   resolve (controller) {

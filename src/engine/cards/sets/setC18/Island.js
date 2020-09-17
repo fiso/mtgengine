@@ -1,16 +1,18 @@
-"use strict";
-const Constants = require ("../../../Constants");
-const Card = require("../../../objects/Card");
+'use strict';
+const Card = require('../../../objects/Card');
+const Constants = require('../../../Constants');
 
 class Island extends Card {
   constructor (game) {
-    super(game, "Island", "Commander 2018", "C18");
+    super(game, 'Island', 'Commander 2018', 'C18');
 
-    this.addAbility(
-      [],
-      (controller, modes, targets, parameters) => {
-        controller.addToManaPool(Constants.manaTypes.BLUE, 1);
-      }, true);
+    this.ready().then(() => {
+      this.addAbility(
+        [Constants.costs.TAP],
+        (controller) => {
+          controller.addToManaPool(Constants.manaTypes.BLUE, 1);
+        }, true);
+    });
   }
 }
 

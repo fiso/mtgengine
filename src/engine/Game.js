@@ -118,29 +118,23 @@ class Game {
     this._priorityPassers = [];
   }
 
-  requireChoice (player) {
+  requireChoice (player, choices) {
     assert(!this._waitingForChoice);
     this.log('---- Pausing for choice ----');
     this._waitingForChoice = true;
     this._playerMakingChoice = player;
+    this._possibleChoices = choices;
+    return new Promise((resolve) => {
+      this._resolveChoiceCallback = resolve;
+    });
   }
 
-  finishChoice (player) {
+  finishChoice (choice) {
     assert(this._waitingForChoice);
     this.log('---- Finishing choice ----');
     this._waitingForChoice = false;
     this._playerMakingChoice = null;
-
-    switch (this._currentStep) {
-      case Constants.steps.DECLARE_ATTACKERS:
-        this.finishDeclareAttackers();
-        break;
-      case Constants.steps.DECLARE_BLOCKERS:
-        this.finishDeclareBlockers();
-        break;
-      default:
-        break;
-    }
+    this._resolveChoiceCallback(choice);
   }
 
   finishDeclareAttackers () {
@@ -195,6 +189,7 @@ class Game {
   passOrFinishChoice () {
     const player = this._hasPriority;
     if (this._waitingForChoice) {
+      debugger; // This must be removed
       player.addInput(Inputs.FINISH_CHOICE, {});
     } else {
       player.addInput(Inputs.PASS_PRIORITY, {});
@@ -388,7 +383,13 @@ class Game {
         this.passPriority(player);
         break;
       case Inputs.FINISH_CHOICE:
-        this.finishChoice(player);
+        this.finishChoice(data);
+        break;
+      case Inputs.DECLARE_ATTACKERS:
+        this.finishDeclareAttackers();
+        break;
+      case Inputs.DECLARE_BLOCKERS:
+        this.finishDeclareBlockers();
         break;
       case Inputs.CONCEDE:
         player.concede();

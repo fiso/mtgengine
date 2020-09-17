@@ -21,7 +21,7 @@ class Cost {
       const end = costString.indexOf('}', start);
       assert(end !== -1);
 
-      const token = costString.substring(start, end).replace('/', '');
+      const token = costString.substring(start, end);
 
       let amount = 1;
       const type = Utils.getCostTypeFromToken(token);
@@ -47,6 +47,8 @@ class Cost {
         Constants.costs.Z,
         Constants.costs.TAP,
         Constants.costs.UNTAP,
+        Constants.costs.SACRIFICE,
+        Constants.costs.SPECIAL_COST,
         ].indexOf(type) === -1) {
         let multiplier = 1;
 

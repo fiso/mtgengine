@@ -21,13 +21,19 @@ class Card extends MTGObject {
     this._cost = undefined;
 
     this._promise = new Promise((resolve, reject) => {
-      this._game._cardApi.getCard(cardName, setName, setCode).then((card) => {
+      this._game._cardApi.getCard(cardName).then((card) => {
         assert(card.name === cardName);
         this._imageUrl = card.image_uris.normal;
         this._mapTypes(card);
+        this._parseCost(card);
+
         resolve(this);
       });
     });
+  }
+
+  _parseCost (card) {
+    this.cost = card.mana_cost;
   }
 
   _mapTypes (card) {
@@ -106,7 +112,8 @@ class Card extends MTGObject {
   }
 
   set cost (costString) {
-    this._cost = new Cost(costString);
+    this._costString = costString;
+    this._cost = new Cost(this._costString);
   }
 
   placeInZone (zone) {

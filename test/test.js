@@ -130,13 +130,13 @@ describe('Cost', function () {
       assert(new Cost('{4}').cmc === 4);
       assert(new Cost('{X}').cmc === 0);
       assert(new Cost('{X}{X}').cmc === 0);
-      assert(new Cost('{UB}{UB}').cmc === 2);
-      assert(new Cost('{W2}{W2}{W2}').cmc === 6);
+      assert(new Cost('{U/B}{U/B}').cmc === 2);
+      assert(new Cost('{2/W}{2/W}{2/W}').cmc === 6);
       assert(new Cost('{2}{C}').cmc === 3);
       assert(new Cost('{C}{C}').cmc === 2);
       assert(new Cost('{C}{C}').cmc === new Cost('{C}{C}{T}{Q}').cmc);
       // eslint-disable-next-line max-len
-      const allSymbols = '{C}{W}{U}{B}{R}{G}{W2}{U2}{B2}{R2}{G2}{P}{WP}{UP}{BP}{RP}{GP}{X}{Y}{Z}{S}{BG}{BR}{GU}{GW}{RG}{RW}{UB}{UR}{WB}{WU}';
+      const allSymbols = '{C}{W}{U}{B}{R}{G}{2/W}{2/U}{2/B}{2/R}{2/G}{P}{W/P}{U/P}{B/P}{R/P}{G/P}{X}{Y}{Z}{S}{B/G}{B/R}{G/U}{G/W}{R/G}{R/W}{U/B}{U/R}{W/B}{W/U}';
       assert(new Cost(allSymbols).cmc === 33);
       assert(new Cost(allSymbols + '{15}').cmc === 48);
       assert(new Cost('{1500}').cmc === 1500);
@@ -191,27 +191,31 @@ describe('Deck', function () {
   });
 
   describe('# Deck.constructor()', function () {
-    it('Should not be able to instantiate without providing a loader', () => {
-      let deck = null;
-      try {
-        deck = new Deck.Deck();
-      } catch (e) {
-        // This is the expected outcome
+    it('Should not be able to instantiate without providing a loader',
+      function () {
+        let deck = null;
+        try {
+          deck = new Deck.Deck();
+        } catch (e) {
+          // This is the expected outcome
+        }
+        assert(!deck);
       }
-      assert(!deck);
-    });
+    );
   });
 
   describe('# Deck.HTTPLoader', function () {
-    it('Should be able to instantiate when provided with a loader', (done) => {
-      const deck = new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'));
-      assert(deck);
-      deck.ready().then(() => {
-        assert(deck._mainDeck.length === 60);
-        assert(deck._sideboard.length === 15);
-        done();
-      });
-    });
+    it('Should be able to instantiate when provided with a loader',
+      function (done) {
+        const deck = new Deck.Deck(new Deck.FSLoader('decklists/monored.txt'));
+        assert(deck);
+        deck.ready().then(() => {
+          assert(deck._mainDeck.length === 60);
+          assert(deck._sideboard.length === 15);
+          done();
+        });
+      }
+    );
   });
 
   describe('# Deck.HTTPLoader', function () {
@@ -242,11 +246,9 @@ describe('Scryfall API', function () {
 
 /**/
 describe('Game', function () {
-  this.timeout(10000);
-
   describe('# Continuous priority passing', function () {
     it('Should make drawing player lose by drawing from empty library',
-      (done) => {
+      function (done) {
         const game = new Game.Game(2, 0, true,
           [new Deck.Deck(new Deck.FSLoader('decklists/monored.txt')),
           new Deck.Deck(new Deck.FSLoader('decklists/kikichord.txt'))], cardApi

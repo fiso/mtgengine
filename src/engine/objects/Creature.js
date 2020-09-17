@@ -37,11 +37,11 @@ class Creature extends Permanent {
   }
 
   hasLethalDamage () {
-    return this._damage >= this.getToughness();
+    return this._damage >= this.toughness;
   }
 
   hasNonPositiveToughness () {
-    return this.getToughness() <= 0;
+    return this.toughness <= 0;
   }
 
   resetBlockers () {

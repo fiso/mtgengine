@@ -1,8 +1,8 @@
-const Game = require("../engine/Game");
-const Constants = require("../engine/Constants");
-const Inputs = require("../engine/Inputs");
-const Outputs = require("../engine/Outputs");
-const Deck = require("../engine/Deck");
+const Game = require('../engine/Game');
+const Constants = require('../engine/Constants');
+const Inputs = require('../engine/Inputs');
+const Outputs = require('../engine/Outputs');
+const Deck = require('../engine/Deck');
 
 const kikiChordList =
 `1 Fire-Lit Thicket
@@ -61,42 +61,50 @@ Sideboard:
 15 Goblin Bully`;
 
 function handleNewTime (data) {
-  document.getElementById("turn-number").innerHTML = data.turnNumber;
-  document.getElementById("active-player-name").innerHTML = data.activePlayer._guid.replace("_", " ");
-  var turnIndicator = document.getElementById("turn-indicator");
-  turnIndicator.className = "";
-  turnIndicator.classList.add("active-phase-" + data.stepName.replace("_", "-").toLowerCase());
+  document.getElementById('turn-number').innerHTML = data.turnNumber;
+  document.getElementById('active-player-name').innerHTML =
+    data.activePlayer._guid.replace('_', ' ');
+  const turnIndicator = document.getElementById('turn-indicator');
+  turnIndicator.className = '';
+  turnIndicator.classList.add('active-phase-' +
+    data.stepName.replace('_', '-').toLowerCase());
 }
 
 function handlePriorityChanged (data) {
-  var priorityIndicator = document.getElementById("game-container");
-  priorityIndicator.className = "";
-  priorityIndicator.classList.add("has-priority-" + data.player._guid.replace("_", "").toLowerCase());
+  const priorityIndicator = document.getElementById('game-container');
+  priorityIndicator.className = '';
+  priorityIndicator.classList.add('has-priority-' +
+    data.player._guid.replace('_', '').toLowerCase());
 }
 
 function handleObjectEnteredZone (data) {
-  var obj = data.object;
+  const obj = data.object;
   switch (obj._zone._id) {
-    case Constants.zoneIdentifiers.HAND:
-      var image = new Image();
+    case Constants.zoneIdentifiers.HAND: {
+      const image = new Image();
       image.id = obj._guid;
-      image.classList.add("card");
+      image.classList.add('card');
       image.src = obj._imageUrl;
-      document.getElementById(obj._zone._owner._guid.replace("_", "") + "-zone-hand").appendChild(image);
+      document.getElementById(obj._zone._owner._guid.replace('_', '') +
+        '-zone-hand').appendChild(image);
       break;
-    case Constants.zoneIdentifiers.GRAVEYARD:
-      var card = document.getElementById(obj._guid);
-      document.getElementById(obj._zone._owner._guid.replace("_", "") + "-zone-graveyard").appendChild(card);
+    }
+    case Constants.zoneIdentifiers.GRAVEYARD: {
+      const card = document.getElementById(obj._guid);
+      document.getElementById(obj._zone._owner._guid.replace('_', '') +
+        '-zone-graveyard').appendChild(card);
       break;
+    }
     default:
-      console.log("Object entered zone " + obj._zone._id + " and we can't handle that");
+      console.log('Object entered zone ' + obj._zone._id +
+        " and we can't handle that");
       break;
   }
 }
 
 function handleGameOver (winner) {
   if (!winner) {
-    alert("The game is a draw");
+    alert('The game is a draw');
   } else {
     alert(`${winner._guid} has won the game`);
   }
@@ -108,7 +116,7 @@ function processInputs () {
     game.tick();
   } catch (e) {
     if (e instanceof Game.GameOver) {
-      console.log("Game over.");
+      console.log('Game over.');
       handleGameOver(e.winner);
       return;
     } else {
@@ -119,11 +127,11 @@ function processInputs () {
   processOutputs();
 }
 
-function processOutputs() {
-  var outputs = game.getOutputs();
+function processOutputs () {
+  const outputs = game.getOutputs();
 
   if (outputs.length > 0) {
-    var output;
+    let output;
 
     while (output = outputs.shift()) {
       switch (output.output) {
@@ -137,24 +145,24 @@ function processOutputs() {
           handleObjectEnteredZone(output.data);
           break;
         default:
-          console.log("Unhandled output: " + output.output);
+          console.log('Unhandled output: ' + output.output);
       }
     }
   }
 }
 
 window.startGame = async function () {
-  let game = new Game.Game(2, 0, false,
+  const game = new Game.Game(2, 0, false,
       [new Deck.Deck(new Deck.StringLoader(kikiChordList)),
        new Deck.Deck(new Deck.StringLoader(monoredList))]);
 
   window.game = game;
 
-  document.addEventListener("contextmenu", function (event) {
+  document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
     return false;
   });
-  document.getElementById("player0-pass").addEventListener("click", function () {
+  document.getElementById('player0-pass').addEventListener('click', () => {
     let input = Inputs.PASS_PRIORITY;
     if (game._waitingForChoice) {
       input = Inputs.FINISH_CHOICE;
@@ -162,7 +170,7 @@ window.startGame = async function () {
     game._players[0].addInput(input, {});
     processInputs();
   });
-  document.getElementById("player1-pass").addEventListener("click", function () {
+  document.getElementById('player1-pass').addEventListener('click', () => {
     let input = Inputs.PASS_PRIORITY;
     if (game._waitingForChoice) {
       input = Inputs.FINISH_CHOICE;
@@ -170,24 +178,26 @@ window.startGame = async function () {
     game._players[1].addInput(input, {});
     processInputs();
   });
-  document.getElementById("player0-concede").addEventListener("click", function () {
+  document.getElementById('player0-concede').addEventListener('click', () => {
     game._players[0].addInput(Inputs.CONCEDE, {});
     processInputs();
   });
-  document.getElementById("player1-concede").addEventListener("click", function () {
+  document.getElementById('player1-concede').addEventListener('click', () => {
     game._players[1].addInput(Inputs.CONCEDE, {});
     processInputs();
   });
-  document.addEventListener("keydown", function (event) {
+  document.addEventListener('keydown', function (event) {
     event = event || window.event;
     switch (event.keyCode) {
       case 32: // SPACE
         window.game.passOrFinishChoice();
         processInputs();
         break;
+      default:
+        break;
     }
   });
 
   await game.ready();
   processOutputs();
-}
+};

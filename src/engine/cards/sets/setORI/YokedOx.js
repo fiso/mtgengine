@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class YokedOx extends Card {
   constructor (game) {
     super(game, 'Yoked Ox', 'Magic Origins', 'ORI');
-    this.cost = '{W}';
   }
 
   resolve (controller) {

@@ -8,7 +8,7 @@ class Scryfall extends CardFetcher {
     this._pendingRequests = {};
   }
 
-  getCard (cardName, setName, setCode, forceFetch) {
+  getCard (cardName, setCode, forceFetch) {
     const keyName = this.getKeyName('getCard', cardName);
 
     if (this._pendingRequests[keyName]) {
@@ -16,7 +16,7 @@ class Scryfall extends CardFetcher {
     }
 
     this._pendingRequests[keyName] = new Promise((resolve) => {
-      super.getCard(cardName, setName, setCode, forceFetch).then((result) => {
+      super.getCard(cardName, setCode, forceFetch).then((result) => {
         delete this._pendingRequests[keyName];
         resolve(result);
       }, (result) => {

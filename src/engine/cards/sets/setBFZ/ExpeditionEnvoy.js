@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class ExpeditionEnvoy extends Card {
   constructor (game) {
     super(game, 'Expedition Envoy', 'Battle for Zendikar', 'BFZ');
-    this.cost = '{W}';
   }
 
   resolve (controller) {

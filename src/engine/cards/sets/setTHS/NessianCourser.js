@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class NessianCourser extends Card {
   constructor (game) {
     super(game, 'Nessian Courser', 'Theros', 'THS');
-    this.cost = '{2}{G}';
   }
 
   resolve (controller) {

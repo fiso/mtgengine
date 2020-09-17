@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class Tarmogoyf extends Card {
   constructor (game) {
     super(game, 'Tarmogoyf', 'Modern Masters 2017', 'MM3');
-    this.cost = '{1}{G}';
   }
 
   getPower () {

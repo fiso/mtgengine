@@ -1,13 +1,13 @@
-"use strict";
-const UnimplementedCard = require("../../UnimplementedCard");
+'use strict';
+const assert = require('assert');
+const Card = require('../../UnimplementedCard');
 
-class Shock extends UnimplementedCard {
+class Shock extends Card {
   constructor (game) {
-    super(game, "Shock", "Core Set 2019", "M19");
-    this.cost = "{R}";
+    super(game, 'Shock', 'Core Set 2019', 'M19');
   }
 
-  resolve (controller, targets) {
+  resolve (_, targets) {
     assert(targets.length === 1);
     targets[0].damage(2, this._guid, false);
   }

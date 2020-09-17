@@ -1,13 +1,13 @@
-"use strict";
-const Card = require("../../object/Card");
+'use strict';
+const assert = require('assert');
+const Card = require('../../object/Card');
 
 class LightningStrike extends Card {
   constructor (game) {
-    super(game, "Lightning Strike", "Core Set 2019", "M19");
-    this.cost = "{1R}";
+    super(game, 'Lightning Strike', 'Core Set 2019', 'M19');
   }
 
-  resolve (controller, targets) {
+  resolve (_, targets) {
     assert(targets.length === 1);
     targets[0].damage(3, this._guid, false);
   }

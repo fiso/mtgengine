@@ -9,12 +9,12 @@ class CardFetcher extends CachableApi {
     }
   }
 
-  getKeyName (operation, cardName, setName, setCode) {
-    return `${operation}${cardName}${setName}${setCode}`;
+  getKeyName (operation, cardName, setCode) {
+    return `${operation}${cardName}${setCode}`;
   }
 
-  getCard (cardName, setName, setCode, forceFetch) {
-    const keyName = this.getKeyName('getCard', cardName, setName, setCode);
+  getCard (cardName, setCode, forceFetch) {
+    const keyName = this.getKeyName('getCard', cardName, setCode);
     return new Promise((resolve, reject) => {
       if (!forceFetch && this.getObject(keyName)) {
         resolve(this.getObject(keyName));

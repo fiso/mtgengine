@@ -5,7 +5,6 @@ const Creature = require('../../../objects/Creature');
 class FusionElemental extends Card {
   constructor (game) {
     super(game, 'Fusion Elemental', 'Planechase Anthology', 'PCA');
-    this.cost = '{W}{U}{B}{R}{G}';
   }
 
   resolve (controller) {
