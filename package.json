@@ -25,7 +25,7 @@
     "eslint": "^5.3.0",
     "eslint-config-google": "^0.9.1",
     "glob": "^7.1.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-buffer": "0.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-tap": "^1.0.1",
